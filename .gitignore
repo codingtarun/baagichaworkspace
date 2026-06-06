@@ -1,0 +1,3 @@
+# Exclude sub-projects that have their own repositories
+baagichaApp/
+web_baagicha/

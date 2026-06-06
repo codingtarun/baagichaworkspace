@@ -1,0 +1,70 @@
+# Baagicha Workspace — Agent Context
+
+## Architecture Ground Rules
+
+1. **All APIs live in Laravel.** The `web_baagicha/` project is the sole backend. Every endpoint consumed by the mobile app must be built, versioned, and maintained inside the Laravel codebase.
+2. **React Native is the frontend.** The `baagichaApp/` project is a pure React Native (CLI) client. It does not contain any backend logic, database migrations, or API route definitions — only UI, state management, and API consumption.
+3. **Laravel serves both Web PWA and Mobile API.** The same Laravel application powers the Blade-based web views and exposes JSON endpoints for the React Native app under a dedicated mobile API namespace (e.g., `/api/v1/...`).
+
+## Project Structure
+
+This workspace contains two projects:
+
+| Directory | Stack | Role |
+|-----------|-------|------|
+| `web_baagicha/` | Laravel + Blade | Backend API + Web PWA |
+| `baagichaApp/` | React Native (CLI) | Mobile frontend (iOS & Android) |
+
+## `.kimi/` Memory Organization
+
+```
+.kimi/
+├── AGENTS.md          ← This file
+├── ECOMMERCE_PLAN.md  ← Shop, cart, checkout, payments roadmap
+├── Laravel/
+│   └── API_ARCHITECTURE.md  ← API org, auth, response format
+│   └── PREDICTION_ENGINE.md ← Disease/pest prediction backend
+└── React/
+    ├── DESIGN_SPEC.md       ← Colors, typography, shadows, spacing
+    ├── DATA_MODELS.md       ← TypeScript interfaces for all entities
+    ├── SCREEN_BREAKDOWN.md  ← Complete screen list + navigation
+    ├── API_REFERENCE.md     ← API endpoints, auth, toast types
+    ├── PREDICTION_TYPES.md  ← Prediction engine frontend types + screens
+    └── KISAN_TOOLS.md       ← 26 utility widget calculators
+```
+
+### React/ Folder (Mobile App)
+Memory files extracted from the Laravel web frontend + new research:
+
+| File | Purpose |
+|------|---------|
+| `DESIGN_SPEC.md` | Colors, typography, shadows, spacing, animations |
+| `DATA_MODELS.md` | TypeScript interfaces for all entities |
+| `SCREEN_BREAKDOWN.md` | Complete screen list with components & navigation |
+| `API_REFERENCE.md` | API endpoints, auth, toast types |
+| `PREDICTION_TYPES.md` | Disease/pest prediction types, stores, screen specs |
+| `KISAN_TOOLS.md` | 26 farming calculator widgets catalog |
+
+### Laravel/ Folder (Backend/Web)
+| File | Purpose |
+|------|---------|
+| `API_ARCHITECTURE.md` | API organization, auth guards, response format |
+| `PREDICTION_ENGINE.md` | Disease/pest prediction engine — models, services, APIs |
+
+## Active Modules
+
+| Module | Status | Docs |
+|--------|--------|------|
+| Auth (Sanctum + MMKV) | ✅ Implemented | `API_REFERENCE.md` |
+| Onboarding (Welcome → Auth → Permissions) | ✅ Implemented | `SCREEN_BREAKDOWN.md` |
+| Home (Segmented: My Farm / Community) | ✅ Implemented | `SCREEN_BREAKDOWN.md` |
+| Kisan Tools (26 widgets) | ✅ UI Implemented | `KISAN_TOOLS.md` |
+| Prediction Engine | 🔄 Backend complete, RN pending | `PREDICTION_ENGINE.md`, `PREDICTION_TYPES.md` |
+| eCommerce (Shop) | 🔄 Phase 1 | `ECOMMERCE_PLAN.md` |
+
+## Quick Reference
+
+- **Web app source:** `web_baagicha/resources/views/app/`
+- **Mobile app source:** `baagichaApp/src/`
+- **Target regions:** HP, UK, J&K (Himalayan apple belt)
+- **Research folder:** `BaagichaWorkspace/research/` (competitors, market, revenue, prediction engine, utility widgets)
