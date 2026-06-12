@@ -1,0 +1,4 @@
+[      71ms] [ERROR] Access to script at 'http://127.0.0.1:5173/@vite/client' from origin 'http://192.168.1.100:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://192.168.1.100:8000/:0
+[      71ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:5173/@vite/client:0
+[      79ms] [ERROR] Access to script at 'http://127.0.0.1:5173/resources/js/app.js' from origin 'http://192.168.1.100:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://192.168.1.100:8000/:0
+[      80ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:5173/resources/js/app.js:0

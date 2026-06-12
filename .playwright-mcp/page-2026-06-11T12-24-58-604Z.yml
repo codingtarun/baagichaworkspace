@@ -1,0 +1,866 @@
+- generic [active] [ref=e1]:
+  - complementary [ref=e2]:
+    - link " Baagicha · Admin" [ref=e3] [cursor=pointer]:
+      - /url: http://192.168.1.100:8000/admin/dashboard
+      - generic [ref=e4]: 
+      - generic [ref=e5]: Baagicha · Admin
+    - navigation [ref=e6]:
+      - generic [ref=e7]: Main
+      - link " Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/dashboard
+        - generic [ref=e9]: 
+        - text: Dashboard
+      - link " Users" [ref=e10] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/users
+        - generic [ref=e11]: 
+        - text: Users
+      - generic [ref=e12]: Content
+      - link " Disease Library" [ref=e13] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/diseases
+        - generic [ref=e14]: 
+        - text: Disease Library
+      - link " Apple Varieties" [ref=e15] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/varieties
+        - generic [ref=e16]: 
+        - text: Apple Varieties
+      - link " Rootstocks" [ref=e17] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/rootstocks
+        - generic [ref=e18]: 
+        - text: Rootstocks
+      - link " Chemicals" [ref=e19] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/chemicals
+        - generic [ref=e20]: 
+        - text: Chemicals
+      - link " Spray Schedule" [ref=e21] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/spray
+        - generic [ref=e22]: 
+        - text: Spray Schedule
+      - link " Blog Posts" [ref=e23] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/blog/posts
+        - generic [ref=e24]: 
+        - text: Blog Posts
+      - link " Blog Categories" [ref=e25] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/blog-categories
+        - generic [ref=e26]: 
+        - text: Blog Categories
+      - link " Blog Tags" [ref=e27] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/blog-tags
+        - generic [ref=e28]: 
+        - text: Blog Tags
+      - link " Comments" [ref=e29] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/comments
+        - generic [ref=e30]: 
+        - text: Comments
+      - link " Media Library" [ref=e31] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/media
+        - generic [ref=e32]: 
+        - text: Media Library
+      - generic [ref=e33]: Shop
+      - link " Products" [ref=e34] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/products
+        - generic [ref=e35]: 
+        - text: Products
+      - link " Orders" [ref=e36] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/orders
+        - generic [ref=e37]: 
+        - text: Orders
+      - link " Inventory" [ref=e38] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/inventory
+        - generic [ref=e39]: 
+        - text: Inventory
+      - link " Coupons" [ref=e40] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/coupons
+        - generic [ref=e41]: 
+        - text: Coupons
+      - link " Reports" [ref=e42] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/reports/sales
+        - generic [ref=e43]: 
+        - text: Reports
+      - generic [ref=e44]: System
+      - link " Weather Data" [ref=e45] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/weather-data
+        - generic [ref=e46]: 
+        - text: Weather Data
+      - link " Alert Rules" [ref=e47] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/weather-alert-rules
+        - generic [ref=e48]: 
+        - text: Alert Rules
+      - link " Activity Logs" [ref=e49] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/activity-logs
+        - generic [ref=e50]: 
+        - text: Activity Logs
+      - link " Send Notification" [ref=e51] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/notifications/send
+        - generic [ref=e52]: 
+        - text: Send Notification
+      - link " Roles & Permissions" [ref=e53] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/role-permission
+        - generic [ref=e54]: 
+        - text: Roles & Permissions
+    - generic [ref=e55]:
+      - generic [ref=e56]: T
+      - generic [ref=e57]:
+        - generic [ref=e58]: Tarun Chauhan
+        - generic [ref=e59]: Administrator
+  - generic [ref=e60]:
+    - banner [ref=e61]:
+      - button "" [ref=e62] [cursor=pointer]:
+        - generic [ref=e63]: 
+      - generic [ref=e64]:
+        - generic: 
+        - textbox "Search anything..." [ref=e65]
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - button "" [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]: 
+          - text:   
+        - generic [ref=e71]:
+          - button "T Tarun Chauhan " [ref=e72] [cursor=pointer]:
+            - generic [ref=e73]: T
+            - generic [ref=e74]: Tarun Chauhan
+            - generic [ref=e75]: 
+          - text:   
+    - main [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - heading "Apple Varieties" [level=4] [ref=e79]
+          - navigation "breadcrumb" [ref=e80]:
+            - list [ref=e81]:
+              - listitem [ref=e82]:
+                - link "Home" [ref=e83] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/dashboard
+              - listitem [ref=e84]: / Varieties
+        - link " Add Variety" [ref=e86] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/admin/varieties/create
+          - generic [ref=e87]: 
+          - text: Add Variety
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e92]:
+            - generic [ref=e94]: 
+            - generic [ref=e95]:
+              - generic [ref=e96]: Total Varieties
+              - generic [ref=e97]: "33"
+          - generic [ref=e100]:
+            - generic [ref=e102]: 
+            - generic [ref=e103]:
+              - generic [ref=e104]: Published
+              - generic [ref=e105]: "33"
+          - generic [ref=e108]:
+            - generic [ref=e110]: 
+            - generic [ref=e111]:
+              - generic [ref=e112]: Featured
+              - generic [ref=e113]: "7"
+          - generic [ref=e116]:
+            - generic [ref=e118]: 
+            - generic [ref=e119]:
+              - generic [ref=e120]: Archived
+              - generic [ref=e121]: "0"
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e126]: Search
+            - textbox "Variety name..." [ref=e127]
+          - generic [ref=e128]:
+            - generic [ref=e129]: Season
+            - combobox [ref=e130]:
+              - option "All Seasons" [selected]
+              - option "Early"
+              - option "Mid"
+              - option "Late"
+              - option "Very Late"
+          - generic [ref=e131]:
+            - generic [ref=e132]: Status
+            - combobox [ref=e133]:
+              - option "All Status" [selected]
+              - option "Published"
+              - option "Draft"
+              - option "Archived"
+          - button " Filter" [ref=e135] [cursor=pointer]:
+            - generic [ref=e136]: 
+            - text: Filter
+          - link " Clear" [ref=e138] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/admin/varieties
+            - generic [ref=e139]: 
+            - text: Clear
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - generic [ref=e143]: 
+              - text: Apple Varieties
+            - generic [ref=e144]: 33 varieties
+          - table [ref=e146]:
+            - rowgroup [ref=e147]:
+              - row "Variety Season Altitude Range Market Status Actions" [ref=e148]:
+                - columnheader "Variety" [ref=e149]
+                - columnheader "Season" [ref=e150]
+                - columnheader "Altitude Range" [ref=e151]
+                - columnheader "Market" [ref=e152]
+                - columnheader "Status" [ref=e153]
+                - columnheader "Actions" [ref=e154]
+            - rowgroup [ref=e155]:
+              - row " Sturmer Pippin स्टर्मर पिपिन England Very Late Season  4,500 - 7,500 ft Medium demand Published" [ref=e156]:
+                - cell " Sturmer Pippin स्टर्मर पिपिन England" [ref=e157]:
+                  - generic [ref=e158]:
+                    - generic [ref=e160]: 
+                    - generic [ref=e161]:
+                      - strong [ref=e163]: Sturmer Pippin
+                      - generic [ref=e164]: स्टर्मर पिपिन
+                      - generic [ref=e165]: England
+                - cell "Very Late Season" [ref=e166]:
+                  - generic [ref=e167]: Very Late Season
+                - cell " 4,500 - 7,500 ft" [ref=e168]:
+                  - generic [ref=e169]:
+                    - generic [ref=e170]: 
+                    - text: 4,500 - 7,500 ft
+                - cell "Medium demand" [ref=e171]:
+                  - generic [ref=e172]: Medium demand
+                - cell "Published" [ref=e173]:
+                  - generic [ref=e174]:
+                    - generic [ref=e175]: Published
+                    - switch [checked] [ref=e178]
+                - cell [ref=e179]:
+                  - group [ref=e180]:
+                    - link "" [ref=e181] [cursor=pointer]:
+                      - /url: /admin/varieties/26
+                      - generic [ref=e182]: 
+                    - link "" [ref=e183] [cursor=pointer]:
+                      - /url: /admin/varieties/26/edit
+                      - generic [ref=e184]: 
+                    - button "" [ref=e186] [cursor=pointer]:
+                      - generic [ref=e187]: 
+              - row " Idared आइडारेड USA (Idaho) Late Season  4,500 - 8,500 ft  Export High demand Published" [ref=e188]:
+                - cell " Idared आइडारेड USA (Idaho)" [ref=e189]:
+                  - generic [ref=e190]:
+                    - generic [ref=e192]: 
+                    - generic [ref=e193]:
+                      - strong [ref=e195]: Idared
+                      - generic [ref=e196]: आइडारेड
+                      - generic [ref=e197]: USA (Idaho)
+                - cell "Late Season" [ref=e198]:
+                  - generic [ref=e199]: Late Season
+                - cell " 4,500 - 8,500 ft" [ref=e200]:
+                  - generic [ref=e201]:
+                    - generic [ref=e202]: 
+                    - text: 4,500 - 8,500 ft
+                - cell " Export High demand" [ref=e203]:
+                  - generic [ref=e204]:
+                    - generic [ref=e205]: 
+                    - text: Export
+                  - generic [ref=e206]: High demand
+                - cell "Published" [ref=e207]:
+                  - generic [ref=e208]:
+                    - generic [ref=e209]: Published
+                    - switch [checked] [ref=e212]
+                - cell [ref=e213]:
+                  - group [ref=e214]:
+                    - link "" [ref=e215] [cursor=pointer]:
+                      - /url: /admin/varieties/18
+                      - generic [ref=e216]: 
+                    - link "" [ref=e217] [cursor=pointer]:
+                      - /url: /admin/varieties/18/edit
+                      - generic [ref=e218]: 
+                    - button "" [ref=e220] [cursor=pointer]:
+                      - generic [ref=e221]: 
+              - row " Mutsu (Crispin) मुत्सु Japan Late Season  5,000 - 8,500 ft  Export High demand Published" [ref=e222]:
+                - cell " Mutsu (Crispin) मुत्सु Japan" [ref=e223]:
+                  - generic [ref=e224]:
+                    - generic [ref=e226]: 
+                    - generic [ref=e227]:
+                      - strong [ref=e229]: Mutsu (Crispin)
+                      - generic [ref=e230]: मुत्सु
+                      - generic [ref=e231]: Japan
+                - cell "Late Season" [ref=e232]:
+                  - generic [ref=e233]: Late Season
+                - cell " 5,000 - 8,500 ft" [ref=e234]:
+                  - generic [ref=e235]:
+                    - generic [ref=e236]: 
+                    - text: 5,000 - 8,500 ft
+                - cell " Export High demand" [ref=e237]:
+                  - generic [ref=e238]:
+                    - generic [ref=e239]: 
+                    - text: Export
+                  - generic [ref=e240]: High demand
+                - cell "Published" [ref=e241]:
+                  - generic [ref=e242]:
+                    - generic [ref=e243]: Published
+                    - switch [checked] [ref=e246]
+                - cell [ref=e247]:
+                  - group [ref=e248]:
+                    - link "" [ref=e249] [cursor=pointer]:
+                      - /url: /admin/varieties/19
+                      - generic [ref=e250]: 
+                    - link "" [ref=e251] [cursor=pointer]:
+                      - /url: /admin/varieties/19/edit
+                      - generic [ref=e252]: 
+                    - button "" [ref=e254] [cursor=pointer]:
+                      - generic [ref=e255]: 
+              - row " Braeburn ब्रेबर्न New Zealand Very Late Season  5,500 - 8,500 ft  Export Very_high demand Published" [ref=e256]:
+                - cell " Braeburn ब्रेबर्न New Zealand" [ref=e257]:
+                  - generic [ref=e258]:
+                    - generic [ref=e260]: 
+                    - generic [ref=e261]:
+                      - strong [ref=e263]: Braeburn
+                      - generic [ref=e264]: ब्रेबर्न
+                      - generic [ref=e265]: New Zealand
+                - cell "Very Late Season" [ref=e266]:
+                  - generic [ref=e267]: Very Late Season
+                - cell " 5,500 - 8,500 ft" [ref=e268]:
+                  - generic [ref=e269]:
+                    - generic [ref=e270]: 
+                    - text: 5,500 - 8,500 ft
+                - cell " Export Very_high demand" [ref=e271]:
+                  - generic [ref=e272]:
+                    - generic [ref=e273]: 
+                    - text: Export
+                  - generic [ref=e274]: Very_high demand
+                - cell "Published" [ref=e275]:
+                  - generic [ref=e276]:
+                    - generic [ref=e277]: Published
+                    - switch [checked] [ref=e280]
+                - cell [ref=e281]:
+                  - group [ref=e282]:
+                    - link "" [ref=e283] [cursor=pointer]:
+                      - /url: /admin/varieties/20
+                      - generic [ref=e284]: 
+                    - link "" [ref=e285] [cursor=pointer]:
+                      - /url: /admin/varieties/20/edit
+                      - generic [ref=e286]: 
+                    - button "" [ref=e288] [cursor=pointer]:
+                      - generic [ref=e289]: 
+              - row " Jonagold जोनागोल्ड Belgium Mid Season  5,000 - 8,000 ft  Export High demand Published" [ref=e290]:
+                - cell " Jonagold जोनागोल्ड Belgium" [ref=e291]:
+                  - generic [ref=e292]:
+                    - generic [ref=e294]: 
+                    - generic [ref=e295]:
+                      - strong [ref=e297]: Jonagold
+                      - generic [ref=e298]: जोनागोल्ड
+                      - generic [ref=e299]: Belgium
+                - cell "Mid Season" [ref=e300]:
+                  - generic [ref=e301]: Mid Season
+                - cell " 5,000 - 8,000 ft" [ref=e302]:
+                  - generic [ref=e303]:
+                    - generic [ref=e304]: 
+                    - text: 5,000 - 8,000 ft
+                - cell " Export High demand" [ref=e305]:
+                  - generic [ref=e306]:
+                    - generic [ref=e307]: 
+                    - text: Export
+                  - generic [ref=e308]: High demand
+                - cell "Published" [ref=e309]:
+                  - generic [ref=e310]:
+                    - generic [ref=e311]: Published
+                    - switch [checked] [ref=e314]
+                - cell [ref=e315]:
+                  - group [ref=e316]:
+                    - link "" [ref=e317] [cursor=pointer]:
+                      - /url: /admin/varieties/21
+                      - generic [ref=e318]: 
+                    - link "" [ref=e319] [cursor=pointer]:
+                      - /url: /admin/varieties/21/edit
+                      - generic [ref=e320]: 
+                    - button "" [ref=e322] [cursor=pointer]:
+                      - generic [ref=e323]: 
+              - row " Ambrosia एम्ब्रोसिया Canada (British Columbia) Late Season  5,000 - 8,500 ft  Export Very_high demand Published" [ref=e324]:
+                - cell " Ambrosia एम्ब्रोसिया Canada (British Columbia)" [ref=e325]:
+                  - generic [ref=e326]:
+                    - generic [ref=e328]: 
+                    - generic [ref=e329]:
+                      - strong [ref=e331]: Ambrosia
+                      - generic [ref=e332]: एम्ब्रोसिया
+                      - generic [ref=e333]: Canada (British Columbia)
+                - cell "Late Season" [ref=e334]:
+                  - generic [ref=e335]: Late Season
+                - cell " 5,000 - 8,500 ft" [ref=e336]:
+                  - generic [ref=e337]:
+                    - generic [ref=e338]: 
+                    - text: 5,000 - 8,500 ft
+                - cell " Export Very_high demand" [ref=e339]:
+                  - generic [ref=e340]:
+                    - generic [ref=e341]: 
+                    - text: Export
+                  - generic [ref=e342]: Very_high demand
+                - cell "Published" [ref=e343]:
+                  - generic [ref=e344]:
+                    - generic [ref=e345]: Published
+                    - switch [checked] [ref=e348]
+                - cell [ref=e349]:
+                  - group [ref=e350]:
+                    - link "" [ref=e351] [cursor=pointer]:
+                      - /url: /admin/varieties/22
+                      - generic [ref=e352]: 
+                    - link "" [ref=e353] [cursor=pointer]:
+                      - /url: /admin/varieties/22/edit
+                      - generic [ref=e354]: 
+                    - button "" [ref=e356] [cursor=pointer]:
+                      - generic [ref=e357]: 
+              - row " Honeycrisp  हनीक्रिस्प USA (Minnesota) Mid Season  4,000 - 7,000 ft  Export Very_high demand Published" [ref=e358]:
+                - cell " Honeycrisp  हनीक्रिस्प USA (Minnesota)" [ref=e359]:
+                  - generic [ref=e360]:
+                    - generic [ref=e362]: 
+                    - generic [ref=e363]:
+                      - generic [ref=e364]:
+                        - strong [ref=e365]: Honeycrisp
+                        - generic [ref=e366]: 
+                      - generic [ref=e367]: हनीक्रिस्प
+                      - generic [ref=e368]: USA (Minnesota)
+                - cell "Mid Season" [ref=e369]:
+                  - generic [ref=e370]: Mid Season
+                - cell " 4,000 - 7,000 ft" [ref=e371]:
+                  - generic [ref=e372]:
+                    - generic [ref=e373]: 
+                    - text: 4,000 - 7,000 ft
+                - cell " Export Very_high demand" [ref=e374]:
+                  - generic [ref=e375]:
+                    - generic [ref=e376]: 
+                    - text: Export
+                  - generic [ref=e377]: Very_high demand
+                - cell "Published" [ref=e378]:
+                  - generic [ref=e379]:
+                    - generic [ref=e380]: Published
+                    - switch [checked] [ref=e383]
+                - cell [ref=e384]:
+                  - group [ref=e385]:
+                    - link "" [ref=e386] [cursor=pointer]:
+                      - /url: /admin/varieties/23
+                      - generic [ref=e387]: 
+                    - link "" [ref=e388] [cursor=pointer]:
+                      - /url: /admin/varieties/23/edit
+                      - generic [ref=e389]: 
+                    - button "" [ref=e391] [cursor=pointer]:
+                      - generic [ref=e392]: 
+              - row " Earli blaze अर्ली ब्लेज़ Belgium Early Season  4,000 - 7,000 ft Medium demand Published" [ref=e393]:
+                - cell " Earli blaze अर्ली ब्लेज़ Belgium" [ref=e394]:
+                  - generic [ref=e395]:
+                    - generic [ref=e397]: 
+                    - generic [ref=e398]:
+                      - strong [ref=e400]: Earli blaze
+                      - generic [ref=e401]: अर्ली ब्लेज़
+                      - generic [ref=e402]: Belgium
+                - cell "Early Season" [ref=e403]:
+                  - generic [ref=e404]: Early Season
+                - cell " 4,000 - 7,000 ft" [ref=e405]:
+                  - generic [ref=e406]:
+                    - generic [ref=e407]: 
+                    - text: 4,000 - 7,000 ft
+                - cell "Medium demand" [ref=e408]:
+                  - generic [ref=e409]: Medium demand
+                - cell "Published" [ref=e410]:
+                  - generic [ref=e411]:
+                    - generic [ref=e412]: Published
+                    - switch [checked] [ref=e415]
+                - cell [ref=e416]:
+                  - group [ref=e417]:
+                    - link "" [ref=e418] [cursor=pointer]:
+                      - /url: /admin/varieties/24
+                      - generic [ref=e419]: 
+                    - link "" [ref=e420] [cursor=pointer]:
+                      - /url: /admin/varieties/24/edit
+                      - generic [ref=e421]: 
+                    - button "" [ref=e423] [cursor=pointer]:
+                      - generic [ref=e424]: 
+              - row " Oregon Spur Red ओरेगन स्पर रेड USA (Oregon) Late Season  5,000 - 8,500 ft  Export High demand Published" [ref=e425]:
+                - cell " Oregon Spur Red ओरेगन स्पर रेड USA (Oregon)" [ref=e426]:
+                  - generic [ref=e427]:
+                    - generic [ref=e429]: 
+                    - generic [ref=e430]:
+                      - strong [ref=e432]: Oregon Spur Red
+                      - generic [ref=e433]: ओरेगन स्पर रेड
+                      - generic [ref=e434]: USA (Oregon)
+                - cell "Late Season" [ref=e435]:
+                  - generic [ref=e436]: Late Season
+                - cell " 5,000 - 8,500 ft" [ref=e437]:
+                  - generic [ref=e438]:
+                    - generic [ref=e439]: 
+                    - text: 5,000 - 8,500 ft
+                - cell " Export High demand" [ref=e440]:
+                  - generic [ref=e441]:
+                    - generic [ref=e442]: 
+                    - text: Export
+                  - generic [ref=e443]: High demand
+                - cell "Published" [ref=e444]:
+                  - generic [ref=e445]:
+                    - generic [ref=e446]: Published
+                    - switch [checked] [ref=e449]
+                - cell [ref=e450]:
+                  - group [ref=e451]:
+                    - link "" [ref=e452] [cursor=pointer]:
+                      - /url: /admin/varieties/25
+                      - generic [ref=e453]: 
+                    - link "" [ref=e454] [cursor=pointer]:
+                      - /url: /admin/varieties/25/edit
+                      - generic [ref=e455]: 
+                    - button "" [ref=e457] [cursor=pointer]:
+                      - generic [ref=e458]: 
+              - row " Jonathan जोनाथन USA (New York) Mid Season  4,500 - 8,000 ft Medium demand Published" [ref=e459]:
+                - cell " Jonathan जोनाथन USA (New York)" [ref=e460]:
+                  - generic [ref=e461]:
+                    - generic [ref=e463]: 
+                    - generic [ref=e464]:
+                      - strong [ref=e466]: Jonathan
+                      - generic [ref=e467]: जोनाथन
+                      - generic [ref=e468]: USA (New York)
+                - cell "Mid Season" [ref=e469]:
+                  - generic [ref=e470]: Mid Season
+                - cell " 4,500 - 8,000 ft" [ref=e471]:
+                  - generic [ref=e472]:
+                    - generic [ref=e473]: 
+                    - text: 4,500 - 8,000 ft
+                - cell "Medium demand" [ref=e474]:
+                  - generic [ref=e475]: Medium demand
+                - cell "Published" [ref=e476]:
+                  - generic [ref=e477]:
+                    - generic [ref=e478]: Published
+                    - switch [checked] [ref=e481]
+                - cell [ref=e482]:
+                  - group [ref=e483]:
+                    - link "" [ref=e484] [cursor=pointer]:
+                      - /url: /admin/varieties/17
+                      - generic [ref=e485]: 
+                    - link "" [ref=e486] [cursor=pointer]:
+                      - /url: /admin/varieties/17/edit
+                      - generic [ref=e487]: 
+                    - button "" [ref=e489] [cursor=pointer]:
+                      - generic [ref=e490]: 
+              - row " Cox Orange Pippin कॉक्स ऑरेंज पिपिन England Mid Season  5,000 - 8,000 ft Medium demand Published" [ref=e491]:
+                - cell " Cox Orange Pippin कॉक्स ऑरेंज पिपिन England" [ref=e492]:
+                  - generic [ref=e493]:
+                    - generic [ref=e495]: 
+                    - generic [ref=e496]:
+                      - strong [ref=e498]: Cox Orange Pippin
+                      - generic [ref=e499]: कॉक्स ऑरेंज पिपिन
+                      - generic [ref=e500]: England
+                - cell "Mid Season" [ref=e501]:
+                  - generic [ref=e502]: Mid Season
+                - cell " 5,000 - 8,000 ft" [ref=e503]:
+                  - generic [ref=e504]:
+                    - generic [ref=e505]: 
+                    - text: 5,000 - 8,000 ft
+                - cell "Medium demand" [ref=e506]:
+                  - generic [ref=e507]: Medium demand
+                - cell "Published" [ref=e508]:
+                  - generic [ref=e509]:
+                    - generic [ref=e510]: Published
+                    - switch [checked] [ref=e513]
+                - cell [ref=e514]:
+                  - group [ref=e515]:
+                    - link "" [ref=e516] [cursor=pointer]:
+                      - /url: /admin/varieties/27
+                      - generic [ref=e517]: 
+                    - link "" [ref=e518] [cursor=pointer]:
+                      - /url: /admin/varieties/27/edit
+                      - generic [ref=e519]: 
+                    - button "" [ref=e521] [cursor=pointer]:
+                      - generic [ref=e522]: 
+              - row " Vista Bella विस्टा बेला USA (New Jersey) Early Season  4,000 - 6,500 ft Low demand Published" [ref=e523]:
+                - cell " Vista Bella विस्टा बेला USA (New Jersey)" [ref=e524]:
+                  - generic [ref=e525]:
+                    - generic [ref=e527]: 
+                    - generic [ref=e528]:
+                      - strong [ref=e530]: Vista Bella
+                      - generic [ref=e531]: विस्टा बेला
+                      - generic [ref=e532]: USA (New Jersey)
+                - cell "Early Season" [ref=e533]:
+                  - generic [ref=e534]: Early Season
+                - cell " 4,000 - 6,500 ft" [ref=e535]:
+                  - generic [ref=e536]:
+                    - generic [ref=e537]: 
+                    - text: 4,000 - 6,500 ft
+                - cell "Low demand" [ref=e538]:
+                  - generic [ref=e539]: Low demand
+                - cell "Published" [ref=e540]:
+                  - generic [ref=e541]:
+                    - generic [ref=e542]: Published
+                    - switch [checked] [ref=e545]
+                - cell [ref=e546]:
+                  - group [ref=e547]:
+                    - link "" [ref=e548] [cursor=pointer]:
+                      - /url: /admin/varieties/28
+                      - generic [ref=e549]: 
+                    - link "" [ref=e550] [cursor=pointer]:
+                      - /url: /admin/varieties/28/edit
+                      - generic [ref=e551]: 
+                    - button "" [ref=e553] [cursor=pointer]:
+                      - generic [ref=e554]: 
+              - row " Lal Ambri लाल आम्ब्री India (HP) Mid Season  4,500 - 8,000 ft High demand Published" [ref=e555]:
+                - cell " Lal Ambri लाल आम्ब्री India (HP)" [ref=e556]:
+                  - generic [ref=e557]:
+                    - generic [ref=e559]: 
+                    - generic [ref=e560]:
+                      - strong [ref=e562]: Lal Ambri
+                      - generic [ref=e563]: लाल आम्ब्री
+                      - generic [ref=e564]: India (HP)
+                - cell "Mid Season" [ref=e565]:
+                  - generic [ref=e566]: Mid Season
+                - cell " 4,500 - 8,000 ft" [ref=e567]:
+                  - generic [ref=e568]:
+                    - generic [ref=e569]: 
+                    - text: 4,500 - 8,000 ft
+                - cell "High demand" [ref=e570]:
+                  - generic [ref=e571]: High demand
+                - cell "Published" [ref=e572]:
+                  - generic [ref=e573]:
+                    - generic [ref=e574]: Published
+                    - switch [checked] [ref=e577]
+                - cell [ref=e578]:
+                  - group [ref=e579]:
+                    - link "" [ref=e580] [cursor=pointer]:
+                      - /url: /admin/varieties/29
+                      - generic [ref=e581]: 
+                    - link "" [ref=e582] [cursor=pointer]:
+                      - /url: /admin/varieties/29/edit
+                      - generic [ref=e583]: 
+                    - button "" [ref=e585] [cursor=pointer]:
+                      - generic [ref=e586]: 
+              - row " Sunehari सुनहरी India (HP) Early Season  4,000 - 7,000 ft Medium demand Published" [ref=e587]:
+                - cell " Sunehari सुनहरी India (HP)" [ref=e588]:
+                  - generic [ref=e589]:
+                    - generic [ref=e591]: 
+                    - generic [ref=e592]:
+                      - strong [ref=e594]: Sunehari
+                      - generic [ref=e595]: सुनहरी
+                      - generic [ref=e596]: India (HP)
+                - cell "Early Season" [ref=e597]:
+                  - generic [ref=e598]: Early Season
+                - cell " 4,000 - 7,000 ft" [ref=e599]:
+                  - generic [ref=e600]:
+                    - generic [ref=e601]: 
+                    - text: 4,000 - 7,000 ft
+                - cell "Medium demand" [ref=e602]:
+                  - generic [ref=e603]: Medium demand
+                - cell "Published" [ref=e604]:
+                  - generic [ref=e605]:
+                    - generic [ref=e606]: Published
+                    - switch [checked] [ref=e609]
+                - cell [ref=e610]:
+                  - group [ref=e611]:
+                    - link "" [ref=e612] [cursor=pointer]:
+                      - /url: /admin/varieties/30
+                      - generic [ref=e613]: 
+                    - link "" [ref=e614] [cursor=pointer]:
+                      - /url: /admin/varieties/30/edit
+                      - generic [ref=e615]: 
+                    - button "" [ref=e617] [cursor=pointer]:
+                      - generic [ref=e618]: 
+              - row " Anna अन्ना Israel Early Season  3,500 - 6,000 ft Medium demand Published" [ref=e619]:
+                - cell " Anna अन्ना Israel" [ref=e620]:
+                  - generic [ref=e621]:
+                    - generic [ref=e623]: 
+                    - generic [ref=e624]:
+                      - strong [ref=e626]: Anna
+                      - generic [ref=e627]: अन्ना
+                      - generic [ref=e628]: Israel
+                - cell "Early Season" [ref=e629]:
+                  - generic [ref=e630]: Early Season
+                - cell " 3,500 - 6,000 ft" [ref=e631]:
+                  - generic [ref=e632]:
+                    - generic [ref=e633]: 
+                    - text: 3,500 - 6,000 ft
+                - cell "Medium demand" [ref=e634]:
+                  - generic [ref=e635]: Medium demand
+                - cell "Published" [ref=e636]:
+                  - generic [ref=e637]:
+                    - generic [ref=e638]: Published
+                    - switch [checked] [ref=e641]
+                - cell [ref=e642]:
+                  - group [ref=e643]:
+                    - link "" [ref=e644] [cursor=pointer]:
+                      - /url: /admin/varieties/31
+                      - generic [ref=e645]: 
+                    - link "" [ref=e646] [cursor=pointer]:
+                      - /url: /admin/varieties/31/edit
+                      - generic [ref=e647]: 
+                    - button "" [ref=e649] [cursor=pointer]:
+                      - generic [ref=e650]: 
+              - row " Dorsett Golden डोर्सेट गोल्डन Bahamas Early Season  3,500 - 6,000 ft Medium demand Published" [ref=e651]:
+                - cell " Dorsett Golden डोर्सेट गोल्डन Bahamas" [ref=e652]:
+                  - generic [ref=e653]:
+                    - generic [ref=e655]: 
+                    - generic [ref=e656]:
+                      - strong [ref=e658]: Dorsett Golden
+                      - generic [ref=e659]: डोर्सेट गोल्डन
+                      - generic [ref=e660]: Bahamas
+                - cell "Early Season" [ref=e661]:
+                  - generic [ref=e662]: Early Season
+                - cell " 3,500 - 6,000 ft" [ref=e663]:
+                  - generic [ref=e664]:
+                    - generic [ref=e665]: 
+                    - text: 3,500 - 6,000 ft
+                - cell "Medium demand" [ref=e666]:
+                  - generic [ref=e667]: Medium demand
+                - cell "Published" [ref=e668]:
+                  - generic [ref=e669]:
+                    - generic [ref=e670]: Published
+                    - switch [checked] [ref=e673]
+                - cell [ref=e674]:
+                  - group [ref=e675]:
+                    - link "" [ref=e676] [cursor=pointer]:
+                      - /url: /admin/varieties/32
+                      - generic [ref=e677]: 
+                    - link "" [ref=e678] [cursor=pointer]:
+                      - /url: /admin/varieties/32/edit
+                      - generic [ref=e679]: 
+                    - button "" [ref=e681] [cursor=pointer]:
+                      - generic [ref=e682]: 
+              - row " Ein Shemer आइन शेमर Israel Early Season  3,000 - 5,500 ft Low demand Published" [ref=e683]:
+                - cell " Ein Shemer आइन शेमर Israel" [ref=e684]:
+                  - generic [ref=e685]:
+                    - generic [ref=e687]: 
+                    - generic [ref=e688]:
+                      - strong [ref=e690]: Ein Shemer
+                      - generic [ref=e691]: आइन शेमर
+                      - generic [ref=e692]: Israel
+                - cell "Early Season" [ref=e693]:
+                  - generic [ref=e694]: Early Season
+                - cell " 3,000 - 5,500 ft" [ref=e695]:
+                  - generic [ref=e696]:
+                    - generic [ref=e697]: 
+                    - text: 3,000 - 5,500 ft
+                - cell "Low demand" [ref=e698]:
+                  - generic [ref=e699]: Low demand
+                - cell "Published" [ref=e700]:
+                  - generic [ref=e701]:
+                    - generic [ref=e702]: Published
+                    - switch [checked] [ref=e705]
+                - cell [ref=e706]:
+                  - group [ref=e707]:
+                    - link "" [ref=e708] [cursor=pointer]:
+                      - /url: /admin/varieties/33
+                      - generic [ref=e709]: 
+                    - link "" [ref=e710] [cursor=pointer]:
+                      - /url: /admin/varieties/33/edit
+                      - generic [ref=e711]: 
+                    - button "" [ref=e713] [cursor=pointer]:
+                      - generic [ref=e714]: 
+              - row " Gala  गाला New Zealand Early Season  4,000 - 7,000 ft  5000-6500 ft  Export High demand Published" [ref=e715]:
+                - cell " Gala  गाला New Zealand" [ref=e716]:
+                  - generic [ref=e717]:
+                    - generic [ref=e719]: 
+                    - generic [ref=e720]:
+                      - generic [ref=e721]:
+                        - strong [ref=e722]: Gala
+                        - generic [ref=e723]: 
+                      - generic [ref=e724]: गाला
+                      - generic [ref=e725]: New Zealand
+                - cell "Early Season" [ref=e726]:
+                  - generic [ref=e727]: Early Season
+                - cell " 4,000 - 7,000 ft  5000-6500 ft" [ref=e728]:
+                  - generic [ref=e729]:
+                    - generic [ref=e730]: 
+                    - text: 4,000 - 7,000 ft
+                  - generic [ref=e731]:
+                    - generic [ref=e732]: 
+                    - text: 5000-6500 ft
+                - cell " Export High demand" [ref=e733]:
+                  - generic [ref=e734]:
+                    - generic [ref=e735]: 
+                    - text: Export
+                  - generic [ref=e736]: High demand
+                - cell "Published" [ref=e737]:
+                  - generic [ref=e738]:
+                    - generic [ref=e739]: Published
+                    - switch [checked] [ref=e742]
+                - cell [ref=e743]:
+                  - group [ref=e744]:
+                    - link "" [ref=e745] [cursor=pointer]:
+                      - /url: /admin/varieties/1
+                      - generic [ref=e746]: 
+                    - link "" [ref=e747] [cursor=pointer]:
+                      - /url: /admin/varieties/1/edit
+                      - generic [ref=e748]: 
+                    - button "" [ref=e750] [cursor=pointer]:
+                      - generic [ref=e751]: 
+              - row " Pink Lady (Cripps Pink) पिंक लेडी Australia Very Late Season  6,000 - 9,000 ft  Export High demand Published" [ref=e752]:
+                - cell " Pink Lady (Cripps Pink) पिंक लेडी Australia" [ref=e753]:
+                  - generic [ref=e754]:
+                    - generic [ref=e756]: 
+                    - generic [ref=e757]:
+                      - strong [ref=e759]: Pink Lady (Cripps Pink)
+                      - generic [ref=e760]: पिंक लेडी
+                      - generic [ref=e761]: Australia
+                - cell "Very Late Season" [ref=e762]:
+                  - generic [ref=e763]: Very Late Season
+                - cell " 6,000 - 9,000 ft" [ref=e764]:
+                  - generic [ref=e765]:
+                    - generic [ref=e766]: 
+                    - text: 6,000 - 9,000 ft
+                - cell " Export High demand" [ref=e767]:
+                  - generic [ref=e768]:
+                    - generic [ref=e769]: 
+                    - text: Export
+                  - generic [ref=e770]: High demand
+                - cell "Published" [ref=e771]:
+                  - generic [ref=e772]:
+                    - generic [ref=e773]: Published
+                    - switch [checked] [ref=e776]
+                - cell [ref=e777]:
+                  - group [ref=e778]:
+                    - link "" [ref=e779] [cursor=pointer]:
+                      - /url: /admin/varieties/16
+                      - generic [ref=e780]: 
+                    - link "" [ref=e781] [cursor=pointer]:
+                      - /url: /admin/varieties/16/edit
+                      - generic [ref=e782]: 
+                    - button "" [ref=e784] [cursor=pointer]:
+                      - generic [ref=e785]: 
+              - row " Fuji  फूजी Japan Very Late Season  5,500 - 9,000 ft  7000-8500 ft  Export Very_high demand Published" [ref=e786]:
+                - cell " Fuji  फूजी Japan" [ref=e787]:
+                  - generic [ref=e788]:
+                    - generic [ref=e790]: 
+                    - generic [ref=e791]:
+                      - generic [ref=e792]:
+                        - strong [ref=e793]: Fuji
+                        - generic [ref=e794]: 
+                      - generic [ref=e795]: फूजी
+                      - generic [ref=e796]: Japan
+                - cell "Very Late Season" [ref=e797]:
+                  - generic [ref=e798]: Very Late Season
+                - cell " 5,500 - 9,000 ft  7000-8500 ft" [ref=e799]:
+                  - generic [ref=e800]:
+                    - generic [ref=e801]: 
+                    - text: 5,500 - 9,000 ft
+                  - generic [ref=e802]:
+                    - generic [ref=e803]: 
+                    - text: 7000-8500 ft
+                - cell " Export Very_high demand" [ref=e804]:
+                  - generic [ref=e805]:
+                    - generic [ref=e806]: 
+                    - text: Export
+                  - generic [ref=e807]: Very_high demand
+                - cell "Published" [ref=e808]:
+                  - generic [ref=e809]:
+                    - generic [ref=e810]: Published
+                    - switch [checked] [ref=e813]
+                - cell [ref=e814]:
+                  - group [ref=e815]:
+                    - link "" [ref=e816] [cursor=pointer]:
+                      - /url: /admin/varieties/15
+                      - generic [ref=e817]: 
+                    - link "" [ref=e818] [cursor=pointer]:
+                      - /url: /admin/varieties/15/edit
+                      - generic [ref=e819]: 
+                    - button "" [ref=e821] [cursor=pointer]:
+                      - generic [ref=e822]: 
+          - generic [ref=e823]:
+            - generic [ref=e824]: Showing 1 - 20 of 33
+            - navigation [ref=e825]:
+              - navigation [ref=e826]:
+                - generic [ref=e827]:
+                  - paragraph [ref=e829]: Showing 1 to 20 of 33 results
+                  - list [ref=e831]:
+                    - listitem "« Previous" [ref=e832]:
+                      - generic: ‹
+                    - listitem [ref=e833]:
+                      - generic [ref=e834]: "1"
+                    - listitem [ref=e835]:
+                      - link "2" [ref=e836] [cursor=pointer]:
+                        - /url: http://192.168.1.100:8000/admin/varieties?page=2
+                    - listitem [ref=e837]:
+                      - link "Next »" [ref=e838] [cursor=pointer]:
+                        - /url: http://192.168.1.100:8000/admin/varieties?page=2
+                        - text: ›
+    - contentinfo [ref=e839]:
+      - generic [ref=e840]: © 2026 Laravel. All rights reserved.
+      - generic [ref=e841]:
+        - text: Powered by
+        - strong [ref=e842]: Laravel 12.58.0
+        - text: "& Bootstrap 5"

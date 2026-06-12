@@ -1,0 +1,219 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000
+        - img [ref=e8]
+        - generic [ref=e11]: Baagvaani
+      - navigation "Main navigation" [ref=e12]:
+        - link "Home" [ref=e13] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - link "Blog" [ref=e14] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/blog
+        - link "About" [ref=e15] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/about
+      - generic [ref=e17]:
+        - link "Login" [ref=e18] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/login
+        - link "Sign Up" [ref=e19] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/register
+  - main [ref=e20]:
+    - region "Grow Better Apples. With Expert Knowledge." [ref=e21]:
+      - img [ref=e23]
+      - generic [ref=e26]:
+        - heading "Grow Better Apples. With Expert Knowledge." [level=1] [ref=e27]:
+          - text: Grow Better Apples.
+          - text: With Expert Knowledge.
+        - paragraph [ref=e28]: हिमाचल, उत्तराखंड और कश्मीर के सेब किसानों के लिए बेहतर बागवानी सामग्री और विशेषज्ञ ज्ञान।
+        - generic [ref=e29]:
+          - link "Read Blog" [ref=e30] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/blog
+            - text: Read Blog
+            - img [ref=e31]
+          - link "About Us" [ref=e33] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/about
+            - text: About Us
+            - img [ref=e34]
+      - img [ref=e37]
+    - region "Why Baagvaani?" [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - heading "Why Baagvaani?" [level=2] [ref=e42]
+          - paragraph [ref=e43]: Expert knowledge for every stage of your apple orchard journey.
+        - generic [ref=e44]:
+          - article [ref=e45]:
+            - generic [ref=e46]:
+              - img [ref=e48]
+              - heading "Expert Articles" [level=3] [ref=e50]
+              - paragraph [ref=e51]: Step-by-step guides on spray schedules, disease management, and modern farming techniques written for Himalayan growers.
+          - article [ref=e52]:
+            - generic [ref=e53]:
+              - img [ref=e55]
+              - heading "Orchard Tools" [level=3] [ref=e57]
+              - paragraph [ref=e58]: Interactive spray calculators, weather alerts, and orchard trackers designed to simplify daily farm decisions.
+          - article [ref=e59]:
+            - generic [ref=e60]:
+              - img [ref=e62]
+              - heading "Trusted by Farmers" [level=3] [ref=e64]
+              - paragraph [ref=e65]: Serving apple growers across Himachal Pradesh, Uttarakhand, and Jammu & Kashmir with reliable, field-tested advice.
+    - region "From the Blog" [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - heading "From the Blog" [level=2] [ref=e70]
+            - paragraph [ref=e71]: Expert tips and stories from the orchard.
+          - link "All Articles" [ref=e72] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/blog
+            - text: All Articles
+            - img [ref=e73]
+        - generic [ref=e75]:
+          - article [ref=e76]:
+            - link "Weather & Climate How to Read Mountain Weather Before Spraying Baagvaani Team · May 25, 2026 · 4 min read" [ref=e77] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/post/reading-mountain-weather-spray-timing
+              - generic [ref=e78]:
+                - img [ref=e80]
+                - generic [ref=e82]: Weather & Climate
+              - generic [ref=e83]:
+                - heading "How to Read Mountain Weather Before Spraying" [level=3] [ref=e84]
+                - generic [ref=e85]:
+                  - generic [ref=e86]: Baagvaani Team
+                  - generic [ref=e87]: ·
+                  - time [ref=e88]: May 25, 2026
+                  - generic [ref=e89]: ·
+                  - generic [ref=e90]: 4 min read
+          - article [ref=e91]:
+            - 'link "Spray & Disease Powdery Mildew in HP Apple Orchards: Control Guide Baagvaani Team · May 23, 2026 · 5 min read" [ref=e92] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/powdery-mildew-apple-hp
+              - generic [ref=e93]:
+                - img [ref=e95]
+                - generic [ref=e97]: Spray & Disease
+              - generic [ref=e98]:
+                - 'heading "Powdery Mildew in HP Apple Orchards: Control Guide" [level=3] [ref=e99]'
+                - generic [ref=e100]:
+                  - generic [ref=e101]: Baagvaani Team
+                  - generic [ref=e102]: ·
+                  - time [ref=e103]: May 23, 2026
+                  - generic [ref=e104]: ·
+                  - generic [ref=e105]: 5 min read
+          - article [ref=e106]:
+            - 'link "Weather & Climate Frost Protection for Apple Orchards: A Practical Guide Baagvaani Team · May 19, 2026 · 6 min read" [ref=e107] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/frost-protection-apple-orchards-hp
+              - generic [ref=e108]:
+                - img [ref=e110]
+                - generic [ref=e112]: Weather & Climate
+              - generic [ref=e113]:
+                - 'heading "Frost Protection for Apple Orchards: A Practical Guide" [level=3] [ref=e114]'
+                - generic [ref=e115]:
+                  - generic [ref=e116]: Baagvaani Team
+                  - generic [ref=e117]: ·
+                  - time [ref=e118]: May 19, 2026
+                  - generic [ref=e119]: ·
+                  - generic [ref=e120]: 6 min read
+          - article [ref=e121]:
+            - link "Spray & Disease Complete Spray Schedule for HP Apple Orchards Baagvaani Team · May 16, 2026 · 10 min read" [ref=e122] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/post/complete-spray-schedule-hp-apple-orchards
+              - generic [ref=e123]:
+                - img [ref=e125]
+                - generic [ref=e127]: Spray & Disease
+              - generic [ref=e128]:
+                - heading "Complete Spray Schedule for HP Apple Orchards" [level=3] [ref=e129]
+                - generic [ref=e130]:
+                  - generic [ref=e131]: Baagvaani Team
+                  - generic [ref=e132]: ·
+                  - time [ref=e133]: May 16, 2026
+                  - generic [ref=e134]: ·
+                  - generic [ref=e135]: 10 min read
+          - article [ref=e136]:
+            - 'link "Business & Market Selling Apples: MSP, FPOs, and Direct Marketing Baagvaani Team · May 12, 2026 · 7 min read" [ref=e137] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/selling-apples-msp-fpo-direct-marketing
+              - generic [ref=e138]:
+                - img [ref=e140]
+                - generic [ref=e142]: Business & Market
+              - generic [ref=e143]:
+                - 'heading "Selling Apples: MSP, FPOs, and Direct Marketing" [level=3] [ref=e144]'
+                - generic [ref=e145]:
+                  - generic [ref=e146]: Baagvaani Team
+                  - generic [ref=e147]: ·
+                  - time [ref=e148]: May 12, 2026
+                  - generic [ref=e149]: ·
+                  - generic [ref=e150]: 7 min read
+          - article [ref=e151]:
+            - 'link "Spray & Disease Apple Scab: Identify, Prevent, and Treat Baagvaani Team · May 07, 2026 · 7 min read" [ref=e152] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/apple-scab-identify-prevent-treat
+              - generic [ref=e153]:
+                - img [ref=e155]
+                - generic [ref=e157]: Spray & Disease
+              - generic [ref=e158]:
+                - 'heading "Apple Scab: Identify, Prevent, and Treat" [level=3] [ref=e159]'
+                - generic [ref=e160]:
+                  - generic [ref=e161]: Baagvaani Team
+                  - generic [ref=e162]: ·
+                  - time [ref=e163]: May 07, 2026
+                  - generic [ref=e164]: ·
+                  - generic [ref=e165]: 7 min read
+    - region "Take Baagvaani Everywhere" [ref=e166]:
+      - generic [ref=e168]:
+        - generic [ref=e169]:
+          - heading "Take Baagvaani Everywhere" [level=2] [ref=e170]
+          - paragraph [ref=e171]: Get spray schedules, weather alerts, and expert advice on the go. The Baagvaani app is built for farmers.
+          - paragraph [ref=e172]: बागीचा ऐप — हर किसान की ज़रूरत।
+          - generic [ref=e173]:
+            - generic "Coming soon" [ref=e174]:
+              - img [ref=e175]
+              - generic [ref=e177]:
+                - generic [ref=e178]: Download on the
+                - generic [ref=e179]: App Store
+            - generic "Coming soon" [ref=e180]:
+              - img [ref=e181]
+              - generic [ref=e183]:
+                - generic [ref=e184]: Get it on
+                - generic [ref=e185]: Google Play
+          - paragraph [ref=e186]: Mobile app launching soon — stay tuned.
+        - img [ref=e189]
+  - contentinfo [ref=e192]:
+    - generic [ref=e193]:
+      - generic [ref=e194]:
+        - generic [ref=e195]:
+          - link "Baagvaani" [ref=e196] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - img [ref=e198]
+            - generic [ref=e201]: Baagvaani
+          - paragraph [ref=e202]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K. Read spray schedules, disease guides, and grow better.
+          - generic [ref=e204]: Social channels coming soon
+        - generic [ref=e205]:
+          - heading "Quick Links" [level=3] [ref=e206]
+          - list [ref=e207]:
+            - listitem [ref=e208]:
+              - link "Home" [ref=e209] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e210]:
+              - link "Blog" [ref=e211] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e212]:
+              - link "About Us" [ref=e213] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e214]:
+          - heading "Topics" [level=3] [ref=e215]
+          - list [ref=e216]:
+            - listitem [ref=e217]:
+              - link "Spray & Disease" [ref=e218] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e219]:
+              - link "Orchard Care" [ref=e220] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e221]:
+              - link "Variety Guide" [ref=e222] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e223]:
+              - link "Weather & Climate" [ref=e224] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e225]:
+          - heading "Newsletter" [level=3] [ref=e226]
+          - paragraph [ref=e227]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e228]:
+            - textbox "Enter your email" [ref=e229]
+            - button "Subscribe" [ref=e230]
+          - paragraph [ref=e231]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e233]: © 2026 Baagvaani. All rights reserved.

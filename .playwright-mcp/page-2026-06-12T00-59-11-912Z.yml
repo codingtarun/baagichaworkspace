@@ -1,0 +1,268 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7]
+      - generic [ref=e10]: Internal Server Error
+    - button "Copy as Markdown" [ref=e11] [cursor=pointer]:
+      - img [ref=e12]
+      - generic [ref=e15]: Copy as Markdown
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - heading "InvalidArgumentException" [level=1] [ref=e20]
+      - generic [ref=e22]: vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:138
+      - paragraph [ref=e23]: View [layouts.site] not found.
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: LARAVEL
+          - generic [ref=e28]: 12.58.0
+        - generic [ref=e29]:
+          - generic [ref=e30]: PHP
+          - generic [ref=e31]: 8.5.4
+      - generic [ref=e32]:
+        - img [ref=e33]
+        - text: UNHANDLED
+      - generic [ref=e36]: CODE 0
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - img [ref=e40]
+        - text: "500"
+      - generic [ref=e43]:
+        - img [ref=e44]
+        - text: GET
+      - generic [ref=e47]: http://127.0.0.1:8000
+      - button [ref=e48] [cursor=pointer]:
+        - img [ref=e49]
+  - generic [ref=e53]:
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - img [ref=e57]
+        - heading "Exception trace" [level=3] [ref=e60]
+      - generic [ref=e61]:
+        - generic [ref=e63] [cursor=pointer]:
+          - img [ref=e64]
+          - generic [ref=e68]: 3 vendor frames
+          - button [ref=e69]:
+            - img [ref=e70]
+        - generic [ref=e74]:
+          - generic [ref=e75] [cursor=pointer]:
+            - generic [ref=e78]:
+              - code [ref=e82]:
+                - generic [ref=e83]: Illuminate\View\Factory->make()
+              - generic [ref=e85]: Modules/Core/resources/views/home.blade.php:173
+            - button [ref=e87]:
+              - img [ref=e88]
+          - code [ref=e96]:
+            - generic [ref=e97]: 168 </div>
+            - generic [ref=e98]: 169 </div>
+            - generic [ref=e99]: 170 </div>
+            - generic [ref=e100]: 171 </div>
+            - generic [ref=e101]: 172 </section>
+            - generic [ref=e102]: 173@endsection
+            - generic [ref=e103]: "174"
+        - generic [ref=e105] [cursor=pointer]:
+          - img [ref=e106]
+          - generic [ref=e110]: 13 vendor frames
+          - button [ref=e111]:
+            - img [ref=e112]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e120]:
+            - code [ref=e124]:
+              - generic [ref=e125]: "Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():178}()"
+            - generic [ref=e127]: Modules/Core/app/Http/Middleware/CacheResponse.php:20
+          - button [ref=e129]:
+            - img [ref=e130]
+        - generic [ref=e135] [cursor=pointer]:
+          - img [ref=e136]
+          - generic [ref=e140]: 25 vendor frames
+          - button [ref=e141]:
+            - img [ref=e142]
+        - generic [ref=e147] [cursor=pointer]:
+          - generic [ref=e150]:
+            - code [ref=e154]:
+              - generic [ref=e155]: "Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():178}()"
+            - generic [ref=e157]: Modules/Core/app/Http/Middleware/SecurityHeaders.php:15
+          - button [ref=e159]:
+            - img [ref=e160]
+        - generic [ref=e165] [cursor=pointer]:
+          - img [ref=e166]
+          - generic [ref=e170]: 23 vendor frames
+          - button [ref=e171]:
+            - img [ref=e172]
+        - generic [ref=e177] [cursor=pointer]:
+          - generic [ref=e180]:
+            - code [ref=e184]:
+              - generic [ref=e185]: Illuminate\Foundation\Application->handleRequest()
+            - generic [ref=e187]: public/index.php:22
+          - button [ref=e189]:
+            - img [ref=e190]
+        - generic [ref=e195] [cursor=pointer]:
+          - img [ref=e196]
+          - generic [ref=e200]: 1 vendor frame
+          - button [ref=e201]:
+            - img [ref=e202]
+    - generic [ref=e206]:
+      - generic [ref=e207]:
+        - generic [ref=e208]:
+          - img [ref=e210]
+          - heading "Queries" [level=3] [ref=e212]
+        - generic [ref=e214]: 1-10 of 13
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - img [ref=e219]
+              - generic [ref=e221]: mysql
+            - code [ref=e225]:
+              - generic [ref=e226]: "select * from `sessions` where `id` = 'jT4YD1qXo79JUwPBXFL6U5BGRe1CMhLSGUU7rMbs' limit 1"
+          - generic [ref=e227]: 0.99ms
+        - generic [ref=e228]:
+          - generic [ref=e229]:
+            - generic [ref=e230]:
+              - img [ref=e231]
+              - generic [ref=e233]: mysql
+            - code [ref=e237]:
+              - generic [ref=e238]: "select * from `cache` where `key` in ('laravel-cache-0bceb8aa9bb761a521d54e1872e61f9a')"
+          - generic [ref=e239]: 0.27ms
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - img [ref=e243]
+              - generic [ref=e245]: mysql
+            - code [ref=e249]:
+              - generic [ref=e250]: "delete from `cache` where `key` in ('laravel-cache-0bceb8aa9bb761a521d54e1872e61f9a', 'laravel-cache-illuminate:cache:flexible:created:0bceb8aa9bb761a521d54e1872e61f9a') and `expiration` <= 1781225950"
+          - generic [ref=e251]: 3.37ms
+        - generic [ref=e252]:
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - img [ref=e255]
+              - generic [ref=e257]: mysql
+            - code [ref=e261]:
+              - generic [ref=e262]: "select * from `cache` where `key` in ('laravel-cache-0bceb8aa9bb761a521d54e1872e61f9a:timer')"
+          - generic [ref=e263]: 0.26ms
+        - generic [ref=e264]:
+          - generic [ref=e265]:
+            - generic [ref=e266]:
+              - img [ref=e267]
+              - generic [ref=e269]: mysql
+            - code [ref=e273]:
+              - generic [ref=e274]: "delete from `cache` where `key` in ('laravel-cache-0bceb8aa9bb761a521d54e1872e61f9a:timer', 'laravel-cache-illuminate:cache:flexible:created:0bceb8aa9bb761a521d54e1872e61f9a:timer') and `expiration` <= 1781225950"
+          - generic [ref=e275]: 3.72ms
+        - generic [ref=e276]:
+          - generic [ref=e277]:
+            - generic [ref=e278]:
+              - img [ref=e279]
+              - generic [ref=e281]: mysql
+            - code [ref=e285]:
+              - generic [ref=e286]: "insert ignore into `cache` (`key`, `value`, `expiration`) values ('laravel-cache-0bceb8aa9bb761a521d54e1872e61f9a:timer', 'i:1781226010;', 1781226010)"
+          - generic [ref=e287]: 3.44ms
+        - generic [ref=e288]:
+          - generic [ref=e289]:
+            - generic [ref=e290]:
+              - img [ref=e291]
+              - generic [ref=e293]: mysql
+            - code [ref=e297]:
+              - generic [ref=e298]: "select * from `cache` where `key` in ('laravel-cache-0bceb8aa9bb761a521d54e1872e61f9a')"
+          - generic [ref=e299]: 0.4ms
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]:
+              - img [ref=e303]
+              - generic [ref=e305]: mysql
+            - code [ref=e309]:
+              - generic [ref=e310]: "insert ignore into `cache` (`key`, `value`, `expiration`) values ('laravel-cache-0bceb8aa9bb761a521d54e1872e61f9a', 'i:0;', 1781226010)"
+          - generic [ref=e311]: 2.78ms
+        - generic [ref=e312]:
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - img [ref=e315]
+              - generic [ref=e317]: mysql
+            - code [ref=e321]:
+              - generic [ref=e322]: "select * from `cache` where `key` = 'laravel-cache-0bceb8aa9bb761a521d54e1872e61f9a' limit 1 for update"
+          - generic [ref=e323]: 0.2ms
+        - generic [ref=e324]:
+          - generic [ref=e325]:
+            - generic [ref=e326]:
+              - img [ref=e327]
+              - generic [ref=e329]: mysql
+            - code [ref=e333]:
+              - generic [ref=e334]: "update `cache` set `value` = 'i:1;' where `key` = 'laravel-cache-0bceb8aa9bb761a521d54e1872e61f9a'"
+          - generic [ref=e335]: 0.22ms
+      - generic [ref=e336]:
+        - button [disabled] [ref=e337]:
+          - img [ref=e338]
+        - button [disabled] [ref=e341]:
+          - img [ref=e342]
+        - button "1" [ref=e345] [cursor=pointer]
+        - button "2" [ref=e347] [cursor=pointer]
+        - button [ref=e348] [cursor=pointer]:
+          - img [ref=e349]
+        - button [ref=e351] [cursor=pointer]:
+          - img [ref=e352]
+  - generic [ref=e356]:
+    - generic [ref=e357]:
+      - heading "Headers" [level=2] [ref=e358]
+      - generic [ref=e359]:
+        - generic [ref=e360]:
+          - generic [ref=e361]: host
+          - generic [ref=e363]: 127.0.0.1:8000
+        - generic [ref=e364]:
+          - generic [ref=e365]: connection
+          - generic [ref=e367]: keep-alive
+        - generic [ref=e368]:
+          - generic [ref=e369]: sec-ch-ua
+          - generic [ref=e371]: "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\""
+        - generic [ref=e372]:
+          - generic [ref=e373]: sec-ch-ua-mobile
+          - generic [ref=e375]: "?0"
+        - generic [ref=e376]:
+          - generic [ref=e377]: sec-ch-ua-platform
+          - generic [ref=e379]: "\"Linux\""
+        - generic [ref=e380]:
+          - generic [ref=e381]: upgrade-insecure-requests
+          - generic [ref=e383]: "1"
+        - generic [ref=e384]:
+          - generic [ref=e385]: user-agent
+          - generic [ref=e387]: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36
+        - generic [ref=e388]:
+          - generic [ref=e389]: accept
+          - generic [ref=e391]: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+        - generic [ref=e392]:
+          - generic [ref=e393]: sec-fetch-site
+          - generic [ref=e395]: none
+        - generic [ref=e396]:
+          - generic [ref=e397]: sec-fetch-mode
+          - generic [ref=e399]: navigate
+        - generic [ref=e400]:
+          - generic [ref=e401]: sec-fetch-user
+          - generic [ref=e403]: "?1"
+        - generic [ref=e404]:
+          - generic [ref=e405]: sec-fetch-dest
+          - generic [ref=e407]: document
+        - generic [ref=e408]:
+          - generic [ref=e409]: accept-encoding
+          - generic [ref=e411]: gzip, deflate, br, zstd
+        - generic [ref=e412]:
+          - generic [ref=e413]: accept-language
+          - generic [ref=e415]: en-US,en;q=0.9
+    - generic [ref=e416]:
+      - heading "Body" [level=2] [ref=e417]
+      - generic [ref=e418]: // No request body
+    - generic [ref=e419]:
+      - heading "Routing" [level=2] [ref=e420]
+      - generic [ref=e421]:
+        - generic [ref=e422]:
+          - generic [ref=e423]: controller
+          - generic [ref=e425]: Modules\Core\Http\Controllers\Web\HomeController@index
+        - generic [ref=e426]:
+          - generic [ref=e427]: route name
+          - generic [ref=e429]: home
+        - generic [ref=e430]:
+          - generic [ref=e431]: middleware
+          - generic [ref=e433]: web, throttle:public, cache.response:60
+    - generic [ref=e434]:
+      - heading "Routing parameters" [level=2] [ref=e435]
+      - generic [ref=e436]: // No routing parameters
+  - generic [ref=e439]:
+    - img [ref=e441]
+    - img [ref=e3479]

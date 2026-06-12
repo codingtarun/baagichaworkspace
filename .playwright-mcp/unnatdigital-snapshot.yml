@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]: Available for work
+  - generic "Social links" [ref=e5]:
+    - link "GitHub" [ref=e6]:
+      - /url: https://github.com/codingtarun
+      - img [ref=e7]
+    - link "LinkedIn" [ref=e10]:
+      - /url: https://www.linkedin.com/in/coding-tarun/
+      - img [ref=e11]
+    - link "Instagram" [ref=e15]:
+      - /url: https://www.instagram.com/i_tarun_chauhan_/
+      - img [ref=e16]
+    - link "X (Twitter)" [ref=e20]:
+      - /url: https://x.com/codingtarun
+      - img [ref=e21]
+  - generic "Contact email" [ref=e23]:
+    - link "coding.tarun@gmail.com" [ref=e24]:
+      - /url: mailto:coding.tarun@gmail.com
+  - generic [ref=e25]:
+    - banner [ref=e26]:
+      - generic [ref=e27]:
+        - link "Tarun Chauhan Full-Stack Developer" [ref=e29]:
+          - /url: https://unnatdigital.in
+          - generic [ref=e30]: Tarun Chauhan
+          - generic [ref=e31]:
+            - text: Full-Stack
+            - text: Developer
+        - generic [ref=e33]:
+          - text: Personal
+          - text: Portfolio
+        - navigation "Main navigation" [ref=e34]:
+          - list [ref=e35]:
+            - listitem [ref=e36]:
+              - link "Home" [ref=e37]:
+                - /url: https://unnatdigital.in
+            - listitem [ref=e38]:
+              - link "Portfolio" [ref=e39]:
+                - /url: https://unnatdigital.in/portfolios
+            - listitem [ref=e40]:
+              - link "Journal" [ref=e41]:
+                - /url: https://unnatdigital.in/journals
+            - listitem [ref=e42]:
+              - link "Resume" [ref=e43]:
+                - /url: https://unnatdigital.in/resume
+            - listitem [ref=e44]:
+              - link "Services" [ref=e45]:
+                - /url: https://unnatdigital.in/services
+            - listitem [ref=e46]:
+              - link "Open Source" [ref=e47]:
+                - /url: https://unnatdigital.in/open-source
+            - listitem [ref=e48]:
+              - link "Incubation" [ref=e49]:
+                - /url: https://unnatdigital.in/incubation
+        - generic [ref=e51]:
+          - text: Laravel &
+          - text: AI Engineering
+        - generic [ref=e52]:
+          - generic [ref=e53]: 🌐
+          - generic [ref=e54]:
+            - text: India ·
+            - text: Remote
+        - button "Toggle dark mode" [ref=e56]
+    - generic [ref=e58]:
+      - navigation [ref=e59]:
+        - list [ref=e60]:
+          - listitem [ref=e61]:
+            - link [ref=e62]:
+              - /url: https://unnatdigital.in
+              - text: Home
+          - listitem [ref=e63]:
+            - link [ref=e64]:
+              - /url: https://unnatdigital.in/portfolios
+              - text: Portfolio
+          - listitem [ref=e65]:
+            - link [ref=e66]:
+              - /url: https://unnatdigital.in/journals
+              - text: Journal
+          - listitem [ref=e67]:
+            - link [ref=e68]:
+              - /url: https://unnatdigital.in/resume
+              - text: Resume
+          - listitem [ref=e69]:
+            - link [ref=e70]:
+              - /url: https://unnatdigital.in/services
+              - text: Services
+          - listitem [ref=e71]:
+            - link [ref=e72]:
+              - /url: https://unnatdigital.in/open-source
+              - text: Open Source
+          - listitem [ref=e73]:
+            - link [ref=e74]:
+              - /url: https://unnatdigital.in/incubation
+              - text: Incubation
+        - link [ref=e75]:
+          - /url: https://unnatdigital.in/free-audit
+          - text: Free Audit →
+      - button [ref=e76]: ✕
+    - generic [ref=e77]:
+      - generic: TC
+      - generic [ref=e78]:
+        - generic [ref=e81]: Senior Software Engineer · Full-Stack Laravel + AI
+        - heading "I Build AI Integration Systems" [level=1] [ref=e348]:
+          - generic [ref=e83]: I Build
+          - generic [ref=e84]: AI Integration Systems
+        - generic [ref=e87]:
+          - generic [ref=e88]: AI-Driven Development
+          - generic [ref=e89]: ✦
+          - generic [ref=e90]: Laravel Architecture
+          - generic [ref=e91]: ✦
+          - generic [ref=e92]: Full-Stack Engineering
+          - generic [ref=e93]: ✦
+          - generic [ref=e94]: REST API Design
+          - generic [ref=e95]: ✦
+          - generic [ref=e96]: AI-Driven Development
+          - generic [ref=e97]: ✦
+          - generic [ref=e98]: Laravel Architecture
+          - generic [ref=e99]: ✦
+          - generic [ref=e100]: Full-Stack Engineering
+          - generic [ref=e101]: ✦
+          - generic [ref=e102]: REST API Design
+          - generic [ref=e103]: ✦
+        - paragraph [ref=e104]:
+          - text: I'm
+          - strong [ref=e105]: Tarun Chauhan
+          - text: — a Senior Software Engineer specialising in Laravel, AI-integrated systems, and high-performance web apps. Currently learning React Native for mobile. On weekends, you'll find me working in my apple orchard in Himachal Pradesh — follow along on
+          - link "Instagram" [ref=e106]:
+            - /url: https://www.instagram.com/baagicha_in/
+          - text: . Faster delivery, AI-accelerated.
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - generic [ref=e109]: 7+
+            - generic [ref=e110]: Clients
+          - generic [ref=e111]: ✦
+          - generic [ref=e112]:
+            - generic [ref=e113]: 10+
+            - generic [ref=e114]: Projects
+          - generic [ref=e115]: ✦
+          - generic [ref=e116]:
+            - generic [ref=e117]: 5+
+            - generic [ref=e118]: Years
+        - generic [ref=e119]:
+          - link "Get in Touch" [ref=e120]:
+            - /url: mailto:coding.tarun@gmail.com
+          - link "View Resume →" [ref=e121]:
+            - /url: https://unnatdigital.in/resume
+    - generic [ref=e122]:
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - text: ✦
+          - generic [ref=e125]: Selected Work
+        - heading "Portfolio" [level=2] [ref=e126]
+        - paragraph [ref=e127]: A selection of my work — from full-stack Laravel systems to AI-integrated platforms. Clean code, purposeful design, delivered fast.
+      - list [ref=e130]:
+        - listitem [ref=e131]: ✦ Custom Web Development ·
+        - listitem [ref=e132]: ✦ Full-Stack Laravel Applications ·
+        - listitem [ref=e133]: ✦ Front-End Development ·
+        - listitem [ref=e134]: ✦ API Development & Integrations ·
+        - listitem [ref=e135]: ✦ UI/UX Design & Implementation ·
+        - listitem [ref=e136]: ✦ Responsive Web Design ·
+        - listitem [ref=e137]: ✦ Custom Web Development ·
+        - listitem [ref=e138]: ✦ Full-Stack Laravel Applications ·
+        - listitem [ref=e139]: ✦ Front-End Development ·
+        - listitem [ref=e140]: ✦ API Development & Integrations ·
+      - generic [ref=e141]:
+        - article [ref=e142]:
+          - link "Mawadiy - E-commerce Backend API [01] E-commerce Mawadiy - E-commerce Backend API" [ref=e143]:
+            - /url: https://unnatdigital.in/portfolios/mawadiy-e-commerce-backend-api/get
+            - generic [ref=e144]:
+              - img "Mawadiy - E-commerce Backend API" [ref=e145]
+              - iframe [ref=e146]:
+                - generic [ref=f1e4]:
+                  - heading "We couldn't verify the security of your connection." [level=1] [ref=f1e5]
+                  - heading "Access to this content has been restricted. Contact your internet service provider for help." [level=2] [ref=f1e6]
+            - generic [ref=e147]:
+              - generic [ref=e148]: "[01]"
+              - generic [ref=e149]: E-commerce
+            - heading "Mawadiy - E-commerce Backend API" [level=3] [ref=e150]
+        - article [ref=e151]:
+          - link "Bhatko [02] TODO Bhatko" [ref=e152]:
+            - /url: https://unnatdigital.in/portfolios/bhatko/get
+            - generic [ref=e153]:
+              - img "Bhatko" [ref=e154]
+              - iframe [ref=e155]:
+                - generic [ref=f2e4]:
+                  - heading "We couldn't verify the security of your connection." [level=1] [ref=f2e5]
+                  - heading "Access to this content has been restricted. Contact your internet service provider for help." [level=2] [ref=f2e6]
+            - generic [ref=e156]:
+              - generic [ref=e157]: "[02]"
+              - generic [ref=e158]: TODO
+            - heading "Bhatko" [level=3] [ref=e159]
+        - article [ref=e160]:
+          - link "Amar Prem Haveli [03] TODO Amar Prem Haveli" [ref=e161]:
+            - /url: https://unnatdigital.in/portfolios/amar-prem-haveli/get
+            - generic [ref=e162]:
+              - img "Amar Prem Haveli" [ref=e163]
+              - iframe [ref=e164]:
+                - generic [ref=f3e4]:
+                  - heading "We couldn't verify the security of your connection." [level=1] [ref=f3e5]
+                  - heading "Access to this content has been restricted. Contact your internet service provider for help." [level=2] [ref=f3e6]
+            - generic [ref=e165]:
+              - generic [ref=e166]: "[03]"
+              - generic [ref=e167]: TODO
+            - heading "Amar Prem Haveli" [level=3] [ref=e168]
+        - article [ref=e169]:
+          - link "Himalayan Wolves - Adventure Travel Platform [04] Tourism & Adventure Travel Himalayan Wolves - Adventure Travel Platform" [ref=e170]:
+            - /url: https://unnatdigital.in/portfolios/himalayan-wolves-adventure-travel-platform/get
+            - generic [ref=e171]:
+              - img "Himalayan Wolves - Adventure Travel Platform" [ref=e172]
+              - iframe [ref=e173]:
+                - generic [ref=f4e4]:
+                  - heading "We couldn't verify the security of your connection." [level=1] [ref=f4e5]
+                  - heading "Access to this content has been restricted. Contact your internet service provider for help." [level=2] [ref=f4e6]
+            - generic [ref=e174]:
+              - generic [ref=e175]: "[04]"
+              - generic [ref=e176]: Tourism & Adventure Travel
+            - heading "Himalayan Wolves - Adventure Travel Platform" [level=3] [ref=e177]
+      - link "All Projects →" [ref=e179]:
+        - /url: https://unnatdigital.in/portfolios
+    - generic [ref=e180]:
+      - generic [ref=e181]:
+        - heading "Experience" [level=1] [ref=e182]
+        - heading "A year-by-year account of my professional journey — the clients, the challenges, and the technologies that shaped me as a developer." [level=4] [ref=e183]
+      - generic [ref=e185]:
+        - heading "2025 — Present" [level=2] [ref=e186]
+        - generic [ref=e188]:
+          - generic [ref=e189]:
+            - text: Senior Software Engineer
+            - link "@ PrimeGurukul" [ref=e190]:
+              - /url: https://www.primegurukul.com/
+          - generic [ref=e191]:
+            - paragraph [ref=e192]: "Leading AI-driven full-stack Laravel development at PrimeGurukul — an ed-tech platform focused on professional growth and training. Over the past 4 months, I've deeply integrated AI into my daily workflow, achieving a 4x productivity boost in feature delivery, code review, and debugging. Own the entire product lifecycle: from system architecture and UI design through development to production deployment. Applying advanced Laravel capabilities including queue management, event broadcasting, Horizon, Telescope, custom Artisan commands, and service container patterns to deliver scalable, maintainable platforms."
+            - generic [ref=e193]:
+              - generic [ref=e194]: Laravel
+              - generic [ref=e195]: PHP
+              - generic [ref=e196]: AI Integration
+              - generic [ref=e197]: DevOps
+              - generic [ref=e198]: Laravel Horizon
+              - generic [ref=e199]: REST API
+        - separator [ref=e200]
+        - heading "2025 — Present" [level=2] [ref=e201]
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - text: Founder & Developer
+            - link "@ Baagvaani" [ref=e205]:
+              - /url: https://baagvaani.com
+          - generic [ref=e206]:
+            - paragraph [ref=e207]:
+              - text: Building
+              - strong [ref=e208]: Baagvaani
+              - text: — a personal assistant for apple farming designed to help manage day-to-day tasks in the orchard. From spray schedules and harvest tracking to market linkage and knowledge sharing — bridging the gap between traditional orchard farming and modern digital tools. Born from personal experience running regenerative apple orchards in Himachal Pradesh, Baagvaani is both a passion project and a long-term mission for mountain farming communities.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Laravel
+              - generic [ref=e211]: Mobile App
+              - generic [ref=e212]: AgriTech
+              - generic [ref=e213]: REST API
+              - generic [ref=e214]: React Native
+        - separator [ref=e215]
+        - heading "2024 — Present" [level=2] [ref=e216]
+        - generic [ref=e218]:
+          - generic [ref=e219]: Modern Freelance Developer
+          - generic [ref=e220]:
+            - paragraph [ref=e221]: Working as a full-time freelance developer, partnering with clients to build scalable and maintainable web solutions. Focused on the Laravel ecosystem, creating robust REST APIs, and crafting modern UIs with Bootstrap. Currently dedicating extra time to learning JavaScript and React Native for mobile app development, expanding from web-only to full-stack + mobile delivery.
+            - generic [ref=e222]:
+              - generic [ref=e223]: Laravel
+              - generic [ref=e224]: PHP
+              - generic [ref=e225]: REST API
+              - generic [ref=e226]: React Native
+              - generic [ref=e227]: JavaScript
+        - separator [ref=e228]
+        - heading "2023 — 2024" [level=2] [ref=e229]
+        - generic [ref=e231]:
+          - generic [ref=e232]: Software Developer @ SASA Infotech
+          - generic [ref=e233]:
+            - paragraph [ref=e234]: Joined SASA Infotech as a full-time Software Developer (Aug 2023 – mid 2024). Maintained and modernised legacy applications, performed major framework upgrades (CodeIgniter, OpenCart), and integrated third-party APIs including MYOB and eWay for the Australian Boat Schools platform.
+            - generic [ref=e235]:
+              - generic [ref=e236]: Core PHP
+              - generic [ref=e237]: CodeIgniter
+              - generic [ref=e238]: OpenCart
+              - generic [ref=e239]: MYOB API
+              - generic [ref=e240]: eWay
+        - separator [ref=e241]
+        - heading "2022 — 2023" [level=2] [ref=e242]
+        - generic [ref=e244]:
+          - generic [ref=e245]: Founding Freelance Career
+          - generic [ref=e246]:
+            - paragraph [ref=e247]: "Began my journey as a full-time freelance developer, gaining real-world experience through referrals. Started learning Laravel and advanced PHP OOP. Highlight: collaborated with other freelancers to build the complete backend and REST API for the Mawadiy e-commerce application."
+            - generic [ref=e248]:
+              - generic [ref=e249]: Laravel
+              - generic [ref=e250]: PHP OOP
+              - generic [ref=e251]: REST API
+              - generic [ref=e252]: MySQL
+        - separator [ref=e253]
+        - heading "2020 — 2022" [level=2] [ref=e254]
+        - generic [ref=e256]:
+          - generic [ref=e257]: The Career Transition
+          - generic [ref=e258]:
+            - paragraph [ref=e259]: Managed the family apple orchards while implementing regenerative farming practices. In parallel, made a deliberate move into web development — starting with WordPress and foundational PHP, then progressively levelling up through Laravel. Helped friends with small projects, built my first client sites, and laid the groundwork for a full-time career in tech.
+            - generic [ref=e260]:
+              - generic [ref=e261]: PHP
+              - generic [ref=e262]: WordPress
+              - generic [ref=e263]: Laravel
+              - generic [ref=e264]: HTML/CSS
+        - separator [ref=e265]
+        - heading "2014 — 2020" [level=2] [ref=e266]
+        - generic [ref=e268]:
+          - generic [ref=e269]: Floor Manager & Grading Technician
+          - generic [ref=e270]:
+            - paragraph [ref=e271]: At HimaFresh Produce Co., began as a Technician for a MAAF RODA grading machine and was promoted to Floor Manager. Managed the full operational pipeline — from apple procurement and quality assurance to packing and market deployment — until October 2020.
+            - generic [ref=e272]:
+              - generic [ref=e273]: Operations
+              - generic [ref=e274]: Quality Assurance
+              - generic [ref=e275]: Team Management
+      - link "View Full Resume " [ref=e277]:
+        - /url: https://unnatdigital.in/resume
+        - text: View Full Resume
+        - generic [ref=e278]: 
+    - generic [ref=e280]:
+      - paragraph [ref=e281]: "Currently: Senior Engineer @ PrimeGurukul · Learning React Native · Open to freelance projects"
+      - paragraph [ref=e283]: Get in Touch
+      - heading "Let's Work Together." [level=2] [ref=e284]
+      - paragraph [ref=e285]: I'm available for freelance projects, consulting, and full-time roles.
+      - generic [ref=e286]:
+        - link "coding.tarun@gmail.com" [ref=e287]:
+          - /url: mailto:coding.tarun@gmail.com
+        - button "" [ref=e288]:
+          - generic [ref=e289]: 
+          - text: 
+      - generic [ref=e291]:
+        - generic [ref=e292]:
+          - textbox "Your Name" [ref=e293]
+          - textbox "Your Email" [ref=e294]
+        - textbox "Phone (optional)" [ref=e295]
+        - textbox "Tell me about your project..." [ref=e296]
+        - button "Send Message" [ref=e297] [cursor=pointer]
+      - list [ref=e298]:
+        - listitem [ref=e299]:
+          - link "GitHub" [ref=e300]:
+            - /url: https://github.com/codingtarun
+            - img [ref=e301]
+            - text: GitHub
+        - listitem [ref=e304]:
+          - link "LinkedIn" [ref=e305]:
+            - /url: https://www.linkedin.com/in/coding-tarun/
+            - img [ref=e306]
+            - text: LinkedIn
+        - listitem [ref=e310]:
+          - link "Instagram" [ref=e311]:
+            - /url: https://www.instagram.com/i_tarun_chauhan_/
+            - img [ref=e312]
+            - text: Instagram
+    - generic [ref=e318]:
+      - generic [ref=e319]:
+        - generic [ref=e320]:
+          - generic [ref=e321]: Tarun Chauhan
+          - generic [ref=e322]:
+            - text: Full-Stack Developer
+            - text: unnatdigital.in
+        - list [ref=e323]:
+          - listitem [ref=e324]:
+            - link "Home" [ref=e325]:
+              - /url: https://unnatdigital.in
+          - listitem [ref=e326]:
+            - link "Portfolio" [ref=e327]:
+              - /url: https://unnatdigital.in/portfolios
+          - listitem [ref=e328]:
+            - link "Journal" [ref=e329]:
+              - /url: https://unnatdigital.in/journals
+          - listitem [ref=e330]:
+            - link "Resume" [ref=e331]:
+              - /url: https://unnatdigital.in/resume
+          - listitem [ref=e332]:
+            - link "Services" [ref=e333]:
+              - /url: https://unnatdigital.in/services
+          - listitem [ref=e334]:
+            - link "Roadmap" [ref=e335]:
+              - /url: https://unnatdigital.in/roadmap
+        - generic [ref=e336]:
+          - link "coding.tarun@gmail.com" [ref=e337]:
+            - /url: mailto:coding.tarun@gmail.com
+          - list [ref=e338]:
+            - listitem [ref=e339]:
+              - link "GitHub" [ref=e340]:
+                - /url: https://github.com/codingtarun
+            - listitem [ref=e341]:
+              - link "LinkedIn" [ref=e342]:
+                - /url: https://www.linkedin.com/in/coding-tarun/
+            - listitem [ref=e343]:
+              - link "Instagram" [ref=e344]:
+                - /url: https://www.instagram.com/i_tarun_chauhan_/
+      - generic [ref=e345]:
+        - paragraph [ref=e346]: © 2026 Tarun Chauhan. All rights reserved.
+        - link "Free Audit →" [ref=e347]:
+          - /url: https://unnatdigital.in/free-audit
