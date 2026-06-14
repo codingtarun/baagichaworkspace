@@ -1,0 +1,164 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - generic [ref=e8]: Baagvaani
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "Login" [ref=e11] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/login
+          - link "Sign Up" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/register
+        - button "Toggle menu" [ref=e13]:
+          - img [ref=e14]
+  - main [ref=e16]:
+    - region "Shop" [ref=e17]:
+      - generic [ref=e21]:
+        - heading "Shop" [level=1] [ref=e22]
+        - paragraph [ref=e23]: Quality supplies for your orchard.
+        - generic [ref=e24]:
+          - textbox "Search products..." [ref=e25]
+          - button "Search" [ref=e26] [cursor=pointer]
+    - navigation "Breadcrumb" [ref=e27]:
+      - list [ref=e28]:
+        - listitem [ref=e29]:
+          - link "Home" [ref=e30] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+        - listitem [ref=e31]:
+          - img [ref=e32]
+        - listitem [ref=e34]: Shop
+    - region "All Products" [ref=e35]:
+      - generic [ref=e37]:
+        - complementary "Product filters" [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - heading "Categories" [level=3] [ref=e41]
+              - generic [ref=e42]:
+                - link "All Categories" [ref=e43] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop
+                - link "Hand Sprayers" [ref=e44] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?category_slug=hand-sprayers
+                - link "Pruning Tools" [ref=e45] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?category_slug=pruning-tools
+                - link "Tools" [ref=e46] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?category_slug=tools
+                - link "Cutting Tools" [ref=e47] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?category_slug=cutting-tools
+                - link "Spray Equipment" [ref=e48] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?category_slug=spray-equipment
+                - link "Safety & Protection" [ref=e49] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?category_slug=safety-protection
+            - generic [ref=e50]:
+              - heading "Brands" [level=3] [ref=e51]
+              - generic [ref=e52]:
+                - link "ARS" [ref=e53] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?brand_slug=ars
+                - link "Bahco" [ref=e54] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?brand_slug=bahco
+                - link "Corona" [ref=e55] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?brand_slug=corona
+                - link "Fiskars" [ref=e56] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?brand_slug=fiskars
+                - link "Okatsune" [ref=e57] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?brand_slug=okatsune
+            - generic [ref=e58]:
+              - heading "Price Range" [level=3] [ref=e59]
+              - generic [ref=e60]:
+                - spinbutton [ref=e61]
+                - spinbutton [ref=e62]
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - heading "All Products" [level=1] [ref=e65]
+            - generic [ref=e66]:
+              - generic [ref=e67]: 3 products
+              - combobox [ref=e68]:
+                - option "Sort by" [selected]
+                - option "Popular"
+                - option "Newest"
+                - 'option "Price: Low to High"'
+                - 'option "Price: High to Low"'
+                - option "Top Rated"
+          - generic [ref=e69]:
+            - article [ref=e70]:
+              - link "Sale Professional Pruning Shears ₹450 ₹599" [ref=e71] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/professional-pruning-shears
+                - generic [ref=e72]:
+                  - img [ref=e74]
+                  - generic [ref=e76]: Sale
+                - generic [ref=e77]:
+                  - heading "Professional Pruning Shears" [level=3] [ref=e78]
+                  - generic [ref=e79]:
+                    - generic [ref=e80]: ₹450
+                    - generic [ref=e81]: ₹599
+              - button "Add to Cart" [ref=e84]
+            - article [ref=e85]:
+              - link "Sale Hori Hori Garden Knife ₹320 ₹399" [ref=e86] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/hori-hori-garden-knife
+                - generic [ref=e87]:
+                  - img [ref=e89]
+                  - generic [ref=e91]: Sale
+                - generic [ref=e92]:
+                  - heading "Hori Hori Garden Knife" [level=3] [ref=e93]
+                  - generic [ref=e94]:
+                    - generic [ref=e95]: ₹320
+                    - generic [ref=e96]: ₹399
+              - button "Add to Cart" [ref=e99]
+            - article [ref=e100]:
+              - link "Sale Heavy Duty Loppers ₹850 ₹999" [ref=e101] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/heavy-duty-loppers
+                - generic [ref=e102]:
+                  - img [ref=e104]
+                  - generic [ref=e106]: Sale
+                - generic [ref=e107]:
+                  - heading "Heavy Duty Loppers" [level=3] [ref=e108]
+                  - generic [ref=e109]:
+                    - generic [ref=e110]: ₹850
+                    - generic [ref=e111]: ₹999
+              - button "Add to Cart" [ref=e114]
+  - contentinfo [ref=e115]:
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - link "Baagvaani" [ref=e119] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e121]: Baagvaani
+          - paragraph [ref=e122]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e124]: Social channels coming soon
+        - generic [ref=e125]:
+          - heading "Quick Links" [level=3] [ref=e126]
+          - list [ref=e127]:
+            - listitem [ref=e128]:
+              - link "Home" [ref=e129] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e130]:
+              - link "Blog" [ref=e131] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e132]:
+              - link "About Us" [ref=e133] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e134]:
+          - heading "Topics" [level=3] [ref=e135]
+          - list [ref=e136]:
+            - listitem [ref=e137]:
+              - link "Spray & Disease" [ref=e138] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e139]:
+              - link "Orchard Care" [ref=e140] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e141]:
+              - link "Variety Guide" [ref=e142] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e143]:
+              - link "Weather & Climate" [ref=e144] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e145]:
+          - heading "Newsletter" [level=3] [ref=e146]
+          - paragraph [ref=e147]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e148]:
+            - textbox "Enter your email" [ref=e149]
+            - button "Subscribe" [ref=e150]
+          - paragraph [ref=e151]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e153]: © 2026 Baagvaani. All rights reserved.

@@ -1,0 +1,501 @@
+- generic [active] [ref=e1]:
+  - text:  
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link " Baagicha" [ref=e6] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - generic [ref=e7]: 
+          - generic [ref=e8]: Baagicha
+        - link " Login for personalized reports" [ref=e10] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+          - generic [ref=e11]: 
+          - generic [ref=e12]: Login for personalized reports
+      - text: 
+    - generic [ref=e13]:
+      - region "Disease Library" [ref=e14]:
+        - generic [ref=e18]:
+          - paragraph [ref=e19]: रोग पहचान एवं प्रबंधन
+          - heading "Disease Library" [level=1] [ref=e20]
+          - generic [ref=e21]:
+            - textbox "Search diseases..." [ref=e22]
+            - button "Search" [ref=e23] [cursor=pointer]
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - button "All सभी" [ref=e27] [cursor=pointer]:
+            - text: All
+            - generic [ref=e28]: सभी
+          - button " Critical गंभीर" [ref=e29] [cursor=pointer]:
+            - generic [ref=e30]: 
+            - text: Critical
+            - generic [ref=e31]: गंभीर
+          - button " High अधिक" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]: 
+            - text: High
+            - generic [ref=e34]: अधिक
+          - button " Medium मध्यम" [ref=e35] [cursor=pointer]:
+            - generic [ref=e36]: 
+            - text: Medium
+            - generic [ref=e37]: मध्यम
+          - button " Low कम" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: 
+            - text: Low
+            - generic [ref=e40]: कम
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - generic [ref=e45]: 
+              - generic [ref=e46]:
+                - generic [ref=e47]: 
+                - text: High
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: Alternaria Leaf Spot
+              - paragraph [ref=e50]: ऑल्टरनेरिया लीफ स्पॉट
+              - paragraph [ref=e51]: Alternaria Leaf Spot causes brown circular spots on mature leaves, leading to yellowing and premature leaf drop.
+            - generic [ref=e52]:
+              - button "Report Sighting" [ref=e53] [cursor=pointer]:
+                - generic [ref=e54]: 
+                - generic [ref=e55]: Seen Here
+              - button "Watch" [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: 
+                - generic [ref=e58]: Watch
+            - link " Know More" [ref=e59] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/alternaria-leaf-spot
+              - generic [ref=e60]: 
+              - text: Know More
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - generic [ref=e64]: 
+              - generic [ref=e65]:
+                - generic [ref=e66]: 
+                - text: Medium
+            - generic [ref=e67]:
+              - paragraph [ref=e68]: Apple Blossom Thrips
+              - paragraph [ref=e69]: सेब फूल थ्रिप्स
+              - paragraph [ref=e70]: Blossom thrips feed on flower parts and young fruit, causing silvery scarring and deformation.
+            - generic [ref=e71]:
+              - button "Report Sighting" [ref=e72] [cursor=pointer]:
+                - generic [ref=e73]: 
+                - generic [ref=e74]: Seen Here
+              - button "Watch" [ref=e75] [cursor=pointer]:
+                - generic [ref=e76]: 
+                - generic [ref=e77]: Watch
+            - link " Know More" [ref=e78] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/apple-blossom-thrips
+              - generic [ref=e79]: 
+              - text: Know More
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - generic [ref=e83]: 
+              - generic [ref=e84]:
+                - generic [ref=e85]: 
+                - text: High
+            - generic [ref=e86]:
+              - paragraph [ref=e87]: Apple Clearwing Borer
+              - paragraph [ref=e88]: सेब क्लियरविंग बोरर
+              - paragraph [ref=e89]: Clearwing borer larvae tunnel under bark, weakening scaffold limbs and trunks. Infested trees show sawdust-like frass and oozing sap.
+            - generic [ref=e90]:
+              - button "Report Sighting" [ref=e91] [cursor=pointer]:
+                - generic [ref=e92]: 
+                - generic [ref=e93]: Seen Here
+              - button "Watch" [ref=e94] [cursor=pointer]:
+                - generic [ref=e95]: 
+                - generic [ref=e96]: Watch
+            - link " Know More" [ref=e97] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/apple-clearwing-borer
+              - generic [ref=e98]: 
+              - text: Know More
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e102]: 
+              - generic [ref=e103]:
+                - generic [ref=e104]: 
+                - text: Medium
+            - generic [ref=e105]:
+              - paragraph [ref=e106]: Apple Fruit Moth
+              - paragraph [ref=e107]: सेब फ्रूट मोथ
+              - paragraph [ref=e108]: Fruit moth larvae bore into young apples, causing fruit drop and scarring.
+            - generic [ref=e109]:
+              - button "Report Sighting" [ref=e110] [cursor=pointer]:
+                - generic [ref=e111]: 
+                - generic [ref=e112]: Seen Here
+              - button "Watch" [ref=e113] [cursor=pointer]:
+                - generic [ref=e114]: 
+                - generic [ref=e115]: Watch
+            - link " Know More" [ref=e116] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/apple-fruit-moth
+              - generic [ref=e117]: 
+              - text: Know More
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - generic [ref=e121]: 
+              - generic [ref=e122]:
+                - generic [ref=e123]: 
+                - text: Low
+            - generic [ref=e124]:
+              - paragraph [ref=e125]: Apple Leaf Miner
+              - paragraph [ref=e126]: सेब लीफ माइनर
+              - paragraph [ref=e127]: Leaf miner larvae tunnel inside leaves, creating winding mines that reduce leaf function.
+            - generic [ref=e128]:
+              - button "Report Sighting" [ref=e129] [cursor=pointer]:
+                - generic [ref=e130]: 
+                - generic [ref=e131]: Seen Here
+              - button "Watch" [ref=e132] [cursor=pointer]:
+                - generic [ref=e133]: 
+                - generic [ref=e134]: Watch
+            - link " Know More" [ref=e135] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/apple-leaf-miner
+              - generic [ref=e136]: 
+              - text: Know More
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - generic [ref=e140]: 
+              - generic [ref=e141]:
+                - generic [ref=e142]: 
+                - text: High
+            - generic [ref=e143]:
+              - paragraph [ref=e144]: Apple Root Borer
+              - paragraph [ref=e145]: सेब रूट बोरर
+              - paragraph [ref=e146]: Root borer grubs feed on roots, leading to yellowing, wilting and eventual death of trees.
+            - generic [ref=e147]:
+              - button "Report Sighting" [ref=e148] [cursor=pointer]:
+                - generic [ref=e149]: 
+                - generic [ref=e150]: Seen Here
+              - button "Watch" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]: 
+                - generic [ref=e153]: Watch
+            - link " Know More" [ref=e154] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/apple-root-borer
+              - generic [ref=e155]: 
+              - text: Know More
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - generic [ref=e159]: 
+              - generic [ref=e160]:
+                - generic [ref=e161]: 
+                - text: Critical
+            - generic [ref=e162]:
+              - paragraph [ref=e163]: Apple Scab
+              - paragraph [ref=e164]: सेब का दाग
+              - paragraph [ref=e165]: Apple Scab is the most devastating fungal disease of apples in Himachal Pradesh, affecting leaves and fruit during cool, wet spring weather.
+            - generic [ref=e166]:
+              - button "Report Sighting" [ref=e167] [cursor=pointer]:
+                - generic [ref=e168]: 
+                - generic [ref=e169]: Seen Here
+              - button "Watch" [ref=e170] [cursor=pointer]:
+                - generic [ref=e171]: 
+                - generic [ref=e172]: Watch
+            - link " Know More" [ref=e173] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/apple-scab
+              - generic [ref=e174]: 
+              - text: Know More
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - generic [ref=e178]: 
+              - generic [ref=e179]:
+                - generic [ref=e180]: 
+                - text: Medium
+            - generic [ref=e181]:
+              - paragraph [ref=e182]: Bitter Pit
+              - paragraph [ref=e183]: बिटर पिट
+              - paragraph [ref=e184]: Bitter Pit is a calcium deficiency disorder appearing as small sunken spots on fruit surface, common in vigorous trees with high nitrogen.
+            - generic [ref=e185]:
+              - button "Report Sighting" [ref=e186] [cursor=pointer]:
+                - generic [ref=e187]: 
+                - generic [ref=e188]: Seen Here
+              - button "Watch" [ref=e189] [cursor=pointer]:
+                - generic [ref=e190]: 
+                - generic [ref=e191]: Watch
+            - link " Know More" [ref=e192] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/bitter-pit
+              - generic [ref=e193]: 
+              - text: Know More
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - generic [ref=e197]: 
+              - generic [ref=e198]:
+                - generic [ref=e199]: 
+                - text: High
+            - generic [ref=e200]:
+              - paragraph [ref=e201]: Bitter Rot
+              - paragraph [ref=e202]: कड़वा सड़न
+              - paragraph [ref=e203]: Bitter Rot causes sunken lesions with pink spore masses, common in warm, humid regions.
+            - generic [ref=e204]:
+              - button "Report Sighting" [ref=e205] [cursor=pointer]:
+                - generic [ref=e206]: 
+                - generic [ref=e207]: Seen Here
+              - button "Watch" [ref=e208] [cursor=pointer]:
+                - generic [ref=e209]: 
+                - generic [ref=e210]: Watch
+            - link " Know More" [ref=e211] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/bitter-rot
+              - generic [ref=e212]: 
+              - text: Know More
+          - generic [ref=e213]:
+            - generic [ref=e214]:
+              - generic [ref=e216]: 
+              - generic [ref=e217]:
+                - generic [ref=e218]: 
+                - text: High
+            - generic [ref=e219]:
+              - paragraph [ref=e220]: Black Rot
+              - paragraph [ref=e221]: ब्लैक रोट
+              - paragraph [ref=e222]: Black Rot (also associated with Black Canker) causes firm, shrivelled fruit rot and cankers on branches, often entering through wounds.
+            - generic [ref=e223]:
+              - button "Report Sighting" [ref=e224] [cursor=pointer]:
+                - generic [ref=e225]: 
+                - generic [ref=e226]: Seen Here
+              - button "Watch" [ref=e227] [cursor=pointer]:
+                - generic [ref=e228]: 
+                - generic [ref=e229]: Watch
+            - link " Know More" [ref=e230] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/black-rot
+              - generic [ref=e231]: 
+              - text: Know More
+          - generic [ref=e232]:
+            - generic [ref=e233]:
+              - generic [ref=e235]: 
+              - generic [ref=e236]:
+                - generic [ref=e237]: 
+                - text: Medium
+            - generic [ref=e238]:
+              - paragraph [ref=e239]: Brown Mite
+              - paragraph [ref=e240]: ब्राउन माइट
+              - paragraph [ref=e241]: Brown mite feeds on leaves early in the season, causing silvering and reduced shoot growth.
+            - generic [ref=e242]:
+              - button "Report Sighting" [ref=e243] [cursor=pointer]:
+                - generic [ref=e244]: 
+                - generic [ref=e245]: Seen Here
+              - button "Watch" [ref=e246] [cursor=pointer]:
+                - generic [ref=e247]: 
+                - generic [ref=e248]: Watch
+            - link " Know More" [ref=e249] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/brown-mite
+              - generic [ref=e250]: 
+              - text: Know More
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - generic [ref=e254]: 
+              - generic [ref=e255]:
+                - generic [ref=e256]: 
+                - text: High
+            - generic [ref=e257]:
+              - paragraph [ref=e258]: Brown Rot
+              - paragraph [ref=e259]: भूरा सड़न
+              - paragraph [ref=e260]: Brown Rot causes soft brown decay of fruit and blossom blight, with characteristic tan spore masses.
+            - generic [ref=e261]:
+              - button "Report Sighting" [ref=e262] [cursor=pointer]:
+                - generic [ref=e263]: 
+                - generic [ref=e264]: Seen Here
+              - button "Watch" [ref=e265] [cursor=pointer]:
+                - generic [ref=e266]: 
+                - generic [ref=e267]: Watch
+            - link " Know More" [ref=e268] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/brown-rot
+              - generic [ref=e269]: 
+              - text: Know More
+          - generic [ref=e270]:
+            - generic [ref=e271]:
+              - generic [ref=e273]: 
+              - generic [ref=e274]:
+                - generic [ref=e275]: 
+                - text: Critical
+            - generic [ref=e276]:
+              - paragraph [ref=e277]: Codling Moth
+              - paragraph [ref=e278]: कोडलिंग मोथ
+              - paragraph [ref=e279]: Codling Moth larvae tunnel into developing fruits, leaving frass-filled holes. Multiple generations per season cause continuous damage.
+            - generic [ref=e280]:
+              - button "Report Sighting" [ref=e281] [cursor=pointer]:
+                - generic [ref=e282]: 
+                - generic [ref=e283]: Seen Here
+              - button "Watch" [ref=e284] [cursor=pointer]:
+                - generic [ref=e285]: 
+                - generic [ref=e286]: Watch
+            - link " Know More" [ref=e287] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/codling-moth
+              - generic [ref=e288]: 
+              - text: Know More
+          - generic [ref=e289]:
+            - generic [ref=e290]:
+              - generic [ref=e292]: 
+              - generic [ref=e293]:
+                - generic [ref=e294]: 
+                - text: Critical
+            - generic [ref=e295]:
+              - paragraph [ref=e296]: Collar Rot
+              - paragraph [ref=e297]: कॉलर रोट
+              - paragraph [ref=e298]: Collar Rot attacks the trunk at ground level, girdling the tree and causing rapid decline in poorly drained soils.
+            - generic [ref=e299]:
+              - button "Report Sighting" [ref=e300] [cursor=pointer]:
+                - generic [ref=e301]: 
+                - generic [ref=e302]: Seen Here
+              - button "Watch" [ref=e303] [cursor=pointer]:
+                - generic [ref=e304]: 
+                - generic [ref=e305]: Watch
+            - link " Know More" [ref=e306] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/collar-rot
+              - generic [ref=e307]: 
+              - text: Know More
+          - generic [ref=e308]:
+            - generic [ref=e309]:
+              - generic [ref=e311]: 
+              - generic [ref=e312]:
+                - generic [ref=e313]: 
+                - text: Medium
+            - generic [ref=e314]:
+              - paragraph [ref=e315]: Cork Spot
+              - paragraph [ref=e316]: कॉर्क स्पॉट
+              - paragraph [ref=e317]: Cork Spot appears as small corky areas on fruit skin, caused by calcium deficiency and irregular water supply.
+            - generic [ref=e318]:
+              - button "Report Sighting" [ref=e319] [cursor=pointer]:
+                - generic [ref=e320]: 
+                - generic [ref=e321]: Seen Here
+              - button "Watch" [ref=e322] [cursor=pointer]:
+                - generic [ref=e323]: 
+                - generic [ref=e324]: Watch
+            - link " Know More" [ref=e325] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/cork-spot
+              - generic [ref=e326]: 
+              - text: Know More
+          - generic [ref=e327]:
+            - generic [ref=e328]:
+              - generic [ref=e330]: 
+              - generic [ref=e331]:
+                - generic [ref=e332]: 
+                - text: Medium
+            - generic [ref=e333]:
+              - paragraph [ref=e334]: Crown Gall
+              - paragraph [ref=e335]: क्राउन गॉल
+              - paragraph [ref=e336]: Crown Gall causes rough woody galls at the crown and on roots, interfering with nutrient and water flow.
+            - generic [ref=e337]:
+              - button "Report Sighting" [ref=e338] [cursor=pointer]:
+                - generic [ref=e339]: 
+                - generic [ref=e340]: Seen Here
+              - button "Watch" [ref=e341] [cursor=pointer]:
+                - generic [ref=e342]: 
+                - generic [ref=e343]: Watch
+            - link " Know More" [ref=e344] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/crown-gall
+              - generic [ref=e345]: 
+              - text: Know More
+          - generic [ref=e346]:
+            - generic [ref=e347]:
+              - generic [ref=e349]: 
+              - generic [ref=e350]:
+                - generic [ref=e351]: 
+                - text: High
+            - generic [ref=e352]:
+              - paragraph [ref=e353]: European Canker
+              - paragraph [ref=e354]: यूरोपीय कैंकर
+              - paragraph [ref=e355]: European Canker causes sunken lesions on branches and fruit, leading to dieback in young trees.
+            - generic [ref=e356]:
+              - button "Report Sighting" [ref=e357] [cursor=pointer]:
+                - generic [ref=e358]: 
+                - generic [ref=e359]: Seen Here
+              - button "Watch" [ref=e360] [cursor=pointer]:
+                - generic [ref=e361]: 
+                - generic [ref=e362]: Watch
+            - link " Know More" [ref=e363] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/european-canker
+              - generic [ref=e364]: 
+              - text: Know More
+          - generic [ref=e365]:
+            - generic [ref=e366]:
+              - generic [ref=e368]: 
+              - generic [ref=e369]:
+                - generic [ref=e370]: 
+                - text: High
+            - generic [ref=e371]:
+              - paragraph [ref=e372]: European Red Mite
+              - paragraph [ref=e373]: यूरोपियन रेड माइट
+              - paragraph [ref=e374]: European Red Mite sucks cell contents from leaves, causing bronze discoloration, reduced vigour and fruit size.
+            - generic [ref=e375]:
+              - button "Report Sighting" [ref=e376] [cursor=pointer]:
+                - generic [ref=e377]: 
+                - generic [ref=e378]: Seen Here
+              - button "Watch" [ref=e379] [cursor=pointer]:
+                - generic [ref=e380]: 
+                - generic [ref=e381]: Watch
+            - link " Know More" [ref=e382] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/diseases/european-red-mite
+              - generic [ref=e383]: 
+              - text: Know More
+        - navigation [ref=e385]:
+          - list [ref=e387]:
+            - listitem [ref=e388]: « Previous
+            - listitem [ref=e389]:
+              - link "Next »" [ref=e390] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/disease?page=2
+          - generic [ref=e391]:
+            - paragraph [ref=e393]: Showing 1 to 18 of 42 results
+            - list [ref=e395]:
+              - listitem "« Previous" [ref=e396]: ‹
+              - listitem [ref=e397]: "1"
+              - listitem [ref=e398]:
+                - link "2" [ref=e399] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/disease?page=2
+              - listitem [ref=e400]:
+                - link "3" [ref=e401] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/disease?page=3
+              - listitem [ref=e402]:
+                - link "Next »" [ref=e403] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/disease?page=2
+                  - text: ›
+    - contentinfo [ref=e404]:
+      - paragraph [ref=e405]:
+        - text: © 2026 Baagicha — Made with
+        - generic [ref=e406]: 
+        - text: by
+        - link "Tarun Chauhan" [ref=e407] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+      - generic [ref=e408]:
+        - link "Facebook" [ref=e409] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e410]: 
+        - link "Instagram" [ref=e411] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+          - generic [ref=e412]: 
+        - link "YouTube" [ref=e413] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e414]: 
+    - navigation "Main navigation" [ref=e415]:
+      - text: 
+      - generic [ref=e416]:
+        - link "Home" [ref=e417] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - generic [ref=e419]: 
+          - generic [ref=e420]: Home
+          - generic [ref=e421]: घर
+        - link "Spray Schedule" [ref=e422] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spray-schedule
+          - generic [ref=e424]: 
+          - generic [ref=e425]: Spray
+          - generic [ref=e426]: छिड़काव
+        - link "Diseases" [ref=e427] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/disease
+          - generic [ref=e429]: 
+          - generic [ref=e430]: Disease
+          - generic [ref=e431]: रोग
+        - link "Varieties" [ref=e432] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/variety
+          - generic [ref=e434]: 
+          - generic [ref=e435]: Variety
+          - generic [ref=e436]: किस्म
+        - link "Rootstocks" [ref=e437] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/rootstock
+          - generic [ref=e439]: 
+          - generic [ref=e440]: Rootstock
+          - generic [ref=e441]: मूलवृंत
+        - link "Weather Forecast" [ref=e442] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/weather
+          - generic [ref=e444]: 
+          - generic [ref=e445]: Weather
+          - generic [ref=e446]: मौसम
+        - link "Blog & Articles" [ref=e447] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+          - generic [ref=e449]: 
+          - generic [ref=e450]: Blog
+          - generic [ref=e451]: लेख
+  - status [ref=e452]:
+    - generic [ref=e454]: 
+    - generic [ref=e455]: Location denied · Using network fallback

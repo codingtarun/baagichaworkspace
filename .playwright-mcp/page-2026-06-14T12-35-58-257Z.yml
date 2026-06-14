@@ -1,0 +1,248 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - generic [ref=e8]: Baagvaani
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "Login" [ref=e11] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/login
+          - link "Sign Up" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/register
+        - button "Toggle menu" [ref=e13]:
+          - img [ref=e14]
+  - main [ref=e16]:
+    - region "About Baagvaani" [ref=e17]:
+      - generic [ref=e21]:
+        - heading "About Baagvaani" [level=1] [ref=e22]
+        - paragraph [ref=e23]: Empowering Himalayan apple farmers with quality supplies, expert knowledge, and modern tools — built by farmers, for farmers.
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]: "3"
+        - generic [ref=e28]: States Covered
+      - generic [ref=e29]:
+        - generic [ref=e30]: 100+
+        - generic [ref=e31]: Farmers Served
+      - generic [ref=e32]:
+        - generic [ref=e33]: 12+
+        - generic [ref=e34]: Expert Articles
+      - generic [ref=e35]:
+        - generic [ref=e36]: "2"
+        - generic [ref=e37]: Co-Founders
+    - region "Meet the Team" [ref=e38]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]: The People
+          - heading "Meet the Team" [level=2] [ref=e43]
+          - paragraph [ref=e44]: Two friends, one orchard, and a shared dream to transform Himalayan apple farming.
+        - generic [ref=e45]:
+          - article [ref=e46]:
+            - generic [ref=e48]:
+              - generic [ref=e49]:
+                - generic [ref=e50]:
+                  - img "Tarun Chauhan" [ref=e53]
+                  - img [ref=e55]
+                - generic [ref=e57]:
+                  - heading "Tarun Chauhan" [level=3] [ref=e58]
+                  - paragraph [ref=e59]: Co-Founder & Software Engineer
+                  - generic [ref=e60]:
+                    - generic [ref=e61]:
+                      - img [ref=e62]
+                      - text: Himachal Pradesh
+                    - generic [ref=e65]:
+                      - img [ref=e66]
+                      - text: unnatdigital.in
+              - generic [ref=e68]:
+                - paragraph [ref=e69]: Born into a farmer family in Himachal Pradesh, Tarun grew up between apple crates and orchard trails. Before moving into IT, he worked in the cold-chain supply side of the apple business — seeing firsthand how growers toil, how fruit travels, and where the system lets farmers down.
+                - paragraph [ref=e70]: These days he builds technology through the week and returns to his orchard on weekends. That mix of soil and code is what shapes Baagvaani — a platform made by someone who actually understands both the farm and the smartphone.
+              - generic [ref=e71]:
+                - generic [ref=e72]: Engineering since 2020
+                - generic [ref=e73]:
+                  - link "unnatdigital.in" [ref=e74] [cursor=pointer]:
+                    - /url: https://unnatdigital.in
+                    - img [ref=e75]
+                    - text: unnatdigital.in
+                  - link "tarun@baagvaani.com" [ref=e77] [cursor=pointer]:
+                    - /url: mailto:tarun@baagvaani.com
+                    - img [ref=e78]
+                    - text: tarun@baagvaani.com
+          - article [ref=e80]:
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - generic [ref=e84]:
+                  - img "Pranav Rawat" [ref=e87]
+                  - img [ref=e89]
+                - generic [ref=e91]:
+                  - heading "Pranav Rawat" [level=3] [ref=e92]
+                  - paragraph [ref=e93]: Co-Founder & Regenerative Apple Farmer
+                  - generic [ref=e94]:
+                    - generic [ref=e95]:
+                      - img [ref=e96]
+                      - text: Himachal Pradesh
+                    - generic [ref=e99]:
+                      - img [ref=e100]
+                      - text: RegenApples Founder
+              - generic [ref=e102]:
+                - paragraph [ref=e103]:
+                  - text: Pranav is the founder of
+                  - link "RegenApples.com" [ref=e104] [cursor=pointer]:
+                    - /url: https://regenapple.com
+                  - text: and the mind behind RegenMeet — a gathering where he and Tarun first crossed paths and decided to build something together for Himalayan apple growers.
+                - paragraph [ref=e105]: A regenerative apple evangelist, he has trained hundreds of farmers in chemical-free orcharding, precision pruning, and soil health. He believes the best apples come from land that is allowed to breathe — and he is on a quiet mission to help farmers grow better fruit while restoring the soil beneath it.
+              - generic [ref=e106]:
+                - generic [ref=e107]: Teaching since 2018
+                - generic [ref=e108]:
+                  - link "regenapple.com" [ref=e109] [cursor=pointer]:
+                    - /url: https://regenapple.com
+                    - img [ref=e110]
+                    - text: regenapple.com
+                  - link "pranav@baagvaani.com" [ref=e112] [cursor=pointer]:
+                    - /url: mailto:pranav@baagvaani.com
+                    - img [ref=e113]
+                    - text: pranav@baagvaani.com
+    - region "Building technology that works for farmers, not the other way around." [ref=e115]:
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: Our Mission
+          - heading "Building technology that works for farmers, not the other way around." [level=2] [ref=e120]
+          - generic [ref=e121]:
+            - paragraph [ref=e122]: "Baagvaani was built with a simple mission: to help apple farmers in the Himalayan belt grow better crops, earn better incomes, and build sustainable orchards. We believe every farmer deserves access to quality supplies, reliable information, and a community of support."
+            - paragraph [ref=e123]: From Kinnaur to Kashmir, we serve thousands of farmers who trust us for spray schedules, disease management, and farming supplies. Our platform combines generations of traditional farming wisdom with modern technology — all in a language farmers understand.
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - img [ref=e126]
+              - text: Research Backed
+            - generic [ref=e128]:
+              - img [ref=e129]
+              - text: Expert Content
+            - generic [ref=e131]:
+              - img [ref=e132]
+              - text: Farmer First
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - img [ref=e139]
+            - generic [ref=e141]:
+              - heading "Research Backed" [level=3] [ref=e142]
+              - paragraph [ref=e143]: Every article is fact-checked by agronomists and backed by horticulture research from leading institutions.
+          - generic [ref=e145]:
+            - img [ref=e147]
+            - generic [ref=e149]:
+              - heading "Expert Content" [level=3] [ref=e150]
+              - paragraph [ref=e151]: Articles and guides written by horticulture experts and experienced farmers with decades in the field.
+          - generic [ref=e153]:
+            - img [ref=e155]
+            - generic [ref=e157]:
+              - heading "Farmer First" [level=3] [ref=e158]
+              - paragraph [ref=e159]: We prioritize farmer needs in every decision we make. No jargon. No fluff. Just actionable advice.
+    - region "Regions We Serve" [ref=e161]:
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - generic [ref=e164]: Our Reach
+          - heading "Regions We Serve" [level=2] [ref=e165]
+          - paragraph [ref=e166]: Proudly supporting apple farmers across the Himalayan apple belt — from orchards at 6,000 feet to valleys at 10,000 feet.
+        - generic [ref=e167]:
+          - article [ref=e168]:
+            - generic [ref=e170]:
+              - img [ref=e172]
+              - heading "Himachal Pradesh" [level=3] [ref=e174]
+              - paragraph [ref=e175]: Shimla, Kinnaur, Kullu, Mandi, and Chamba districts — the heart of India's apple production and where Baagvaani was born.
+              - generic [ref=e176]:
+                - generic [ref=e177]: Core Region
+                - img [ref=e178]
+          - article [ref=e180]:
+            - generic [ref=e182]:
+              - img [ref=e184]
+              - heading "Uttarakhand" [level=3] [ref=e186]
+              - paragraph [ref=e187]: Uttarkashi, Chamoli, and Pithoragarh — emerging apple regions with immense potential and growing farmer communities.
+              - generic [ref=e188]:
+                - generic [ref=e189]: Growing Fast
+                - img [ref=e190]
+          - article [ref=e192]:
+            - generic [ref=e194]:
+              - img [ref=e196]
+              - heading "Jammu & Kashmir" [level=3] [ref=e198]
+              - paragraph [ref=e199]: Srinagar, Shopian, and Baramulla — home to some of the finest apples in the world and generations of expert growers.
+              - generic [ref=e200]:
+                - generic [ref=e201]: Premium Quality
+                - img [ref=e202]
+    - region "We'd Love to Hear From You" [ref=e204]:
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - generic [ref=e207]: Get in Touch
+          - heading "We'd Love to Hear From You" [level=2] [ref=e208]
+          - paragraph [ref=e209]: Have questions about apple farming, spray schedules, or partnership opportunities? Reach out — we read every message.
+        - generic [ref=e210]:
+          - generic [ref=e211]:
+            - img [ref=e213]
+            - heading "Email" [level=3] [ref=e215]
+            - link "hello@baagvaani.com" [ref=e216] [cursor=pointer]:
+              - /url: mailto:hello@baagvaani.com
+          - generic [ref=e217]:
+            - img [ref=e219]
+            - heading "Phone" [level=3] [ref=e221]
+            - paragraph [ref=e222]: +91 80913 34020
+          - generic [ref=e223]:
+            - img [ref=e225]
+            - heading "Address" [level=3] [ref=e228]
+            - paragraph [ref=e229]: Himachal Pradesh, India
+          - generic [ref=e230]:
+            - img [ref=e232]
+            - heading "Response Time" [level=3] [ref=e234]
+            - paragraph [ref=e235]: Within 24 hours
+    - generic [ref=e241]:
+      - heading "Ready to grow better apples?" [level=2] [ref=e242]
+      - paragraph [ref=e243]: Join thousands of Himalayan farmers who trust Baagvaani for expert advice, spray schedules, and orchard management tools.
+      - generic [ref=e244]:
+        - link "Read Expert Articles" [ref=e245] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+        - link "Create Free Account" [ref=e246] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/register
+          - text: Create Free Account
+          - img [ref=e247]
+  - contentinfo [ref=e249]:
+    - generic [ref=e250]:
+      - generic [ref=e251]:
+        - generic [ref=e252]:
+          - link "Baagvaani" [ref=e253] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e255]: Baagvaani
+          - paragraph [ref=e256]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e258]: Social channels coming soon
+        - generic [ref=e259]:
+          - heading "Quick Links" [level=3] [ref=e260]
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link "Home" [ref=e263] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e264]:
+              - link "Blog" [ref=e265] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e266]:
+              - link "About Us" [ref=e267] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e268]:
+          - heading "Topics" [level=3] [ref=e269]
+          - list [ref=e270]:
+            - listitem [ref=e271]:
+              - link "Spray & Disease" [ref=e272] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e273]:
+              - link "Orchard Care" [ref=e274] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e275]:
+              - link "Variety Guide" [ref=e276] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e277]:
+              - link "Weather & Climate" [ref=e278] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e279]:
+          - heading "Newsletter" [level=3] [ref=e280]
+          - paragraph [ref=e281]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e282]:
+            - textbox "Enter your email" [ref=e283]
+            - button "Subscribe" [ref=e284]
+          - paragraph [ref=e285]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e287]: © 2026 Baagvaani. All rights reserved.

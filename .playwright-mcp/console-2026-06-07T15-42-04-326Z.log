@@ -1,6 +1,0 @@
-[     975ms] TypeError: Cannot read properties of null (reading 'addEventListener')
-    at https://regenapple.com/:458:46
-[    1067ms] TypeError: Cannot read properties of undefined (reading 'dataset')
-    at HTMLDocument.<anonymous> (https://regenapple.com/:639:47)
-[    1068ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://regenapple.com/:0
-[    1084ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://regenapple.com/regen/css/regen/images/regen-bg-2.png:0
