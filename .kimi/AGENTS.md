@@ -6,6 +6,16 @@
 2. **React Native is the frontend.** The `baagichaApp/` project is a pure React Native (CLI) client. It does not contain any backend logic, database migrations, or API route definitions — only UI, state management, and API consumption.
 3. **Laravel serves both Web PWA and Mobile API.** The same Laravel application powers the Blade-based web views and exposes JSON endpoints for the React Native app under a dedicated mobile API namespace (e.g., `/api/v1/...`).
 
+## Web Frontend Standards
+
+1. **Hero sections must use a background image.** Any page with a full-width hero section should place a relevant image behind the content with a dark gradient overlay for readability. Use the standard pattern:
+   - Wrapper: `relative bg-bg-primary text-white overflow-hidden`
+   - Background layer: `absolute inset-0` with a `<picture>` containing WebP + fallback PNG/JPG
+   - Overlay: `absolute inset-0 bg-gradient-to-r from-primary-900/90 via-primary-800/80 to-primary-700/60`
+   - Content: `relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`
+2. **Reuse existing hero assets.** Default hero image is `public/images/hero-orchard-farmer.webp` / `.png`. Add page-specific images only when the subject genuinely differs.
+3. **Maintain contrast.** Hero text stays white (`text-white`); subtitles use `text-white/75`; interactive elements use `bg-white/10 border-white/20`.
+
 ## Project Structure
 
 This workspace contains two projects:
