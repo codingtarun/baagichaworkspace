@@ -1,0 +1,157 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000
+        - img [ref=e8]
+        - generic [ref=e11]: Baagvaani
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - link "Login" [ref=e14] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/login
+          - link "Sign Up" [ref=e15] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/register
+        - button "Toggle menu" [ref=e16]:
+          - img [ref=e17]
+  - main [ref=e19]:
+    - article [ref=e20]:
+      - 'region "Powdery Mildew in HP Apple Orchards: Control Guide" [ref=e21]':
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - link "Knowledge Base" [ref=e24] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog
+              - img [ref=e25]
+              - text: Knowledge Base
+            - link "Spray & Disease" [ref=e28] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/category/spray-disease-management
+          - generic [ref=e29]:
+            - 'heading "Powdery Mildew in HP Apple Orchards: Control Guide" [level=1] [ref=e30]'
+            - paragraph [ref=e31]: Powdery mildew strikes young shoot tips and blossoms at higher altitudes. Learn to distinguish it from scab and apply the right fungicide at the right time.
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - generic [ref=e34]: B
+              - generic [ref=e35]:
+                - paragraph [ref=e36]: Baagvaani Editorial
+                - paragraph [ref=e37]: Agronomy Team
+            - generic [ref=e38]:
+              - generic [ref=e39]:
+                - img [ref=e40]
+                - text: 5 min
+              - generic [ref=e42]:
+                - img [ref=e43]
+                - text: 1,870
+              - time [ref=e46]: May 29, 2026
+      - generic [ref=e47]:
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - heading "Recognition" [level=3] [ref=e51]
+            - paragraph [ref=e52]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. White powdery coating on young shoot tips and leaves in spring. Infected blossoms fail to set fruit. Disease thrives at 15–25°C with low humidity — opposite conditions to Apple Scab. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            - heading "High-Risk Periods" [level=3] [ref=e53]
+            - paragraph [ref=e54]: Watch for powdery mildew from Green Tip through Petal Fall. High-altitude orchards (above 7,000 ft) are especially prone when spring is warm and dry. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            - heading "Management" [level=3] [ref=e55]
+            - paragraph [ref=e56]: Apply Hexaconazole 5 SC or Triadimefon at 0.05% from Silver Tip onwards. Sulfur dust (300 mesh) at 3 kg/acre works well for organic orchards. Prune and destroy infected shoot tips before flowering. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+          - generic [ref=e57]:
+            - paragraph [ref=e58]: Share this article
+            - generic [ref=e59]:
+              - link "Share on WhatsApp" [ref=e60] [cursor=pointer]:
+                - /url: https://wa.me/?text=Powdery+Mildew+in+HP+Apple+Orchards%3A+Control+Guide%20http%3A%2F%2F192.168.1.100%3A8000%2Fblog%2Fpost%2Fpowdery-mildew-apple-hp
+                - generic [ref=e61]: 
+                - generic [ref=e62]: WhatsApp
+              - link "Share on Facebook" [ref=e63] [cursor=pointer]:
+                - /url: https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F192.168.1.100%3A8000%2Fblog%2Fpost%2Fpowdery-mildew-apple-hp
+                - generic [ref=e64]: 
+                - generic [ref=e65]: Facebook
+              - link "Share on X" [ref=e66] [cursor=pointer]:
+                - /url: https://twitter.com/intent/tweet?url=http%3A%2F%2F192.168.1.100%3A8000%2Fblog%2Fpost%2Fpowdery-mildew-apple-hp&text=Powdery+Mildew+in+HP+Apple+Orchards%3A+Control+Guide
+                - generic [ref=e67]: 
+                - generic [ref=e68]: X
+              - link "Share on LinkedIn" [ref=e69] [cursor=pointer]:
+                - /url: https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2F192.168.1.100%3A8000%2Fblog%2Fpost%2Fpowdery-mildew-apple-hp
+                - generic [ref=e70]: 
+                - generic [ref=e71]: LinkedIn
+              - button "Copy link" [ref=e72] [cursor=pointer]:
+                - generic [ref=e73]: 
+                - generic [ref=e74]: Copy link
+              - button "More share options" [ref=e75] [cursor=pointer]:
+                - generic [ref=e76]: 
+                - generic [ref=e77]: More
+            - paragraph: Link copied to clipboard!
+          - generic [ref=e78]:
+            - heading "Related Articles" [level=2] [ref=e79]
+            - generic [ref=e80]:
+              - link "Spray & Disease Complete Spray Schedule for HP Apple Orchards 10 min read" [ref=e81] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog/post/complete-spray-schedule-hp-apple-orchards
+                - generic [ref=e82]:
+                  - img [ref=e84]
+                  - generic [ref=e86]: Spray & Disease
+                - generic [ref=e87]:
+                  - heading "Complete Spray Schedule for HP Apple Orchards" [level=3] [ref=e88]
+                  - paragraph [ref=e89]: 10 min read
+              - 'link "Apple Scab: Identify, Prevent, and Treat Spray & Disease Apple Scab: Identify, Prevent, and Treat 2 min read" [ref=e90] [cursor=pointer]':
+                - /url: http://192.168.1.100:8000/blog/post/apple-scab-identify-prevent-treat
+                - generic [ref=e91]:
+                  - 'img "Apple Scab: Identify, Prevent, and Treat" [ref=e92]'
+                  - generic [ref=e93]: Spray & Disease
+                - generic [ref=e94]:
+                  - 'heading "Apple Scab: Identify, Prevent, and Treat" [level=3] [ref=e95]'
+                  - paragraph [ref=e96]: 2 min read
+        - generic [ref=e98]:
+          - heading " Comments" [level=2] [ref=e100]:
+            - generic [ref=e101]: 
+            - text: Comments
+          - generic [ref=e102]:
+            - generic [ref=e103]: 
+            - link "Login" [ref=e104] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/login
+            - text: to leave a comment.
+          - generic [ref=e106]:
+            - generic [ref=e107]: 
+            - paragraph [ref=e108]: No comments yet. Be the first to share your thoughts!
+      - button "Switch to Hindi" [ref=e110]: हि / Eng
+  - contentinfo [ref=e111]:
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - link "Baagvaani" [ref=e115] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - img [ref=e117]
+            - generic [ref=e120]: Baagvaani
+          - paragraph [ref=e121]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K. Read spray schedules, disease guides, and grow better.
+          - generic [ref=e123]: Social channels coming soon
+        - generic [ref=e124]:
+          - heading "Quick Links" [level=3] [ref=e125]
+          - list [ref=e126]:
+            - listitem [ref=e127]:
+              - link "Home" [ref=e128] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e129]:
+              - link "Blog" [ref=e130] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e131]:
+              - link "About Us" [ref=e132] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e133]:
+          - heading "Topics" [level=3] [ref=e134]
+          - list [ref=e135]:
+            - listitem [ref=e136]:
+              - link "Spray & Disease" [ref=e137] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e138]:
+              - link "Orchard Care" [ref=e139] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e140]:
+              - link "Variety Guide" [ref=e141] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e142]:
+              - link "Weather & Climate" [ref=e143] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e144]:
+          - heading "Newsletter" [level=3] [ref=e145]
+          - paragraph [ref=e146]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e147]:
+            - textbox "Enter your email" [ref=e148]
+            - button "Subscribe" [ref=e149]
+          - paragraph [ref=e150]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e152]: © 2026 Baagvaani. All rights reserved.

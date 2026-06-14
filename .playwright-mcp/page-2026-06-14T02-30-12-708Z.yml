@@ -1,0 +1,434 @@
+- generic [active] [ref=e1]:
+  - complementary [ref=e2]:
+    - link " Baagicha · Admin" [ref=e3] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/admin/dashboard
+      - generic [ref=e4]: 
+      - generic [ref=e5]: Baagicha · Admin
+    - navigation [ref=e6]:
+      - generic [ref=e7]: Main
+      - link " Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/dashboard
+        - generic [ref=e9]: 
+        - text: Dashboard
+      - link " Users" [ref=e10] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/users
+        - generic [ref=e11]: 
+        - text: Users
+      - generic [ref=e12]: Content
+      - link " Disease Library" [ref=e13] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/diseases
+        - generic [ref=e14]: 
+        - text: Disease Library
+      - link " Apple Varieties" [ref=e15] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/varieties
+        - generic [ref=e16]: 
+        - text: Apple Varieties
+      - link " Rootstocks" [ref=e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/rootstocks
+        - generic [ref=e18]: 
+        - text: Rootstocks
+      - link " Chemicals" [ref=e19] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/chemicals
+        - generic [ref=e20]: 
+        - text: Chemicals
+      - link " Spray Schedule" [ref=e21] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/spray
+        - generic [ref=e22]: 
+        - text: Spray Schedule
+      - link " Blog Posts" [ref=e23] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/blog/posts
+        - generic [ref=e24]: 
+        - text: Blog Posts
+      - link " Blog Categories" [ref=e25] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/blog-categories
+        - generic [ref=e26]: 
+        - text: Blog Categories
+      - link " Blog Tags" [ref=e27] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/blog-tags
+        - generic [ref=e28]: 
+        - text: Blog Tags
+      - link " Comments" [ref=e29] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/comments
+        - generic [ref=e30]: 
+        - text: Comments
+      - link " Media Library" [ref=e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/media
+        - generic [ref=e32]: 
+        - text: Media Library
+      - generic [ref=e33]: Shop
+      - link " Products" [ref=e34] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/shop/products
+        - generic [ref=e35]: 
+        - text: Products
+      - link " Orders" [ref=e36] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/shop/orders
+        - generic [ref=e37]: 
+        - text: Orders
+      - link " Inventory" [ref=e38] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/shop/inventory
+        - generic [ref=e39]: 
+        - text: Inventory
+      - link " Coupons" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/shop/coupons
+        - generic [ref=e41]: 
+        - text: Coupons
+      - link " Reports" [ref=e42] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/shop/reports/sales
+        - generic [ref=e43]: 
+        - text: Reports
+      - generic [ref=e44]: System
+      - link " Weather Data" [ref=e45] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/weather-data
+        - generic [ref=e46]: 
+        - text: Weather Data
+      - link " Alert Rules" [ref=e47] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/weather-alert-rules
+        - generic [ref=e48]: 
+        - text: Alert Rules
+      - link " Activity Logs" [ref=e49] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/activity-logs
+        - generic [ref=e50]: 
+        - text: Activity Logs
+      - link " Send Notification" [ref=e51] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/notifications/send
+        - generic [ref=e52]: 
+        - text: Send Notification
+      - link " Roles & Permissions" [ref=e53] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/roles
+        - generic [ref=e54]: 
+        - text: Roles & Permissions
+    - generic [ref=e55]:
+      - generic [ref=e56]: T
+      - generic [ref=e57]:
+        - generic [ref=e58]: Tarun Chauhan
+        - generic [ref=e59]: Administrator
+  - generic [ref=e60]:
+    - banner [ref=e61]:
+      - button "" [ref=e62] [cursor=pointer]:
+        - generic [ref=e63]: 
+      - generic [ref=e64]:
+        - generic: 
+        - textbox "Search anything..." [ref=e65]
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - button "" [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]: 
+          - text:   
+        - generic [ref=e71]:
+          - button "T Tarun Chauhan " [ref=e72] [cursor=pointer]:
+            - generic [ref=e73]: T
+            - generic [ref=e74]: Tarun Chauhan
+            - generic [ref=e75]: 
+          - text:   
+    - main [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - heading "Dashboard" [level=4] [ref=e79]
+          - navigation "breadcrumb" [ref=e80]:
+            - list [ref=e81]:
+              - listitem [ref=e82]:
+                - link "Home" [ref=e83] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/dashboard
+              - listitem [ref=e84]: / Dashboard
+        - generic [ref=e86]:
+          - generic [ref=e87]: 
+          - text: Sunday, June 14, 2026
+      - generic [ref=e88]:
+        - generic [ref=e91]:
+          - generic [ref=e93]: 
+          - generic [ref=e94]:
+            - generic [ref=e95]: Total Farmers
+            - generic [ref=e96]: "103"
+            - generic [ref=e97]:
+              - generic [ref=e98]: 
+              - text: 58 verified
+        - generic [ref=e101]:
+          - generic [ref=e103]: 
+          - generic [ref=e104]:
+            - generic [ref=e105]: Total Orchards
+            - generic [ref=e106]: "191"
+            - generic [ref=e107]:
+              - generic [ref=e108]: 
+              - text: 164.2 ha
+        - generic [ref=e113]:
+          - generic [ref=e114]: Apple Trees
+          - generic [ref=e115]: 53,250
+          - generic [ref=e116]: 47 varieties
+        - generic [ref=e119]:
+          - generic [ref=e121]: 
+          - generic [ref=e122]:
+            - generic [ref=e123]: Villages Covered
+            - generic [ref=e124]: "49"
+            - generic [ref=e125]: 16 districts
+      - generic [ref=e126]:
+        - generic [ref=e129]:
+          - generic [ref=e132]:
+            - generic [ref=e133]: Himachal Pradesh
+            - generic [ref=e134]: Apple Belt Region
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]: Farmers
+              - generic [ref=e138]: "73"
+            - generic [ref=e139]:
+              - generic [ref=e140]: Orchards
+              - generic [ref=e141]: "137"
+        - generic [ref=e144]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: Uttarakhand
+            - generic [ref=e149]: Apple Belt Region
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - generic [ref=e152]: Farmers
+              - generic [ref=e153]: "14"
+            - generic [ref=e154]:
+              - generic [ref=e155]: Orchards
+              - generic [ref=e156]: "27"
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e162]: 
+            - generic [ref=e163]:
+              - generic [ref=e164]: Jammu & Kashmir
+              - generic [ref=e165]: Apple Belt Region
+          - generic [ref=e166]:
+            - generic [ref=e167]:
+              - generic [ref=e168]: Farmers
+              - generic [ref=e169]: "15"
+            - generic [ref=e170]:
+              - generic [ref=e171]: Orchards
+              - generic [ref=e172]: "27"
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e178]: 
+            - text: Weather Coverage
+          - generic [ref=e179]:
+            - button " Refresh All Weather" [ref=e180] [cursor=pointer]:
+              - generic [ref=e181]: 
+              - text: Refresh All Weather
+            - link " View Details" [ref=e182] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admin/weather-data
+              - generic [ref=e183]: 
+              - text: View Details
+        - generic [ref=e185]:
+          - generic [ref=e187]:
+            - generic [ref=e188]: "0"
+            - generic [ref=e189]: Total Records
+          - generic [ref=e191]:
+            - generic [ref=e192]: "0"
+            - generic [ref=e193]: Fresh (<15 min)
+          - generic [ref=e195]:
+            - generic [ref=e196]: "0"
+            - generic [ref=e197]: Unique Areas
+          - generic [ref=e199]:
+            - generic [ref=e200]: "0"
+            - generic [ref=e201]: Active Alerts
+      - generic [ref=e202]:
+        - generic [ref=e205]:
+          - generic [ref=e206]:
+            - generic [ref=e207]: 
+            - text: Variety Distribution
+          - generic [ref=e208]: 47 varieties
+        - generic [ref=e213]:
+          - generic [ref=e214]: 
+          - text: Season Types
+        - generic [ref=e219]:
+          - generic [ref=e220]: 
+          - text: Farming Types
+      - generic [ref=e223]:
+        - generic [ref=e225]:
+          - generic [ref=e226]:
+            - generic [ref=e227]: 
+            - text: Altitude Distribution
+          - generic [ref=e229]:
+            - generic [ref=e231]:
+              - generic [ref=e232]: Below 6000 ft
+              - generic [ref=e233]: "95"
+              - generic [ref=e234]: Early varieties
+            - generic [ref=e239]:
+              - generic [ref=e240]: 6000-8000 ft
+              - generic [ref=e241]: "71"
+              - generic [ref=e242]: Ideal apple zone
+            - generic [ref=e247]:
+              - generic [ref=e248]: Above 8000 ft
+              - generic [ref=e249]: "25"
+              - generic [ref=e250]: Premium quality
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - generic [ref=e259]: 
+            - text: Farmer Experience
+          - generic [ref=e260]:
+            - generic [ref=e261]:
+              - generic [ref=e262]:
+                - generic [ref=e264]: "25"
+                - generic [ref=e265]: Beginner
+              - generic [ref=e266]:
+                - generic [ref=e268]: 
+                - generic [ref=e269]: "43"
+                - generic [ref=e270]: Intermediate
+              - generic [ref=e271]:
+                - generic [ref=e273]: 
+                - generic [ref=e274]: "35"
+                - generic [ref=e275]: Expert
+            - separator [ref=e276]
+            - generic [ref=e277]:
+              - generic [ref=e278]:
+                - generic [ref=e279]: 
+                - text: Top Districts
+              - generic [ref=e280]:
+                - generic [ref=e281]: Shimla (Himachal Pradesh)
+                - generic [ref=e282]: 48 orchards
+              - generic [ref=e283]:
+                - generic [ref=e284]: Sirmaur (Himachal Pradesh)
+                - generic [ref=e285]: 30 orchards
+              - generic [ref=e286]:
+                - generic [ref=e287]: Kullu (Himachal Pradesh)
+                - generic [ref=e288]: 21 orchards
+              - generic [ref=e289]:
+                - generic [ref=e290]: Mandi (Himachal Pradesh)
+                - generic [ref=e291]: 19 orchards
+              - generic [ref=e292]:
+                - generic [ref=e293]: Kinnaur (Himachal Pradesh)
+                - generic [ref=e294]: 19 orchards
+      - generic [ref=e295]:
+        - generic [ref=e297]:
+          - generic [ref=e298]:
+            - generic [ref=e299]:
+              - generic [ref=e300]: 
+              - text: Recent Farmers
+            - link "View All" [ref=e301] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admin/users
+          - table [ref=e303]:
+            - rowgroup [ref=e304]:
+              - row "Farmer Location Orchards Experience Joined" [ref=e305]:
+                - columnheader "Farmer" [ref=e306]
+                - columnheader "Location" [ref=e307]
+                - columnheader "Orchards" [ref=e308]
+                - columnheader "Experience" [ref=e309]
+                - columnheader "Joined" [ref=e310]
+            - rowgroup [ref=e311]:
+              - row "T Tarun Chauhan tarunyop@yopmail.com - 0 Beginner 21 minutes ago" [ref=e312]:
+                - cell "T Tarun Chauhan tarunyop@yopmail.com" [ref=e313]:
+                  - generic [ref=e314]:
+                    - generic [ref=e315]: T
+                    - generic [ref=e316]:
+                      - generic [ref=e317]: Tarun Chauhan
+                      - generic [ref=e318]: tarunyop@yopmail.com
+                - cell "-" [ref=e319]
+                - cell "0" [ref=e320]
+                - cell "Beginner" [ref=e321]:
+                  - generic [ref=e322]: Beginner
+                - cell "21 minutes ago" [ref=e323]
+              - row "P Pravin Lal Sundaram pravin.lal.sundaram.100@baagicha.in Himachal Pradesh 1 Expert 24 minutes ago" [ref=e324]:
+                - cell "P Pravin Lal Sundaram pravin.lal.sundaram.100@baagicha.in" [ref=e325]:
+                  - generic [ref=e326]:
+                    - generic [ref=e327]: P
+                    - generic [ref=e328]:
+                      - generic [ref=e329]: Pravin Lal Sundaram
+                      - generic [ref=e330]: pravin.lal.sundaram.100@baagicha.in
+                - cell "Himachal Pradesh" [ref=e331]:
+                  - generic [ref=e332]: Himachal Pradesh
+                - cell "1" [ref=e333]
+                - cell "Expert" [ref=e334]:
+                  - generic [ref=e335]: Expert
+                - cell "24 minutes ago" [ref=e336]
+              - row "J Javed Bora javed.bora.99@baagicha.in Jammu & Kashmir 1 Beginner 24 minutes ago" [ref=e337]:
+                - cell "J Javed Bora javed.bora.99@baagicha.in" [ref=e338]:
+                  - generic [ref=e339]:
+                    - generic [ref=e340]: J
+                    - generic [ref=e341]:
+                      - generic [ref=e342]: Javed Bora
+                      - generic [ref=e343]: javed.bora.99@baagicha.in
+                - cell "Jammu & Kashmir" [ref=e344]:
+                  - generic [ref=e345]: Jammu & Kashmir
+                - cell "1" [ref=e346]
+                - cell "Beginner" [ref=e347]:
+                  - generic [ref=e348]: Beginner
+                - cell "24 minutes ago" [ref=e349]
+              - row "M Mohan Prabhat Kala mohan.prabhat.kala.98@baagicha.in Himachal Pradesh 1 Intermediate 24 minutes ago" [ref=e350]:
+                - cell "M Mohan Prabhat Kala mohan.prabhat.kala.98@baagicha.in" [ref=e351]:
+                  - generic [ref=e352]:
+                    - generic [ref=e353]: M
+                    - generic [ref=e354]:
+                      - generic [ref=e355]: Mohan Prabhat Kala
+                      - generic [ref=e356]: mohan.prabhat.kala.98@baagicha.in
+                - cell "Himachal Pradesh" [ref=e357]:
+                  - generic [ref=e358]: Himachal Pradesh
+                - cell "1" [ref=e359]
+                - cell "Intermediate" [ref=e360]:
+                  - generic [ref=e361]: Intermediate
+                - cell "24 minutes ago" [ref=e362]
+              - row "A Aisha Parekh aisha.parekh.95@baagicha.in Himachal Pradesh 1 Intermediate 24 minutes ago" [ref=e363]:
+                - cell "A Aisha Parekh aisha.parekh.95@baagicha.in" [ref=e364]:
+                  - generic [ref=e365]:
+                    - generic [ref=e366]: A
+                    - generic [ref=e367]:
+                      - generic [ref=e368]: Aisha Parekh
+                      - generic [ref=e369]: aisha.parekh.95@baagicha.in
+                - cell "Himachal Pradesh" [ref=e370]:
+                  - generic [ref=e371]: Himachal Pradesh
+                - cell "1" [ref=e372]
+                - cell "Intermediate" [ref=e373]:
+                  - generic [ref=e374]: Intermediate
+                - cell "24 minutes ago" [ref=e375]
+        - generic [ref=e377]:
+          - generic [ref=e378]:
+            - generic [ref=e379]:
+              - generic [ref=e380]: 
+              - text: Popular Varieties
+            - link "View All" [ref=e381] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admin/varieties
+          - generic [ref=e382]:
+            - generic [ref=e383]:
+              - generic [ref=e385]: 
+              - generic [ref=e386]:
+                - generic [ref=e387]: Red Delicious
+                - generic [ref=e388]: Mid Season
+              - generic [ref=e389]:
+                - generic [ref=e390]: "111"
+                - generic [ref=e391]: orchards
+            - generic [ref=e392]:
+              - generic [ref=e394]: 
+              - generic [ref=e395]:
+                - generic [ref=e396]: Golden Delicious
+                - generic [ref=e397]: Mid Season
+              - generic [ref=e398]:
+                - generic [ref=e399]: "107"
+                - generic [ref=e400]: orchards
+            - generic [ref=e401]:
+              - generic [ref=e403]: 
+              - generic [ref=e404]:
+                - generic [ref=e405]: Royal Delicious
+                - generic [ref=e406]: Mid Season
+              - generic [ref=e407]:
+                - generic [ref=e408]: "40"
+                - generic [ref=e409]: orchards
+            - generic [ref=e410]:
+              - generic [ref=e412]: 
+              - generic [ref=e413]:
+                - generic [ref=e414]: Jeromine
+                - generic [ref=e415]: Late Season
+              - generic [ref=e416]:
+                - generic [ref=e417]: "39"
+                - generic [ref=e418]: orchards
+            - generic [ref=e419]:
+              - generic [ref=e421]: 
+              - generic [ref=e422]:
+                - generic [ref=e423]: Super Chief
+                - generic [ref=e424]: Mid Season
+              - generic [ref=e425]:
+                - generic [ref=e426]: "29"
+                - generic [ref=e427]: orchards
+            - generic [ref=e428]:
+              - generic [ref=e430]: 
+              - generic [ref=e431]:
+                - generic [ref=e432]: Top Red
+                - generic [ref=e433]: Mid Season
+              - generic [ref=e434]:
+                - generic [ref=e435]: "25"
+                - generic [ref=e436]: orchards
+    - contentinfo [ref=e437]:
+      - generic [ref=e438]: © 2026 Baagvaani. All rights reserved.
+      - generic [ref=e439]:
+        - text: Powered by
+        - strong [ref=e440]: Laravel 12.58.0
+        - text: "& Bootstrap 5"

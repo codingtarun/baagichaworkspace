@@ -1,0 +1,212 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000
+        - img [ref=e8]
+        - generic [ref=e11]: Baagvaani
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - link "Login" [ref=e14] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/login
+          - link "Sign Up" [ref=e15] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/register
+        - button "Toggle menu" [ref=e16]:
+          - img [ref=e17]
+  - main [ref=e19]:
+    - article [ref=e20]:
+      - 'region "Apple Scab: Identify, Prevent, and Treat" [ref=e21]':
+        - generic [ref=e22]:
+          - link "Knowledge Base" [ref=e23] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/blog
+            - img [ref=e24]
+            - text: Knowledge Base
+          - generic [ref=e26]: Spray & Disease
+          - generic [ref=e27]:
+            - 'heading "Apple Scab: Identify, Prevent, and Treat" [level=1] [ref=e28]'
+            - paragraph [ref=e29]: Apple Scab is the number-one yield threat in Himachal Pradesh orchards. Learn to spot it early, prevent it with fungicide timing, and recover quickly when it strikes.
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]: B
+              - generic [ref=e33]:
+                - paragraph [ref=e34]: Baagvaani Editorial
+                - paragraph [ref=e35]: Agronomy Team
+            - generic [ref=e36]:
+              - generic [ref=e37]:
+                - img [ref=e38]
+                - text: 2 min
+              - generic [ref=e40]:
+                - img [ref=e41]
+                - text: 3,420
+              - time [ref=e44]: May 13, 2026
+      - 'img "Apple Scab: Identify, Prevent, and Treat" [ref=e48]'
+      - generic [ref=e49]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - heading "Understanding Apple Scab" [level=3] [ref=e53]
+            - paragraph [ref=e54]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            - paragraph [ref=e55]:
+              - text: Apple Scab (
+              - emphasis [ref=e56]: Venturia inaequalis
+              - text: ) is a fungal disease that attacks leaves and fruit during cool, wet spring weather. Spores overwinter in fallen leaves and are released when temperatures stay between 6°C and 24°C with prolonged leaf wetness. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+            - heading "How to Identify It" [level=3] [ref=e57]
+            - paragraph [ref=e58]: Look for olive-green to brown spots on the undersides of young leaves. As the season progresses, spots turn black and velvety. On fruit, you will see raised, corky scabs — fruit may crack and deform if infected early. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+            - heading "Prevention Strategies" [level=3] [ref=e59]
+            - paragraph [ref=e60]: Rake and burn fallen leaves every autumn. Spray urea (5%) in late autumn to speed leaf decomposition and destroy overwintering spores. Ensure tree spacing allows good airflow. Begin preventive fungicide sprays at green-tip stage. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+            - heading "Treatment Options" [level=3] [ref=e61]
+            - paragraph [ref=e62]: Use systemic fungicides like Myclobutanil or Tebuconazole at 10–14 day intervals during high-risk periods. Rotate chemical groups to prevent resistance. After heavy infection, copper-based sprays help slow further spread. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.
+          - generic [ref=e63]:
+            - link "#Apple Scab" [ref=e64] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/tag/apple-scab
+            - link "#Bitter Pit" [ref=e65] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/tag/bitter-pit
+            - link "#Bacterial Canker" [ref=e66] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/tag/bacterial-canker
+            - link "#Carbendazim" [ref=e67] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/tag/carbendazim
+          - generic [ref=e68]:
+            - paragraph [ref=e69]: Share this article
+            - generic [ref=e70]:
+              - link "Share on WhatsApp" [ref=e71] [cursor=pointer]:
+                - /url: https://wa.me/?text=Apple+Scab%3A+Identify%2C+Prevent%2C+and+Treat%20http%3A%2F%2F192.168.1.100%3A8000%2Fblog%2Fpost%2Fapple-scab-identify-prevent-treat
+                - generic [ref=e72]: 
+                - generic [ref=e73]: WhatsApp
+              - link "Share on Facebook" [ref=e74] [cursor=pointer]:
+                - /url: https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F192.168.1.100%3A8000%2Fblog%2Fpost%2Fapple-scab-identify-prevent-treat
+                - generic [ref=e75]: 
+                - generic [ref=e76]: Facebook
+              - link "Share on X" [ref=e77] [cursor=pointer]:
+                - /url: https://twitter.com/intent/tweet?url=http%3A%2F%2F192.168.1.100%3A8000%2Fblog%2Fpost%2Fapple-scab-identify-prevent-treat&text=Apple+Scab%3A+Identify%2C+Prevent%2C+and+Treat
+                - generic [ref=e78]: 
+                - generic [ref=e79]: X
+              - link "Share on LinkedIn" [ref=e80] [cursor=pointer]:
+                - /url: https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2F192.168.1.100%3A8000%2Fblog%2Fpost%2Fapple-scab-identify-prevent-treat
+                - generic [ref=e81]: 
+                - generic [ref=e82]: LinkedIn
+              - button "Copy link" [ref=e83] [cursor=pointer]:
+                - generic [ref=e84]: 
+                - generic [ref=e85]: Copy link
+              - button "More share options" [ref=e86] [cursor=pointer]:
+                - generic [ref=e87]: 
+                - generic [ref=e88]: More
+            - paragraph: Link copied to clipboard!
+          - generic [ref=e89]:
+            - heading "Related Articles" [level=2] [ref=e90]
+            - generic [ref=e91]:
+              - 'link "Spray & Disease Powdery Mildew in HP Apple Orchards: Control Guide 5 min read" [ref=e92] [cursor=pointer]':
+                - /url: http://192.168.1.100:8000/blog/post/powdery-mildew-apple-hp
+                - generic [ref=e93]: Spray & Disease
+                - 'heading "Powdery Mildew in HP Apple Orchards: Control Guide" [level=3] [ref=e94]'
+                - paragraph [ref=e95]: 5 min read
+              - link "Spray & Disease Complete Spray Schedule for HP Apple Orchards 10 min read" [ref=e96] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog/post/complete-spray-schedule-hp-apple-orchards
+                - generic [ref=e97]: Spray & Disease
+                - heading "Complete Spray Schedule for HP Apple Orchards" [level=3] [ref=e98]
+                - paragraph [ref=e99]: 10 min read
+        - generic [ref=e101]:
+          - heading "Mentioned in this article" [level=3] [ref=e102]
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - heading "Chemical" [level=4] [ref=e105]
+              - generic [ref=e106]:
+                - link "Boron Fertilizer Mentions" [ref=e107] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/chemicals/boron-fertilizer
+                  - img [ref=e109]
+                  - generic [ref=e111]:
+                    - paragraph [ref=e112]: Boron Fertilizer
+                    - paragraph [ref=e113]: Mentions
+                - link "Acetamiprid Mentions" [ref=e114] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/chemicals/acetamiprid
+                  - img [ref=e116]
+                  - generic [ref=e118]:
+                    - paragraph [ref=e119]: Acetamiprid
+                    - paragraph [ref=e120]: Mentions
+            - generic [ref=e121]:
+              - heading "Disease" [level=4] [ref=e122]
+              - link "Apple Leaf Miner Mentions" [ref=e124] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/diseases/apple-leaf-miner
+                - img [ref=e126]
+                - generic [ref=e128]:
+                  - paragraph [ref=e129]: Apple Leaf Miner
+                  - paragraph [ref=e130]: Mentions
+        - generic [ref=e132]:
+          - heading " Comments 2" [level=2] [ref=e134]:
+            - generic [ref=e135]: 
+            - text: Comments
+            - generic [ref=e136]: "2"
+          - generic [ref=e137]:
+            - generic [ref=e138]: 
+            - link "Login" [ref=e139] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/login
+            - text: to leave a comment.
+          - generic [ref=e140]:
+            - generic [ref=e142]:
+              - generic [ref=e143]: T
+              - generic [ref=e144]:
+                - generic [ref=e145]:
+                  - generic [ref=e146]: Tarun Chauhan
+                  - generic [ref=e147]: 1 minute ago
+                - paragraph [ref=e148]: f ghfgh fghf
+                - button " 0 Helpful" [ref=e150] [cursor=pointer]:
+                  - generic [ref=e151]: 
+                  - generic [ref=e152]: "0"
+                  - text: Helpful
+            - generic [ref=e154]:
+              - generic [ref=e155]: T
+              - generic [ref=e156]:
+                - generic [ref=e157]:
+                  - generic [ref=e158]: Tarun Chauhan
+                  - generic [ref=e159]: 1 minute ago
+                - paragraph [ref=e160]: f ghfghfgh
+                - button " 0 Helpful" [ref=e162] [cursor=pointer]:
+                  - generic [ref=e163]: 
+                  - generic [ref=e164]: "0"
+                  - text: Helpful
+      - button "Switch to Hindi" [ref=e166]: हि / Eng
+  - contentinfo [ref=e167]:
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - generic [ref=e170]:
+          - link "Baagvaani" [ref=e171] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - img [ref=e173]
+            - generic [ref=e176]: Baagvaani
+          - paragraph [ref=e177]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K. Read spray schedules, disease guides, and grow better.
+          - generic [ref=e179]: Social channels coming soon
+        - generic [ref=e180]:
+          - heading "Quick Links" [level=3] [ref=e181]
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - link "Home" [ref=e184] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e185]:
+              - link "Blog" [ref=e186] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e187]:
+              - link "About Us" [ref=e188] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e189]:
+          - heading "Topics" [level=3] [ref=e190]
+          - list [ref=e191]:
+            - listitem [ref=e192]:
+              - link "Spray & Disease" [ref=e193] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e194]:
+              - link "Orchard Care" [ref=e195] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e196]:
+              - link "Variety Guide" [ref=e197] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e198]:
+              - link "Weather & Climate" [ref=e199] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e200]:
+          - heading "Newsletter" [level=3] [ref=e201]
+          - paragraph [ref=e202]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e203]:
+            - textbox "Enter your email" [ref=e204]
+            - button "Subscribe" [ref=e205]
+          - paragraph [ref=e206]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e208]: © 2026 Baagvaani. All rights reserved.
