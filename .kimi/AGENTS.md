@@ -78,3 +78,18 @@ Memory files extracted from the Laravel web frontend + new research:
 - **Mobile app source:** `baagichaApp/src/`
 - **Target regions:** HP, UK, J&K (Himalayan apple belt)
 - **Research folder:** `BaagichaWorkspace/research/` (competitors, market, revenue, prediction engine, utility widgets)
+
+## Queue & Cron Health Monitoring
+
+A lightweight heartbeat monitor is available for the queue worker cron job:
+
+- **Artisan command:** `php artisan baagicha:queue-cron-heartbeat`
+- **Heartbeat log:** `web_baagicha/storage/logs/cron-heartbeat.json` (rolling 24-hour window)
+- **Admin UI:** `/admin/dashboard/queue-health` (linked from the admin sidebar as "Queue & Cron Health")
+- **Timezone:** set `APP_TIMEZONE=Asia/Kolkata` in `.env` so timestamps match local time
+
+Recommended Hostinger cron command (note the `cd` into the project directory):
+
+```
+* * * * * cd /home/u896019069/domains/baagvaani.com/web_baagicha && /usr/bin/php artisan queue:work --once --timeout=60 --tries=3 >> storage/logs/queue-cron.log 2>&1; /usr/bin/php artisan baagicha:queue-cron-heartbeat
+```
