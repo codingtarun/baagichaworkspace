@@ -88,6 +88,13 @@ A lightweight heartbeat monitor is available for the queue worker cron job:
 - **Admin UI:** `/admin/dashboard/queue-health` (linked from the admin sidebar as "Queue & Cron Health")
 - **Timezone:** set `APP_TIMEZONE=Asia/Kolkata` in `.env` so timestamps match local time
 
+The admin UI also exposes queue-management actions for admins:
+
+- View full exception + payload for each failed job in a detail modal
+- Retry a single failed job by UUID, or retry all failed jobs at once
+- Delete (forget) a single failed job, or flush all failed jobs
+- Clear all pending jobs from the queue when repeated failures are piling up
+
 Recommended Hostinger cron command (note the `cd` into the project directory):
 
 ```
