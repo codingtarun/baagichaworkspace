@@ -69,6 +69,7 @@ Memory files extracted from the Laravel web frontend + new research:
 | Onboarding (Welcome → Auth → Permissions) | ✅ Implemented | `SCREEN_BREAKDOWN.md` |
 | Home (Segmented: My Farm / Community) | ✅ Implemented | `SCREEN_BREAKDOWN.md` |
 | Kisan Tools (26 widgets) | ✅ UI Implemented | `KISAN_TOOLS.md` |
+| Fruit Module | ✅ Implemented | `Modules/Fruit/` |
 | Prediction Engine | 🔄 Backend complete, RN pending | `PREDICTION_ENGINE.md`, `PREDICTION_TYPES.md` |
 | eCommerce (Shop) | 🔄 Phase 1 | `ECOMMERCE_PLAN.md` |
 
@@ -95,12 +96,26 @@ The admin UI also exposes queue-management actions for admins:
 - Delete (forget) a single failed job, or flush all failed jobs
 - Clear all pending jobs from the queue when repeated failures are piling up
 
+Some listeners (e.g. `Modules\Auth\Listeners\NotifyAdminOfNewRegistration`) explicitly dispatch to a `notifications` queue. The main worker **must** listen on both `default` and `notifications` queues or those jobs will sit pending forever.
+
 Recommended Hostinger cron command (note the `cd` into the project directory):
 
 ```
-* * * * * cd /home/u896019069/domains/baagvaani.com/web_baagicha && /usr/bin/php artisan queue:work --once --timeout=60 --tries=3 >> storage/logs/queue-cron.log 2>&1; /usr/bin/php artisan baagicha:queue-cron-heartbeat
+* * * * * cd /home/u896019069/domains/baagvaani.com/web_baagicha && /usr/bin/php artisan queue:work --queue=default,notifications --once --timeout=60 --tries=3 >> storage/logs/queue-cron.log 2>&1; /usr/bin/php artisan baagicha:queue-cron-heartbeat
+```
+
+Optional safety-net command to drain the `notifications` queue on a slower schedule:
+
+- **Artisan command:** `php artisan baagicha:process-notification-queue`
+- **Purpose:** Process all pending jobs on the `notifications` queue until empty
+- **Suggested cron:** once per hour, e.g. `0 * * * *`
+
+```
+0 * * * * cd /home/u896019069/domains/baagvaani.com/web_baagicha && /usr/bin/php artisan baagicha:process-notification-queue >> storage/logs/queue-notifications.log 2>&1
 ```
 
 ## Variety Module — Multi-Fruit Preparation
 
 The `varieties` table has a `fruit_type` enum column to support apples, pears, plums, peaches, apricots, cherries, persimmons, and pomegranates. Existing varieties default to `apple`. The public API defaults to `fruit=apple` for backward compatibility with the mobile app.
+
+A dedicated `fruit_id` foreign key now also links a variety to the canonical `Fruit` module. The `Fruit` module owns many-to-many relationships to `Variety`, `Disease`, and `Rootstock` via explicit pivot tables (`fruit_variety`, `fruit_disease`, `fruit_rootstock`). Fruit pages are available at `/fruits/{slug}` and `/varieties/by-fruit/{slug}`.
