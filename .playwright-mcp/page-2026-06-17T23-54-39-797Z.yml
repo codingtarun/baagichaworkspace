@@ -1,0 +1,265 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7]
+      - generic [ref=e10]: Internal Server Error
+    - button "Copy as Markdown" [ref=e11] [cursor=pointer]:
+      - img [ref=e12]
+      - generic [ref=e15]: Copy as Markdown
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - heading "TypeError" [level=1] [ref=e20]
+      - generic [ref=e22]: Modules/Core/app/View/Components/MultipleImageUpload.php:57
+      - paragraph [ref=e23]: "Modules\\Core\\View\\Components\\MultipleImageUpload::__construct(): Argument #3 ($existingImages) must be of type ?Illuminate\\Support\\Collection, array given, called in /home/tarun-chauhan/Desktop/Apps/BaagichaWorkspace/web_baagicha/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 1168"
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: LARAVEL
+          - generic [ref=e28]: 12.58.0
+        - generic [ref=e29]:
+          - generic [ref=e30]: PHP
+          - generic [ref=e31]: 8.5.4
+      - generic [ref=e32]:
+        - img [ref=e33]
+        - text: UNHANDLED
+      - generic [ref=e36]: CODE 0
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - img [ref=e40]
+        - text: "500"
+      - generic [ref=e43]:
+        - img [ref=e44]
+        - text: GET
+      - generic [ref=e47]: http://127.0.0.1:8000/admin/fruits/create
+      - button [ref=e48] [cursor=pointer]:
+        - img [ref=e49]
+  - generic [ref=e53]:
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - img [ref=e57]
+        - heading "Exception trace" [level=3] [ref=e60]
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63] [cursor=pointer]:
+            - generic [ref=e66]:
+              - code [ref=e70]:
+                - generic [ref=e71]: Modules\Core\View\Components\MultipleImageUpload->__construct()
+              - generic [ref=e73]: Modules/Core/app/View/Components/MultipleImageUpload.php:57
+            - button [ref=e75]:
+              - img [ref=e76]
+          - code [ref=e84]:
+            - generic [ref=e85]: 52 * @param int $maxFiles Maximum number of files allowed
+            - generic [ref=e86]: 53 */
+            - generic [ref=e87]: 54 public function __construct(
+            - generic [ref=e88]: 55 string $name,
+            - generic [ref=e89]: 56 string $label = 'Gallery Images',
+            - generic [ref=e90]: 57 ?Collection $existingImages = null,
+            - generic [ref=e91]: 58 string $collection = 'gallery',
+            - generic [ref=e92]: 59 string $conversion = 'small',
+            - generic [ref=e93]: 60 string $placeholder = '',
+            - generic [ref=e94]: 61 bool $required = false,
+            - generic [ref=e95]: 62 string $accept = 'image/jpeg,image/png,image/webp',
+            - generic [ref=e96]: 63 ?string $helpText = null,
+            - generic [ref=e97]: 64 int $maxSize = 2,
+            - generic [ref=e98]: 65 int $maxFiles = 10,
+            - generic [ref=e99]: "66 ) {"
+            - generic [ref=e100]: 67 $this->name = $name;
+            - generic [ref=e101]: 68 $this->label = $label;
+            - generic [ref=e102]: "69"
+        - generic [ref=e104] [cursor=pointer]:
+          - img [ref=e105]
+          - generic [ref=e109]: 6 vendor frames
+          - button [ref=e110]:
+            - img [ref=e111]
+        - generic [ref=e116] [cursor=pointer]:
+          - generic [ref=e119]:
+            - code [ref=e123]:
+              - generic [ref=e124]: Illuminate\View\Component::resolve()
+            - generic [ref=e126]: Modules/Fruit/resources/views/admin/fruits/_form.blade.php:70
+          - button [ref=e128]:
+            - img [ref=e129]
+        - generic [ref=e134] [cursor=pointer]:
+          - img [ref=e135]
+          - generic [ref=e139]: 7 vendor frames
+          - button [ref=e140]:
+            - img [ref=e141]
+        - generic [ref=e146] [cursor=pointer]:
+          - generic [ref=e149]:
+            - code [ref=e153]:
+              - generic [ref=e154]: Illuminate\View\View->render()
+            - generic [ref=e156]: Modules/Fruit/resources/views/admin/fruits/create.blade.php:21
+          - button [ref=e158]:
+            - img [ref=e159]
+        - generic [ref=e164] [cursor=pointer]:
+          - img [ref=e165]
+          - generic [ref=e169]: 37 vendor frames
+          - button [ref=e170]:
+            - img [ref=e171]
+        - generic [ref=e176] [cursor=pointer]:
+          - generic [ref=e179]:
+            - code [ref=e183]:
+              - generic [ref=e184]: "Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():178}()"
+            - generic [ref=e186]: Modules/Core/app/Http/Middleware/SecurityHeaders.php:15
+          - button [ref=e188]:
+            - img [ref=e189]
+        - generic [ref=e194] [cursor=pointer]:
+          - img [ref=e195]
+          - generic [ref=e199]: 23 vendor frames
+          - button [ref=e200]:
+            - img [ref=e201]
+        - generic [ref=e206] [cursor=pointer]:
+          - generic [ref=e209]:
+            - code [ref=e213]:
+              - generic [ref=e214]: Illuminate\Foundation\Application->handleRequest()
+            - generic [ref=e216]: public/index.php:22
+          - button [ref=e218]:
+            - img [ref=e219]
+        - generic [ref=e224] [cursor=pointer]:
+          - img [ref=e225]
+          - generic [ref=e229]: 1 vendor frame
+          - button [ref=e230]:
+            - img [ref=e231]
+    - generic [ref=e235]:
+      - generic [ref=e236]:
+        - generic [ref=e237]:
+          - img [ref=e239]
+          - heading "Queries" [level=3] [ref=e241]
+        - generic [ref=e243]: 1-8 of 8
+      - generic [ref=e244]:
+        - generic [ref=e245]:
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - img [ref=e248]
+              - generic [ref=e250]: mysql
+            - code [ref=e254]:
+              - generic [ref=e255]: "select * from `sessions` where `id` = 'vpqeoYxNWmKhrSuHJNPkT135qcsGdiRjJe1nz1or' limit 1"
+          - generic [ref=e256]: 1.25ms
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - generic [ref=e259]:
+              - img [ref=e260]
+              - generic [ref=e262]: mysql
+            - code [ref=e266]:
+              - generic [ref=e267]: "select * from `users` where `id` = 1 and `users`.`deleted_at` is null limit 1"
+          - generic [ref=e268]: 0.56ms
+        - generic [ref=e269]:
+          - generic [ref=e270]:
+            - generic [ref=e271]:
+              - img [ref=e272]
+              - generic [ref=e274]: mysql
+            - code [ref=e278]:
+              - generic [ref=e279]: "select `roles`.*, `model_has_roles`.`model_id` as `pivot_model_id`, `model_has_roles`.`role_id` as `pivot_role_id`, `model_has_roles`.`model_type` as `pivot_model_type` from `roles` inner join `model_has_roles` on `roles`.`id` = `model_has_roles`.`role_id` where `model_has_roles`.`model_id` in (1) and `model_has_roles`.`model_type` = 'Modules\\Auth\\Models\\User'"
+          - generic [ref=e280]: 0.54ms
+        - generic [ref=e281]:
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - img [ref=e284]
+              - generic [ref=e286]: mysql
+            - code [ref=e290]:
+              - generic [ref=e291]: "select * from `cache` where `key` in ('baagvaani-cache-spatie.permission.cache')"
+          - generic [ref=e292]: 0.29ms
+        - generic [ref=e293]:
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - img [ref=e296]
+              - generic [ref=e298]: mysql
+            - code [ref=e302]:
+              - generic [ref=e303]: "select `id`, `name_en`, `name_hi` from `varieties` where `is_active` = 1 and `is_published` = 1 and `varieties`.`deleted_at` is null order by `name_en` asc"
+          - generic [ref=e304]: 0.74ms
+        - generic [ref=e305]:
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - img [ref=e308]
+              - generic [ref=e310]: mysql
+            - code [ref=e314]:
+              - generic [ref=e315]: "select `id`, `name_en`, `name_hi` from `diseases` where `is_active` = 1 and `is_published` = 1 and `diseases`.`deleted_at` is null order by `name_en` asc"
+          - generic [ref=e316]: 0.52ms
+        - generic [ref=e317]:
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - img [ref=e320]
+              - generic [ref=e322]: mysql
+            - code [ref=e326]:
+              - generic [ref=e327]: "select `id`, `name`, `full_name` from `rootstocks` where `is_active` = 1 and `is_published` = 1 and `rootstocks`.`deleted_at` is null order by `name` asc"
+          - generic [ref=e328]: 0.47ms
+        - generic [ref=e329]:
+          - generic [ref=e330]:
+            - generic [ref=e331]:
+              - img [ref=e332]
+              - generic [ref=e334]: mysql
+            - code [ref=e338]:
+              - generic [ref=e339]: "select `id`, `name_en`, `name_hi` from `products` where `is_active` = 1 and `is_published` = 1 and `published_at` is not null and `published_at` <= '2026-06-18 05:24:38' and `products`.`deleted_at` is null order by `name_en` asc"
+          - generic [ref=e340]: 0.74ms
+  - generic [ref=e342]:
+    - generic [ref=e343]:
+      - heading "Headers" [level=2] [ref=e344]
+      - generic [ref=e345]:
+        - generic [ref=e346]:
+          - generic [ref=e347]: host
+          - generic [ref=e349]: 127.0.0.1:8000
+        - generic [ref=e350]:
+          - generic [ref=e351]: connection
+          - generic [ref=e353]: keep-alive
+        - generic [ref=e354]:
+          - generic [ref=e355]: sec-ch-ua
+          - generic [ref=e357]: "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\""
+        - generic [ref=e358]:
+          - generic [ref=e359]: sec-ch-ua-mobile
+          - generic [ref=e361]: "?0"
+        - generic [ref=e362]:
+          - generic [ref=e363]: sec-ch-ua-platform
+          - generic [ref=e365]: "\"Linux\""
+        - generic [ref=e366]:
+          - generic [ref=e367]: upgrade-insecure-requests
+          - generic [ref=e369]: "1"
+        - generic [ref=e370]:
+          - generic [ref=e371]: user-agent
+          - generic [ref=e373]: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36
+        - generic [ref=e374]:
+          - generic [ref=e375]: accept
+          - generic [ref=e377]: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+        - generic [ref=e378]:
+          - generic [ref=e379]: sec-fetch-site
+          - generic [ref=e381]: same-origin
+        - generic [ref=e382]:
+          - generic [ref=e383]: sec-fetch-mode
+          - generic [ref=e385]: navigate
+        - generic [ref=e386]:
+          - generic [ref=e387]: sec-fetch-user
+          - generic [ref=e389]: "?1"
+        - generic [ref=e390]:
+          - generic [ref=e391]: sec-fetch-dest
+          - generic [ref=e393]: document
+        - generic [ref=e394]:
+          - generic [ref=e395]: referer
+          - generic [ref=e397]: http://127.0.0.1:8000/admin/fruits
+        - generic [ref=e398]:
+          - generic [ref=e399]: accept-encoding
+          - generic [ref=e401]: gzip, deflate, br, zstd
+        - generic [ref=e402]:
+          - generic [ref=e403]: accept-language
+          - generic [ref=e405]: en-US,en;q=0.9
+        - generic [ref=e406]:
+          - generic [ref=e407]: cookie
+          - generic [ref=e409]: _ga=GA1.1.1355436650.1781414165; _ga_LFDEBYBMZS=GS2.1.s1781740392$o3$g1$t1781740433$j19$l0$h0; XSRF-TOKEN=eyJpdiI6InlhY1ExdFJCaVMrR0FXUlg1M05EdGc9PSIsInZhbHVlIjoiZjRKS2hRVWNydVp1V1ROY2pEVzJuVjAra0cvcjVkbVhYVS9xRVFZTmd2cDhqZm52WVQrbk1aL0NJSXZSZFZSL3hCNlRPc01WK3dVL0FaR0U4bm1KMDhSdVJ1c0VoSG5mSG10ZG5Da2J4SGQzNTVYT2RFVTk0K28wSEVJdHlmdDQiLCJtYWMiOiJkNzdiMWFjMTZmNDQ3NDczNTZmMzAyZGUzOTk5MDZlZGU5M2YxMjdiYzk1NjIwNzcwY2EwMjUzMDRhZWU5YzViIiwidGFnIjoiIn0%3D; baagvaani-session=eyJpdiI6Im5rcktJc29FSDFMZnhXRWhEQ2tUMHc9PSIsInZhbHVlIjoickxqTEVtTW43Q2xkaHQ1MElRMGpucGRVT0I5ZFFsUmQ0RWV1NzJhMHduSEplU1prVGFEMHQzcnQvandTQ2F5Wm5ZWGF0akpvbDFGM3F6Y1h2OFhRVTRQQjc5eVpqTFJPUGxPSVVZZ2F0dnR6eWhwb2dGY1ZJSGcwS2FNQVQzK3giLCJtYWMiOiI5ZTk4ZGI1YWQ4Y2U0ODI2Y2U5NjExNzI0YzU4MmFjZTk5MjZhOTE4MTUwYTU1NThjMDdmNTA2ZjM1ZjUxZjMwIiwidGFnIjoiIn0%3D
+    - generic [ref=e410]:
+      - heading "Body" [level=2] [ref=e411]
+      - generic [ref=e412]: // No request body
+    - generic [ref=e413]:
+      - heading "Routing" [level=2] [ref=e414]
+      - generic [ref=e415]:
+        - generic [ref=e416]:
+          - generic [ref=e417]: controller
+          - generic [ref=e419]: Modules\Fruit\Http\Controllers\Admin\FruitController@create
+        - generic [ref=e420]:
+          - generic [ref=e421]: route name
+          - generic [ref=e423]: admin.fruits.create
+        - generic [ref=e424]:
+          - generic [ref=e425]: middleware
+          - generic [ref=e427]: web, auth, role:admin|manager
+    - generic [ref=e428]:
+      - heading "Routing parameters" [level=2] [ref=e429]
+      - generic [ref=e430]: // No routing parameters
+  - generic [ref=e433]:
+    - img [ref=e435]
+    - img [ref=e3473]

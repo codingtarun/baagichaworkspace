@@ -1,0 +1,365 @@
+- generic [active] [ref=e1]:
+  - complementary [ref=e2]:
+    - link " Baagicha · Admin" [ref=e3] [cursor=pointer]:
+      - /url: http://127.0.0.1:8001/admin/dashboard
+      - generic [ref=e4]: 
+      - generic [ref=e5]: Baagicha · Admin
+    - navigation [ref=e6]:
+      - generic [ref=e7]: Main
+      - link " Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/dashboard
+        - generic [ref=e9]: 
+        - text: Dashboard
+      - link " Users" [ref=e10] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/users
+        - generic [ref=e11]: 
+        - text: Users
+      - generic [ref=e12]: Content
+      - link " Disease Library" [ref=e13] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/diseases
+        - generic [ref=e14]: 
+        - text: Disease Library
+      - link " Fruits" [ref=e15] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/fruits
+        - generic [ref=e16]: 
+        - text: Fruits
+      - link " Apple Varieties" [ref=e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/varieties
+        - generic [ref=e18]: 
+        - text: Apple Varieties
+      - link " Rootstocks" [ref=e19] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/rootstocks
+        - generic [ref=e20]: 
+        - text: Rootstocks
+      - link " Chemicals" [ref=e21] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/chemicals
+        - generic [ref=e22]: 
+        - text: Chemicals
+      - link " Spray Schedule" [ref=e23] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/spray
+        - generic [ref=e24]: 
+        - text: Spray Schedule
+      - link " Blog Posts" [ref=e25] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog/posts
+        - generic [ref=e26]: 
+        - text: Blog Posts
+      - link " Blog Categories" [ref=e27] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog-categories
+        - generic [ref=e28]: 
+        - text: Blog Categories
+      - link " Blog Tags" [ref=e29] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog-tags
+        - generic [ref=e30]: 
+        - text: Blog Tags
+      - link " Comments" [ref=e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/comments
+        - generic [ref=e32]: 
+        - text: Comments
+      - link " Media Library" [ref=e33] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/media
+        - generic [ref=e34]: 
+        - text: Media Library
+      - generic [ref=e35]: Shop
+      - link " Products" [ref=e36] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/products
+        - generic [ref=e37]: 
+        - text: Products
+      - link " Orders" [ref=e38] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/orders
+        - generic [ref=e39]: 
+        - text: Orders
+      - link " Inventory" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/inventory
+        - generic [ref=e41]: 
+        - text: Inventory
+      - link " Coupons" [ref=e42] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/coupons
+        - generic [ref=e43]: 
+        - text: Coupons
+      - link " Reports" [ref=e44] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/reports/sales
+        - generic [ref=e45]: 
+        - text: Reports
+      - generic [ref=e46]: System
+      - link " Weather Data" [ref=e47] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/weather-data
+        - generic [ref=e48]: 
+        - text: Weather Data
+      - link " Alert Rules" [ref=e49] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/weather-alert-rules
+        - generic [ref=e50]: 
+        - text: Alert Rules
+      - link " Queue & Cron Health" [ref=e51] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/dashboard/queue-health
+        - generic [ref=e52]: 
+        - text: Queue & Cron Health
+      - link " Activity Logs" [ref=e53] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/activity-logs
+        - generic [ref=e54]: 
+        - text: Activity Logs
+      - link " Send Notification" [ref=e55] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/notifications/send
+        - generic [ref=e56]: 
+        - text: Send Notification
+      - link " Waitlist" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/waitlist
+        - generic [ref=e58]: 
+        - text: Waitlist
+      - link " Newsletter Subscribers" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/newsletter-subscribers
+        - generic [ref=e60]: 
+        - text: Newsletter Subscribers
+      - link " Roles & Permissions" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/roles
+        - generic [ref=e62]: 
+        - text: Roles & Permissions
+    - generic [ref=e63]:
+      - generic [ref=e64]: T
+      - generic [ref=e65]:
+        - generic [ref=e66]: Tarun Chauhan
+        - generic [ref=e67]: Administrator
+  - generic [ref=e68]:
+    - banner [ref=e69]:
+      - button "" [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]: 
+      - generic [ref=e72]:
+        - generic: 
+        - textbox "Search anything..." [ref=e73]
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - button "" [ref=e76] [cursor=pointer]:
+            - generic [ref=e77]: 
+          - text:   
+        - generic [ref=e79]:
+          - button "T Tarun Chauhan " [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]: T
+            - generic [ref=e82]: Tarun Chauhan
+            - generic [ref=e83]: 
+          - text:   
+    - main [ref=e84]:
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - heading " Add New Disease" [level=1] [ref=e89]:
+            - generic [ref=e90]: 
+            - text: Add New Disease
+          - paragraph [ref=e91]: Create a new disease record for the knowledge base
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - heading " Identification" [level=5] [ref=e95]:
+              - generic [ref=e96]: 
+              - text: Identification
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - generic [ref=e99]: English Name *
+                - textbox "English Name *" [ref=e100]
+              - generic [ref=e101]:
+                - generic [ref=e102]: URL Slug *
+                - textbox "URL Slug *" [ref=e103]:
+                  - /placeholder: disease-name
+                - text: Lowercase with hyphens
+              - generic [ref=e104]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]: Category *
+                  - combobox "Category *" [ref=e107]:
+                    - option "Select..." [selected]
+                    - option "Fungal"
+                    - option "Bacterial"
+                    - option "Pest"
+                    - option "Viral"
+                    - option "Nutrient"
+                    - option "Physiological"
+                - generic [ref=e108]:
+                  - generic [ref=e109]: Scientific Name
+                  - textbox "Scientific Name" [ref=e110]:
+                    - /placeholder: Latin/Scientific name
+          - generic [ref=e111]:
+            - heading " Names (Other Languages)" [level=5] [ref=e113]:
+              - generic [ref=e114]: 
+              - text: Names (Other Languages)
+            - generic [ref=e116]:
+              - generic [ref=e117]:
+                - generic [ref=e118]: Hindi Name
+                - textbox "Hindi Name" [ref=e119]
+              - generic [ref=e120]:
+                - generic [ref=e121]: Urdu Name
+                - textbox "Urdu Name" [ref=e122]
+          - generic [ref=e123]:
+            - heading " Severity & Impact" [level=5] [ref=e125]:
+              - generic [ref=e126]: 
+              - text: Severity & Impact
+            - generic [ref=e127]:
+              - generic [ref=e129]:
+                - generic [ref=e130]: Severity Level *
+                - combobox "Severity Level *" [ref=e131]:
+                  - option "Select..." [selected]
+                  - option "Critical"
+                  - option "High"
+                  - option "Medium"
+                  - option "Low"
+              - generic [ref=e132]:
+                - generic [ref=e133]:
+                  - generic [ref=e134]: Min Yield Loss %
+                  - spinbutton "Min Yield Loss %" [ref=e135]
+                - generic [ref=e136]:
+                  - generic [ref=e137]: Max Yield Loss %
+                  - spinbutton "Max Yield Loss %" [ref=e138]
+          - generic [ref=e139]:
+            - heading " Season & Risk Factors" [level=5] [ref=e141]:
+              - generic [ref=e142]: 
+              - text: Season & Risk Factors
+            - generic [ref=e143]:
+              - generic [ref=e144]:
+                - generic [ref=e145]:
+                  - generic [ref=e146]: Season Start Stage
+                  - textbox "Season Start Stage" [ref=e147]:
+                    - /placeholder: e.g., Bud Break
+                - generic [ref=e148]:
+                  - generic [ref=e149]: Season End Stage
+                  - textbox "Season End Stage" [ref=e150]:
+                    - /placeholder: e.g., Post Harvest
+              - generic [ref=e151]:
+                - generic [ref=e152]:
+                  - generic [ref=e153]: Min Temperature (°C)
+                  - spinbutton "Min Temperature (°C)" [ref=e154]
+                - generic [ref=e155]:
+                  - generic [ref=e156]: Max Temperature (°C)
+                  - spinbutton "Max Temperature (°C)" [ref=e157]
+                - generic [ref=e158]:
+                  - generic [ref=e159]: Optimal Humidity %
+                  - spinbutton "Optimal Humidity %" [ref=e160]
+          - generic [ref=e161]:
+            - heading " Altitude & Geography" [level=5] [ref=e163]:
+              - generic [ref=e164]: 
+              - text: Altitude & Geography
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - generic [ref=e168]: Min Altitude (ft)
+                - spinbutton "Min Altitude (ft)" [ref=e169]
+              - generic [ref=e170]:
+                - generic [ref=e171]: Max Altitude (ft)
+                - spinbutton "Max Altitude (ft)" [ref=e172]
+              - generic [ref=e174]:
+                - checkbox "Common in Himachal Pradesh" [ref=e175]
+                - generic [ref=e176]: Common in Himachal Pradesh
+          - generic [ref=e177]:
+            - generic [ref=e178]: Featured Image
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - img "Featured Image" [ref=e181]
+                - generic [ref=e182]:
+                  - button " Upload Image" [ref=e183] [cursor=pointer]:
+                    - generic [ref=e184]: 
+                    - text: Upload Image
+                  - generic [ref=e185]:
+                    - generic [ref=e186]: 
+                    - text: Click or drag image here
+                - text: 
+              - text: 
+            - generic [ref=e187]:
+              - generic [ref=e188]: 
+              - text: Max 2MB. JPG, PNG, WebP. Disease identification photo.
+          - generic [ref=e189]:
+            - heading " Symptom Images" [level=5] [ref=e191]:
+              - generic [ref=e192]: 
+              - text: Symptom Images
+            - generic [ref=e194]:
+              - generic [ref=e195]: Symptom Photos
+              - generic [ref=e196]:
+                - generic [ref=e197]:
+                  - generic [ref=e198]: 
+                  - heading "Click or drag images here" [level=6] [ref=e199]
+                  - generic [ref=e200]:
+                    - generic [ref=e201]: 
+                    - text: Multiple files allowed (Max 10 images)
+                  - button " Browse Files" [ref=e202] [cursor=pointer]:
+                    - generic [ref=e203]: 
+                    - text: Browse Files
+                - text: 
+              - generic [ref=e204]:
+                - generic [ref=e205]: 
+                - text: Upload 3-6 close-up photos showing disease symptoms on leaves, fruit, bark etc. Max 2MB each.
+              - generic [ref=e206]:
+                - generic [ref=e207]:
+                  - generic [ref=e208]: 
+                  - text: 0 / 10 images
+                - generic [ref=e209]: 10 remaining
+          - generic [ref=e210]:
+            - heading " Gallery Images" [level=5] [ref=e212]:
+              - generic [ref=e213]: 
+              - text: Gallery Images
+            - generic [ref=e215]:
+              - generic [ref=e216]: Gallery Photos
+              - generic [ref=e217]:
+                - generic [ref=e218]:
+                  - generic [ref=e219]: 
+                  - heading "Click or drag images here" [level=6] [ref=e220]
+                  - generic [ref=e221]:
+                    - generic [ref=e222]: 
+                    - text: Multiple files allowed (Max 10 images)
+                  - button " Browse Files" [ref=e223] [cursor=pointer]:
+                    - generic [ref=e224]: 
+                    - text: Browse Files
+                - text: 
+              - generic [ref=e225]:
+                - generic [ref=e226]: 
+                - text: Additional reference images — infected orchards, progression stages, comparison photos. Max 2MB each.
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - generic [ref=e229]: 
+                  - text: 0 / 10 images
+                - generic [ref=e230]: 10 remaining
+          - generic [ref=e231]:
+            - heading " Publishing" [level=5] [ref=e233]:
+              - generic [ref=e234]: 
+              - text: Publishing
+            - generic [ref=e236]:
+              - checkbox "Publish this disease (make it visible to users)" [ref=e237]
+              - generic [ref=e238]: Publish this disease (make it visible to users)
+          - generic [ref=e239]:
+            - generic [ref=e240]: Associated Fruits
+            - listbox [ref=e241]:
+              - option "Apple / सेब" [ref=e242]
+              - option "Apricot / खुबानी" [ref=e243]
+              - option "Cherry / चेरी" [ref=e244]
+              - option "Peach / आड़ू" [ref=e245]
+              - option "Pear / नाशपाती" [ref=e246]
+              - option "Persimmon / तेंदू फल" [ref=e247]
+              - option "Plum / आलूबुखारा" [ref=e248]
+              - option "Pomegranate / अनार" [ref=e249]
+            - generic [ref=e250]: Hold Ctrl/Cmd to select multiple.
+          - generic [ref=e251]:
+            - heading " Associated Products" [level=5] [ref=e253]:
+              - generic [ref=e254]: 
+              - text: Associated Products
+            - generic [ref=e255]:
+              - paragraph [ref=e256]: Search and select products to associate with this item.
+              - generic [ref=e258]:
+                - generic [ref=e260]: 
+                - textbox "Search products by name..." [ref=e261]
+              - generic [ref=e262]:
+                - generic [ref=e263]:
+                  - checkbox "Heavy Duty Loppers (हेवी ड्यूटी लॉपर)" [ref=e264]
+                  - generic [ref=e265]: Heavy Duty Loppers (हेवी ड्यूटी लॉपर)
+                - generic [ref=e266]:
+                  - checkbox "Hori Hori Garden Knife (होरी होरी बगीचे का चाकू)" [ref=e267]
+                  - generic [ref=e268]: Hori Hori Garden Knife (होरी होरी बगीचे का चाकू)
+                - generic [ref=e269]:
+                  - checkbox "Professional Pruning Shears (पेशेवर छंटाई कैंची)" [ref=e270]
+                  - generic [ref=e271]: Professional Pruning Shears (पेशेवर छंटाई कैंची)
+              - generic [ref=e272]:
+                - generic [ref=e273]: 0 product(s) selected
+                - button "Clear all" [ref=e274] [cursor=pointer]
+          - generic [ref=e275]:
+            - button " Create Disease" [ref=e276] [cursor=pointer]:
+              - generic [ref=e277]: 
+              - text: Create Disease
+            - link " Cancel" [ref=e278] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/admin/diseases
+              - generic [ref=e279]: 
+              - text: Cancel
+    - contentinfo [ref=e280]:
+      - generic [ref=e281]: © 2026 Baagvaani. All rights reserved.
+      - generic [ref=e282]:
+        - text: Powered by
+        - strong [ref=e283]: Laravel 12.58.0
+        - text: "& Bootstrap 5"

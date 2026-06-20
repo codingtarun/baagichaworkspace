@@ -1,0 +1,314 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001
+        - generic [ref=e8]: Baagvaani
+      - button "Toggle menu" [ref=e10]:
+        - img [ref=e11]
+  - main [ref=e13]:
+    - region "Royal Delicious" [ref=e14]:
+      - generic [ref=e18]:
+        - link "Varieties" [ref=e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/variety
+          - img [ref=e21]
+          - text: Varieties
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: 
+            - text: Mid Season
+          - generic [ref=e26]:
+            - generic [ref=e27]: 
+            - text: Featured
+          - generic [ref=e28]:
+            - generic [ref=e29]: 
+            - text: Export Quality
+        - heading "रॉयल डेलिशियस" [level=1] [ref=e31]
+        - paragraph [ref=e32]:
+          - generic [ref=e33]: 
+          - text: USA
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - region "Overview" [ref=e37]:
+            - heading "Overview" [level=2] [ref=e38]
+            - paragraph [ref=e40]: हिमाचल प्रदेश की प्रीमियम गहरे लाल डेलिशियस किस्म और पारंपरिक बाजार अग्रणी। उच्च शीतलन की आवश्यकता और 6,000 फीट से ऊपर सबसे अच्छा प्रदर्शन।
+          - region "Tree & Fruit" [ref=e41]:
+            - heading "Tree & Fruit" [level=2] [ref=e42]
+            - generic [ref=e43]:
+              - generic [ref=e44]:
+                - heading " Tree Characteristics" [level=3] [ref=e45]:
+                  - generic [ref=e46]: 
+                  - text: Tree Characteristics
+                - generic [ref=e47]:
+                  - generic [ref=e48]:
+                    - generic [ref=e49]: Vigour
+                    - generic [ref=e50]: Medium
+                  - generic [ref=e51]:
+                    - generic [ref=e52]: Growth Habit
+                    - generic [ref=e53]: Upright
+                  - generic [ref=e54]:
+                    - generic [ref=e55]: Bearing Age
+                    - generic [ref=e56]: 4 years
+                  - generic [ref=e57]:
+                    - generic [ref=e58]: Self-Fertile
+                    - generic [ref=e59]: No ✗
+                  - generic [ref=e60]:
+                    - generic [ref=e61]: Pollinators
+                    - generic [ref=e62]: Golden Delicious, Granny Smith, Gala
+              - separator [ref=e63]
+              - generic [ref=e64]:
+                - heading " Fruit Profile" [level=3] [ref=e65]:
+                  - generic [ref=e66]: 
+                  - text: Fruit Profile
+                - generic [ref=e67]:
+                  - generic [ref=e68]:
+                    - generic [ref=e69]: Size
+                    - generic [ref=e70]: Large
+                  - generic [ref=e71]:
+                    - generic [ref=e72]: Shape
+                    - generic [ref=e73]: Conical
+                  - generic [ref=e74]:
+                    - generic [ref=e75]: Skin Color
+                    - generic [ref=e76]: Dark red, almost purple
+                  - generic [ref=e77]:
+                    - generic [ref=e78]: Flesh Color
+                    - generic [ref=e79]: Cream
+                  - generic [ref=e80]:
+                    - generic [ref=e81]: Avg. Weight
+                    - generic [ref=e82]: 200g
+                  - generic [ref=e83]:
+                    - generic [ref=e84]: Taste
+                    - generic [ref=e85]: Sweet, crisp, very aromatic
+              - separator [ref=e86]
+              - generic [ref=e87]:
+                - heading " Harvest & Storage" [level=3] [ref=e88]:
+                  - generic [ref=e89]: 
+                  - text: Harvest & Storage
+                - generic [ref=e90]:
+                  - generic [ref=e91]:
+                    - generic [ref=e92]: Days to Maturity
+                    - generic [ref=e93]: 145 days
+                  - generic [ref=e94]:
+                    - generic [ref=e95]: Harvest Window
+                    - generic [ref=e96]: Late August - October
+                  - generic [ref=e97]:
+                    - generic [ref=e98]: Storage Life
+                    - generic [ref=e99]: Excellent
+                  - generic [ref=e100]:
+                    - generic [ref=e101]: Storage Duration
+                    - generic [ref=e102]: 8 months
+          - region "Climate & Altitude" [ref=e103]:
+            - heading "Climate & Altitude" [level=2] [ref=e104]
+            - generic [ref=e105]:
+              - heading " Altitude Range" [level=3] [ref=e106]:
+                - generic [ref=e107]: 
+                - text: Altitude Range
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: 5,000 ft
+                  - generic [ref=e111]: 9,000 ft
+                - paragraph [ref=e114]:
+                  - generic [ref=e115]: 
+                  - text: 6000-8500 ft
+            - generic [ref=e116]:
+              - heading " Climate Requirements" [level=3] [ref=e117]:
+                - generic [ref=e118]: 
+                - text: Climate Requirements
+              - generic [ref=e119]:
+                - generic [ref=e120]:
+                  - generic [ref=e121]: Chilling Hours (min)
+                  - generic [ref=e122]: 1,100 hrs
+                - generic [ref=e123]:
+                  - generic [ref=e124]: Ideal Temp
+                  - generic [ref=e125]: 10.0–22.0°C
+                - generic [ref=e126]:
+                  - generic [ref=e127]: Rain Tolerance
+                  - generic [ref=e128]: Medium
+          - region "Disease & Rootstock" [ref=e129]:
+            - heading "Disease & Rootstock" [level=2] [ref=e130]
+            - generic [ref=e131]:
+              - heading " Recommended Rootstocks" [level=3] [ref=e132]:
+                - generic [ref=e133]: 
+                - text: Recommended Rootstocks
+              - generic [ref=e134]:
+                - link " MM-106" [ref=e135] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8001/rootstocks/mm-106
+                  - generic [ref=e136]: 
+                  - text: MM-106
+                - link " M.9" [ref=e137] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8001/rootstocks/m-9
+                  - generic [ref=e138]: 
+                  - text: M.9
+                - link " MM-111" [ref=e139] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8001/rootstocks/mm-111
+                  - generic [ref=e140]: 
+                  - text: MM-111
+          - region "Market Overview" [ref=e141]:
+            - heading "Market Overview" [level=2] [ref=e142]
+            - generic [ref=e143]:
+              - generic [ref=e144]:
+                - generic [ref=e145]: Demand
+                - generic [ref=e146]: High
+              - generic [ref=e147]:
+                - generic [ref=e148]: Price Tier
+                - generic [ref=e149]: ₹₹₹₹₹
+              - generic [ref=e150]:
+                - generic [ref=e151]: Yield / Tree
+                - generic [ref=e152]: 70 kg
+              - generic [ref=e153]:
+                - generic [ref=e154]: Yield Potential
+                - generic [ref=e155]: High
+              - generic [ref=e156]:
+                - generic [ref=e157]: Export Quality
+                - generic [ref=e158]: Yes ✓
+          - generic [ref=e160]:
+            - heading " Comments" [level=2] [ref=e162]:
+              - generic [ref=e163]: 
+              - text: Comments
+            - generic [ref=e164]:
+              - generic [ref=e165]: 
+              - link "Login" [ref=e166] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/login
+              - text: to leave a comment.
+            - generic [ref=e168]:
+              - generic [ref=e169]: 
+              - paragraph [ref=e170]: No comments yet. Be the first to share your thoughts!
+        - complementary [ref=e171]:
+          - generic [ref=e172]:
+            - heading "Quick Stats" [level=3] [ref=e173]
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - generic [ref=e176]:
+                  - generic [ref=e177]: 
+                  - text: Altitude
+                - generic [ref=e178]: 5,000–9,000 ft
+              - generic [ref=e179]:
+                - generic [ref=e180]:
+                  - generic [ref=e181]: 
+                  - text: Chilling
+                - generic [ref=e182]: 1,100 hrs
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - generic [ref=e185]: 
+                  - text: Yield
+                - generic [ref=e186]: High
+              - generic [ref=e187]:
+                - generic [ref=e188]:
+                  - generic [ref=e189]: 
+                  - text: Price Tier
+                - generic [ref=e190]: ₹₹₹₹₹
+              - generic [ref=e191]:
+                - generic [ref=e192]:
+                  - generic [ref=e193]: 
+                  - text: Views
+                - generic [ref=e194]: "1"
+          - generic [ref=e195]:
+            - heading "Actions" [level=3] [ref=e196]
+            - generic [ref=e197]:
+              - button "Like" [ref=e198]:
+                - generic [ref=e199]: 
+                - generic [ref=e200]: Like
+              - button "Save" [ref=e201]:
+                - generic [ref=e202]: 
+                - generic [ref=e203]: Save
+          - generic [ref=e204]:
+            - heading "Recommended Rootstocks" [level=3] [ref=e205]
+            - generic [ref=e206]:
+              - link " MM-106 एमएम-106" [ref=e207] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/rootstocks/mm-106
+                - generic [ref=e209]: 
+                - generic [ref=e210]:
+                  - paragraph [ref=e211]: MM-106
+                  - paragraph [ref=e212]: एमएम-106
+              - link " M.9 एम .9" [ref=e213] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/rootstocks/m-9
+                - generic [ref=e215]: 
+                - generic [ref=e216]:
+                  - paragraph [ref=e217]: M.9
+                  - paragraph [ref=e218]: एम .9
+              - link " MM-111 एमएम -111" [ref=e219] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/rootstocks/mm-111
+                - generic [ref=e221]: 
+                - generic [ref=e222]:
+                  - paragraph [ref=e223]: MM-111
+                  - paragraph [ref=e224]: एमएम -111
+          - generic [ref=e225]:
+            - heading "Other Mid Season Varieties" [level=3] [ref=e226]
+            - generic [ref=e227]:
+              - link "Honey Crisp Honey Crisp हनीक्रिस्प" [ref=e228] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/varieties/honey-crisp
+                - img "Honey Crisp" [ref=e229]
+                - generic [ref=e230]:
+                  - paragraph [ref=e231]: Honey Crisp
+                  - paragraph [ref=e232]: हनीक्रिस्प
+              - link "Adams Spur Adams Spur एडम्स स्पर" [ref=e233] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/varieties/adams-spur
+                - img "Adams Spur" [ref=e234]
+                - generic [ref=e235]:
+                  - paragraph [ref=e236]: Adams Spur
+                  - paragraph [ref=e237]: एडम्स स्पर
+              - link "Tide Man Tide Man टाइड मैन" [ref=e238] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/varieties/tide-man
+                - img "Tide Man" [ref=e239]
+                - generic [ref=e240]:
+                  - paragraph [ref=e241]: Tide Man
+                  - paragraph [ref=e242]: टाइड मैन
+              - link "Red Love Red Love रेड लव" [ref=e243] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/varieties/red-love
+                - img "Red Love" [ref=e244]
+                - generic [ref=e245]:
+                  - paragraph [ref=e246]: Red Love
+                  - paragraph [ref=e247]: रेड लव
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - text:   
+          - button "Share रॉयल डेलिशियस" [ref=e250] [cursor=pointer]:
+            - generic [ref=e251]: 
+        - button "Switch to English" [ref=e252] [cursor=pointer]: English
+  - contentinfo [ref=e253]:
+    - generic [ref=e254]:
+      - generic [ref=e255]:
+        - generic [ref=e256]:
+          - link "Baagvaani" [ref=e257] [cursor=pointer]:
+            - /url: http://127.0.0.1:8001
+            - generic [ref=e259]: Baagvaani
+          - paragraph [ref=e260]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e262]: Social channels coming soon
+        - generic [ref=e263]:
+          - heading "Quick Links" [level=3] [ref=e264]
+          - list [ref=e265]:
+            - listitem [ref=e266]:
+              - link "Home" [ref=e267] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001
+            - listitem [ref=e268]:
+              - link "Blog" [ref=e269] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/blog
+            - listitem [ref=e270]:
+              - link "About Us" [ref=e271] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/about
+        - generic [ref=e272]:
+          - heading "Topics" [level=3] [ref=e273]
+          - list [ref=e274]:
+            - listitem [ref=e275]:
+              - link "Spray & Disease" [ref=e276] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/blog?category=spray-disease-management
+            - listitem [ref=e277]:
+              - link "Orchard Care" [ref=e278] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/blog?category=orchard-care
+            - listitem [ref=e279]:
+              - link "Variety Guide" [ref=e280] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/blog?category=variety-rootstock
+            - listitem [ref=e281]:
+              - link "Weather & Climate" [ref=e282] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/blog?category=weather-climate
+        - generic [ref=e283]:
+          - heading "Newsletter" [level=3] [ref=e284]
+          - paragraph [ref=e285]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e286]:
+            - textbox "Enter your email" [ref=e287]
+            - button "Subscribe" [ref=e288]
+          - paragraph [ref=e289]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e291]: © 2026 Baagvaani. All rights reserved.

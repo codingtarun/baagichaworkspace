@@ -1,0 +1,319 @@
+- generic [active] [ref=e1]:
+  - text:  
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link " Baagicha" [ref=e6] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - generic [ref=e7]: 
+          - generic [ref=e8]: Baagicha
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - button "Switch orchard" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 16°
+              - generic [ref=e13]:
+                - generic [ref=e14]: Haripurdhar
+                - generic [ref=e15]: Clear sky
+              - generic [ref=e16]: 
+            - generic:
+              - generic:
+                - generic: HA
+                - generic:
+                  - generic: Himalayan Orchard, Haripurdhar
+                  - generic:
+                    - generic: 
+                    - text: Haripurdhar, Sirmaur
+              - generic: Switch Orchard
+              - list:
+                - button:
+                  - generic: HI
+                  - generic:
+                    - generic: Himalayan Orchard, Haripurdhar
+                    - generic:
+                      - generic: 
+                      - text: Haripurdhar, Sirmaur
+                  - generic: 
+                - button:
+                  - generic: SU
+                  - generic:
+                    - generic: Sunrise Groves, Thanedar
+                    - generic:
+                      - generic: 
+                      - text: Thanedar, Shimla
+                - button:
+                  - generic: AP
+                  - generic:
+                    - generic: Apple Bloom Farms, Banjar
+                    - generic:
+                      - generic: 
+                      - text: Banjar, Kullu
+              - button:
+                - generic:
+                  - generic: 
+                - generic:
+                  - generic: Current Location
+                  - generic:
+                    - generic: 
+                    - text: Device GPS
+              - generic:
+                - link:
+                  - /url: http://127.0.0.1:8000/orchards
+                  - generic: 
+                  - text: Manage Orchards
+                - generic: ·
+                - link:
+                  - /url: http://127.0.0.1:8000/weather
+                  - generic: 
+                  - text: Forecast
+          - generic [ref=e17]:
+            - button "Notifications" [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+            - generic:
+              - generic:
+                - generic: Notifications
+              - list:
+                - listitem:
+                  - generic:
+                    - generic: 
+                    - text: Loading...
+              - link:
+                - /url: http://127.0.0.1:8000/notifications
+                - text: View all notifications
+                - generic: 
+          - generic [ref=e20]:
+            - button "Profile" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: 
+            - generic:
+              - generic:
+                - generic: TA
+                - generic:
+                  - paragraph: Tarun Chauhan
+                  - paragraph: Tarun Chauhan
+              - list:
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8000/profile/dashboard
+                    - generic: 
+                    - text: My Profile
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8000/orchards
+                    - generic: 
+                    - text: My Orchards
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8000/orchard/diary
+                    - generic: 
+                    - text: Orchard Diary
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8000/saved
+                    - generic: 
+                    - text: Saved Items
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8000/disease-reporter
+                    - generic: 
+                    - text: Disease Reports
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8000/notifications/settings
+                    - generic: 
+                    - text: Notification Settings
+                - listitem:
+                  - generic:
+                    - button:
+                      - generic: 
+                      - text: Log out
+      - text: 
+    - generic [ref=e23]:
+      - region "Varieties" [ref=e24]:
+        - generic [ref=e28]:
+          - paragraph [ref=e29]: किस्म चुनाव एवं जानकारी
+          - heading "Varieties" [level=1] [ref=e30]
+          - generic [ref=e31]:
+            - textbox "Search fruits..." [ref=e32]
+            - button "Search" [ref=e33] [cursor=pointer]
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - heading "Select a Fruit" [level=2] [ref=e36]
+          - paragraph [ref=e37]: Choose a fruit to explore its varieties
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - link "View Apple varieties" [ref=e40] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/apple
+              - generic [ref=e41]: "#1"
+              - img "Apple" [ref=e43]
+              - generic [ref=e44]: Apple
+              - generic [ref=e45]: Apple
+              - generic [ref=e46]: सेब
+              - generic [ref=e47]:
+                - generic [ref=e48]: 
+                - text: 47 varieties
+            - link " View Varieties" [ref=e49] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/apple
+              - generic [ref=e50]: 
+              - text: View Varieties
+          - generic [ref=e51]:
+            - link "View Apricot varieties" [ref=e52] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/apricot
+              - generic [ref=e53]: "#2"
+              - img "Apricot" [ref=e55]
+              - generic [ref=e56]: Apricot
+              - generic [ref=e57]: Apricot
+              - generic [ref=e58]: खुबानी
+              - generic [ref=e59]:
+                - generic [ref=e60]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e61] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/apricot
+              - generic [ref=e62]: 
+              - text: View Varieties
+          - generic [ref=e63]:
+            - link "View Cherry varieties" [ref=e64] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/cherry
+              - generic [ref=e65]: "#3"
+              - img "Cherry" [ref=e67]
+              - generic [ref=e68]: Cherry
+              - generic [ref=e69]: Cherry
+              - generic [ref=e70]: चेरी
+              - generic [ref=e71]:
+                - generic [ref=e72]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e73] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/cherry
+              - generic [ref=e74]: 
+              - text: View Varieties
+          - generic [ref=e75]:
+            - link "View Peach varieties" [ref=e76] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/peach
+              - generic [ref=e77]: "#4"
+              - img "Peach" [ref=e79]
+              - generic [ref=e80]: Peach
+              - generic [ref=e81]: Peach
+              - generic [ref=e82]: आड़ू
+              - generic [ref=e83]:
+                - generic [ref=e84]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e85] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/peach
+              - generic [ref=e86]: 
+              - text: View Varieties
+          - generic [ref=e87]:
+            - link "View Pear varieties" [ref=e88] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/pear
+              - generic [ref=e89]: "#5"
+              - img "Pear" [ref=e91]
+              - generic [ref=e92]: Pear
+              - generic [ref=e93]: Pear
+              - generic [ref=e94]: नाशपाती
+              - generic [ref=e95]:
+                - generic [ref=e96]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e97] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/pear
+              - generic [ref=e98]: 
+              - text: View Varieties
+          - generic [ref=e99]:
+            - link "View Persimmon varieties" [ref=e100] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/persimmon
+              - generic [ref=e101]: "#6"
+              - img "Persimmon" [ref=e103]
+              - generic [ref=e104]: Persimmon
+              - generic [ref=e105]: Persimmon
+              - generic [ref=e106]: तेंदू फल
+              - generic [ref=e107]:
+                - generic [ref=e108]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e109] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/persimmon
+              - generic [ref=e110]: 
+              - text: View Varieties
+          - generic [ref=e111]:
+            - link "View Plum varieties" [ref=e112] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/plum
+              - generic [ref=e113]: "#7"
+              - img "Plum" [ref=e115]
+              - generic [ref=e116]: Plum
+              - generic [ref=e117]: Plum
+              - generic [ref=e118]: आलूबुखारा
+              - generic [ref=e119]:
+                - generic [ref=e120]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e121] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/plum
+              - generic [ref=e122]: 
+              - text: View Varieties
+          - generic [ref=e123]:
+            - link "View Pomegranate varieties" [ref=e124] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/pomegranate
+              - generic [ref=e125]: "#8"
+              - img "Pomegranate" [ref=e127]
+              - generic [ref=e128]: Pomegranate
+              - generic [ref=e129]: Pomegranate
+              - generic [ref=e130]: अनार
+              - generic [ref=e131]:
+                - generic [ref=e132]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e133] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/by-fruit/pomegranate
+              - generic [ref=e134]: 
+              - text: View Varieties
+    - contentinfo [ref=e135]:
+      - paragraph [ref=e136]:
+        - text: © 2026 Baagicha — Made with
+        - generic [ref=e137]: 
+        - text: by
+        - link "Tarun Chauhan" [ref=e138] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+      - generic [ref=e139]:
+        - link "Facebook" [ref=e140] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e141]: 
+        - link "Instagram" [ref=e142] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+          - generic [ref=e143]: 
+        - link "YouTube" [ref=e144] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e145]: 
+    - navigation "Main navigation" [ref=e146]:
+      - text: 
+      - generic [ref=e147]:
+        - link "Home" [ref=e148] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - generic [ref=e150]: 
+          - generic [ref=e151]: Home
+          - generic [ref=e152]: घर
+        - link "Spray Schedule" [ref=e153] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spray-schedule
+          - generic [ref=e155]: 
+          - generic [ref=e156]: Spray
+          - generic [ref=e157]: छिड़काव
+        - link "Diseases" [ref=e158] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/disease
+          - generic [ref=e160]: 
+          - generic [ref=e161]: Disease
+          - generic [ref=e162]: रोग
+        - link "Varieties" [ref=e163] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/variety
+          - generic [ref=e165]: 
+          - generic [ref=e166]: Variety
+          - generic [ref=e167]: किस्म
+        - link "Rootstocks" [ref=e168] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/rootstock
+          - generic [ref=e170]: 
+          - generic [ref=e171]: Rootstock
+          - generic [ref=e172]: मूलवृंत
+        - link "Weather Forecast" [ref=e173] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/weather
+          - generic [ref=e175]: 
+          - generic [ref=e176]: Weather
+          - generic [ref=e177]: मौसम
+        - link "Blog & Articles" [ref=e178] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+          - generic [ref=e180]: 
+          - generic [ref=e181]: Blog
+          - generic [ref=e182]: लेख
+  - status [ref=e183]:
+    - generic [ref=e185]: 
+    - generic [ref=e186]: Location denied · Using network fallback

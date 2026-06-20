@@ -1,0 +1,213 @@
+- generic [active] [ref=e1]:
+  - text:  
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link " Baagicha" [ref=e6] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+          - generic [ref=e7]: 
+          - generic [ref=e8]: Baagicha
+        - link " Login for personalized reports" [ref=e10] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/login
+          - generic [ref=e11]: 
+          - generic [ref=e12]: Login for personalized reports
+      - text: 
+    - generic [ref=e13]:
+      - region "Fruits" [ref=e14]:
+        - generic [ref=e18]:
+          - paragraph [ref=e19]: फल चुनाव एवं जानकारी
+          - heading "Fruits" [level=1] [ref=e20]
+          - generic [ref=e21]:
+            - textbox "Search fruits..." [ref=e22]
+            - button "Search" [ref=e23] [cursor=pointer]
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - link "All सभी" [ref=e27] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/fruits
+            - text: All
+            - generic [ref=e28]: सभी
+          - link "Featured विशेष" [ref=e29] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/fruits?featured=1
+            - text: Featured
+            - generic [ref=e30]: विशेष
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - link "View Apple varieties" [ref=e33] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/apple
+              - generic [ref=e34]: "#1"
+              - img "Apple" [ref=e36]
+              - generic [ref=e37]: Apple
+              - generic [ref=e38]: Apple
+              - generic [ref=e39]: सेब
+              - generic [ref=e40]:
+                - generic [ref=e41]: 
+                - text: 47 varieties
+            - link " Know More" [ref=e42] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/apple
+              - generic [ref=e43]: 
+              - text: Know More
+          - generic [ref=e44]:
+            - link "View Apricot varieties" [ref=e45] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/apricot
+              - generic [ref=e46]: "#2"
+              - img "Apricot" [ref=e48]
+              - generic [ref=e49]: Apricot
+              - generic [ref=e50]: Apricot
+              - generic [ref=e51]: खुबानी
+              - generic [ref=e52]:
+                - generic [ref=e53]: 
+                - text: 0 varieties
+            - link " Know More" [ref=e54] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/apricot
+              - generic [ref=e55]: 
+              - text: Know More
+          - generic [ref=e56]:
+            - link "View Cherry varieties" [ref=e57] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/cherry
+              - generic [ref=e58]: "#3"
+              - img "Cherry" [ref=e60]
+              - generic [ref=e61]: Cherry
+              - generic [ref=e62]: Cherry
+              - generic [ref=e63]: चेरी
+              - generic [ref=e64]:
+                - generic [ref=e65]: 
+                - text: 0 varieties
+            - link " Know More" [ref=e66] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/cherry
+              - generic [ref=e67]: 
+              - text: Know More
+          - generic [ref=e68]:
+            - link "View Peach varieties" [ref=e69] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/peach
+              - generic [ref=e70]: "#4"
+              - img "Peach" [ref=e72]
+              - generic [ref=e73]: Peach
+              - generic [ref=e74]: Peach
+              - generic [ref=e75]: आड़ू
+              - generic [ref=e76]:
+                - generic [ref=e77]: 
+                - text: 0 varieties
+            - link " Know More" [ref=e78] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/peach
+              - generic [ref=e79]: 
+              - text: Know More
+          - generic [ref=e80]:
+            - link "View Pear varieties" [ref=e81] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/pear
+              - generic [ref=e82]: "#5"
+              - img "Pear" [ref=e84]
+              - generic [ref=e85]: Pear
+              - generic [ref=e86]: Pear
+              - generic [ref=e87]: नाशपाती
+              - generic [ref=e88]:
+                - generic [ref=e89]: 
+                - text: 0 varieties
+            - link " Know More" [ref=e90] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/pear
+              - generic [ref=e91]: 
+              - text: Know More
+          - generic [ref=e92]:
+            - link "View Persimmon varieties" [ref=e93] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/persimmon
+              - generic [ref=e94]: "#6"
+              - img "Persimmon" [ref=e96]
+              - generic [ref=e97]: Persimmon
+              - generic [ref=e98]: Persimmon
+              - generic [ref=e99]: तेंदू फल
+              - generic [ref=e100]:
+                - generic [ref=e101]: 
+                - text: 0 varieties
+            - link " Know More" [ref=e102] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/persimmon
+              - generic [ref=e103]: 
+              - text: Know More
+          - generic [ref=e104]:
+            - link "View Plum varieties" [ref=e105] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/plum
+              - generic [ref=e106]: "#7"
+              - img "Plum" [ref=e108]
+              - generic [ref=e109]: Plum
+              - generic [ref=e110]: Plum
+              - generic [ref=e111]: आलूबुखारा
+              - generic [ref=e112]:
+                - generic [ref=e113]: 
+                - text: 0 varieties
+            - link " Know More" [ref=e114] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/plum
+              - generic [ref=e115]: 
+              - text: Know More
+          - generic [ref=e116]:
+            - link "View Pomegranate varieties" [ref=e117] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/pomegranate
+              - generic [ref=e118]: "#8"
+              - img "Pomegranate" [ref=e120]
+              - generic [ref=e121]: Pomegranate
+              - generic [ref=e122]: Pomegranate
+              - generic [ref=e123]: अनार
+              - generic [ref=e124]:
+                - generic [ref=e125]: 
+                - text: 0 varieties
+            - link " Know More" [ref=e126] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/pomegranate
+              - generic [ref=e127]: 
+              - text: Know More
+    - contentinfo [ref=e128]:
+      - paragraph [ref=e129]:
+        - text: © 2026 Baagicha — Made with
+        - generic [ref=e130]: 
+        - text: by
+        - link "Tarun Chauhan" [ref=e131] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+      - generic [ref=e132]:
+        - link "Facebook" [ref=e133] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e134]: 
+        - link "Instagram" [ref=e135] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+          - generic [ref=e136]: 
+        - link "YouTube" [ref=e137] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e138]: 
+    - navigation "Main navigation" [ref=e139]:
+      - text: 
+      - generic [ref=e140]:
+        - link "Home" [ref=e141] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+          - generic [ref=e143]: 
+          - generic [ref=e144]: Home
+          - generic [ref=e145]: घर
+        - link "Spray Schedule" [ref=e146] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/spray-schedule
+          - generic [ref=e148]: 
+          - generic [ref=e149]: Spray
+          - generic [ref=e150]: छिड़काव
+        - link "Diseases" [ref=e151] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/disease
+          - generic [ref=e153]: 
+          - generic [ref=e154]: Disease
+          - generic [ref=e155]: रोग
+        - link "Fruits" [ref=e156] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/fruits
+          - generic [ref=e158]: 
+          - generic [ref=e159]: Fruits
+          - generic [ref=e160]: फल
+        - link "Varieties" [ref=e161] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/varieties
+          - generic [ref=e163]: 
+          - generic [ref=e164]: Variety
+          - generic [ref=e165]: किस्म
+        - link "Rootstocks" [ref=e166] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/rootstock
+          - generic [ref=e168]: 
+          - generic [ref=e169]: Rootstock
+          - generic [ref=e170]: मूलवृंत
+        - link "Weather Forecast" [ref=e171] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/weather
+          - generic [ref=e173]: 
+          - generic [ref=e174]: Weather
+          - generic [ref=e175]: मौसम
+        - link "Blog & Articles" [ref=e176] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/blog
+          - generic [ref=e178]: 
+          - generic [ref=e179]: Blog
+          - generic [ref=e180]: लेख

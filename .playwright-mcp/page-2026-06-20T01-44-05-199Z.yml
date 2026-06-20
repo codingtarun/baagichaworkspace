@@ -1,0 +1,306 @@
+- generic [ref=e1]:
+  - text:  
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link " Baagicha" [ref=e6] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001
+          - generic [ref=e7]: 
+          - generic [ref=e8]: Baagicha
+        - link " Login for personalized reports" [ref=e10] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/login
+          - generic [ref=e11]: 
+          - generic [ref=e12]: Login for personalized reports
+      - text: 
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - img "San Jose Scale" [ref=e16]
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: 
+            - text: High
+          - generic [ref=e20]:
+            - generic [ref=e21]: 
+            - text: Pest
+          - generic [ref=e22]:
+            - generic [ref=e23]: 
+            - text: HP
+      - generic [ref=e24]:
+        - heading "San Jose Scale" [level=1] [ref=e25]
+        - paragraph [ref=e26]:
+          - emphasis [ref=e27]: Diaspidiotus perniciosus
+        - paragraph [ref=e28]: "Also: Chinese Scale"
+      - generic [ref=e29]:
+        - button "Report Sighting" [ref=e30] [cursor=pointer]:
+          - generic [ref=e31]: 
+          - generic [ref=e32]: Seen Here
+        - button "Save" [ref=e33] [cursor=pointer]:
+          - generic [ref=e34]: 
+          - generic [ref=e35]: Save
+        - button "Share" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: 
+          - generic [ref=e38]: Share
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]: 
+          - generic [ref=e43]: 10–30
+          - generic [ref=e44]: °C
+        - generic [ref=e45]:
+          - generic [ref=e46]: 
+          - generic [ref=e47]: ">50"
+          - generic [ref=e48]: "% humidity"
+        - generic [ref=e49]:
+          - generic [ref=e50]: 20–50
+          - generic [ref=e51]: "% yield loss"
+        - generic [ref=e52]:
+          - generic [ref=e53]: 
+          - generic [ref=e54]: 1,500–9,000
+          - generic [ref=e55]: ft
+        - generic [ref=e56]:
+          - generic [ref=e57]: 
+          - generic [ref=e58]: "500"
+          - generic [ref=e59]: views
+      - generic [ref=e61]:
+        - button "Overview" [ref=e62] [cursor=pointer]
+        - button "Identify" [ref=e63] [cursor=pointer]
+        - button "Manage" [ref=e64] [cursor=pointer]
+        - button "Risk Factors" [ref=e65] [cursor=pointer]
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - generic [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]: 
+            - heading "About This Disease" [level=2] [ref=e70]
+          - paragraph [ref=e72]: San Jose Scale is a devastating sucking pest that forms circular greyish scales on branches, twigs and fruit. Heavy infestations kill branches and reduce fruit quality.
+        - generic [ref=e73]:
+          - generic [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]: 
+            - heading "Active Season" [level=2] [ref=e76]
+          - generic [ref=e79]:
+            - generic [ref=e80]: Bud Break
+            - generic [ref=e82]: Late Summer
+        - generic [ref=e83]:
+          - generic [ref=e84] [cursor=pointer]:
+            - generic [ref=e85]: 
+            - heading "Spreads Via" [level=2] [ref=e86]
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - generic [ref=e90]: 
+              - text: Wind
+            - generic [ref=e91]:
+              - generic [ref=e92]: 
+              - text: Nursery stock
+            - generic [ref=e93]:
+              - generic [ref=e94]: 
+              - text: Birds
+            - generic [ref=e95]:
+              - generic [ref=e96]: 
+              - text: Human activity
+      - generic [ref=e98]:
+        - generic [ref=e99] [cursor=pointer]:
+          - generic [ref=e100]: 
+          - heading "How to Identify" [level=2] [ref=e101]
+        - list [ref=e103]:
+          - listitem [ref=e104]:
+            - generic [ref=e105]: Circular greyish-brown scales on bark and fruit. Yellow liquid when scraped. Twig dieback and red spots on fruit.
+          - listitem [ref=e106]:
+            - generic [ref=e107]: छाल और फल पर गोलाकार भूरे-सलेटी शल्क। खुरचने पर पीला तरल। टहनी मर जाती है और फल पर लाल धब्बे।
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e110] [cursor=pointer]:
+            - generic [ref=e111]: 
+            - heading "Prevention" [level=2] [ref=e112]
+          - list [ref=e114]:
+            - listitem [ref=e115]:
+              - generic [ref=e116]: Use clean nursery stock. Inspect trees regularly. Apply dormant horticultural oil.
+            - listitem [ref=e117]:
+              - generic [ref=e118]: साफ नर्सरी स्टॉक का उपयोग करें। नियमित रूप से पेड़ों की जांच करें। सुप्त बागवानी तेल लगाएं।
+        - generic [ref=e119]:
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e121]: 
+            - heading "Organic Treatment" [level=2] [ref=e122]
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - generic [ref=e126]: Apply horticultural oil during dormant season. Use neem oil sprays. Release vedalia beetles.
+            - listitem [ref=e127]:
+              - generic [ref=e128]: सुप्त मौसम में बागवानी तेल लगाएं। नीम का तेल स्प्रे का उपयोग करें। वेडालिया बीटल छोड़ें।
+        - generic [ref=e129]:
+          - generic [ref=e130] [cursor=pointer]:
+            - generic [ref=e131]: 
+            - heading "Yield Impact" [level=2] [ref=e132]
+          - paragraph [ref=e134]: Weakens trees and causes fruit spotting
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - generic [ref=e137] [cursor=pointer]:
+            - generic [ref=e138]: 
+            - heading "Altitude Range" [level=2] [ref=e139]
+          - generic [ref=e142]:
+            - generic [ref=e143]: 1,500 ft
+            - generic [ref=e144]: 9,000 ft
+        - generic [ref=e147]:
+          - generic [ref=e148] [cursor=pointer]:
+            - generic [ref=e149]: 
+            - heading "Temperature Risk" [level=2] [ref=e150]
+          - generic [ref=e153]:
+            - generic [ref=e154]: 10°C
+            - generic [ref=e155]: 30°C
+        - generic [ref=e158]:
+          - generic [ref=e159] [cursor=pointer]:
+            - generic [ref=e160]: 
+            - heading "Humidity Threshold" [level=2] [ref=e161]
+          - generic [ref=e164]:
+            - generic [ref=e165]: Risk above
+            - generic [ref=e166]: 50%
+      - generic [ref=e169]:
+        - heading "Other Pest Diseases" [level=2] [ref=e171]
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - generic [ref=e176]: 
+              - generic [ref=e177]:
+                - generic [ref=e178]: 
+                - text: Medium
+            - generic [ref=e179]:
+              - paragraph [ref=e180]: Apple Blossom Thrips
+              - paragraph [ref=e181]: सेब फूल थ्रिप्स
+              - paragraph [ref=e182]: "{\"en\":\"Blossom thrips feed on flower parts and young fruit, causing silvery scarring and deformation.\",\"hi\":\"\\u092b\\u0942\\u0932 \\u0925\\u094d\\u0930\\u093f\\u092a\\u094d\\u0938 \\u092b\\u0942\\u0932 \\u0915\\u0947 \\u0939\\u093f\\u0938\\u094d\\u0938\\u094b\\u0902 \\u0914\\u0930 \\u092f\\u0941\\u0935\\u093e \\u092b\\u0932\\u094b\\u0902 \\u092a\\u0930 \\u0916\\u093f\\u0932\\u0924\\u0947 \\u0939\\u0948\\u0902, \\u091c\\u093f\\u0938\\u0938\\u0947 \\u091a\\u093e\\u0902\\u0926\\u0940 \\u091c\\u0948\\u0938\\u0947 \\u0928\\u093f\\u0936\\u093e\\u0928 \\u0914\\u0930 \\u0935\\u093f\\u0915\\u0943\\u0924\\u093f \\u0939\\u094b\\u0924\\u0940 \\u0939\\u0948\\u0964\"}"
+            - generic [ref=e183]:
+              - button "Report Sighting" [ref=e184] [cursor=pointer]:
+                - generic [ref=e185]: 
+                - generic [ref=e186]: Seen Here
+              - button "Watch" [ref=e187] [cursor=pointer]:
+                - generic [ref=e188]: 
+                - generic [ref=e189]: Watch
+            - link " Know More" [ref=e190] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/diseases/apple-blossom-thrips
+              - generic [ref=e191]: 
+              - text: Know More
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - generic [ref=e195]: 
+              - generic [ref=e196]:
+                - generic [ref=e197]: 
+                - text: Medium
+            - generic [ref=e198]:
+              - paragraph [ref=e199]: Gypsy Moth
+              - paragraph [ref=e200]: जिप्सी मॉथ
+              - paragraph [ref=e201]: "{\"en\":\"Gypsy moth caterpillars feed on leaves, causing severe defoliation and reduced tree vigour.\",\"hi\":\"\\u091c\\u093f\\u092a\\u094d\\u0938\\u0940 \\u092e\\u0949\\u0925 \\u0915\\u0948\\u091f\\u0930\\u092a\\u093f\\u0932\\u0930 \\u092a\\u0924\\u094d\\u0924\\u093f\\u092f\\u094b\\u0902 \\u092a\\u0930 \\u0916\\u093f\\u0932\\u0924\\u0947 \\u0939\\u0948\\u0902, \\u091c\\u093f\\u0938\\u0938\\u0947 \\u0917\\u0902\\u092d\\u0940\\u0930 \\u092a\\u0924\\u094d\\u0924\\u093e \\u0916\\u093e\\u0928\\u093e \\u0914\\u0930 \\u092a\\u0947\\u0921\\u093c \\u0915\\u0940 \\u0924\\u093e\\u0915\\u0924 \\u0915\\u092e \\u0939\\u094b\\u0924\\u0940 \\u0939\\u0948\\u0964\"}"
+            - generic [ref=e202]:
+              - button "Report Sighting" [ref=e203] [cursor=pointer]:
+                - generic [ref=e204]: 
+                - generic [ref=e205]: Seen Here
+              - button "Watch" [ref=e206] [cursor=pointer]:
+                - generic [ref=e207]: 
+                - generic [ref=e208]: Watch
+            - link " Know More" [ref=e209] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/diseases/gypsy-moth
+              - generic [ref=e210]: 
+              - text: Know More
+          - generic [ref=e211]:
+            - generic [ref=e212]:
+              - generic [ref=e214]: 
+              - generic [ref=e215]:
+                - generic [ref=e216]: 
+                - text: Low
+            - generic [ref=e217]:
+              - paragraph [ref=e218]: Thrips
+              - paragraph [ref=e219]: थ्रिप्स
+              - paragraph [ref=e220]: "{\"en\":\"Thrips scrape leaf cells, causing silvery patches and reduced photosynthesis.\",\"hi\":\"\\u0925\\u094d\\u0930\\u093f\\u092a\\u094d\\u0938 \\u092a\\u0924\\u094d\\u0924\\u0940 \\u0915\\u094b\\u0936\\u093f\\u0915\\u093e\\u0913\\u0902 \\u0915\\u094b \\u0916\\u0941\\u0930\\u091a\\u0924\\u0947 \\u0939\\u0948\\u0902, \\u091c\\u093f\\u0938\\u0938\\u0947 \\u091a\\u093e\\u0902\\u0926\\u0940 \\u091c\\u0948\\u0938\\u0947 \\u0927\\u092c\\u094d\\u092c\\u0947 \\u0914\\u0930 \\u092a\\u094d\\u0930\\u0915\\u093e\\u0936 \\u0938\\u0902\\u0936\\u094d\\u0932\\u0947\\u0937\\u0923 \\u0915\\u092e \\u0939\\u094b\\u0924\\u093e \\u0939\\u0948\\u0964\"}"
+            - generic [ref=e221]:
+              - button "Report Sighting" [ref=e222] [cursor=pointer]:
+                - generic [ref=e223]: 
+                - generic [ref=e224]: Seen Here
+              - button "Watch" [ref=e225] [cursor=pointer]:
+                - generic [ref=e226]: 
+                - generic [ref=e227]: Watch
+            - link " Know More" [ref=e228] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/diseases/thrips
+              - generic [ref=e229]: 
+              - text: Know More
+          - generic [ref=e230]:
+            - generic [ref=e231]:
+              - generic [ref=e233]: 
+              - generic [ref=e234]:
+                - generic [ref=e235]: 
+                - text: Medium
+            - generic [ref=e236]:
+              - paragraph [ref=e237]: Tent Caterpillar
+              - paragraph [ref=e238]: टेंट कैटरपिलर
+              - paragraph [ref=e239]: "{\"en\":\"Tent caterpillars build silken nests in branch crotches and defoliate tree sections during outbreaks.\",\"hi\":\"\\u091f\\u0947\\u0902\\u091f \\u0915\\u0948\\u091f\\u0930\\u092a\\u093f\\u0932\\u0930 \\u0936\\u093e\\u0916\\u093e \\u092e\\u094b\\u0921\\u093c\\u094b\\u0902 \\u092e\\u0947\\u0902 \\u0930\\u0947\\u0936\\u092e\\u0940 \\u0918\\u094b\\u0902\\u0938\\u0932\\u0947 \\u092c\\u0928\\u093e\\u0924\\u0947 \\u0939\\u0948\\u0902 \\u0914\\u0930 \\u092a\\u094d\\u0930\\u0915\\u094b\\u092a \\u0915\\u0947 \\u0926\\u094c\\u0930\\u093e\\u0928 \\u092a\\u0947\\u0921\\u093c \\u0915\\u0947 \\u0939\\u093f\\u0938\\u094d\\u0938\\u094b\\u0902 \\u0938\\u0947 \\u092a\\u0924\\u094d\\u0924\\u0947 \\u0916\\u093e\\u0924\\u0947 \\u0939\\u0948\\u0902\\u0964\"}"
+            - generic [ref=e240]:
+              - button "Report Sighting" [ref=e241] [cursor=pointer]:
+                - generic [ref=e242]: 
+                - generic [ref=e243]: Seen Here
+              - button "Watch" [ref=e244] [cursor=pointer]:
+                - generic [ref=e245]: 
+                - generic [ref=e246]: Watch
+            - link " Know More" [ref=e247] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/diseases/tent-caterpillar
+              - generic [ref=e248]: 
+              - text: Know More
+      - text: 
+      - generic [ref=e249]:
+        - generic [ref=e250]:
+          - text:   
+          - button "Share San Jose Scale" [ref=e313] [cursor=pointer]:
+            - generic [ref=e252]: 
+        - button "Switch to Hindi" [active] [ref=e314] [cursor=pointer]: हिन्दी
+    - contentinfo [ref=e254]:
+      - paragraph [ref=e255]:
+        - text: © 2026 Baagicha — Made with
+        - generic [ref=e256]: 
+        - text: by
+        - link "Tarun Chauhan" [ref=e257] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+      - generic [ref=e258]:
+        - link "Facebook" [ref=e259] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e260]: 
+        - link "Instagram" [ref=e261] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+          - generic [ref=e262]: 
+        - link "YouTube" [ref=e263] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e264]: 
+    - navigation "Main navigation" [ref=e265]:
+      - text: 
+      - generic [ref=e266]:
+        - link "Home" [ref=e267] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001
+          - generic [ref=e269]: 
+          - generic [ref=e270]: Home
+          - generic [ref=e271]: घर
+        - link "Spray Schedule" [ref=e272] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/spray-schedule
+          - generic [ref=e274]: 
+          - generic [ref=e275]: Spray
+          - generic [ref=e276]: छिड़काव
+        - link "Diseases" [ref=e277] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/disease
+          - generic [ref=e279]: 
+          - generic [ref=e280]: Disease
+          - generic [ref=e281]: रोग
+        - link "Fruits" [ref=e282] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/fruits
+          - generic [ref=e284]: 
+          - generic [ref=e285]: Fruits
+          - generic [ref=e286]: फल
+        - link "Varieties" [ref=e287] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/varieties
+          - generic [ref=e289]: 
+          - generic [ref=e290]: Variety
+          - generic [ref=e291]: किस्म
+        - link "Rootstocks" [ref=e292] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/rootstock
+          - generic [ref=e294]: 
+          - generic [ref=e295]: Rootstock
+          - generic [ref=e296]: मूलवृंत
+        - link "Weather Forecast" [ref=e297] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/weather
+          - generic [ref=e299]: 
+          - generic [ref=e300]: Weather
+          - generic [ref=e301]: मौसम
+        - link "Blog & Articles" [ref=e302] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/blog
+          - generic [ref=e304]: 
+          - generic [ref=e305]: Blog
+          - generic [ref=e306]: लेख

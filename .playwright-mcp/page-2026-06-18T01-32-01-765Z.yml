@@ -1,0 +1,242 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - generic [ref=e8]: Baagvaani
+      - navigation "Main navigation" [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - link "Fruits" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fruits
+        - link "Varieties" [ref=e12] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/varieties
+        - link "Blog" [ref=e13] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+        - link "About" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/about
+      - button "T Tarun Chauhan" [ref=e18]:
+        - generic [ref=e19]: T
+        - generic [ref=e20]: Tarun Chauhan
+        - img [ref=e21]
+  - main [ref=e23]:
+    - article [ref=e24]:
+      - region "Lorem" [ref=e25]:
+        - generic [ref=e29]:
+          - link "Fruits" [ref=e31] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/fruits
+            - img [ref=e32]
+            - text: Fruits
+          - paragraph [ref=e34]: इप्सम
+          - heading "Lorem" [level=1] [ref=e35]
+          - paragraph [ref=e36]:
+            - emphasis [ref=e37]: Ipsum in
+          - paragraph [ref=e38]: Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - region "About Lorem" [ref=e42]:
+            - heading "About Lorem" [level=2] [ref=e43]
+            - generic [ref=e44]:
+              - paragraph [ref=e45]: Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+              - paragraph [ref=e46]: Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+          - region "Gallery" [ref=e47]:
+            - heading "Gallery" [level=2] [ref=e48]
+            - generic [ref=e49]:
+              - generic:
+                - link "Lorem":
+                  - /url: /storage/3/conversions/high-level-description-a-premium-agritec_r-Ew40jSU0KoeWLjkcABQg_Kb5hFN6OT4CkmT6vOvGbHA-large.jpg
+                  - img "Lorem"
+                - link "Lorem":
+                  - /url: /storage/4/conversions/high-level-description-a-premium-agritec_nnVOgxr5WNamMsgGeW_GJQ_Kb5hFN6OT4CkmT6vOvGbHA-large.jpg
+                  - img "Lorem"
+                - link "Lorem":
+                  - /url: /storage/5/conversions/high-level-description-a-premium-agritec_EMFOCROZURaAen8GwfBmmg_Kb5hFN6OT4CkmT6vOvGbHA_cover-large.jpg
+                  - img "Lorem"
+                - link "Lorem":
+                  - /url: /storage/7/conversions/high-level-description-a-premium-agritec_QWJe7nKJUv69Kt2BNMBO4Q_vRYlcHWiQ7e3Oqmw_dTiaw-large.jpg
+                  - img "Lorem"
+                - link "Lorem":
+                  - /url: /storage/8/conversions/high-level-description-a-premium-agritec_9qNlYixlVRGTAuyWjcDiRQ_vRYlcHWiQ7e3Oqmw_dTiaw-large.jpg
+                  - img "Lorem"
+                - link "Lorem":
+                  - /url: /storage/9/conversions/high-level-description-a-premium-agritec_VeX2PG4FXGO5t0kwl0v27A_vRYlcHWiQ7e3Oqmw_dTiaw_cover-large.jpg
+                  - img "Lorem"
+                - button "Previous image" [ref=e50]:
+                  - img [ref=e51]
+                - button "Next image" [ref=e53]:
+                  - img [ref=e54]
+              - generic [ref=e56]:
+                - button "Go to image 1"
+                - button "Go to image 2"
+                - button "Go to image 3"
+                - button "Go to image 4"
+                - button "Go to image 5"
+                - button "Go to image 6"
+          - region "Lorem Varieties" [ref=e57]:
+            - generic [ref=e58]:
+              - heading "Lorem Varieties" [level=2] [ref=e59]
+              - link "View all →" [ref=e60] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/by-fruit/lorem
+            - generic [ref=e61]:
+              - link "Adams Spur Adams Spur एडम्स स्पर" [ref=e62] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/adams-spur
+                - img "Adams Spur" [ref=e64]
+                - generic [ref=e65]:
+                  - heading "Adams Spur" [level=3] [ref=e66]
+                  - paragraph [ref=e67]: एडम्स स्पर
+              - link "Anna Anna अन्ना" [ref=e68] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/anna
+                - img "Anna" [ref=e70]
+                - generic [ref=e71]:
+                  - heading "Anna" [level=3] [ref=e72]
+                  - paragraph [ref=e73]: अन्ना
+              - link "Brookfield Gala Brookfield Gala ब्रुकफील्ड गाला" [ref=e74] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/brookfield-gala
+                - img "Brookfield Gala" [ref=e76]
+                - generic [ref=e77]:
+                  - heading "Brookfield Gala" [level=3] [ref=e78]
+                  - paragraph [ref=e79]: ब्रुकफील्ड गाला
+              - link "Buckeye Gala Buckeye Gala बकआई गाला" [ref=e80] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/buckeye-gala
+                - img "Buckeye Gala" [ref=e82]
+                - generic [ref=e83]:
+                  - heading "Buckeye Gala" [level=3] [ref=e84]
+                  - paragraph [ref=e85]: बकआई गाला
+              - link "Co Fuji Co Fuji को फूजी" [ref=e86] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/co-fuji
+                - img "Co Fuji" [ref=e88]
+                - generic [ref=e89]:
+                  - heading "Co Fuji" [level=3] [ref=e90]
+                  - paragraph [ref=e91]: को फूजी
+              - link "Dark Baron Gala Dark Baron Gala डार्क बैरन गाला" [ref=e92] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/dark-baron-gala
+                - img "Dark Baron Gala" [ref=e94]
+                - generic [ref=e95]:
+                  - heading "Dark Baron Gala" [level=3] [ref=e96]
+                  - paragraph [ref=e97]: डार्क बैरन गाला
+          - region "Common Diseases" [ref=e98]:
+            - heading "Common Diseases" [level=2] [ref=e99]
+            - generic [ref=e100]:
+              - generic [ref=e101]: 
+              - paragraph [ref=e102]: Available soon
+          - region "Recommended Rootstocks" [ref=e103]:
+            - heading "Recommended Rootstocks" [level=2] [ref=e104]
+            - generic [ref=e105]:
+              - generic [ref=e106]: 
+              - paragraph [ref=e107]: Available soon
+        - complementary [ref=e108]:
+          - generic [ref=e109]:
+            - heading "Quick Stats" [level=3] [ref=e110]
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]:
+                  - generic [ref=e114]: 
+                  - text: Varieties
+                - generic [ref=e115]: "6"
+              - generic [ref=e116]:
+                - generic [ref=e117]:
+                  - generic [ref=e118]: 
+                  - text: Diseases
+                - generic [ref=e119]: "7"
+              - generic [ref=e120]:
+                - generic [ref=e121]:
+                  - generic [ref=e122]: 
+                  - text: Rootstocks
+                - generic [ref=e123]: "4"
+          - generic [ref=e124]:
+            - heading "Actions" [level=3] [ref=e125]
+            - generic [ref=e126]:
+              - button " Like" [ref=e127]:
+                - generic [ref=e128]: 
+                - text: Like
+              - button " Save" [ref=e129]:
+                - generic [ref=e130]: 
+                - text: Save
+            - button " Share" [ref=e131]:
+              - generic [ref=e132]: 
+              - text: Share
+          - generic [ref=e133]:
+            - heading "Explore Other Fruits" [level=3] [ref=e134]
+            - generic [ref=e135]:
+              - link "Cherry Cherry चेरी" [ref=e136] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/cherry
+                - img "Cherry" [ref=e137]
+                - generic [ref=e138]:
+                  - paragraph [ref=e139]: Cherry
+                  - paragraph [ref=e140]: चेरी
+              - link "Pear Pear नाशपाती" [ref=e141] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/pear
+                - img "Pear" [ref=e142]
+                - generic [ref=e143]:
+                  - paragraph [ref=e144]: Pear
+                  - paragraph [ref=e145]: नाशपाती
+              - link "Apple Apple सेब" [ref=e146] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/apple
+                - img "Apple" [ref=e147]
+                - generic [ref=e148]:
+                  - paragraph [ref=e149]: Apple
+                  - paragraph [ref=e150]: सेब
+              - link "Persimmon Persimmon तेंदू फल" [ref=e151] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/persimmon
+                - img "Persimmon" [ref=e152]
+                - generic [ref=e153]:
+                  - paragraph [ref=e154]: Persimmon
+                  - paragraph [ref=e155]: तेंदू फल
+              - link "Pomegranate Pomegranate अनार" [ref=e156] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/pomegranate
+                - img "Pomegranate" [ref=e157]
+                - generic [ref=e158]:
+                  - paragraph [ref=e159]: Pomegranate
+                  - paragraph [ref=e160]: अनार
+              - link "Peach Peach आड़ू" [ref=e161] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/peach
+                - img "Peach" [ref=e162]
+                - generic [ref=e163]:
+                  - paragraph [ref=e164]: Peach
+                  - paragraph [ref=e165]: आड़ू
+  - contentinfo [ref=e166]:
+    - generic [ref=e167]:
+      - generic [ref=e168]:
+        - generic [ref=e169]:
+          - link "Baagvaani" [ref=e170] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e172]: Baagvaani
+          - paragraph [ref=e173]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e175]: Social channels coming soon
+        - generic [ref=e176]:
+          - heading "Quick Links" [level=3] [ref=e177]
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - link "Home" [ref=e180] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e181]:
+              - link "Blog" [ref=e182] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e183]:
+              - link "About Us" [ref=e184] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e185]:
+          - heading "Topics" [level=3] [ref=e186]
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - link "Spray & Disease" [ref=e189] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e190]:
+              - link "Orchard Care" [ref=e191] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e192]:
+              - link "Variety Guide" [ref=e193] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e194]:
+              - link "Weather & Climate" [ref=e195] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e196]:
+          - heading "Newsletter" [level=3] [ref=e197]
+          - paragraph [ref=e198]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e199]:
+            - textbox "Enter your email" [ref=e200]
+            - button "Subscribe" [ref=e201]
+          - paragraph [ref=e202]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e204]: © 2026 Baagvaani. All rights reserved.

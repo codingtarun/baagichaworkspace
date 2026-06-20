@@ -1,0 +1,153 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001
+        - generic [ref=e8]: Baagvaani
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "Login" [ref=e11] [cursor=pointer]:
+            - /url: http://127.0.0.1:8001/login
+          - link "Sign Up" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:8001/register
+        - button "Toggle menu" [ref=e13]:
+          - img [ref=e14]
+  - main [ref=e16]:
+    - article [ref=e17]:
+      - 'region "Apple Scab: Identify, Prevent, and Treat" [ref=e18]':
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - link "Knowledge Base" [ref=e21] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/blog
+              - img [ref=e22]
+              - text: Knowledge Base
+            - link "Spray & Disease" [ref=e25] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/blog/category/spray-disease-management
+          - generic [ref=e26]:
+            - 'heading "सेब का दाग: पहचानें, रोकें और उपचार करें" [level=1] [ref=e27]'
+            - paragraph [ref=e28]: सेब का दाग हिमाचल प्रदेश के बागों में सबसे बड़ा उत्पादन खतरा है। इसे जल्दी पहचानें, फफूंदनाशक के सही समय से रोकें और जल्दी उबरें।
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]: B
+              - generic [ref=e32]:
+                - paragraph [ref=e33]: Baagvaani Editorial
+                - paragraph [ref=e34]: Agronomy Team
+            - generic [ref=e35]:
+              - generic [ref=e36]:
+                - img [ref=e37]
+                - text: 7 min
+              - generic [ref=e39]:
+                - img [ref=e40]
+                - text: 3,421
+              - time [ref=e43]: May 18, 2026
+      - 'img "Apple Scab: Identify, Prevent, and Treat" [ref=e47]'
+      - generic [ref=e48]:
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - heading "सेब के दाग को समझना" [level=3] [ref=e52]
+            - paragraph [ref=e53]: हिंदी लोरेम इप्सम डोलर सिट अमेट, कॉन्सेक्टेटुर एडिपिसिंग एलीट। सेद डू ईयूसमोड टेंपोर इंसिडिडंट यूट लेबर एट डोलर मैग्ना अलिक्वा। यूट एनिम एड मिनिम वेनियम, क्विस नॉस्ट्रुड एक्सरसिटेशन उल्लामको लेबोरिस निसी यूट अलिक्विप एक्स ईया कम्मोडो कॉन्सीक्वैट। ड्यूस आटे आयुरे डोलर इन रिप्रेंडेरिट इन वोलुप्टेट वेलिट एस्से सिल्लम डोलोर यू फ्यूजियाट नुल्ला परियातूर।
+            - paragraph [ref=e54]:
+              - text: सेब का दाग (
+              - emphasis [ref=e55]: Venturia inaequalis
+              - text: ) एक फफूंद रोग है जो ठंडे, गीले वसंत मौसम में पत्तियों और फलों पर हमला करता है। बीजाणु गिरी हुई पत्तियों में सर्दियां बिताते हैं और जब तापमान 6°C और 24°C के बीच रहता है तब फैलते हैं। हिंदी लोरेम इप्सम डोलर सिट अमेट, कॉन्सेक्टेटुर एडिपिसिंग एलीट।
+            - heading "इसे कैसे पहचानें" [level=3] [ref=e56]
+            - paragraph [ref=e57]: युवा पत्तियों की निचली सतह पर जैतून-हरे से भूरे धब्बे देखें। फलों पर उठे हुए, खुरदरे दाग दिखते हैं। हिंदी लोरेम इप्सम डोलर सिट अमेट, कॉन्सेक्टेटुर एडिपिसिंग एलीट। प्रसेंट कमोडो कर्सस मैग्ना, वेल स्केलेरिस्क नisl कॉन्सेक्टेटुर एट।
+            - heading "रोकथाम की रणनीतियां" [level=3] [ref=e58]
+            - paragraph [ref=e59]: हर शरद ऋतु में गिरी हुई पत्तियों को इकट्ठा करके जलाएं। देर से शरद ऋतु में यूरिया (5%) का छिड़काव करें। हिंदी लोरेम इप्सम डोलर सिट अमेट, कॉन्सेक्टेटुर एडिपिसिंग एलीट। एनियन यू लियो क्वाम, पेलेंटेस्क ऑर्नारे सेम लैसिनिया क्वाम वेनिनैटिस वेस्टिबुलम।
+            - heading "उपचार के विकल्प" [level=3] [ref=e60]
+            - paragraph [ref=e61]: उच्च जोखिम की अवधि में माइक्लोब्यूटेनिल या टेबुकोनाजोल जैसे प्रणालीगत फफूंदनाशकों का उपयोग करें। हिंदी लोरेम इप्सम डोलर सिट अमेट, कॉन्सेक्टेटुर एडिपिसिंग एलीट। क्रास मैटिस कॉन्सेक्टेटुर पुरुस सिट अमेट फर्मेंटम।
+          - generic [ref=e62]:
+            - heading "Related Articles" [level=2] [ref=e63]
+            - generic [ref=e64]:
+              - 'link "Spray & Disease Powdery Mildew in HP Apple Orchards: Control Guide Jun 03, 2026 · 5 min read" [ref=e65] [cursor=pointer]':
+                - /url: http://127.0.0.1:8001/blog/post/powdery-mildew-apple-hp
+                - generic [ref=e66]:
+                  - generic [ref=e67]: Spray & Disease
+                  - 'heading "Powdery Mildew in HP Apple Orchards: Control Guide" [level=3] [ref=e68]'
+                  - paragraph [ref=e69]:
+                    - time [ref=e70]: Jun 03, 2026
+                    - text: · 5 min read
+              - link "Spray & Disease Complete Spray Schedule for HP Apple Orchards May 27, 2026 · 10 min read" [ref=e71] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/blog/post/complete-spray-schedule-hp-apple-orchards
+                - generic [ref=e72]:
+                  - generic [ref=e73]: Spray & Disease
+                  - heading "Complete Spray Schedule for HP Apple Orchards" [level=3] [ref=e74]
+                  - paragraph [ref=e75]:
+                    - time [ref=e76]: May 27, 2026
+                    - text: · 10 min read
+          - generic [ref=e78]:
+            - heading "Actions" [level=3] [ref=e79]
+            - generic [ref=e80]:
+              - button "Like" [ref=e81]:
+                - generic [ref=e82]: 
+                - generic [ref=e83]: Like
+              - button "Save" [ref=e84]:
+                - generic [ref=e85]: 
+                - generic [ref=e86]: Save
+            - button "Share" [ref=e87]:
+              - generic [ref=e88]: 
+              - text: Share
+        - generic [ref=e92]:
+          - heading " Comments" [level=2] [ref=e94]:
+            - generic [ref=e95]: 
+            - text: Comments
+          - generic [ref=e96]:
+            - generic [ref=e97]: 
+            - link "Login" [ref=e98] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/login
+            - text: to leave a comment.
+          - generic [ref=e100]:
+            - generic [ref=e101]: 
+            - paragraph [ref=e102]: No comments yet. Be the first to share your thoughts!
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - text:   
+          - 'button "Share सेब का दाग: पहचानें, रोकें और उपचार करें" [ref=e105] [cursor=pointer]':
+            - generic [ref=e106]: 
+        - button "Switch to English" [ref=e107] [cursor=pointer]: English
+  - contentinfo [ref=e108]:
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - link "Baagvaani" [ref=e112] [cursor=pointer]:
+            - /url: http://127.0.0.1:8001
+            - generic [ref=e114]: Baagvaani
+          - paragraph [ref=e115]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e117]: Social channels coming soon
+        - generic [ref=e118]:
+          - heading "Quick Links" [level=3] [ref=e119]
+          - list [ref=e120]:
+            - listitem [ref=e121]:
+              - link "Home" [ref=e122] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001
+            - listitem [ref=e123]:
+              - link "Blog" [ref=e124] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/blog
+            - listitem [ref=e125]:
+              - link "About Us" [ref=e126] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/about
+        - generic [ref=e127]:
+          - heading "Topics" [level=3] [ref=e128]
+          - list [ref=e129]:
+            - listitem [ref=e130]:
+              - link "Spray & Disease" [ref=e131] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/blog?category=spray-disease-management
+            - listitem [ref=e132]:
+              - link "Orchard Care" [ref=e133] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/blog?category=orchard-care
+            - listitem [ref=e134]:
+              - link "Variety Guide" [ref=e135] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/blog?category=variety-rootstock
+            - listitem [ref=e136]:
+              - link "Weather & Climate" [ref=e137] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/blog?category=weather-climate
+        - generic [ref=e138]:
+          - heading "Newsletter" [level=3] [ref=e139]
+          - paragraph [ref=e140]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e141]:
+            - textbox "Enter your email" [ref=e142]
+            - button "Subscribe" [ref=e143]
+          - paragraph [ref=e144]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e146]: © 2026 Baagvaani. All rights reserved.

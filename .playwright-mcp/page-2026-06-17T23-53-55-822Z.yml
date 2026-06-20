@@ -1,0 +1,273 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7]
+      - generic [ref=e10]: Internal Server Error
+    - button "Copy as Markdown" [ref=e11] [cursor=pointer]:
+      - img [ref=e12]
+      - generic [ref=e15]: Copy as Markdown
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - heading "Error" [level=1] [ref=e20]
+      - generic [ref=e22]: Modules/Core/resources/views/admin/dashboard/index.blade.php:400
+      - paragraph [ref=e23]: Call to a member function getSeasonLabel() on null
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: LARAVEL
+          - generic [ref=e28]: 12.58.0
+        - generic [ref=e29]:
+          - generic [ref=e30]: PHP
+          - generic [ref=e31]: 8.5.4
+      - generic [ref=e32]:
+        - img [ref=e33]
+        - text: UNHANDLED
+      - generic [ref=e36]: CODE 0
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - img [ref=e40]
+        - text: "500"
+      - generic [ref=e43]:
+        - img [ref=e44]
+        - text: GET
+      - generic [ref=e47]: http://127.0.0.1:8000/admin/dashboard
+      - button [ref=e48] [cursor=pointer]:
+        - img [ref=e49]
+  - generic [ref=e53]:
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - img [ref=e57]
+        - heading "Exception trace" [level=3] [ref=e60]
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63] [cursor=pointer]:
+            - generic [ref=e66]:
+              - code [ref=e70]:
+                - generic [ref=e71]: require()
+              - generic [ref=e73]: Modules/Core/resources/views/admin/dashboard/index.blade.php:400
+            - button [ref=e75]:
+              - img [ref=e76]
+          - code [ref=e84]:
+            - generic [ref=e85]: 395 style="width:40px;height:40px;background:#22c55e14">
+            - generic [ref=e86]: 396 <i class="bi bi-apple" style="color:#16a34a"></i>
+            - generic [ref=e87]: 397 </div>
+            - generic [ref=e88]: 398 <div class="flex-grow-1">
+            - generic [ref=e89]: "399 <div class=\"fw-semibold\">{{ $vu->variety->name_en ?? 'Unknown' }}</div>"
+            - generic [ref=e90]: "400 <div style=\"font-size:.72rem;color:#9ca3af\">{{ $vu->variety->getSeasonLabel() }}</div>"
+            - generic [ref=e91]: 401 </div>
+            - generic [ref=e92]: 402 <div class="text-end">
+            - generic [ref=e93]: "403 <div class=\"fw-bold\" style=\"color:#4a9278\">{{ $vu->count }}</div>"
+            - generic [ref=e94]: 404 <div style="font-size:.7rem;color:#9ca3af">orchards</div>
+            - generic [ref=e95]: 405 </div>
+            - generic [ref=e96]: 406 </div>
+            - generic [ref=e97]: 407 @empty
+            - generic [ref=e98]: 408 <div class="text-center text-muted py-4">No variety data yet</div>
+            - generic [ref=e99]: 409 @endforelse
+            - generic [ref=e100]: 410 </div>
+            - generic [ref=e101]: 411 </div>
+            - generic [ref=e102]: "412"
+        - generic [ref=e104] [cursor=pointer]:
+          - img [ref=e105]
+          - generic [ref=e109]: 37 vendor frames
+          - button [ref=e110]:
+            - img [ref=e111]
+        - generic [ref=e116] [cursor=pointer]:
+          - generic [ref=e119]:
+            - code [ref=e123]:
+              - generic [ref=e124]: "Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():178}()"
+            - generic [ref=e126]: Modules/Core/app/Http/Middleware/SecurityHeaders.php:15
+          - button [ref=e128]:
+            - img [ref=e129]
+        - generic [ref=e134] [cursor=pointer]:
+          - img [ref=e135]
+          - generic [ref=e139]: 23 vendor frames
+          - button [ref=e140]:
+            - img [ref=e141]
+        - generic [ref=e146] [cursor=pointer]:
+          - generic [ref=e149]:
+            - code [ref=e153]:
+              - generic [ref=e154]: Illuminate\Foundation\Application->handleRequest()
+            - generic [ref=e156]: public/index.php:22
+          - button [ref=e158]:
+            - img [ref=e159]
+        - generic [ref=e164] [cursor=pointer]:
+          - img [ref=e165]
+          - generic [ref=e169]: 1 vendor frame
+          - button [ref=e170]:
+            - img [ref=e171]
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - img [ref=e179]
+          - heading "Queries" [level=3] [ref=e181]
+        - generic [ref=e183]: 1-10 of 34
+      - generic [ref=e184]:
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - img [ref=e188]
+              - generic [ref=e190]: mysql
+            - code [ref=e194]:
+              - generic [ref=e195]: "select * from `sessions` where `id` = 'vpqeoYxNWmKhrSuHJNPkT135qcsGdiRjJe1nz1or' limit 1"
+          - generic [ref=e196]: 1.09ms
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - img [ref=e200]
+              - generic [ref=e202]: mysql
+            - code [ref=e206]:
+              - generic [ref=e207]: "select * from `users` where `id` = 1 and `users`.`deleted_at` is null limit 1"
+          - generic [ref=e208]: 0.83ms
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - img [ref=e212]
+              - generic [ref=e214]: mysql
+            - code [ref=e218]:
+              - generic [ref=e219]: "select `roles`.*, `model_has_roles`.`model_id` as `pivot_model_id`, `model_has_roles`.`role_id` as `pivot_role_id`, `model_has_roles`.`model_type` as `pivot_model_type` from `roles` inner join `model_has_roles` on `roles`.`id` = `model_has_roles`.`role_id` where `model_has_roles`.`model_id` in (1) and `model_has_roles`.`model_type` = 'Modules\\Auth\\Models\\User'"
+          - generic [ref=e220]: 0.63ms
+        - generic [ref=e221]:
+          - generic [ref=e222]:
+            - generic [ref=e223]:
+              - img [ref=e224]
+              - generic [ref=e226]: mysql
+            - code [ref=e230]:
+              - generic [ref=e231]: "select count(*) as aggregate from `users` where `users`.`deleted_at` is null"
+          - generic [ref=e232]: 0.27ms
+        - generic [ref=e233]:
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - img [ref=e236]
+              - generic [ref=e238]: mysql
+            - code [ref=e242]:
+              - generic [ref=e243]: "select count(*) as aggregate from `users` where `is_active` = 1 and `users`.`deleted_at` is null"
+          - generic [ref=e244]: 0.24ms
+        - generic [ref=e245]:
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - img [ref=e248]
+              - generic [ref=e250]: mysql
+            - code [ref=e254]:
+              - generic [ref=e255]: "select count(*) as aggregate from `user_profiles` where `is_verified_farmer` = 1"
+          - generic [ref=e256]: 0.37ms
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - generic [ref=e259]:
+              - img [ref=e260]
+              - generic [ref=e262]: mysql
+            - code [ref=e266]:
+              - generic [ref=e267]: "select count(*) as aggregate from `users` where `users`.`deleted_at` is not null"
+          - generic [ref=e268]: 0.17ms
+        - generic [ref=e269]:
+          - generic [ref=e270]:
+            - generic [ref=e271]:
+              - img [ref=e272]
+              - generic [ref=e274]: mysql
+            - code [ref=e278]:
+              - generic [ref=e279]: "select count(*) as aggregate from `user_orchards` where `user_orchards`.`deleted_at` is null"
+          - generic [ref=e280]: 0.43ms
+        - generic [ref=e281]:
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - img [ref=e284]
+              - generic [ref=e286]: mysql
+            - code [ref=e290]:
+              - generic [ref=e291]: "select sum(`total_trees`) as aggregate from `user_orchards` where `user_orchards`.`deleted_at` is null"
+          - generic [ref=e292]: 0.22ms
+        - generic [ref=e293]:
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - img [ref=e296]
+              - generic [ref=e298]: mysql
+            - code [ref=e302]:
+              - generic [ref=e303]: "select sum(`area_hectare`) as aggregate from `user_orchards` where `user_orchards`.`deleted_at` is null"
+          - generic [ref=e304]: 0.23ms
+      - generic [ref=e305]:
+        - button [disabled] [ref=e306]:
+          - img [ref=e307]
+        - button [disabled] [ref=e310]:
+          - img [ref=e311]
+        - button "1" [ref=e314] [cursor=pointer]
+        - button "2" [ref=e316] [cursor=pointer]
+        - button "3" [ref=e318] [cursor=pointer]
+        - button "4" [ref=e320] [cursor=pointer]
+        - button [ref=e321] [cursor=pointer]:
+          - img [ref=e322]
+        - button [ref=e324] [cursor=pointer]:
+          - img [ref=e325]
+  - generic [ref=e329]:
+    - generic [ref=e330]:
+      - heading "Headers" [level=2] [ref=e331]
+      - generic [ref=e332]:
+        - generic [ref=e333]:
+          - generic [ref=e334]: host
+          - generic [ref=e336]: 127.0.0.1:8000
+        - generic [ref=e337]:
+          - generic [ref=e338]: connection
+          - generic [ref=e340]: keep-alive
+        - generic [ref=e341]:
+          - generic [ref=e342]: cache-control
+          - generic [ref=e344]: max-age=0
+        - generic [ref=e345]:
+          - generic [ref=e346]: upgrade-insecure-requests
+          - generic [ref=e348]: "1"
+        - generic [ref=e349]:
+          - generic [ref=e350]: user-agent
+          - generic [ref=e352]: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36
+        - generic [ref=e353]:
+          - generic [ref=e354]: accept
+          - generic [ref=e356]: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+        - generic [ref=e357]:
+          - generic [ref=e358]: sec-fetch-site
+          - generic [ref=e360]: same-origin
+        - generic [ref=e361]:
+          - generic [ref=e362]: sec-fetch-mode
+          - generic [ref=e364]: navigate
+        - generic [ref=e365]:
+          - generic [ref=e366]: sec-fetch-user
+          - generic [ref=e368]: "?1"
+        - generic [ref=e369]:
+          - generic [ref=e370]: sec-fetch-dest
+          - generic [ref=e372]: document
+        - generic [ref=e373]:
+          - generic [ref=e374]: sec-ch-ua
+          - generic [ref=e376]: "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\""
+        - generic [ref=e377]:
+          - generic [ref=e378]: sec-ch-ua-mobile
+          - generic [ref=e380]: "?0"
+        - generic [ref=e381]:
+          - generic [ref=e382]: sec-ch-ua-platform
+          - generic [ref=e384]: "\"Linux\""
+        - generic [ref=e385]:
+          - generic [ref=e386]: referer
+          - generic [ref=e388]: http://127.0.0.1:8000/login
+        - generic [ref=e389]:
+          - generic [ref=e390]: accept-encoding
+          - generic [ref=e392]: gzip, deflate, br, zstd
+        - generic [ref=e393]:
+          - generic [ref=e394]: accept-language
+          - generic [ref=e396]: en-US,en;q=0.9
+        - generic [ref=e397]:
+          - generic [ref=e398]: cookie
+          - generic [ref=e400]: _ga=GA1.1.1355436650.1781414165; _ga_LFDEBYBMZS=GS2.1.s1781740392$o3$g1$t1781740433$j19$l0$h0; XSRF-TOKEN=eyJpdiI6IlpDOUxlazFycm8rMUFoWm1Qc0hNUUE9PSIsInZhbHVlIjoiM3BwazlsYVV4Y2swZ3k4MjlQVXVsZVJBYTJreXNHOGhGSmVCYmdtNXBhRjRSYi96ZDhreWpPYkh6NEVVT1NTWHNKNjIvM2JtME5uMkFrVHVvQmgvbXkzdG1aVzdXYnJRVVZvcFk0Z0FUVTBvcjVLWVZuM24zUWhSaVRYN2ZQSHEiLCJtYWMiOiJmYmY3ODJhMGFkY2IyODI4YmMxODFiYTdhMjk1NDQxMzU0NzU0OWM0MWQ5NjlkYTVmY2I5NWEzNmFhYWYzMDMwIiwidGFnIjoiIn0%3D; baagvaani-session=eyJpdiI6ImUzSFdYR01vcFdhNlBEYkMya1dsaUE9PSIsInZhbHVlIjoiYjN3R0dEdVVlYXFvdEVOaU54SnN1a3N0TEo1UGVtZU9ORWthSjk1WTZ5eldKcmN1SmdUOW0wUFVjRC93NmNvVDhYM1o5RDl2SjR1NEh0YzlteFpUZ2Y2NHJIc1RjZythMVNEeTZoMDVkaUxpL0oyLzhhZGdTTHlXT0QyM3Jzb0wiLCJtYWMiOiI1MzkyOTgzMTRlZTgyMzA1NmFhMTBiM2Y2ZDA1ZmU5ZDYxY2U0MzBkNDJkYWI4OTg2MTMxNjYwYjc4NTZlZDQ1IiwidGFnIjoiIn0%3D
+    - generic [ref=e401]:
+      - heading "Body" [level=2] [ref=e402]
+      - generic [ref=e403]: // No request body
+    - generic [ref=e404]:
+      - heading "Routing" [level=2] [ref=e405]
+      - generic [ref=e406]:
+        - generic [ref=e407]:
+          - generic [ref=e408]: controller
+          - generic [ref=e410]: Modules\Core\Http\Controllers\Admin\DashboardController@index
+        - generic [ref=e411]:
+          - generic [ref=e412]: route name
+          - generic [ref=e414]: admin.dashboard
+        - generic [ref=e415]:
+          - generic [ref=e416]: middleware
+          - generic [ref=e418]: web, auth, role:admin|manager
+    - generic [ref=e419]:
+      - heading "Routing parameters" [level=2] [ref=e420]
+      - generic [ref=e421]: // No routing parameters
+  - generic [ref=e424]:
+    - img [ref=e426]
+    - img [ref=e3464]

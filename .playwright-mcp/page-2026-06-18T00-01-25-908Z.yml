@@ -1,0 +1,1467 @@
+- generic [active] [ref=e1]:
+  - text:  
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link " Baagicha" [ref=e6] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001
+          - generic [ref=e7]: 
+          - generic [ref=e8]: Baagicha
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - button "Switch orchard" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 16°
+              - generic [ref=e13]:
+                - generic [ref=e14]: Haripurdhar
+                - generic [ref=e15]: Clear sky
+              - generic [ref=e16]: 
+            - generic:
+              - generic:
+                - generic: HA
+                - generic:
+                  - generic: Himalayan Orchard, Haripurdhar
+                  - generic:
+                    - generic: 
+                    - text: Haripurdhar, Sirmaur
+              - generic: Switch Orchard
+              - list:
+                - button:
+                  - generic: HI
+                  - generic:
+                    - generic: Himalayan Orchard, Haripurdhar
+                    - generic:
+                      - generic: 
+                      - text: Haripurdhar, Sirmaur
+                  - generic: 
+                - button:
+                  - generic: SU
+                  - generic:
+                    - generic: Sunrise Groves, Thanedar
+                    - generic:
+                      - generic: 
+                      - text: Thanedar, Shimla
+                - button:
+                  - generic: AP
+                  - generic:
+                    - generic: Apple Bloom Farms, Banjar
+                    - generic:
+                      - generic: 
+                      - text: Banjar, Kullu
+              - button:
+                - generic:
+                  - generic: 
+                - generic:
+                  - generic: Current Location
+                  - generic:
+                    - generic: 
+                    - text: Device GPS
+              - generic:
+                - link:
+                  - /url: http://127.0.0.1:8001/orchards
+                  - generic: 
+                  - text: Manage Orchards
+                - generic: ·
+                - link:
+                  - /url: http://127.0.0.1:8001/weather
+                  - generic: 
+                  - text: Forecast
+          - generic [ref=e17]:
+            - button "Notifications" [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+            - generic:
+              - generic:
+                - generic: Notifications
+                - generic: No new
+              - list:
+                - listitem:
+                  - generic:
+                    - generic: 
+                    - text: Loading...
+              - link:
+                - /url: http://127.0.0.1:8001/notifications
+                - text: View all notifications
+                - generic: 
+          - generic [ref=e20]:
+            - button "Profile" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: 
+            - generic:
+              - generic:
+                - generic: TA
+                - generic:
+                  - paragraph: Tarun Chauhan
+                  - paragraph: Tarun Chauhan
+              - list:
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8001/profile/dashboard
+                    - generic: 
+                    - text: My Profile
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8001/orchards
+                    - generic: 
+                    - text: My Orchards
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8001/orchard/diary
+                    - generic: 
+                    - text: Orchard Diary
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8001/saved
+                    - generic: 
+                    - text: Saved Items
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8001/disease-reporter
+                    - generic: 
+                    - text: Disease Reports
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8001/notifications/settings
+                    - generic: 
+                    - text: Notification Settings
+                - listitem:
+                  - generic:
+                    - button:
+                      - generic: 
+                      - text: Log out
+      - text: 
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - img "Apple" [ref=e27]
+        - generic [ref=e29]:
+          - heading "Apple" [level=1] [ref=e30]
+          - paragraph [ref=e31]: सेब
+          - paragraph [ref=e32]: Malus domestica
+      - generic [ref=e33]:
+        - paragraph [ref=e36]: The king of Himalayan orchards. Apple is the primary commercial fruit across Himachal Pradesh, Uttarakhand and Jammu & Kashmir.
+        - generic [ref=e37]:
+          - heading "Apple Varieties" [level=2] [ref=e38]
+          - paragraph [ref=e39]: Choose a variety to learn more
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - link "View Adams Spur details" [ref=e42] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/adams-spur
+              - generic [ref=e43]: "#1"
+              - img "Adams Spur" [ref=e45]
+              - generic [ref=e46]: Mid
+              - generic [ref=e47]: Adams Spur
+              - generic [ref=e48]: एडम्स स्पर
+              - generic [ref=e49]:
+                - generic [ref=e50]: 
+                - text: 5000–9000 ft
+              - generic [ref=e52]:
+                - generic [ref=e53]: 
+                - text: "0"
+            - generic [ref=e54]:
+              - button "Like" [ref=e55] [cursor=pointer]:
+                - generic [ref=e56]: 
+                - generic [ref=e57]: Favourite
+              - button "Save" [ref=e58] [cursor=pointer]:
+                - generic [ref=e59]: 
+                - generic [ref=e60]: Save
+            - link " Know More" [ref=e61] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/adams-spur
+              - generic [ref=e62]: 
+              - text: Know More
+          - generic [ref=e63]:
+            - link "View Anna details" [ref=e64] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/anna
+              - generic [ref=e65]: "#2"
+              - img "Anna" [ref=e67]
+              - generic [ref=e68]: Early
+              - generic [ref=e69]: Anna
+              - generic [ref=e70]: अन्ना
+              - generic [ref=e71]:
+                - generic [ref=e72]: 
+                - text: 1500–5000 ft
+              - generic [ref=e74]:
+                - generic [ref=e75]: 
+                - text: "0"
+            - generic [ref=e76]:
+              - button "Like" [ref=e77] [cursor=pointer]:
+                - generic [ref=e78]: 
+                - generic [ref=e79]: Favourite
+              - button "Save" [ref=e80] [cursor=pointer]:
+                - generic [ref=e81]: 
+                - generic [ref=e82]: Save
+            - link " Know More" [ref=e83] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/anna
+              - generic [ref=e84]: 
+              - text: Know More
+          - generic [ref=e85]:
+            - link "View Brookfield Gala details" [ref=e86] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/brookfield-gala
+              - generic [ref=e87]: "#3"
+              - img "Brookfield Gala" [ref=e89]
+              - generic [ref=e90]: Early
+              - generic [ref=e91]: Brookfield Gala
+              - generic [ref=e92]: ब्रुकफील्ड गाला
+              - generic [ref=e93]:
+                - generic [ref=e94]: 
+                - text: 4000–7000 ft
+              - generic [ref=e96]:
+                - generic [ref=e97]: 
+                - text: "0"
+            - generic [ref=e98]:
+              - button "Like" [ref=e99] [cursor=pointer]:
+                - generic [ref=e100]: 
+                - generic [ref=e101]: Favourite
+              - button "Save" [ref=e102] [cursor=pointer]:
+                - generic [ref=e103]: 
+                - generic [ref=e104]: Save
+            - link " Know More" [ref=e105] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/brookfield-gala
+              - generic [ref=e106]: 
+              - text: Know More
+          - generic [ref=e107]:
+            - link "View Buckeye Gala details" [ref=e108] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/buckeye-gala
+              - generic [ref=e109]: "#4"
+              - img "Buckeye Gala" [ref=e111]
+              - generic [ref=e112]: Early
+              - generic [ref=e113]: Buckeye Gala
+              - generic [ref=e114]: बकआई गाला
+              - generic [ref=e115]:
+                - generic [ref=e116]: 
+                - text: 4000–7000 ft
+              - generic [ref=e118]:
+                - generic [ref=e119]: 
+                - text: "0"
+            - generic [ref=e120]:
+              - button "Like" [ref=e121] [cursor=pointer]:
+                - generic [ref=e122]: 
+                - generic [ref=e123]: Favourite
+              - button "Save" [ref=e124] [cursor=pointer]:
+                - generic [ref=e125]: 
+                - generic [ref=e126]: Save
+            - link " Know More" [ref=e127] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/buckeye-gala
+              - generic [ref=e128]: 
+              - text: Know More
+          - generic [ref=e129]:
+            - link "View Co Fuji details" [ref=e130] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/co-fuji
+              - generic [ref=e131]: "#5"
+              - img "Co Fuji" [ref=e133]
+              - generic [ref=e134]: Very Late
+              - generic [ref=e135]: Co Fuji
+              - generic [ref=e136]: को फूजी
+              - generic [ref=e137]:
+                - generic [ref=e138]: 
+                - text: 5500–9000 ft
+              - generic [ref=e140]:
+                - generic [ref=e141]: 
+                - text: "0"
+            - generic [ref=e142]:
+              - button "Like" [ref=e143] [cursor=pointer]:
+                - generic [ref=e144]: 
+                - generic [ref=e145]: Favourite
+              - button "Save" [ref=e146] [cursor=pointer]:
+                - generic [ref=e147]: 
+                - generic [ref=e148]: Save
+            - link " Know More" [ref=e149] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/co-fuji
+              - generic [ref=e150]: 
+              - text: Know More
+          - generic [ref=e151]:
+            - link "View Dark Baron Gala details" [ref=e152] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/dark-baron-gala
+              - generic [ref=e153]: "#6"
+              - img "Dark Baron Gala" [ref=e155]
+              - generic [ref=e156]: Early
+              - generic [ref=e157]: Dark Baron Gala
+              - generic [ref=e158]: डार्क बैरन गाला
+              - generic [ref=e159]:
+                - generic [ref=e160]: 
+                - text: 4000–7000 ft
+              - generic [ref=e162]:
+                - generic [ref=e163]: 
+                - text: "0"
+            - generic [ref=e164]:
+              - button "Like" [ref=e165] [cursor=pointer]:
+                - generic [ref=e166]: 
+                - generic [ref=e167]: Favourite
+              - button "Save" [ref=e168] [cursor=pointer]:
+                - generic [ref=e169]: 
+                - generic [ref=e170]: Save
+            - link " Know More" [ref=e171] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/dark-baron-gala
+              - generic [ref=e172]: 
+              - text: Know More
+          - generic [ref=e173]:
+            - link "View Devil Gala details" [ref=e174] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/devil-gala
+              - generic [ref=e175]: "#7"
+              - img "Devil Gala" [ref=e177]
+              - generic [ref=e178]: Early
+              - generic [ref=e179]: Devil Gala
+              - generic [ref=e180]: डेविल गाला
+              - generic [ref=e181]:
+                - generic [ref=e182]: 
+                - text: 4000–7000 ft
+              - generic [ref=e184]:
+                - generic [ref=e185]: 
+                - text: "0"
+            - generic [ref=e186]:
+              - button "Like" [ref=e187] [cursor=pointer]:
+                - generic [ref=e188]: 
+                - generic [ref=e189]: Favourite
+              - button "Save" [ref=e190] [cursor=pointer]:
+                - generic [ref=e191]: 
+                - generic [ref=e192]: Save
+            - link " Know More" [ref=e193] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/devil-gala
+              - generic [ref=e194]: 
+              - text: Know More
+          - generic [ref=e195]:
+            - link "View Dorsett Golden details" [ref=e196] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/dorsett-golden
+              - generic [ref=e197]: "#8"
+              - img "Dorsett Golden" [ref=e199]
+              - generic [ref=e200]: Early
+              - generic [ref=e201]: Dorsett Golden
+              - generic [ref=e202]: डोरसेट गोल्डन
+              - generic [ref=e203]:
+                - generic [ref=e204]: 
+                - text: 1500–5000 ft
+              - generic [ref=e206]:
+                - generic [ref=e207]: 
+                - text: "0"
+            - generic [ref=e208]:
+              - button "Like" [ref=e209] [cursor=pointer]:
+                - generic [ref=e210]: 
+                - generic [ref=e211]: Favourite
+              - button "Save" [ref=e212] [cursor=pointer]:
+                - generic [ref=e213]: 
+                - generic [ref=e214]: Save
+            - link " Know More" [ref=e215] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/dorsett-golden
+              - generic [ref=e216]: 
+              - text: Know More
+          - generic [ref=e217]:
+            - link "View Early Red One details" [ref=e218] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/early-red-one
+              - generic [ref=e219]: "#9"
+              - img "Early Red One" [ref=e221]
+              - generic [ref=e222]: Mid
+              - generic [ref=e223]: Early Red One
+              - generic [ref=e224]: अर्ली रेड वन
+              - generic [ref=e225]:
+                - generic [ref=e226]: 
+                - text: 5000–9000 ft
+              - generic [ref=e228]:
+                - generic [ref=e229]: 
+                - text: "0"
+            - generic [ref=e230]:
+              - button "Like" [ref=e231] [cursor=pointer]:
+                - generic [ref=e232]: 
+                - generic [ref=e233]: Favourite
+              - button "Save" [ref=e234] [cursor=pointer]:
+                - generic [ref=e235]: 
+                - generic [ref=e236]: Save
+            - link " Know More" [ref=e237] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/early-red-one
+              - generic [ref=e238]: 
+              - text: Know More
+          - generic [ref=e239]:
+            - link "View Gale Gala details" [ref=e240] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/gale-gala
+              - generic [ref=e241]: "#10"
+              - img "Gale Gala" [ref=e243]
+              - generic [ref=e244]: Early
+              - generic [ref=e245]: Gale Gala
+              - generic [ref=e246]: गेल गाला
+              - generic [ref=e247]:
+                - generic [ref=e248]: 
+                - text: 4000–7000 ft
+              - generic [ref=e250]:
+                - generic [ref=e251]: 
+                - text: "0"
+            - generic [ref=e252]:
+              - button "Like" [ref=e253] [cursor=pointer]:
+                - generic [ref=e254]: 
+                - generic [ref=e255]: Favourite
+              - button "Save" [ref=e256] [cursor=pointer]:
+                - generic [ref=e257]: 
+                - generic [ref=e258]: Save
+            - link " Know More" [ref=e259] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/gale-gala
+              - generic [ref=e260]: 
+              - text: Know More
+          - generic [ref=e261]:
+            - link "View Golden Delicious details" [ref=e262] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/golden-delicious
+              - generic [ref=e263]: "#11"
+              - img "Golden Delicious" [ref=e265]
+              - generic [ref=e266]: Mid
+              - generic [ref=e267]: Golden Delicious
+              - generic [ref=e268]: गोल्डन डेलिशियस
+              - generic [ref=e269]:
+                - generic [ref=e270]: 
+                - text: 4500–8500 ft
+              - generic [ref=e272]:
+                - generic [ref=e273]: 
+                - text: "0"
+            - generic [ref=e274]:
+              - button "Like" [ref=e275] [cursor=pointer]:
+                - generic [ref=e276]: 
+                - generic [ref=e277]: Favourite
+              - button "Save" [ref=e278] [cursor=pointer]:
+                - generic [ref=e279]: 
+                - generic [ref=e280]: Save
+            - link " Know More" [ref=e281] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/golden-delicious
+              - generic [ref=e282]: 
+              - text: Know More
+          - generic [ref=e283]:
+            - link "View Granny Smith details" [ref=e284] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/granny-smith
+              - generic [ref=e285]: "#12"
+              - img "Granny Smith" [ref=e287]
+              - generic [ref=e288]: Late
+              - generic [ref=e289]: Granny Smith
+              - generic [ref=e290]: ग्रैनी स्मिथ
+              - generic [ref=e291]:
+                - generic [ref=e292]: 
+                - text: 4500–8500 ft
+              - generic [ref=e294]:
+                - generic [ref=e295]: 
+                - text: "0"
+            - generic [ref=e296]:
+              - button "Like" [ref=e297] [cursor=pointer]:
+                - generic [ref=e298]: 
+                - generic [ref=e299]: Favourite
+              - button "Save" [ref=e300] [cursor=pointer]:
+                - generic [ref=e301]: 
+                - generic [ref=e302]: Save
+            - link " Know More" [ref=e303] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/granny-smith
+              - generic [ref=e304]: 
+              - text: Know More
+          - generic [ref=e305]:
+            - link "View Honey Crisp details" [ref=e306] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/honey-crisp
+              - generic [ref=e307]: "#13"
+              - img "Honey Crisp" [ref=e309]
+              - generic [ref=e310]: Mid
+              - generic [ref=e311]: Honey Crisp
+              - generic [ref=e312]: हनीक्रिस्प
+              - generic [ref=e313]:
+                - generic [ref=e314]: 
+                - text: 4500–8500 ft
+              - generic [ref=e316]:
+                - generic [ref=e317]: 
+                - text: "0"
+            - generic [ref=e318]:
+              - button "Like" [ref=e319] [cursor=pointer]:
+                - generic [ref=e320]: 
+                - generic [ref=e321]: Favourite
+              - button "Save" [ref=e322] [cursor=pointer]:
+                - generic [ref=e323]: 
+                - generic [ref=e324]: Save
+            - link " Know More" [ref=e325] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/honey-crisp
+              - generic [ref=e326]: 
+              - text: Know More
+          - generic [ref=e327]:
+            - link "View HRMN-99 details" [ref=e328] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/hrmn-99
+              - generic [ref=e329]: "#14"
+              - img "HRMN-99" [ref=e331]
+              - generic [ref=e332]: Early
+              - generic [ref=e333]: HRMN-99
+              - generic [ref=e334]: एचआरएमएन-99
+              - generic [ref=e335]:
+                - generic [ref=e336]: 
+                - text: 1500–5000 ft
+              - generic [ref=e338]:
+                - generic [ref=e339]: 
+                - text: "0"
+            - generic [ref=e340]:
+              - button "Like" [ref=e341] [cursor=pointer]:
+                - generic [ref=e342]: 
+                - generic [ref=e343]: Favourite
+              - button "Save" [ref=e344] [cursor=pointer]:
+                - generic [ref=e345]: 
+                - generic [ref=e346]: Save
+            - link " Know More" [ref=e347] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/hrmn-99
+              - generic [ref=e348]: 
+              - text: Know More
+          - generic [ref=e349]:
+            - link "View Jeromine details" [ref=e350] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/jeromine
+              - generic [ref=e351]: "#15"
+              - img "Jeromine" [ref=e353]
+              - generic [ref=e354]: Late
+              - generic [ref=e355]: Jeromine
+              - generic [ref=e356]: जेरोमिन
+              - generic [ref=e357]:
+                - generic [ref=e358]: 
+                - text: 5000–8500 ft
+              - generic [ref=e360]:
+                - generic [ref=e361]: 
+                - text: "0"
+            - generic [ref=e362]:
+              - button "Like" [ref=e363] [cursor=pointer]:
+                - generic [ref=e364]: 
+                - generic [ref=e365]: Favourite
+              - button "Save" [ref=e366] [cursor=pointer]:
+                - generic [ref=e367]: 
+                - generic [ref=e368]: Save
+            - link " Know More" [ref=e369] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/jeromine
+              - generic [ref=e370]: 
+              - text: Know More
+          - generic [ref=e371]:
+            - link "View Jona Prince Select details" [ref=e372] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/jona-prince-select
+              - generic [ref=e373]: "#16"
+              - img "Jona Prince Select" [ref=e375]
+              - generic [ref=e376]: Mid
+              - generic [ref=e377]: Jona Prince Select
+              - generic [ref=e378]: जोना प्रिंस सेलेक्ट
+              - generic [ref=e379]:
+                - generic [ref=e380]: 
+                - text: 4500–8500 ft
+              - generic [ref=e382]:
+                - generic [ref=e383]: 
+                - text: "0"
+            - generic [ref=e384]:
+              - button "Like" [ref=e385] [cursor=pointer]:
+                - generic [ref=e386]: 
+                - generic [ref=e387]: Favourite
+              - button "Save" [ref=e388] [cursor=pointer]:
+                - generic [ref=e389]: 
+                - generic [ref=e390]: Save
+            - link " Know More" [ref=e391] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/jona-prince-select
+              - generic [ref=e392]: 
+              - text: Know More
+          - generic [ref=e393]:
+            - link "View Jonathan details" [ref=e394] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/jonathan
+              - generic [ref=e395]: "#17"
+              - img "Jonathan" [ref=e397]
+              - generic [ref=e398]: Mid
+              - generic [ref=e399]: Jonathan
+              - generic [ref=e400]: जोनाथन
+              - generic [ref=e401]:
+                - generic [ref=e402]: 
+                - text: 4500–8500 ft
+              - generic [ref=e404]:
+                - generic [ref=e405]: 
+                - text: "0"
+            - generic [ref=e406]:
+              - button "Like" [ref=e407] [cursor=pointer]:
+                - generic [ref=e408]: 
+                - generic [ref=e409]: Favourite
+              - button "Save" [ref=e410] [cursor=pointer]:
+                - generic [ref=e411]: 
+                - generic [ref=e412]: Save
+            - link " Know More" [ref=e413] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/jonathan
+              - generic [ref=e414]: 
+              - text: Know More
+          - generic [ref=e415]:
+            - link "View Kiku Fuji details" [ref=e416] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/kiku-fuji
+              - generic [ref=e417]: "#18"
+              - img "Kiku Fuji" [ref=e419]
+              - generic [ref=e420]: Very Late
+              - generic [ref=e421]: Kiku Fuji
+              - generic [ref=e422]: किकु फूजी
+              - generic [ref=e423]:
+                - generic [ref=e424]: 
+                - text: 5500–9000 ft
+              - generic [ref=e426]:
+                - generic [ref=e427]: 
+                - text: "0"
+            - generic [ref=e428]:
+              - button "Like" [ref=e429] [cursor=pointer]:
+                - generic [ref=e430]: 
+                - generic [ref=e431]: Favourite
+              - button "Save" [ref=e432] [cursor=pointer]:
+                - generic [ref=e433]: 
+                - generic [ref=e434]: Save
+            - link " Know More" [ref=e435] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/kiku-fuji
+              - generic [ref=e436]: 
+              - text: Know More
+          - generic [ref=e437]:
+            - link "View King Gala details" [ref=e438] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/king-gala
+              - generic [ref=e439]: "#19"
+              - img "King Gala" [ref=e441]
+              - generic [ref=e442]: Early
+              - generic [ref=e443]: King Gala
+              - generic [ref=e444]: किंग गाला
+              - generic [ref=e445]:
+                - generic [ref=e446]: 
+                - text: 4000–7000 ft
+              - generic [ref=e448]:
+                - generic [ref=e449]: 
+                - text: "0"
+            - generic [ref=e450]:
+              - button "Like" [ref=e451] [cursor=pointer]:
+                - generic [ref=e452]: 
+                - generic [ref=e453]: Favourite
+              - button "Save" [ref=e454] [cursor=pointer]:
+                - generic [ref=e455]: 
+                - generic [ref=e456]: Save
+            - link " Know More" [ref=e457] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/king-gala
+              - generic [ref=e458]: 
+              - text: Know More
+          - generic [ref=e459]:
+            - link "View King Groffan Fuji details" [ref=e460] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/king-groffan-fuji
+              - generic [ref=e461]: "#20"
+              - img "King Groffan Fuji" [ref=e463]
+              - generic [ref=e464]: Very Late
+              - generic [ref=e465]: King Groffan Fuji
+              - generic [ref=e466]: किंग ग्रोफैन फूजी
+              - generic [ref=e467]:
+                - generic [ref=e468]: 
+                - text: 5500–9000 ft
+              - generic [ref=e470]:
+                - generic [ref=e471]: 
+                - text: "0"
+            - generic [ref=e472]:
+              - button "Like" [ref=e473] [cursor=pointer]:
+                - generic [ref=e474]: 
+                - generic [ref=e475]: Favourite
+              - button "Save" [ref=e476] [cursor=pointer]:
+                - generic [ref=e477]: 
+                - generic [ref=e478]: Save
+            - link " Know More" [ref=e479] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/king-groffan-fuji
+              - generic [ref=e480]: 
+              - text: Know More
+          - generic [ref=e481]:
+            - link "View King Roat details" [ref=e482] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/king-roat
+              - generic [ref=e483]: "#21"
+              - img "King Roat" [ref=e485]
+              - generic [ref=e486]: Late
+              - generic [ref=e487]: King Roat
+              - generic [ref=e488]: किंग रोएट
+              - generic [ref=e489]:
+                - generic [ref=e490]: 
+                - text: 5000–8500 ft
+              - generic [ref=e492]:
+                - generic [ref=e493]: 
+                - text: "0"
+            - generic [ref=e494]:
+              - button "Like" [ref=e495] [cursor=pointer]:
+                - generic [ref=e496]: 
+                - generic [ref=e497]: Favourite
+              - button "Save" [ref=e498] [cursor=pointer]:
+                - generic [ref=e499]: 
+                - generic [ref=e500]: Save
+            - link " Know More" [ref=e501] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/king-roat
+              - generic [ref=e502]: 
+              - text: Know More
+          - generic [ref=e503]:
+            - link "View McIntosh details" [ref=e504] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/mcintosh
+              - generic [ref=e505]: "#22"
+              - img "McIntosh" [ref=e507]
+              - generic [ref=e508]: Mid
+              - generic [ref=e509]: McIntosh
+              - generic [ref=e510]: मैकिन्टोश
+              - generic [ref=e511]:
+                - generic [ref=e512]: 
+                - text: 4500–8500 ft
+              - generic [ref=e514]:
+                - generic [ref=e515]: 
+                - text: "0"
+            - generic [ref=e516]:
+              - button "Like" [ref=e517] [cursor=pointer]:
+                - generic [ref=e518]: 
+                - generic [ref=e519]: Favourite
+              - button "Save" [ref=e520] [cursor=pointer]:
+                - generic [ref=e521]: 
+                - generic [ref=e522]: Save
+            - link " Know More" [ref=e523] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/mcintosh
+              - generic [ref=e524]: 
+              - text: Know More
+          - generic [ref=e525]:
+            - link "View Mema Mestar details" [ref=e526] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/mema-mestar
+              - generic [ref=e527]: "#23"
+              - img "Mema Mestar" [ref=e529]
+              - generic [ref=e530]: Late
+              - generic [ref=e531]: Mema Mestar
+              - generic [ref=e532]: मेमा मेस्टार
+              - generic [ref=e533]:
+                - generic [ref=e534]: 
+                - text: 5000–8500 ft
+              - generic [ref=e536]:
+                - generic [ref=e537]: 
+                - text: "0"
+            - generic [ref=e538]:
+              - button "Like" [ref=e539] [cursor=pointer]:
+                - generic [ref=e540]: 
+                - generic [ref=e541]: Favourite
+              - button "Save" [ref=e542] [cursor=pointer]:
+                - generic [ref=e543]: 
+                - generic [ref=e544]: Save
+            - link " Know More" [ref=e545] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/mema-mestar
+              - generic [ref=e546]: 
+              - text: Know More
+          - generic [ref=e547]:
+            - link "View Nagafu details" [ref=e548] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/nagafu
+              - generic [ref=e549]: "#24"
+              - img "Nagafu" [ref=e551]
+              - generic [ref=e552]: Very Late
+              - generic [ref=e553]: Nagafu
+              - generic [ref=e554]: नागाफू
+              - generic [ref=e555]:
+                - generic [ref=e556]: 
+                - text: 5500–9000 ft
+              - generic [ref=e558]:
+                - generic [ref=e559]: 
+                - text: "0"
+            - generic [ref=e560]:
+              - button "Like" [ref=e561] [cursor=pointer]:
+                - generic [ref=e562]: 
+                - generic [ref=e563]: Favourite
+              - button "Save" [ref=e564] [cursor=pointer]:
+                - generic [ref=e565]: 
+                - generic [ref=e566]: Save
+            - link " Know More" [ref=e567] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/nagafu
+              - generic [ref=e568]: 
+              - text: Know More
+          - generic [ref=e569]:
+            - link "View Narasimo Gala details" [ref=e570] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/narasimo-gala
+              - generic [ref=e571]: "#25"
+              - img "Narasimo Gala" [ref=e573]
+              - generic [ref=e574]: Early
+              - generic [ref=e575]: Narasimo Gala
+              - generic [ref=e576]: नारासिमो गाला
+              - generic [ref=e577]:
+                - generic [ref=e578]: 
+                - text: 4000–7000 ft
+              - generic [ref=e580]:
+                - generic [ref=e581]: 
+                - text: "0"
+            - generic [ref=e582]:
+              - button "Like" [ref=e583] [cursor=pointer]:
+                - generic [ref=e584]: 
+                - generic [ref=e585]: Favourite
+              - button "Save" [ref=e586] [cursor=pointer]:
+                - generic [ref=e587]: 
+                - generic [ref=e588]: Save
+            - link " Know More" [ref=e589] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/narasimo-gala
+              - generic [ref=e590]: 
+              - text: Know More
+          - generic [ref=e591]:
+            - link "View Oregon Spur 2 details" [ref=e592] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/oregon-spur-2
+              - generic [ref=e593]: "#26"
+              - img "Oregon Spur 2" [ref=e595]
+              - generic [ref=e596]: Mid
+              - generic [ref=e597]: Oregon Spur 2
+              - generic [ref=e598]: ओरेगन स्पर 2
+              - generic [ref=e599]:
+                - generic [ref=e600]: 
+                - text: 5000–9000 ft
+              - generic [ref=e602]:
+                - generic [ref=e603]: 
+                - text: "0"
+            - generic [ref=e604]:
+              - button "Like" [ref=e605] [cursor=pointer]:
+                - generic [ref=e606]: 
+                - generic [ref=e607]: Favourite
+              - button "Save" [ref=e608] [cursor=pointer]:
+                - generic [ref=e609]: 
+                - generic [ref=e610]: Save
+            - link " Know More" [ref=e611] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/oregon-spur-2
+              - generic [ref=e612]: 
+              - text: Know More
+          - generic [ref=e613]:
+            - link "View Pink Lady details" [ref=e614] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/pink-lady
+              - generic [ref=e615]: "#27"
+              - img "Pink Lady" [ref=e617]
+              - generic [ref=e618]: Very Late
+              - generic [ref=e619]: Pink Lady
+              - generic [ref=e620]: पिंक लेडी
+              - generic [ref=e621]:
+                - generic [ref=e622]: 
+                - text: 4500–8500 ft
+              - generic [ref=e624]:
+                - generic [ref=e625]: 
+                - text: "0"
+            - generic [ref=e626]:
+              - button "Like" [ref=e627] [cursor=pointer]:
+                - generic [ref=e628]: 
+                - generic [ref=e629]: Favourite
+              - button "Save" [ref=e630] [cursor=pointer]:
+                - generic [ref=e631]: 
+                - generic [ref=e632]: Save
+            - link " Know More" [ref=e633] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/pink-lady
+              - generic [ref=e634]: 
+              - text: Know More
+          - generic [ref=e635]:
+            - link "View Rd11 details" [ref=e636] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/rd11
+              - generic [ref=e637]: "#28"
+              - img "Rd11" [ref=e639]
+              - generic [ref=e640]: Late
+              - generic [ref=e641]: Rd11
+              - generic [ref=e642]: आरडी11
+              - generic [ref=e643]:
+                - generic [ref=e644]: 
+                - text: 5000–8500 ft
+              - generic [ref=e646]:
+                - generic [ref=e647]: 
+                - text: "0"
+            - generic [ref=e648]:
+              - button "Like" [ref=e649] [cursor=pointer]:
+                - generic [ref=e650]: 
+                - generic [ref=e651]: Favourite
+              - button "Save" [ref=e652] [cursor=pointer]:
+                - generic [ref=e653]: 
+                - generic [ref=e654]: Save
+            - link " Know More" [ref=e655] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/rd11
+              - generic [ref=e656]: 
+              - text: Know More
+          - generic [ref=e657]:
+            - link "View Red Chief details" [ref=e658] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/red-chief
+              - generic [ref=e659]: "#29"
+              - img "Red Chief" [ref=e661]
+              - generic [ref=e662]: Mid
+              - generic [ref=e663]: Red Chief
+              - generic [ref=e664]: रेड चीफ
+              - generic [ref=e665]:
+                - generic [ref=e666]: 
+                - text: 5000–9000 ft
+              - generic [ref=e668]:
+                - generic [ref=e669]: 
+                - text: "0"
+            - generic [ref=e670]:
+              - button "Like" [ref=e671] [cursor=pointer]:
+                - generic [ref=e672]: 
+                - generic [ref=e673]: Favourite
+              - button "Save" [ref=e674] [cursor=pointer]:
+                - generic [ref=e675]: 
+                - generic [ref=e676]: Save
+            - link " Know More" [ref=e677] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/red-chief
+              - generic [ref=e678]: 
+              - text: Know More
+          - generic [ref=e679]:
+            - link "View Red Delicious details" [ref=e680] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/red-delicious
+              - generic [ref=e681]: "#30"
+              - img "Red Delicious" [ref=e683]
+              - generic [ref=e684]: Mid
+              - generic [ref=e685]: Red Delicious
+              - generic [ref=e686]: रेड डेलिशियस
+              - generic [ref=e687]:
+                - generic [ref=e688]: 
+                - text: 5000–9000 ft
+              - generic [ref=e690]:
+                - generic [ref=e691]: 
+                - text: "0"
+            - generic [ref=e692]:
+              - button "Like" [ref=e693] [cursor=pointer]:
+                - generic [ref=e694]: 
+                - generic [ref=e695]: Favourite
+              - button "Save" [ref=e696] [cursor=pointer]:
+                - generic [ref=e697]: 
+                - generic [ref=e698]: Save
+            - link " Know More" [ref=e699] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/red-delicious
+              - generic [ref=e700]: 
+              - text: Know More
+          - generic [ref=e701]:
+            - link "View Red Golden details" [ref=e702] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/red-golden
+              - generic [ref=e703]: "#31"
+              - img "Red Golden" [ref=e705]
+              - generic [ref=e706]: Mid
+              - generic [ref=e707]: Red Golden
+              - generic [ref=e708]: रेड गोल्डन
+              - generic [ref=e709]:
+                - generic [ref=e710]: 
+                - text: 4500–8500 ft
+              - generic [ref=e712]:
+                - generic [ref=e713]: 
+                - text: "0"
+            - generic [ref=e714]:
+              - button "Like" [ref=e715] [cursor=pointer]:
+                - generic [ref=e716]: 
+                - generic [ref=e717]: Favourite
+              - button "Save" [ref=e718] [cursor=pointer]:
+                - generic [ref=e719]: 
+                - generic [ref=e720]: Save
+            - link " Know More" [ref=e721] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/red-golden
+              - generic [ref=e722]: 
+              - text: Know More
+          - generic [ref=e723]:
+            - link "View Red Love details" [ref=e724] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/red-love
+              - generic [ref=e725]: "#32"
+              - img "Red Love" [ref=e727]
+              - generic [ref=e728]: Mid
+              - generic [ref=e729]: Red Love
+              - generic [ref=e730]: रेड लव
+              - generic [ref=e731]:
+                - generic [ref=e732]: 
+                - text: 4500–8500 ft
+              - generic [ref=e734]:
+                - generic [ref=e735]: 
+                - text: "0"
+            - generic [ref=e736]:
+              - button "Like" [ref=e737] [cursor=pointer]:
+                - generic [ref=e738]: 
+                - generic [ref=e739]: Favourite
+              - button "Save" [ref=e740] [cursor=pointer]:
+                - generic [ref=e741]: 
+                - generic [ref=e742]: Save
+            - link " Know More" [ref=e743] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/red-love
+              - generic [ref=e744]: 
+              - text: Know More
+          - generic [ref=e745]:
+            - link "View Red Velox details" [ref=e746] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/red-velox
+              - generic [ref=e747]: "#33"
+              - img "Red Velox" [ref=e749]
+              - generic [ref=e750]: Late
+              - generic [ref=e751]: Red Velox
+              - generic [ref=e752]: रेड वेलोक्स
+              - generic [ref=e753]:
+                - generic [ref=e754]: 
+                - text: 5000–8500 ft
+              - generic [ref=e756]:
+                - generic [ref=e757]: 
+                - text: "0"
+            - generic [ref=e758]:
+              - button "Like" [ref=e759] [cursor=pointer]:
+                - generic [ref=e760]: 
+                - generic [ref=e761]: Favourite
+              - button "Save" [ref=e762] [cursor=pointer]:
+                - generic [ref=e763]: 
+                - generic [ref=e764]: Save
+            - link " Know More" [ref=e765] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/red-velox
+              - generic [ref=e766]: 
+              - text: Know More
+          - generic [ref=e767]:
+            - link "View Redlum Gala details" [ref=e768] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/redlum-gala
+              - generic [ref=e769]: "#34"
+              - img "Redlum Gala" [ref=e771]
+              - generic [ref=e772]: Early
+              - generic [ref=e773]: Redlum Gala
+              - generic [ref=e774]: रेडलम गाला
+              - generic [ref=e775]:
+                - generic [ref=e776]: 
+                - text: 4000–7000 ft
+              - generic [ref=e778]:
+                - generic [ref=e779]: 
+                - text: "0"
+            - generic [ref=e780]:
+              - button "Like" [ref=e781] [cursor=pointer]:
+                - generic [ref=e782]: 
+                - generic [ref=e783]: Favourite
+              - button "Save" [ref=e784] [cursor=pointer]:
+                - generic [ref=e785]: 
+                - generic [ref=e786]: Save
+            - link " Know More" [ref=e787] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/redlum-gala
+              - generic [ref=e788]: 
+              - text: Know More
+          - generic [ref=e789]:
+            - link "View Rich-A-Red details" [ref=e790] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/rich-a-red
+              - generic [ref=e791]: "#35"
+              - img "Rich-A-Red" [ref=e793]
+              - generic [ref=e794]: Mid
+              - generic [ref=e795]: Rich-A-Red
+              - generic [ref=e796]: रिच-ए-रेड
+              - generic [ref=e797]:
+                - generic [ref=e798]: 
+                - text: 5000–9000 ft
+              - generic [ref=e800]:
+                - generic [ref=e801]: 
+                - text: "0"
+            - generic [ref=e802]:
+              - button "Like" [ref=e803] [cursor=pointer]:
+                - generic [ref=e804]: 
+                - generic [ref=e805]: Favourite
+              - button "Save" [ref=e806] [cursor=pointer]:
+                - generic [ref=e807]: 
+                - generic [ref=e808]: Save
+            - link " Know More" [ref=e809] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/rich-a-red
+              - generic [ref=e810]: 
+              - text: Know More
+          - generic [ref=e811]:
+            - link "View Royal Delicious details" [ref=e812] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/royal-delicious
+              - generic [ref=e813]: "#36"
+              - img "Royal Delicious" [ref=e815]
+              - generic [ref=e816]: Mid
+              - generic [ref=e817]: Royal Delicious
+              - generic [ref=e818]: रॉयल डेलिशियस
+              - generic [ref=e819]:
+                - generic [ref=e820]: 
+                - text: 5000–9000 ft
+              - generic [ref=e822]:
+                - generic [ref=e823]: 
+                - text: "0"
+            - generic [ref=e824]:
+              - button "Like" [ref=e825] [cursor=pointer]:
+                - generic [ref=e826]: 
+                - generic [ref=e827]: Favourite
+              - button "Save" [ref=e828] [cursor=pointer]:
+                - generic [ref=e829]: 
+                - generic [ref=e830]: Save
+            - link " Know More" [ref=e831] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/royal-delicious
+              - generic [ref=e832]: 
+              - text: Know More
+          - generic [ref=e833]:
+            - link "View Royal Gala details" [ref=e834] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/royal-gala
+              - generic [ref=e835]: "#37"
+              - img "Royal Gala" [ref=e837]
+              - generic [ref=e838]: Early
+              - generic [ref=e839]: Royal Gala
+              - generic [ref=e840]: रॉयल गाला
+              - generic [ref=e841]:
+                - generic [ref=e842]: 
+                - text: 4000–7000 ft
+              - generic [ref=e844]:
+                - generic [ref=e845]: 
+                - text: "0"
+            - generic [ref=e846]:
+              - button "Like" [ref=e847] [cursor=pointer]:
+                - generic [ref=e848]: 
+                - generic [ref=e849]: Favourite
+              - button "Save" [ref=e850] [cursor=pointer]:
+                - generic [ref=e851]: 
+                - generic [ref=e852]: Save
+            - link " Know More" [ref=e853] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/royal-gala
+              - generic [ref=e854]: 
+              - text: Know More
+          - generic [ref=e855]:
+            - link "View Royal Vance details" [ref=e856] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/royal-vance
+              - generic [ref=e857]: "#38"
+              - img "Royal Vance" [ref=e859]
+              - generic [ref=e860]: Mid
+              - generic [ref=e861]: Royal Vance
+              - generic [ref=e862]: रॉयल वेंस
+              - generic [ref=e863]:
+                - generic [ref=e864]: 
+                - text: 5000–9000 ft
+              - generic [ref=e866]:
+                - generic [ref=e867]: 
+                - text: "0"
+            - generic [ref=e868]:
+              - button "Like" [ref=e869] [cursor=pointer]:
+                - generic [ref=e870]: 
+                - generic [ref=e871]: Favourite
+              - button "Save" [ref=e872] [cursor=pointer]:
+                - generic [ref=e873]: 
+                - generic [ref=e874]: Save
+            - link " Know More" [ref=e875] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/royal-vance
+              - generic [ref=e876]: 
+              - text: Know More
+          - generic [ref=e877]:
+            - link "View Scarlet Spur 2 details" [ref=e878] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/scarlet-spur-2
+              - generic [ref=e879]: "#39"
+              - img "Scarlet Spur 2" [ref=e881]
+              - generic [ref=e882]: Mid
+              - generic [ref=e883]: Scarlet Spur 2
+              - generic [ref=e884]: स्कारलेट स्पर 2
+              - generic [ref=e885]:
+                - generic [ref=e886]: 
+                - text: 5000–9000 ft
+              - generic [ref=e888]:
+                - generic [ref=e889]: 
+                - text: "0"
+            - generic [ref=e890]:
+              - button "Like" [ref=e891] [cursor=pointer]:
+                - generic [ref=e892]: 
+                - generic [ref=e893]: Favourite
+              - button "Save" [ref=e894] [cursor=pointer]:
+                - generic [ref=e895]: 
+                - generic [ref=e896]: Save
+            - link " Know More" [ref=e897] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/scarlet-spur-2
+              - generic [ref=e898]: 
+              - text: Know More
+          - generic [ref=e899]:
+            - link "View Schniga Schnico Red Gala details" [ref=e900] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/schniga-schnico-red-gala
+              - generic [ref=e901]: "#40"
+              - img "Schniga Schnico Red Gala" [ref=e903]
+              - generic [ref=e904]: Early
+              - generic [ref=e905]: Schniga Schnico Red Gala
+              - generic [ref=e906]: श्निगा श्निको रेड गाला
+              - generic [ref=e907]:
+                - generic [ref=e908]: 
+                - text: 4000–7000 ft
+              - generic [ref=e910]:
+                - generic [ref=e911]: 
+                - text: "0"
+            - generic [ref=e912]:
+              - button "Like" [ref=e913] [cursor=pointer]:
+                - generic [ref=e914]: 
+                - generic [ref=e915]: Favourite
+              - button "Save" [ref=e916] [cursor=pointer]:
+                - generic [ref=e917]: 
+                - generic [ref=e918]: Save
+            - link " Know More" [ref=e919] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/schniga-schnico-red-gala
+              - generic [ref=e920]: 
+              - text: Know More
+          - generic [ref=e921]:
+            - link "View Starkrimson Delicious details" [ref=e922] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/starkrimson-delicious
+              - generic [ref=e923]: "#41"
+              - img "Starkrimson Delicious" [ref=e925]
+              - generic [ref=e926]: Mid
+              - generic [ref=e927]: Starkrimson Delicious
+              - generic [ref=e928]: स्टार्क्रिमसन डेलिशियस
+              - generic [ref=e929]:
+                - generic [ref=e930]: 
+                - text: 5000–9000 ft
+              - generic [ref=e932]:
+                - generic [ref=e933]: 
+                - text: "0"
+            - generic [ref=e934]:
+              - button "Like" [ref=e935] [cursor=pointer]:
+                - generic [ref=e936]: 
+                - generic [ref=e937]: Favourite
+              - button "Save" [ref=e938] [cursor=pointer]:
+                - generic [ref=e939]: 
+                - generic [ref=e940]: Save
+            - link " Know More" [ref=e941] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/starkrimson-delicious
+              - generic [ref=e942]: 
+              - text: Know More
+          - generic [ref=e943]:
+            - link "View Super Chief details" [ref=e944] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/super-chief
+              - generic [ref=e945]: "#42"
+              - img "Super Chief" [ref=e947]
+              - generic [ref=e948]: Mid
+              - generic [ref=e949]: Super Chief
+              - generic [ref=e950]: सुपर चीफ
+              - generic [ref=e951]:
+                - generic [ref=e952]: 
+                - text: 5000–9000 ft
+              - generic [ref=e954]:
+                - generic [ref=e955]: 
+                - text: "0"
+            - generic [ref=e956]:
+              - button "Like" [ref=e957] [cursor=pointer]:
+                - generic [ref=e958]: 
+                - generic [ref=e959]: Favourite
+              - button "Save" [ref=e960] [cursor=pointer]:
+                - generic [ref=e961]: 
+                - generic [ref=e962]: Save
+            - link " Know More" [ref=e963] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/super-chief
+              - generic [ref=e964]: 
+              - text: Know More
+          - generic [ref=e965]:
+            - link "View T Rex Gala details" [ref=e966] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/t-rex-gala
+              - generic [ref=e967]: "#43"
+              - img "T Rex Gala" [ref=e969]
+              - generic [ref=e970]: Early
+              - generic [ref=e971]: T Rex Gala
+              - generic [ref=e972]: टी रेक्स गाला
+              - generic [ref=e973]:
+                - generic [ref=e974]: 
+                - text: 4000–7000 ft
+              - generic [ref=e976]:
+                - generic [ref=e977]: 
+                - text: "0"
+            - generic [ref=e978]:
+              - button "Like" [ref=e979] [cursor=pointer]:
+                - generic [ref=e980]: 
+                - generic [ref=e981]: Favourite
+              - button "Save" [ref=e982] [cursor=pointer]:
+                - generic [ref=e983]: 
+                - generic [ref=e984]: Save
+            - link " Know More" [ref=e985] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/t-rex-gala
+              - generic [ref=e986]: 
+              - text: Know More
+          - generic [ref=e987]:
+            - link "View Tide Man details" [ref=e988] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/tide-man
+              - generic [ref=e989]: "#44"
+              - img "Tide Man" [ref=e991]
+              - generic [ref=e992]: Mid
+              - generic [ref=e993]: Tide Man
+              - generic [ref=e994]: टाइड मैन
+              - generic [ref=e995]:
+                - generic [ref=e996]: 
+                - text: 4500–8500 ft
+              - generic [ref=e998]:
+                - generic [ref=e999]: 
+                - text: "0"
+            - generic [ref=e1000]:
+              - button "Like" [ref=e1001] [cursor=pointer]:
+                - generic [ref=e1002]: 
+                - generic [ref=e1003]: Favourite
+              - button "Save" [ref=e1004] [cursor=pointer]:
+                - generic [ref=e1005]: 
+                - generic [ref=e1006]: Save
+            - link " Know More" [ref=e1007] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/tide-man
+              - generic [ref=e1008]: 
+              - text: Know More
+          - generic [ref=e1009]:
+            - link "View Top Red details" [ref=e1010] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/top-red
+              - generic [ref=e1011]: "#45"
+              - img "Top Red" [ref=e1013]
+              - generic [ref=e1014]: Mid
+              - generic [ref=e1015]: Top Red
+              - generic [ref=e1016]: टॉप रेड
+              - generic [ref=e1017]:
+                - generic [ref=e1018]: 
+                - text: 5000–9000 ft
+              - generic [ref=e1020]:
+                - generic [ref=e1021]: 
+                - text: "0"
+            - generic [ref=e1022]:
+              - button "Like" [ref=e1023] [cursor=pointer]:
+                - generic [ref=e1024]: 
+                - generic [ref=e1025]: Favourite
+              - button "Save" [ref=e1026] [cursor=pointer]:
+                - generic [ref=e1027]: 
+                - generic [ref=e1028]: Save
+            - link " Know More" [ref=e1029] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/top-red
+              - generic [ref=e1030]: 
+              - text: Know More
+          - generic [ref=e1031]:
+            - link "View Tropic Sweet details" [ref=e1032] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/tropic-sweet
+              - generic [ref=e1033]: "#46"
+              - img "Tropic Sweet" [ref=e1035]
+              - generic [ref=e1036]: Early
+              - generic [ref=e1037]: Tropic Sweet
+              - generic [ref=e1038]: ट्रॉपिक स्वीट
+              - generic [ref=e1039]:
+                - generic [ref=e1040]: 
+                - text: 1500–5000 ft
+              - generic [ref=e1042]:
+                - generic [ref=e1043]: 
+                - text: "0"
+            - generic [ref=e1044]:
+              - button "Like" [ref=e1045] [cursor=pointer]:
+                - generic [ref=e1046]: 
+                - generic [ref=e1047]: Favourite
+              - button "Save" [ref=e1048] [cursor=pointer]:
+                - generic [ref=e1049]: 
+                - generic [ref=e1050]: Save
+            - link " Know More" [ref=e1051] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/tropic-sweet
+              - generic [ref=e1052]: 
+              - text: Know More
+          - generic [ref=e1053]:
+            - link "View Zad One (Fenzad) details" [ref=e1054] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/zad-one-fenzad
+              - generic [ref=e1055]: "#47"
+              - img "Zad One (Fenzad)" [ref=e1057]
+              - generic [ref=e1058]: Late
+              - generic [ref=e1059]: Zad One (Fenzad)
+              - generic [ref=e1060]: जैड वन (फेनजैड)
+              - generic [ref=e1061]:
+                - generic [ref=e1062]: 
+                - text: 5000–8500 ft
+              - generic [ref=e1064]:
+                - generic [ref=e1065]: 
+                - text: "0"
+            - generic [ref=e1066]:
+              - button "Like" [ref=e1067] [cursor=pointer]:
+                - generic [ref=e1068]: 
+                - generic [ref=e1069]: Favourite
+              - button "Save" [ref=e1070] [cursor=pointer]:
+                - generic [ref=e1071]: 
+                - generic [ref=e1072]: Save
+            - link " Know More" [ref=e1073] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/zad-one-fenzad
+              - generic [ref=e1074]: 
+              - text: Know More
+        - heading "Explore Other Fruits" [level=2] [ref=e1076]
+        - generic [ref=e1077]:
+          - generic [ref=e1078]:
+            - link "View Apricot varieties" [ref=e1079] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/by-fruit/apricot
+              - generic [ref=e1080]: "#1"
+              - img "Apricot" [ref=e1082]
+              - generic [ref=e1083]: Apricot
+              - generic [ref=e1084]: Apricot
+              - generic [ref=e1085]: खुबानी
+              - generic [ref=e1086]:
+                - generic [ref=e1087]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e1088] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/by-fruit/apricot
+              - generic [ref=e1089]: 
+              - text: View Varieties
+          - generic [ref=e1090]:
+            - link "View Persimmon varieties" [ref=e1091] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/by-fruit/persimmon
+              - generic [ref=e1092]: "#2"
+              - img "Persimmon" [ref=e1094]
+              - generic [ref=e1095]: Persimmon
+              - generic [ref=e1096]: Persimmon
+              - generic [ref=e1097]: तेंदू फल
+              - generic [ref=e1098]:
+                - generic [ref=e1099]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e1100] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/by-fruit/persimmon
+              - generic [ref=e1101]: 
+              - text: View Varieties
+          - generic [ref=e1102]:
+            - link "View Cherry varieties" [ref=e1103] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/by-fruit/cherry
+              - generic [ref=e1104]: "#3"
+              - img "Cherry" [ref=e1106]
+              - generic [ref=e1107]: Cherry
+              - generic [ref=e1108]: Cherry
+              - generic [ref=e1109]: चेरी
+              - generic [ref=e1110]:
+                - generic [ref=e1111]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e1112] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/by-fruit/cherry
+              - generic [ref=e1113]: 
+              - text: View Varieties
+          - generic [ref=e1114]:
+            - link "View Plum varieties" [ref=e1115] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/by-fruit/plum
+              - generic [ref=e1116]: "#4"
+              - img "Plum" [ref=e1118]
+              - generic [ref=e1119]: Plum
+              - generic [ref=e1120]: Plum
+              - generic [ref=e1121]: आलूबुखारा
+              - generic [ref=e1122]:
+                - generic [ref=e1123]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e1124] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/by-fruit/plum
+              - generic [ref=e1125]: 
+              - text: View Varieties
+          - generic [ref=e1126]:
+            - link "View Pear varieties" [ref=e1127] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/by-fruit/pear
+              - generic [ref=e1128]: "#5"
+              - img "Pear" [ref=e1130]
+              - generic [ref=e1131]: Pear
+              - generic [ref=e1132]: Pear
+              - generic [ref=e1133]: नाशपाती
+              - generic [ref=e1134]:
+                - generic [ref=e1135]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e1136] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/by-fruit/pear
+              - generic [ref=e1137]: 
+              - text: View Varieties
+          - generic [ref=e1138]:
+            - link "View Pomegranate varieties" [ref=e1139] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/by-fruit/pomegranate
+              - generic [ref=e1140]: "#6"
+              - img "Pomegranate" [ref=e1142]
+              - generic [ref=e1143]: Pomegranate
+              - generic [ref=e1144]: Pomegranate
+              - generic [ref=e1145]: अनार
+              - generic [ref=e1146]:
+                - generic [ref=e1147]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e1148] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/varieties/by-fruit/pomegranate
+              - generic [ref=e1149]: 
+              - text: View Varieties
+    - contentinfo [ref=e1150]:
+      - paragraph [ref=e1151]:
+        - text: © 2026 Baagicha — Made with
+        - generic [ref=e1152]: 
+        - text: by
+        - link "Tarun Chauhan" [ref=e1153] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+      - generic [ref=e1154]:
+        - link "Facebook" [ref=e1155] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e1156]: 
+        - link "Instagram" [ref=e1157] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+          - generic [ref=e1158]: 
+        - link "YouTube" [ref=e1159] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e1160]: 
+    - navigation "Main navigation" [ref=e1161]:
+      - text: 
+      - generic [ref=e1162]:
+        - link "Home" [ref=e1163] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001
+          - generic [ref=e1165]: 
+          - generic [ref=e1166]: Home
+          - generic [ref=e1167]: घर
+        - link "Spray Schedule" [ref=e1168] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/spray-schedule
+          - generic [ref=e1170]: 
+          - generic [ref=e1171]: Spray
+          - generic [ref=e1172]: छिड़काव
+        - link "Diseases" [ref=e1173] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/disease
+          - generic [ref=e1175]: 
+          - generic [ref=e1176]: Disease
+          - generic [ref=e1177]: रोग
+        - link "Varieties" [ref=e1178] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/variety
+          - generic [ref=e1180]: 
+          - generic [ref=e1181]: Variety
+          - generic [ref=e1182]: किस्म
+        - link "Rootstocks" [ref=e1183] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/rootstock
+          - generic [ref=e1185]: 
+          - generic [ref=e1186]: Rootstock
+          - generic [ref=e1187]: मूलवृंत
+        - link "Weather Forecast" [ref=e1188] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/weather
+          - generic [ref=e1190]: 
+          - generic [ref=e1191]: Weather
+          - generic [ref=e1192]: मौसम
+        - link "Blog & Articles" [ref=e1193] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/blog
+          - generic [ref=e1195]: 
+          - generic [ref=e1196]: Blog
+          - generic [ref=e1197]: लेख
+  - status [ref=e1198]:
+    - generic [ref=e1200]: 
+    - generic [ref=e1201]: Location denied · Using network fallback

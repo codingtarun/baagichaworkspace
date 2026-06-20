@@ -1,0 +1,350 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000
+        - generic [ref=e8]: Baagvaani
+      - navigation "Main navigation" [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - link "Fruits & Varieties" [ref=e11] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/fruits
+        - link "Blog" [ref=e12] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/blog
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/about
+      - generic [ref=e15]:
+        - link "Login" [ref=e16] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/login
+        - link "Sign Up" [ref=e17] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/register
+  - main [ref=e18]:
+    - region "Anna" [ref=e19]:
+      - generic [ref=e23]:
+        - link "Varieties" [ref=e25] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/variety
+          - img [ref=e26]
+          - text: Varieties
+        - generic [ref=e29]:
+          - generic [ref=e30]: 
+          - text: Early Season
+        - paragraph [ref=e31]: अन्ना
+        - heading "Anna" [level=1] [ref=e32]
+        - paragraph [ref=e33]:
+          - generic [ref=e34]: 
+          - text: Israel
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - region "Overview" [ref=e38]:
+          - heading "Overview" [level=2] [ref=e39]
+          - paragraph [ref=e40]: Low-chill variety requiring only 200-400 chilling hours. Important for lower hills as climate warms.
+          - paragraph [ref=e41]: केवल 200-400 शीतलन घंटों की आवश्यकता वाली निम्न-शीतलन किस्म। जलवायु गर्म होने के साथ निचली पहाड़ियों के लिए महत्वपूर्ण।
+        - region "Tree & Fruit" [ref=e42]:
+          - heading "Tree & Fruit" [level=2] [ref=e43]
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - heading " Tree Characteristics" [level=3] [ref=e46]:
+                - generic [ref=e47]: 
+                - text: Tree Characteristics
+              - generic [ref=e48]:
+                - generic [ref=e49]:
+                  - generic [ref=e50]: Vigour
+                  - generic [ref=e51]: Medium
+                - generic [ref=e52]:
+                  - generic [ref=e53]: Growth Habit
+                  - generic [ref=e54]: Spreading
+                - generic [ref=e55]:
+                  - generic [ref=e56]: Bearing Age
+                  - generic [ref=e57]: 2 years
+                - generic [ref=e58]:
+                  - generic [ref=e59]: Self-Fertile
+                  - generic [ref=e60]: No ✗
+                - generic [ref=e61]:
+                  - generic [ref=e62]: Pollinators
+                  - generic [ref=e63]: Anna, Dorsett Golden, Tropical Beauty
+            - separator [ref=e64]
+            - generic [ref=e65]:
+              - heading " Fruit Profile" [level=3] [ref=e66]:
+                - generic [ref=e67]: 
+                - text: Fruit Profile
+              - generic [ref=e68]:
+                - generic [ref=e69]:
+                  - generic [ref=e70]: Size
+                  - generic [ref=e71]: Medium
+                - generic [ref=e72]:
+                  - generic [ref=e73]: Shape
+                  - generic [ref=e74]: Round
+                - generic [ref=e75]:
+                  - generic [ref=e76]: Skin Color
+                  - generic [ref=e77]: Red blush on green
+                - generic [ref=e78]:
+                  - generic [ref=e79]: Flesh Color
+                  - generic [ref=e80]: White
+                - generic [ref=e81]:
+                  - generic [ref=e82]: Avg. Weight
+                  - generic [ref=e83]: 140g
+                - generic [ref=e84]:
+                  - generic [ref=e85]: Taste
+                  - generic [ref=e86]: Sweet-tart
+            - separator [ref=e87]
+            - generic [ref=e88]:
+              - heading " Harvest & Storage" [level=3] [ref=e89]:
+                - generic [ref=e90]: 
+                - text: Harvest & Storage
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - generic [ref=e93]: Days to Maturity
+                  - generic [ref=e94]: 100 days
+                - generic [ref=e95]:
+                  - generic [ref=e96]: Harvest Window
+                  - generic [ref=e97]: June - July
+                - generic [ref=e98]:
+                  - generic [ref=e99]: Storage Life
+                  - generic [ref=e100]: Fair
+                - generic [ref=e101]:
+                  - generic [ref=e102]: Storage Duration
+                  - generic [ref=e103]: 2 months
+        - region "Climate & Altitude" [ref=e104]:
+          - heading "Climate & Altitude" [level=2] [ref=e105]
+          - generic [ref=e106]:
+            - heading " Altitude Range" [level=3] [ref=e107]:
+              - generic [ref=e108]: 
+              - text: Altitude Range
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - generic [ref=e111]: 1,500 ft
+                - generic [ref=e112]: 5,000 ft
+              - paragraph [ref=e115]:
+                - generic [ref=e116]: 
+                - text: 2000-4500 ft
+          - generic [ref=e117]:
+            - heading " Climate Requirements" [level=3] [ref=e118]:
+              - generic [ref=e119]: 
+              - text: Climate Requirements
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - generic [ref=e122]: Chilling Hours (min)
+                - generic [ref=e123]: 200 hrs
+              - generic [ref=e124]:
+                - generic [ref=e125]: Ideal Temp
+                - generic [ref=e126]: 15.0–30.0°C
+              - generic [ref=e127]:
+                - generic [ref=e128]: Rain Tolerance
+                - generic [ref=e129]: High
+        - region "Disease & Rootstock" [ref=e130]:
+          - heading "Disease & Rootstock" [level=2] [ref=e131]
+          - generic [ref=e132]:
+            - heading " Recommended Rootstocks" [level=3] [ref=e133]:
+              - generic [ref=e134]: 
+              - text: Recommended Rootstocks
+            - generic [ref=e135]:
+              - link " MM-111" [ref=e136] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/rootstocks/mm-111
+                - generic [ref=e137]: 
+                - text: MM-111
+              - link " Seedling" [ref=e138] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/rootstocks/seedling
+                - generic [ref=e139]: 
+                - text: Seedling
+        - region "Market Overview" [ref=e140]:
+          - heading "Market Overview" [level=2] [ref=e141]
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - generic [ref=e144]: Demand
+              - generic [ref=e145]: Medium
+            - generic [ref=e146]:
+              - generic [ref=e147]: Price Tier
+              - generic [ref=e148]: ₹₹₹₹₹
+            - generic [ref=e149]:
+              - generic [ref=e150]: Yield / Tree
+              - generic [ref=e151]: 50 kg
+            - generic [ref=e152]:
+              - generic [ref=e153]: Yield Potential
+              - generic [ref=e154]: Medium
+            - generic [ref=e155]:
+              - generic [ref=e156]: Export Quality
+              - generic [ref=e157]: "No"
+        - generic [ref=e159]:
+          - heading " Comments 4" [level=2] [ref=e161]:
+            - generic [ref=e162]: 
+            - text: Comments
+            - generic [ref=e163]: "4"
+          - generic [ref=e164]:
+            - generic [ref=e165]: 
+            - link "Login" [ref=e166] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/login
+            - text: to leave a comment.
+          - generic [ref=e167]:
+            - generic [ref=e169]:
+              - generic [ref=e170]: T
+              - generic [ref=e171]:
+                - generic [ref=e172]:
+                  - generic [ref=e173]: Tarun Chauhan
+                  - generic [ref=e174]: 1 hour ago
+                - paragraph [ref=e175]: f sf sdf s
+                - button " 0 Helpful" [ref=e177] [cursor=pointer]:
+                  - generic [ref=e178]: 
+                  - generic [ref=e179]: "0"
+                  - text: Helpful
+            - generic [ref=e181]:
+              - generic [ref=e182]: T
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - generic [ref=e185]: Tarun Chauhan
+                  - generic [ref=e186]: 1 hour ago
+                - paragraph [ref=e187]: f sf sdf s sfsdf sdf
+                - button " 0 Helpful" [ref=e189] [cursor=pointer]:
+                  - generic [ref=e190]: 
+                  - generic [ref=e191]: "0"
+                  - text: Helpful
+            - generic [ref=e193]:
+              - generic [ref=e194]: T
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - generic [ref=e197]: Tarun Chauhan
+                  - generic [ref=e198]: 8 minutes ago
+                - paragraph [ref=e199]: kjkljkljklj lkjkljkl j;lkjkl j;lj
+                - button " 0 Helpful" [ref=e201] [cursor=pointer]:
+                  - generic [ref=e202]: 
+                  - generic [ref=e203]: "0"
+                  - text: Helpful
+            - generic [ref=e205]:
+              - generic [ref=e206]: T
+              - generic [ref=e207]:
+                - generic [ref=e208]:
+                  - generic [ref=e209]: Tarun Chauhan
+                  - generic [ref=e210]: 8 minutes ago
+                - paragraph [ref=e211]: kjkljkljklj lkjkljkl j;lkjkl j;lj
+                - button " 0 Helpful" [ref=e213] [cursor=pointer]:
+                  - generic [ref=e214]: 
+                  - generic [ref=e215]: "0"
+                  - text: Helpful
+      - complementary [ref=e216]:
+        - generic [ref=e217]:
+          - heading "Quick Stats" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - generic [ref=e222]: 
+                - text: Altitude
+              - generic [ref=e223]: 1,500–5,000 ft
+            - generic [ref=e224]:
+              - generic [ref=e225]:
+                - generic [ref=e226]: 
+                - text: Chilling
+              - generic [ref=e227]: 200 hrs
+            - generic [ref=e228]:
+              - generic [ref=e229]:
+                - generic [ref=e230]: 
+                - text: Yield
+              - generic [ref=e231]: Medium
+            - generic [ref=e232]:
+              - generic [ref=e233]:
+                - generic [ref=e234]: 
+                - text: Price Tier
+              - generic [ref=e235]: ₹₹₹
+            - generic [ref=e236]:
+              - generic [ref=e237]:
+                - generic [ref=e238]: 
+                - text: Views
+              - generic [ref=e239]: "33"
+        - generic [ref=e240]:
+          - heading "Actions" [level=3] [ref=e241]
+          - generic [ref=e242]:
+            - button " Like" [ref=e243]:
+              - generic [ref=e244]: 
+              - text: Like
+            - button " Save" [ref=e245]:
+              - generic [ref=e246]: 
+              - text: Save
+          - button " Share" [ref=e247]:
+            - generic [ref=e248]: 
+            - text: Share
+        - generic [ref=e249]:
+          - heading "Recommended Rootstocks" [level=3] [ref=e250]
+          - generic [ref=e251]:
+            - link " MM-111 एमएम -111" [ref=e252] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/mm-111
+              - generic [ref=e254]: 
+              - generic [ref=e255]:
+                - paragraph [ref=e256]: MM-111
+                - paragraph [ref=e257]: एमएम -111
+            - link " Seedling जमाती (सीडलिंग)" [ref=e258] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/seedling
+              - generic [ref=e260]: 
+              - generic [ref=e261]:
+                - paragraph [ref=e262]: Seedling
+                - paragraph [ref=e263]: जमाती (सीडलिंग)
+        - generic [ref=e264]:
+          - heading "Other Early Season Varieties" [level=3] [ref=e265]
+          - generic [ref=e266]:
+            - link "King Gala King Gala किंग गाला" [ref=e267] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/king-gala
+              - img "King Gala" [ref=e268]
+              - generic [ref=e269]:
+                - paragraph [ref=e270]: King Gala
+                - paragraph [ref=e271]: किंग गाला
+            - link "HRMN-99 HRMN-99 एचआरएमएन-99" [ref=e272] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/hrmn-99
+              - img "HRMN-99" [ref=e273]
+              - generic [ref=e274]:
+                - paragraph [ref=e275]: HRMN-99
+                - paragraph [ref=e276]: एचआरएमएन-99
+            - link "Brookfield Gala Brookfield Gala ब्रुकफील्ड गाला" [ref=e277] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/brookfield-gala
+              - img "Brookfield Gala" [ref=e278]
+              - generic [ref=e279]:
+                - paragraph [ref=e280]: Brookfield Gala
+                - paragraph [ref=e281]: ब्रुकफील्ड गाला
+            - link "Tropic Sweet Tropic Sweet ट्रॉपिक स्वीट" [ref=e282] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/tropic-sweet
+              - img "Tropic Sweet" [ref=e283]
+              - generic [ref=e284]:
+                - paragraph [ref=e285]: Tropic Sweet
+                - paragraph [ref=e286]: ट्रॉपिक स्वीट
+  - contentinfo [ref=e287]:
+    - generic [ref=e288]:
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - link "Baagvaani" [ref=e291] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e293]: Baagvaani
+          - paragraph [ref=e294]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e296]: Social channels coming soon
+        - generic [ref=e297]:
+          - heading "Quick Links" [level=3] [ref=e298]
+          - list [ref=e299]:
+            - listitem [ref=e300]:
+              - link "Home" [ref=e301] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e302]:
+              - link "Blog" [ref=e303] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e304]:
+              - link "About Us" [ref=e305] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e306]:
+          - heading "Topics" [level=3] [ref=e307]
+          - list [ref=e308]:
+            - listitem [ref=e309]:
+              - link "Spray & Disease" [ref=e310] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e311]:
+              - link "Orchard Care" [ref=e312] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e313]:
+              - link "Variety Guide" [ref=e314] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e315]:
+              - link "Weather & Climate" [ref=e316] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e317]:
+          - heading "Newsletter" [level=3] [ref=e318]
+          - paragraph [ref=e319]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e320]:
+            - textbox "Enter your email" [ref=e321]
+            - button "Subscribe" [ref=e322]
+          - paragraph [ref=e323]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e325]: © 2026 Baagvaani. All rights reserved.

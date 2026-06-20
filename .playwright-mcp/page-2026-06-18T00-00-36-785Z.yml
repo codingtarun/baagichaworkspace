@@ -1,0 +1,292 @@
+- generic [active] [ref=e1]:
+  - complementary [ref=e2]:
+    - link " Baagicha · Admin" [ref=e3] [cursor=pointer]:
+      - /url: http://127.0.0.1:8001/admin/dashboard
+      - generic [ref=e4]: 
+      - generic [ref=e5]: Baagicha · Admin
+    - navigation [ref=e6]:
+      - generic [ref=e7]: Main
+      - link " Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/dashboard
+        - generic [ref=e9]: 
+        - text: Dashboard
+      - link " Users" [ref=e10] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/users
+        - generic [ref=e11]: 
+        - text: Users
+      - generic [ref=e12]: Content
+      - link " Disease Library" [ref=e13] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/diseases
+        - generic [ref=e14]: 
+        - text: Disease Library
+      - link " Fruits" [ref=e15] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/fruits
+        - generic [ref=e16]: 
+        - text: Fruits
+      - link " Apple Varieties" [ref=e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/varieties
+        - generic [ref=e18]: 
+        - text: Apple Varieties
+      - link " Rootstocks" [ref=e19] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/rootstocks
+        - generic [ref=e20]: 
+        - text: Rootstocks
+      - link " Chemicals" [ref=e21] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/chemicals
+        - generic [ref=e22]: 
+        - text: Chemicals
+      - link " Spray Schedule" [ref=e23] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/spray
+        - generic [ref=e24]: 
+        - text: Spray Schedule
+      - link " Blog Posts" [ref=e25] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog/posts
+        - generic [ref=e26]: 
+        - text: Blog Posts
+      - link " Blog Categories" [ref=e27] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog-categories
+        - generic [ref=e28]: 
+        - text: Blog Categories
+      - link " Blog Tags" [ref=e29] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog-tags
+        - generic [ref=e30]: 
+        - text: Blog Tags
+      - link " Comments" [ref=e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/comments
+        - generic [ref=e32]: 
+        - text: Comments
+      - link " Media Library" [ref=e33] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/media
+        - generic [ref=e34]: 
+        - text: Media Library
+      - generic [ref=e35]: Shop
+      - link " Products" [ref=e36] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/products
+        - generic [ref=e37]: 
+        - text: Products
+      - link " Orders" [ref=e38] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/orders
+        - generic [ref=e39]: 
+        - text: Orders
+      - link " Inventory" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/inventory
+        - generic [ref=e41]: 
+        - text: Inventory
+      - link " Coupons" [ref=e42] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/coupons
+        - generic [ref=e43]: 
+        - text: Coupons
+      - link " Reports" [ref=e44] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/reports/sales
+        - generic [ref=e45]: 
+        - text: Reports
+      - generic [ref=e46]: System
+      - link " Weather Data" [ref=e47] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/weather-data
+        - generic [ref=e48]: 
+        - text: Weather Data
+      - link " Alert Rules" [ref=e49] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/weather-alert-rules
+        - generic [ref=e50]: 
+        - text: Alert Rules
+      - link " Queue & Cron Health" [ref=e51] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/dashboard/queue-health
+        - generic [ref=e52]: 
+        - text: Queue & Cron Health
+      - link " Activity Logs" [ref=e53] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/activity-logs
+        - generic [ref=e54]: 
+        - text: Activity Logs
+      - link " Send Notification" [ref=e55] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/notifications/send
+        - generic [ref=e56]: 
+        - text: Send Notification
+      - link " Waitlist" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/waitlist
+        - generic [ref=e58]: 
+        - text: Waitlist
+      - link " Newsletter Subscribers" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/newsletter-subscribers
+        - generic [ref=e60]: 
+        - text: Newsletter Subscribers
+      - link " Roles & Permissions" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/roles
+        - generic [ref=e62]: 
+        - text: Roles & Permissions
+    - generic [ref=e63]:
+      - generic [ref=e64]: T
+      - generic [ref=e65]:
+        - generic [ref=e66]: Tarun Chauhan
+        - generic [ref=e67]: Administrator
+  - generic [ref=e68]:
+    - banner [ref=e69]:
+      - button "" [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]: 
+      - generic [ref=e72]:
+        - generic: 
+        - textbox "Search anything..." [ref=e73]
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - button "" [ref=e76] [cursor=pointer]:
+            - generic [ref=e77]: 
+          - text:   
+        - generic [ref=e79]:
+          - button "T Tarun Chauhan " [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]: T
+            - generic [ref=e82]: Tarun Chauhan
+            - generic [ref=e83]: 
+          - text:   
+    - main [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - heading "MM-106" [level=4] [ref=e87]
+          - navigation "breadcrumb" [ref=e88]:
+            - list [ref=e89]:
+              - listitem [ref=e90]:
+                - link "Home" [ref=e91] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8001/admin/dashboard
+              - listitem [ref=e92]:
+                - text: /
+                - link "Rootstocks" [ref=e93] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8001/admin/rootstocks
+              - listitem [ref=e94]: / MM-106
+        - generic [ref=e95]:
+          - link " Edit" [ref=e96] [cursor=pointer]:
+            - /url: http://127.0.0.1:8001/admin/rootstocks/1/edit
+            - generic [ref=e97]: 
+            - text: Edit
+          - button " Unpublish" [ref=e99] [cursor=pointer]:
+            - generic [ref=e100]: 
+            - text: Unpublish
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e106]:
+              - generic [ref=e107]: 
+              - text: Rootstock Information
+            - generic [ref=e109]:
+              - generic [ref=e112]: 
+              - generic [ref=e113]:
+                - heading "MM-106 " [level=4] [ref=e114]:
+                  - text: MM-106
+                  - generic [ref=e115]: 
+                - paragraph [ref=e116]: Malling-Merton 106
+                - paragraph [ref=e117]: एमएम-106
+                - generic [ref=e118]:
+                  - generic [ref=e119]: Semi-Vigorous (75%)
+                  - generic [ref=e120]:
+                    - generic [ref=e121]: 
+                    - text: HP Recommended
+                  - generic [ref=e122]: Published
+                - generic [ref=e123]:
+                  - heading "Description" [level=6] [ref=e124]
+                  - paragraph [ref=e125]: MM-106 is a widely used semi-vigorous rootstock in Himachal Pradesh. It offers good woolly aphid resistance but is highly susceptible to collar rot. Best suited for well-drained soils.
+          - generic [ref=e126]:
+            - generic [ref=e128]:
+              - generic [ref=e129]: 
+              - text: Planting Information
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - generic [ref=e133]:
+                  - generic [ref=e134]: Spacing
+                  - generic [ref=e135]: 4.5m × 2.0m
+                - generic [ref=e137]:
+                  - generic [ref=e138]: Tree Density
+                  - generic [ref=e139]: 800 - 1100 trees/ha
+                - generic [ref=e141]:
+                  - generic [ref=e142]: Years to First Crop
+                  - generic [ref=e143]: "3"
+                - generic [ref=e145]:
+                  - generic [ref=e146]: Productive Life
+                  - generic [ref=e147]: 20 years
+                - generic [ref=e149]:
+                  - generic [ref=e150]: Anchorage
+                  - generic [ref=e151]: Good
+                - generic [ref=e153]:
+                  - generic [ref=e154]: Cold Hardiness
+                  - generic [ref=e155]: 1500 ft
+              - generic [ref=e156]:
+                - generic [ref=e158]:
+                  - checkbox [disabled]
+                  - generic [ref=e159]: Needs Staking
+                - generic [ref=e161]:
+                  - checkbox [disabled]
+                  - generic [ref=e162]: Needs Irrigation
+                - generic [ref=e163]: "Min Soil Depth: 60 cm"
+                - generic [ref=e164]: "Soil pH: 6.0 - 7.5"
+              - generic [ref=e165]:
+                - heading "Planting Notes" [level=6] [ref=e166]
+                - paragraph [ref=e167]: Plant in well-drained soils. Avoid waterlogged areas. Suitable for medium-density orchards.
+          - generic [ref=e168]:
+            - generic [ref=e170]:
+              - generic [ref=e171]: 
+              - text: Disease Resistance (0-10 scale)
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - generic [ref=e175]:
+                  - generic [ref=e176]: Collar Rot
+                  - generic [ref=e177]: 2/10
+                - generic [ref=e179]:
+                  - generic [ref=e180]: Woolly Aphid
+                  - generic [ref=e181]: 9/10
+                - generic [ref=e183]:
+                  - generic [ref=e184]: Replant Disease
+                  - generic [ref=e185]: 6/10
+                - generic [ref=e187]:
+                  - generic [ref=e188]: Fire Blight
+                  - generic [ref=e189]: 5/10
+              - generic [ref=e190]:
+                - generic [ref=e191]: 
+                - strong [ref=e192]: "Collar Rot Warning:"
+                - text: Highly susceptible to collar rot. Do not plant in heavy or waterlogged soils.
+        - generic [ref=e193]:
+          - generic [ref=e194]:
+            - generic [ref=e196]:
+              - generic [ref=e197]: 
+              - text: Origin & Details
+            - list [ref=e199]:
+              - listitem [ref=e200]:
+                - generic [ref=e201]: Developed By
+                - generic [ref=e202]: East Malling Research Station, UK
+              - listitem [ref=e203]:
+                - generic [ref=e204]: Developed Year
+                - generic [ref=e205]: "1952"
+              - listitem [ref=e206]:
+                - generic [ref=e207]: Parentage
+                - generic [ref=e208]: M.1 × (Northern Spy × Red Astrachan)
+              - listitem [ref=e209]:
+                - generic [ref=e210]: Views
+                - generic [ref=e211]: "0"
+              - listitem [ref=e212]:
+                - generic [ref=e213]: Rating
+                - generic [ref=e214]: 4.2 / 5
+              - listitem [ref=e215]:
+                - generic [ref=e216]: Created
+                - generic [ref=e217]: Jun 17, 2026
+          - generic [ref=e218]:
+            - generic [ref=e220]:
+              - generic [ref=e221]: 
+              - text: Associated Fruits
+            - link "Apple" [ref=e224] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/admin/fruits/1
+          - generic [ref=e225]:
+            - generic [ref=e227]:
+              - generic [ref=e228]: 
+              - text: Actions
+            - generic [ref=e230]:
+              - link " Edit Rootstock" [ref=e231] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/admin/rootstocks/1/edit
+                - generic [ref=e232]: 
+                - text: Edit Rootstock
+              - button " Remove from Featured" [ref=e234] [cursor=pointer]:
+                - generic [ref=e235]: 
+                - text: Remove from Featured
+              - button " Archive Rootstock" [ref=e237] [cursor=pointer]:
+                - generic [ref=e238]: 
+                - text: Archive Rootstock
+    - contentinfo [ref=e239]:
+      - generic [ref=e240]: © 2026 Baagvaani. All rights reserved.
+      - generic [ref=e241]:
+        - text: Powered by
+        - strong [ref=e242]: Laravel 12.58.0
+        - text: "& Bootstrap 5"

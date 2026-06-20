@@ -1,0 +1,441 @@
+- generic [active] [ref=e1]:
+  - complementary [ref=e2]:
+    - link " Baagicha · Admin" [ref=e3] [cursor=pointer]:
+      - /url: http://127.0.0.1:8001/admin/dashboard
+      - generic [ref=e4]: 
+      - generic [ref=e5]: Baagicha · Admin
+    - navigation [ref=e6]:
+      - generic [ref=e7]: Main
+      - link " Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/dashboard
+        - generic [ref=e9]: 
+        - text: Dashboard
+      - link " Users" [ref=e10] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/users
+        - generic [ref=e11]: 
+        - text: Users
+      - generic [ref=e12]: Content
+      - link " Disease Library" [ref=e13] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/diseases
+        - generic [ref=e14]: 
+        - text: Disease Library
+      - link " Fruits" [ref=e15] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/fruits
+        - generic [ref=e16]: 
+        - text: Fruits
+      - link " Apple Varieties" [ref=e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/varieties
+        - generic [ref=e18]: 
+        - text: Apple Varieties
+      - link " Rootstocks" [ref=e19] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/rootstocks
+        - generic [ref=e20]: 
+        - text: Rootstocks
+      - link " Chemicals" [ref=e21] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/chemicals
+        - generic [ref=e22]: 
+        - text: Chemicals
+      - link " Spray Schedule" [ref=e23] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/spray
+        - generic [ref=e24]: 
+        - text: Spray Schedule
+      - link " Blog Posts" [ref=e25] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog/posts
+        - generic [ref=e26]: 
+        - text: Blog Posts
+      - link " Blog Categories" [ref=e27] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog-categories
+        - generic [ref=e28]: 
+        - text: Blog Categories
+      - link " Blog Tags" [ref=e29] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog-tags
+        - generic [ref=e30]: 
+        - text: Blog Tags
+      - link " Comments" [ref=e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/comments
+        - generic [ref=e32]: 
+        - text: Comments
+      - link " Media Library" [ref=e33] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/media
+        - generic [ref=e34]: 
+        - text: Media Library
+      - generic [ref=e35]: Shop
+      - link " Products" [ref=e36] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/products
+        - generic [ref=e37]: 
+        - text: Products
+      - link " Orders" [ref=e38] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/orders
+        - generic [ref=e39]: 
+        - text: Orders
+      - link " Inventory" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/inventory
+        - generic [ref=e41]: 
+        - text: Inventory
+      - link " Coupons" [ref=e42] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/coupons
+        - generic [ref=e43]: 
+        - text: Coupons
+      - link " Reports" [ref=e44] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/reports/sales
+        - generic [ref=e45]: 
+        - text: Reports
+      - generic [ref=e46]: System
+      - link " Weather Data" [ref=e47] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/weather-data
+        - generic [ref=e48]: 
+        - text: Weather Data
+      - link " Alert Rules" [ref=e49] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/weather-alert-rules
+        - generic [ref=e50]: 
+        - text: Alert Rules
+      - link " Queue & Cron Health" [ref=e51] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/dashboard/queue-health
+        - generic [ref=e52]: 
+        - text: Queue & Cron Health
+      - link " Activity Logs" [ref=e53] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/activity-logs
+        - generic [ref=e54]: 
+        - text: Activity Logs
+      - link " Send Notification" [ref=e55] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/notifications/send
+        - generic [ref=e56]: 
+        - text: Send Notification
+      - link " Waitlist" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/waitlist
+        - generic [ref=e58]: 
+        - text: Waitlist
+      - link " Newsletter Subscribers" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/newsletter-subscribers
+        - generic [ref=e60]: 
+        - text: Newsletter Subscribers
+      - link " Roles & Permissions" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/roles
+        - generic [ref=e62]: 
+        - text: Roles & Permissions
+    - generic [ref=e63]:
+      - generic [ref=e64]: T
+      - generic [ref=e65]:
+        - generic [ref=e66]: Tarun Chauhan
+        - generic [ref=e67]: Administrator
+  - generic [ref=e68]:
+    - banner [ref=e69]:
+      - button "" [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]: 
+      - generic [ref=e72]:
+        - generic: 
+        - textbox "Search anything..." [ref=e73]
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - button "" [ref=e76] [cursor=pointer]:
+            - generic [ref=e77]: 
+          - text:   
+        - generic [ref=e79]:
+          - button "T Tarun Chauhan " [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]: T
+            - generic [ref=e82]: Tarun Chauhan
+            - generic [ref=e83]: 
+          - text:   
+    - main [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - heading "Fruits" [level=4] [ref=e87]
+          - navigation "breadcrumb" [ref=e88]:
+            - list [ref=e89]:
+              - listitem [ref=e90]:
+                - link "Home" [ref=e91] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8001/admin/dashboard
+              - listitem [ref=e92]: / Fruits
+        - link " Add Fruit" [ref=e94] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/admin/fruits/create
+          - generic [ref=e95]: 
+          - text: Add Fruit
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e100]:
+            - generic [ref=e102]: 
+            - generic [ref=e103]:
+              - generic [ref=e104]: Total Fruits
+              - generic [ref=e105]: "9"
+          - generic [ref=e108]:
+            - generic [ref=e110]: 
+            - generic [ref=e111]:
+              - generic [ref=e112]: Published
+              - generic [ref=e113]: "8"
+          - generic [ref=e116]:
+            - generic [ref=e118]: 
+            - generic [ref=e119]:
+              - generic [ref=e120]: Featured
+              - generic [ref=e121]: "1"
+          - generic [ref=e124]:
+            - generic [ref=e126]: 
+            - generic [ref=e127]:
+              - generic [ref=e128]: Archived
+              - generic [ref=e129]: "0"
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - generic [ref=e134]: Search
+            - textbox "Fruit name..." [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Status
+            - combobox [ref=e138]:
+              - option "All Status" [selected]
+              - option "Published"
+              - option "Draft"
+              - option "Archived"
+          - button " Filter" [ref=e140] [cursor=pointer]:
+            - generic [ref=e141]: 
+            - text: Filter
+          - link " Clear" [ref=e143] [cursor=pointer]:
+            - /url: http://127.0.0.1:8001/admin/fruits
+            - generic [ref=e144]: 
+            - text: Clear
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - generic [ref=e148]: 
+              - text: Fruits
+            - generic [ref=e149]: 9 fruits
+          - table [ref=e151]:
+            - rowgroup [ref=e152]:
+              - row "Fruit Varieties Diseases Rootstocks Published Actions" [ref=e153]:
+                - columnheader "Fruit" [ref=e154]
+                - columnheader "Varieties" [ref=e155]
+                - columnheader "Diseases" [ref=e156]
+                - columnheader "Rootstocks" [ref=e157]
+                - columnheader "Published" [ref=e158]
+                - columnheader "Actions" [ref=e159]
+            - rowgroup [ref=e160]:
+              - row " Test Fruit Browser टेस्ट फल Testus fructus 0 0 0 Draft" [ref=e161]:
+                - cell " Test Fruit Browser टेस्ट फल Testus fructus" [ref=e162]:
+                  - generic [ref=e163]:
+                    - generic [ref=e165]: 
+                    - generic [ref=e166]:
+                      - strong [ref=e168]: Test Fruit Browser
+                      - generic [ref=e169]: टेस्ट फल
+                      - generic [ref=e170]: Testus fructus
+                - cell "0" [ref=e171]
+                - cell "0" [ref=e172]
+                - cell "0" [ref=e173]
+                - cell "Draft" [ref=e174]:
+                  - generic [ref=e175]:
+                    - generic [ref=e176]: Draft
+                    - switch [ref=e179]
+                - cell [ref=e180]:
+                  - group [ref=e181]:
+                    - link "" [ref=e182] [cursor=pointer]:
+                      - /url: /admin/fruits/9
+                      - generic [ref=e183]: 
+                    - link "" [ref=e184] [cursor=pointer]:
+                      - /url: /admin/fruits/9/edit
+                      - generic [ref=e185]: 
+                    - button "" [ref=e187] [cursor=pointer]:
+                      - generic [ref=e188]: 
+              - row " Apple  सेब Malus domestica 47 42 20 Published" [ref=e189]:
+                - cell " Apple  सेब Malus domestica" [ref=e190]:
+                  - generic [ref=e191]:
+                    - generic [ref=e193]: 
+                    - generic [ref=e194]:
+                      - generic [ref=e195]:
+                        - strong [ref=e196]: Apple
+                        - generic [ref=e197]: 
+                      - generic [ref=e198]: सेब
+                      - generic [ref=e199]: Malus domestica
+                - cell "47" [ref=e200]
+                - cell "42" [ref=e201]
+                - cell "20" [ref=e202]
+                - cell "Published" [ref=e203]:
+                  - generic [ref=e204]:
+                    - generic [ref=e205]: Published
+                    - switch [checked] [ref=e208]
+                - cell [ref=e209]:
+                  - group [ref=e210]:
+                    - link "" [ref=e211] [cursor=pointer]:
+                      - /url: /admin/fruits/1
+                      - generic [ref=e212]: 
+                    - link "" [ref=e213] [cursor=pointer]:
+                      - /url: /admin/fruits/1/edit
+                      - generic [ref=e214]: 
+                    - button "" [ref=e216] [cursor=pointer]:
+                      - generic [ref=e217]: 
+              - row " Pear नाशपाती Pyrus communis 0 0 0 Published" [ref=e218]:
+                - cell " Pear नाशपाती Pyrus communis" [ref=e219]:
+                  - generic [ref=e220]:
+                    - generic [ref=e222]: 
+                    - generic [ref=e223]:
+                      - strong [ref=e225]: Pear
+                      - generic [ref=e226]: नाशपाती
+                      - generic [ref=e227]: Pyrus communis
+                - cell "0" [ref=e228]
+                - cell "0" [ref=e229]
+                - cell "0" [ref=e230]
+                - cell "Published" [ref=e231]:
+                  - generic [ref=e232]:
+                    - generic [ref=e233]: Published
+                    - switch [checked] [ref=e236]
+                - cell [ref=e237]:
+                  - group [ref=e238]:
+                    - link "" [ref=e239] [cursor=pointer]:
+                      - /url: /admin/fruits/2
+                      - generic [ref=e240]: 
+                    - link "" [ref=e241] [cursor=pointer]:
+                      - /url: /admin/fruits/2/edit
+                      - generic [ref=e242]: 
+                    - button "" [ref=e244] [cursor=pointer]:
+                      - generic [ref=e245]: 
+              - row " Plum आलूबुखारा Prunus domestica 0 0 0 Published" [ref=e246]:
+                - cell " Plum आलूबुखारा Prunus domestica" [ref=e247]:
+                  - generic [ref=e248]:
+                    - generic [ref=e250]: 
+                    - generic [ref=e251]:
+                      - strong [ref=e253]: Plum
+                      - generic [ref=e254]: आलूबुखारा
+                      - generic [ref=e255]: Prunus domestica
+                - cell "0" [ref=e256]
+                - cell "0" [ref=e257]
+                - cell "0" [ref=e258]
+                - cell "Published" [ref=e259]:
+                  - generic [ref=e260]:
+                    - generic [ref=e261]: Published
+                    - switch [checked] [ref=e264]
+                - cell [ref=e265]:
+                  - group [ref=e266]:
+                    - link "" [ref=e267] [cursor=pointer]:
+                      - /url: /admin/fruits/3
+                      - generic [ref=e268]: 
+                    - link "" [ref=e269] [cursor=pointer]:
+                      - /url: /admin/fruits/3/edit
+                      - generic [ref=e270]: 
+                    - button "" [ref=e272] [cursor=pointer]:
+                      - generic [ref=e273]: 
+              - row " Peach आड़ू Prunus persica 0 0 0 Published" [ref=e274]:
+                - cell " Peach आड़ू Prunus persica" [ref=e275]:
+                  - generic [ref=e276]:
+                    - generic [ref=e278]: 
+                    - generic [ref=e279]:
+                      - strong [ref=e281]: Peach
+                      - generic [ref=e282]: आड़ू
+                      - generic [ref=e283]: Prunus persica
+                - cell "0" [ref=e284]
+                - cell "0" [ref=e285]
+                - cell "0" [ref=e286]
+                - cell "Published" [ref=e287]:
+                  - generic [ref=e288]:
+                    - generic [ref=e289]: Published
+                    - switch [checked] [ref=e292]
+                - cell [ref=e293]:
+                  - group [ref=e294]:
+                    - link "" [ref=e295] [cursor=pointer]:
+                      - /url: /admin/fruits/4
+                      - generic [ref=e296]: 
+                    - link "" [ref=e297] [cursor=pointer]:
+                      - /url: /admin/fruits/4/edit
+                      - generic [ref=e298]: 
+                    - button "" [ref=e300] [cursor=pointer]:
+                      - generic [ref=e301]: 
+              - row " Apricot खुबानी Prunus armeniaca 0 0 0 Published" [ref=e302]:
+                - cell " Apricot खुबानी Prunus armeniaca" [ref=e303]:
+                  - generic [ref=e304]:
+                    - generic [ref=e306]: 
+                    - generic [ref=e307]:
+                      - strong [ref=e309]: Apricot
+                      - generic [ref=e310]: खुबानी
+                      - generic [ref=e311]: Prunus armeniaca
+                - cell "0" [ref=e312]
+                - cell "0" [ref=e313]
+                - cell "0" [ref=e314]
+                - cell "Published" [ref=e315]:
+                  - generic [ref=e316]:
+                    - generic [ref=e317]: Published
+                    - switch [checked] [ref=e320]
+                - cell [ref=e321]:
+                  - group [ref=e322]:
+                    - link "" [ref=e323] [cursor=pointer]:
+                      - /url: /admin/fruits/5
+                      - generic [ref=e324]: 
+                    - link "" [ref=e325] [cursor=pointer]:
+                      - /url: /admin/fruits/5/edit
+                      - generic [ref=e326]: 
+                    - button "" [ref=e328] [cursor=pointer]:
+                      - generic [ref=e329]: 
+              - row " Cherry चेरी Prunus avium 0 0 0 Published" [ref=e330]:
+                - cell " Cherry चेरी Prunus avium" [ref=e331]:
+                  - generic [ref=e332]:
+                    - generic [ref=e334]: 
+                    - generic [ref=e335]:
+                      - strong [ref=e337]: Cherry
+                      - generic [ref=e338]: चेरी
+                      - generic [ref=e339]: Prunus avium
+                - cell "0" [ref=e340]
+                - cell "0" [ref=e341]
+                - cell "0" [ref=e342]
+                - cell "Published" [ref=e343]:
+                  - generic [ref=e344]:
+                    - generic [ref=e345]: Published
+                    - switch [checked] [ref=e348]
+                - cell [ref=e349]:
+                  - group [ref=e350]:
+                    - link "" [ref=e351] [cursor=pointer]:
+                      - /url: /admin/fruits/6
+                      - generic [ref=e352]: 
+                    - link "" [ref=e353] [cursor=pointer]:
+                      - /url: /admin/fruits/6/edit
+                      - generic [ref=e354]: 
+                    - button "" [ref=e356] [cursor=pointer]:
+                      - generic [ref=e357]: 
+              - row " Persimmon तेंदू फल Diospyros kaki 0 0 0 Published" [ref=e358]:
+                - cell " Persimmon तेंदू फल Diospyros kaki" [ref=e359]:
+                  - generic [ref=e360]:
+                    - generic [ref=e362]: 
+                    - generic [ref=e363]:
+                      - strong [ref=e365]: Persimmon
+                      - generic [ref=e366]: तेंदू फल
+                      - generic [ref=e367]: Diospyros kaki
+                - cell "0" [ref=e368]
+                - cell "0" [ref=e369]
+                - cell "0" [ref=e370]
+                - cell "Published" [ref=e371]:
+                  - generic [ref=e372]:
+                    - generic [ref=e373]: Published
+                    - switch [checked] [ref=e376]
+                - cell [ref=e377]:
+                  - group [ref=e378]:
+                    - link "" [ref=e379] [cursor=pointer]:
+                      - /url: /admin/fruits/7
+                      - generic [ref=e380]: 
+                    - link "" [ref=e381] [cursor=pointer]:
+                      - /url: /admin/fruits/7/edit
+                      - generic [ref=e382]: 
+                    - button "" [ref=e384] [cursor=pointer]:
+                      - generic [ref=e385]: 
+              - row " Pomegranate अनार Punica granatum 0 0 0 Published" [ref=e386]:
+                - cell " Pomegranate अनार Punica granatum" [ref=e387]:
+                  - generic [ref=e388]:
+                    - generic [ref=e390]: 
+                    - generic [ref=e391]:
+                      - strong [ref=e393]: Pomegranate
+                      - generic [ref=e394]: अनार
+                      - generic [ref=e395]: Punica granatum
+                - cell "0" [ref=e396]
+                - cell "0" [ref=e397]
+                - cell "0" [ref=e398]
+                - cell "Published" [ref=e399]:
+                  - generic [ref=e400]:
+                    - generic [ref=e401]: Published
+                    - switch [checked] [ref=e404]
+                - cell [ref=e405]:
+                  - group [ref=e406]:
+                    - link "" [ref=e407] [cursor=pointer]:
+                      - /url: /admin/fruits/8
+                      - generic [ref=e408]: 
+                    - link "" [ref=e409] [cursor=pointer]:
+                      - /url: /admin/fruits/8/edit
+                      - generic [ref=e410]: 
+                    - button "" [ref=e412] [cursor=pointer]:
+                      - generic [ref=e413]: 
+    - contentinfo [ref=e414]:
+      - generic [ref=e415]: © 2026 Baagvaani. All rights reserved.
+      - generic [ref=e416]:
+        - text: Powered by
+        - strong [ref=e417]: Laravel 12.58.0
+        - text: "& Bootstrap 5"

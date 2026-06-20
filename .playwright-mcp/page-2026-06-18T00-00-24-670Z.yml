@@ -1,0 +1,280 @@
+- generic [active] [ref=e1]:
+  - complementary [ref=e2]:
+    - link " Baagicha · Admin" [ref=e3] [cursor=pointer]:
+      - /url: http://127.0.0.1:8001/admin/dashboard
+      - generic [ref=e4]: 
+      - generic [ref=e5]: Baagicha · Admin
+    - navigation [ref=e6]:
+      - generic [ref=e7]: Main
+      - link " Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/dashboard
+        - generic [ref=e9]: 
+        - text: Dashboard
+      - link " Users" [ref=e10] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/users
+        - generic [ref=e11]: 
+        - text: Users
+      - generic [ref=e12]: Content
+      - link " Disease Library" [ref=e13] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/diseases
+        - generic [ref=e14]: 
+        - text: Disease Library
+      - link " Fruits" [ref=e15] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/fruits
+        - generic [ref=e16]: 
+        - text: Fruits
+      - link " Apple Varieties" [ref=e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/varieties
+        - generic [ref=e18]: 
+        - text: Apple Varieties
+      - link " Rootstocks" [ref=e19] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/rootstocks
+        - generic [ref=e20]: 
+        - text: Rootstocks
+      - link " Chemicals" [ref=e21] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/chemicals
+        - generic [ref=e22]: 
+        - text: Chemicals
+      - link " Spray Schedule" [ref=e23] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/spray
+        - generic [ref=e24]: 
+        - text: Spray Schedule
+      - link " Blog Posts" [ref=e25] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog/posts
+        - generic [ref=e26]: 
+        - text: Blog Posts
+      - link " Blog Categories" [ref=e27] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog-categories
+        - generic [ref=e28]: 
+        - text: Blog Categories
+      - link " Blog Tags" [ref=e29] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog-tags
+        - generic [ref=e30]: 
+        - text: Blog Tags
+      - link " Comments" [ref=e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/comments
+        - generic [ref=e32]: 
+        - text: Comments
+      - link " Media Library" [ref=e33] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/media
+        - generic [ref=e34]: 
+        - text: Media Library
+      - generic [ref=e35]: Shop
+      - link " Products" [ref=e36] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/products
+        - generic [ref=e37]: 
+        - text: Products
+      - link " Orders" [ref=e38] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/orders
+        - generic [ref=e39]: 
+        - text: Orders
+      - link " Inventory" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/inventory
+        - generic [ref=e41]: 
+        - text: Inventory
+      - link " Coupons" [ref=e42] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/coupons
+        - generic [ref=e43]: 
+        - text: Coupons
+      - link " Reports" [ref=e44] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/reports/sales
+        - generic [ref=e45]: 
+        - text: Reports
+      - generic [ref=e46]: System
+      - link " Weather Data" [ref=e47] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/weather-data
+        - generic [ref=e48]: 
+        - text: Weather Data
+      - link " Alert Rules" [ref=e49] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/weather-alert-rules
+        - generic [ref=e50]: 
+        - text: Alert Rules
+      - link " Queue & Cron Health" [ref=e51] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/dashboard/queue-health
+        - generic [ref=e52]: 
+        - text: Queue & Cron Health
+      - link " Activity Logs" [ref=e53] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/activity-logs
+        - generic [ref=e54]: 
+        - text: Activity Logs
+      - link " Send Notification" [ref=e55] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/notifications/send
+        - generic [ref=e56]: 
+        - text: Send Notification
+      - link " Waitlist" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/waitlist
+        - generic [ref=e58]: 
+        - text: Waitlist
+      - link " Newsletter Subscribers" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/newsletter-subscribers
+        - generic [ref=e60]: 
+        - text: Newsletter Subscribers
+      - link " Roles & Permissions" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/roles
+        - generic [ref=e62]: 
+        - text: Roles & Permissions
+    - generic [ref=e63]:
+      - generic [ref=e64]: T
+      - generic [ref=e65]:
+        - generic [ref=e66]: Tarun Chauhan
+        - generic [ref=e67]: Administrator
+  - generic [ref=e68]:
+    - banner [ref=e69]:
+      - button "" [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]: 
+      - generic [ref=e72]:
+        - generic: 
+        - textbox "Search anything..." [ref=e73]
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - button "" [ref=e76] [cursor=pointer]:
+            - generic [ref=e77]: 
+          - text:   
+        - generic [ref=e79]:
+          - button "T Tarun Chauhan " [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]: T
+            - generic [ref=e82]: Tarun Chauhan
+            - generic [ref=e83]: 
+          - text:   
+    - main [ref=e84]:
+      - generic [ref=e85]:
+        - navigation "breadcrumb" [ref=e86]:
+          - list [ref=e87]:
+            - listitem [ref=e88]:
+              - link "Disease Library" [ref=e89] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/admin/diseases
+            - listitem [ref=e90]: / San Jose Scale
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - heading "San Jose Scale" [level=1] [ref=e93]
+            - paragraph [ref=e94]: सैन होसे स्केल
+            - generic [ref=e95]:
+              - generic [ref=e96]: Pest
+              - generic [ref=e97]: High
+              - generic [ref=e98]: Published
+          - generic [ref=e99]:
+            - group [ref=e100]:
+              - link " Edit" [ref=e101] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/admin/diseases/44/edit
+                - generic [ref=e102]: 
+                - text: Edit
+              - link " View Public" [ref=e103] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/diseases/san-jose-scale
+                - generic [ref=e104]: 
+                - text: View Public
+            - button " Delete" [ref=e106] [cursor=pointer]:
+              - generic [ref=e107]: 
+              - text: Delete
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - img "San Jose Scale" [ref=e112]
+            - generic [ref=e113]:
+              - heading " Identification" [level=5] [ref=e115]:
+                - generic [ref=e116]: 
+                - text: Identification
+              - generic [ref=e118]:
+                - term [ref=e119]: "English Name:"
+                - definition [ref=e120]: San Jose Scale
+                - term [ref=e121]: "Hindi Name:"
+                - definition [ref=e122]: सैन होसे स्केल
+                - term [ref=e123]: "Scientific Name:"
+                - definition [ref=e124]:
+                  - emphasis [ref=e125]: Diaspidiotus perniciosus
+                - term [ref=e126]: "Slug:"
+                - definition [ref=e127]:
+                  - code [ref=e128]: san-jose-scale
+                - term [ref=e129]: "Category:"
+                - definition [ref=e130]: Pest
+            - generic [ref=e131]:
+              - heading " Severity & Impact" [level=5] [ref=e133]:
+                - generic [ref=e134]: 
+                - text: Severity & Impact
+              - generic [ref=e136]:
+                - term [ref=e137]: "Severity:"
+                - definition [ref=e138]:
+                  - generic [ref=e139]: High
+                - term [ref=e140]: "Yield Loss:"
+                - definition [ref=e141]: 20% - 50%
+                - term [ref=e142]: "Loss Notes:"
+                - definition [ref=e143]: "{\"en\":\"Weakens trees and causes fruit spotting\",\"hi\":\"\\u092a\\u0947\\u0921\\u093c\\u094b\\u0902 \\u0915\\u094b \\u0915\\u092e\\u091c\\u094b\\u0930 \\u0915\\u0930\\u0924\\u093e \\u0939\\u0948 \\u0914\\u0930 \\u092b\\u0932\\u094b\\u0902 \\u092a\\u0930 \\u0927\\u092c\\u094d\\u092c\\u0947 \\u092a\\u0948\\u0926\\u093e \\u0915\\u0930\\u0924\\u093e \\u0939\\u0948\"}"
+            - generic [ref=e144]:
+              - heading " Season & Risk Factors" [level=5] [ref=e146]:
+                - generic [ref=e147]: 
+                - text: Season & Risk Factors
+              - generic [ref=e149]:
+                - term [ref=e150]: "Season Start:"
+                - definition [ref=e151]: Bud Break
+                - term [ref=e152]: "Season End:"
+                - definition [ref=e153]: Late Summer
+                - term [ref=e154]: "Min Temperature:"
+                - definition [ref=e155]: 10°C
+                - term [ref=e156]: "Max Temperature:"
+                - definition [ref=e157]: 30°C
+                - term [ref=e158]: "Optimal Humidity:"
+                - definition [ref=e159]: 50%
+                - term [ref=e160]: "Spreads Via:"
+                - definition [ref=e161]: "[\"wind\",\"nursery stock\",\"birds\",\"human activity\"]"
+            - generic [ref=e162]:
+              - heading " Altitude & Geography" [level=5] [ref=e164]:
+                - generic [ref=e165]: 
+                - text: Altitude & Geography
+              - generic [ref=e167]:
+                - term [ref=e168]: "Min Altitude:"
+                - definition [ref=e169]: 1,500 ft
+                - term [ref=e170]: "Max Altitude:"
+                - definition [ref=e171]: 9,000 ft
+                - term [ref=e172]: "HP Common:"
+                - definition [ref=e173]:
+                  - generic [ref=e174]: "Yes"
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - heading "Publishing" [level=5] [ref=e178]
+              - generic [ref=e180]:
+                - term [ref=e181]: "Status:"
+                - definition [ref=e182]:
+                  - generic [ref=e183]: Published
+                - term [ref=e184]: "Views:"
+                - definition [ref=e185]: "500"
+            - heading " SEO Information" [level=5] [ref=e188]:
+              - generic [ref=e189]: 
+              - text: SEO Information
+            - generic [ref=e191]:
+              - heading " Audit Trail" [level=5] [ref=e193]:
+                - generic [ref=e194]: 
+                - text: Audit Trail
+              - generic [ref=e196]:
+                - term [ref=e197]: "Created:"
+                - definition [ref=e198]: Jun 17, 2026 22:19
+                - term [ref=e199]: "By:"
+                - definition [ref=e200]: System
+                - term [ref=e201]: "Reviewed:"
+                - definition [ref=e202]: —
+                - term [ref=e203]: "Updated:"
+                - definition [ref=e204]: Jun 17, 2026 22:19
+            - generic [ref=e205]:
+              - heading " Associated Fruits" [level=5] [ref=e207]:
+                - generic [ref=e208]: 
+                - text: Associated Fruits
+              - link "Apple" [ref=e211] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/admin/fruits/1
+            - generic [ref=e212]:
+              - heading "Actions" [level=5] [ref=e214]
+              - generic [ref=e215]:
+                - link " Edit Disease" [ref=e216] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8001/admin/diseases/44/edit
+                  - generic [ref=e217]: 
+                  - text: Edit Disease
+                - link " View Public Page" [ref=e218] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8001/diseases/san-jose-scale
+                  - generic [ref=e219]: 
+                  - text: View Public Page
+                - link " Back to List" [ref=e220] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8001/admin/diseases
+                  - generic [ref=e221]: 
+                  - text: Back to List
+    - contentinfo [ref=e222]:
+      - generic [ref=e223]: © 2026 Baagvaani. All rights reserved.
+      - generic [ref=e224]:
+        - text: Powered by
+        - strong [ref=e225]: Laravel 12.58.0
+        - text: "& Bootstrap 5"

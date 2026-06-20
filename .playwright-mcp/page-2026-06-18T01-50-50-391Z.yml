@@ -1,0 +1,457 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - generic [ref=e8]: Baagvaani
+      - navigation "Main navigation" [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - link "Fruits" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fruits
+        - link "Varieties" [ref=e12] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/varieties
+        - link "Blog" [ref=e13] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+        - link "About" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/about
+      - generic [ref=e15]:
+        - group "Language" [ref=e16]:
+          - button "EN" [ref=e17]
+          - button "HI" [active] [ref=e18]
+        - button "T Tarun Chauhan" [ref=e21]:
+          - generic [ref=e22]: T
+          - generic [ref=e23]: Tarun Chauhan
+          - img [ref=e24]
+  - main [ref=e26]:
+    - article [ref=e27]:
+      - region "Apple" [ref=e28]:
+        - generic [ref=e32]:
+          - link "Fruits" [ref=e34] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/fruits
+            - img [ref=e35]
+            - text: Fruits
+          - paragraph [ref=e389]: सेब
+          - heading "Apple" [level=1] [ref=e37]
+          - paragraph [ref=e38]:
+            - emphasis [ref=e39]: Malus domestica
+          - paragraph [ref=e40]: The king of Himalayan orchards. Apple is the primary commercial fruit across Himachal Pradesh, Uttarakhand and Jammu & Kashmir.
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - region "About Apple" [ref=e44]:
+            - heading "About Apple" [level=2] [ref=e45]
+            - paragraph [ref=e390]: हिमालयी बागों का राजा। सेब हimachal प्रदेश, उत्तराखंड और जम्मू-कश्मीर में प्रमुख व्यावसायिक फल है।
+          - region "Apple Varieties" [ref=e48]:
+            - generic [ref=e49]:
+              - heading "Apple Varieties" [level=2] [ref=e50]
+              - link "View all →" [ref=e51] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/by-fruit/apple
+            - generic [ref=e52]:
+              - link "Adams Spur Adams Spur एडम्स स्पर" [ref=e391] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/adams-spur
+                - img "Adams Spur" [ref=e55]
+                - generic [ref=e56]:
+                  - heading "Adams Spur" [level=3] [ref=e57]
+                  - paragraph [ref=e392]: एडम्स स्पर
+              - link "Anna Anna अन्ना" [ref=e393] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/anna
+                - img "Anna" [ref=e60]
+                - generic [ref=e61]:
+                  - heading "Anna" [level=3] [ref=e62]
+                  - paragraph [ref=e394]: अन्ना
+              - link "Brookfield Gala Brookfield Gala ब्रुकफील्ड गाला" [ref=e395] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/brookfield-gala
+                - img "Brookfield Gala" [ref=e65]
+                - generic [ref=e66]:
+                  - heading "Brookfield Gala" [level=3] [ref=e67]
+                  - paragraph [ref=e396]: ब्रुकफील्ड गाला
+              - link "Buckeye Gala Buckeye Gala बकआई गाला" [ref=e397] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/buckeye-gala
+                - img "Buckeye Gala" [ref=e70]
+                - generic [ref=e71]:
+                  - heading "Buckeye Gala" [level=3] [ref=e72]
+                  - paragraph [ref=e398]: बकआई गाला
+              - link "Co Fuji Co Fuji को फूजी" [ref=e399] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/co-fuji
+                - img "Co Fuji" [ref=e75]
+                - generic [ref=e76]:
+                  - heading "Co Fuji" [level=3] [ref=e77]
+                  - paragraph [ref=e400]: को फूजी
+              - link "Dark Baron Gala Dark Baron Gala डार्क बैरन गाला" [ref=e401] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/dark-baron-gala
+                - img "Dark Baron Gala" [ref=e80]
+                - generic [ref=e81]:
+                  - heading "Dark Baron Gala" [level=3] [ref=e82]
+                  - paragraph [ref=e402]: डार्क बैरन गाला
+              - link "Devil Gala Devil Gala डेविल गाला" [ref=e403] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/devil-gala
+                - img "Devil Gala" [ref=e85]
+                - generic [ref=e86]:
+                  - heading "Devil Gala" [level=3] [ref=e87]
+                  - paragraph [ref=e404]: डेविल गाला
+              - link "Dorsett Golden Dorsett Golden डोरसेट गोल्डन" [ref=e405] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/dorsett-golden
+                - img "Dorsett Golden" [ref=e90]
+                - generic [ref=e91]:
+                  - heading "Dorsett Golden" [level=3] [ref=e92]
+                  - paragraph [ref=e406]: डोरसेट गोल्डन
+              - link "Early Red One Early Red One अर्ली रेड वन" [ref=e407] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/early-red-one
+                - img "Early Red One" [ref=e95]
+                - generic [ref=e96]:
+                  - heading "Early Red One" [level=3] [ref=e97]
+                  - paragraph [ref=e408]: अर्ली रेड वन
+              - link "Gale Gala Gale Gala गेल गाला" [ref=e409] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/gale-gala
+                - img "Gale Gala" [ref=e100]
+                - generic [ref=e101]:
+                  - heading "Gale Gala" [level=3] [ref=e102]
+                  - paragraph [ref=e410]: गेल गाला
+              - link "Golden Delicious Golden Delicious गोल्डन डेलिशियस" [ref=e411] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/golden-delicious
+                - img "Golden Delicious" [ref=e105]
+                - generic [ref=e106]:
+                  - heading "Golden Delicious" [level=3] [ref=e107]
+                  - paragraph [ref=e412]: गोल्डन डेलिशियस
+              - link "Granny Smith Granny Smith ग्रैनी स्मिथ" [ref=e413] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/granny-smith
+                - img "Granny Smith" [ref=e110]
+                - generic [ref=e111]:
+                  - heading "Granny Smith" [level=3] [ref=e112]
+                  - paragraph [ref=e414]: ग्रैनी स्मिथ
+              - link "Honey Crisp Honey Crisp हनीक्रिस्प" [ref=e415] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/honey-crisp
+                - img "Honey Crisp" [ref=e115]
+                - generic [ref=e116]:
+                  - heading "Honey Crisp" [level=3] [ref=e117]
+                  - paragraph [ref=e416]: हनीक्रिस्प
+              - link "HRMN-99 HRMN-99 एचआरएमएन-99" [ref=e417] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/hrmn-99
+                - img "HRMN-99" [ref=e120]
+                - generic [ref=e121]:
+                  - heading "HRMN-99" [level=3] [ref=e122]
+                  - paragraph [ref=e418]: एचआरएमएन-99
+              - link "Jeromine Jeromine जेरोमिन" [ref=e419] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/jeromine
+                - img "Jeromine" [ref=e125]
+                - generic [ref=e126]:
+                  - heading "Jeromine" [level=3] [ref=e127]
+                  - paragraph [ref=e420]: जेरोमिन
+              - link "Jona Prince Select Jona Prince Select जोना प्रिंस सेलेक्ट" [ref=e421] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/jona-prince-select
+                - img "Jona Prince Select" [ref=e130]
+                - generic [ref=e131]:
+                  - heading "Jona Prince Select" [level=3] [ref=e132]
+                  - paragraph [ref=e422]: जोना प्रिंस सेलेक्ट
+              - link "Jonathan Jonathan जोनाथन" [ref=e423] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/jonathan
+                - img "Jonathan" [ref=e135]
+                - generic [ref=e136]:
+                  - heading "Jonathan" [level=3] [ref=e137]
+                  - paragraph [ref=e424]: जोनाथन
+              - link "Kiku Fuji Kiku Fuji किकु फूजी" [ref=e425] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/kiku-fuji
+                - img "Kiku Fuji" [ref=e140]
+                - generic [ref=e141]:
+                  - heading "Kiku Fuji" [level=3] [ref=e142]
+                  - paragraph [ref=e426]: किकु फूजी
+              - link "King Gala King Gala किंग गाला" [ref=e427] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/king-gala
+                - img "King Gala" [ref=e145]
+                - generic [ref=e146]:
+                  - heading "King Gala" [level=3] [ref=e147]
+                  - paragraph [ref=e428]: किंग गाला
+              - link "King Groffan Fuji King Groffan Fuji किंग ग्रोफैन फूजी" [ref=e429] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/king-groffan-fuji
+                - img "King Groffan Fuji" [ref=e150]
+                - generic [ref=e151]:
+                  - heading "King Groffan Fuji" [level=3] [ref=e152]
+                  - paragraph [ref=e430]: किंग ग्रोफैन फूजी
+              - link "King Roat King Roat किंग रोएट" [ref=e431] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/king-roat
+                - img "King Roat" [ref=e155]
+                - generic [ref=e156]:
+                  - heading "King Roat" [level=3] [ref=e157]
+                  - paragraph [ref=e432]: किंग रोएट
+              - link "McIntosh McIntosh मैकिन्टोश" [ref=e433] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/mcintosh
+                - img "McIntosh" [ref=e160]
+                - generic [ref=e161]:
+                  - heading "McIntosh" [level=3] [ref=e162]
+                  - paragraph [ref=e434]: मैकिन्टोश
+              - link "Mema Mestar Mema Mestar मेमा मेस्टार" [ref=e435] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/mema-mestar
+                - img "Mema Mestar" [ref=e165]
+                - generic [ref=e166]:
+                  - heading "Mema Mestar" [level=3] [ref=e167]
+                  - paragraph [ref=e436]: मेमा मेस्टार
+              - link "Nagafu Nagafu नागाफू" [ref=e437] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/nagafu
+                - img "Nagafu" [ref=e170]
+                - generic [ref=e171]:
+                  - heading "Nagafu" [level=3] [ref=e172]
+                  - paragraph [ref=e438]: नागाफू
+              - link "Narasimo Gala Narasimo Gala नारासिमो गाला" [ref=e439] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/narasimo-gala
+                - img "Narasimo Gala" [ref=e175]
+                - generic [ref=e176]:
+                  - heading "Narasimo Gala" [level=3] [ref=e177]
+                  - paragraph [ref=e440]: नारासिमो गाला
+              - link "Oregon Spur 2 Oregon Spur 2 ओरेगन स्पर 2" [ref=e441] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/oregon-spur-2
+                - img "Oregon Spur 2" [ref=e180]
+                - generic [ref=e181]:
+                  - heading "Oregon Spur 2" [level=3] [ref=e182]
+                  - paragraph [ref=e442]: ओरेगन स्पर 2
+              - link "Pink Lady Pink Lady पिंक लेडी" [ref=e443] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/pink-lady
+                - img "Pink Lady" [ref=e185]
+                - generic [ref=e186]:
+                  - heading "Pink Lady" [level=3] [ref=e187]
+                  - paragraph [ref=e444]: पिंक लेडी
+              - link "Rd11 Rd11 आरडी11" [ref=e445] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/rd11
+                - img "Rd11" [ref=e190]
+                - generic [ref=e191]:
+                  - heading "Rd11" [level=3] [ref=e192]
+                  - paragraph [ref=e446]: आरडी11
+              - link "Red Chief Red Chief रेड चीफ" [ref=e447] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/red-chief
+                - img "Red Chief" [ref=e195]
+                - generic [ref=e196]:
+                  - heading "Red Chief" [level=3] [ref=e197]
+                  - paragraph [ref=e448]: रेड चीफ
+              - link "Red Delicious Red Delicious रेड डेलिशियस" [ref=e449] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/red-delicious
+                - img "Red Delicious" [ref=e200]
+                - generic [ref=e201]:
+                  - heading "Red Delicious" [level=3] [ref=e202]
+                  - paragraph [ref=e450]: रेड डेलिशियस
+              - link "Red Golden Red Golden रेड गोल्डन" [ref=e451] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/red-golden
+                - img "Red Golden" [ref=e205]
+                - generic [ref=e206]:
+                  - heading "Red Golden" [level=3] [ref=e207]
+                  - paragraph [ref=e452]: रेड गोल्डन
+              - link "Red Love Red Love रेड लव" [ref=e453] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/red-love
+                - img "Red Love" [ref=e210]
+                - generic [ref=e211]:
+                  - heading "Red Love" [level=3] [ref=e212]
+                  - paragraph [ref=e454]: रेड लव
+              - link "Red Velox Red Velox रेड वेलोक्स" [ref=e455] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/red-velox
+                - img "Red Velox" [ref=e215]
+                - generic [ref=e216]:
+                  - heading "Red Velox" [level=3] [ref=e217]
+                  - paragraph [ref=e456]: रेड वेलोक्स
+              - link "Redlum Gala Redlum Gala रेडलम गाला" [ref=e457] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/redlum-gala
+                - img "Redlum Gala" [ref=e220]
+                - generic [ref=e221]:
+                  - heading "Redlum Gala" [level=3] [ref=e222]
+                  - paragraph [ref=e458]: रेडलम गाला
+              - link "Rich-A-Red Rich-A-Red रिच-ए-रेड" [ref=e459] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/rich-a-red
+                - img "Rich-A-Red" [ref=e225]
+                - generic [ref=e226]:
+                  - heading "Rich-A-Red" [level=3] [ref=e227]
+                  - paragraph [ref=e460]: रिच-ए-रेड
+              - link "Royal Delicious Royal Delicious रॉयल डेलिशियस" [ref=e461] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/royal-delicious
+                - img "Royal Delicious" [ref=e230]
+                - generic [ref=e231]:
+                  - heading "Royal Delicious" [level=3] [ref=e232]
+                  - paragraph [ref=e462]: रॉयल डेलिशियस
+              - link "Royal Gala Royal Gala रॉयल गाला" [ref=e463] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/royal-gala
+                - img "Royal Gala" [ref=e235]
+                - generic [ref=e236]:
+                  - heading "Royal Gala" [level=3] [ref=e237]
+                  - paragraph [ref=e464]: रॉयल गाला
+              - link "Royal Vance Royal Vance रॉयल वेंस" [ref=e465] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/royal-vance
+                - img "Royal Vance" [ref=e240]
+                - generic [ref=e241]:
+                  - heading "Royal Vance" [level=3] [ref=e242]
+                  - paragraph [ref=e466]: रॉयल वेंस
+              - link "Scarlet Spur 2 Scarlet Spur 2 स्कारलेट स्पर 2" [ref=e467] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/scarlet-spur-2
+                - img "Scarlet Spur 2" [ref=e245]
+                - generic [ref=e246]:
+                  - heading "Scarlet Spur 2" [level=3] [ref=e247]
+                  - paragraph [ref=e468]: स्कारलेट स्पर 2
+              - link "Schniga Schnico Red Gala Schniga Schnico Red Gala श्निगा श्निको रेड गाला" [ref=e469] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/schniga-schnico-red-gala
+                - img "Schniga Schnico Red Gala" [ref=e250]
+                - generic [ref=e251]:
+                  - heading "Schniga Schnico Red Gala" [level=3] [ref=e252]
+                  - paragraph [ref=e470]: श्निगा श्निको रेड गाला
+              - link "Starkrimson Delicious Starkrimson Delicious स्टार्क्रिमसन डेलिशियस" [ref=e471] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/starkrimson-delicious
+                - img "Starkrimson Delicious" [ref=e255]
+                - generic [ref=e256]:
+                  - heading "Starkrimson Delicious" [level=3] [ref=e257]
+                  - paragraph [ref=e472]: स्टार्क्रिमसन डेलिशियस
+              - link "Super Chief Super Chief सुपर चीफ" [ref=e473] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/super-chief
+                - img "Super Chief" [ref=e260]
+                - generic [ref=e261]:
+                  - heading "Super Chief" [level=3] [ref=e262]
+                  - paragraph [ref=e474]: सुपर चीफ
+              - link "T Rex Gala T Rex Gala टी रेक्स गाला" [ref=e475] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/t-rex-gala
+                - img "T Rex Gala" [ref=e265]
+                - generic [ref=e266]:
+                  - heading "T Rex Gala" [level=3] [ref=e267]
+                  - paragraph [ref=e476]: टी रेक्स गाला
+              - link "Tide Man Tide Man टाइड मैन" [ref=e477] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/tide-man
+                - img "Tide Man" [ref=e270]
+                - generic [ref=e271]:
+                  - heading "Tide Man" [level=3] [ref=e272]
+                  - paragraph [ref=e478]: टाइड मैन
+              - link "Top Red Top Red टॉप रेड" [ref=e479] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/top-red
+                - img "Top Red" [ref=e275]
+                - generic [ref=e276]:
+                  - heading "Top Red" [level=3] [ref=e277]
+                  - paragraph [ref=e480]: टॉप रेड
+              - link "Tropic Sweet Tropic Sweet ट्रॉपिक स्वीट" [ref=e481] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/tropic-sweet
+                - img "Tropic Sweet" [ref=e280]
+                - generic [ref=e281]:
+                  - heading "Tropic Sweet" [level=3] [ref=e282]
+                  - paragraph [ref=e482]: ट्रॉपिक स्वीट
+              - link "Zad One (Fenzad) Zad One (Fenzad) जैड वन (फेनजैड)" [ref=e483] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/zad-one-fenzad
+                - img "Zad One (Fenzad)" [ref=e285]
+                - generic [ref=e286]:
+                  - heading "Zad One (Fenzad)" [level=3] [ref=e287]
+                  - paragraph [ref=e484]: जैड वन (फेनजैड)
+          - region "Common Diseases" [ref=e288]:
+            - heading "Common Diseases" [level=2] [ref=e289]
+            - generic [ref=e290]:
+              - generic [ref=e291]: 
+              - paragraph [ref=e292]: Available soon
+          - region "Recommended Rootstocks" [ref=e293]:
+            - heading "Recommended Rootstocks" [level=2] [ref=e294]
+            - generic [ref=e295]:
+              - generic [ref=e296]: 
+              - paragraph [ref=e297]: Available soon
+        - complementary [ref=e298]:
+          - generic [ref=e299]:
+            - heading "Quick Stats" [level=3] [ref=e300]
+            - generic [ref=e301]:
+              - generic [ref=e302]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: 
+                  - text: Varieties
+                - generic [ref=e305]: "47"
+              - generic [ref=e306]:
+                - generic [ref=e307]:
+                  - generic [ref=e308]: 
+                  - text: Diseases
+                - generic [ref=e309]: "42"
+              - generic [ref=e310]:
+                - generic [ref=e311]:
+                  - generic [ref=e312]: 
+                  - text: Rootstocks
+                - generic [ref=e313]: "20"
+          - generic [ref=e314]:
+            - heading "Actions" [level=3] [ref=e315]
+            - generic [ref=e316]:
+              - button " Like" [ref=e317]:
+                - generic [ref=e318]: 
+                - text: Like
+              - button " Save" [ref=e319]:
+                - generic [ref=e320]: 
+                - text: Save
+            - button " Share" [ref=e321]:
+              - generic [ref=e322]: 
+              - text: Share
+          - generic [ref=e323]:
+            - heading "Explore Other Fruits" [level=3] [ref=e324]
+            - generic [ref=e325]:
+              - link "Pomegranate Pomegranate अनार" [ref=e485] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/pomegranate
+                - img "Pomegranate" [ref=e327]
+                - generic [ref=e328]:
+                  - paragraph [ref=e329]: Pomegranate
+                  - paragraph [ref=e486]: अनार
+              - link "Cherry Cherry चेरी" [ref=e487] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/cherry
+                - img "Cherry" [ref=e331]
+                - generic [ref=e332]:
+                  - paragraph [ref=e333]: Cherry
+                  - paragraph [ref=e488]: चेरी
+              - link "Lorem Lorem इप्सम" [ref=e489] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/lorem
+                - img "Lorem" [ref=e335]
+                - generic [ref=e336]:
+                  - paragraph [ref=e337]: Lorem
+                  - paragraph [ref=e490]: इप्सम
+              - link "Plum Plum आलूबुखारा" [ref=e491] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/plum
+                - img "Plum" [ref=e339]
+                - generic [ref=e340]:
+                  - paragraph [ref=e341]: Plum
+                  - paragraph [ref=e492]: आलूबुखारा
+              - link "Apricot Apricot खुबानी" [ref=e493] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/apricot
+                - img "Apricot" [ref=e343]
+                - generic [ref=e344]:
+                  - paragraph [ref=e345]: Apricot
+                  - paragraph [ref=e494]: खुबानी
+              - link "Peach Peach आड़ू" [ref=e495] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/peach
+                - img "Peach" [ref=e347]
+                - generic [ref=e348]:
+                  - paragraph [ref=e349]: Peach
+                  - paragraph [ref=e496]: आड़ू
+  - contentinfo [ref=e350]:
+    - generic [ref=e351]:
+      - generic [ref=e352]:
+        - generic [ref=e353]:
+          - link "Baagvaani" [ref=e354] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e356]: Baagvaani
+          - paragraph [ref=e357]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e359]: Social channels coming soon
+        - generic [ref=e360]:
+          - heading "Quick Links" [level=3] [ref=e361]
+          - list [ref=e362]:
+            - listitem [ref=e363]:
+              - link "Home" [ref=e364] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e365]:
+              - link "Blog" [ref=e366] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e367]:
+              - link "About Us" [ref=e368] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e369]:
+          - heading "Topics" [level=3] [ref=e370]
+          - list [ref=e371]:
+            - listitem [ref=e372]:
+              - link "Spray & Disease" [ref=e373] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e374]:
+              - link "Orchard Care" [ref=e375] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e376]:
+              - link "Variety Guide" [ref=e377] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e378]:
+              - link "Weather & Climate" [ref=e379] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e380]:
+          - heading "Newsletter" [level=3] [ref=e381]
+          - paragraph [ref=e382]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e383]:
+            - textbox "Enter your email" [ref=e384]
+            - button "Subscribe" [ref=e385]
+          - paragraph [ref=e386]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e388]: © 2026 Baagvaani. All rights reserved.

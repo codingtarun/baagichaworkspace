@@ -1,0 +1,684 @@
+- generic [active] [ref=e1]:
+  - text:  
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link " Baagicha" [ref=e6] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - generic [ref=e7]: 
+          - generic [ref=e8]: Baagicha
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - button "Switch orchard" [ref=e11] [cursor=pointer]:
+              - generic [ref=e12]: 16°
+              - generic [ref=e13]:
+                - generic [ref=e14]: Haripurdhar
+                - generic [ref=e15]: Clear sky
+              - generic [ref=e16]: 
+            - generic:
+              - generic:
+                - generic: HA
+                - generic:
+                  - generic: Himalayan Orchard, Haripurdhar
+                  - generic:
+                    - generic: 
+                    - text: Haripurdhar, Sirmaur
+              - generic: Switch Orchard
+              - list:
+                - button:
+                  - generic: HI
+                  - generic:
+                    - generic: Himalayan Orchard, Haripurdhar
+                    - generic:
+                      - generic: 
+                      - text: Haripurdhar, Sirmaur
+                  - generic: 
+                - button:
+                  - generic: SU
+                  - generic:
+                    - generic: Sunrise Groves, Thanedar
+                    - generic:
+                      - generic: 
+                      - text: Thanedar, Shimla
+                - button:
+                  - generic: AP
+                  - generic:
+                    - generic: Apple Bloom Farms, Banjar
+                    - generic:
+                      - generic: 
+                      - text: Banjar, Kullu
+              - button:
+                - generic:
+                  - generic: 
+                - generic:
+                  - generic: Current Location
+                  - generic:
+                    - generic: 
+                    - text: Device GPS
+              - generic:
+                - link:
+                  - /url: http://127.0.0.1:8000/orchards
+                  - generic: 
+                  - text: Manage Orchards
+                - generic: ·
+                - link:
+                  - /url: http://127.0.0.1:8000/weather
+                  - generic: 
+                  - text: Forecast
+          - generic [ref=e17]:
+            - button "Notifications" [ref=e18] [cursor=pointer]:
+              - generic [ref=e19]: 
+            - generic:
+              - generic:
+                - generic: Notifications
+                - generic: No new
+              - list:
+                - listitem:
+                  - generic:
+                    - generic: 
+                    - text: Loading...
+              - link:
+                - /url: http://127.0.0.1:8000/notifications
+                - text: View all notifications
+                - generic: 
+          - generic [ref=e20]:
+            - button "Profile" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: 
+            - generic:
+              - generic:
+                - generic: TA
+                - generic:
+                  - paragraph: Tarun Chauhan
+                  - paragraph: Tarun Chauhan
+              - list:
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8000/profile/dashboard
+                    - generic: 
+                    - text: My Profile
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8000/orchards
+                    - generic: 
+                    - text: My Orchards
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8000/orchard/diary
+                    - generic: 
+                    - text: Orchard Diary
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8000/saved
+                    - generic: 
+                    - text: Saved Items
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8000/disease-reporter
+                    - generic: 
+                    - text: Disease Reports
+                - listitem:
+                  - link:
+                    - /url: http://127.0.0.1:8000/notifications/settings
+                    - generic: 
+                    - text: Notification Settings
+                - listitem:
+                  - generic:
+                    - button:
+                      - generic: 
+                      - text: Log out
+      - text: 
+    - generic [ref=e23]:
+      - region "Apple Varieties" [ref=e24]:
+        - generic [ref=e28]:
+          - paragraph [ref=e29]: सेब
+          - heading "Apple Varieties" [level=1] [ref=e30]
+          - generic [ref=e31]:
+            - textbox "Search Apple varieties..." [ref=e32]
+            - button "Search" [ref=e33] [cursor=pointer]
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - button "All सभी" [ref=e37] [cursor=pointer]:
+            - text: All
+            - generic [ref=e38]: सभी
+          - button "Early जल्दी" [ref=e39] [cursor=pointer]:
+            - text: Early
+            - generic [ref=e40]: जल्दी
+          - button "Mid मध्य" [ref=e41] [cursor=pointer]:
+            - text: Mid
+            - generic [ref=e42]: मध्य
+          - button "Late देर" [ref=e43] [cursor=pointer]:
+            - text: Late
+            - generic [ref=e44]: देर
+          - button "Very_late बहुत देर" [ref=e45] [cursor=pointer]:
+            - text: Very_late
+            - generic [ref=e46]: बहुत देर
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - link "View Adams Spur details" [ref=e49] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/adams-spur
+              - generic [ref=e50]: "#1"
+              - img "Adams Spur" [ref=e52]
+              - generic [ref=e53]: Mid
+              - generic [ref=e54]: Adams Spur
+              - generic [ref=e55]: एडम्स स्पर
+              - generic [ref=e56]:
+                - generic [ref=e57]: 
+                - text: 5000–9000 ft
+              - generic [ref=e59]:
+                - generic [ref=e60]: 
+                - text: "0"
+            - generic [ref=e61]:
+              - button "Like" [ref=e62] [cursor=pointer]:
+                - generic [ref=e63]: 
+                - generic [ref=e64]: Favourite
+              - button "Save" [ref=e65] [cursor=pointer]:
+                - generic [ref=e66]: 
+                - generic [ref=e67]: Save
+            - link " Know More" [ref=e68] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/adams-spur
+              - generic [ref=e69]: 
+              - text: Know More
+          - generic [ref=e70]:
+            - link "View Anna details" [ref=e71] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/anna
+              - generic [ref=e72]: "#2"
+              - img "Anna" [ref=e74]
+              - generic [ref=e75]: Early
+              - generic [ref=e76]: Anna
+              - generic [ref=e77]: अन्ना
+              - generic [ref=e78]:
+                - generic [ref=e79]: 
+                - text: 1500–5000 ft
+              - generic [ref=e81]:
+                - generic [ref=e82]: 
+                - text: "0"
+            - generic [ref=e83]:
+              - button "Like" [ref=e84] [cursor=pointer]:
+                - generic [ref=e85]: 
+                - generic [ref=e86]: Favourite
+              - button "Save" [ref=e87] [cursor=pointer]:
+                - generic [ref=e88]: 
+                - generic [ref=e89]: Save
+            - link " Know More" [ref=e90] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/anna
+              - generic [ref=e91]: 
+              - text: Know More
+          - generic [ref=e92]:
+            - link "View Brookfield Gala details" [ref=e93] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/brookfield-gala
+              - generic [ref=e94]: "#3"
+              - img "Brookfield Gala" [ref=e96]
+              - generic [ref=e97]: Early
+              - generic [ref=e98]: Brookfield Gala
+              - generic [ref=e99]: ब्रुकफील्ड गाला
+              - generic [ref=e100]:
+                - generic [ref=e101]: 
+                - text: 4000–7000 ft
+              - generic [ref=e103]:
+                - generic [ref=e104]: 
+                - text: "0"
+            - generic [ref=e105]:
+              - button "Like" [ref=e106] [cursor=pointer]:
+                - generic [ref=e107]: 
+                - generic [ref=e108]: Favourite
+              - button "Save" [ref=e109] [cursor=pointer]:
+                - generic [ref=e110]: 
+                - generic [ref=e111]: Save
+            - link " Know More" [ref=e112] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/brookfield-gala
+              - generic [ref=e113]: 
+              - text: Know More
+          - generic [ref=e114]:
+            - link "View Buckeye Gala details" [ref=e115] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/buckeye-gala
+              - generic [ref=e116]: "#4"
+              - img "Buckeye Gala" [ref=e118]
+              - generic [ref=e119]: Early
+              - generic [ref=e120]: Buckeye Gala
+              - generic [ref=e121]: बकआई गाला
+              - generic [ref=e122]:
+                - generic [ref=e123]: 
+                - text: 4000–7000 ft
+              - generic [ref=e125]:
+                - generic [ref=e126]: 
+                - text: "0"
+            - generic [ref=e127]:
+              - button "Like" [ref=e128] [cursor=pointer]:
+                - generic [ref=e129]: 
+                - generic [ref=e130]: Favourite
+              - button "Save" [ref=e131] [cursor=pointer]:
+                - generic [ref=e132]: 
+                - generic [ref=e133]: Save
+            - link " Know More" [ref=e134] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/buckeye-gala
+              - generic [ref=e135]: 
+              - text: Know More
+          - generic [ref=e136]:
+            - link "View Co Fuji details" [ref=e137] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/co-fuji
+              - generic [ref=e138]: "#5"
+              - img "Co Fuji" [ref=e140]
+              - generic [ref=e141]: Very Late
+              - generic [ref=e142]: Co Fuji
+              - generic [ref=e143]: को फूजी
+              - generic [ref=e144]:
+                - generic [ref=e145]: 
+                - text: 5500–9000 ft
+              - generic [ref=e147]:
+                - generic [ref=e148]: 
+                - text: "0"
+            - generic [ref=e149]:
+              - button "Like" [ref=e150] [cursor=pointer]:
+                - generic [ref=e151]: 
+                - generic [ref=e152]: Favourite
+              - button "Save" [ref=e153] [cursor=pointer]:
+                - generic [ref=e154]: 
+                - generic [ref=e155]: Save
+            - link " Know More" [ref=e156] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/co-fuji
+              - generic [ref=e157]: 
+              - text: Know More
+          - generic [ref=e158]:
+            - link "View Dark Baron Gala details" [ref=e159] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/dark-baron-gala
+              - generic [ref=e160]: "#6"
+              - img "Dark Baron Gala" [ref=e162]
+              - generic [ref=e163]: Early
+              - generic [ref=e164]: Dark Baron Gala
+              - generic [ref=e165]: डार्क बैरन गाला
+              - generic [ref=e166]:
+                - generic [ref=e167]: 
+                - text: 4000–7000 ft
+              - generic [ref=e169]:
+                - generic [ref=e170]: 
+                - text: "0"
+            - generic [ref=e171]:
+              - button "Like" [ref=e172] [cursor=pointer]:
+                - generic [ref=e173]: 
+                - generic [ref=e174]: Favourite
+              - button "Save" [ref=e175] [cursor=pointer]:
+                - generic [ref=e176]: 
+                - generic [ref=e177]: Save
+            - link " Know More" [ref=e178] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/dark-baron-gala
+              - generic [ref=e179]: 
+              - text: Know More
+          - generic [ref=e180]:
+            - link "View Devil Gala details" [ref=e181] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/devil-gala
+              - generic [ref=e182]: "#7"
+              - img "Devil Gala" [ref=e184]
+              - generic [ref=e185]: Early
+              - generic [ref=e186]: Devil Gala
+              - generic [ref=e187]: डेविल गाला
+              - generic [ref=e188]:
+                - generic [ref=e189]: 
+                - text: 4000–7000 ft
+              - generic [ref=e191]:
+                - generic [ref=e192]: 
+                - text: "0"
+            - generic [ref=e193]:
+              - button "Like" [ref=e194] [cursor=pointer]:
+                - generic [ref=e195]: 
+                - generic [ref=e196]: Favourite
+              - button "Save" [ref=e197] [cursor=pointer]:
+                - generic [ref=e198]: 
+                - generic [ref=e199]: Save
+            - link " Know More" [ref=e200] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/devil-gala
+              - generic [ref=e201]: 
+              - text: Know More
+          - generic [ref=e202]:
+            - link "View Dorsett Golden details" [ref=e203] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/dorsett-golden
+              - generic [ref=e204]: "#8"
+              - img "Dorsett Golden" [ref=e206]
+              - generic [ref=e207]: Early
+              - generic [ref=e208]: Dorsett Golden
+              - generic [ref=e209]: डोरसेट गोल्डन
+              - generic [ref=e210]:
+                - generic [ref=e211]: 
+                - text: 1500–5000 ft
+              - generic [ref=e213]:
+                - generic [ref=e214]: 
+                - text: "0"
+            - generic [ref=e215]:
+              - button "Like" [ref=e216] [cursor=pointer]:
+                - generic [ref=e217]: 
+                - generic [ref=e218]: Favourite
+              - button "Save" [ref=e219] [cursor=pointer]:
+                - generic [ref=e220]: 
+                - generic [ref=e221]: Save
+            - link " Know More" [ref=e222] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/dorsett-golden
+              - generic [ref=e223]: 
+              - text: Know More
+          - generic [ref=e224]:
+            - link "View Early Red One details" [ref=e225] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/early-red-one
+              - generic [ref=e226]: "#9"
+              - img "Early Red One" [ref=e228]
+              - generic [ref=e229]: Mid
+              - generic [ref=e230]: Early Red One
+              - generic [ref=e231]: अर्ली रेड वन
+              - generic [ref=e232]:
+                - generic [ref=e233]: 
+                - text: 5000–9000 ft
+              - generic [ref=e235]:
+                - generic [ref=e236]: 
+                - text: "0"
+            - generic [ref=e237]:
+              - button "Like" [ref=e238] [cursor=pointer]:
+                - generic [ref=e239]: 
+                - generic [ref=e240]: Favourite
+              - button "Save" [ref=e241] [cursor=pointer]:
+                - generic [ref=e242]: 
+                - generic [ref=e243]: Save
+            - link " Know More" [ref=e244] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/early-red-one
+              - generic [ref=e245]: 
+              - text: Know More
+          - generic [ref=e246]:
+            - link "View Gale Gala details" [ref=e247] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/gale-gala
+              - generic [ref=e248]: "#10"
+              - img "Gale Gala" [ref=e250]
+              - generic [ref=e251]: Early
+              - generic [ref=e252]: Gale Gala
+              - generic [ref=e253]: गेल गाला
+              - generic [ref=e254]:
+                - generic [ref=e255]: 
+                - text: 4000–7000 ft
+              - generic [ref=e257]:
+                - generic [ref=e258]: 
+                - text: "0"
+            - generic [ref=e259]:
+              - button "Like" [ref=e260] [cursor=pointer]:
+                - generic [ref=e261]: 
+                - generic [ref=e262]: Favourite
+              - button "Save" [ref=e263] [cursor=pointer]:
+                - generic [ref=e264]: 
+                - generic [ref=e265]: Save
+            - link " Know More" [ref=e266] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/gale-gala
+              - generic [ref=e267]: 
+              - text: Know More
+          - generic [ref=e268]:
+            - link "View Golden Delicious details" [ref=e269] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/golden-delicious
+              - generic [ref=e270]: "#11"
+              - img "Golden Delicious" [ref=e272]
+              - generic [ref=e273]: Mid
+              - generic [ref=e274]: Golden Delicious
+              - generic [ref=e275]: गोल्डन डेलिशियस
+              - generic [ref=e276]:
+                - generic [ref=e277]: 
+                - text: 4500–8500 ft
+              - generic [ref=e279]:
+                - generic [ref=e280]: 
+                - text: "0"
+            - generic [ref=e281]:
+              - button "Like" [ref=e282] [cursor=pointer]:
+                - generic [ref=e283]: 
+                - generic [ref=e284]: Favourite
+              - button "Save" [ref=e285] [cursor=pointer]:
+                - generic [ref=e286]: 
+                - generic [ref=e287]: Save
+            - link " Know More" [ref=e288] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/golden-delicious
+              - generic [ref=e289]: 
+              - text: Know More
+          - generic [ref=e290]:
+            - link "View Granny Smith details" [ref=e291] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/granny-smith
+              - generic [ref=e292]: "#12"
+              - img "Granny Smith" [ref=e294]
+              - generic [ref=e295]: Late
+              - generic [ref=e296]: Granny Smith
+              - generic [ref=e297]: ग्रैनी स्मिथ
+              - generic [ref=e298]:
+                - generic [ref=e299]: 
+                - text: 4500–8500 ft
+              - generic [ref=e301]:
+                - generic [ref=e302]: 
+                - text: "0"
+            - generic [ref=e303]:
+              - button "Like" [ref=e304] [cursor=pointer]:
+                - generic [ref=e305]: 
+                - generic [ref=e306]: Favourite
+              - button "Save" [ref=e307] [cursor=pointer]:
+                - generic [ref=e308]: 
+                - generic [ref=e309]: Save
+            - link " Know More" [ref=e310] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/granny-smith
+              - generic [ref=e311]: 
+              - text: Know More
+          - generic [ref=e312]:
+            - link "View Honey Crisp details" [ref=e313] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/honey-crisp
+              - generic [ref=e314]: "#13"
+              - img "Honey Crisp" [ref=e316]
+              - generic [ref=e317]: Mid
+              - generic [ref=e318]: Honey Crisp
+              - generic [ref=e319]: हनीक्रिस्प
+              - generic [ref=e320]:
+                - generic [ref=e321]: 
+                - text: 4500–8500 ft
+              - generic [ref=e323]:
+                - generic [ref=e324]: 
+                - text: "0"
+            - generic [ref=e325]:
+              - button "Like" [ref=e326] [cursor=pointer]:
+                - generic [ref=e327]: 
+                - generic [ref=e328]: Favourite
+              - button "Save" [ref=e329] [cursor=pointer]:
+                - generic [ref=e330]: 
+                - generic [ref=e331]: Save
+            - link " Know More" [ref=e332] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/honey-crisp
+              - generic [ref=e333]: 
+              - text: Know More
+          - generic [ref=e334]:
+            - link "View HRMN-99 details" [ref=e335] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/hrmn-99
+              - generic [ref=e336]: "#14"
+              - img "HRMN-99" [ref=e338]
+              - generic [ref=e339]: Early
+              - generic [ref=e340]: HRMN-99
+              - generic [ref=e341]: एचआरएमएन-99
+              - generic [ref=e342]:
+                - generic [ref=e343]: 
+                - text: 1500–5000 ft
+              - generic [ref=e345]:
+                - generic [ref=e346]: 
+                - text: "0"
+            - generic [ref=e347]:
+              - button "Like" [ref=e348] [cursor=pointer]:
+                - generic [ref=e349]: 
+                - generic [ref=e350]: Favourite
+              - button "Save" [ref=e351] [cursor=pointer]:
+                - generic [ref=e352]: 
+                - generic [ref=e353]: Save
+            - link " Know More" [ref=e354] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/hrmn-99
+              - generic [ref=e355]: 
+              - text: Know More
+          - generic [ref=e356]:
+            - link "View Jeromine details" [ref=e357] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/jeromine
+              - generic [ref=e358]: "#15"
+              - img "Jeromine" [ref=e360]
+              - generic [ref=e361]: Late
+              - generic [ref=e362]: Jeromine
+              - generic [ref=e363]: जेरोमिन
+              - generic [ref=e364]:
+                - generic [ref=e365]: 
+                - text: 5000–8500 ft
+              - generic [ref=e367]:
+                - generic [ref=e368]: 
+                - text: "0"
+            - generic [ref=e369]:
+              - button "Like" [ref=e370] [cursor=pointer]:
+                - generic [ref=e371]: 
+                - generic [ref=e372]: Favourite
+              - button "Save" [ref=e373] [cursor=pointer]:
+                - generic [ref=e374]: 
+                - generic [ref=e375]: Save
+            - link " Know More" [ref=e376] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/jeromine
+              - generic [ref=e377]: 
+              - text: Know More
+          - generic [ref=e378]:
+            - link "View Jona Prince Select details" [ref=e379] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/jona-prince-select
+              - generic [ref=e380]: "#16"
+              - img "Jona Prince Select" [ref=e382]
+              - generic [ref=e383]: Mid
+              - generic [ref=e384]: Jona Prince Select
+              - generic [ref=e385]: जोना प्रिंस सेलेक्ट
+              - generic [ref=e386]:
+                - generic [ref=e387]: 
+                - text: 4500–8500 ft
+              - generic [ref=e389]:
+                - generic [ref=e390]: 
+                - text: "0"
+            - generic [ref=e391]:
+              - button "Like" [ref=e392] [cursor=pointer]:
+                - generic [ref=e393]: 
+                - generic [ref=e394]: Favourite
+              - button "Save" [ref=e395] [cursor=pointer]:
+                - generic [ref=e396]: 
+                - generic [ref=e397]: Save
+            - link " Know More" [ref=e398] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/jona-prince-select
+              - generic [ref=e399]: 
+              - text: Know More
+          - generic [ref=e400]:
+            - link "View Jonathan details" [ref=e401] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/jonathan
+              - generic [ref=e402]: "#17"
+              - img "Jonathan" [ref=e404]
+              - generic [ref=e405]: Mid
+              - generic [ref=e406]: Jonathan
+              - generic [ref=e407]: जोनाथन
+              - generic [ref=e408]:
+                - generic [ref=e409]: 
+                - text: 4500–8500 ft
+              - generic [ref=e411]:
+                - generic [ref=e412]: 
+                - text: "0"
+            - generic [ref=e413]:
+              - button "Like" [ref=e414] [cursor=pointer]:
+                - generic [ref=e415]: 
+                - generic [ref=e416]: Favourite
+              - button "Save" [ref=e417] [cursor=pointer]:
+                - generic [ref=e418]: 
+                - generic [ref=e419]: Save
+            - link " Know More" [ref=e420] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/jonathan
+              - generic [ref=e421]: 
+              - text: Know More
+          - generic [ref=e422]:
+            - link "View Kiku Fuji details" [ref=e423] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/kiku-fuji
+              - generic [ref=e424]: "#18"
+              - img "Kiku Fuji" [ref=e426]
+              - generic [ref=e427]: Very Late
+              - generic [ref=e428]: Kiku Fuji
+              - generic [ref=e429]: किकु फूजी
+              - generic [ref=e430]:
+                - generic [ref=e431]: 
+                - text: 5500–9000 ft
+              - generic [ref=e433]:
+                - generic [ref=e434]: 
+                - text: "0"
+            - generic [ref=e435]:
+              - button "Like" [ref=e436] [cursor=pointer]:
+                - generic [ref=e437]: 
+                - generic [ref=e438]: Favourite
+              - button "Save" [ref=e439] [cursor=pointer]:
+                - generic [ref=e440]: 
+                - generic [ref=e441]: Save
+            - link " Know More" [ref=e442] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/varieties/kiku-fuji
+              - generic [ref=e443]: 
+              - text: Know More
+        - navigation [ref=e445]:
+          - list [ref=e447]:
+            - listitem [ref=e448]: « Previous
+            - listitem [ref=e449]:
+              - link "Next »" [ref=e450] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/by-fruit/apple?page=2
+          - generic [ref=e451]:
+            - paragraph [ref=e453]: Showing 1 to 18 of 47 results
+            - list [ref=e455]:
+              - listitem "« Previous" [ref=e456]: ‹
+              - listitem [ref=e457]: "1"
+              - listitem [ref=e458]:
+                - link "2" [ref=e459] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/varieties/by-fruit/apple?page=2
+              - listitem [ref=e460]:
+                - link "3" [ref=e461] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/varieties/by-fruit/apple?page=3
+              - listitem [ref=e462]:
+                - link "Next »" [ref=e463] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/varieties/by-fruit/apple?page=2
+                  - text: ›
+    - contentinfo [ref=e464]:
+      - paragraph [ref=e465]:
+        - text: © 2026 Baagicha — Made with
+        - generic [ref=e466]: 
+        - text: by
+        - link "Tarun Chauhan" [ref=e467] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+      - generic [ref=e468]:
+        - link "Facebook" [ref=e469] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e470]: 
+        - link "Instagram" [ref=e471] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+          - generic [ref=e472]: 
+        - link "YouTube" [ref=e473] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e474]: 
+    - navigation "Main navigation" [ref=e475]:
+      - text: 
+      - generic [ref=e476]:
+        - link "Home" [ref=e477] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+          - generic [ref=e479]: 
+          - generic [ref=e480]: Home
+          - generic [ref=e481]: घर
+        - link "Spray Schedule" [ref=e482] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spray-schedule
+          - generic [ref=e484]: 
+          - generic [ref=e485]: Spray
+          - generic [ref=e486]: छिड़काव
+        - link "Diseases" [ref=e487] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/disease
+          - generic [ref=e489]: 
+          - generic [ref=e490]: Disease
+          - generic [ref=e491]: रोग
+        - link "Varieties" [ref=e492] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/variety
+          - generic [ref=e494]: 
+          - generic [ref=e495]: Variety
+          - generic [ref=e496]: किस्म
+        - link "Rootstocks" [ref=e497] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/rootstock
+          - generic [ref=e499]: 
+          - generic [ref=e500]: Rootstock
+          - generic [ref=e501]: मूलवृंत
+        - link "Weather Forecast" [ref=e502] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/weather
+          - generic [ref=e504]: 
+          - generic [ref=e505]: Weather
+          - generic [ref=e506]: मौसम
+        - link "Blog & Articles" [ref=e507] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+          - generic [ref=e509]: 
+          - generic [ref=e510]: Blog
+          - generic [ref=e511]: लेख
+  - status [ref=e512]:
+    - generic [ref=e514]: 
+    - generic [ref=e515]: Location denied · Using network fallback

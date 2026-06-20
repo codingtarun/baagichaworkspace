@@ -1,0 +1,2859 @@
+- generic [active] [ref=e1]:
+  - text:  
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link " Baagicha" [ref=e6] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+          - generic [ref=e7]: 
+          - generic [ref=e8]: Baagicha
+        - link " Login for personalized reports" [ref=e10] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/login
+          - generic [ref=e11]: 
+          - generic [ref=e12]: Login for personalized reports
+      - text: 
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - img "Apple" [ref=e16]
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: 
+            - text: Featured
+          - generic [ref=e20]:
+            - generic [ref=e21]: 
+            - text: Malus domestica
+      - generic [ref=e22]:
+        - heading "Apple" [level=1] [ref=e23]
+        - paragraph [ref=e24]: सेब
+      - generic [ref=e25]:
+        - button "Like" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 
+          - generic [ref=e28]: Like
+        - button "Save" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]: 
+          - generic [ref=e31]: Save
+        - button "Share" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: 
+          - generic [ref=e34]: Share
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: 
+          - generic [ref=e39]: "47"
+          - generic [ref=e40]: varieties
+        - generic [ref=e41]:
+          - generic [ref=e42]: 
+          - generic [ref=e43]: "42"
+          - generic [ref=e44]: diseases
+        - generic [ref=e45]:
+          - generic [ref=e46]: 
+          - generic [ref=e47]: "20"
+          - generic [ref=e48]: rootstocks
+      - generic [ref=e50]:
+        - button "Overview" [ref=e51] [cursor=pointer]
+        - button "Varieties" [ref=e52] [cursor=pointer]
+        - button "Diseases" [ref=e53] [cursor=pointer]
+        - button "Rootstocks" [ref=e54] [cursor=pointer]
+        - button "Comments" [ref=e55] [cursor=pointer]
+      - generic [ref=e57]:
+        - generic [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 
+          - heading "About This Fruit" [level=2] [ref=e60]
+        - generic [ref=e61]:
+          - paragraph [ref=e62]: The king of Himalayan orchards. Apple is the primary commercial fruit across Himachal Pradesh, Uttarakhand and Jammu & Kashmir.
+          - paragraph [ref=e63]: हिमालयी बागों का राजा। सेब हimachal प्रदेश, उत्तराखंड और जम्मू-कश्मीर में प्रमुख व्यावसायिक फल है।
+      - generic [ref=e65]:
+        - generic [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]: 
+          - heading "Apple Varieties" [level=2] [ref=e68]
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - link "View Adams Spur details" [ref=e72] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/adams-spur
+                - generic [ref=e73]: "#1"
+                - img "Adams Spur" [ref=e75]
+                - generic [ref=e76]: Mid
+                - generic [ref=e77]: Adams Spur
+                - generic [ref=e78]: एडम्स स्पर
+                - generic [ref=e79]:
+                  - generic [ref=e80]: 
+                  - text: 5000–9000 ft
+                - generic [ref=e82]:
+                  - generic [ref=e83]: 
+                  - text: "0"
+              - generic [ref=e84]:
+                - button "Like" [ref=e85] [cursor=pointer]:
+                  - generic [ref=e86]: 
+                  - generic [ref=e87]: Favourite
+                - button "Save" [ref=e88] [cursor=pointer]:
+                  - generic [ref=e89]: 
+                  - generic [ref=e90]: Save
+              - link " Know More" [ref=e91] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/adams-spur
+                - generic [ref=e92]: 
+                - text: Know More
+            - generic [ref=e93]:
+              - link "View Anna details" [ref=e94] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/anna
+                - generic [ref=e95]: "#2"
+                - img "Anna" [ref=e97]
+                - generic [ref=e98]: Early
+                - generic [ref=e99]: Anna
+                - generic [ref=e100]: अन्ना
+                - generic [ref=e101]:
+                  - generic [ref=e102]: 
+                  - text: 1500–5000 ft
+                - generic [ref=e104]:
+                  - generic [ref=e105]: 
+                  - text: "0"
+              - generic [ref=e106]:
+                - button "Like" [ref=e107] [cursor=pointer]:
+                  - generic [ref=e108]: 
+                  - generic [ref=e109]: Favourite
+                - button "Save" [ref=e110] [cursor=pointer]:
+                  - generic [ref=e111]: 
+                  - generic [ref=e112]: Save
+              - link " Know More" [ref=e113] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/anna
+                - generic [ref=e114]: 
+                - text: Know More
+            - generic [ref=e115]:
+              - link "View Brookfield Gala details" [ref=e116] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/brookfield-gala
+                - generic [ref=e117]: "#3"
+                - img "Brookfield Gala" [ref=e119]
+                - generic [ref=e120]: Early
+                - generic [ref=e121]: Brookfield Gala
+                - generic [ref=e122]: ब्रुकफील्ड गाला
+                - generic [ref=e123]:
+                  - generic [ref=e124]: 
+                  - text: 4000–7000 ft
+                - generic [ref=e126]:
+                  - generic [ref=e127]: 
+                  - text: "0"
+              - generic [ref=e128]:
+                - button "Like" [ref=e129] [cursor=pointer]:
+                  - generic [ref=e130]: 
+                  - generic [ref=e131]: Favourite
+                - button "Save" [ref=e132] [cursor=pointer]:
+                  - generic [ref=e133]: 
+                  - generic [ref=e134]: Save
+              - link " Know More" [ref=e135] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/brookfield-gala
+                - generic [ref=e136]: 
+                - text: Know More
+            - generic [ref=e137]:
+              - link "View Buckeye Gala details" [ref=e138] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/buckeye-gala
+                - generic [ref=e139]: "#4"
+                - img "Buckeye Gala" [ref=e141]
+                - generic [ref=e142]: Early
+                - generic [ref=e143]: Buckeye Gala
+                - generic [ref=e144]: बकआई गाला
+                - generic [ref=e145]:
+                  - generic [ref=e146]: 
+                  - text: 4000–7000 ft
+                - generic [ref=e148]:
+                  - generic [ref=e149]: 
+                  - text: "0"
+              - generic [ref=e150]:
+                - button "Like" [ref=e151] [cursor=pointer]:
+                  - generic [ref=e152]: 
+                  - generic [ref=e153]: Favourite
+                - button "Save" [ref=e154] [cursor=pointer]:
+                  - generic [ref=e155]: 
+                  - generic [ref=e156]: Save
+              - link " Know More" [ref=e157] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/buckeye-gala
+                - generic [ref=e158]: 
+                - text: Know More
+            - generic [ref=e159]:
+              - link "View Co Fuji details" [ref=e160] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/co-fuji
+                - generic [ref=e161]: "#5"
+                - img "Co Fuji" [ref=e163]
+                - generic [ref=e164]: Very Late
+                - generic [ref=e165]: Co Fuji
+                - generic [ref=e166]: को फूजी
+                - generic [ref=e167]:
+                  - generic [ref=e168]: 
+                  - text: 5500–9000 ft
+                - generic [ref=e170]:
+                  - generic [ref=e171]: 
+                  - text: "0"
+              - generic [ref=e172]:
+                - button "Like" [ref=e173] [cursor=pointer]:
+                  - generic [ref=e174]: 
+                  - generic [ref=e175]: Favourite
+                - button "Save" [ref=e176] [cursor=pointer]:
+                  - generic [ref=e177]: 
+                  - generic [ref=e178]: Save
+              - link " Know More" [ref=e179] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/co-fuji
+                - generic [ref=e180]: 
+                - text: Know More
+            - generic [ref=e181]:
+              - link "View Dark Baron Gala details" [ref=e182] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/dark-baron-gala
+                - generic [ref=e183]: "#6"
+                - img "Dark Baron Gala" [ref=e185]
+                - generic [ref=e186]: Early
+                - generic [ref=e187]: Dark Baron Gala
+                - generic [ref=e188]: डार्क बैरन गाला
+                - generic [ref=e189]:
+                  - generic [ref=e190]: 
+                  - text: 4000–7000 ft
+                - generic [ref=e192]:
+                  - generic [ref=e193]: 
+                  - text: "0"
+              - generic [ref=e194]:
+                - button "Like" [ref=e195] [cursor=pointer]:
+                  - generic [ref=e196]: 
+                  - generic [ref=e197]: Favourite
+                - button "Save" [ref=e198] [cursor=pointer]:
+                  - generic [ref=e199]: 
+                  - generic [ref=e200]: Save
+              - link " Know More" [ref=e201] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/dark-baron-gala
+                - generic [ref=e202]: 
+                - text: Know More
+            - generic [ref=e203]:
+              - link "View Devil Gala details" [ref=e204] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/devil-gala
+                - generic [ref=e205]: "#7"
+                - img "Devil Gala" [ref=e207]
+                - generic [ref=e208]: Early
+                - generic [ref=e209]: Devil Gala
+                - generic [ref=e210]: डेविल गाला
+                - generic [ref=e211]:
+                  - generic [ref=e212]: 
+                  - text: 4000–7000 ft
+                - generic [ref=e214]:
+                  - generic [ref=e215]: 
+                  - text: "0"
+              - generic [ref=e216]:
+                - button "Like" [ref=e217] [cursor=pointer]:
+                  - generic [ref=e218]: 
+                  - generic [ref=e219]: Favourite
+                - button "Save" [ref=e220] [cursor=pointer]:
+                  - generic [ref=e221]: 
+                  - generic [ref=e222]: Save
+              - link " Know More" [ref=e223] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/devil-gala
+                - generic [ref=e224]: 
+                - text: Know More
+            - generic [ref=e225]:
+              - link "View Dorsett Golden details" [ref=e226] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/dorsett-golden
+                - generic [ref=e227]: "#8"
+                - img "Dorsett Golden" [ref=e229]
+                - generic [ref=e230]: Early
+                - generic [ref=e231]: Dorsett Golden
+                - generic [ref=e232]: डोरसेट गोल्डन
+                - generic [ref=e233]:
+                  - generic [ref=e234]: 
+                  - text: 1500–5000 ft
+                - generic [ref=e236]:
+                  - generic [ref=e237]: 
+                  - text: "0"
+              - generic [ref=e238]:
+                - button "Like" [ref=e239] [cursor=pointer]:
+                  - generic [ref=e240]: 
+                  - generic [ref=e241]: Favourite
+                - button "Save" [ref=e242] [cursor=pointer]:
+                  - generic [ref=e243]: 
+                  - generic [ref=e244]: Save
+              - link " Know More" [ref=e245] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/dorsett-golden
+                - generic [ref=e246]: 
+                - text: Know More
+            - generic [ref=e247]:
+              - link "View Early Red One details" [ref=e248] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/early-red-one
+                - generic [ref=e249]: "#9"
+                - img "Early Red One" [ref=e251]
+                - generic [ref=e252]: Mid
+                - generic [ref=e253]: Early Red One
+                - generic [ref=e254]: अर्ली रेड वन
+                - generic [ref=e255]:
+                  - generic [ref=e256]: 
+                  - text: 5000–9000 ft
+                - generic [ref=e258]:
+                  - generic [ref=e259]: 
+                  - text: "0"
+              - generic [ref=e260]:
+                - button "Like" [ref=e261] [cursor=pointer]:
+                  - generic [ref=e262]: 
+                  - generic [ref=e263]: Favourite
+                - button "Save" [ref=e264] [cursor=pointer]:
+                  - generic [ref=e265]: 
+                  - generic [ref=e266]: Save
+              - link " Know More" [ref=e267] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/early-red-one
+                - generic [ref=e268]: 
+                - text: Know More
+            - generic [ref=e269]:
+              - link "View Gale Gala details" [ref=e270] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/gale-gala
+                - generic [ref=e271]: "#10"
+                - img "Gale Gala" [ref=e273]
+                - generic [ref=e274]: Early
+                - generic [ref=e275]: Gale Gala
+                - generic [ref=e276]: गेल गाला
+                - generic [ref=e277]:
+                  - generic [ref=e278]: 
+                  - text: 4000–7000 ft
+                - generic [ref=e280]:
+                  - generic [ref=e281]: 
+                  - text: "0"
+              - generic [ref=e282]:
+                - button "Like" [ref=e283] [cursor=pointer]:
+                  - generic [ref=e284]: 
+                  - generic [ref=e285]: Favourite
+                - button "Save" [ref=e286] [cursor=pointer]:
+                  - generic [ref=e287]: 
+                  - generic [ref=e288]: Save
+              - link " Know More" [ref=e289] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/gale-gala
+                - generic [ref=e290]: 
+                - text: Know More
+            - generic [ref=e291]:
+              - link "View Golden Delicious details" [ref=e292] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/golden-delicious
+                - generic [ref=e293]: "#11"
+                - img "Golden Delicious" [ref=e295]
+                - generic [ref=e296]: Mid
+                - generic [ref=e297]: Golden Delicious
+                - generic [ref=e298]: गोल्डन डेलिशियस
+                - generic [ref=e299]:
+                  - generic [ref=e300]: 
+                  - text: 4500–8500 ft
+                - generic [ref=e302]:
+                  - generic [ref=e303]: 
+                  - text: "0"
+              - generic [ref=e304]:
+                - button "Like" [ref=e305] [cursor=pointer]:
+                  - generic [ref=e306]: 
+                  - generic [ref=e307]: Favourite
+                - button "Save" [ref=e308] [cursor=pointer]:
+                  - generic [ref=e309]: 
+                  - generic [ref=e310]: Save
+              - link " Know More" [ref=e311] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/golden-delicious
+                - generic [ref=e312]: 
+                - text: Know More
+            - generic [ref=e313]:
+              - link "View Granny Smith details" [ref=e314] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/granny-smith
+                - generic [ref=e315]: "#12"
+                - img "Granny Smith" [ref=e317]
+                - generic [ref=e318]: Late
+                - generic [ref=e319]: Granny Smith
+                - generic [ref=e320]: ग्रैनी स्मिथ
+                - generic [ref=e321]:
+                  - generic [ref=e322]: 
+                  - text: 4500–8500 ft
+                - generic [ref=e324]:
+                  - generic [ref=e325]: 
+                  - text: "0"
+              - generic [ref=e326]:
+                - button "Like" [ref=e327] [cursor=pointer]:
+                  - generic [ref=e328]: 
+                  - generic [ref=e329]: Favourite
+                - button "Save" [ref=e330] [cursor=pointer]:
+                  - generic [ref=e331]: 
+                  - generic [ref=e332]: Save
+              - link " Know More" [ref=e333] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/granny-smith
+                - generic [ref=e334]: 
+                - text: Know More
+            - generic [ref=e335]:
+              - link "View Honey Crisp details" [ref=e336] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/honey-crisp
+                - generic [ref=e337]: "#13"
+                - img "Honey Crisp" [ref=e339]
+                - generic [ref=e340]: Mid
+                - generic [ref=e341]: Honey Crisp
+                - generic [ref=e342]: हनीक्रिस्प
+                - generic [ref=e343]:
+                  - generic [ref=e344]: 
+                  - text: 4500–8500 ft
+                - generic [ref=e346]:
+                  - generic [ref=e347]: 
+                  - text: "0"
+              - generic [ref=e348]:
+                - button "Like" [ref=e349] [cursor=pointer]:
+                  - generic [ref=e350]: 
+                  - generic [ref=e351]: Favourite
+                - button "Save" [ref=e352] [cursor=pointer]:
+                  - generic [ref=e353]: 
+                  - generic [ref=e354]: Save
+              - link " Know More" [ref=e355] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/honey-crisp
+                - generic [ref=e356]: 
+                - text: Know More
+            - generic [ref=e357]:
+              - link "View HRMN-99 details" [ref=e358] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/hrmn-99
+                - generic [ref=e359]: "#14"
+                - img "HRMN-99" [ref=e361]
+                - generic [ref=e362]: Early
+                - generic [ref=e363]: HRMN-99
+                - generic [ref=e364]: एचआरएमएन-99
+                - generic [ref=e365]:
+                  - generic [ref=e366]: 
+                  - text: 1500–5000 ft
+                - generic [ref=e368]:
+                  - generic [ref=e369]: 
+                  - text: "0"
+              - generic [ref=e370]:
+                - button "Like" [ref=e371] [cursor=pointer]:
+                  - generic [ref=e372]: 
+                  - generic [ref=e373]: Favourite
+                - button "Save" [ref=e374] [cursor=pointer]:
+                  - generic [ref=e375]: 
+                  - generic [ref=e376]: Save
+              - link " Know More" [ref=e377] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/hrmn-99
+                - generic [ref=e378]: 
+                - text: Know More
+            - generic [ref=e379]:
+              - link "View Jeromine details" [ref=e380] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/jeromine
+                - generic [ref=e381]: "#15"
+                - img "Jeromine" [ref=e383]
+                - generic [ref=e384]: Late
+                - generic [ref=e385]: Jeromine
+                - generic [ref=e386]: जेरोमिन
+                - generic [ref=e387]:
+                  - generic [ref=e388]: 
+                  - text: 5000–8500 ft
+                - generic [ref=e390]:
+                  - generic [ref=e391]: 
+                  - text: "0"
+              - generic [ref=e392]:
+                - button "Like" [ref=e393] [cursor=pointer]:
+                  - generic [ref=e394]: 
+                  - generic [ref=e395]: Favourite
+                - button "Save" [ref=e396] [cursor=pointer]:
+                  - generic [ref=e397]: 
+                  - generic [ref=e398]: Save
+              - link " Know More" [ref=e399] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/jeromine
+                - generic [ref=e400]: 
+                - text: Know More
+            - generic [ref=e401]:
+              - link "View Jona Prince Select details" [ref=e402] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/jona-prince-select
+                - generic [ref=e403]: "#16"
+                - img "Jona Prince Select" [ref=e405]
+                - generic [ref=e406]: Mid
+                - generic [ref=e407]: Jona Prince Select
+                - generic [ref=e408]: जोना प्रिंस सेलेक्ट
+                - generic [ref=e409]:
+                  - generic [ref=e410]: 
+                  - text: 4500–8500 ft
+                - generic [ref=e412]:
+                  - generic [ref=e413]: 
+                  - text: "0"
+              - generic [ref=e414]:
+                - button "Like" [ref=e415] [cursor=pointer]:
+                  - generic [ref=e416]: 
+                  - generic [ref=e417]: Favourite
+                - button "Save" [ref=e418] [cursor=pointer]:
+                  - generic [ref=e419]: 
+                  - generic [ref=e420]: Save
+              - link " Know More" [ref=e421] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/jona-prince-select
+                - generic [ref=e422]: 
+                - text: Know More
+            - generic [ref=e423]:
+              - link "View Jonathan details" [ref=e424] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/jonathan
+                - generic [ref=e425]: "#17"
+                - img "Jonathan" [ref=e427]
+                - generic [ref=e428]: Mid
+                - generic [ref=e429]: Jonathan
+                - generic [ref=e430]: जोनाथन
+                - generic [ref=e431]:
+                  - generic [ref=e432]: 
+                  - text: 4500–8500 ft
+                - generic [ref=e434]:
+                  - generic [ref=e435]: 
+                  - text: "0"
+              - generic [ref=e436]:
+                - button "Like" [ref=e437] [cursor=pointer]:
+                  - generic [ref=e438]: 
+                  - generic [ref=e439]: Favourite
+                - button "Save" [ref=e440] [cursor=pointer]:
+                  - generic [ref=e441]: 
+                  - generic [ref=e442]: Save
+              - link " Know More" [ref=e443] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/jonathan
+                - generic [ref=e444]: 
+                - text: Know More
+            - generic [ref=e445]:
+              - link "View Kiku Fuji details" [ref=e446] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/kiku-fuji
+                - generic [ref=e447]: "#18"
+                - img "Kiku Fuji" [ref=e449]
+                - generic [ref=e450]: Very Late
+                - generic [ref=e451]: Kiku Fuji
+                - generic [ref=e452]: किकु फूजी
+                - generic [ref=e453]:
+                  - generic [ref=e454]: 
+                  - text: 5500–9000 ft
+                - generic [ref=e456]:
+                  - generic [ref=e457]: 
+                  - text: "0"
+              - generic [ref=e458]:
+                - button "Like" [ref=e459] [cursor=pointer]:
+                  - generic [ref=e460]: 
+                  - generic [ref=e461]: Favourite
+                - button "Save" [ref=e462] [cursor=pointer]:
+                  - generic [ref=e463]: 
+                  - generic [ref=e464]: Save
+              - link " Know More" [ref=e465] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/kiku-fuji
+                - generic [ref=e466]: 
+                - text: Know More
+            - generic [ref=e467]:
+              - link "View King Gala details" [ref=e468] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/king-gala
+                - generic [ref=e469]: "#19"
+                - img "King Gala" [ref=e471]
+                - generic [ref=e472]: Early
+                - generic [ref=e473]: King Gala
+                - generic [ref=e474]: किंग गाला
+                - generic [ref=e475]:
+                  - generic [ref=e476]: 
+                  - text: 4000–7000 ft
+                - generic [ref=e478]:
+                  - generic [ref=e479]: 
+                  - text: "0"
+              - generic [ref=e480]:
+                - button "Like" [ref=e481] [cursor=pointer]:
+                  - generic [ref=e482]: 
+                  - generic [ref=e483]: Favourite
+                - button "Save" [ref=e484] [cursor=pointer]:
+                  - generic [ref=e485]: 
+                  - generic [ref=e486]: Save
+              - link " Know More" [ref=e487] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/king-gala
+                - generic [ref=e488]: 
+                - text: Know More
+            - generic [ref=e489]:
+              - link "View King Groffan Fuji details" [ref=e490] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/king-groffan-fuji
+                - generic [ref=e491]: "#20"
+                - img "King Groffan Fuji" [ref=e493]
+                - generic [ref=e494]: Very Late
+                - generic [ref=e495]: King Groffan Fuji
+                - generic [ref=e496]: किंग ग्रोफैन फूजी
+                - generic [ref=e497]:
+                  - generic [ref=e498]: 
+                  - text: 5500–9000 ft
+                - generic [ref=e500]:
+                  - generic [ref=e501]: 
+                  - text: "0"
+              - generic [ref=e502]:
+                - button "Like" [ref=e503] [cursor=pointer]:
+                  - generic [ref=e504]: 
+                  - generic [ref=e505]: Favourite
+                - button "Save" [ref=e506] [cursor=pointer]:
+                  - generic [ref=e507]: 
+                  - generic [ref=e508]: Save
+              - link " Know More" [ref=e509] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/king-groffan-fuji
+                - generic [ref=e510]: 
+                - text: Know More
+            - generic [ref=e511]:
+              - link "View King Roat details" [ref=e512] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/king-roat
+                - generic [ref=e513]: "#21"
+                - img "King Roat" [ref=e515]
+                - generic [ref=e516]: Late
+                - generic [ref=e517]: King Roat
+                - generic [ref=e518]: किंग रोएट
+                - generic [ref=e519]:
+                  - generic [ref=e520]: 
+                  - text: 5000–8500 ft
+                - generic [ref=e522]:
+                  - generic [ref=e523]: 
+                  - text: "0"
+              - generic [ref=e524]:
+                - button "Like" [ref=e525] [cursor=pointer]:
+                  - generic [ref=e526]: 
+                  - generic [ref=e527]: Favourite
+                - button "Save" [ref=e528] [cursor=pointer]:
+                  - generic [ref=e529]: 
+                  - generic [ref=e530]: Save
+              - link " Know More" [ref=e531] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/king-roat
+                - generic [ref=e532]: 
+                - text: Know More
+            - generic [ref=e533]:
+              - link "View McIntosh details" [ref=e534] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/mcintosh
+                - generic [ref=e535]: "#22"
+                - img "McIntosh" [ref=e537]
+                - generic [ref=e538]: Mid
+                - generic [ref=e539]: McIntosh
+                - generic [ref=e540]: मैकिन्टोश
+                - generic [ref=e541]:
+                  - generic [ref=e542]: 
+                  - text: 4500–8500 ft
+                - generic [ref=e544]:
+                  - generic [ref=e545]: 
+                  - text: "0"
+              - generic [ref=e546]:
+                - button "Like" [ref=e547] [cursor=pointer]:
+                  - generic [ref=e548]: 
+                  - generic [ref=e549]: Favourite
+                - button "Save" [ref=e550] [cursor=pointer]:
+                  - generic [ref=e551]: 
+                  - generic [ref=e552]: Save
+              - link " Know More" [ref=e553] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/mcintosh
+                - generic [ref=e554]: 
+                - text: Know More
+            - generic [ref=e555]:
+              - link "View Mema Mestar details" [ref=e556] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/mema-mestar
+                - generic [ref=e557]: "#23"
+                - img "Mema Mestar" [ref=e559]
+                - generic [ref=e560]: Late
+                - generic [ref=e561]: Mema Mestar
+                - generic [ref=e562]: मेमा मेस्टार
+                - generic [ref=e563]:
+                  - generic [ref=e564]: 
+                  - text: 5000–8500 ft
+                - generic [ref=e566]:
+                  - generic [ref=e567]: 
+                  - text: "0"
+              - generic [ref=e568]:
+                - button "Like" [ref=e569] [cursor=pointer]:
+                  - generic [ref=e570]: 
+                  - generic [ref=e571]: Favourite
+                - button "Save" [ref=e572] [cursor=pointer]:
+                  - generic [ref=e573]: 
+                  - generic [ref=e574]: Save
+              - link " Know More" [ref=e575] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/mema-mestar
+                - generic [ref=e576]: 
+                - text: Know More
+            - generic [ref=e577]:
+              - link "View Nagafu details" [ref=e578] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/nagafu
+                - generic [ref=e579]: "#24"
+                - img "Nagafu" [ref=e581]
+                - generic [ref=e582]: Very Late
+                - generic [ref=e583]: Nagafu
+                - generic [ref=e584]: नागाफू
+                - generic [ref=e585]:
+                  - generic [ref=e586]: 
+                  - text: 5500–9000 ft
+                - generic [ref=e588]:
+                  - generic [ref=e589]: 
+                  - text: "0"
+              - generic [ref=e590]:
+                - button "Like" [ref=e591] [cursor=pointer]:
+                  - generic [ref=e592]: 
+                  - generic [ref=e593]: Favourite
+                - button "Save" [ref=e594] [cursor=pointer]:
+                  - generic [ref=e595]: 
+                  - generic [ref=e596]: Save
+              - link " Know More" [ref=e597] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/nagafu
+                - generic [ref=e598]: 
+                - text: Know More
+            - generic [ref=e599]:
+              - link "View Narasimo Gala details" [ref=e600] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/narasimo-gala
+                - generic [ref=e601]: "#25"
+                - img "Narasimo Gala" [ref=e603]
+                - generic [ref=e604]: Early
+                - generic [ref=e605]: Narasimo Gala
+                - generic [ref=e606]: नारासिमो गाला
+                - generic [ref=e607]:
+                  - generic [ref=e608]: 
+                  - text: 4000–7000 ft
+                - generic [ref=e610]:
+                  - generic [ref=e611]: 
+                  - text: "0"
+              - generic [ref=e612]:
+                - button "Like" [ref=e613] [cursor=pointer]:
+                  - generic [ref=e614]: 
+                  - generic [ref=e615]: Favourite
+                - button "Save" [ref=e616] [cursor=pointer]:
+                  - generic [ref=e617]: 
+                  - generic [ref=e618]: Save
+              - link " Know More" [ref=e619] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/narasimo-gala
+                - generic [ref=e620]: 
+                - text: Know More
+            - generic [ref=e621]:
+              - link "View Oregon Spur 2 details" [ref=e622] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/oregon-spur-2
+                - generic [ref=e623]: "#26"
+                - img "Oregon Spur 2" [ref=e625]
+                - generic [ref=e626]: Mid
+                - generic [ref=e627]: Oregon Spur 2
+                - generic [ref=e628]: ओरेगन स्पर 2
+                - generic [ref=e629]:
+                  - generic [ref=e630]: 
+                  - text: 5000–9000 ft
+                - generic [ref=e632]:
+                  - generic [ref=e633]: 
+                  - text: "0"
+              - generic [ref=e634]:
+                - button "Like" [ref=e635] [cursor=pointer]:
+                  - generic [ref=e636]: 
+                  - generic [ref=e637]: Favourite
+                - button "Save" [ref=e638] [cursor=pointer]:
+                  - generic [ref=e639]: 
+                  - generic [ref=e640]: Save
+              - link " Know More" [ref=e641] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/oregon-spur-2
+                - generic [ref=e642]: 
+                - text: Know More
+            - generic [ref=e643]:
+              - link "View Pink Lady details" [ref=e644] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/pink-lady
+                - generic [ref=e645]: "#27"
+                - img "Pink Lady" [ref=e647]
+                - generic [ref=e648]: Very Late
+                - generic [ref=e649]: Pink Lady
+                - generic [ref=e650]: पिंक लेडी
+                - generic [ref=e651]:
+                  - generic [ref=e652]: 
+                  - text: 4500–8500 ft
+                - generic [ref=e654]:
+                  - generic [ref=e655]: 
+                  - text: "0"
+              - generic [ref=e656]:
+                - button "Like" [ref=e657] [cursor=pointer]:
+                  - generic [ref=e658]: 
+                  - generic [ref=e659]: Favourite
+                - button "Save" [ref=e660] [cursor=pointer]:
+                  - generic [ref=e661]: 
+                  - generic [ref=e662]: Save
+              - link " Know More" [ref=e663] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/pink-lady
+                - generic [ref=e664]: 
+                - text: Know More
+            - generic [ref=e665]:
+              - link "View Rd11 details" [ref=e666] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/rd11
+                - generic [ref=e667]: "#28"
+                - img "Rd11" [ref=e669]
+                - generic [ref=e670]: Late
+                - generic [ref=e671]: Rd11
+                - generic [ref=e672]: आरडी11
+                - generic [ref=e673]:
+                  - generic [ref=e674]: 
+                  - text: 5000–8500 ft
+                - generic [ref=e676]:
+                  - generic [ref=e677]: 
+                  - text: "0"
+              - generic [ref=e678]:
+                - button "Like" [ref=e679] [cursor=pointer]:
+                  - generic [ref=e680]: 
+                  - generic [ref=e681]: Favourite
+                - button "Save" [ref=e682] [cursor=pointer]:
+                  - generic [ref=e683]: 
+                  - generic [ref=e684]: Save
+              - link " Know More" [ref=e685] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/rd11
+                - generic [ref=e686]: 
+                - text: Know More
+            - generic [ref=e687]:
+              - link "View Red Chief details" [ref=e688] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/red-chief
+                - generic [ref=e689]: "#29"
+                - img "Red Chief" [ref=e691]
+                - generic [ref=e692]: Mid
+                - generic [ref=e693]: Red Chief
+                - generic [ref=e694]: रेड चीफ
+                - generic [ref=e695]:
+                  - generic [ref=e696]: 
+                  - text: 5000–9000 ft
+                - generic [ref=e698]:
+                  - generic [ref=e699]: 
+                  - text: "0"
+              - generic [ref=e700]:
+                - button "Like" [ref=e701] [cursor=pointer]:
+                  - generic [ref=e702]: 
+                  - generic [ref=e703]: Favourite
+                - button "Save" [ref=e704] [cursor=pointer]:
+                  - generic [ref=e705]: 
+                  - generic [ref=e706]: Save
+              - link " Know More" [ref=e707] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/red-chief
+                - generic [ref=e708]: 
+                - text: Know More
+            - generic [ref=e709]:
+              - link "View Red Delicious details" [ref=e710] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/red-delicious
+                - generic [ref=e711]: "#30"
+                - img "Red Delicious" [ref=e713]
+                - generic [ref=e714]: Mid
+                - generic [ref=e715]: Red Delicious
+                - generic [ref=e716]: रेड डेलिशियस
+                - generic [ref=e717]:
+                  - generic [ref=e718]: 
+                  - text: 5000–9000 ft
+                - generic [ref=e720]:
+                  - generic [ref=e721]: 
+                  - text: "0"
+              - generic [ref=e722]:
+                - button "Like" [ref=e723] [cursor=pointer]:
+                  - generic [ref=e724]: 
+                  - generic [ref=e725]: Favourite
+                - button "Save" [ref=e726] [cursor=pointer]:
+                  - generic [ref=e727]: 
+                  - generic [ref=e728]: Save
+              - link " Know More" [ref=e729] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/red-delicious
+                - generic [ref=e730]: 
+                - text: Know More
+            - generic [ref=e731]:
+              - link "View Red Golden details" [ref=e732] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/red-golden
+                - generic [ref=e733]: "#31"
+                - img "Red Golden" [ref=e735]
+                - generic [ref=e736]: Mid
+                - generic [ref=e737]: Red Golden
+                - generic [ref=e738]: रेड गोल्डन
+                - generic [ref=e739]:
+                  - generic [ref=e740]: 
+                  - text: 4500–8500 ft
+                - generic [ref=e742]:
+                  - generic [ref=e743]: 
+                  - text: "0"
+              - generic [ref=e744]:
+                - button "Like" [ref=e745] [cursor=pointer]:
+                  - generic [ref=e746]: 
+                  - generic [ref=e747]: Favourite
+                - button "Save" [ref=e748] [cursor=pointer]:
+                  - generic [ref=e749]: 
+                  - generic [ref=e750]: Save
+              - link " Know More" [ref=e751] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/red-golden
+                - generic [ref=e752]: 
+                - text: Know More
+            - generic [ref=e753]:
+              - link "View Red Love details" [ref=e754] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/red-love
+                - generic [ref=e755]: "#32"
+                - img "Red Love" [ref=e757]
+                - generic [ref=e758]: Mid
+                - generic [ref=e759]: Red Love
+                - generic [ref=e760]: रेड लव
+                - generic [ref=e761]:
+                  - generic [ref=e762]: 
+                  - text: 4500–8500 ft
+                - generic [ref=e764]:
+                  - generic [ref=e765]: 
+                  - text: "0"
+              - generic [ref=e766]:
+                - button "Like" [ref=e767] [cursor=pointer]:
+                  - generic [ref=e768]: 
+                  - generic [ref=e769]: Favourite
+                - button "Save" [ref=e770] [cursor=pointer]:
+                  - generic [ref=e771]: 
+                  - generic [ref=e772]: Save
+              - link " Know More" [ref=e773] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/red-love
+                - generic [ref=e774]: 
+                - text: Know More
+            - generic [ref=e775]:
+              - link "View Red Velox details" [ref=e776] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/red-velox
+                - generic [ref=e777]: "#33"
+                - img "Red Velox" [ref=e779]
+                - generic [ref=e780]: Late
+                - generic [ref=e781]: Red Velox
+                - generic [ref=e782]: रेड वेलोक्स
+                - generic [ref=e783]:
+                  - generic [ref=e784]: 
+                  - text: 5000–8500 ft
+                - generic [ref=e786]:
+                  - generic [ref=e787]: 
+                  - text: "0"
+              - generic [ref=e788]:
+                - button "Like" [ref=e789] [cursor=pointer]:
+                  - generic [ref=e790]: 
+                  - generic [ref=e791]: Favourite
+                - button "Save" [ref=e792] [cursor=pointer]:
+                  - generic [ref=e793]: 
+                  - generic [ref=e794]: Save
+              - link " Know More" [ref=e795] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/red-velox
+                - generic [ref=e796]: 
+                - text: Know More
+            - generic [ref=e797]:
+              - link "View Redlum Gala details" [ref=e798] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/redlum-gala
+                - generic [ref=e799]: "#34"
+                - img "Redlum Gala" [ref=e801]
+                - generic [ref=e802]: Early
+                - generic [ref=e803]: Redlum Gala
+                - generic [ref=e804]: रेडलम गाला
+                - generic [ref=e805]:
+                  - generic [ref=e806]: 
+                  - text: 4000–7000 ft
+                - generic [ref=e808]:
+                  - generic [ref=e809]: 
+                  - text: "0"
+              - generic [ref=e810]:
+                - button "Like" [ref=e811] [cursor=pointer]:
+                  - generic [ref=e812]: 
+                  - generic [ref=e813]: Favourite
+                - button "Save" [ref=e814] [cursor=pointer]:
+                  - generic [ref=e815]: 
+                  - generic [ref=e816]: Save
+              - link " Know More" [ref=e817] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/redlum-gala
+                - generic [ref=e818]: 
+                - text: Know More
+            - generic [ref=e819]:
+              - link "View Rich-A-Red details" [ref=e820] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/rich-a-red
+                - generic [ref=e821]: "#35"
+                - img "Rich-A-Red" [ref=e823]
+                - generic [ref=e824]: Mid
+                - generic [ref=e825]: Rich-A-Red
+                - generic [ref=e826]: रिच-ए-रेड
+                - generic [ref=e827]:
+                  - generic [ref=e828]: 
+                  - text: 5000–9000 ft
+                - generic [ref=e830]:
+                  - generic [ref=e831]: 
+                  - text: "0"
+              - generic [ref=e832]:
+                - button "Like" [ref=e833] [cursor=pointer]:
+                  - generic [ref=e834]: 
+                  - generic [ref=e835]: Favourite
+                - button "Save" [ref=e836] [cursor=pointer]:
+                  - generic [ref=e837]: 
+                  - generic [ref=e838]: Save
+              - link " Know More" [ref=e839] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/rich-a-red
+                - generic [ref=e840]: 
+                - text: Know More
+            - generic [ref=e841]:
+              - link "View Royal Delicious details" [ref=e842] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/royal-delicious
+                - generic [ref=e843]: "#36"
+                - img "Royal Delicious" [ref=e845]
+                - generic [ref=e846]: Mid
+                - generic [ref=e847]: Royal Delicious
+                - generic [ref=e848]: रॉयल डेलिशियस
+                - generic [ref=e849]:
+                  - generic [ref=e850]: 
+                  - text: 5000–9000 ft
+                - generic [ref=e852]:
+                  - generic [ref=e853]: 
+                  - text: "0"
+              - generic [ref=e854]:
+                - button "Like" [ref=e855] [cursor=pointer]:
+                  - generic [ref=e856]: 
+                  - generic [ref=e857]: Favourite
+                - button "Save" [ref=e858] [cursor=pointer]:
+                  - generic [ref=e859]: 
+                  - generic [ref=e860]: Save
+              - link " Know More" [ref=e861] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/royal-delicious
+                - generic [ref=e862]: 
+                - text: Know More
+            - generic [ref=e863]:
+              - link "View Royal Gala details" [ref=e864] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/royal-gala
+                - generic [ref=e865]: "#37"
+                - img "Royal Gala" [ref=e867]
+                - generic [ref=e868]: Early
+                - generic [ref=e869]: Royal Gala
+                - generic [ref=e870]: रॉयल गाला
+                - generic [ref=e871]:
+                  - generic [ref=e872]: 
+                  - text: 4000–7000 ft
+                - generic [ref=e874]:
+                  - generic [ref=e875]: 
+                  - text: "0"
+              - generic [ref=e876]:
+                - button "Like" [ref=e877] [cursor=pointer]:
+                  - generic [ref=e878]: 
+                  - generic [ref=e879]: Favourite
+                - button "Save" [ref=e880] [cursor=pointer]:
+                  - generic [ref=e881]: 
+                  - generic [ref=e882]: Save
+              - link " Know More" [ref=e883] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/royal-gala
+                - generic [ref=e884]: 
+                - text: Know More
+            - generic [ref=e885]:
+              - link "View Royal Vance details" [ref=e886] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/royal-vance
+                - generic [ref=e887]: "#38"
+                - img "Royal Vance" [ref=e889]
+                - generic [ref=e890]: Mid
+                - generic [ref=e891]: Royal Vance
+                - generic [ref=e892]: रॉयल वेंस
+                - generic [ref=e893]:
+                  - generic [ref=e894]: 
+                  - text: 5000–9000 ft
+                - generic [ref=e896]:
+                  - generic [ref=e897]: 
+                  - text: "0"
+              - generic [ref=e898]:
+                - button "Like" [ref=e899] [cursor=pointer]:
+                  - generic [ref=e900]: 
+                  - generic [ref=e901]: Favourite
+                - button "Save" [ref=e902] [cursor=pointer]:
+                  - generic [ref=e903]: 
+                  - generic [ref=e904]: Save
+              - link " Know More" [ref=e905] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/royal-vance
+                - generic [ref=e906]: 
+                - text: Know More
+            - generic [ref=e907]:
+              - link "View Scarlet Spur 2 details" [ref=e908] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/scarlet-spur-2
+                - generic [ref=e909]: "#39"
+                - img "Scarlet Spur 2" [ref=e911]
+                - generic [ref=e912]: Mid
+                - generic [ref=e913]: Scarlet Spur 2
+                - generic [ref=e914]: स्कारलेट स्पर 2
+                - generic [ref=e915]:
+                  - generic [ref=e916]: 
+                  - text: 5000–9000 ft
+                - generic [ref=e918]:
+                  - generic [ref=e919]: 
+                  - text: "0"
+              - generic [ref=e920]:
+                - button "Like" [ref=e921] [cursor=pointer]:
+                  - generic [ref=e922]: 
+                  - generic [ref=e923]: Favourite
+                - button "Save" [ref=e924] [cursor=pointer]:
+                  - generic [ref=e925]: 
+                  - generic [ref=e926]: Save
+              - link " Know More" [ref=e927] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/scarlet-spur-2
+                - generic [ref=e928]: 
+                - text: Know More
+            - generic [ref=e929]:
+              - link "View Schniga Schnico Red Gala details" [ref=e930] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/schniga-schnico-red-gala
+                - generic [ref=e931]: "#40"
+                - img "Schniga Schnico Red Gala" [ref=e933]
+                - generic [ref=e934]: Early
+                - generic [ref=e935]: Schniga Schnico Red Gala
+                - generic [ref=e936]: श्निगा श्निको रेड गाला
+                - generic [ref=e937]:
+                  - generic [ref=e938]: 
+                  - text: 4000–7000 ft
+                - generic [ref=e940]:
+                  - generic [ref=e941]: 
+                  - text: "0"
+              - generic [ref=e942]:
+                - button "Like" [ref=e943] [cursor=pointer]:
+                  - generic [ref=e944]: 
+                  - generic [ref=e945]: Favourite
+                - button "Save" [ref=e946] [cursor=pointer]:
+                  - generic [ref=e947]: 
+                  - generic [ref=e948]: Save
+              - link " Know More" [ref=e949] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/schniga-schnico-red-gala
+                - generic [ref=e950]: 
+                - text: Know More
+            - generic [ref=e951]:
+              - link "View Starkrimson Delicious details" [ref=e952] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/starkrimson-delicious
+                - generic [ref=e953]: "#41"
+                - img "Starkrimson Delicious" [ref=e955]
+                - generic [ref=e956]: Mid
+                - generic [ref=e957]: Starkrimson Delicious
+                - generic [ref=e958]: स्टार्क्रिमसन डेलिशियस
+                - generic [ref=e959]:
+                  - generic [ref=e960]: 
+                  - text: 5000–9000 ft
+                - generic [ref=e962]:
+                  - generic [ref=e963]: 
+                  - text: "0"
+              - generic [ref=e964]:
+                - button "Like" [ref=e965] [cursor=pointer]:
+                  - generic [ref=e966]: 
+                  - generic [ref=e967]: Favourite
+                - button "Save" [ref=e968] [cursor=pointer]:
+                  - generic [ref=e969]: 
+                  - generic [ref=e970]: Save
+              - link " Know More" [ref=e971] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/starkrimson-delicious
+                - generic [ref=e972]: 
+                - text: Know More
+            - generic [ref=e973]:
+              - link "View Super Chief details" [ref=e974] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/super-chief
+                - generic [ref=e975]: "#42"
+                - img "Super Chief" [ref=e977]
+                - generic [ref=e978]: Mid
+                - generic [ref=e979]: Super Chief
+                - generic [ref=e980]: सुपर चीफ
+                - generic [ref=e981]:
+                  - generic [ref=e982]: 
+                  - text: 5000–9000 ft
+                - generic [ref=e984]:
+                  - generic [ref=e985]: 
+                  - text: "0"
+              - generic [ref=e986]:
+                - button "Like" [ref=e987] [cursor=pointer]:
+                  - generic [ref=e988]: 
+                  - generic [ref=e989]: Favourite
+                - button "Save" [ref=e990] [cursor=pointer]:
+                  - generic [ref=e991]: 
+                  - generic [ref=e992]: Save
+              - link " Know More" [ref=e993] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/super-chief
+                - generic [ref=e994]: 
+                - text: Know More
+            - generic [ref=e995]:
+              - link "View T Rex Gala details" [ref=e996] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/t-rex-gala
+                - generic [ref=e997]: "#43"
+                - img "T Rex Gala" [ref=e999]
+                - generic [ref=e1000]: Early
+                - generic [ref=e1001]: T Rex Gala
+                - generic [ref=e1002]: टी रेक्स गाला
+                - generic [ref=e1003]:
+                  - generic [ref=e1004]: 
+                  - text: 4000–7000 ft
+                - generic [ref=e1006]:
+                  - generic [ref=e1007]: 
+                  - text: "0"
+              - generic [ref=e1008]:
+                - button "Like" [ref=e1009] [cursor=pointer]:
+                  - generic [ref=e1010]: 
+                  - generic [ref=e1011]: Favourite
+                - button "Save" [ref=e1012] [cursor=pointer]:
+                  - generic [ref=e1013]: 
+                  - generic [ref=e1014]: Save
+              - link " Know More" [ref=e1015] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/t-rex-gala
+                - generic [ref=e1016]: 
+                - text: Know More
+            - generic [ref=e1017]:
+              - link "View Tide Man details" [ref=e1018] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/tide-man
+                - generic [ref=e1019]: "#44"
+                - img "Tide Man" [ref=e1021]
+                - generic [ref=e1022]: Mid
+                - generic [ref=e1023]: Tide Man
+                - generic [ref=e1024]: टाइड मैन
+                - generic [ref=e1025]:
+                  - generic [ref=e1026]: 
+                  - text: 4500–8500 ft
+                - generic [ref=e1028]:
+                  - generic [ref=e1029]: 
+                  - text: "0"
+              - generic [ref=e1030]:
+                - button "Like" [ref=e1031] [cursor=pointer]:
+                  - generic [ref=e1032]: 
+                  - generic [ref=e1033]: Favourite
+                - button "Save" [ref=e1034] [cursor=pointer]:
+                  - generic [ref=e1035]: 
+                  - generic [ref=e1036]: Save
+              - link " Know More" [ref=e1037] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/tide-man
+                - generic [ref=e1038]: 
+                - text: Know More
+            - generic [ref=e1039]:
+              - link "View Top Red details" [ref=e1040] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/top-red
+                - generic [ref=e1041]: "#45"
+                - img "Top Red" [ref=e1043]
+                - generic [ref=e1044]: Mid
+                - generic [ref=e1045]: Top Red
+                - generic [ref=e1046]: टॉप रेड
+                - generic [ref=e1047]:
+                  - generic [ref=e1048]: 
+                  - text: 5000–9000 ft
+                - generic [ref=e1050]:
+                  - generic [ref=e1051]: 
+                  - text: "0"
+              - generic [ref=e1052]:
+                - button "Like" [ref=e1053] [cursor=pointer]:
+                  - generic [ref=e1054]: 
+                  - generic [ref=e1055]: Favourite
+                - button "Save" [ref=e1056] [cursor=pointer]:
+                  - generic [ref=e1057]: 
+                  - generic [ref=e1058]: Save
+              - link " Know More" [ref=e1059] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/top-red
+                - generic [ref=e1060]: 
+                - text: Know More
+            - generic [ref=e1061]:
+              - link "View Tropic Sweet details" [ref=e1062] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/tropic-sweet
+                - generic [ref=e1063]: "#46"
+                - img "Tropic Sweet" [ref=e1065]
+                - generic [ref=e1066]: Early
+                - generic [ref=e1067]: Tropic Sweet
+                - generic [ref=e1068]: ट्रॉपिक स्वीट
+                - generic [ref=e1069]:
+                  - generic [ref=e1070]: 
+                  - text: 1500–5000 ft
+                - generic [ref=e1072]:
+                  - generic [ref=e1073]: 
+                  - text: "0"
+              - generic [ref=e1074]:
+                - button "Like" [ref=e1075] [cursor=pointer]:
+                  - generic [ref=e1076]: 
+                  - generic [ref=e1077]: Favourite
+                - button "Save" [ref=e1078] [cursor=pointer]:
+                  - generic [ref=e1079]: 
+                  - generic [ref=e1080]: Save
+              - link " Know More" [ref=e1081] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/tropic-sweet
+                - generic [ref=e1082]: 
+                - text: Know More
+            - generic [ref=e1083]:
+              - link "View Zad One (Fenzad) details" [ref=e1084] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/zad-one-fenzad
+                - generic [ref=e1085]: "#47"
+                - img "Zad One (Fenzad)" [ref=e1087]
+                - generic [ref=e1088]: Late
+                - generic [ref=e1089]: Zad One (Fenzad)
+                - generic [ref=e1090]: जैड वन (फेनजैड)
+                - generic [ref=e1091]:
+                  - generic [ref=e1092]: 
+                  - text: 5000–8500 ft
+                - generic [ref=e1094]:
+                  - generic [ref=e1095]: 
+                  - text: "0"
+              - generic [ref=e1096]:
+                - button "Like" [ref=e1097] [cursor=pointer]:
+                  - generic [ref=e1098]: 
+                  - generic [ref=e1099]: Favourite
+                - button "Save" [ref=e1100] [cursor=pointer]:
+                  - generic [ref=e1101]: 
+                  - generic [ref=e1102]: Save
+              - link " Know More" [ref=e1103] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/zad-one-fenzad
+                - generic [ref=e1104]: 
+                - text: Know More
+          - link "View all Apple varieties" [ref=e1106] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/varieties/by-fruit/apple
+      - generic [ref=e1108]:
+        - generic [ref=e1109] [cursor=pointer]:
+          - generic [ref=e1110]: 
+          - heading "Common Diseases" [level=2] [ref=e1111]
+        - generic [ref=e1113]:
+          - generic [ref=e1114]:
+            - generic [ref=e1115]:
+              - generic [ref=e1117]: 
+              - generic [ref=e1118]:
+                - generic [ref=e1119]: 
+                - text: High
+            - generic [ref=e1120]:
+              - paragraph [ref=e1121]: Alternaria Leaf Spot
+              - paragraph [ref=e1122]: ऑल्टरनेरिया लीफ स्पॉट
+              - paragraph [ref=e1123]: Alternaria Leaf Spot causes brown circular spots on mature leaves, leading to yellowing and premature leaf drop.
+            - generic [ref=e1124]:
+              - button "Report Sighting" [ref=e1125] [cursor=pointer]:
+                - generic [ref=e1126]: 
+                - generic [ref=e1127]: Seen Here
+              - button "Watch" [ref=e1128] [cursor=pointer]:
+                - generic [ref=e1129]: 
+                - generic [ref=e1130]: Watch
+            - link " Know More" [ref=e1131] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/alternaria-leaf-spot
+              - generic [ref=e1132]: 
+              - text: Know More
+          - generic [ref=e1133]:
+            - generic [ref=e1134]:
+              - generic [ref=e1136]: 
+              - generic [ref=e1137]:
+                - generic [ref=e1138]: 
+                - text: Medium
+            - generic [ref=e1139]:
+              - paragraph [ref=e1140]: Apple Blossom Thrips
+              - paragraph [ref=e1141]: सेब फूल थ्रिप्स
+              - paragraph [ref=e1142]: Blossom thrips feed on flower parts and young fruit, causing silvery scarring and deformation.
+            - generic [ref=e1143]:
+              - button "Report Sighting" [ref=e1144] [cursor=pointer]:
+                - generic [ref=e1145]: 
+                - generic [ref=e1146]: Seen Here
+              - button "Watch" [ref=e1147] [cursor=pointer]:
+                - generic [ref=e1148]: 
+                - generic [ref=e1149]: Watch
+            - link " Know More" [ref=e1150] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-blossom-thrips
+              - generic [ref=e1151]: 
+              - text: Know More
+          - generic [ref=e1152]:
+            - generic [ref=e1153]:
+              - generic [ref=e1155]: 
+              - generic [ref=e1156]:
+                - generic [ref=e1157]: 
+                - text: High
+            - generic [ref=e1158]:
+              - paragraph [ref=e1159]: Apple Clearwing Borer
+              - paragraph [ref=e1160]: सेब क्लियरविंग बोरर
+              - paragraph [ref=e1161]: Clearwing borer larvae tunnel under bark, weakening scaffold limbs and trunks. Infested trees show sawdust-like frass and oozing sap.
+            - generic [ref=e1162]:
+              - button "Report Sighting" [ref=e1163] [cursor=pointer]:
+                - generic [ref=e1164]: 
+                - generic [ref=e1165]: Seen Here
+              - button "Watch" [ref=e1166] [cursor=pointer]:
+                - generic [ref=e1167]: 
+                - generic [ref=e1168]: Watch
+            - link " Know More" [ref=e1169] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-clearwing-borer
+              - generic [ref=e1170]: 
+              - text: Know More
+          - generic [ref=e1171]:
+            - generic [ref=e1172]:
+              - generic [ref=e1174]: 
+              - generic [ref=e1175]:
+                - generic [ref=e1176]: 
+                - text: Medium
+            - generic [ref=e1177]:
+              - paragraph [ref=e1178]: Apple Fruit Moth
+              - paragraph [ref=e1179]: सेब फ्रूट मोथ
+              - paragraph [ref=e1180]: Fruit moth larvae bore into young apples, causing fruit drop and scarring.
+            - generic [ref=e1181]:
+              - button "Report Sighting" [ref=e1182] [cursor=pointer]:
+                - generic [ref=e1183]: 
+                - generic [ref=e1184]: Seen Here
+              - button "Watch" [ref=e1185] [cursor=pointer]:
+                - generic [ref=e1186]: 
+                - generic [ref=e1187]: Watch
+            - link " Know More" [ref=e1188] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-fruit-moth
+              - generic [ref=e1189]: 
+              - text: Know More
+          - generic [ref=e1190]:
+            - generic [ref=e1191]:
+              - generic [ref=e1193]: 
+              - generic [ref=e1194]:
+                - generic [ref=e1195]: 
+                - text: Low
+            - generic [ref=e1196]:
+              - paragraph [ref=e1197]: Apple Leaf Miner
+              - paragraph [ref=e1198]: सेब लीफ माइनर
+              - paragraph [ref=e1199]: Leaf miner larvae tunnel inside leaves, creating winding mines that reduce leaf function.
+            - generic [ref=e1200]:
+              - button "Report Sighting" [ref=e1201] [cursor=pointer]:
+                - generic [ref=e1202]: 
+                - generic [ref=e1203]: Seen Here
+              - button "Watch" [ref=e1204] [cursor=pointer]:
+                - generic [ref=e1205]: 
+                - generic [ref=e1206]: Watch
+            - link " Know More" [ref=e1207] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-leaf-miner
+              - generic [ref=e1208]: 
+              - text: Know More
+          - generic [ref=e1209]:
+            - generic [ref=e1210]:
+              - generic [ref=e1212]: 
+              - generic [ref=e1213]:
+                - generic [ref=e1214]: 
+                - text: High
+            - generic [ref=e1215]:
+              - paragraph [ref=e1216]: Apple Root Borer
+              - paragraph [ref=e1217]: सेब रूट बोरर
+              - paragraph [ref=e1218]: Root borer grubs feed on roots, leading to yellowing, wilting and eventual death of trees.
+            - generic [ref=e1219]:
+              - button "Report Sighting" [ref=e1220] [cursor=pointer]:
+                - generic [ref=e1221]: 
+                - generic [ref=e1222]: Seen Here
+              - button "Watch" [ref=e1223] [cursor=pointer]:
+                - generic [ref=e1224]: 
+                - generic [ref=e1225]: Watch
+            - link " Know More" [ref=e1226] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-root-borer
+              - generic [ref=e1227]: 
+              - text: Know More
+          - generic [ref=e1228]:
+            - generic [ref=e1229]:
+              - generic [ref=e1231]: 
+              - generic [ref=e1232]:
+                - generic [ref=e1233]: 
+                - text: Critical
+            - generic [ref=e1234]:
+              - paragraph [ref=e1235]: Apple Scab
+              - paragraph [ref=e1236]: सेब का दाग
+              - paragraph [ref=e1237]: Apple Scab is the most devastating fungal disease of apples in Himachal Pradesh, affecting leaves and fruit during cool, wet spring weather.
+            - generic [ref=e1238]:
+              - button "Report Sighting" [ref=e1239] [cursor=pointer]:
+                - generic [ref=e1240]: 
+                - generic [ref=e1241]: Seen Here
+              - button "Watch" [ref=e1242] [cursor=pointer]:
+                - generic [ref=e1243]: 
+                - generic [ref=e1244]: Watch
+            - link " Know More" [ref=e1245] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-scab
+              - generic [ref=e1246]: 
+              - text: Know More
+          - generic [ref=e1247]:
+            - generic [ref=e1248]:
+              - generic [ref=e1250]: 
+              - generic [ref=e1251]:
+                - generic [ref=e1252]: 
+                - text: Medium
+            - generic [ref=e1253]:
+              - paragraph [ref=e1254]: Bitter Pit
+              - paragraph [ref=e1255]: बिटर पिट
+              - paragraph [ref=e1256]: Bitter Pit is a calcium deficiency disorder appearing as small sunken spots on fruit surface, common in vigorous trees with high nitrogen.
+            - generic [ref=e1257]:
+              - button "Report Sighting" [ref=e1258] [cursor=pointer]:
+                - generic [ref=e1259]: 
+                - generic [ref=e1260]: Seen Here
+              - button "Watch" [ref=e1261] [cursor=pointer]:
+                - generic [ref=e1262]: 
+                - generic [ref=e1263]: Watch
+            - link " Know More" [ref=e1264] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/bitter-pit
+              - generic [ref=e1265]: 
+              - text: Know More
+          - generic [ref=e1266]:
+            - generic [ref=e1267]:
+              - generic [ref=e1269]: 
+              - generic [ref=e1270]:
+                - generic [ref=e1271]: 
+                - text: High
+            - generic [ref=e1272]:
+              - paragraph [ref=e1273]: Bitter Rot
+              - paragraph [ref=e1274]: कड़वा सड़न
+              - paragraph [ref=e1275]: Bitter Rot causes sunken lesions with pink spore masses, common in warm, humid regions.
+            - generic [ref=e1276]:
+              - button "Report Sighting" [ref=e1277] [cursor=pointer]:
+                - generic [ref=e1278]: 
+                - generic [ref=e1279]: Seen Here
+              - button "Watch" [ref=e1280] [cursor=pointer]:
+                - generic [ref=e1281]: 
+                - generic [ref=e1282]: Watch
+            - link " Know More" [ref=e1283] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/bitter-rot
+              - generic [ref=e1284]: 
+              - text: Know More
+          - generic [ref=e1285]:
+            - generic [ref=e1286]:
+              - generic [ref=e1288]: 
+              - generic [ref=e1289]:
+                - generic [ref=e1290]: 
+                - text: High
+            - generic [ref=e1291]:
+              - paragraph [ref=e1292]: Black Rot
+              - paragraph [ref=e1293]: ब्लैक रोट
+              - paragraph [ref=e1294]: Black Rot (also associated with Black Canker) causes firm, shrivelled fruit rot and cankers on branches, often entering through wounds.
+            - generic [ref=e1295]:
+              - button "Report Sighting" [ref=e1296] [cursor=pointer]:
+                - generic [ref=e1297]: 
+                - generic [ref=e1298]: Seen Here
+              - button "Watch" [ref=e1299] [cursor=pointer]:
+                - generic [ref=e1300]: 
+                - generic [ref=e1301]: Watch
+            - link " Know More" [ref=e1302] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/black-rot
+              - generic [ref=e1303]: 
+              - text: Know More
+          - generic [ref=e1304]:
+            - generic [ref=e1305]:
+              - generic [ref=e1307]: 
+              - generic [ref=e1308]:
+                - generic [ref=e1309]: 
+                - text: Medium
+            - generic [ref=e1310]:
+              - paragraph [ref=e1311]: Brown Mite
+              - paragraph [ref=e1312]: ब्राउन माइट
+              - paragraph [ref=e1313]: Brown mite feeds on leaves early in the season, causing silvering and reduced shoot growth.
+            - generic [ref=e1314]:
+              - button "Report Sighting" [ref=e1315] [cursor=pointer]:
+                - generic [ref=e1316]: 
+                - generic [ref=e1317]: Seen Here
+              - button "Watch" [ref=e1318] [cursor=pointer]:
+                - generic [ref=e1319]: 
+                - generic [ref=e1320]: Watch
+            - link " Know More" [ref=e1321] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/brown-mite
+              - generic [ref=e1322]: 
+              - text: Know More
+          - generic [ref=e1323]:
+            - generic [ref=e1324]:
+              - generic [ref=e1326]: 
+              - generic [ref=e1327]:
+                - generic [ref=e1328]: 
+                - text: High
+            - generic [ref=e1329]:
+              - paragraph [ref=e1330]: Brown Rot
+              - paragraph [ref=e1331]: भूरा सड़न
+              - paragraph [ref=e1332]: Brown Rot causes soft brown decay of fruit and blossom blight, with characteristic tan spore masses.
+            - generic [ref=e1333]:
+              - button "Report Sighting" [ref=e1334] [cursor=pointer]:
+                - generic [ref=e1335]: 
+                - generic [ref=e1336]: Seen Here
+              - button "Watch" [ref=e1337] [cursor=pointer]:
+                - generic [ref=e1338]: 
+                - generic [ref=e1339]: Watch
+            - link " Know More" [ref=e1340] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/brown-rot
+              - generic [ref=e1341]: 
+              - text: Know More
+          - generic [ref=e1342]:
+            - generic [ref=e1343]:
+              - generic [ref=e1345]: 
+              - generic [ref=e1346]:
+                - generic [ref=e1347]: 
+                - text: Critical
+            - generic [ref=e1348]:
+              - paragraph [ref=e1349]: Codling Moth
+              - paragraph [ref=e1350]: कोडलिंग मोथ
+              - paragraph [ref=e1351]: Codling Moth larvae tunnel into developing fruits, leaving frass-filled holes. Multiple generations per season cause continuous damage.
+            - generic [ref=e1352]:
+              - button "Report Sighting" [ref=e1353] [cursor=pointer]:
+                - generic [ref=e1354]: 
+                - generic [ref=e1355]: Seen Here
+              - button "Watch" [ref=e1356] [cursor=pointer]:
+                - generic [ref=e1357]: 
+                - generic [ref=e1358]: Watch
+            - link " Know More" [ref=e1359] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/codling-moth
+              - generic [ref=e1360]: 
+              - text: Know More
+          - generic [ref=e1361]:
+            - generic [ref=e1362]:
+              - generic [ref=e1364]: 
+              - generic [ref=e1365]:
+                - generic [ref=e1366]: 
+                - text: Critical
+            - generic [ref=e1367]:
+              - paragraph [ref=e1368]: Collar Rot
+              - paragraph [ref=e1369]: कॉलर रोट
+              - paragraph [ref=e1370]: Collar Rot attacks the trunk at ground level, girdling the tree and causing rapid decline in poorly drained soils.
+            - generic [ref=e1371]:
+              - button "Report Sighting" [ref=e1372] [cursor=pointer]:
+                - generic [ref=e1373]: 
+                - generic [ref=e1374]: Seen Here
+              - button "Watch" [ref=e1375] [cursor=pointer]:
+                - generic [ref=e1376]: 
+                - generic [ref=e1377]: Watch
+            - link " Know More" [ref=e1378] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/collar-rot
+              - generic [ref=e1379]: 
+              - text: Know More
+          - generic [ref=e1380]:
+            - generic [ref=e1381]:
+              - generic [ref=e1383]: 
+              - generic [ref=e1384]:
+                - generic [ref=e1385]: 
+                - text: Medium
+            - generic [ref=e1386]:
+              - paragraph [ref=e1387]: Cork Spot
+              - paragraph [ref=e1388]: कॉर्क स्पॉट
+              - paragraph [ref=e1389]: Cork Spot appears as small corky areas on fruit skin, caused by calcium deficiency and irregular water supply.
+            - generic [ref=e1390]:
+              - button "Report Sighting" [ref=e1391] [cursor=pointer]:
+                - generic [ref=e1392]: 
+                - generic [ref=e1393]: Seen Here
+              - button "Watch" [ref=e1394] [cursor=pointer]:
+                - generic [ref=e1395]: 
+                - generic [ref=e1396]: Watch
+            - link " Know More" [ref=e1397] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/cork-spot
+              - generic [ref=e1398]: 
+              - text: Know More
+          - generic [ref=e1399]:
+            - generic [ref=e1400]:
+              - generic [ref=e1402]: 
+              - generic [ref=e1403]:
+                - generic [ref=e1404]: 
+                - text: Medium
+            - generic [ref=e1405]:
+              - paragraph [ref=e1406]: Crown Gall
+              - paragraph [ref=e1407]: क्राउन गॉल
+              - paragraph [ref=e1408]: Crown Gall causes rough woody galls at the crown and on roots, interfering with nutrient and water flow.
+            - generic [ref=e1409]:
+              - button "Report Sighting" [ref=e1410] [cursor=pointer]:
+                - generic [ref=e1411]: 
+                - generic [ref=e1412]: Seen Here
+              - button "Watch" [ref=e1413] [cursor=pointer]:
+                - generic [ref=e1414]: 
+                - generic [ref=e1415]: Watch
+            - link " Know More" [ref=e1416] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/crown-gall
+              - generic [ref=e1417]: 
+              - text: Know More
+          - generic [ref=e1418]:
+            - generic [ref=e1419]:
+              - generic [ref=e1421]: 
+              - generic [ref=e1422]:
+                - generic [ref=e1423]: 
+                - text: High
+            - generic [ref=e1424]:
+              - paragraph [ref=e1425]: European Canker
+              - paragraph [ref=e1426]: यूरोपीय कैंकर
+              - paragraph [ref=e1427]: European Canker causes sunken lesions on branches and fruit, leading to dieback in young trees.
+            - generic [ref=e1428]:
+              - button "Report Sighting" [ref=e1429] [cursor=pointer]:
+                - generic [ref=e1430]: 
+                - generic [ref=e1431]: Seen Here
+              - button "Watch" [ref=e1432] [cursor=pointer]:
+                - generic [ref=e1433]: 
+                - generic [ref=e1434]: Watch
+            - link " Know More" [ref=e1435] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/european-canker
+              - generic [ref=e1436]: 
+              - text: Know More
+          - generic [ref=e1437]:
+            - generic [ref=e1438]:
+              - generic [ref=e1440]: 
+              - generic [ref=e1441]:
+                - generic [ref=e1442]: 
+                - text: High
+            - generic [ref=e1443]:
+              - paragraph [ref=e1444]: European Red Mite
+              - paragraph [ref=e1445]: यूरोपियन रेड माइट
+              - paragraph [ref=e1446]: European Red Mite sucks cell contents from leaves, causing bronze discoloration, reduced vigour and fruit size.
+            - generic [ref=e1447]:
+              - button "Report Sighting" [ref=e1448] [cursor=pointer]:
+                - generic [ref=e1449]: 
+                - generic [ref=e1450]: Seen Here
+              - button "Watch" [ref=e1451] [cursor=pointer]:
+                - generic [ref=e1452]: 
+                - generic [ref=e1453]: Watch
+            - link " Know More" [ref=e1454] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/european-red-mite
+              - generic [ref=e1455]: 
+              - text: Know More
+          - generic [ref=e1456]:
+            - generic [ref=e1457]:
+              - generic [ref=e1459]: 
+              - generic [ref=e1460]:
+                - generic [ref=e1461]: 
+                - text: Critical
+            - generic [ref=e1462]:
+              - paragraph [ref=e1463]: Fire Blight
+              - paragraph [ref=e1464]: फायर ब्लाइट
+              - paragraph [ref=e1465]: Fire Blight is a highly contagious bacterial disease with blackened, scorched appearance, spreading rapidly during bloom.
+            - generic [ref=e1466]:
+              - button "Report Sighting" [ref=e1467] [cursor=pointer]:
+                - generic [ref=e1468]: 
+                - generic [ref=e1469]: Seen Here
+              - button "Watch" [ref=e1470] [cursor=pointer]:
+                - generic [ref=e1471]: 
+                - generic [ref=e1472]: Watch
+            - link " Know More" [ref=e1473] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/fire-blight
+              - generic [ref=e1474]: 
+              - text: Know More
+          - generic [ref=e1475]:
+            - generic [ref=e1476]:
+              - generic [ref=e1478]: 
+              - generic [ref=e1479]:
+                - generic [ref=e1480]: 
+                - text: High
+            - generic [ref=e1481]:
+              - paragraph [ref=e1482]: Fruit Borer
+              - paragraph [ref=e1483]: फ्रूट बोरर
+              - paragraph [ref=e1484]: Fruit borer caterpillars tunnel into maturing apples, causing rot and premature fruit drop.
+            - generic [ref=e1485]:
+              - button "Report Sighting" [ref=e1486] [cursor=pointer]:
+                - generic [ref=e1487]: 
+                - generic [ref=e1488]: Seen Here
+              - button "Watch" [ref=e1489] [cursor=pointer]:
+                - generic [ref=e1490]: 
+                - generic [ref=e1491]: Watch
+            - link " Know More" [ref=e1492] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/fruit-borer
+              - generic [ref=e1493]: 
+              - text: Know More
+          - generic [ref=e1494]:
+            - generic [ref=e1495]:
+              - generic [ref=e1497]: 
+              - generic [ref=e1498]:
+                - generic [ref=e1499]: 
+                - text: Medium
+            - generic [ref=e1500]:
+              - paragraph [ref=e1501]: Fruit Cracking
+              - paragraph [ref=e1502]: फल फटना
+              - paragraph [ref=e1503]: Fruit Cracking occurs due to rapid water uptake or temperature fluctuations, causing skin splits.
+            - generic [ref=e1504]:
+              - button "Report Sighting" [ref=e1505] [cursor=pointer]:
+                - generic [ref=e1506]: 
+                - generic [ref=e1507]: Seen Here
+              - button "Watch" [ref=e1508] [cursor=pointer]:
+                - generic [ref=e1509]: 
+                - generic [ref=e1510]: Watch
+            - link " Know More" [ref=e1511] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/fruit-cracking
+              - generic [ref=e1512]: 
+              - text: Know More
+          - generic [ref=e1513]:
+            - generic [ref=e1514]:
+              - generic [ref=e1516]: 
+              - generic [ref=e1517]:
+                - generic [ref=e1518]: 
+                - text: Medium
+            - generic [ref=e1519]:
+              - paragraph [ref=e1520]: Green Apple Aphid
+              - paragraph [ref=e1521]: हरा सेब एफिड
+              - paragraph [ref=e1522]: Green Apple Aphid feeds on young leaves and shoots, causing curling, yellowing and honeydew secretion.
+            - generic [ref=e1523]:
+              - button "Report Sighting" [ref=e1524] [cursor=pointer]:
+                - generic [ref=e1525]: 
+                - generic [ref=e1526]: Seen Here
+              - button "Watch" [ref=e1527] [cursor=pointer]:
+                - generic [ref=e1528]: 
+                - generic [ref=e1529]: Watch
+            - link " Know More" [ref=e1530] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/green-apple-aphid
+              - generic [ref=e1531]: 
+              - text: Know More
+          - generic [ref=e1532]:
+            - generic [ref=e1533]:
+              - generic [ref=e1535]: 
+              - generic [ref=e1536]:
+                - generic [ref=e1537]: 
+                - text: Medium
+            - generic [ref=e1538]:
+              - paragraph [ref=e1539]: Gypsy Moth
+              - paragraph [ref=e1540]: जिप्सी मॉथ
+              - paragraph [ref=e1541]: Gypsy moth caterpillars feed on leaves, causing severe defoliation and reduced tree vigour.
+            - generic [ref=e1542]:
+              - button "Report Sighting" [ref=e1543] [cursor=pointer]:
+                - generic [ref=e1544]: 
+                - generic [ref=e1545]: Seen Here
+              - button "Watch" [ref=e1546] [cursor=pointer]:
+                - generic [ref=e1547]: 
+                - generic [ref=e1548]: Watch
+            - link " Know More" [ref=e1549] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/gypsy-moth
+              - generic [ref=e1550]: 
+              - text: Know More
+          - generic [ref=e1551]:
+            - generic [ref=e1552]:
+              - generic [ref=e1554]: 
+              - generic [ref=e1555]:
+                - generic [ref=e1556]: 
+                - text: Medium
+            - generic [ref=e1557]:
+              - paragraph [ref=e1558]: Internal Browning
+              - paragraph [ref=e1559]: आंतरिक भूरापन
+              - paragraph [ref=e1560]: Internal Browning causes brown discolouration of flesh during long-term storage, linked to low oxygen and senescence.
+            - generic [ref=e1561]:
+              - button "Report Sighting" [ref=e1562] [cursor=pointer]:
+                - generic [ref=e1563]: 
+                - generic [ref=e1564]: Seen Here
+              - button "Watch" [ref=e1565] [cursor=pointer]:
+                - generic [ref=e1566]: 
+                - generic [ref=e1567]: Watch
+            - link " Know More" [ref=e1568] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/internal-browning
+              - generic [ref=e1569]: 
+              - text: Know More
+          - generic [ref=e1570]:
+            - generic [ref=e1571]:
+              - generic [ref=e1573]: 
+              - generic [ref=e1574]:
+                - generic [ref=e1575]: 
+                - text: Medium
+            - generic [ref=e1576]:
+              - paragraph [ref=e1577]: Leaf Roller
+              - paragraph [ref=e1578]: लीफ रोलर
+              - paragraph [ref=e1579]: Leaf roller caterpillars roll leaves with silk and feed inside, also scarring young fruit.
+            - generic [ref=e1580]:
+              - button "Report Sighting" [ref=e1581] [cursor=pointer]:
+                - generic [ref=e1582]: 
+                - generic [ref=e1583]: Seen Here
+              - button "Watch" [ref=e1584] [cursor=pointer]:
+                - generic [ref=e1585]: 
+                - generic [ref=e1586]: Watch
+            - link " Know More" [ref=e1587] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/leaf-roller
+              - generic [ref=e1588]: 
+              - text: Know More
+          - generic [ref=e1589]:
+            - generic [ref=e1590]:
+              - generic [ref=e1592]: 
+              - generic [ref=e1593]:
+                - generic [ref=e1594]: 
+                - text: Medium
+            - generic [ref=e1595]:
+              - paragraph [ref=e1596]: Lenticel Breakdown
+              - paragraph [ref=e1597]: लेंटिसेल ब्रेकडाउन
+              - paragraph [ref=e1598]: Lenticel Breakdown appears as dark spots around lenticels after storage, caused by environmental stress and calcium imbalance.
+            - generic [ref=e1599]:
+              - button "Report Sighting" [ref=e1600] [cursor=pointer]:
+                - generic [ref=e1601]: 
+                - generic [ref=e1602]: Seen Here
+              - button "Watch" [ref=e1603] [cursor=pointer]:
+                - generic [ref=e1604]: 
+                - generic [ref=e1605]: Watch
+            - link " Know More" [ref=e1606] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/lenticel-breakdown
+              - generic [ref=e1607]: 
+              - text: Know More
+          - generic [ref=e1608]:
+            - generic [ref=e1609]:
+              - generic [ref=e1611]: 
+              - generic [ref=e1612]:
+                - generic [ref=e1613]: 
+                - text: High
+            - generic [ref=e1614]:
+              - paragraph [ref=e1615]: Marssonina Leaf Blotch
+              - paragraph [ref=e1616]: मार्सोनिना लीफ ब्लॉच
+              - paragraph [ref=e1617]: Marssonina Leaf Blotch causes dark brown to black spots on leaves, leading to premature defoliation and reduced fruit quality.
+            - generic [ref=e1618]:
+              - button "Report Sighting" [ref=e1619] [cursor=pointer]:
+                - generic [ref=e1620]: 
+                - generic [ref=e1621]: Seen Here
+              - button "Watch" [ref=e1622] [cursor=pointer]:
+                - generic [ref=e1623]: 
+                - generic [ref=e1624]: Watch
+            - link " Know More" [ref=e1625] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/marssonina-leaf-blotch
+              - generic [ref=e1626]: 
+              - text: Know More
+          - generic [ref=e1627]:
+            - generic [ref=e1628]:
+              - generic [ref=e1630]: 
+              - generic [ref=e1631]:
+                - generic [ref=e1632]: 
+                - text: High
+            - generic [ref=e1633]:
+              - paragraph [ref=e1634]: Powdery Mildew
+              - paragraph [ref=e1635]: पाउडरी मिल्ड्यू
+              - paragraph [ref=e1636]: Powdery Mildew appears as white powdery growth on leaves, shoots and flowers, thriving in warm, dry conditions.
+            - generic [ref=e1637]:
+              - button "Report Sighting" [ref=e1638] [cursor=pointer]:
+                - generic [ref=e1639]: 
+                - generic [ref=e1640]: Seen Here
+              - button "Watch" [ref=e1641] [cursor=pointer]:
+                - generic [ref=e1642]: 
+                - generic [ref=e1643]: Watch
+            - link " Know More" [ref=e1644] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/powdery-mildew
+              - generic [ref=e1645]: 
+              - text: Know More
+          - generic [ref=e1646]:
+            - generic [ref=e1647]:
+              - generic [ref=e1649]: 
+              - generic [ref=e1650]:
+                - generic [ref=e1651]: 
+                - text: High
+            - generic [ref=e1652]:
+              - paragraph [ref=e1653]: Rosy Apple Aphid
+              - paragraph [ref=e1654]: गुलाबी सेब एफिड
+              - paragraph [ref=e1655]: Rosy Apple Aphid attacks young shoots, leaves and fruit, causing severe curling, stunting and fruit deformation.
+            - generic [ref=e1656]:
+              - button "Report Sighting" [ref=e1657] [cursor=pointer]:
+                - generic [ref=e1658]: 
+                - generic [ref=e1659]: Seen Here
+              - button "Watch" [ref=e1660] [cursor=pointer]:
+                - generic [ref=e1661]: 
+                - generic [ref=e1662]: Watch
+            - link " Know More" [ref=e1663] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/rosy-apple-aphid
+              - generic [ref=e1664]: 
+              - text: Know More
+          - generic [ref=e1665]:
+            - generic [ref=e1666]:
+              - generic [ref=e1668]: 
+              - generic [ref=e1669]:
+                - generic [ref=e1670]: 
+                - text: Low
+            - generic [ref=e1671]:
+              - paragraph [ref=e1672]: Rust Mite
+              - paragraph [ref=e1673]: रस्ट माइट
+              - paragraph [ref=e1674]: Rust mite feeds on fruit and leaves, causing bronze russeting that reduces market value.
+            - generic [ref=e1675]:
+              - button "Report Sighting" [ref=e1676] [cursor=pointer]:
+                - generic [ref=e1677]: 
+                - generic [ref=e1678]: Seen Here
+              - button "Watch" [ref=e1679] [cursor=pointer]:
+                - generic [ref=e1680]: 
+                - generic [ref=e1681]: Watch
+            - link " Know More" [ref=e1682] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/rust-mite
+              - generic [ref=e1683]: 
+              - text: Know More
+          - generic [ref=e1684]:
+            - generic [ref=e1685]:
+              - generic [ref=e1687]: 
+              - generic [ref=e1688]:
+                - generic [ref=e1689]: 
+                - text: High
+            - generic [ref=e1690]:
+              - paragraph [ref=e1691]: San Jose Scale
+              - paragraph [ref=e1692]: सैन होसे स्केल
+              - paragraph [ref=e1693]: San Jose Scale is a devastating sucking pest that forms circular greyish scales on branches, twigs and fruit. Heavy infestations kill branches and reduce fruit quality.
+            - generic [ref=e1694]:
+              - button "Report Sighting" [ref=e1695] [cursor=pointer]:
+                - generic [ref=e1696]: 
+                - generic [ref=e1697]: Seen Here
+              - button "Watch" [ref=e1698] [cursor=pointer]:
+                - generic [ref=e1699]: 
+                - generic [ref=e1700]: Watch
+            - link " Know More" [ref=e1701] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/san-jose-scale
+              - generic [ref=e1702]: 
+              - text: Know More
+          - generic [ref=e1703]:
+            - generic [ref=e1704]:
+              - generic [ref=e1706]: 
+              - generic [ref=e1707]:
+                - generic [ref=e1708]: 
+                - text: Medium
+            - generic [ref=e1709]:
+              - paragraph [ref=e1710]: Shot Hole Borer
+              - paragraph [ref=e1711]: शॉट होल बोरर
+              - paragraph [ref=e1712]: Shot hole borer beetles bore into branches, transmitting fungi and causing branch dieback.
+            - generic [ref=e1713]:
+              - button "Report Sighting" [ref=e1714] [cursor=pointer]:
+                - generic [ref=e1715]: 
+                - generic [ref=e1716]: Seen Here
+              - button "Watch" [ref=e1717] [cursor=pointer]:
+                - generic [ref=e1718]: 
+                - generic [ref=e1719]: Watch
+            - link " Know More" [ref=e1720] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/shot-hole-borer
+              - generic [ref=e1721]: 
+              - text: Know More
+          - generic [ref=e1722]:
+            - generic [ref=e1723]:
+              - generic [ref=e1725]: 
+              - generic [ref=e1726]:
+                - generic [ref=e1727]: 
+                - text: High
+            - generic [ref=e1728]:
+              - paragraph [ref=e1729]: Stem Borer
+              - paragraph [ref=e1730]: स्टेम बोरर
+              - paragraph [ref=e1731]: Stem borer larvae tunnel into main trunk and branches, causing wilting, branch death and tree decline.
+            - generic [ref=e1732]:
+              - button "Report Sighting" [ref=e1733] [cursor=pointer]:
+                - generic [ref=e1734]: 
+                - generic [ref=e1735]: Seen Here
+              - button "Watch" [ref=e1736] [cursor=pointer]:
+                - generic [ref=e1737]: 
+                - generic [ref=e1738]: Watch
+            - link " Know More" [ref=e1739] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/stem-borer
+              - generic [ref=e1740]: 
+              - text: Know More
+          - generic [ref=e1741]:
+            - generic [ref=e1742]:
+              - generic [ref=e1744]: 
+              - generic [ref=e1745]:
+                - generic [ref=e1746]: 
+                - text: Low
+            - generic [ref=e1747]:
+              - paragraph [ref=e1748]: Sunburn
+              - paragraph [ref=e1749]: सनबर्न
+              - paragraph [ref=e1750]: Sunburn appears as yellow, brown or necrotic patches on fruit exposed to direct sunlight, common during heat waves.
+            - generic [ref=e1751]:
+              - button "Report Sighting" [ref=e1752] [cursor=pointer]:
+                - generic [ref=e1753]: 
+                - generic [ref=e1754]: Seen Here
+              - button "Watch" [ref=e1755] [cursor=pointer]:
+                - generic [ref=e1756]: 
+                - generic [ref=e1757]: Watch
+            - link " Know More" [ref=e1758] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/sunburn
+              - generic [ref=e1759]: 
+              - text: Know More
+          - generic [ref=e1760]:
+            - generic [ref=e1761]:
+              - generic [ref=e1763]: 
+              - generic [ref=e1764]:
+                - generic [ref=e1765]: 
+                - text: Medium
+            - generic [ref=e1766]:
+              - paragraph [ref=e1767]: Superficial Scald
+              - paragraph [ref=e1768]: सतही स्काल्ड
+              - paragraph [ref=e1769]: Superficial Scald appears as brown patches on fruit skin after cold storage, especially in fruit harvested too early.
+            - generic [ref=e1770]:
+              - button "Report Sighting" [ref=e1771] [cursor=pointer]:
+                - generic [ref=e1772]: 
+                - generic [ref=e1773]: Seen Here
+              - button "Watch" [ref=e1774] [cursor=pointer]:
+                - generic [ref=e1775]: 
+                - generic [ref=e1776]: Watch
+            - link " Know More" [ref=e1777] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/superficial-scald
+              - generic [ref=e1778]: 
+              - text: Know More
+          - generic [ref=e1779]:
+            - generic [ref=e1780]:
+              - generic [ref=e1782]: 
+              - generic [ref=e1783]:
+                - generic [ref=e1784]: 
+                - text: Medium
+            - generic [ref=e1785]:
+              - paragraph [ref=e1786]: Tent Caterpillar
+              - paragraph [ref=e1787]: टेंट कैटरपिलर
+              - paragraph [ref=e1788]: Tent caterpillars build silken nests in branch crotches and defoliate tree sections during outbreaks.
+            - generic [ref=e1789]:
+              - button "Report Sighting" [ref=e1790] [cursor=pointer]:
+                - generic [ref=e1791]: 
+                - generic [ref=e1792]: Seen Here
+              - button "Watch" [ref=e1793] [cursor=pointer]:
+                - generic [ref=e1794]: 
+                - generic [ref=e1795]: Watch
+            - link " Know More" [ref=e1796] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/tent-caterpillar
+              - generic [ref=e1797]: 
+              - text: Know More
+          - generic [ref=e1798]:
+            - generic [ref=e1799]:
+              - generic [ref=e1801]: 
+              - generic [ref=e1802]:
+                - generic [ref=e1803]: 
+                - text: Low
+            - generic [ref=e1804]:
+              - paragraph [ref=e1805]: Thrips
+              - paragraph [ref=e1806]: थ्रिप्स
+              - paragraph [ref=e1807]: Thrips scrape leaf cells, causing silvery patches and reduced photosynthesis.
+            - generic [ref=e1808]:
+              - button "Report Sighting" [ref=e1809] [cursor=pointer]:
+                - generic [ref=e1810]: 
+                - generic [ref=e1811]: Seen Here
+              - button "Watch" [ref=e1812] [cursor=pointer]:
+                - generic [ref=e1813]: 
+                - generic [ref=e1814]: Watch
+            - link " Know More" [ref=e1815] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/thrips
+              - generic [ref=e1816]: 
+              - text: Know More
+          - generic [ref=e1817]:
+            - generic [ref=e1818]:
+              - generic [ref=e1820]: 
+              - generic [ref=e1821]:
+                - generic [ref=e1822]: 
+                - text: High
+            - generic [ref=e1823]:
+              - paragraph [ref=e1824]: Two-Spotted Spider Mite
+              - paragraph [ref=e1825]: टू-स्पॉटेड स्पाइडर माइट
+              - paragraph [ref=e1826]: Two-spotted spider mite thrives in hot, dry weather, causing stippled leaves and dense webbing.
+            - generic [ref=e1827]:
+              - button "Report Sighting" [ref=e1828] [cursor=pointer]:
+                - generic [ref=e1829]: 
+                - generic [ref=e1830]: Seen Here
+              - button "Watch" [ref=e1831] [cursor=pointer]:
+                - generic [ref=e1832]: 
+                - generic [ref=e1833]: Watch
+            - link " Know More" [ref=e1834] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/two-spotted-spider-mite
+              - generic [ref=e1835]: 
+              - text: Know More
+          - generic [ref=e1836]:
+            - generic [ref=e1837]:
+              - generic [ref=e1839]: 
+              - generic [ref=e1840]:
+                - generic [ref=e1841]: 
+                - text: Medium
+            - generic [ref=e1842]:
+              - paragraph [ref=e1843]: Watercore
+              - paragraph [ref=e1844]: वॉटरकोर
+              - paragraph [ref=e1845]: Watercore causes water-soaked translucent areas in flesh due to accumulation of sorbitol-rich liquid.
+            - generic [ref=e1846]:
+              - button "Report Sighting" [ref=e1847] [cursor=pointer]:
+                - generic [ref=e1848]: 
+                - generic [ref=e1849]: Seen Here
+              - button "Watch" [ref=e1850] [cursor=pointer]:
+                - generic [ref=e1851]: 
+                - generic [ref=e1852]: Watch
+            - link " Know More" [ref=e1853] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/watercore
+              - generic [ref=e1854]: 
+              - text: Know More
+          - generic [ref=e1855]:
+            - generic [ref=e1856]:
+              - generic [ref=e1858]: 
+              - generic [ref=e1859]:
+                - generic [ref=e1860]: 
+                - text: High
+            - generic [ref=e1861]:
+              - paragraph [ref=e1862]: White Root Rot
+              - paragraph [ref=e1863]: सफेद जड़ सड़न
+              - paragraph [ref=e1864]: White Root Rot causes white mycelial growth on roots and root rot, leading to tree decline and death.
+            - generic [ref=e1865]:
+              - button "Report Sighting" [ref=e1866] [cursor=pointer]:
+                - generic [ref=e1867]: 
+                - generic [ref=e1868]: Seen Here
+              - button "Watch" [ref=e1869] [cursor=pointer]:
+                - generic [ref=e1870]: 
+                - generic [ref=e1871]: Watch
+            - link " Know More" [ref=e1872] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/white-root-rot
+              - generic [ref=e1873]: 
+              - text: Know More
+          - generic [ref=e1874]:
+            - generic [ref=e1875]:
+              - generic [ref=e1877]: 
+              - generic [ref=e1878]:
+                - generic [ref=e1879]: 
+                - text: High
+            - generic [ref=e1880]:
+              - paragraph [ref=e1881]: White Rot
+              - paragraph [ref=e1882]: सफेद सड़न
+              - paragraph [ref=e1883]: White Rot causes soft, watery decay of apple fruit with creamy white interior, more severe in hot humid conditions.
+            - generic [ref=e1884]:
+              - button "Report Sighting" [ref=e1885] [cursor=pointer]:
+                - generic [ref=e1886]: 
+                - generic [ref=e1887]: Seen Here
+              - button "Watch" [ref=e1888] [cursor=pointer]:
+                - generic [ref=e1889]: 
+                - generic [ref=e1890]: Watch
+            - link " Know More" [ref=e1891] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/white-rot
+              - generic [ref=e1892]: 
+              - text: Know More
+          - generic [ref=e1893]:
+            - generic [ref=e1894]:
+              - generic [ref=e1896]: 
+              - generic [ref=e1897]:
+                - generic [ref=e1898]: 
+                - text: High
+            - generic [ref=e1899]:
+              - paragraph [ref=e1900]: Woolly Apple Aphid
+              - paragraph [ref=e1901]: ऊनी सेब एफिड
+              - paragraph [ref=e1902]: Woolly Apple Aphid forms white cottony colonies on branches, trunk and roots. They suck sap, causing galls and weakening the tree.
+            - generic [ref=e1903]:
+              - button "Report Sighting" [ref=e1904] [cursor=pointer]:
+                - generic [ref=e1905]: 
+                - generic [ref=e1906]: Seen Here
+              - button "Watch" [ref=e1907] [cursor=pointer]:
+                - generic [ref=e1908]: 
+                - generic [ref=e1909]: Watch
+            - link " Know More" [ref=e1910] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/woolly-apple-aphid
+              - generic [ref=e1911]: 
+              - text: Know More
+      - generic [ref=e1913]:
+        - generic [ref=e1914] [cursor=pointer]:
+          - generic [ref=e1915]: 
+          - heading "Recommended Rootstocks" [level=2] [ref=e1916]
+        - generic [ref=e1918]:
+          - generic [ref=e1919]:
+            - link "View B.118 details" [ref=e1920] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/b-118
+              - generic [ref=e1921]: "#1"
+              - img "B.118" [ref=e1923]
+              - generic [ref=e1924]: Semi-Dwarfing
+              - generic [ref=e1925]: B.118
+              - generic [ref=e1926]: बी.118
+              - generic [ref=e1927]:
+                - generic [ref=e1928]: 
+                - text: Budagovsky 118
+              - generic [ref=e1929]:
+                - generic [ref=e1930]: 
+                - text: 4.0m × 1.5m
+              - generic [ref=e1932]:
+                - generic [ref=e1933]: 
+                - text: "0"
+            - generic [ref=e1934]:
+              - button "Like" [ref=e1935] [cursor=pointer]:
+                - generic [ref=e1936]: 
+                - generic [ref=e1937]: Favourite
+              - button "Save" [ref=e1938] [cursor=pointer]:
+                - generic [ref=e1939]: 
+                - generic [ref=e1940]: Save
+            - link " Know More" [ref=e1941] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/b-118
+              - generic [ref=e1942]: 
+              - text: Know More
+          - generic [ref=e1943]:
+            - link "View B.9 details" [ref=e1944] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/b-9
+              - generic [ref=e1945]: "#2"
+              - img "B.9" [ref=e1947]
+              - generic [ref=e1948]: Dwarfing
+              - generic [ref=e1949]: B.9
+              - generic [ref=e1950]: बी.9
+              - generic [ref=e1951]:
+                - generic [ref=e1952]: 
+                - text: Budagovsky 9
+              - generic [ref=e1953]:
+                - generic [ref=e1954]: 
+                - text: 3.5m × 1.0m
+              - generic [ref=e1956]:
+                - generic [ref=e1957]: 
+                - text: "0"
+            - generic [ref=e1958]:
+              - button "Like" [ref=e1959] [cursor=pointer]:
+                - generic [ref=e1960]: 
+                - generic [ref=e1961]: Favourite
+              - button "Save" [ref=e1962] [cursor=pointer]:
+                - generic [ref=e1963]: 
+                - generic [ref=e1964]: Save
+            - link " Know More" [ref=e1965] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/b-9
+              - generic [ref=e1966]: 
+              - text: Know More
+          - generic [ref=e1967]:
+            - link "View G.11 details" [ref=e1968] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/g-11
+              - generic [ref=e1969]: "#3"
+              - img "G.11" [ref=e1971]
+              - generic [ref=e1972]: Semi-Dwarfing
+              - generic [ref=e1973]: G.11
+              - generic [ref=e1974]: जी .11
+              - generic [ref=e1975]:
+                - generic [ref=e1976]: 
+                - text: Geneva 11
+              - generic [ref=e1977]:
+                - generic [ref=e1978]: 
+                - text: 4.0m × 1.3m
+              - generic [ref=e1980]:
+                - generic [ref=e1981]: 
+                - text: "0"
+            - generic [ref=e1982]:
+              - button "Like" [ref=e1983] [cursor=pointer]:
+                - generic [ref=e1984]: 
+                - generic [ref=e1985]: Favourite
+              - button "Save" [ref=e1986] [cursor=pointer]:
+                - generic [ref=e1987]: 
+                - generic [ref=e1988]: Save
+            - link " Know More" [ref=e1989] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/g-11
+              - generic [ref=e1990]: 
+              - text: Know More
+          - generic [ref=e1991]:
+            - link "View G.214 details" [ref=e1992] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/g-214
+              - generic [ref=e1993]: "#4"
+              - img "G.214" [ref=e1995]
+              - generic [ref=e1996]: Dwarfing
+              - generic [ref=e1997]: G.214
+              - generic [ref=e1998]: जी .214
+              - generic [ref=e1999]:
+                - generic [ref=e2000]: 
+                - text: Geneva 214
+              - generic [ref=e2001]:
+                - generic [ref=e2002]: 
+                - text: 3.5m × 1.0m
+              - generic [ref=e2004]:
+                - generic [ref=e2005]: 
+                - text: "0"
+            - generic [ref=e2006]:
+              - button "Like" [ref=e2007] [cursor=pointer]:
+                - generic [ref=e2008]: 
+                - generic [ref=e2009]: Favourite
+              - button "Save" [ref=e2010] [cursor=pointer]:
+                - generic [ref=e2011]: 
+                - generic [ref=e2012]: Save
+            - link " Know More" [ref=e2013] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/g-214
+              - generic [ref=e2014]: 
+              - text: Know More
+          - generic [ref=e2015]:
+            - link "View G.41 details" [ref=e2016] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/g-41
+              - generic [ref=e2017]: "#5"
+              - img "G.41" [ref=e2019]
+              - generic [ref=e2020]: Dwarfing
+              - generic [ref=e2021]: G.41
+              - generic [ref=e2022]: जी .41
+              - generic [ref=e2023]:
+                - generic [ref=e2024]: 
+                - text: Geneva 41
+              - generic [ref=e2025]:
+                - generic [ref=e2026]: 
+                - text: 3.5m × 1.1m
+              - generic [ref=e2028]:
+                - generic [ref=e2029]: 
+                - text: "0"
+            - generic [ref=e2030]:
+              - button "Like" [ref=e2031] [cursor=pointer]:
+                - generic [ref=e2032]: 
+                - generic [ref=e2033]: Favourite
+              - button "Save" [ref=e2034] [cursor=pointer]:
+                - generic [ref=e2035]: 
+                - generic [ref=e2036]: Save
+            - link " Know More" [ref=e2037] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/g-41
+              - generic [ref=e2038]: 
+              - text: Know More
+          - generic [ref=e2039]:
+            - link "View G.935 details" [ref=e2040] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/g-935
+              - generic [ref=e2041]: "#6"
+              - img "G.935" [ref=e2043]
+              - generic [ref=e2044]: Semi-Vigorous
+              - generic [ref=e2045]: G.935
+              - generic [ref=e2046]: जी .935
+              - generic [ref=e2047]:
+                - generic [ref=e2048]: 
+                - text: Geneva 935
+              - generic [ref=e2049]:
+                - generic [ref=e2050]: 
+                - text: 4.5m × 1.8m
+              - generic [ref=e2052]:
+                - generic [ref=e2053]: 
+                - text: "0"
+            - generic [ref=e2054]:
+              - button "Like" [ref=e2055] [cursor=pointer]:
+                - generic [ref=e2056]: 
+                - generic [ref=e2057]: Favourite
+              - button "Save" [ref=e2058] [cursor=pointer]:
+                - generic [ref=e2059]: 
+                - generic [ref=e2060]: Save
+            - link " Know More" [ref=e2061] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/g-935
+              - generic [ref=e2062]: 
+              - text: Know More
+          - generic [ref=e2063]:
+            - link "View G.969 details" [ref=e2064] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/g-969
+              - generic [ref=e2065]: "#7"
+              - img "G.969" [ref=e2067]
+              - generic [ref=e2068]: Semi-Dwarfing
+              - generic [ref=e2069]: G.969
+              - generic [ref=e2070]: जी .969
+              - generic [ref=e2071]:
+                - generic [ref=e2072]: 
+                - text: Geneva 969
+              - generic [ref=e2073]:
+                - generic [ref=e2074]: 
+                - text: 4.0m × 1.5m
+              - generic [ref=e2076]:
+                - generic [ref=e2077]: 
+                - text: "0"
+            - generic [ref=e2078]:
+              - button "Like" [ref=e2079] [cursor=pointer]:
+                - generic [ref=e2080]: 
+                - generic [ref=e2081]: Favourite
+              - button "Save" [ref=e2082] [cursor=pointer]:
+                - generic [ref=e2083]: 
+                - generic [ref=e2084]: Save
+            - link " Know More" [ref=e2085] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/g-969
+              - generic [ref=e2086]: 
+              - text: Know More
+          - generic [ref=e2087]:
+            - link "View M.2 details" [ref=e2088] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/m-2
+              - generic [ref=e2089]: "#8"
+              - img "M.2" [ref=e2091]
+              - generic [ref=e2092]: Vigorous
+              - generic [ref=e2093]: M.2
+              - generic [ref=e2094]: एम .2
+              - generic [ref=e2095]:
+                - generic [ref=e2096]: 
+                - text: Malling 2
+              - generic [ref=e2097]:
+                - generic [ref=e2098]: 
+                - text: 5.5m × 2.5m
+              - generic [ref=e2100]:
+                - generic [ref=e2101]: 
+                - text: "0"
+            - generic [ref=e2102]:
+              - button "Like" [ref=e2103] [cursor=pointer]:
+                - generic [ref=e2104]: 
+                - generic [ref=e2105]: Favourite
+              - button "Save" [ref=e2106] [cursor=pointer]:
+                - generic [ref=e2107]: 
+                - generic [ref=e2108]: Save
+            - link " Know More" [ref=e2109] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/m-2
+              - generic [ref=e2110]: 
+              - text: Know More
+          - generic [ref=e2111]:
+            - link "View M.26 details" [ref=e2112] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/m-26
+              - generic [ref=e2113]: "#9"
+              - img "M.26" [ref=e2115]
+              - generic [ref=e2116]: Semi-Dwarfing
+              - generic [ref=e2117]: M.26
+              - generic [ref=e2118]: एम .26
+              - generic [ref=e2119]:
+                - generic [ref=e2120]: 
+                - text: Malling 26
+              - generic [ref=e2121]:
+                - generic [ref=e2122]: 
+                - text: 3.5m × 1.2m
+              - generic [ref=e2124]:
+                - generic [ref=e2125]: 
+                - text: "0"
+            - generic [ref=e2126]:
+              - button "Like" [ref=e2127] [cursor=pointer]:
+                - generic [ref=e2128]: 
+                - generic [ref=e2129]: Favourite
+              - button "Save" [ref=e2130] [cursor=pointer]:
+                - generic [ref=e2131]: 
+                - generic [ref=e2132]: Save
+            - link " Know More" [ref=e2133] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/m-26
+              - generic [ref=e2134]: 
+              - text: Know More
+          - generic [ref=e2135]:
+            - link "View M.27 details" [ref=e2136] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/m-27
+              - generic [ref=e2137]: "#10"
+              - img "M.27" [ref=e2139]
+              - generic [ref=e2140]: Dwarfing
+              - generic [ref=e2141]: M.27
+              - generic [ref=e2142]: एम .27
+              - generic [ref=e2143]:
+                - generic [ref=e2144]: 
+                - text: Malling 27
+              - generic [ref=e2145]:
+                - generic [ref=e2146]: 
+                - text: 3.0m × 0.8m
+              - generic [ref=e2148]:
+                - generic [ref=e2149]: 
+                - text: "0"
+            - generic [ref=e2150]:
+              - button "Like" [ref=e2151] [cursor=pointer]:
+                - generic [ref=e2152]: 
+                - generic [ref=e2153]: Favourite
+              - button "Save" [ref=e2154] [cursor=pointer]:
+                - generic [ref=e2155]: 
+                - generic [ref=e2156]: Save
+            - link " Know More" [ref=e2157] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/m-27
+              - generic [ref=e2158]: 
+              - text: Know More
+          - generic [ref=e2159]:
+            - link "View M.4 details" [ref=e2160] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/m-4
+              - generic [ref=e2161]: "#11"
+              - img "M.4" [ref=e2163]
+              - generic [ref=e2164]: Semi-Vigorous
+              - generic [ref=e2165]: M.4
+              - generic [ref=e2166]: एम .4
+              - generic [ref=e2167]:
+                - generic [ref=e2168]: 
+                - text: Malling 4
+              - generic [ref=e2169]:
+                - generic [ref=e2170]: 
+                - text: 4.5m × 2.0m
+              - generic [ref=e2172]:
+                - generic [ref=e2173]: 
+                - text: "0"
+            - generic [ref=e2174]:
+              - button "Like" [ref=e2175] [cursor=pointer]:
+                - generic [ref=e2176]: 
+                - generic [ref=e2177]: Favourite
+              - button "Save" [ref=e2178] [cursor=pointer]:
+                - generic [ref=e2179]: 
+                - generic [ref=e2180]: Save
+            - link " Know More" [ref=e2181] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/m-4
+              - generic [ref=e2182]: 
+              - text: Know More
+          - generic [ref=e2183]:
+            - link "View M.7 details" [ref=e2184] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/m-7
+              - generic [ref=e2185]: "#12"
+              - img "M.7" [ref=e2187]
+              - generic [ref=e2188]: Semi-Dwarfing
+              - generic [ref=e2189]: M.7
+              - generic [ref=e2190]: एम .7
+              - generic [ref=e2191]:
+                - generic [ref=e2192]: 
+                - text: Malling 7
+              - generic [ref=e2193]:
+                - generic [ref=e2194]: 
+                - text: 4.0m × 1.5m
+              - generic [ref=e2196]:
+                - generic [ref=e2197]: 
+                - text: "0"
+            - generic [ref=e2198]:
+              - button "Like" [ref=e2199] [cursor=pointer]:
+                - generic [ref=e2200]: 
+                - generic [ref=e2201]: Favourite
+              - button "Save" [ref=e2202] [cursor=pointer]:
+                - generic [ref=e2203]: 
+                - generic [ref=e2204]: Save
+            - link " Know More" [ref=e2205] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/m-7
+              - generic [ref=e2206]: 
+              - text: Know More
+          - generic [ref=e2207]:
+            - link "View M.9 details" [ref=e2208] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/m-9
+              - generic [ref=e2209]: "#13"
+              - img "M.9" [ref=e2211]
+              - generic [ref=e2212]: Dwarfing
+              - generic [ref=e2213]: M.9
+              - generic [ref=e2214]: एम .9
+              - generic [ref=e2215]:
+                - generic [ref=e2216]: 
+                - text: Malling 9
+              - generic [ref=e2217]:
+                - generic [ref=e2218]: 
+                - text: 3.5m × 1.0m
+              - generic [ref=e2220]:
+                - generic [ref=e2221]: 
+                - text: "0"
+            - generic [ref=e2222]:
+              - button "Like" [ref=e2223] [cursor=pointer]:
+                - generic [ref=e2224]: 
+                - generic [ref=e2225]: Favourite
+              - button "Save" [ref=e2226] [cursor=pointer]:
+                - generic [ref=e2227]: 
+                - generic [ref=e2228]: Save
+            - link " Know More" [ref=e2229] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/m-9
+              - generic [ref=e2230]: 
+              - text: Know More
+          - generic [ref=e2231]:
+            - link "View MM-104 details" [ref=e2232] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/mm-104
+              - generic [ref=e2233]: "#14"
+              - img "MM-104" [ref=e2235]
+              - generic [ref=e2236]: Semi-Vigorous
+              - generic [ref=e2237]: MM-104
+              - generic [ref=e2238]: एमएम-104
+              - generic [ref=e2239]:
+                - generic [ref=e2240]: 
+                - text: Malling-Merton 104
+              - generic [ref=e2241]:
+                - generic [ref=e2242]: 
+                - text: 4.5m × 1.8m
+              - generic [ref=e2244]:
+                - generic [ref=e2245]: 
+                - text: "0"
+            - generic [ref=e2246]:
+              - button "Like" [ref=e2247] [cursor=pointer]:
+                - generic [ref=e2248]: 
+                - generic [ref=e2249]: Favourite
+              - button "Save" [ref=e2250] [cursor=pointer]:
+                - generic [ref=e2251]: 
+                - generic [ref=e2252]: Save
+            - link " Know More" [ref=e2253] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/mm-104
+              - generic [ref=e2254]: 
+              - text: Know More
+          - generic [ref=e2255]:
+            - link "View MM-106 details" [ref=e2256] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/mm-106
+              - generic [ref=e2257]: "#15"
+              - img "MM-106" [ref=e2259]
+              - generic [ref=e2260]: Semi-Vigorous
+              - generic [ref=e2261]: MM-106
+              - generic [ref=e2262]: एमएम-106
+              - generic [ref=e2263]:
+                - generic [ref=e2264]: 
+                - text: Malling-Merton 106
+              - generic [ref=e2265]:
+                - generic [ref=e2266]: 
+                - text: 4.5m × 2.0m
+              - generic [ref=e2268]:
+                - generic [ref=e2269]: 
+                - text: "0"
+            - generic [ref=e2270]:
+              - button "Like" [ref=e2271] [cursor=pointer]:
+                - generic [ref=e2272]: 
+                - generic [ref=e2273]: Favourite
+              - button "Save" [ref=e2274] [cursor=pointer]:
+                - generic [ref=e2275]: 
+                - generic [ref=e2276]: Save
+            - link " Know More" [ref=e2277] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/mm-106
+              - generic [ref=e2278]: 
+              - text: Know More
+          - generic [ref=e2279]:
+            - link "View MM-109 details" [ref=e2280] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/mm-109
+              - generic [ref=e2281]: "#16"
+              - img "MM-109" [ref=e2283]
+              - generic [ref=e2284]: Vigorous
+              - generic [ref=e2285]: MM-109
+              - generic [ref=e2286]: एमएम-109
+              - generic [ref=e2287]:
+                - generic [ref=e2288]: 
+                - text: Malling-Merton 109
+              - generic [ref=e2289]:
+                - generic [ref=e2290]: 
+                - text: 5.5m × 3.0m
+              - generic [ref=e2292]:
+                - generic [ref=e2293]: 
+                - text: "0"
+            - generic [ref=e2294]:
+              - button "Like" [ref=e2295] [cursor=pointer]:
+                - generic [ref=e2296]: 
+                - generic [ref=e2297]: Favourite
+              - button "Save" [ref=e2298] [cursor=pointer]:
+                - generic [ref=e2299]: 
+                - generic [ref=e2300]: Save
+            - link " Know More" [ref=e2301] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/mm-109
+              - generic [ref=e2302]: 
+              - text: Know More
+          - generic [ref=e2303]:
+            - link "View MM-111 details" [ref=e2304] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/mm-111
+              - generic [ref=e2305]: "#17"
+              - img "MM-111" [ref=e2307]
+              - generic [ref=e2308]: Vigorous
+              - generic [ref=e2309]: MM-111
+              - generic [ref=e2310]: एमएम -111
+              - generic [ref=e2311]:
+                - generic [ref=e2312]: 
+                - text: Malling-Merton 111
+              - generic [ref=e2313]:
+                - generic [ref=e2314]: 
+                - text: 5.0m × 2.5m
+              - generic [ref=e2316]:
+                - generic [ref=e2317]: 
+                - text: "0"
+            - generic [ref=e2318]:
+              - button "Like" [ref=e2319] [cursor=pointer]:
+                - generic [ref=e2320]: 
+                - generic [ref=e2321]: Favourite
+              - button "Save" [ref=e2322] [cursor=pointer]:
+                - generic [ref=e2323]: 
+                - generic [ref=e2324]: Save
+            - link " Know More" [ref=e2325] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/mm-111
+              - generic [ref=e2326]: 
+              - text: Know More
+          - generic [ref=e2327]:
+            - link "View Ottawa 3 details" [ref=e2328] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/ottawa-3
+              - generic [ref=e2329]: "#18"
+              - img "Ottawa 3" [ref=e2331]
+              - generic [ref=e2332]: Semi-Dwarfing
+              - generic [ref=e2333]: Ottawa 3
+              - generic [ref=e2334]: ओटावा 3
+              - generic [ref=e2335]:
+                - generic [ref=e2336]: 
+                - text: Ottawa 3 (O.3)
+              - generic [ref=e2337]:
+                - generic [ref=e2338]: 
+                - text: 3.5m × 1.2m
+              - generic [ref=e2340]:
+                - generic [ref=e2341]: 
+                - text: "0"
+            - generic [ref=e2342]:
+              - button "Like" [ref=e2343] [cursor=pointer]:
+                - generic [ref=e2344]: 
+                - generic [ref=e2345]: Favourite
+              - button "Save" [ref=e2346] [cursor=pointer]:
+                - generic [ref=e2347]: 
+                - generic [ref=e2348]: Save
+            - link " Know More" [ref=e2349] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/ottawa-3
+              - generic [ref=e2350]: 
+              - text: Know More
+          - generic [ref=e2351]:
+            - link "View Pajam 2 details" [ref=e2352] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/pajam-2
+              - generic [ref=e2353]: "#19"
+              - img "Pajam 2" [ref=e2355]
+              - generic [ref=e2356]: Semi-Dwarfing
+              - generic [ref=e2357]: Pajam 2
+              - generic [ref=e2358]: पाजाम 2
+              - generic [ref=e2359]:
+                - generic [ref=e2360]: 
+                - text: Pajam 2 (Lancep)
+              - generic [ref=e2361]:
+                - generic [ref=e2362]: 
+                - text: 3.5m × 1.2m
+              - generic [ref=e2364]:
+                - generic [ref=e2365]: 
+                - text: "0"
+            - generic [ref=e2366]:
+              - button "Like" [ref=e2367] [cursor=pointer]:
+                - generic [ref=e2368]: 
+                - generic [ref=e2369]: Favourite
+              - button "Save" [ref=e2370] [cursor=pointer]:
+                - generic [ref=e2371]: 
+                - generic [ref=e2372]: Save
+            - link " Know More" [ref=e2373] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/pajam-2
+              - generic [ref=e2374]: 
+              - text: Know More
+          - generic [ref=e2375]:
+            - link "View Seedling details" [ref=e2376] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/seedling
+              - generic [ref=e2377]: "#20"
+              - img "Seedling" [ref=e2379]
+              - generic [ref=e2380]: Vigorous
+              - generic [ref=e2381]: Seedling
+              - generic [ref=e2382]: जमाती (सीडलिंग)
+              - generic [ref=e2383]:
+                - generic [ref=e2384]: 
+                - text: Apple Seedling (Real)
+              - generic [ref=e2385]:
+                - generic [ref=e2386]: 
+                - text: 6.0m × 4.0m
+              - generic [ref=e2388]:
+                - generic [ref=e2389]: 
+                - text: "0"
+            - generic [ref=e2390]:
+              - button "Like" [ref=e2391] [cursor=pointer]:
+                - generic [ref=e2392]: 
+                - generic [ref=e2393]: Favourite
+              - button "Save" [ref=e2394] [cursor=pointer]:
+                - generic [ref=e2395]: 
+                - generic [ref=e2396]: Save
+            - link " Know More" [ref=e2397] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/rootstocks/seedling
+              - generic [ref=e2398]: 
+              - text: Know More
+      - generic [ref=e2400]:
+        - heading " Comments" [level=2] [ref=e2402]:
+          - generic [ref=e2403]: 
+          - text: Comments
+        - generic [ref=e2404]:
+          - generic [ref=e2405]: 
+          - link "Login" [ref=e2406] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/login
+          - text: to leave a comment.
+        - generic [ref=e2408]:
+          - generic [ref=e2409]: 
+          - paragraph [ref=e2410]: No comments yet. Be the first to share your thoughts!
+      - generic [ref=e2411]:
+        - heading "Explore Other Fruits" [level=2] [ref=e2413]
+        - generic [ref=e2414]:
+          - generic [ref=e2415]:
+            - link "View Peach varieties" [ref=e2416] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/peach
+              - generic [ref=e2417]: "#1"
+              - img "Peach" [ref=e2419]
+              - generic [ref=e2420]: Peach
+              - generic [ref=e2421]: Peach
+              - generic [ref=e2422]: आड़ू
+              - generic [ref=e2423]:
+                - generic [ref=e2424]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e2425] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/peach
+              - generic [ref=e2426]: 
+              - text: View Varieties
+          - generic [ref=e2427]:
+            - link "View Cherry varieties" [ref=e2428] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/cherry
+              - generic [ref=e2429]: "#2"
+              - img "Cherry" [ref=e2431]
+              - generic [ref=e2432]: Cherry
+              - generic [ref=e2433]: Cherry
+              - generic [ref=e2434]: चेरी
+              - generic [ref=e2435]:
+                - generic [ref=e2436]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e2437] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/cherry
+              - generic [ref=e2438]: 
+              - text: View Varieties
+          - generic [ref=e2439]:
+            - link "View Persimmon varieties" [ref=e2440] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/persimmon
+              - generic [ref=e2441]: "#3"
+              - img "Persimmon" [ref=e2443]
+              - generic [ref=e2444]: Persimmon
+              - generic [ref=e2445]: Persimmon
+              - generic [ref=e2446]: तेंदू फल
+              - generic [ref=e2447]:
+                - generic [ref=e2448]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e2449] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/persimmon
+              - generic [ref=e2450]: 
+              - text: View Varieties
+          - generic [ref=e2451]:
+            - link "View Apricot varieties" [ref=e2452] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/apricot
+              - generic [ref=e2453]: "#4"
+              - img "Apricot" [ref=e2455]
+              - generic [ref=e2456]: Apricot
+              - generic [ref=e2457]: Apricot
+              - generic [ref=e2458]: खुबानी
+              - generic [ref=e2459]:
+                - generic [ref=e2460]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e2461] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/apricot
+              - generic [ref=e2462]: 
+              - text: View Varieties
+          - generic [ref=e2463]:
+            - link "View Pomegranate varieties" [ref=e2464] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/pomegranate
+              - generic [ref=e2465]: "#5"
+              - img "Pomegranate" [ref=e2467]
+              - generic [ref=e2468]: Pomegranate
+              - generic [ref=e2469]: Pomegranate
+              - generic [ref=e2470]: अनार
+              - generic [ref=e2471]:
+                - generic [ref=e2472]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e2473] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/pomegranate
+              - generic [ref=e2474]: 
+              - text: View Varieties
+          - generic [ref=e2475]:
+            - link "View Plum varieties" [ref=e2476] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/plum
+              - generic [ref=e2477]: "#6"
+              - img "Plum" [ref=e2479]
+              - generic [ref=e2480]: Plum
+              - generic [ref=e2481]: Plum
+              - generic [ref=e2482]: आलूबुखारा
+              - generic [ref=e2483]:
+                - generic [ref=e2484]: 
+                - text: 0 varieties
+            - link " View Varieties" [ref=e2485] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/plum
+              - generic [ref=e2486]: 
+              - text: View Varieties
+      - text: 
+    - contentinfo [ref=e2487]:
+      - paragraph [ref=e2488]:
+        - text: © 2026 Baagicha — Made with
+        - generic [ref=e2489]: 
+        - text: by
+        - link "Tarun Chauhan" [ref=e2490] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+      - generic [ref=e2491]:
+        - link "Facebook" [ref=e2492] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e2493]: 
+        - link "Instagram" [ref=e2494] [cursor=pointer]:
+          - /url: https://www.instagram.com/i_tarun_chauhan_/
+          - generic [ref=e2495]: 
+        - link "YouTube" [ref=e2496] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e2497]: 
+    - navigation "Main navigation" [ref=e2498]:
+      - text: 
+      - generic [ref=e2499]:
+        - link "Home" [ref=e2500] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+          - generic [ref=e2502]: 
+          - generic [ref=e2503]: Home
+          - generic [ref=e2504]: घर
+        - link "Spray Schedule" [ref=e2505] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/spray-schedule
+          - generic [ref=e2507]: 
+          - generic [ref=e2508]: Spray
+          - generic [ref=e2509]: छिड़काव
+        - link "Diseases" [ref=e2510] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/disease
+          - generic [ref=e2512]: 
+          - generic [ref=e2513]: Disease
+          - generic [ref=e2514]: रोग
+        - link "Varieties" [ref=e2515] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/varieties
+          - generic [ref=e2517]: 
+          - generic [ref=e2518]: Variety
+          - generic [ref=e2519]: किस्म
+        - link "Rootstocks" [ref=e2520] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/rootstock
+          - generic [ref=e2522]: 
+          - generic [ref=e2523]: Rootstock
+          - generic [ref=e2524]: मूलवृंत
+        - link "Weather Forecast" [ref=e2525] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/weather
+          - generic [ref=e2527]: 
+          - generic [ref=e2528]: Weather
+          - generic [ref=e2529]: मौसम
+        - link "Blog & Articles" [ref=e2530] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/blog
+          - generic [ref=e2532]: 
+          - generic [ref=e2533]: Blog
+          - generic [ref=e2534]: लेख

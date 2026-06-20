@@ -1,0 +1,316 @@
+- generic [active] [ref=e1]:
+  - complementary [ref=e2]:
+    - link " Baagicha · Admin" [ref=e3] [cursor=pointer]:
+      - /url: http://127.0.0.1:8001/admin/dashboard
+      - generic [ref=e4]: 
+      - generic [ref=e5]: Baagicha · Admin
+    - navigation [ref=e6]:
+      - generic [ref=e7]: Main
+      - link " Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/dashboard
+        - generic [ref=e9]: 
+        - text: Dashboard
+      - link " Users" [ref=e10] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/users
+        - generic [ref=e11]: 
+        - text: Users
+      - generic [ref=e12]: Content
+      - link " Disease Library" [ref=e13] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/diseases
+        - generic [ref=e14]: 
+        - text: Disease Library
+      - link " Fruits" [ref=e15] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/fruits
+        - generic [ref=e16]: 
+        - text: Fruits
+      - link " Apple Varieties" [ref=e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/varieties
+        - generic [ref=e18]: 
+        - text: Apple Varieties
+      - link " Rootstocks" [ref=e19] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/rootstocks
+        - generic [ref=e20]: 
+        - text: Rootstocks
+      - link " Chemicals" [ref=e21] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/chemicals
+        - generic [ref=e22]: 
+        - text: Chemicals
+      - link " Spray Schedule" [ref=e23] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/spray
+        - generic [ref=e24]: 
+        - text: Spray Schedule
+      - link " Blog Posts" [ref=e25] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog/posts
+        - generic [ref=e26]: 
+        - text: Blog Posts
+      - link " Blog Categories" [ref=e27] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog-categories
+        - generic [ref=e28]: 
+        - text: Blog Categories
+      - link " Blog Tags" [ref=e29] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/blog-tags
+        - generic [ref=e30]: 
+        - text: Blog Tags
+      - link " Comments" [ref=e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/comments
+        - generic [ref=e32]: 
+        - text: Comments
+      - link " Media Library" [ref=e33] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/media
+        - generic [ref=e34]: 
+        - text: Media Library
+      - generic [ref=e35]: Shop
+      - link " Products" [ref=e36] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/products
+        - generic [ref=e37]: 
+        - text: Products
+      - link " Orders" [ref=e38] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/orders
+        - generic [ref=e39]: 
+        - text: Orders
+      - link " Inventory" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/inventory
+        - generic [ref=e41]: 
+        - text: Inventory
+      - link " Coupons" [ref=e42] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/coupons
+        - generic [ref=e43]: 
+        - text: Coupons
+      - link " Reports" [ref=e44] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/shop/reports/sales
+        - generic [ref=e45]: 
+        - text: Reports
+      - generic [ref=e46]: System
+      - link " Weather Data" [ref=e47] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/weather-data
+        - generic [ref=e48]: 
+        - text: Weather Data
+      - link " Alert Rules" [ref=e49] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/weather-alert-rules
+        - generic [ref=e50]: 
+        - text: Alert Rules
+      - link " Queue & Cron Health" [ref=e51] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/dashboard/queue-health
+        - generic [ref=e52]: 
+        - text: Queue & Cron Health
+      - link " Activity Logs" [ref=e53] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/activity-logs
+        - generic [ref=e54]: 
+        - text: Activity Logs
+      - link " Send Notification" [ref=e55] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/notifications/send
+        - generic [ref=e56]: 
+        - text: Send Notification
+      - link " Waitlist" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/waitlist
+        - generic [ref=e58]: 
+        - text: Waitlist
+      - link " Newsletter Subscribers" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/newsletter-subscribers
+        - generic [ref=e60]: 
+        - text: Newsletter Subscribers
+      - link " Roles & Permissions" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/admin/roles
+        - generic [ref=e62]: 
+        - text: Roles & Permissions
+    - generic [ref=e63]:
+      - generic [ref=e64]: T
+      - generic [ref=e65]:
+        - generic [ref=e66]: Tarun Chauhan
+        - generic [ref=e67]: Administrator
+  - generic [ref=e68]:
+    - banner [ref=e69]:
+      - button "" [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]: 
+      - generic [ref=e72]:
+        - generic: 
+        - textbox "Search anything..." [ref=e73]
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - button "" [ref=e76] [cursor=pointer]:
+            - generic [ref=e77]: 
+          - text:   
+        - generic [ref=e79]:
+          - button "T Tarun Chauhan " [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]: T
+            - generic [ref=e82]: Tarun Chauhan
+            - generic [ref=e83]: 
+          - text:   
+    - main [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - heading "Royal Delicious" [level=4] [ref=e87]
+          - navigation "breadcrumb" [ref=e88]:
+            - list [ref=e89]:
+              - listitem [ref=e90]:
+                - link "Home" [ref=e91] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8001/admin/dashboard
+              - listitem [ref=e92]:
+                - text: /
+                - link "Varieties" [ref=e93] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8001/admin/varieties
+              - listitem [ref=e94]: / Royal Delicious
+        - link " Edit" [ref=e96] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/admin/varieties/48/edit
+          - generic [ref=e97]: 
+          - text: Edit
+      - generic [ref=e99]:
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - heading " Variety Information" [level=5] [ref=e103]:
+              - generic [ref=e104]: 
+              - text: Variety Information
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - generic [ref=e107]: 
+                - text: Featured
+              - generic [ref=e108]: Published
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - generic [ref=e112]: English Name
+                - generic [ref=e113]: Royal Delicious
+              - generic [ref=e114]:
+                - generic [ref=e115]: Hindi Name
+                - generic [ref=e116]: रॉयल डेलिशियस
+              - generic [ref=e117]:
+                - generic [ref=e118]: Fruit Type
+                - generic [ref=e120]: Apple
+              - generic [ref=e121]:
+                - generic [ref=e122]: Season
+                - generic [ref=e124]: Mid Season
+              - generic [ref=e125]:
+                - generic [ref=e126]: Origin
+                - generic [ref=e127]: USA
+            - generic [ref=e128]:
+              - heading " Altitude Suitability" [level=6] [ref=e129]:
+                - generic [ref=e130]: 
+                - text: Altitude Suitability
+              - generic [ref=e131]:
+                - generic [ref=e132]:
+                  - generic [ref=e133]: Min Altitude
+                  - generic [ref=e134]: 5,000 ft
+                - generic [ref=e135]:
+                  - generic [ref=e136]: Max Altitude
+                  - generic [ref=e137]: 9,000 ft
+                - generic [ref=e138]:
+                  - generic [ref=e139]: Ideal Range
+                  - generic [ref=e140]: 6000-8500 ft
+            - generic [ref=e141]:
+              - heading " Tree & Fruit Characteristics" [level=6] [ref=e142]:
+                - generic [ref=e143]: 
+                - text: Tree & Fruit Characteristics
+              - generic [ref=e144]:
+                - generic [ref=e145]:
+                  - generic [ref=e146]: Tree Vigor
+                  - generic [ref=e147]: Medium
+                - generic [ref=e148]:
+                  - generic [ref=e149]: Fruit Size
+                  - generic [ref=e150]: Large
+                - generic [ref=e151]:
+                  - generic [ref=e152]: Skin Color
+                  - generic [ref=e153]: Dark red, almost purple
+                - generic [ref=e154]:
+                  - generic [ref=e155]: Taste Profile
+                  - generic [ref=e156]: sweet, crisp, very aromatic
+                - generic [ref=e157]:
+                  - generic [ref=e158]: Bearing Age
+                  - generic [ref=e159]: 4 years
+                - generic [ref=e160]:
+                  - generic [ref=e161]: Pollinators
+                  - generic [ref=e162]: Golden Delicious, Granny Smith, Gala
+            - generic [ref=e163]:
+              - heading " Harvest & Storage" [level=6] [ref=e164]:
+                - generic [ref=e165]: 
+                - text: Harvest & Storage
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - generic [ref=e168]: Harvest Window
+                  - generic [ref=e169]: Late August - October
+                - generic [ref=e170]:
+                  - generic [ref=e171]: Days to Maturity
+                  - generic [ref=e172]: 145 days
+                - generic [ref=e173]:
+                  - generic [ref=e174]: Storage Life
+                  - generic [ref=e175]:
+                    - generic [ref=e176]: Excellent
+                    - text: (8 months)
+            - generic [ref=e177]:
+              - heading " Description" [level=6] [ref=e178]:
+                - generic [ref=e179]: 
+                - text: Description
+              - generic [ref=e180]:
+                - generic [ref=e181]: English
+                - paragraph [ref=e182]: Premium dark-red Delicious strain and the traditional market leader in Himachal Pradesh. Requires high chilling and performs best above 6,000 ft.
+              - generic [ref=e183]:
+                - generic [ref=e184]: Hindi
+                - paragraph [ref=e185]: हिमाचल प्रदेश की प्रीमियम गहरे लाल डेलिशियस किस्म और पारंपरिक बाजार अग्रणी। उच्च शीतलन की आवश्यकता और 6,000 फीट से ऊपर सबसे अच्छा प्रदर्शन।
+        - generic [ref=e186]:
+          - generic [ref=e187]:
+            - heading "Quick Actions" [level=6] [ref=e189]
+            - generic [ref=e191]:
+              - button " Remove from Featured" [ref=e193] [cursor=pointer]:
+                - generic [ref=e194]: 
+                - text: Remove from Featured
+              - button " Unpublish" [ref=e196] [cursor=pointer]:
+                - generic [ref=e197]: 
+                - text: Unpublish
+          - generic [ref=e198]:
+            - heading " Usage Statistics" [level=6] [ref=e200]:
+              - generic [ref=e201]: 
+              - text: Usage Statistics
+            - generic [ref=e202]:
+              - generic [ref=e203]:
+                - generic [ref=e204]: Orchards Growing
+                - generic [ref=e205]: "0"
+              - generic [ref=e206]:
+                - generic [ref=e207]: Total Trees
+                - generic [ref=e208]: "0"
+              - generic [ref=e209]:
+                - generic [ref=e210]: Unique Farmers
+                - generic [ref=e211]: "0"
+          - generic [ref=e212]:
+            - heading " Market Information" [level=6] [ref=e214]:
+              - generic [ref=e215]: 
+              - text: Market Information
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - generic [ref=e218]: Market Demand
+                - generic [ref=e219]: High
+              - generic [ref=e220]:
+                - generic [ref=e221]: Price Tier
+                - generic [ref=e222]: 5/5
+              - generic [ref=e223]:
+                - generic [ref=e224]: Export Quality
+                - generic [ref=e225]: "Yes"
+          - generic [ref=e226]:
+            - heading " Fruits" [level=6] [ref=e228]:
+              - generic [ref=e229]: 
+              - text: Fruits
+            - link "Apple" [ref=e232] [cursor=pointer]:
+              - /url: http://127.0.0.1:8001/admin/fruits/1
+          - generic [ref=e233]:
+            - heading " Recommended Rootstocks" [level=6] [ref=e235]:
+              - generic [ref=e236]: 
+              - text: Recommended Rootstocks
+            - generic [ref=e238]:
+              - generic [ref=e239]: MM-106 (Malling-Merton 106)
+              - generic [ref=e240]: M.9 (Malling 9)
+              - generic [ref=e241]: MM-111 (Malling-Merton 111)
+          - generic [ref=e242]:
+            - heading " Metadata" [level=6] [ref=e244]:
+              - generic [ref=e245]: 
+              - text: Metadata
+            - generic [ref=e246]:
+              - generic [ref=e247]:
+                - text: "Slug:"
+                - code [ref=e248]: royal-delicious
+              - generic [ref=e249]: "Views: 0"
+              - generic [ref=e250]: "Created: Jun 17, 2026"
+              - generic [ref=e251]: "Updated: 7 hours ago"
+    - contentinfo [ref=e252]:
+      - generic [ref=e253]: © 2026 Baagvaani. All rights reserved.
+      - generic [ref=e254]:
+        - text: Powered by
+        - strong [ref=e255]: Laravel 12.58.0
+        - text: "& Bootstrap 5"

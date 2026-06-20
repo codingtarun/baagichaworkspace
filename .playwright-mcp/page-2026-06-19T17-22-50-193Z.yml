@@ -1,0 +1,211 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000
+        - generic [ref=e8]: Baagvaani
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "Login" [ref=e11] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/login
+          - link "Sign Up" [ref=e12] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/register
+        - button "Toggle menu" [ref=e13]:
+          - img [ref=e14]
+  - main [ref=e16]:
+    - article [ref=e17]:
+      - 'region "Apple Grading and Packing: Getting Better Prices at the Mandi" [ref=e18]':
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - link "Knowledge Base" [ref=e21] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog
+              - img [ref=e22]
+              - text: Knowledge Base
+            - link "Business & Market" [ref=e25] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/category/business-market
+          - generic [ref=e26]:
+            - 'heading "सेब ग्रेडिंग और पैकिंग: मंडी में बेहतर कीमत पाना" [level=1] [ref=e27]'
+            - paragraph [ref=e28]: ए-ग्रेड सेब दिल्ली मंडी में सी-ग्रेड से 3-4 गुना अधिक कमाते हैं। अंतर ज्यादातर ग्रेडिंग और प्रस्तुति में है।
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]: B
+              - generic [ref=e32]:
+                - paragraph [ref=e33]: Baagvaani Editorial
+                - paragraph [ref=e34]: Agronomy Team
+            - generic [ref=e35]:
+              - generic [ref=e36]:
+                - img [ref=e37]
+                - text: 1 min
+              - generic [ref=e39]:
+                - img [ref=e40]
+                - text: 1,122
+              - time [ref=e43]: May 13, 2026
+      - 'img "Apple Grading and Packing: Getting Better Prices at the Mandi" [ref=e47]'
+      - generic [ref=e48]:
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - paragraph [ref=e52]: ग्रेडिंग मानक
+            - paragraph [ref=e53]: "हिंदी लोरेम इप्सम डोलर सिट अमेट, कॉन्सेक्टेटुर एडिपिसिंग एलीट। ग्रेड ए: 65 मिमी से ऊपर व्यास, 75%+ लाल रंग, कोई दाग नहीं। ग्रेड बी: 55-65 मिमी, 50%+ रंग। ग्रेड सी: 55 मिमी से नीचे।"
+            - paragraph [ref=e54]: पैकिंग सामग्री
+            - paragraph [ref=e55]: 20 किग्रा के सीएफबी बॉक्स का उपयोग करें। हिंदी लोरेम इप्सम डोलर सिट अमेट, कॉन्सेक्टेटुर एडिपिसिंग एलीट। प्रत्येक सेब के लिए फोम नेट रैप से लाइन करें।
+            - paragraph [ref=e56]: पैकिंग से पहले प्री-कूलिंग
+            - paragraph [ref=e57]: क्षेत्र की गर्मी हटाना महत्वपूर्ण है। हिंदी लोरेम इप्सम डोलर सिट अमेट, कॉन्सेक्टेटुर एडिपिसिंग एलीट। लोड करने से पहले फल को 4°C तक ठंडा करने से शेल्फ लाइफ बढ़ती है।
+          - generic [ref=e58]:
+            - link "#Apple Scab" [ref=e59] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/tag/apple-scab
+            - link "#Alternaria Leaf Spot" [ref=e60] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/tag/alternaria-leaf-spot
+            - link "#Apple Maggot" [ref=e61] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/tag/apple-maggot
+          - generic [ref=e62]:
+            - heading "Related Articles" [level=2] [ref=e63]
+            - 'link "Business & Market Selling Apples: MSP, FPOs, and Direct Marketing May 23, 2026 · 7 min read" [ref=e65] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/selling-apples-msp-fpo-direct-marketing
+              - generic [ref=e66]:
+                - generic [ref=e67]: Business & Market
+                - 'heading "Selling Apples: MSP, FPOs, and Direct Marketing" [level=3] [ref=e68]'
+                - paragraph [ref=e69]:
+                  - time [ref=e70]: May 23, 2026
+                  - text: · 7 min read
+        - generic [ref=e72]:
+          - heading "Mentioned in this article" [level=3] [ref=e73]
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - heading "Disease" [level=4] [ref=e76]
+              - generic [ref=e77]:
+                - link "Apple Clearwing Borer Apple Clearwing Borer Mentions" [ref=e78] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/coming-soon
+                  - img "Apple Clearwing Borer" [ref=e80]
+                  - generic [ref=e81]:
+                    - paragraph [ref=e82]: Apple Clearwing Borer
+                    - paragraph [ref=e83]: Mentions
+                - link "Apple Blossom Thrips Apple Blossom Thrips Mentions" [ref=e84] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/coming-soon
+                  - img "Apple Blossom Thrips" [ref=e86]
+                  - generic [ref=e87]:
+                    - paragraph [ref=e88]: Apple Blossom Thrips
+                    - paragraph [ref=e89]: Mentions
+                - link "Apple Root Borer Apple Root Borer Mentions" [ref=e90] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/coming-soon
+                  - img "Apple Root Borer" [ref=e92]
+                  - generic [ref=e93]:
+                    - paragraph [ref=e94]: Apple Root Borer
+                    - paragraph [ref=e95]: Mentions
+            - generic [ref=e96]:
+              - heading "Chemical" [level=4] [ref=e97]
+              - generic [ref=e98]:
+                - link "Abamectin Abamectin Mentions" [ref=e99] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/coming-soon
+                  - img "Abamectin" [ref=e101]
+                  - generic [ref=e102]:
+                    - paragraph [ref=e103]: Abamectin
+                    - paragraph [ref=e104]: Mentions
+                - link "Acetamiprid Acetamiprid Mentions" [ref=e105] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/coming-soon
+                  - img "Acetamiprid" [ref=e107]
+                  - generic [ref=e108]:
+                    - paragraph [ref=e109]: Acetamiprid
+                    - paragraph [ref=e110]: Mentions
+                - link "Boron Fertilizer Boron Fertilizer Mentions" [ref=e111] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/coming-soon
+                  - img "Boron Fertilizer" [ref=e113]
+                  - generic [ref=e114]:
+                    - paragraph [ref=e115]: Boron Fertilizer
+                    - paragraph [ref=e116]: Mentions
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - link "Login to like this article" [ref=e120] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/login?redirect=http%3A%2F%2F192.168.1.100%3A8000%2Fblog%2Fpost%2Fapple-grading-packing-better-prices
+              - generic [ref=e121]: 
+              - generic [ref=e122]: "0"
+              - generic [ref=e123]: Login to like
+            - generic [ref=e124]:
+              - generic [ref=e125]: Share
+              - generic [ref=e126]:
+                - link "Share on WhatsApp" [ref=e127] [cursor=pointer]:
+                  - /url: https://wa.me/?text=%E0%A4%B8%E0%A5%87%E0%A4%AC%20%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%A1%E0%A4%BF%E0%A4%82%E0%A4%97%20%E0%A4%94%E0%A4%B0%20%E0%A4%AA%E0%A5%88%E0%A4%95%E0%A4%BF%E0%A4%82%E0%A4%97%3A%20%E0%A4%AE%E0%A4%82%E0%A4%A1%E0%A5%80%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%AC%E0%A5%87%E0%A4%B9%E0%A4%A4%E0%A4%B0%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AA%E0%A4%BE%E0%A4%A8%E0%A4%BE%20http%3A%2F%2F192.168.1.100%3A8000%2Fblog%2Fpost%2Fapple-grading-packing-better-prices%3Flang%3Dhi
+                  - generic [ref=e128]: 
+                  - generic [ref=e129]: WhatsApp
+                - link "Share on Facebook" [ref=e130] [cursor=pointer]:
+                  - /url: https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F192.168.1.100%3A8000%2Fblog%2Fpost%2Fapple-grading-packing-better-prices%3Flang%3Dhi
+                  - generic [ref=e131]: 
+                  - generic [ref=e132]: Facebook
+                - link "Share on X" [ref=e133] [cursor=pointer]:
+                  - /url: https://twitter.com/intent/tweet?url=http%3A%2F%2F192.168.1.100%3A8000%2Fblog%2Fpost%2Fapple-grading-packing-better-prices%3Flang%3Dhi&text=%E0%A4%B8%E0%A5%87%E0%A4%AC%20%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%A1%E0%A4%BF%E0%A4%82%E0%A4%97%20%E0%A4%94%E0%A4%B0%20%E0%A4%AA%E0%A5%88%E0%A4%95%E0%A4%BF%E0%A4%82%E0%A4%97%3A%20%E0%A4%AE%E0%A4%82%E0%A4%A1%E0%A5%80%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%AC%E0%A5%87%E0%A4%B9%E0%A4%A4%E0%A4%B0%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%20%E0%A4%AA%E0%A4%BE%E0%A4%A8%E0%A4%BE
+                  - generic [ref=e134]: 
+                  - generic [ref=e135]: X
+                - link "Share on LinkedIn" [ref=e136] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2F192.168.1.100%3A8000%2Fblog%2Fpost%2Fapple-grading-packing-better-prices%3Flang%3Dhi
+                  - generic [ref=e137]: 
+                  - generic [ref=e138]: LinkedIn
+                - button "Copy link" [ref=e139] [cursor=pointer]:
+                  - generic [ref=e140]: 
+                  - generic [ref=e141]: Copy
+                - button "More share options" [ref=e142] [cursor=pointer]:
+                  - generic [ref=e143]: 
+                  - generic [ref=e144]: More
+                - paragraph: Link copied to clipboard!
+          - generic [ref=e146]:
+            - heading " Comments" [level=2] [ref=e148]:
+              - generic [ref=e149]: 
+              - text: Comments
+            - generic [ref=e150]:
+              - generic [ref=e151]: 
+              - link "Login" [ref=e152] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/login
+              - text: to leave a comment.
+            - generic [ref=e154]:
+              - generic [ref=e155]: 
+              - paragraph [ref=e156]: No comments yet. Be the first to share your thoughts!
+      - generic [ref=e157]:
+        - generic [ref=e158]:
+          - text:      
+          - 'button "Share सेब ग्रेडिंग और पैकिंग: मंडी में बेहतर कीमत पाना" [ref=e159]':
+            - generic [ref=e160]: 
+        - button "Switch to English" [ref=e161]: English
+  - contentinfo [ref=e162]:
+    - generic [ref=e163]:
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - link "Baagvaani" [ref=e166] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e168]: Baagvaani
+          - paragraph [ref=e169]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e171]: Social channels coming soon
+        - generic [ref=e172]:
+          - heading "Quick Links" [level=3] [ref=e173]
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - link "Home" [ref=e176] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e177]:
+              - link "Blog" [ref=e178] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e179]:
+              - link "About Us" [ref=e180] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e181]:
+          - heading "Topics" [level=3] [ref=e182]
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - link "Spray & Disease" [ref=e185] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e186]:
+              - link "Orchard Care" [ref=e187] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e188]:
+              - link "Variety Guide" [ref=e189] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e190]:
+              - link "Weather & Climate" [ref=e191] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e192]:
+          - heading "Newsletter" [level=3] [ref=e193]
+          - paragraph [ref=e194]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e195]:
+            - textbox "Enter your email" [ref=e196]
+            - button "Subscribe" [ref=e197]
+          - paragraph [ref=e198]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e200]: © 2026 Baagvaani. All rights reserved.

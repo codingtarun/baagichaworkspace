@@ -1,0 +1,396 @@
+- generic [active] [ref=e1]:
+  - complementary [ref=e2]:
+    - link " Baagicha · Admin" [ref=e3] [cursor=pointer]:
+      - /url: http://127.0.0.1:8000/admin/dashboard
+      - generic [ref=e4]: 
+      - generic [ref=e5]: Baagicha · Admin
+    - navigation [ref=e6]:
+      - generic [ref=e7]: Main
+      - link " Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/dashboard
+        - generic [ref=e9]: 
+        - text: Dashboard
+      - link " Users" [ref=e10] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/users
+        - generic [ref=e11]: 
+        - text: Users
+      - generic [ref=e12]: Content
+      - link " Disease Library" [ref=e13] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/diseases
+        - generic [ref=e14]: 
+        - text: Disease Library
+      - link " Fruits" [ref=e15] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/fruits
+        - generic [ref=e16]: 
+        - text: Fruits
+      - link " Apple Varieties" [ref=e17] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/varieties
+        - generic [ref=e18]: 
+        - text: Apple Varieties
+      - link " Rootstocks" [ref=e19] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/rootstocks
+        - generic [ref=e20]: 
+        - text: Rootstocks
+      - link " Chemicals" [ref=e21] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/chemicals
+        - generic [ref=e22]: 
+        - text: Chemicals
+      - link " Spray Schedule" [ref=e23] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/spray
+        - generic [ref=e24]: 
+        - text: Spray Schedule
+      - link " Blog Posts" [ref=e25] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/blog/posts
+        - generic [ref=e26]: 
+        - text: Blog Posts
+      - link " Blog Categories" [ref=e27] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/blog-categories
+        - generic [ref=e28]: 
+        - text: Blog Categories
+      - link " Blog Tags" [ref=e29] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/blog-tags
+        - generic [ref=e30]: 
+        - text: Blog Tags
+      - link " Comments" [ref=e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/comments
+        - generic [ref=e32]: 
+        - text: Comments
+      - link " Media Library" [ref=e33] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/media
+        - generic [ref=e34]: 
+        - text: Media Library
+      - generic [ref=e35]: Shop
+      - link " Products" [ref=e36] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/shop/products
+        - generic [ref=e37]: 
+        - text: Products
+      - link " Orders" [ref=e38] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/shop/orders
+        - generic [ref=e39]: 
+        - text: Orders
+      - link " Inventory" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/shop/inventory
+        - generic [ref=e41]: 
+        - text: Inventory
+      - link " Coupons" [ref=e42] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/shop/coupons
+        - generic [ref=e43]: 
+        - text: Coupons
+      - link " Reports" [ref=e44] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/shop/reports/sales
+        - generic [ref=e45]: 
+        - text: Reports
+      - generic [ref=e46]: System
+      - link " Weather Data" [ref=e47] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/weather-data
+        - generic [ref=e48]: 
+        - text: Weather Data
+      - link " Alert Rules" [ref=e49] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/weather-alert-rules
+        - generic [ref=e50]: 
+        - text: Alert Rules
+      - link " Queue & Cron Health" [ref=e51] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/dashboard/queue-health
+        - generic [ref=e52]: 
+        - text: Queue & Cron Health
+      - link " Activity Logs" [ref=e53] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/activity-logs
+        - generic [ref=e54]: 
+        - text: Activity Logs
+      - link " Send Notification" [ref=e55] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/notifications/send
+        - generic [ref=e56]: 
+        - text: Send Notification
+      - link " Waitlist" [ref=e57] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/waitlist
+        - generic [ref=e58]: 
+        - text: Waitlist
+      - link " Newsletter Subscribers" [ref=e59] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/newsletter-subscribers
+        - generic [ref=e60]: 
+        - text: Newsletter Subscribers
+      - link " Roles & Permissions" [ref=e61] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/roles
+        - generic [ref=e62]: 
+        - text: Roles & Permissions
+    - generic [ref=e63]:
+      - generic [ref=e64]: T
+      - generic [ref=e65]:
+        - generic [ref=e66]: Tarun Chauhan
+        - generic [ref=e67]: Administrator
+  - generic [ref=e68]:
+    - banner [ref=e69]:
+      - button "" [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]: 
+      - generic [ref=e72]:
+        - generic: 
+        - textbox "Search anything..." [ref=e73]
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - button "" [ref=e76] [cursor=pointer]:
+            - generic [ref=e77]: 
+          - text:   
+        - generic [ref=e79]:
+          - button "T Tarun Chauhan " [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]: T
+            - generic [ref=e82]: Tarun Chauhan
+            - generic [ref=e83]: 
+          - text:   
+    - main [ref=e84]:
+      - generic [ref=e86]:
+        - heading "Add Fruit" [level=4] [ref=e87]
+        - navigation "breadcrumb" [ref=e88]:
+          - list [ref=e89]:
+            - listitem [ref=e90]:
+              - link "Home" [ref=e91] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/dashboard
+            - listitem [ref=e92]:
+              - text: /
+              - link "Fruits" [ref=e93] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/admin/fruits
+            - listitem [ref=e94]: / Add
+      - generic [ref=e96]:
+        - generic [ref=e98]:
+          - generic [ref=e99]: 
+          - text: New Fruit
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - generic [ref=e104]: Name (English) *
+              - textbox [ref=e105]
+            - generic [ref=e106]:
+              - generic [ref=e107]: Name (Hindi)
+              - textbox [ref=e108]
+            - generic [ref=e109]:
+              - generic [ref=e110]: Scientific Name
+              - textbox [ref=e111]
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - checkbox "Active" [checked] [ref=e114]
+                - generic [ref=e115]: Active
+              - generic [ref=e116]:
+                - checkbox "Published" [ref=e117]
+                - generic [ref=e118]: Published
+              - generic [ref=e119]:
+                - checkbox "Featured" [ref=e120]
+                - generic [ref=e121]: Featured
+          - heading "Descriptions" [level=6] [ref=e122]
+          - generic [ref=e123]:
+            - generic [ref=e124]:
+              - generic [ref=e125]: Description (English)
+              - textbox [ref=e126]
+            - generic [ref=e127]:
+              - generic [ref=e128]: Description (Hindi)
+              - textbox [ref=e129]
+          - heading "Media" [level=6] [ref=e130]
+          - generic [ref=e131]:
+            - generic [ref=e133]:
+              - generic [ref=e134]: Featured Image
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - img "Featured Image" [ref=e137]
+                  - generic [ref=e138]:
+                    - button " Upload Image" [ref=e139] [cursor=pointer]:
+                      - generic [ref=e140]: 
+                      - text: Upload Image
+                    - generic [ref=e141]:
+                      - generic [ref=e142]: 
+                      - text: Click or drag image here
+                  - text: 
+                - text: 
+              - generic [ref=e143]:
+                - generic [ref=e144]: 
+                - text: Max 2MB. JPG, PNG, WebP
+            - generic [ref=e146]:
+              - generic [ref=e147]: Gallery Images
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - generic [ref=e150]: 
+                  - heading "Click or drag images here" [level=6] [ref=e151]
+                  - generic [ref=e152]:
+                    - generic [ref=e153]: 
+                    - text: Multiple files allowed (Max 10 images)
+                  - button " Browse Files" [ref=e154] [cursor=pointer]:
+                    - generic [ref=e155]: 
+                    - text: Browse Files
+                - text: 
+              - generic [ref=e156]:
+                - generic [ref=e157]: 
+                - text: Max 2MB per file. Up to 10 images.
+              - generic [ref=e158]:
+                - generic [ref=e159]:
+                  - generic [ref=e160]: 
+                  - text: 0 / 10 images
+                - generic [ref=e161]: 10 remaining
+          - heading "Relationships" [level=6] [ref=e162]
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - generic [ref=e165]: Varieties
+              - listbox [ref=e166]:
+                - option "Adams Spur / एडम्स स्पर" [ref=e167]
+                - option "Anna / अन्ना" [ref=e168]
+                - option "Brookfield Gala / ब्रुकफील्ड गाला" [ref=e169]
+                - option "Buckeye Gala / बकआई गाला" [ref=e170]
+                - option "Co Fuji / को फूजी" [ref=e171]
+                - option "Dark Baron Gala / डार्क बैरन गाला" [ref=e172]
+                - option "Devil Gala / डेविल गाला" [ref=e173]
+                - option "Dorsett Golden / डोरसेट गोल्डन" [ref=e174]
+                - option "Early Red One / अर्ली रेड वन" [ref=e175]
+                - option "Gale Gala / गेल गाला" [ref=e176]
+                - option "Golden Delicious / गोल्डन डेलिशियस" [ref=e177]
+                - option "Granny Smith / ग्रैनी स्मिथ" [ref=e178]
+                - option "Honey Crisp / हनीक्रिस्प" [ref=e179]
+                - option "HRMN-99 / एचआरएमएन-99" [ref=e180]
+                - option "Jeromine / जेरोमिन" [ref=e181]
+                - option "Jona Prince Select / जोना प्रिंस सेलेक्ट" [ref=e182]
+                - option "Jonathan / जोनाथन" [ref=e183]
+                - option "Kiku Fuji / किकु फूजी" [ref=e184]
+                - option "King Gala / किंग गाला" [ref=e185]
+                - option "King Groffan Fuji / किंग ग्रोफैन फूजी" [ref=e186]
+                - option "King Roat / किंग रोएट" [ref=e187]
+                - option "McIntosh / मैकिन्टोश" [ref=e188]
+                - option "Mema Mestar / मेमा मेस्टार" [ref=e189]
+                - option "Nagafu / नागाफू" [ref=e190]
+                - option "Narasimo Gala / नारासिमो गाला" [ref=e191]
+                - option "Oregon Spur 2 / ओरेगन स्पर 2" [ref=e192]
+                - option "Pink Lady / पिंक लेडी" [ref=e193]
+                - option "Rd11 / आरडी11" [ref=e194]
+                - option "Red Chief / रेड चीफ" [ref=e195]
+                - option "Red Delicious / रेड डेलिशियस" [ref=e196]
+                - option "Red Golden / रेड गोल्डन" [ref=e197]
+                - option "Red Love / रेड लव" [ref=e198]
+                - option "Red Velox / रेड वेलोक्स" [ref=e199]
+                - option "Redlum Gala / रेडलम गाला" [ref=e200]
+                - option "Rich-A-Red / रिच-ए-रेड" [ref=e201]
+                - option "Royal Delicious / रॉयल डेलिशियस" [ref=e202]
+                - option "Royal Gala / रॉयल गाला" [ref=e203]
+                - option "Royal Vance / रॉयल वेंस" [ref=e204]
+                - option "Scarlet Spur 2 / स्कारलेट स्पर 2" [ref=e205]
+                - option "Schniga Schnico Red Gala / श्निगा श्निको रेड गाला" [ref=e206]
+                - option "Starkrimson Delicious / स्टार्क्रिमसन डेलिशियस" [ref=e207]
+                - option "Super Chief / सुपर चीफ" [ref=e208]
+                - option "T Rex Gala / टी रेक्स गाला" [ref=e209]
+                - option "Tide Man / टाइड मैन" [ref=e210]
+                - option "Top Red / टॉप रेड" [ref=e211]
+                - option "Tropic Sweet / ट्रॉपिक स्वीट" [ref=e212]
+                - option "Zad One (Fenzad) / जैड वन (फेनजैड)" [ref=e213]
+              - generic [ref=e214]: Hold Ctrl/Cmd to select multiple. Order matters.
+            - generic [ref=e215]:
+              - generic [ref=e216]: Diseases
+              - listbox [ref=e217]:
+                - option "Alternaria Leaf Spot / ऑल्टरनेरिया लीफ स्पॉट" [ref=e218]
+                - option "Apple Blossom Thrips / सेब फूल थ्रिप्स" [ref=e219]
+                - option "Apple Clearwing Borer / सेब क्लियरविंग बोरर" [ref=e220]
+                - option "Apple Fruit Moth / सेब फ्रूट मोथ" [ref=e221]
+                - option "Apple Leaf Miner / सेब लीफ माइनर" [ref=e222]
+                - option "Apple Root Borer / सेब रूट बोरर" [ref=e223]
+                - option "Apple Scab / सेब का दाग" [ref=e224]
+                - option "Bitter Pit / बिटर पिट" [ref=e225]
+                - option "Bitter Rot / कड़वा सड़न" [ref=e226]
+                - option "Black Rot / ब्लैक रोट" [ref=e227]
+                - option "Brown Mite / ब्राउन माइट" [ref=e228]
+                - option "Brown Rot / भूरा सड़न" [ref=e229]
+                - option "Codling Moth / कोडलिंग मोथ" [ref=e230]
+                - option "Collar Rot / कॉलर रोट" [ref=e231]
+                - option "Cork Spot / कॉर्क स्पॉट" [ref=e232]
+                - option "Crown Gall / क्राउन गॉल" [ref=e233]
+                - option "European Canker / यूरोपीय कैंकर" [ref=e234]
+                - option "European Red Mite / यूरोपियन रेड माइट" [ref=e235]
+                - option "Fire Blight / फायर ब्लाइट" [ref=e236]
+                - option "Fruit Borer / फ्रूट बोरर" [ref=e237]
+                - option "Fruit Cracking / फल फटना" [ref=e238]
+                - option "Green Apple Aphid / हरा सेब एफिड" [ref=e239]
+                - option "Gypsy Moth / जिप्सी मॉथ" [ref=e240]
+                - option "Internal Browning / आंतरिक भूरापन" [ref=e241]
+                - option "Leaf Roller / लीफ रोलर" [ref=e242]
+                - option "Lenticel Breakdown / लेंटिसेल ब्रेकडाउन" [ref=e243]
+                - option "Marssonina Leaf Blotch / मार्सोनिना लीफ ब्लॉच" [ref=e244]
+                - option "Powdery Mildew / पाउडरी मिल्ड्यू" [ref=e245]
+                - option "Rosy Apple Aphid / गुलाबी सेब एफिड" [ref=e246]
+                - option "Rust Mite / रस्ट माइट" [ref=e247]
+                - option "San Jose Scale / सैन होसे स्केल" [ref=e248]
+                - option "Shot Hole Borer / शॉट होल बोरर" [ref=e249]
+                - option "Stem Borer / स्टेम बोरर" [ref=e250]
+                - option "Sunburn / सनबर्न" [ref=e251]
+                - option "Superficial Scald / सतही स्काल्ड" [ref=e252]
+                - option "Tent Caterpillar / टेंट कैटरपिलर" [ref=e253]
+                - option "Thrips / थ्रिप्स" [ref=e254]
+                - option "Two-Spotted Spider Mite / टू-स्पॉटेड स्पाइडर माइट" [ref=e255]
+                - option "Watercore / वॉटरकोर" [ref=e256]
+                - option "White Root Rot / सफेद जड़ सड़न" [ref=e257]
+                - option "White Rot / सफेद सड़न" [ref=e258]
+                - option "Woolly Apple Aphid / ऊनी सेब एफिड" [ref=e259]
+              - generic [ref=e260]: Hold Ctrl/Cmd to select multiple. Order matters.
+            - generic [ref=e261]:
+              - generic [ref=e262]: Rootstocks
+              - listbox [ref=e263]:
+                - option "B.118 — Budagovsky 118" [ref=e264]
+                - option "B.9 — Budagovsky 9" [ref=e265]
+                - option "G.11 — Geneva 11" [ref=e266]
+                - option "G.214 — Geneva 214" [ref=e267]
+                - option "G.41 — Geneva 41" [ref=e268]
+                - option "G.935 — Geneva 935" [ref=e269]
+                - option "G.969 — Geneva 969" [ref=e270]
+                - option "M.2 — Malling 2" [ref=e271]
+                - option "M.26 — Malling 26" [ref=e272]
+                - option "M.27 — Malling 27" [ref=e273]
+                - option "M.4 — Malling 4" [ref=e274]
+                - option "M.7 — Malling 7" [ref=e275]
+                - option "M.9 — Malling 9" [ref=e276]
+                - option "MM-104 — Malling-Merton 104" [ref=e277]
+                - option "MM-106 — Malling-Merton 106" [ref=e278]
+                - option "MM-109 — Malling-Merton 109" [ref=e279]
+                - option "MM-111 — Malling-Merton 111" [ref=e280]
+                - option "Ottawa 3 — Ottawa 3 (O.3)" [ref=e281]
+                - option "Pajam 2 — Pajam 2 (Lancep)" [ref=e282]
+                - option "Seedling — Apple Seedling (Real)" [ref=e283]
+              - generic [ref=e284]: Hold Ctrl/Cmd to select multiple. Order matters.
+          - heading "Shop Products" [level=6] [ref=e285]
+          - generic [ref=e288]:
+            - heading " Associated Products" [level=5] [ref=e290]:
+              - generic [ref=e291]: 
+              - text: Associated Products
+            - generic [ref=e292]:
+              - paragraph [ref=e293]: Search and select products to associate with this item.
+              - generic [ref=e295]:
+                - generic [ref=e297]: 
+                - textbox "Search products by name..." [ref=e298]
+              - generic [ref=e299]:
+                - generic [ref=e300]:
+                  - checkbox "Heavy Duty Loppers (हेवी ड्यूटी लॉपर)" [ref=e301]
+                  - generic [ref=e302]: Heavy Duty Loppers (हेवी ड्यूटी लॉपर)
+                - generic [ref=e303]:
+                  - checkbox "Hori Hori Garden Knife (होरी होरी बगीचे का चाकू)" [ref=e304]
+                  - generic [ref=e305]: Hori Hori Garden Knife (होरी होरी बगीचे का चाकू)
+                - generic [ref=e306]:
+                  - checkbox "Professional Pruning Shears (पेशेवर छंटाई कैंची)" [ref=e307]
+                  - generic [ref=e308]: Professional Pruning Shears (पेशेवर छंटाई कैंची)
+              - generic [ref=e309]:
+                - generic [ref=e310]: 0 product(s) selected
+                - button "Clear all" [ref=e311] [cursor=pointer]
+          - heading "SEO" [level=6] [ref=e312]
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - generic [ref=e315]: Meta Title (English)
+              - textbox [ref=e316]
+            - generic [ref=e317]:
+              - generic [ref=e318]: Meta Title (Hindi)
+              - textbox [ref=e319]
+            - generic [ref=e320]:
+              - generic [ref=e321]: Meta Description (English)
+              - textbox [ref=e322]
+            - generic [ref=e323]:
+              - generic [ref=e324]: Meta Description (Hindi)
+              - textbox [ref=e325]
+          - generic [ref=e326]:
+            - button " Save Fruit" [ref=e327] [cursor=pointer]:
+              - generic [ref=e328]: 
+              - text: Save Fruit
+            - link "Cancel" [ref=e329] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/admin/fruits
+    - contentinfo [ref=e330]:
+      - generic [ref=e331]: © 2026 Baagvaani. All rights reserved.
+      - generic [ref=e332]:
+        - text: Powered by
+        - strong [ref=e333]: Laravel 12.58.0
+        - text: "& Bootstrap 5"

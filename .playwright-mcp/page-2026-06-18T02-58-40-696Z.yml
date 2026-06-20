@@ -1,0 +1,240 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000
+        - generic [ref=e8]: Baagvaani
+      - navigation "Main navigation" [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - link "Fruits & Varieties" [ref=e11] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/fruits
+        - link "Blog" [ref=e12] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/blog
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/about
+      - generic [ref=e15]:
+        - link "Login" [ref=e16] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/login
+        - link "Sign Up" [ref=e17] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/register
+  - main [ref=e18]:
+    - region "Fruit Varieties" [ref=e19]:
+      - generic [ref=e23]:
+        - heading "Fruit Varieties" [level=1] [ref=e24]
+        - paragraph [ref=e25]: Choose a fruit to explore varieties suited for Himalayan orchards.
+        - generic [ref=e26]:
+          - textbox "Search fruits..." [ref=e27]
+          - button "Search" [ref=e28] [cursor=pointer]
+    - region "Select a Fruit" [ref=e29]:
+      - generic [ref=e30]:
+        - heading "Select a Fruit" [level=2] [ref=e31]
+        - generic [ref=e32]:
+          - article [ref=e33]:
+            - link "Apple 47 Varieties Apple सेब The king of Himalayan orchards. Apple is the primary commercial fruit across Himachal Pradesh, Uttarakhand and Jammu & K...  42 diseases ·  20 rootstocks" [ref=e34] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/apple
+              - generic [ref=e35]:
+                - img "Apple" [ref=e36]
+                - generic [ref=e37]: 47 Varieties
+              - generic [ref=e38]:
+                - heading "Apple" [level=3] [ref=e39]
+                - paragraph [ref=e40]: सेब
+                - paragraph [ref=e41]: The king of Himalayan orchards. Apple is the primary commercial fruit across Himachal Pradesh, Uttarakhand and Jammu & K...
+                - generic [ref=e42]:
+                  - generic [ref=e43]:
+                    - generic [ref=e44]: 
+                    - text: 42 diseases
+                  - generic [ref=e45]: ·
+                  - generic [ref=e46]:
+                    - generic [ref=e47]: 
+                    - text: 20 rootstocks
+          - article [ref=e48]:
+            - link "Apricot 0 Varieties Apricot खुबानी Apricots are traditional high-altitude fruits of Ladakh, Himachal and Uttarakhand, prized for drying and fresh markets.  0 diseases ·  0 rootstocks" [ref=e49] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/apricot
+              - generic [ref=e50]:
+                - img "Apricot" [ref=e51]
+                - generic [ref=e52]: 0 Varieties
+              - generic [ref=e53]:
+                - heading "Apricot" [level=3] [ref=e54]
+                - paragraph [ref=e55]: खुबानी
+                - paragraph [ref=e56]: Apricots are traditional high-altitude fruits of Ladakh, Himachal and Uttarakhand, prized for drying and fresh markets.
+                - generic [ref=e57]:
+                  - generic [ref=e58]:
+                    - generic [ref=e59]: 
+                    - text: 0 diseases
+                  - generic [ref=e60]: ·
+                  - generic [ref=e61]:
+                    - generic [ref=e62]: 
+                    - text: 0 rootstocks
+          - article [ref=e63]:
+            - link "Cherry 0 Varieties Cherry चेरी Sweet cherries are an emerging high-value crop in cooler Himalayan districts with good export potential.  0 diseases ·  0 rootstocks" [ref=e64] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/cherry
+              - generic [ref=e65]:
+                - img "Cherry" [ref=e66]
+                - generic [ref=e67]: 0 Varieties
+              - generic [ref=e68]:
+                - heading "Cherry" [level=3] [ref=e69]
+                - paragraph [ref=e70]: चेरी
+                - paragraph [ref=e71]: Sweet cherries are an emerging high-value crop in cooler Himalayan districts with good export potential.
+                - generic [ref=e72]:
+                  - generic [ref=e73]:
+                    - generic [ref=e74]: 
+                    - text: 0 diseases
+                  - generic [ref=e75]: ·
+                  - generic [ref=e76]:
+                    - generic [ref=e77]: 
+                    - text: 0 rootstocks
+          - article [ref=e78]:
+            - link "Lorem 6 Varieties Lorem इप्सम Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem  7 diseases ·  4 rootstocks" [ref=e79] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/lorem
+              - generic [ref=e80]:
+                - img "Lorem" [ref=e81]
+                - generic [ref=e82]: 6 Varieties
+              - generic [ref=e83]:
+                - heading "Lorem" [level=3] [ref=e84]
+                - paragraph [ref=e85]: इप्सम
+                - paragraph [ref=e86]: Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+                - generic [ref=e87]:
+                  - generic [ref=e88]:
+                    - generic [ref=e89]: 
+                    - text: 7 diseases
+                  - generic [ref=e90]: ·
+                  - generic [ref=e91]:
+                    - generic [ref=e92]: 
+                    - text: 4 rootstocks
+          - article [ref=e93]:
+            - link "Peach 0 Varieties Peach आड़ू Peaches are valued for their short gestation and high returns in suitable low-chill pockets of the hills.  0 diseases ·  0 rootstocks" [ref=e94] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/peach
+              - generic [ref=e95]:
+                - img "Peach" [ref=e96]
+                - generic [ref=e97]: 0 Varieties
+              - generic [ref=e98]:
+                - heading "Peach" [level=3] [ref=e99]
+                - paragraph [ref=e100]: आड़ू
+                - paragraph [ref=e101]: Peaches are valued for their short gestation and high returns in suitable low-chill pockets of the hills.
+                - generic [ref=e102]:
+                  - generic [ref=e103]:
+                    - generic [ref=e104]: 
+                    - text: 0 diseases
+                  - generic [ref=e105]: ·
+                  - generic [ref=e106]:
+                    - generic [ref=e107]: 
+                    - text: 0 rootstocks
+          - article [ref=e108]:
+            - link "Pear 0 Varieties Pear नाशपाती Pear varieties thrive in mid-hill regions and are gaining popularity as a diversification crop in Himalayan orchards.  0 diseases ·  0 rootstocks" [ref=e109] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/pear
+              - generic [ref=e110]:
+                - img "Pear" [ref=e111]
+                - generic [ref=e112]: 0 Varieties
+              - generic [ref=e113]:
+                - heading "Pear" [level=3] [ref=e114]
+                - paragraph [ref=e115]: नाशपाती
+                - paragraph [ref=e116]: Pear varieties thrive in mid-hill regions and are gaining popularity as a diversification crop in Himalayan orchards.
+                - generic [ref=e117]:
+                  - generic [ref=e118]:
+                    - generic [ref=e119]: 
+                    - text: 0 diseases
+                  - generic [ref=e120]: ·
+                  - generic [ref=e121]:
+                    - generic [ref=e122]: 
+                    - text: 0 rootstocks
+          - article [ref=e123]:
+            - link "Persimmon 0 Varieties Persimmon तेंदू फल Persimmon or Japani phal is a niche crop gaining attention in mid-hill agro-climatic zones.  0 diseases ·  0 rootstocks" [ref=e124] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/persimmon
+              - generic [ref=e125]:
+                - img "Persimmon" [ref=e126]
+                - generic [ref=e127]: 0 Varieties
+              - generic [ref=e128]:
+                - heading "Persimmon" [level=3] [ref=e129]
+                - paragraph [ref=e130]: तेंदू फल
+                - paragraph [ref=e131]: Persimmon or Japani phal is a niche crop gaining attention in mid-hill agro-climatic zones.
+                - generic [ref=e132]:
+                  - generic [ref=e133]:
+                    - generic [ref=e134]: 
+                    - text: 0 diseases
+                  - generic [ref=e135]: ·
+                  - generic [ref=e136]:
+                    - generic [ref=e137]: 
+                    - text: 0 rootstocks
+          - article [ref=e138]:
+            - link "Plum 0 Varieties Plum आलूबुखारा Plums are well suited to temperate valleys and provide early-season harvest options for orchardists.  0 diseases ·  0 rootstocks" [ref=e139] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/plum
+              - generic [ref=e140]:
+                - img "Plum" [ref=e141]
+                - generic [ref=e142]: 0 Varieties
+              - generic [ref=e143]:
+                - heading "Plum" [level=3] [ref=e144]
+                - paragraph [ref=e145]: आलूबुखारा
+                - paragraph [ref=e146]: Plums are well suited to temperate valleys and provide early-season harvest options for orchardists.
+                - generic [ref=e147]:
+                  - generic [ref=e148]:
+                    - generic [ref=e149]: 
+                    - text: 0 diseases
+                  - generic [ref=e150]: ·
+                  - generic [ref=e151]:
+                    - generic [ref=e152]: 
+                    - text: 0 rootstocks
+          - article [ref=e153]:
+            - link "Pomegranate 0 Varieties Pomegranate अनार Pomegranate performs well in warmer, drier pockets of the Himalayan foothills with proper irrigation.  0 diseases ·  0 rootstocks" [ref=e154] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/pomegranate
+              - generic [ref=e155]:
+                - img "Pomegranate" [ref=e156]
+                - generic [ref=e157]: 0 Varieties
+              - generic [ref=e158]:
+                - heading "Pomegranate" [level=3] [ref=e159]
+                - paragraph [ref=e160]: अनार
+                - paragraph [ref=e161]: Pomegranate performs well in warmer, drier pockets of the Himalayan foothills with proper irrigation.
+                - generic [ref=e162]:
+                  - generic [ref=e163]:
+                    - generic [ref=e164]: 
+                    - text: 0 diseases
+                  - generic [ref=e165]: ·
+                  - generic [ref=e166]:
+                    - generic [ref=e167]: 
+                    - text: 0 rootstocks
+  - contentinfo [ref=e168]:
+    - generic [ref=e169]:
+      - generic [ref=e170]:
+        - generic [ref=e171]:
+          - link "Baagvaani" [ref=e172] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e174]: Baagvaani
+          - paragraph [ref=e175]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e177]: Social channels coming soon
+        - generic [ref=e178]:
+          - heading "Quick Links" [level=3] [ref=e179]
+          - list [ref=e180]:
+            - listitem [ref=e181]:
+              - link "Home" [ref=e182] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e183]:
+              - link "Blog" [ref=e184] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e185]:
+              - link "About Us" [ref=e186] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e187]:
+          - heading "Topics" [level=3] [ref=e188]
+          - list [ref=e189]:
+            - listitem [ref=e190]:
+              - link "Spray & Disease" [ref=e191] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e192]:
+              - link "Orchard Care" [ref=e193] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e194]:
+              - link "Variety Guide" [ref=e195] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e196]:
+              - link "Weather & Climate" [ref=e197] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e198]:
+          - heading "Newsletter" [level=3] [ref=e199]
+          - paragraph [ref=e200]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e201]:
+            - textbox "Enter your email" [ref=e202]
+            - button "Subscribe" [ref=e203]
+          - paragraph [ref=e204]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e206]: © 2026 Baagvaani. All rights reserved.
