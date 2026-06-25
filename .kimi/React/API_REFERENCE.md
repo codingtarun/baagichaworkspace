@@ -224,7 +224,57 @@ POST /predictions/{logId}/feedback
 
 ---
 
-## 6. Orchard Blocks
+## 6. Daily Intelligence Card
+
+### Get Today's Card
+```
+GET /intelligence/today
+```
+**Response:** `{ success, message, data: DailyIntelligence }`
+
+### Get Card by Date
+```
+GET /intelligence/{date}
+```
+Example: `GET /intelligence/2026-06-25`
+
+### Dismiss or Snooze Card
+```
+POST /intelligence/{id}/dismiss
+```
+**Body:**
+```json
+{
+  "action": "snooze",
+  "snooze_minutes": 60
+}
+```
+
+### Mark Item Done
+```
+POST /intelligence/items/{itemId}/done
+```
+
+### Snooze Item
+```
+POST /intelligence/items/{itemId}/snooze
+```
+**Body:** `{ "snooze_minutes": 60 }`
+
+### Submit Item Feedback
+```
+POST /intelligence/items/{itemId}/feedback
+```
+**Body:** `{ "was_correct": true, "notes": "..." }`
+
+### List Card History
+```
+GET /intelligence/history
+```
+
+---
+
+## 7. Orchard Blocks
 
 ### List Blocks
 ```
@@ -254,7 +304,7 @@ GET /orchard/{id}/blocks/{blockId}/predictions
 
 ---
 
-## 7. Spray Logs
+## 8. Spray Logs
 
 ### List Spray Logs
 ```
@@ -283,7 +333,7 @@ POST /orchard/{id}/spray-logs
 
 ---
 
-## 8. Pages / Routes
+## 9. Pages / Routes
 
 | Route | Method | Description |
 |-------|--------|-------------|
@@ -306,7 +356,7 @@ POST /orchard/{id}/spray-logs
 
 ---
 
-## 9. Response Codes
+## 10. Response Codes
 
 | Code | Meaning | Action |
 |------|---------|--------|
@@ -317,7 +367,7 @@ POST /orchard/{id}/spray-logs
 
 ---
 
-## 10. Toast Notification Types
+## 11. Toast Notification Types
 
 Used for in-app feedback (not API endpoints):
 

@@ -70,7 +70,8 @@ Memory files extracted from the Laravel web frontend + new research:
 | Home (Segmented: My Farm / Community) | ✅ Implemented | `SCREEN_BREAKDOWN.md` |
 | Kisan Tools (26 widgets) | ✅ UI Implemented | `KISAN_TOOLS.md` |
 | Fruit Module | ✅ Implemented | `Modules/Fruit/` |
-| Prediction Engine | 🔄 Backend complete, RN pending | `PREDICTION_ENGINE.md`, `PREDICTION_TYPES.md` |
+| Prediction Engine | ✅ Backend complete, RN pending | `PREDICTION_ENGINE.md`, `PREDICTION_TYPES.md` |
+| Daily Orchard Intelligence Card | ✅ Implemented (v1) | `Modules/Intelligence/` |
 | eCommerce (Shop) | 🔄 Phase 1 | `ECOMMERCE_PLAN.md` |
 
 ## Quick Reference
@@ -98,10 +99,10 @@ The admin UI also exposes queue-management actions for admins:
 
 Some listeners (e.g. `Modules\Auth\Listeners\NotifyAdminOfNewRegistration`) explicitly dispatch to a `notifications` queue. The main worker **must** listen on both `default` and `notifications` queues or those jobs will sit pending forever.
 
-Recommended Hostinger cron command (note the `cd` into the project directory):
+Recommended Hostinger cron command (note the `cd` into the project directory). The intelligence module adds a dedicated `intelligence` queue, so include it in the worker:
 
 ```
-* * * * * cd /home/u896019069/domains/baagvaani.com/web_baagicha && /usr/bin/php artisan queue:work --queue=default,notifications --once --timeout=60 --tries=3 >> storage/logs/queue-cron.log 2>&1; /usr/bin/php artisan baagicha:queue-cron-heartbeat
+* * * * * cd /home/u896019069/domains/baagvaani.com/web_baagicha && /usr/bin/php artisan queue:work --queue=default,notifications,intelligence --once --timeout=60 --tries=3 >> storage/logs/queue-cron.log 2>&1; /usr/bin/php artisan baagicha:queue-cron-heartbeat
 ```
 
 Optional safety-net command to drain the `notifications` queue on a slower schedule:
@@ -113,6 +114,48 @@ Optional safety-net command to drain the `notifications` queue on a slower sched
 ```
 0 * * * * cd /home/u896019069/domains/baagvaani.com/web_baagicha && /usr/bin/php artisan baagicha:process-notification-queue >> storage/logs/queue-notifications.log 2>&1
 ```
+
+## Daily Orchard Intelligence Card
+
+The `Modules/Intelligence` module generates a personalized daily card for every authenticated user. It appears below the navbar in the web PWA and below the global header in the React Native app.
+
+- **Generation:** `intelligence:generate-daily` runs at 02:00 IST for all active users with orchards.
+- **Feature recomputation:** `intelligence:recompute-features` runs at 01:30 IST.
+- **Archival:** `intelligence:archive-yearly` runs at 03:00 IST on 1 January.
+- **Queue:** jobs are dispatched to the `intelligence` queue.
+- **On-demand:** `GET /api/v1/intelligence/today` generates a card if missing.
+- **Tables:** `user_daily_intelligence`, `user_daily_intelligence_items`, `user_intelligence_features`, `user_intelligence_archive`.
+- **Shadow mode:** enable with `INTELLIGENCE_SHADOW_MODE=true` in `.env`.
+
+## Sitemap Generation
+
+The SEO sitemap is a static XML file written to `public/sitemap.xml` and served directly by the web server.
+
+- **Artisan command:** `php artisan sitemap:generate`
+- **Output path:** configured by `SITEMAP_PATH` env var (defaults to `public/sitemap.xml`)
+- **Schedule:** already registered in `routes/console.php` to run daily at 03:00
+- **Requirements:** the Laravel scheduler itself needs a system cron entry to trigger `schedule:run`
+
+On Hostinger/shared hosts where the web root is `public_html` and the Laravel app lives in a separate folder (e.g. `web_baagicha/`), point `SITEMAP_PATH` to the public web root so the file is served at `https://baagicha.com/sitemap.xml`:
+
+```env
+APP_URL=https://baagicha.com
+SITEMAP_PATH=/home/u896019069/domains/baagvaani.com/public_html/sitemap.xml
+```
+
+Recommended Hostinger cron command (runs the scheduler every minute so the 03:00 sitemap job fires):
+
+```
+* * * * * cd /home/u896019069/domains/baagvaani.com/web_baagicha && /usr/bin/php artisan schedule:run >> storage/logs/schedule.log 2>&1
+```
+
+After deploying, generate the first sitemap manually:
+
+```
+cd /home/u896019069/domains/baagvaani.com/web_baagicha && /usr/bin/php artisan sitemap:generate
+```
+
+Make sure `APP_URL=https://baagicha.com` is set in `.env` so generated URLs use the production domain.
 
 ## Variety Module — Multi-Fruit Preparation
 
