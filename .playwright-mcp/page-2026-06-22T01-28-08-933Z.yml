@@ -1,0 +1,280 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - generic [ref=e8]: Baagvaani
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "Login" [ref=e11] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/login
+          - link "Sign Up" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/register
+        - button "Toggle menu" [ref=e13]:
+          - img [ref=e14]
+  - main [ref=e16]:
+    - article [ref=e17]:
+      - region "Apple" [ref=e18]:
+        - generic [ref=e22]:
+          - link "Fruits" [ref=e24] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/fruits
+            - img [ref=e25]
+            - text: Fruits
+          - paragraph [ref=e27]: सेब
+          - heading "Apple" [level=1] [ref=e28]
+          - paragraph [ref=e29]:
+            - emphasis [ref=e30]: Malus domestica
+          - paragraph [ref=e31]: The king of Himalayan orchards. Apple is the primary commercial fruit across Himachal Pradesh, Uttarakhand and Jammu & Kashmir.
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - region "About Apple" [ref=e35]:
+            - heading "About Apple" [level=2] [ref=e36]
+            - generic [ref=e37]:
+              - paragraph [ref=e38]: The king of Himalayan orchards. Apple is the primary commercial fruit across Himachal Pradesh, Uttarakhand and Jammu & Kashmir.
+              - paragraph [ref=e39]: हिमालयी बागों का राजा। सेब हimachal प्रदेश, उत्तराखंड और जम्मू-कश्मीर में प्रमुख व्यावसायिक फल है।
+          - region "Gallery" [ref=e40]:
+            - heading "Gallery" [level=2] [ref=e43]
+            - generic [ref=e44]:
+              - list "Gallery gallery" [ref=e45]:
+                - listitem [ref=e46]:
+                  - link "Apple" [ref=e47] [cursor=pointer]:
+                    - /url: /storage/2/conversions/high-level-description-a-premium-agritec_r-Ew40jSU0KoeWLjkcABQg_Kb5hFN6OT4CkmT6vOvGbHA-large.jpg
+                    - img "Apple" [ref=e49]
+                - listitem [ref=e50]:
+                  - link "Apple" [ref=e51] [cursor=pointer]:
+                    - /url: /storage/3/conversions/high-level-description-a-premium-agritec_nnVOgxr5WNamMsgGeW_GJQ_Kb5hFN6OT4CkmT6vOvGbHA-large.jpg
+                    - img "Apple" [ref=e53]
+                - listitem [ref=e54]:
+                  - link "Apple" [ref=e55] [cursor=pointer]:
+                    - /url: /storage/4/conversions/high-level-description-a-premium-agritec_EMFOCROZURaAen8GwfBmmg_Kb5hFN6OT4CkmT6vOvGbHA_cover-large.jpg
+                    - img "Apple" [ref=e57]
+                - listitem [ref=e58]:
+                  - link "Apple" [ref=e59] [cursor=pointer]:
+                    - /url: /storage/5/conversions/high-level-description-a-premium-agritec_ZQrAViWAXrOdZoQfOTgkZA_vRYlcHWiQ7e3Oqmw_dTiaw-large.jpg
+                    - img "Apple" [ref=e61]
+                - listitem [ref=e62]:
+                  - link "Apple" [ref=e63] [cursor=pointer]:
+                    - /url: /storage/6/conversions/high-level-description-a-premium-agritec_QWJe7nKJUv69Kt2BNMBO4Q_vRYlcHWiQ7e3Oqmw_dTiaw-large.jpg
+                    - img "Apple" [ref=e65]
+                - listitem [ref=e66]:
+                  - link "Apple" [ref=e67] [cursor=pointer]:
+                    - /url: /storage/7/conversions/high-level-description-a-premium-agritec_9qNlYixlVRGTAuyWjcDiRQ_vRYlcHWiQ7e3Oqmw_dTiaw-large.jpg
+                    - img "Apple" [ref=e69]
+                - listitem [ref=e70]:
+                  - link "Apple" [ref=e71] [cursor=pointer]:
+                    - /url: /storage/8/conversions/high-level-description-a-premium-agritec_VeX2PG4FXGO5t0kwl0v27A_vRYlcHWiQ7e3Oqmw_dTiaw_cover-large.jpg
+                    - img "Apple" [ref=e73]
+                - listitem [ref=e74]:
+                  - link "Apple" [ref=e75] [cursor=pointer]:
+                    - /url: /storage/9/conversions/high-level-description-a-flat-vector-app_uFXBm17hWKaDEsyNe9Kuqg_efEvsN60SaqiLT4hFA5GLA-large.jpg
+                    - img "Apple" [ref=e77]
+              - button "Scroll left" [ref=e78]:
+                - img [ref=e79]
+              - button "Scroll right" [ref=e81]:
+                - img [ref=e82]
+            - button [ref=e85]
+          - region "Apple Varieties" [ref=e86]:
+            - generic [ref=e87]:
+              - heading "Apple Varieties" [level=2] [ref=e88]
+              - generic [ref=e89]: 47 varieties
+            - tablist "Filter varieties by strain" [ref=e90]:
+              - tab "All" [ref=e91]
+              - tab "Traditional Delicious पारंपरिक डेलिशियस" [ref=e92]
+              - tab "Gala गाला" [active] [selected] [ref=e93]
+              - tab "Fuji फूजी" [ref=e94]
+              - tab "Modern High-Density Red Delicious आधुनिक उच्च-घनत्व लाल डेलिशियस" [ref=e95]
+              - tab "Other Commercial अन्य वाणिज्यिक" [ref=e96]
+              - tab "Low-Chill निम्न-शीतलन" [ref=e97]
+            - generic [ref=e98]:
+              - link "Brookfield Gala Brookfield Gala ब्रुकफील्ड गाला" [ref=e171] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/brookfield-gala
+                - img "Brookfield Gala" [ref=e173]
+                - generic [ref=e174]:
+                  - heading "Brookfield Gala" [level=3] [ref=e175]
+                  - paragraph [ref=e176]: ब्रुकफील्ड गाला
+              - link "Buckeye Gala Buckeye Gala बकआई गाला" [ref=e177] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/buckeye-gala
+                - img "Buckeye Gala" [ref=e179]
+                - generic [ref=e180]:
+                  - heading "Buckeye Gala" [level=3] [ref=e181]
+                  - paragraph [ref=e182]: बकआई गाला
+              - link "Dark Baron Gala Dark Baron Gala डार्क बैरन गाला" [ref=e183] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/dark-baron-gala
+                - img "Dark Baron Gala" [ref=e185]
+                - generic [ref=e186]:
+                  - heading "Dark Baron Gala" [level=3] [ref=e187]
+                  - paragraph [ref=e188]: डार्क बैरन गाला
+              - link "Devil Gala Devil Gala डेविल गाला" [ref=e189] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/devil-gala
+                - img "Devil Gala" [ref=e191]
+                - generic [ref=e192]:
+                  - heading "Devil Gala" [level=3] [ref=e193]
+                  - paragraph [ref=e194]: डेविल गाला
+              - link "Gale Gala Gale Gala गेल गाला" [ref=e195] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/gale-gala
+                - img "Gale Gala" [ref=e197]
+                - generic [ref=e198]:
+                  - heading "Gale Gala" [level=3] [ref=e199]
+                  - paragraph [ref=e200]: गेल गाला
+              - link "King Gala King Gala किंग गाला" [ref=e201] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/king-gala
+                - img "King Gala" [ref=e203]
+                - generic [ref=e204]:
+                  - heading "King Gala" [level=3] [ref=e205]
+                  - paragraph [ref=e206]: किंग गाला
+              - link "Narasimo Gala Narasimo Gala नारासिमो गाला" [ref=e207] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/narasimo-gala
+                - img "Narasimo Gala" [ref=e209]
+                - generic [ref=e210]:
+                  - heading "Narasimo Gala" [level=3] [ref=e211]
+                  - paragraph [ref=e212]: नारासिमो गाला
+              - link "Redlum Gala Redlum Gala रेडलम गाला" [ref=e213] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/redlum-gala
+                - img "Redlum Gala" [ref=e215]
+                - generic [ref=e216]:
+                  - heading "Redlum Gala" [level=3] [ref=e217]
+                  - paragraph [ref=e218]: रेडलम गाला
+              - link "Royal Gala Royal Gala रॉयल गाला" [ref=e219] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/royal-gala
+                - img "Royal Gala" [ref=e221]
+                - generic [ref=e222]:
+                  - heading "Royal Gala" [level=3] [ref=e223]
+                  - paragraph [ref=e224]: रॉयल गाला
+              - link "Schniga Schnico Red Gala Schniga Schnico Red Gala श्निगा श्निको रेड गाला" [ref=e225] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/schniga-schnico-red-gala
+                - img "Schniga Schnico Red Gala" [ref=e227]
+                - generic [ref=e228]:
+                  - heading "Schniga Schnico Red Gala" [level=3] [ref=e229]
+                  - paragraph [ref=e230]: श्निगा श्निको रेड गाला
+              - link "T Rex Gala T Rex Gala टी रेक्स गाला" [ref=e231] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/t-rex-gala
+                - img "T Rex Gala" [ref=e233]
+                - generic [ref=e234]:
+                  - heading "T Rex Gala" [level=3] [ref=e235]
+                  - paragraph [ref=e236]: टी रेक्स गाला
+          - region "Common Diseases" [ref=e381]:
+            - heading "Common Diseases" [level=2] [ref=e382]
+            - generic [ref=e383]:
+              - generic [ref=e384]: 
+              - paragraph [ref=e385]: Available soon
+          - region "Recommended Rootstocks" [ref=e386]:
+            - heading "Recommended Rootstocks" [level=2] [ref=e387]
+            - generic [ref=e388]:
+              - generic [ref=e389]: 
+              - paragraph [ref=e390]: Available soon
+        - complementary [ref=e391]:
+          - generic [ref=e392]:
+            - heading "Quick Stats" [level=3] [ref=e393]
+            - generic [ref=e394]:
+              - generic [ref=e395]:
+                - generic [ref=e396]:
+                  - generic [ref=e397]: 
+                  - text: Varieties
+                - generic [ref=e398]: "47"
+              - generic [ref=e399]:
+                - generic [ref=e400]:
+                  - generic [ref=e401]: 
+                  - text: Diseases
+                - generic [ref=e402]: "42"
+              - generic [ref=e403]:
+                - generic [ref=e404]:
+                  - generic [ref=e405]: 
+                  - text: Rootstocks
+                - generic [ref=e406]: "20"
+          - generic [ref=e407]:
+            - heading "Actions" [level=3] [ref=e408]
+            - generic [ref=e409]:
+              - button "Like" [ref=e410]:
+                - generic [ref=e411]: 
+                - generic [ref=e412]: Like
+              - button "Save" [ref=e413]:
+                - generic [ref=e414]: 
+                - generic [ref=e415]: Save
+            - button "Share" [ref=e416]:
+              - generic [ref=e417]: 
+              - text: Share
+          - generic [ref=e418]:
+            - heading "Explore Other Fruits" [level=3] [ref=e419]
+            - generic [ref=e420]:
+              - link "Pear Pear नाशपाती" [ref=e421] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/pear
+                - img "Pear" [ref=e422]
+                - generic [ref=e423]:
+                  - paragraph [ref=e424]: Pear
+                  - paragraph [ref=e425]: नाशपाती
+              - link "Persimmon Persimmon तेंदू फल" [ref=e426] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/persimmon
+                - img "Persimmon" [ref=e427]
+                - generic [ref=e428]:
+                  - paragraph [ref=e429]: Persimmon
+                  - paragraph [ref=e430]: तेंदू फल
+              - link "Peach Peach आड़ू" [ref=e431] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/peach
+                - img "Peach" [ref=e432]
+                - generic [ref=e433]:
+                  - paragraph [ref=e434]: Peach
+                  - paragraph [ref=e435]: आड़ू
+              - link "Cherry Cherry चेरी" [ref=e436] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/cherry
+                - img "Cherry" [ref=e437]
+                - generic [ref=e438]:
+                  - paragraph [ref=e439]: Cherry
+                  - paragraph [ref=e440]: चेरी
+              - link "Apricot Apricot खुबानी" [ref=e441] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/apricot
+                - img "Apricot" [ref=e442]
+                - generic [ref=e443]:
+                  - paragraph [ref=e444]: Apricot
+                  - paragraph [ref=e445]: खुबानी
+              - link "Pomegranate Pomegranate अनार" [ref=e446] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/pomegranate
+                - img "Pomegranate" [ref=e447]
+                - generic [ref=e448]:
+                  - paragraph [ref=e449]: Pomegranate
+                  - paragraph [ref=e450]: अनार
+  - contentinfo [ref=e451]:
+    - generic [ref=e452]:
+      - generic [ref=e453]:
+        - generic [ref=e454]:
+          - link "Baagvaani" [ref=e455] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e457]: Baagvaani
+          - paragraph [ref=e458]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e460]: Social channels coming soon
+        - generic [ref=e461]:
+          - heading "Quick Links" [level=3] [ref=e462]
+          - list [ref=e463]:
+            - listitem [ref=e464]:
+              - link "Home" [ref=e465] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e466]:
+              - link "Blog" [ref=e467] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e468]:
+              - link "About Us" [ref=e469] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e470]:
+          - heading "Topics" [level=3] [ref=e471]
+          - list [ref=e472]:
+            - listitem [ref=e473]:
+              - link "Spray & Disease" [ref=e474] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e475]:
+              - link "Orchard Care" [ref=e476] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e477]:
+              - link "Variety Guide" [ref=e478] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e479]:
+              - link "Weather & Climate" [ref=e480] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e481]:
+          - heading "Newsletter" [level=3] [ref=e482]
+          - paragraph [ref=e483]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e484]:
+            - textbox "Enter your email" [ref=e485]
+            - button "Subscribe" [ref=e486]
+          - paragraph [ref=e487]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e489]: © 2026 Baagvaani. All rights reserved.

@@ -1,0 +1,350 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - generic [ref=e8]: Baagvaani
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "Login" [ref=e11] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/login
+          - link "Sign Up" [ref=e12] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/register
+        - button "Toggle menu" [ref=e13]:
+          - img [ref=e14]
+  - main [ref=e16]:
+    - region "Grow Better Apples. With Expert Knowledge." [ref=e17]:
+      - img "Himachal apple farmer managing orchard with smartphone" [ref=e20]
+      - generic [ref=e23]:
+        - heading "Grow Better Apples. With Expert Knowledge." [level=1] [ref=e24]:
+          - text: Grow Better Apples.
+          - text: With Expert Knowledge.
+        - paragraph [ref=e25]: हिमाचल, उत्तराखंड और कश्मीर के सेब किसानों के लिए बेहतर बागवानी सामग्री और विशेषज्ञ ज्ञान।
+        - generic [ref=e26]:
+          - link "Read Blog" [ref=e27] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog
+            - text: Read Blog
+            - img [ref=e28]
+          - link "About Us" [ref=e30] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/about
+            - text: About Us
+            - img [ref=e31]
+    - region "From the Blog" [ref=e34]:
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - heading "From the Blog" [level=2] [ref=e38]
+            - paragraph [ref=e39]: Expert tips and stories from the orchard.
+          - link "All Articles" [ref=e40] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog
+            - text: All Articles
+            - img [ref=e41]
+        - generic [ref=e44]:
+          - article [ref=e46]:
+            - link "How to Read Mountain Weather Before Spraying Weather & Climate How to Read Mountain Weather Before Spraying Jun 10, 2026 1,562 views" [ref=e47] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog/post/reading-mountain-weather-spray-timing
+              - generic [ref=e48]:
+                - img "How to Read Mountain Weather Before Spraying" [ref=e49]
+                - generic [ref=e50]: Weather & Climate
+              - generic [ref=e51]:
+                - heading "How to Read Mountain Weather Before Spraying" [level=3] [ref=e52]
+                - generic [ref=e53]:
+                  - time [ref=e54]: Jun 10, 2026
+                  - generic [ref=e55]: 1,562 views
+          - article [ref=e57]:
+            - 'link "Powdery Mildew in HP Apple Orchards: Control Guide Spray & Disease Powdery Mildew in HP Apple Orchards: Control Guide Jun 08, 2026 1,871 views" [ref=e58] [cursor=pointer]':
+              - /url: http://127.0.0.1:8000/blog/post/powdery-mildew-apple-hp
+              - generic [ref=e59]:
+                - 'img "Powdery Mildew in HP Apple Orchards: Control Guide" [ref=e60]'
+                - generic [ref=e61]: Spray & Disease
+              - generic [ref=e62]:
+                - 'heading "Powdery Mildew in HP Apple Orchards: Control Guide" [level=3] [ref=e63]'
+                - generic [ref=e64]:
+                  - time [ref=e65]: Jun 08, 2026
+                  - generic [ref=e66]: 1,871 views
+          - article [ref=e68]:
+            - 'link "Frost Protection for Apple Orchards: A Practical Guide Weather & Climate Frost Protection for Apple Orchards: A Practical Guide Jun 04, 2026 2,242 views" [ref=e69] [cursor=pointer]':
+              - /url: http://127.0.0.1:8000/blog/post/frost-protection-apple-orchards-hp
+              - generic [ref=e70]:
+                - 'img "Frost Protection for Apple Orchards: A Practical Guide" [ref=e71]'
+                - generic [ref=e72]: Weather & Climate
+              - generic [ref=e73]:
+                - 'heading "Frost Protection for Apple Orchards: A Practical Guide" [level=3] [ref=e74]'
+                - generic [ref=e75]:
+                  - time [ref=e76]: Jun 04, 2026
+                  - generic [ref=e77]: 2,242 views
+          - article [ref=e79]:
+            - link "Complete Spray Schedule for HP Apple Orchards Spray & Disease Complete Spray Schedule for HP Apple Orchards Jun 01, 2026 5,891 views" [ref=e80] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog/post/complete-spray-schedule-hp-apple-orchards
+              - generic [ref=e81]:
+                - img "Complete Spray Schedule for HP Apple Orchards" [ref=e82]
+                - generic [ref=e83]: Spray & Disease
+              - generic [ref=e84]:
+                - heading "Complete Spray Schedule for HP Apple Orchards" [level=3] [ref=e85]
+                - generic [ref=e86]:
+                  - time [ref=e87]: Jun 01, 2026
+                  - generic [ref=e88]: 5,891 views
+          - article [ref=e90]:
+            - 'link "Selling Apples: MSP, FPOs, and Direct Marketing Business & Market Selling Apples: MSP, FPOs, and Direct Marketing May 28, 2026 1,780 views" [ref=e91] [cursor=pointer]':
+              - /url: http://127.0.0.1:8000/blog/post/selling-apples-msp-fpo-direct-marketing
+              - generic [ref=e92]:
+                - 'img "Selling Apples: MSP, FPOs, and Direct Marketing" [ref=e93]'
+                - generic [ref=e94]: Business & Market
+              - generic [ref=e95]:
+                - 'heading "Selling Apples: MSP, FPOs, and Direct Marketing" [level=3] [ref=e96]'
+                - generic [ref=e97]:
+                  - time [ref=e98]: May 28, 2026
+                  - generic [ref=e99]: 1,780 views
+          - article [ref=e101]:
+            - 'link "Apple Scab: Identify, Prevent, and Treat Spray & Disease Apple Scab: Identify, Prevent, and Treat May 23, 2026 3,420 views" [ref=e102] [cursor=pointer]':
+              - /url: http://127.0.0.1:8000/blog/post/apple-scab-identify-prevent-treat
+              - generic [ref=e103]:
+                - 'img "Apple Scab: Identify, Prevent, and Treat" [ref=e104]'
+                - generic [ref=e105]: Spray & Disease
+              - generic [ref=e106]:
+                - 'heading "Apple Scab: Identify, Prevent, and Treat" [level=3] [ref=e107]'
+                - generic [ref=e108]:
+                  - time [ref=e109]: May 23, 2026
+                  - generic [ref=e110]: 3,420 views
+          - article [ref=e112]:
+            - 'link "Apple Grading and Packing: Getting Better Prices at the Mandi Business & Market Apple Grading and Packing: Getting Better Prices at the Mandi May 18, 2026 1,120 views" [ref=e113] [cursor=pointer]':
+              - /url: http://127.0.0.1:8000/blog/post/apple-grading-packing-better-prices
+              - generic [ref=e114]:
+                - 'img "Apple Grading and Packing: Getting Better Prices at the Mandi" [ref=e115]'
+                - generic [ref=e116]: Business & Market
+              - generic [ref=e117]:
+                - 'heading "Apple Grading and Packing: Getting Better Prices at the Mandi" [level=3] [ref=e118]'
+                - generic [ref=e119]:
+                  - time [ref=e120]: May 18, 2026
+                  - generic [ref=e121]: 1,120 views
+          - article [ref=e123]:
+            - 'link "HRMN-99: The Apple That Changed Hill Farming Variety Guide HRMN-99: The Apple That Changed Hill Farming May 15, 2026 3,340 views" [ref=e124] [cursor=pointer]':
+              - /url: http://127.0.0.1:8000/blog/post/hrmn-99-low-chill-apple-revolution
+              - generic [ref=e125]:
+                - 'img "HRMN-99: The Apple That Changed Hill Farming" [ref=e126]'
+                - generic [ref=e127]: Variety Guide
+              - generic [ref=e128]:
+                - 'heading "HRMN-99: The Apple That Changed Hill Farming" [level=3] [ref=e129]'
+                - generic [ref=e130]:
+                  - time [ref=e131]: May 15, 2026
+                  - generic [ref=e132]: 3,340 views
+    - region "Explore Fruits" [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - heading "Explore Fruits" [level=2] [ref=e137]
+            - paragraph [ref=e138]: Fruits suited for Himalayan orchards.
+          - link "All Fruits" [ref=e139] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/fruits
+            - text: All Fruits
+            - img [ref=e140]
+        - generic [ref=e143]:
+          - article [ref=e145]:
+            - link "Apple 47 Varieties Apple सेब The king of Himalayan orchards. Apple is the primary commercial fruit across Himachal Pradesh, Uttarakhand and Jammu & K...  42 diseases ·  20 rootstocks" [ref=e146] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/apple
+              - generic [ref=e147]:
+                - img "Apple" [ref=e148]
+                - generic [ref=e149]: 47 Varieties
+              - generic [ref=e150]:
+                - heading "Apple" [level=3] [ref=e151]
+                - paragraph [ref=e152]: सेब
+                - paragraph [ref=e153]: The king of Himalayan orchards. Apple is the primary commercial fruit across Himachal Pradesh, Uttarakhand and Jammu & K...
+                - generic [ref=e154]:
+                  - generic [ref=e155]:
+                    - generic [ref=e156]: 
+                    - generic [ref=e157]: 42 diseases
+                  - generic [ref=e158]: ·
+                  - generic [ref=e159]:
+                    - generic [ref=e160]: 
+                    - generic [ref=e161]: 20 rootstocks
+          - article [ref=e163]:
+            - link "Apricot 0 Varieties Apricot खुबानी Apricots are traditional high-altitude fruits of Ladakh, Himachal and Uttarakhand, prized for drying and fresh markets.  0 diseases ·  0 rootstocks" [ref=e164] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/apricot
+              - generic [ref=e165]:
+                - img "Apricot" [ref=e166]
+                - generic [ref=e167]: 0 Varieties
+              - generic [ref=e168]:
+                - heading "Apricot" [level=3] [ref=e169]
+                - paragraph [ref=e170]: खुबानी
+                - paragraph [ref=e171]: Apricots are traditional high-altitude fruits of Ladakh, Himachal and Uttarakhand, prized for drying and fresh markets.
+                - generic [ref=e172]:
+                  - generic [ref=e173]:
+                    - generic [ref=e174]: 
+                    - generic [ref=e175]: 0 diseases
+                  - generic [ref=e176]: ·
+                  - generic [ref=e177]:
+                    - generic [ref=e178]: 
+                    - generic [ref=e179]: 0 rootstocks
+          - article [ref=e181]:
+            - link "Cherry 0 Varieties Cherry चेरी Sweet cherries are an emerging high-value crop in cooler Himalayan districts with good export potential.  0 diseases ·  0 rootstocks" [ref=e182] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/cherry
+              - generic [ref=e183]:
+                - img "Cherry" [ref=e184]
+                - generic [ref=e185]: 0 Varieties
+              - generic [ref=e186]:
+                - heading "Cherry" [level=3] [ref=e187]
+                - paragraph [ref=e188]: चेरी
+                - paragraph [ref=e189]: Sweet cherries are an emerging high-value crop in cooler Himalayan districts with good export potential.
+                - generic [ref=e190]:
+                  - generic [ref=e191]:
+                    - generic [ref=e192]: 
+                    - generic [ref=e193]: 0 diseases
+                  - generic [ref=e194]: ·
+                  - generic [ref=e195]:
+                    - generic [ref=e196]: 
+                    - generic [ref=e197]: 0 rootstocks
+          - article [ref=e199]:
+            - link "Peach 0 Varieties Peach आड़ू Peaches are valued for their short gestation and high returns in suitable low-chill pockets of the hills.  0 diseases ·  0 rootstocks" [ref=e200] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/peach
+              - generic [ref=e201]:
+                - img "Peach" [ref=e202]
+                - generic [ref=e203]: 0 Varieties
+              - generic [ref=e204]:
+                - heading "Peach" [level=3] [ref=e205]
+                - paragraph [ref=e206]: आड़ू
+                - paragraph [ref=e207]: Peaches are valued for their short gestation and high returns in suitable low-chill pockets of the hills.
+                - generic [ref=e208]:
+                  - generic [ref=e209]:
+                    - generic [ref=e210]: 
+                    - generic [ref=e211]: 0 diseases
+                  - generic [ref=e212]: ·
+                  - generic [ref=e213]:
+                    - generic [ref=e214]: 
+                    - generic [ref=e215]: 0 rootstocks
+          - article [ref=e217]:
+            - link "Pear 0 Varieties Pear नाशपाती Pear varieties thrive in mid-hill regions and are gaining popularity as a diversification crop in Himalayan orchards.  0 diseases ·  0 rootstocks" [ref=e218] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/pear
+              - generic [ref=e219]:
+                - img "Pear" [ref=e220]
+                - generic [ref=e221]: 0 Varieties
+              - generic [ref=e222]:
+                - heading "Pear" [level=3] [ref=e223]
+                - paragraph [ref=e224]: नाशपाती
+                - paragraph [ref=e225]: Pear varieties thrive in mid-hill regions and are gaining popularity as a diversification crop in Himalayan orchards.
+                - generic [ref=e226]:
+                  - generic [ref=e227]:
+                    - generic [ref=e228]: 
+                    - generic [ref=e229]: 0 diseases
+                  - generic [ref=e230]: ·
+                  - generic [ref=e231]:
+                    - generic [ref=e232]: 
+                    - generic [ref=e233]: 0 rootstocks
+          - article [ref=e235]:
+            - link "Persimmon 0 Varieties Persimmon तेंदू फल Persimmon or Japani phal is a niche crop gaining attention in mid-hill agro-climatic zones.  0 diseases ·  0 rootstocks" [ref=e236] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/persimmon
+              - generic [ref=e237]:
+                - img "Persimmon" [ref=e238]
+                - generic [ref=e239]: 0 Varieties
+              - generic [ref=e240]:
+                - heading "Persimmon" [level=3] [ref=e241]
+                - paragraph [ref=e242]: तेंदू फल
+                - paragraph [ref=e243]: Persimmon or Japani phal is a niche crop gaining attention in mid-hill agro-climatic zones.
+                - generic [ref=e244]:
+                  - generic [ref=e245]:
+                    - generic [ref=e246]: 
+                    - generic [ref=e247]: 0 diseases
+                  - generic [ref=e248]: ·
+                  - generic [ref=e249]:
+                    - generic [ref=e250]: 
+                    - generic [ref=e251]: 0 rootstocks
+          - article [ref=e253]:
+            - link "Plum 0 Varieties Plum आलूबुखारा Plums are well suited to temperate valleys and provide early-season harvest options for orchardists.  0 diseases ·  0 rootstocks" [ref=e254] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/plum
+              - generic [ref=e255]:
+                - img "Plum" [ref=e256]
+                - generic [ref=e257]: 0 Varieties
+              - generic [ref=e258]:
+                - heading "Plum" [level=3] [ref=e259]
+                - paragraph [ref=e260]: आलूबुखारा
+                - paragraph [ref=e261]: Plums are well suited to temperate valleys and provide early-season harvest options for orchardists.
+                - generic [ref=e262]:
+                  - generic [ref=e263]:
+                    - generic [ref=e264]: 
+                    - generic [ref=e265]: 0 diseases
+                  - generic [ref=e266]: ·
+                  - generic [ref=e267]:
+                    - generic [ref=e268]: 
+                    - generic [ref=e269]: 0 rootstocks
+          - article [ref=e271]:
+            - link "Pomegranate 0 Varieties Pomegranate अनार Pomegranate performs well in warmer, drier pockets of the Himalayan foothills with proper irrigation.  0 diseases ·  0 rootstocks" [ref=e272] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/pomegranate
+              - generic [ref=e273]:
+                - img "Pomegranate" [ref=e274]
+                - generic [ref=e275]: 0 Varieties
+              - generic [ref=e276]:
+                - heading "Pomegranate" [level=3] [ref=e277]
+                - paragraph [ref=e278]: अनार
+                - paragraph [ref=e279]: Pomegranate performs well in warmer, drier pockets of the Himalayan foothills with proper irrigation.
+                - generic [ref=e280]:
+                  - generic [ref=e281]:
+                    - generic [ref=e282]: 
+                    - generic [ref=e283]: 0 diseases
+                  - generic [ref=e284]: ·
+                  - generic [ref=e285]:
+                    - generic [ref=e286]: 
+                    - generic [ref=e287]: 0 rootstocks
+    - region "Take Baagvaani Everywhere" [ref=e288]:
+      - generic [ref=e290]:
+        - generic [ref=e291]:
+          - heading "Take Baagvaani Everywhere" [level=2] [ref=e292]
+          - paragraph [ref=e293]: Get spray schedules, weather alerts, and expert advice on the go. The Baagvaani app is built for farmers.
+          - paragraph [ref=e294]: बागीचा ऐप — हर किसान की ज़रूरत।
+          - generic [ref=e295]:
+            - generic "Coming soon" [ref=e296]:
+              - img [ref=e297]
+              - generic [ref=e299]:
+                - generic [ref=e300]: Download on the
+                - generic [ref=e301]: App Store
+            - generic "Coming soon" [ref=e302]:
+              - img [ref=e303]
+              - generic [ref=e305]:
+                - generic [ref=e306]: Get it on
+                - generic [ref=e307]: Google Play
+          - button "Join Waitlist" [ref=e310]
+        - img "Baagvaani mobile app interface preview" [ref=e314]
+  - contentinfo [ref=e315]:
+    - generic [ref=e316]:
+      - generic [ref=e317]:
+        - generic [ref=e318]:
+          - link "Baagvaani" [ref=e319] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e321]: Baagvaani
+          - paragraph [ref=e322]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e324]: Social channels coming soon
+        - generic [ref=e325]:
+          - heading "Quick Links" [level=3] [ref=e326]
+          - list [ref=e327]:
+            - listitem [ref=e328]:
+              - link "Home" [ref=e329] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e330]:
+              - link "Blog" [ref=e331] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e332]:
+              - link "About Us" [ref=e333] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e334]:
+          - heading "Topics" [level=3] [ref=e335]
+          - list [ref=e336]:
+            - listitem [ref=e337]:
+              - link "Spray & Disease" [ref=e338] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e339]:
+              - link "Orchard Care" [ref=e340] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e341]:
+              - link "Variety Guide" [ref=e342] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e343]:
+              - link "Weather & Climate" [ref=e344] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e345]:
+          - heading "Newsletter" [level=3] [ref=e346]
+          - paragraph [ref=e347]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e348]:
+            - textbox "Enter your email" [ref=e349]
+            - button "Subscribe" [ref=e350]
+          - paragraph [ref=e351]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e353]: © 2026 Baagvaani. All rights reserved.

@@ -1,0 +1,199 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - generic [ref=e8]: Baagvaani
+      - button "Toggle menu" [ref=e10]:
+        - img [ref=e11]
+  - main [ref=e13]:
+    - region "Fruits for Himalayan Orchards" [ref=e14]:
+      - generic [ref=e18]:
+        - heading "Fruits for Himalayan Orchards" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Explore fruits suited for the Himalayan apple belt — varieties, diseases, rootstocks, and orchard guidance.
+        - generic [ref=e21]:
+          - textbox "Search fruits..." [ref=e22]
+          - button "Search" [ref=e23] [cursor=pointer]
+    - generic [ref=e26]:
+      - link "All" [ref=e27] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/fruits
+      - link "Featured" [ref=e28] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/fruits?featured=1
+    - region "All Fruits" [ref=e29]:
+      - generic [ref=e30]:
+        - heading "All Fruits" [level=2] [ref=e31]
+        - generic [ref=e32]:
+          - article [ref=e33]:
+            - link "Apple 47 Varieties Apple सेब  42  20" [ref=e34] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/apple
+              - generic [ref=e35]:
+                - img "Apple" [ref=e36]
+                - generic [ref=e37]: 47 Varieties
+              - generic [ref=e38]:
+                - heading "Apple" [level=3] [ref=e39]
+                - paragraph [ref=e40]: सेब
+                - generic [ref=e41]:
+                  - generic [ref=e42]:
+                    - generic [ref=e43]: 
+                    - generic [ref=e44]: "42"
+                  - generic [ref=e45]:
+                    - generic [ref=e46]: 
+                    - generic [ref=e47]: "20"
+          - article [ref=e48]:
+            - link "Apricot 0 Varieties Apricot खुबानी  0  0" [ref=e49] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/apricot
+              - generic [ref=e50]:
+                - img "Apricot" [ref=e51]
+                - generic [ref=e52]: 0 Varieties
+              - generic [ref=e53]:
+                - heading "Apricot" [level=3] [ref=e54]
+                - paragraph [ref=e55]: खुबानी
+                - generic [ref=e56]:
+                  - generic [ref=e57]:
+                    - generic [ref=e58]: 
+                    - generic [ref=e59]: "0"
+                  - generic [ref=e60]:
+                    - generic [ref=e61]: 
+                    - generic [ref=e62]: "0"
+          - article [ref=e63]:
+            - link "Cherry 0 Varieties Cherry चेरी  0  0" [ref=e64] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/cherry
+              - generic [ref=e65]:
+                - img "Cherry" [ref=e66]
+                - generic [ref=e67]: 0 Varieties
+              - generic [ref=e68]:
+                - heading "Cherry" [level=3] [ref=e69]
+                - paragraph [ref=e70]: चेरी
+                - generic [ref=e71]:
+                  - generic [ref=e72]:
+                    - generic [ref=e73]: 
+                    - generic [ref=e74]: "0"
+                  - generic [ref=e75]:
+                    - generic [ref=e76]: 
+                    - generic [ref=e77]: "0"
+          - article [ref=e78]:
+            - link "Peach 0 Varieties Peach आड़ू  0  0" [ref=e79] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/peach
+              - generic [ref=e80]:
+                - img "Peach" [ref=e81]
+                - generic [ref=e82]: 0 Varieties
+              - generic [ref=e83]:
+                - heading "Peach" [level=3] [ref=e84]
+                - paragraph [ref=e85]: आड़ू
+                - generic [ref=e86]:
+                  - generic [ref=e87]:
+                    - generic [ref=e88]: 
+                    - generic [ref=e89]: "0"
+                  - generic [ref=e90]:
+                    - generic [ref=e91]: 
+                    - generic [ref=e92]: "0"
+          - article [ref=e93]:
+            - link "Pear 0 Varieties Pear नाशपाती  0  0" [ref=e94] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/pear
+              - generic [ref=e95]:
+                - img "Pear" [ref=e96]
+                - generic [ref=e97]: 0 Varieties
+              - generic [ref=e98]:
+                - heading "Pear" [level=3] [ref=e99]
+                - paragraph [ref=e100]: नाशपाती
+                - generic [ref=e101]:
+                  - generic [ref=e102]:
+                    - generic [ref=e103]: 
+                    - generic [ref=e104]: "0"
+                  - generic [ref=e105]:
+                    - generic [ref=e106]: 
+                    - generic [ref=e107]: "0"
+          - article [ref=e108]:
+            - link "Persimmon 0 Varieties Persimmon तेंदू फल  0  0" [ref=e109] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/persimmon
+              - generic [ref=e110]:
+                - img "Persimmon" [ref=e111]
+                - generic [ref=e112]: 0 Varieties
+              - generic [ref=e113]:
+                - heading "Persimmon" [level=3] [ref=e114]
+                - paragraph [ref=e115]: तेंदू फल
+                - generic [ref=e116]:
+                  - generic [ref=e117]:
+                    - generic [ref=e118]: 
+                    - generic [ref=e119]: "0"
+                  - generic [ref=e120]:
+                    - generic [ref=e121]: 
+                    - generic [ref=e122]: "0"
+          - article [ref=e123]:
+            - link "Plum 0 Varieties Plum आलूबुखारा  0  0" [ref=e124] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/plum
+              - generic [ref=e125]:
+                - img "Plum" [ref=e126]
+                - generic [ref=e127]: 0 Varieties
+              - generic [ref=e128]:
+                - heading "Plum" [level=3] [ref=e129]
+                - paragraph [ref=e130]: आलूबुखारा
+                - generic [ref=e131]:
+                  - generic [ref=e132]:
+                    - generic [ref=e133]: 
+                    - generic [ref=e134]: "0"
+                  - generic [ref=e135]:
+                    - generic [ref=e136]: 
+                    - generic [ref=e137]: "0"
+          - article [ref=e138]:
+            - link "Pomegranate 0 Varieties Pomegranate अनार  0  0" [ref=e139] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/pomegranate
+              - generic [ref=e140]:
+                - img "Pomegranate" [ref=e141]
+                - generic [ref=e142]: 0 Varieties
+              - generic [ref=e143]:
+                - heading "Pomegranate" [level=3] [ref=e144]
+                - paragraph [ref=e145]: अनार
+                - generic [ref=e146]:
+                  - generic [ref=e147]:
+                    - generic [ref=e148]: 
+                    - generic [ref=e149]: "0"
+                  - generic [ref=e150]:
+                    - generic [ref=e151]: 
+                    - generic [ref=e152]: "0"
+  - contentinfo [ref=e153]:
+    - generic [ref=e154]:
+      - generic [ref=e155]:
+        - generic [ref=e156]:
+          - link "Baagvaani" [ref=e157] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e159]: Baagvaani
+          - paragraph [ref=e160]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e162]: Social channels coming soon
+        - generic [ref=e163]:
+          - heading "Quick Links" [level=3] [ref=e164]
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - link "Home" [ref=e167] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e168]:
+              - link "Blog" [ref=e169] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e170]:
+              - link "About Us" [ref=e171] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e172]:
+          - heading "Topics" [level=3] [ref=e173]
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - link "Spray & Disease" [ref=e176] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e177]:
+              - link "Orchard Care" [ref=e178] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e179]:
+              - link "Variety Guide" [ref=e180] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e181]:
+              - link "Weather & Climate" [ref=e182] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e183]:
+          - heading "Newsletter" [level=3] [ref=e184]
+          - paragraph [ref=e185]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e186]:
+            - textbox "Enter your email" [ref=e187]
+            - button "Subscribe" [ref=e188]
+          - paragraph [ref=e189]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e191]: © 2026 Baagvaani. All rights reserved.

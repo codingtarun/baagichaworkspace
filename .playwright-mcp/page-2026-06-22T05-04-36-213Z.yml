@@ -1,0 +1,1018 @@
+- generic [ref=e1]:
+  - complementary [ref=e2]:
+    - link "" [ref=e997] [cursor=pointer]:
+      - /url: http://192.168.1.100:8000/admin/dashboard
+      - generic [ref=e4]: 
+    - navigation [ref=e6]:
+      - link "" [ref=e998] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/dashboard
+        - generic [ref=e9]: 
+      - link "" [ref=e999] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/users
+        - generic [ref=e12]: 
+      - link "" [ref=e1000] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/diseases
+        - generic [ref=e16]: 
+      - link "" [ref=e1001] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/fruits
+        - generic [ref=e19]: 
+      - link "" [ref=e1002] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/strains
+        - generic [ref=e22]: 
+      - link "" [ref=e1003] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/varieties
+        - generic [ref=e25]: 
+      - link "" [ref=e1004] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/rootstocks
+        - generic [ref=e28]: 
+      - link "" [ref=e1005] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/chemicals
+        - generic [ref=e31]: 
+      - link "" [ref=e1006] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/spray
+        - generic [ref=e34]: 
+      - link "" [ref=e1007] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/blog/posts
+        - generic [ref=e37]: 
+      - link "" [ref=e1008] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/blog-categories
+        - generic [ref=e40]: 
+      - link "" [ref=e1009] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/blog-tags
+        - generic [ref=e43]: 
+      - link "" [ref=e1010] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/comments
+        - generic [ref=e46]: 
+      - link "" [ref=e1011] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/media
+        - generic [ref=e49]: 
+      - link "" [ref=e1012] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/products
+        - generic [ref=e53]: 
+      - link "" [ref=e1013] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/orders
+        - generic [ref=e56]: 
+      - link "" [ref=e1014] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/inventory
+        - generic [ref=e59]: 
+      - link "" [ref=e1015] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/coupons
+        - generic [ref=e62]: 
+      - link "" [ref=e1016] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/reports/sales
+        - generic [ref=e65]: 
+      - link "" [ref=e1017] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/weather-data
+        - generic [ref=e69]: 
+      - link "" [ref=e1018] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/weather-alert-rules
+        - generic [ref=e72]: 
+      - link "" [ref=e1019] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/dashboard/queue-health
+        - generic [ref=e75]: 
+      - link "" [ref=e1020] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/activity-logs
+        - generic [ref=e78]: 
+      - link "" [ref=e1021] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/notifications/send
+        - generic [ref=e81]: 
+      - link "" [ref=e1022] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/waitlist
+        - generic [ref=e84]: 
+      - link "" [ref=e1023] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/newsletter-subscribers
+        - generic [ref=e87]: 
+      - link "" [ref=e1024] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/roles
+        - generic [ref=e90]: 
+    - generic [ref=e93]: T
+  - generic [ref=e97]:
+    - banner [ref=e98]:
+      - text: 
+      - button "Collapse sidebar" [active] [ref=e995] [cursor=pointer]:
+        - generic [ref=e996]: 
+      - generic [ref=e101]:
+        - generic: 
+        - textbox "Search anything..." [ref=e102]
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - button "" [ref=e105] [cursor=pointer]:
+            - generic [ref=e106]: 
+          - text:   
+        - generic [ref=e108]:
+          - button "T Tarun Chauhan " [ref=e109] [cursor=pointer]:
+            - generic [ref=e110]: T
+            - generic [ref=e111]: Tarun Chauhan
+            - generic [ref=e112]: 
+          - text:   
+    - main [ref=e113]:
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - heading "Varieties" [level=4] [ref=e116]
+          - navigation "breadcrumb" [ref=e117]:
+            - list [ref=e118]:
+              - listitem [ref=e119]:
+                - link "Home" [ref=e120] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/admin/dashboard
+              - listitem [ref=e121]: / Varieties
+        - link " Add Variety" [ref=e123] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/admin/varieties/create
+          - generic [ref=e124]: 
+          - text: Add Variety
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - generic [ref=e129]:
+            - generic [ref=e131]: 
+            - generic [ref=e132]:
+              - generic [ref=e133]: Total Varieties
+              - generic [ref=e134]: "47"
+          - generic [ref=e137]:
+            - generic [ref=e139]: 
+            - generic [ref=e140]:
+              - generic [ref=e141]: Published
+              - generic [ref=e142]: "47"
+          - generic [ref=e145]:
+            - generic [ref=e147]: 
+            - generic [ref=e148]:
+              - generic [ref=e149]: Featured
+              - generic [ref=e150]: "9"
+          - generic [ref=e153]:
+            - generic [ref=e155]: 
+            - generic [ref=e156]:
+              - generic [ref=e157]: Archived
+              - generic [ref=e158]: "0"
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - generic [ref=e163]: Search
+            - textbox "Variety name..." [ref=e164]
+          - generic [ref=e165]:
+            - generic [ref=e166]: Fruit
+            - textbox "e.g. apple" [ref=e167]
+          - generic [ref=e168]:
+            - generic [ref=e169]: Season
+            - combobox [ref=e170]:
+              - option "All Seasons" [selected]
+              - option "Early"
+              - option "Mid"
+              - option "Late"
+              - option "Very Late"
+          - generic [ref=e171]:
+            - generic [ref=e172]: Status
+            - combobox [ref=e173]:
+              - option "All Status" [selected]
+              - option "Published"
+              - option "Draft"
+              - option "Archived"
+          - button " Filter" [ref=e175] [cursor=pointer]:
+            - generic [ref=e176]: 
+            - text: Filter
+          - link " Clear" [ref=e178] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/admin/varieties
+            - generic [ref=e179]: 
+            - text: Clear
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - generic [ref=e183]: 
+              - text: Varieties
+            - generic [ref=e184]: 47 varieties
+          - table [ref=e186]:
+            - rowgroup [ref=e187]:
+              - row "Variety Strain Season Altitude Range Market Status Actions" [ref=e188]:
+                - columnheader "Variety" [ref=e189]
+                - columnheader "Strain" [ref=e190]
+                - columnheader "Season" [ref=e191]
+                - columnheader "Altitude Range" [ref=e192]
+                - columnheader "Market" [ref=e193]
+                - columnheader "Status" [ref=e194]
+                - columnheader "Actions" [ref=e195]
+            - rowgroup [ref=e196]:
+              - row " Mema Mestar Apple मेमा मेस्टार France Modern High-Density Red Delicious Apple Late Season  5,000 - 8,500 ft  6000-8000 ft  Export Very_high demand Published" [ref=e197]:
+                - cell " Mema Mestar Apple मेमा मेस्टार France" [ref=e198]:
+                  - generic [ref=e199]:
+                    - generic [ref=e201]: 
+                    - generic [ref=e202]:
+                      - generic [ref=e203]:
+                        - strong [ref=e204]: Mema Mestar
+                        - generic [ref=e205]: Apple
+                      - generic [ref=e206]: मेमा मेस्टार
+                      - generic [ref=e207]: France
+                - cell "Modern High-Density Red Delicious Apple" [ref=e208]:
+                  - link "Modern High-Density Red Delicious" [ref=e209] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/4
+                  - generic [ref=e210]: Apple
+                - cell "Late Season" [ref=e211]:
+                  - generic [ref=e212]: Late Season
+                - cell " 5,000 - 8,500 ft  6000-8000 ft" [ref=e213]:
+                  - generic [ref=e214]:
+                    - generic [ref=e215]: 
+                    - text: 5,000 - 8,500 ft
+                  - generic [ref=e216]:
+                    - generic [ref=e217]: 
+                    - text: 6000-8000 ft
+                - cell " Export Very_high demand" [ref=e218]:
+                  - generic [ref=e219]:
+                    - generic [ref=e220]: 
+                    - text: Export
+                  - generic [ref=e221]: Very_high demand
+                - cell "Published" [ref=e222]:
+                  - generic [ref=e223]:
+                    - generic [ref=e224]: Published
+                    - switch [checked] [ref=e227]
+                - cell [ref=e228]:
+                  - group [ref=e229]:
+                    - link "" [ref=e230] [cursor=pointer]:
+                      - /url: /admin/varieties/30
+                      - generic [ref=e231]: 
+                    - link "" [ref=e232] [cursor=pointer]:
+                      - /url: /admin/varieties/30/edit
+                      - generic [ref=e233]: 
+                    - button "" [ref=e235] [cursor=pointer]:
+                      - generic [ref=e236]: 
+              - row " Red Love Apple रेड लव Switzerland Other Commercial Apple Mid Season  4,500 - 8,500 ft  5000-7500 ft Medium demand Published" [ref=e237]:
+                - cell " Red Love Apple रेड लव Switzerland" [ref=e238]:
+                  - generic [ref=e239]:
+                    - generic [ref=e241]: 
+                    - generic [ref=e242]:
+                      - generic [ref=e243]:
+                        - strong [ref=e244]: Red Love
+                        - generic [ref=e245]: Apple
+                      - generic [ref=e246]: रेड लव
+                      - generic [ref=e247]: Switzerland
+                - cell "Other Commercial Apple" [ref=e248]:
+                  - link "Other Commercial" [ref=e249] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/5
+                  - generic [ref=e250]: Apple
+                - cell "Mid Season" [ref=e251]:
+                  - generic [ref=e252]: Mid Season
+                - cell " 4,500 - 8,500 ft  5000-7500 ft" [ref=e253]:
+                  - generic [ref=e254]:
+                    - generic [ref=e255]: 
+                    - text: 4,500 - 8,500 ft
+                  - generic [ref=e256]:
+                    - generic [ref=e257]: 
+                    - text: 5000-7500 ft
+                - cell "Medium demand" [ref=e258]:
+                  - generic [ref=e259]: Medium demand
+                - cell "Published" [ref=e260]:
+                  - generic [ref=e261]:
+                    - generic [ref=e262]: Published
+                    - switch [checked] [ref=e265]
+                - cell [ref=e266]:
+                  - group [ref=e267]:
+                    - link "" [ref=e268] [cursor=pointer]:
+                      - /url: /admin/varieties/41
+                      - generic [ref=e269]: 
+                    - link "" [ref=e270] [cursor=pointer]:
+                      - /url: /admin/varieties/41/edit
+                      - generic [ref=e271]: 
+                    - button "" [ref=e273] [cursor=pointer]:
+                      - generic [ref=e274]: 
+              - row " Golden Delicious Apple  गोल्डन डेलिशियस USA Other Commercial Apple Mid Season  4,500 - 8,500 ft  5000-7500 ft Medium demand Published" [ref=e275]:
+                - cell " Golden Delicious Apple  गोल्डन डेलिशियस USA" [ref=e276]:
+                  - generic [ref=e277]:
+                    - generic [ref=e279]: 
+                    - generic [ref=e280]:
+                      - generic [ref=e281]:
+                        - strong [ref=e282]: Golden Delicious
+                        - generic [ref=e283]: Apple
+                        - generic [ref=e284]: 
+                      - generic [ref=e285]: गोल्डन डेलिशियस
+                      - generic [ref=e286]: USA
+                - cell "Other Commercial Apple" [ref=e287]:
+                  - link "Other Commercial" [ref=e288] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/5
+                  - generic [ref=e289]: Apple
+                - cell "Mid Season" [ref=e290]:
+                  - generic [ref=e291]: Mid Season
+                - cell " 4,500 - 8,500 ft  5000-7500 ft" [ref=e292]:
+                  - generic [ref=e293]:
+                    - generic [ref=e294]: 
+                    - text: 4,500 - 8,500 ft
+                  - generic [ref=e295]:
+                    - generic [ref=e296]: 
+                    - text: 5000-7500 ft
+                - cell "Medium demand" [ref=e297]:
+                  - generic [ref=e298]: Medium demand
+                - cell "Published" [ref=e299]:
+                  - generic [ref=e300]:
+                    - generic [ref=e301]: Published
+                    - switch [checked] [ref=e304]
+                - cell [ref=e305]:
+                  - group [ref=e306]:
+                    - link "" [ref=e307] [cursor=pointer]:
+                      - /url: /admin/varieties/39
+                      - generic [ref=e308]: 
+                    - link "" [ref=e309] [cursor=pointer]:
+                      - /url: /admin/varieties/39/edit
+                      - generic [ref=e310]: 
+                    - button "" [ref=e312] [cursor=pointer]:
+                      - generic [ref=e313]: 
+              - row " Honey Crisp Apple  हनीक्रिस्प USA Other Commercial Apple Mid Season  4,500 - 8,500 ft  5000-7500 ft Medium demand Published" [ref=e314]:
+                - cell " Honey Crisp Apple  हनीक्रिस्प USA" [ref=e315]:
+                  - generic [ref=e316]:
+                    - generic [ref=e318]: 
+                    - generic [ref=e319]:
+                      - generic [ref=e320]:
+                        - strong [ref=e321]: Honey Crisp
+                        - generic [ref=e322]: Apple
+                        - generic [ref=e323]: 
+                      - generic [ref=e324]: हनीक्रिस्प
+                      - generic [ref=e325]: USA
+                - cell "Other Commercial Apple" [ref=e326]:
+                  - link "Other Commercial" [ref=e327] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/5
+                  - generic [ref=e328]: Apple
+                - cell "Mid Season" [ref=e329]:
+                  - generic [ref=e330]: Mid Season
+                - cell " 4,500 - 8,500 ft  5000-7500 ft" [ref=e331]:
+                  - generic [ref=e332]:
+                    - generic [ref=e333]: 
+                    - text: 4,500 - 8,500 ft
+                  - generic [ref=e334]:
+                    - generic [ref=e335]: 
+                    - text: 5000-7500 ft
+                - cell "Medium demand" [ref=e336]:
+                  - generic [ref=e337]: Medium demand
+                - cell "Published" [ref=e338]:
+                  - generic [ref=e339]:
+                    - generic [ref=e340]: Published
+                    - switch [checked] [ref=e343]
+                - cell [ref=e344]:
+                  - group [ref=e345]:
+                    - link "" [ref=e346] [cursor=pointer]:
+                      - /url: /admin/varieties/43
+                      - generic [ref=e347]: 
+                    - link "" [ref=e348] [cursor=pointer]:
+                      - /url: /admin/varieties/43/edit
+                      - generic [ref=e349]: 
+                    - button "" [ref=e351] [cursor=pointer]:
+                      - generic [ref=e352]: 
+              - row " Tide Man Apple टाइड मैन USA Other Commercial Apple Mid Season  4,500 - 8,500 ft  5000-7500 ft Medium demand Published" [ref=e353]:
+                - cell " Tide Man Apple टाइड मैन USA" [ref=e354]:
+                  - generic [ref=e355]:
+                    - generic [ref=e357]: 
+                    - generic [ref=e358]:
+                      - generic [ref=e359]:
+                        - strong [ref=e360]: Tide Man
+                        - generic [ref=e361]: Apple
+                      - generic [ref=e362]: टाइड मैन
+                      - generic [ref=e363]: USA
+                - cell "Other Commercial Apple" [ref=e364]:
+                  - link "Other Commercial" [ref=e365] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/5
+                  - generic [ref=e366]: Apple
+                - cell "Mid Season" [ref=e367]:
+                  - generic [ref=e368]: Mid Season
+                - cell " 4,500 - 8,500 ft  5000-7500 ft" [ref=e369]:
+                  - generic [ref=e370]:
+                    - generic [ref=e371]: 
+                    - text: 4,500 - 8,500 ft
+                  - generic [ref=e372]:
+                    - generic [ref=e373]: 
+                    - text: 5000-7500 ft
+                - cell "Medium demand" [ref=e374]:
+                  - generic [ref=e375]: Medium demand
+                - cell "Published" [ref=e376]:
+                  - generic [ref=e377]:
+                    - generic [ref=e378]: Published
+                    - switch [checked] [ref=e381]
+                - cell [ref=e382]:
+                  - group [ref=e383]:
+                    - link "" [ref=e384] [cursor=pointer]:
+                      - /url: /admin/varieties/42
+                      - generic [ref=e385]: 
+                    - link "" [ref=e386] [cursor=pointer]:
+                      - /url: /admin/varieties/42/edit
+                      - generic [ref=e387]: 
+                    - button "" [ref=e389] [cursor=pointer]:
+                      - generic [ref=e390]: 
+              - row " Anna Apple अन्ना Israel Low-Chill Apple Early Season  1,500 - 5,000 ft  2000-4500 ft Medium demand Published" [ref=e391]:
+                - cell " Anna Apple अन्ना Israel" [ref=e392]:
+                  - generic [ref=e393]:
+                    - generic [ref=e395]: 
+                    - generic [ref=e396]:
+                      - generic [ref=e397]:
+                        - strong [ref=e398]: Anna
+                        - generic [ref=e399]: Apple
+                      - generic [ref=e400]: अन्ना
+                      - generic [ref=e401]: Israel
+                - cell "Low-Chill Apple" [ref=e402]:
+                  - link "Low-Chill" [ref=e403] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/6
+                  - generic [ref=e404]: Apple
+                - cell "Early Season" [ref=e405]:
+                  - generic [ref=e406]: Early Season
+                - cell " 1,500 - 5,000 ft  2000-4500 ft" [ref=e407]:
+                  - generic [ref=e408]:
+                    - generic [ref=e409]: 
+                    - text: 1,500 - 5,000 ft
+                  - generic [ref=e410]:
+                    - generic [ref=e411]: 
+                    - text: 2000-4500 ft
+                - cell "Medium demand" [ref=e412]:
+                  - generic [ref=e413]: Medium demand
+                - cell "Published" [ref=e414]:
+                  - generic [ref=e415]:
+                    - generic [ref=e416]: Published
+                    - switch [checked] [ref=e419]
+                - cell [ref=e420]:
+                  - group [ref=e421]:
+                    - link "" [ref=e422] [cursor=pointer]:
+                      - /url: /admin/varieties/44
+                      - generic [ref=e423]: 
+                    - link "" [ref=e424] [cursor=pointer]:
+                      - /url: /admin/varieties/44/edit
+                      - generic [ref=e425]: 
+                    - button "" [ref=e427] [cursor=pointer]:
+                      - generic [ref=e428]: 
+              - row " Dorsett Golden Apple डोरसेट गोल्डन Bahamas Low-Chill Apple Early Season  1,500 - 5,000 ft  2000-4500 ft Medium demand Published" [ref=e429]:
+                - cell " Dorsett Golden Apple डोरसेट गोल्डन Bahamas" [ref=e430]:
+                  - generic [ref=e431]:
+                    - generic [ref=e433]: 
+                    - generic [ref=e434]:
+                      - generic [ref=e435]:
+                        - strong [ref=e436]: Dorsett Golden
+                        - generic [ref=e437]: Apple
+                      - generic [ref=e438]: डोरसेट गोल्डन
+                      - generic [ref=e439]: Bahamas
+                - cell "Low-Chill Apple" [ref=e440]:
+                  - link "Low-Chill" [ref=e441] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/6
+                  - generic [ref=e442]: Apple
+                - cell "Early Season" [ref=e443]:
+                  - generic [ref=e444]: Early Season
+                - cell " 1,500 - 5,000 ft  2000-4500 ft" [ref=e445]:
+                  - generic [ref=e446]:
+                    - generic [ref=e447]: 
+                    - text: 1,500 - 5,000 ft
+                  - generic [ref=e448]:
+                    - generic [ref=e449]: 
+                    - text: 2000-4500 ft
+                - cell "Medium demand" [ref=e450]:
+                  - generic [ref=e451]: Medium demand
+                - cell "Published" [ref=e452]:
+                  - generic [ref=e453]:
+                    - generic [ref=e454]: Published
+                    - switch [checked] [ref=e457]
+                - cell [ref=e458]:
+                  - group [ref=e459]:
+                    - link "" [ref=e460] [cursor=pointer]:
+                      - /url: /admin/varieties/45
+                      - generic [ref=e461]: 
+                    - link "" [ref=e462] [cursor=pointer]:
+                      - /url: /admin/varieties/45/edit
+                      - generic [ref=e463]: 
+                    - button "" [ref=e465] [cursor=pointer]:
+                      - generic [ref=e466]: 
+              - row " Tropic Sweet Apple ट्रॉपिक स्वीट USA Low-Chill Apple Early Season  1,500 - 5,000 ft  2000-4500 ft Medium demand Published" [ref=e467]:
+                - cell " Tropic Sweet Apple ट्रॉपिक स्वीट USA" [ref=e468]:
+                  - generic [ref=e469]:
+                    - generic [ref=e471]: 
+                    - generic [ref=e472]:
+                      - generic [ref=e473]:
+                        - strong [ref=e474]: Tropic Sweet
+                        - generic [ref=e475]: Apple
+                      - generic [ref=e476]: ट्रॉपिक स्वीट
+                      - generic [ref=e477]: USA
+                - cell "Low-Chill Apple" [ref=e478]:
+                  - link "Low-Chill" [ref=e479] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/6
+                  - generic [ref=e480]: Apple
+                - cell "Early Season" [ref=e481]:
+                  - generic [ref=e482]: Early Season
+                - cell " 1,500 - 5,000 ft  2000-4500 ft" [ref=e483]:
+                  - generic [ref=e484]:
+                    - generic [ref=e485]: 
+                    - text: 1,500 - 5,000 ft
+                  - generic [ref=e486]:
+                    - generic [ref=e487]: 
+                    - text: 2000-4500 ft
+                - cell "Medium demand" [ref=e488]:
+                  - generic [ref=e489]: Medium demand
+                - cell "Published" [ref=e490]:
+                  - generic [ref=e491]:
+                    - generic [ref=e492]: Published
+                    - switch [checked] [ref=e495]
+                - cell [ref=e496]:
+                  - group [ref=e497]:
+                    - link "" [ref=e498] [cursor=pointer]:
+                      - /url: /admin/varieties/46
+                      - generic [ref=e499]: 
+                    - link "" [ref=e500] [cursor=pointer]:
+                      - /url: /admin/varieties/46/edit
+                      - generic [ref=e501]: 
+                    - button "" [ref=e503] [cursor=pointer]:
+                      - generic [ref=e504]: 
+              - row " Red Golden Apple रेड गोल्डन USA Other Commercial Apple Mid Season  4,500 - 8,500 ft  5000-7500 ft Medium demand Published" [ref=e505]:
+                - cell " Red Golden Apple रेड गोल्डन USA" [ref=e506]:
+                  - generic [ref=e507]:
+                    - generic [ref=e509]: 
+                    - generic [ref=e510]:
+                      - generic [ref=e511]:
+                        - strong [ref=e512]: Red Golden
+                        - generic [ref=e513]: Apple
+                      - generic [ref=e514]: रेड गोल्डन
+                      - generic [ref=e515]: USA
+                - cell "Other Commercial Apple" [ref=e516]:
+                  - link "Other Commercial" [ref=e517] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/5
+                  - generic [ref=e518]: Apple
+                - cell "Mid Season" [ref=e519]:
+                  - generic [ref=e520]: Mid Season
+                - cell " 4,500 - 8,500 ft  5000-7500 ft" [ref=e521]:
+                  - generic [ref=e522]:
+                    - generic [ref=e523]: 
+                    - text: 4,500 - 8,500 ft
+                  - generic [ref=e524]:
+                    - generic [ref=e525]: 
+                    - text: 5000-7500 ft
+                - cell "Medium demand" [ref=e526]:
+                  - generic [ref=e527]: Medium demand
+                - cell "Published" [ref=e528]:
+                  - generic [ref=e529]:
+                    - generic [ref=e530]: Published
+                    - switch [checked] [ref=e533]
+                - cell [ref=e534]:
+                  - group [ref=e535]:
+                    - link "" [ref=e536] [cursor=pointer]:
+                      - /url: /admin/varieties/40
+                      - generic [ref=e537]: 
+                    - link "" [ref=e538] [cursor=pointer]:
+                      - /url: /admin/varieties/40/edit
+                      - generic [ref=e539]: 
+                    - button "" [ref=e541] [cursor=pointer]:
+                      - generic [ref=e542]: 
+              - row " Jonathan Apple जोनाथन USA Other Commercial Apple Mid Season  4,500 - 8,500 ft  5000-7500 ft Medium demand Published" [ref=e543]:
+                - cell " Jonathan Apple जोनाथन USA" [ref=e544]:
+                  - generic [ref=e545]:
+                    - generic [ref=e547]: 
+                    - generic [ref=e548]:
+                      - generic [ref=e549]:
+                        - strong [ref=e550]: Jonathan
+                        - generic [ref=e551]: Apple
+                      - generic [ref=e552]: जोनाथन
+                      - generic [ref=e553]: USA
+                - cell "Other Commercial Apple" [ref=e554]:
+                  - link "Other Commercial" [ref=e555] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/5
+                  - generic [ref=e556]: Apple
+                - cell "Mid Season" [ref=e557]:
+                  - generic [ref=e558]: Mid Season
+                - cell " 4,500 - 8,500 ft  5000-7500 ft" [ref=e559]:
+                  - generic [ref=e560]:
+                    - generic [ref=e561]: 
+                    - text: 4,500 - 8,500 ft
+                  - generic [ref=e562]:
+                    - generic [ref=e563]: 
+                    - text: 5000-7500 ft
+                - cell "Medium demand" [ref=e564]:
+                  - generic [ref=e565]: Medium demand
+                - cell "Published" [ref=e566]:
+                  - generic [ref=e567]:
+                    - generic [ref=e568]: Published
+                    - switch [checked] [ref=e571]
+                - cell [ref=e572]:
+                  - group [ref=e573]:
+                    - link "" [ref=e574] [cursor=pointer]:
+                      - /url: /admin/varieties/38
+                      - generic [ref=e575]: 
+                    - link "" [ref=e576] [cursor=pointer]:
+                      - /url: /admin/varieties/38/edit
+                      - generic [ref=e577]: 
+                    - button "" [ref=e579] [cursor=pointer]:
+                      - generic [ref=e580]: 
+              - row " Pink Lady Apple पिंक लेडी Australia Other Commercial Apple Very Late Season  4,500 - 8,500 ft  5000-7500 ft Medium demand Published" [ref=e581]:
+                - cell " Pink Lady Apple पिंक लेडी Australia" [ref=e582]:
+                  - generic [ref=e583]:
+                    - generic [ref=e585]: 
+                    - generic [ref=e586]:
+                      - generic [ref=e587]:
+                        - strong [ref=e588]: Pink Lady
+                        - generic [ref=e589]: Apple
+                      - generic [ref=e590]: पिंक लेडी
+                      - generic [ref=e591]: Australia
+                - cell "Other Commercial Apple" [ref=e592]:
+                  - link "Other Commercial" [ref=e593] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/5
+                  - generic [ref=e594]: Apple
+                - cell "Very Late Season" [ref=e595]:
+                  - generic [ref=e596]: Very Late Season
+                - cell " 4,500 - 8,500 ft  5000-7500 ft" [ref=e597]:
+                  - generic [ref=e598]:
+                    - generic [ref=e599]: 
+                    - text: 4,500 - 8,500 ft
+                  - generic [ref=e600]:
+                    - generic [ref=e601]: 
+                    - text: 5000-7500 ft
+                - cell "Medium demand" [ref=e602]:
+                  - generic [ref=e603]: Medium demand
+                - cell "Published" [ref=e604]:
+                  - generic [ref=e605]:
+                    - generic [ref=e606]: Published
+                    - switch [checked] [ref=e609]
+                - cell [ref=e610]:
+                  - group [ref=e611]:
+                    - link "" [ref=e612] [cursor=pointer]:
+                      - /url: /admin/varieties/37
+                      - generic [ref=e613]: 
+                    - link "" [ref=e614] [cursor=pointer]:
+                      - /url: /admin/varieties/37/edit
+                      - generic [ref=e615]: 
+                    - button "" [ref=e617] [cursor=pointer]:
+                      - generic [ref=e618]: 
+              - row " Jona Prince Select Apple जोना प्रिंस सेलेक्ट Belgium / Netherlands Other Commercial Apple Mid Season  4,500 - 8,500 ft  5000-7500 ft Medium demand Published" [ref=e619]:
+                - cell " Jona Prince Select Apple जोना प्रिंस सेलेक्ट Belgium / Netherlands" [ref=e620]:
+                  - generic [ref=e621]:
+                    - generic [ref=e623]: 
+                    - generic [ref=e624]:
+                      - generic [ref=e625]:
+                        - strong [ref=e626]: Jona Prince Select
+                        - generic [ref=e627]: Apple
+                      - generic [ref=e628]: जोना प्रिंस सेलेक्ट
+                      - generic [ref=e629]: Belgium / Netherlands
+                - cell "Other Commercial Apple" [ref=e630]:
+                  - link "Other Commercial" [ref=e631] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/5
+                  - generic [ref=e632]: Apple
+                - cell "Mid Season" [ref=e633]:
+                  - generic [ref=e634]: Mid Season
+                - cell " 4,500 - 8,500 ft  5000-7500 ft" [ref=e635]:
+                  - generic [ref=e636]:
+                    - generic [ref=e637]: 
+                    - text: 4,500 - 8,500 ft
+                  - generic [ref=e638]:
+                    - generic [ref=e639]: 
+                    - text: 5000-7500 ft
+                - cell "Medium demand" [ref=e640]:
+                  - generic [ref=e641]: Medium demand
+                - cell "Published" [ref=e642]:
+                  - generic [ref=e643]:
+                    - generic [ref=e644]: Published
+                    - switch [checked] [ref=e647]
+                - cell [ref=e648]:
+                  - group [ref=e649]:
+                    - link "" [ref=e650] [cursor=pointer]:
+                      - /url: /admin/varieties/36
+                      - generic [ref=e651]: 
+                    - link "" [ref=e652] [cursor=pointer]:
+                      - /url: /admin/varieties/36/edit
+                      - generic [ref=e653]: 
+                    - button "" [ref=e655] [cursor=pointer]:
+                      - generic [ref=e656]: 
+              - row " McIntosh Apple मैकिन्टोश Canada Other Commercial Apple Mid Season  4,500 - 8,500 ft  5000-7500 ft Medium demand Published" [ref=e657]:
+                - cell " McIntosh Apple मैकिन्टोश Canada" [ref=e658]:
+                  - generic [ref=e659]:
+                    - generic [ref=e661]: 
+                    - generic [ref=e662]:
+                      - generic [ref=e663]:
+                        - strong [ref=e664]: McIntosh
+                        - generic [ref=e665]: Apple
+                      - generic [ref=e666]: मैकिन्टोश
+                      - generic [ref=e667]: Canada
+                - cell "Other Commercial Apple" [ref=e668]:
+                  - link "Other Commercial" [ref=e669] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/5
+                  - generic [ref=e670]: Apple
+                - cell "Mid Season" [ref=e671]:
+                  - generic [ref=e672]: Mid Season
+                - cell " 4,500 - 8,500 ft  5000-7500 ft" [ref=e673]:
+                  - generic [ref=e674]:
+                    - generic [ref=e675]: 
+                    - text: 4,500 - 8,500 ft
+                  - generic [ref=e676]:
+                    - generic [ref=e677]: 
+                    - text: 5000-7500 ft
+                - cell "Medium demand" [ref=e678]:
+                  - generic [ref=e679]: Medium demand
+                - cell "Published" [ref=e680]:
+                  - generic [ref=e681]:
+                    - generic [ref=e682]: Published
+                    - switch [checked] [ref=e685]
+                - cell [ref=e686]:
+                  - group [ref=e687]:
+                    - link "" [ref=e688] [cursor=pointer]:
+                      - /url: /admin/varieties/35
+                      - generic [ref=e689]: 
+                    - link "" [ref=e690] [cursor=pointer]:
+                      - /url: /admin/varieties/35/edit
+                      - generic [ref=e691]: 
+                    - button "" [ref=e693] [cursor=pointer]:
+                      - generic [ref=e694]: 
+              - row " Granny Smith Apple  ग्रैनी स्मिथ Australia Other Commercial Apple Late Season  4,500 - 8,500 ft  5000-7500 ft Medium demand Published" [ref=e695]:
+                - cell " Granny Smith Apple  ग्रैनी स्मिथ Australia" [ref=e696]:
+                  - generic [ref=e697]:
+                    - generic [ref=e699]: 
+                    - generic [ref=e700]:
+                      - generic [ref=e701]:
+                        - strong [ref=e702]: Granny Smith
+                        - generic [ref=e703]: Apple
+                        - generic [ref=e704]: 
+                      - generic [ref=e705]: ग्रैनी स्मिथ
+                      - generic [ref=e706]: Australia
+                - cell "Other Commercial Apple" [ref=e707]:
+                  - link "Other Commercial" [ref=e708] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/5
+                  - generic [ref=e709]: Apple
+                - cell "Late Season" [ref=e710]:
+                  - generic [ref=e711]: Late Season
+                - cell " 4,500 - 8,500 ft  5000-7500 ft" [ref=e712]:
+                  - generic [ref=e713]:
+                    - generic [ref=e714]: 
+                    - text: 4,500 - 8,500 ft
+                  - generic [ref=e715]:
+                    - generic [ref=e716]: 
+                    - text: 5000-7500 ft
+                - cell "Medium demand" [ref=e717]:
+                  - generic [ref=e718]: Medium demand
+                - cell "Published" [ref=e719]:
+                  - generic [ref=e720]:
+                    - generic [ref=e721]: Published
+                    - switch [checked] [ref=e724]
+                - cell [ref=e725]:
+                  - group [ref=e726]:
+                    - link "" [ref=e727] [cursor=pointer]:
+                      - /url: /admin/varieties/34
+                      - generic [ref=e728]: 
+                    - link "" [ref=e729] [cursor=pointer]:
+                      - /url: /admin/varieties/34/edit
+                      - generic [ref=e730]: 
+                    - button "" [ref=e732] [cursor=pointer]:
+                      - generic [ref=e733]: 
+              - row " Rd11 Apple आरडी11 France Modern High-Density Red Delicious Apple Late Season  5,000 - 8,500 ft  6000-8000 ft  Export Very_high demand Published" [ref=e734]:
+                - cell " Rd11 Apple आरडी11 France" [ref=e735]:
+                  - generic [ref=e736]:
+                    - generic [ref=e738]: 
+                    - generic [ref=e739]:
+                      - generic [ref=e740]:
+                        - strong [ref=e741]: Rd11
+                        - generic [ref=e742]: Apple
+                      - generic [ref=e743]: आरडी11
+                      - generic [ref=e744]: France
+                - cell "Modern High-Density Red Delicious Apple" [ref=e745]:
+                  - link "Modern High-Density Red Delicious" [ref=e746] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/4
+                  - generic [ref=e747]: Apple
+                - cell "Late Season" [ref=e748]:
+                  - generic [ref=e749]: Late Season
+                - cell " 5,000 - 8,500 ft  6000-8000 ft" [ref=e750]:
+                  - generic [ref=e751]:
+                    - generic [ref=e752]: 
+                    - text: 5,000 - 8,500 ft
+                  - generic [ref=e753]:
+                    - generic [ref=e754]: 
+                    - text: 6000-8000 ft
+                - cell " Export Very_high demand" [ref=e755]:
+                  - generic [ref=e756]:
+                    - generic [ref=e757]: 
+                    - text: Export
+                  - generic [ref=e758]: Very_high demand
+                - cell "Published" [ref=e759]:
+                  - generic [ref=e760]:
+                    - generic [ref=e761]: Published
+                    - switch [checked] [ref=e764]
+                - cell [ref=e765]:
+                  - group [ref=e766]:
+                    - link "" [ref=e767] [cursor=pointer]:
+                      - /url: /admin/varieties/33
+                      - generic [ref=e768]: 
+                    - link "" [ref=e769] [cursor=pointer]:
+                      - /url: /admin/varieties/33/edit
+                      - generic [ref=e770]: 
+                    - button "" [ref=e772] [cursor=pointer]:
+                      - generic [ref=e773]: 
+              - row " Zad One (Fenzad) Apple जैड वन (फेनजैड) France Modern High-Density Red Delicious Apple Late Season  5,000 - 8,500 ft  6000-8000 ft  Export Very_high demand Published" [ref=e774]:
+                - cell " Zad One (Fenzad) Apple जैड वन (फेनजैड) France" [ref=e775]:
+                  - generic [ref=e776]:
+                    - generic [ref=e778]: 
+                    - generic [ref=e779]:
+                      - generic [ref=e780]:
+                        - strong [ref=e781]: Zad One (Fenzad)
+                        - generic [ref=e782]: Apple
+                      - generic [ref=e783]: जैड वन (फेनजैड)
+                      - generic [ref=e784]: France
+                - cell "Modern High-Density Red Delicious Apple" [ref=e785]:
+                  - link "Modern High-Density Red Delicious" [ref=e786] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/4
+                  - generic [ref=e787]: Apple
+                - cell "Late Season" [ref=e788]:
+                  - generic [ref=e789]: Late Season
+                - cell " 5,000 - 8,500 ft  6000-8000 ft" [ref=e790]:
+                  - generic [ref=e791]:
+                    - generic [ref=e792]: 
+                    - text: 5,000 - 8,500 ft
+                  - generic [ref=e793]:
+                    - generic [ref=e794]: 
+                    - text: 6000-8000 ft
+                - cell " Export Very_high demand" [ref=e795]:
+                  - generic [ref=e796]:
+                    - generic [ref=e797]: 
+                    - text: Export
+                  - generic [ref=e798]: Very_high demand
+                - cell "Published" [ref=e799]:
+                  - generic [ref=e800]:
+                    - generic [ref=e801]: Published
+                    - switch [checked] [ref=e804]
+                - cell [ref=e805]:
+                  - group [ref=e806]:
+                    - link "" [ref=e807] [cursor=pointer]:
+                      - /url: /admin/varieties/32
+                      - generic [ref=e808]: 
+                    - link "" [ref=e809] [cursor=pointer]:
+                      - /url: /admin/varieties/32/edit
+                      - generic [ref=e810]: 
+                    - button "" [ref=e812] [cursor=pointer]:
+                      - generic [ref=e813]: 
+              - row " King Roat Apple किंग रोएट Italy Modern High-Density Red Delicious Apple Late Season  5,000 - 8,500 ft  6000-8000 ft  Export Very_high demand Published" [ref=e814]:
+                - cell " King Roat Apple किंग रोएट Italy" [ref=e815]:
+                  - generic [ref=e816]:
+                    - generic [ref=e818]: 
+                    - generic [ref=e819]:
+                      - generic [ref=e820]:
+                        - strong [ref=e821]: King Roat
+                        - generic [ref=e822]: Apple
+                      - generic [ref=e823]: किंग रोएट
+                      - generic [ref=e824]: Italy
+                - cell "Modern High-Density Red Delicious Apple" [ref=e825]:
+                  - link "Modern High-Density Red Delicious" [ref=e826] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/4
+                  - generic [ref=e827]: Apple
+                - cell "Late Season" [ref=e828]:
+                  - generic [ref=e829]: Late Season
+                - cell " 5,000 - 8,500 ft  6000-8000 ft" [ref=e830]:
+                  - generic [ref=e831]:
+                    - generic [ref=e832]: 
+                    - text: 5,000 - 8,500 ft
+                  - generic [ref=e833]:
+                    - generic [ref=e834]: 
+                    - text: 6000-8000 ft
+                - cell " Export Very_high demand" [ref=e835]:
+                  - generic [ref=e836]:
+                    - generic [ref=e837]: 
+                    - text: Export
+                  - generic [ref=e838]: Very_high demand
+                - cell "Published" [ref=e839]:
+                  - generic [ref=e840]:
+                    - generic [ref=e841]: Published
+                    - switch [checked] [ref=e844]
+                - cell [ref=e845]:
+                  - group [ref=e846]:
+                    - link "" [ref=e847] [cursor=pointer]:
+                      - /url: /admin/varieties/31
+                      - generic [ref=e848]: 
+                    - link "" [ref=e849] [cursor=pointer]:
+                      - /url: /admin/varieties/31/edit
+                      - generic [ref=e850]: 
+                    - button "" [ref=e852] [cursor=pointer]:
+                      - generic [ref=e853]: 
+              - row " HRMN-99 Apple  एचआरएमएन-99 India Low-Chill Apple Early Season  1,500 - 5,000 ft  2000-4500 ft Medium demand Published" [ref=e854]:
+                - cell " HRMN-99 Apple  एचआरएमएन-99 India" [ref=e855]:
+                  - generic [ref=e856]:
+                    - generic [ref=e858]: 
+                    - generic [ref=e859]:
+                      - generic [ref=e860]:
+                        - strong [ref=e861]: HRMN-99
+                        - generic [ref=e862]: Apple
+                        - generic [ref=e863]: 
+                      - generic [ref=e864]: एचआरएमएन-99
+                      - generic [ref=e865]: India
+                - cell "Low-Chill Apple" [ref=e866]:
+                  - link "Low-Chill" [ref=e867] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/6
+                  - generic [ref=e868]: Apple
+                - cell "Early Season" [ref=e869]:
+                  - generic [ref=e870]: Early Season
+                - cell " 1,500 - 5,000 ft  2000-4500 ft" [ref=e871]:
+                  - generic [ref=e872]:
+                    - generic [ref=e873]: 
+                    - text: 1,500 - 5,000 ft
+                  - generic [ref=e874]:
+                    - generic [ref=e875]: 
+                    - text: 2000-4500 ft
+                - cell "Medium demand" [ref=e876]:
+                  - generic [ref=e877]: Medium demand
+                - cell "Published" [ref=e878]:
+                  - generic [ref=e879]:
+                    - generic [ref=e880]: Published
+                    - switch [checked] [ref=e883]
+                - cell [ref=e884]:
+                  - group [ref=e885]:
+                    - link "" [ref=e886] [cursor=pointer]:
+                      - /url: /admin/varieties/47
+                      - generic [ref=e887]: 
+                    - link "" [ref=e888] [cursor=pointer]:
+                      - /url: /admin/varieties/47/edit
+                      - generic [ref=e889]: 
+                    - button "" [ref=e891] [cursor=pointer]:
+                      - generic [ref=e892]: 
+              - row " Nagafu Apple नागाफू Japan Fuji Apple Very Late Season  5,500 - 9,000 ft  6500-8500 ft  Export Very_high demand Published" [ref=e893]:
+                - cell " Nagafu Apple नागाफू Japan" [ref=e894]:
+                  - generic [ref=e895]:
+                    - generic [ref=e897]: 
+                    - generic [ref=e898]:
+                      - generic [ref=e899]:
+                        - strong [ref=e900]: Nagafu
+                        - generic [ref=e901]: Apple
+                      - generic [ref=e902]: नागाफू
+                      - generic [ref=e903]: Japan
+                - cell "Fuji Apple" [ref=e904]:
+                  - link "Fuji" [ref=e905] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/3
+                  - generic [ref=e906]: Apple
+                - cell "Very Late Season" [ref=e907]:
+                  - generic [ref=e908]: Very Late Season
+                - cell " 5,500 - 9,000 ft  6500-8500 ft" [ref=e909]:
+                  - generic [ref=e910]:
+                    - generic [ref=e911]: 
+                    - text: 5,500 - 9,000 ft
+                  - generic [ref=e912]:
+                    - generic [ref=e913]: 
+                    - text: 6500-8500 ft
+                - cell " Export Very_high demand" [ref=e914]:
+                  - generic [ref=e915]:
+                    - generic [ref=e916]: 
+                    - text: Export
+                  - generic [ref=e917]: Very_high demand
+                - cell "Published" [ref=e918]:
+                  - generic [ref=e919]:
+                    - generic [ref=e920]: Published
+                    - switch [checked] [ref=e923]
+                - cell [ref=e924]:
+                  - group [ref=e925]:
+                    - link "" [ref=e926] [cursor=pointer]:
+                      - /url: /admin/varieties/26
+                      - generic [ref=e927]: 
+                    - link "" [ref=e928] [cursor=pointer]:
+                      - /url: /admin/varieties/26/edit
+                      - generic [ref=e929]: 
+                    - button "" [ref=e931] [cursor=pointer]:
+                      - generic [ref=e932]: 
+              - row " Kiku Fuji Apple किकु फूजी Japan Fuji Apple Very Late Season  5,500 - 9,000 ft  6500-8500 ft  Export Very_high demand Published" [ref=e933]:
+                - cell " Kiku Fuji Apple किकु फूजी Japan" [ref=e934]:
+                  - generic [ref=e935]:
+                    - generic [ref=e937]: 
+                    - generic [ref=e938]:
+                      - generic [ref=e939]:
+                        - strong [ref=e940]: Kiku Fuji
+                        - generic [ref=e941]: Apple
+                      - generic [ref=e942]: किकु फूजी
+                      - generic [ref=e943]: Japan
+                - cell "Fuji Apple" [ref=e944]:
+                  - link "Fuji" [ref=e945] [cursor=pointer]:
+                    - /url: http://192.168.1.100:8000/admin/strains/3
+                  - generic [ref=e946]: Apple
+                - cell "Very Late Season" [ref=e947]:
+                  - generic [ref=e948]: Very Late Season
+                - cell " 5,500 - 9,000 ft  6500-8500 ft" [ref=e949]:
+                  - generic [ref=e950]:
+                    - generic [ref=e951]: 
+                    - text: 5,500 - 9,000 ft
+                  - generic [ref=e952]:
+                    - generic [ref=e953]: 
+                    - text: 6500-8500 ft
+                - cell " Export Very_high demand" [ref=e954]:
+                  - generic [ref=e955]:
+                    - generic [ref=e956]: 
+                    - text: Export
+                  - generic [ref=e957]: Very_high demand
+                - cell "Published" [ref=e958]:
+                  - generic [ref=e959]:
+                    - generic [ref=e960]: Published
+                    - switch [checked] [ref=e963]
+                - cell [ref=e964]:
+                  - group [ref=e965]:
+                    - link "" [ref=e966] [cursor=pointer]:
+                      - /url: /admin/varieties/27
+                      - generic [ref=e967]: 
+                    - link "" [ref=e968] [cursor=pointer]:
+                      - /url: /admin/varieties/27/edit
+                      - generic [ref=e969]: 
+                    - button "" [ref=e971] [cursor=pointer]:
+                      - generic [ref=e972]: 
+          - generic [ref=e973]:
+            - generic [ref=e974]: Showing 1 - 20 of 47
+            - navigation [ref=e975]:
+              - navigation [ref=e976]:
+                - generic [ref=e977]:
+                  - paragraph [ref=e979]: Showing 1 to 20 of 47 results
+                  - list [ref=e981]:
+                    - listitem "« Previous" [ref=e982]:
+                      - generic: ‹
+                    - listitem [ref=e983]:
+                      - generic [ref=e984]: "1"
+                    - listitem [ref=e985]:
+                      - link "2" [ref=e986] [cursor=pointer]:
+                        - /url: http://192.168.1.100:8000/admin/varieties?page=2
+                    - listitem [ref=e987]:
+                      - link "3" [ref=e988] [cursor=pointer]:
+                        - /url: http://192.168.1.100:8000/admin/varieties?page=3
+                    - listitem [ref=e989]:
+                      - link "Next »" [ref=e990] [cursor=pointer]:
+                        - /url: http://192.168.1.100:8000/admin/varieties?page=2
+                        - text: ›
+    - contentinfo [ref=e991]:
+      - generic [ref=e992]: © 2026 Baagvaani. All rights reserved.
+      - generic [ref=e993]:
+        - text: Powered by
+        - strong [ref=e994]: Laravel 12.58.0
+        - text: "& Bootstrap 5"

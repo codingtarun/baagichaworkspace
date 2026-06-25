@@ -1,0 +1,280 @@
+- generic [active] [ref=e1]:
+  - complementary [ref=e2]:
+    - link "" [ref=e3] [cursor=pointer]:
+      - /url: http://192.168.1.100:8000/admin/dashboard
+      - generic [ref=e4]: 
+    - navigation [ref=e5]:
+      - link "" [ref=e6] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/dashboard
+        - generic [ref=e7]: 
+      - link "" [ref=e8] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/users
+        - generic [ref=e9]: 
+      - link "" [ref=e10] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/diseases
+        - generic [ref=e11]: 
+      - link "" [ref=e12] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/fruits
+        - generic [ref=e13]: 
+      - link "" [ref=e14] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/strains
+        - generic [ref=e15]: 
+      - link "" [ref=e16] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/varieties
+        - generic [ref=e17]: 
+      - link "" [ref=e18] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/rootstocks
+        - generic [ref=e19]: 
+      - link "" [ref=e20] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/chemicals
+        - generic [ref=e21]: 
+      - link "" [ref=e22] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/spray
+        - generic [ref=e23]: 
+      - link "" [ref=e24] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/blog/posts
+        - generic [ref=e25]: 
+      - link "" [ref=e26] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/blog-categories
+        - generic [ref=e27]: 
+      - link "" [ref=e28] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/blog-tags
+        - generic [ref=e29]: 
+      - link "" [ref=e30] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/comments
+        - generic [ref=e31]: 
+      - link "" [ref=e32] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/media
+        - generic [ref=e33]: 
+      - link "" [ref=e34] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/products
+        - generic [ref=e35]: 
+      - link "" [ref=e36] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/orders
+        - generic [ref=e37]: 
+      - link "" [ref=e38] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/inventory
+        - generic [ref=e39]: 
+      - link "" [ref=e40] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/coupons
+        - generic [ref=e41]: 
+      - link "" [ref=e42] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/reports/sales
+        - generic [ref=e43]: 
+      - link "" [ref=e44] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/weather-data
+        - generic [ref=e45]: 
+      - link "" [ref=e46] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/weather-alert-rules
+        - generic [ref=e47]: 
+      - link "" [ref=e48] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/dashboard/queue-health
+        - generic [ref=e49]: 
+      - link "" [ref=e50] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/activity-logs
+        - generic [ref=e51]: 
+      - link "" [ref=e52] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/notifications/send
+        - generic [ref=e53]: 
+      - link "" [ref=e54] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/waitlist
+        - generic [ref=e55]: 
+      - link "" [ref=e56] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/newsletter-subscribers
+        - generic [ref=e57]: 
+      - link "" [ref=e58] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/roles
+        - generic [ref=e59]: 
+    - generic [ref=e61]: T
+  - generic [ref=e62]:
+    - banner [ref=e63]:
+      - text: 
+      - button "Collapse sidebar" [ref=e64] [cursor=pointer]:
+        - generic [ref=e65]: 
+      - generic [ref=e66]:
+        - generic: 
+        - textbox "Search anything..." [ref=e67]
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - button "" [ref=e70] [cursor=pointer]:
+            - generic [ref=e71]: 
+          - text:   
+        - generic [ref=e73]:
+          - button "T Tarun Chauhan " [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]: T
+            - generic [ref=e76]: Tarun Chauhan
+            - generic [ref=e77]: 
+          - text:   
+    - main [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - heading "Mema Mestar" [level=4] [ref=e81]
+          - navigation "breadcrumb" [ref=e82]:
+            - list [ref=e83]:
+              - listitem [ref=e84]:
+                - link "Home" [ref=e85] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/admin/dashboard
+              - listitem [ref=e86]:
+                - text: /
+                - link "Varieties" [ref=e87] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/admin/varieties
+              - listitem [ref=e88]: / Mema Mestar
+        - link " Edit" [ref=e90] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/admin/varieties/30/edit
+          - generic [ref=e91]: 
+          - text: Edit
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - heading " Variety Information" [level=5] [ref=e97]:
+              - generic [ref=e98]: 
+              - text: Variety Information
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - generic [ref=e101]: 
+                - text: Featured
+              - generic [ref=e102]: Published
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e105]:
+                - generic [ref=e106]: English Name
+                - generic [ref=e107]: Mema Mestar
+              - generic [ref=e108]:
+                - generic [ref=e109]: Hindi Name
+                - generic [ref=e110]: मेमा मेस्टार
+              - generic [ref=e111]:
+                - generic [ref=e112]: Strain
+                - link "Modern High-Density Red Delicious" [ref=e114] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/admin/strains/4
+              - generic [ref=e115]:
+                - generic [ref=e116]: Fruit
+                - link "Apple" [ref=e118] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/admin/fruits/1
+              - generic [ref=e119]:
+                - generic [ref=e120]: Season
+                - generic [ref=e122]: Late Season
+              - generic [ref=e123]:
+                - generic [ref=e124]: Origin
+                - generic [ref=e125]: France
+            - generic [ref=e126]:
+              - heading " Altitude Suitability" [level=6] [ref=e127]:
+                - generic [ref=e128]: 
+                - text: Altitude Suitability
+              - generic [ref=e129]:
+                - generic [ref=e130]:
+                  - generic [ref=e131]: Min Altitude
+                  - generic [ref=e132]: 5,000 ft
+                - generic [ref=e133]:
+                  - generic [ref=e134]: Max Altitude
+                  - generic [ref=e135]: 8,500 ft
+                - generic [ref=e136]:
+                  - generic [ref=e137]: Ideal Range
+                  - generic [ref=e138]: 6000-8000 ft
+            - generic [ref=e139]:
+              - heading " Tree & Fruit Characteristics" [level=6] [ref=e140]:
+                - generic [ref=e141]: 
+                - text: Tree & Fruit Characteristics
+              - generic [ref=e142]:
+                - generic [ref=e143]:
+                  - generic [ref=e144]: Tree Vigor
+                  - generic [ref=e145]: Low
+                - generic [ref=e146]:
+                  - generic [ref=e147]: Fruit Size
+                  - generic [ref=e148]: Large
+                - generic [ref=e149]:
+                  - generic [ref=e150]: Skin Color
+                  - generic [ref=e151]: Dark red
+                - generic [ref=e152]:
+                  - generic [ref=e153]: Taste Profile
+                  - generic [ref=e154]: sweet, firm
+                - generic [ref=e155]:
+                  - generic [ref=e156]: Bearing Age
+                  - generic [ref=e157]: 3 years
+                - generic [ref=e158]:
+                  - generic [ref=e159]: Pollinators
+                  - generic [ref=e160]: Golden Delicious, Gala, Granny Smith
+            - generic [ref=e161]:
+              - heading " Harvest & Storage" [level=6] [ref=e162]:
+                - generic [ref=e163]: 
+                - text: Harvest & Storage
+              - generic [ref=e164]:
+                - generic [ref=e165]:
+                  - generic [ref=e166]: Harvest Window
+                  - generic [ref=e167]: Mid September - Mid October
+                - generic [ref=e168]:
+                  - generic [ref=e169]: Days to Maturity
+                  - generic [ref=e170]: 155 days
+                - generic [ref=e171]:
+                  - generic [ref=e172]: Storage Life
+                  - generic [ref=e173]:
+                    - generic [ref=e174]: Excellent
+                    - text: (10 months)
+            - generic [ref=e175]:
+              - heading " Description" [level=6] [ref=e176]:
+                - generic [ref=e177]: 
+                - text: Description
+              - generic [ref=e178]:
+                - generic [ref=e179]: English
+                - paragraph [ref=e180]: Modern compact red variety selected for high-density orchards and export quality.
+              - generic [ref=e181]:
+                - generic [ref=e182]: Hindi
+                - paragraph [ref=e183]: उच्च-घनत्व बागानों और निर्यात गुणवत्ता के लिए चुनी गई आधुनिक कॉम्पैक्ट लाल किस्म।
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - heading "Quick Actions" [level=6] [ref=e187]
+            - generic [ref=e189]:
+              - button " Remove from Featured" [ref=e191] [cursor=pointer]:
+                - generic [ref=e192]: 
+                - text: Remove from Featured
+              - button " Unpublish" [ref=e194] [cursor=pointer]:
+                - generic [ref=e195]: 
+                - text: Unpublish
+          - generic [ref=e196]:
+            - heading " Usage Statistics" [level=6] [ref=e198]:
+              - generic [ref=e199]: 
+              - text: Usage Statistics
+            - generic [ref=e200]:
+              - generic [ref=e201]:
+                - generic [ref=e202]: Orchards Growing
+                - generic [ref=e203]: "0"
+              - generic [ref=e204]:
+                - generic [ref=e205]: Total Trees
+                - generic [ref=e206]: "0"
+              - generic [ref=e207]:
+                - generic [ref=e208]: Unique Farmers
+                - generic [ref=e209]: "0"
+          - generic [ref=e210]:
+            - heading " Market Information" [level=6] [ref=e212]:
+              - generic [ref=e213]: 
+              - text: Market Information
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - generic [ref=e216]: Market Demand
+                - generic [ref=e217]: Very_high
+              - generic [ref=e218]:
+                - generic [ref=e219]: Price Tier
+                - generic [ref=e220]: 4.4/5
+              - generic [ref=e221]:
+                - generic [ref=e222]: Export Quality
+                - generic [ref=e223]: "Yes"
+          - generic [ref=e224]:
+            - heading " Metadata" [level=6] [ref=e226]:
+              - generic [ref=e227]: 
+              - text: Metadata
+            - generic [ref=e228]:
+              - generic [ref=e229]:
+                - text: "Slug:"
+                - code [ref=e230]: mema-mestar
+              - generic [ref=e231]: "Views: 1"
+              - generic [ref=e232]: "Created: Jun 22, 2026"
+              - generic [ref=e233]: "Updated: 0 seconds ago"
+    - contentinfo [ref=e234]:
+      - generic [ref=e235]: © 2026 Baagvaani. All rights reserved.
+      - generic [ref=e236]:
+        - text: Powered by
+        - strong [ref=e237]: Laravel 12.58.0
+        - text: "& Bootstrap 5"
+  - alert "Success" [ref=e238]:
+    - heading "Success" [level=2] [ref=e246]
+    - generic [ref=e247]: Variety updated successfully.
+    - text: "!"

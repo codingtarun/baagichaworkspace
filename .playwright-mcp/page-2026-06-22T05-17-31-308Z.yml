@@ -1,0 +1,1073 @@
+- generic [ref=e1]:
+  - complementary [ref=e2]:
+    - link "" [ref=e3] [cursor=pointer]:
+      - /url: http://192.168.1.100:8000/admin/dashboard
+      - generic [ref=e4]: 
+    - navigation [ref=e5]:
+      - link "" [ref=e6] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/dashboard
+        - generic [ref=e7]: 
+      - link "" [ref=e8] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/users
+        - generic [ref=e9]: 
+      - link "" [ref=e10] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/diseases
+        - generic [ref=e11]: 
+      - link "" [ref=e12] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/fruits
+        - generic [ref=e13]: 
+      - link "" [ref=e14] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/strains
+        - generic [ref=e15]: 
+      - link "" [ref=e16] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/varieties
+        - generic [ref=e17]: 
+      - link "" [ref=e18] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/rootstocks
+        - generic [ref=e19]: 
+      - link "" [ref=e20] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/chemicals
+        - generic [ref=e21]: 
+      - link "" [ref=e22] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/spray
+        - generic [ref=e23]: 
+      - link "" [ref=e24] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/blog/posts
+        - generic [ref=e25]: 
+      - link "" [ref=e26] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/blog-categories
+        - generic [ref=e27]: 
+      - link "" [ref=e28] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/blog-tags
+        - generic [ref=e29]: 
+      - link "" [ref=e30] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/comments
+        - generic [ref=e31]: 
+      - link "" [ref=e32] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/media
+        - generic [ref=e33]: 
+      - link "" [ref=e34] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/products
+        - generic [ref=e35]: 
+      - link "" [ref=e36] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/orders
+        - generic [ref=e37]: 
+      - link "" [ref=e38] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/inventory
+        - generic [ref=e39]: 
+      - link "" [ref=e40] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/coupons
+        - generic [ref=e41]: 
+      - link "" [ref=e42] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/shop/reports/sales
+        - generic [ref=e43]: 
+      - link "" [ref=e44] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/weather-data
+        - generic [ref=e45]: 
+      - link "" [ref=e46] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/weather-alert-rules
+        - generic [ref=e47]: 
+      - link "" [ref=e48] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/dashboard/queue-health
+        - generic [ref=e49]: 
+      - link "" [ref=e50] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/activity-logs
+        - generic [ref=e51]: 
+      - link "" [ref=e52] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/notifications/send
+        - generic [ref=e53]: 
+      - link "" [ref=e54] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/waitlist
+        - generic [ref=e55]: 
+      - link "" [ref=e56] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/newsletter-subscribers
+        - generic [ref=e57]: 
+      - link "" [ref=e58] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/admin/roles
+        - generic [ref=e59]: 
+    - generic [ref=e61]: T
+  - generic [ref=e62]:
+    - banner [ref=e63]:
+      - text: 
+      - button "Collapse sidebar" [ref=e64] [cursor=pointer]:
+        - generic [ref=e65]: 
+      - generic [ref=e66]:
+        - generic: 
+        - textbox "Search anything..." [ref=e67]
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - button "" [ref=e70] [cursor=pointer]:
+            - generic [ref=e71]: 
+          - text:   
+        - generic [ref=e73]:
+          - button "T Tarun Chauhan " [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]: T
+            - generic [ref=e76]: Tarun Chauhan
+            - generic [ref=e77]: 
+          - text:   
+    - main [ref=e78]:
+      - generic [ref=e80]:
+        - heading "Edit Variety" [level=4] [ref=e81]
+        - navigation "breadcrumb" [ref=e82]:
+          - list [ref=e83]:
+            - listitem [ref=e84]:
+              - link "Home" [ref=e85] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/admin/dashboard
+            - listitem [ref=e86]:
+              - text: /
+              - link "Varieties" [ref=e87] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/admin/varieties
+            - listitem [ref=e88]: / Mema Mestar
+      - generic [ref=e90]:
+        - 'heading " Edit: Mema Mestar" [level=6] [ref=e92]':
+          - generic [ref=e93]: 
+          - text: "Edit: Mema Mestar"
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - generic [ref=e98]: Name (English) *
+              - textbox [ref=e99]: Mema Mestar
+            - generic [ref=e100]:
+              - generic [ref=e101]: Name (Hindi)
+              - textbox [ref=e102]: मेमा मेस्टार
+            - generic [ref=e103]:
+              - generic [ref=e104]: Scientific Name
+              - textbox [ref=e105]
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - generic [ref=e108]: Strain *
+              - combobox [ref=e109]:
+                - option "Select Strain"
+                - option "Apricot › Apricot Common"
+                - option "Cherry › Cherry Common"
+                - option "Apple › Fuji"
+                - option "Apple › Gala"
+                - option "Apple › Low-Chill"
+                - option "Apple › Modern High-Density Red Delicious" [selected]
+                - option "Apple › Other Commercial"
+                - option "Peach › Peach Common"
+                - option "Pear › Pear Common"
+                - option "Persimmon › Persimmon Common"
+                - option "Plum › Plum Common"
+                - option "Pomegranate › Pomegranate Common"
+                - option "Apple › Traditional Delicious"
+            - generic [ref=e110]:
+              - generic [ref=e111]: Season Type *
+              - combobox [ref=e112]:
+                - option "Select Season"
+                - option "Early Season"
+                - option "Mid Season"
+                - option "Late Season" [selected]
+                - option "Very Late Season"
+            - generic [ref=e113]:
+              - generic [ref=e114]: Origin
+              - textbox [ref=e115]: France
+            - generic [ref=e116]:
+              - generic [ref=e117]: Introduction Year
+              - spinbutton [ref=e118]
+          - heading " Altitude Requirements" [level=6] [ref=e119]:
+            - generic [ref=e120]: 
+            - text: Altitude Requirements
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - generic [ref=e123]: Min Altitude (feet) *
+              - spinbutton [ref=e124]: "5000"
+            - generic [ref=e125]:
+              - generic [ref=e126]: Max Altitude (feet) *
+              - spinbutton [ref=e127]: "8500"
+            - generic [ref=e128]:
+              - generic [ref=e129]: Ideal Altitude
+              - textbox [ref=e130]: 6000-8000 ft
+          - heading " Climate Requirements" [level=6] [ref=e131]:
+            - generic [ref=e132]: 
+            - text: Climate Requirements
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: Min Chilling Hours
+              - spinbutton [ref=e136]: "900"
+            - generic [ref=e137]:
+              - generic [ref=e138]: Ideal Temp Min (°C)
+              - spinbutton [ref=e139]: "10.0"
+            - generic [ref=e140]:
+              - generic [ref=e141]: Ideal Temp Max (°C)
+              - spinbutton [ref=e142]: "22.0"
+            - generic [ref=e143]:
+              - generic [ref=e144]: Rain Tolerance
+              - combobox [ref=e145]:
+                - option "Select"
+                - option "Low" [selected]
+                - option "Medium"
+                - option "High"
+          - heading " Tree Characteristics" [level=6] [ref=e146]:
+            - generic [ref=e147]: 
+            - text: Tree Characteristics
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]: Tree Vigor
+              - combobox [ref=e151]:
+                - option "Select"
+                - option "Low" [selected]
+                - option "Medium"
+                - option "High"
+                - option "Very High"
+            - generic [ref=e152]:
+              - generic [ref=e153]: Growth Habit
+              - combobox [ref=e154]:
+                - option "Select"
+                - option "Upright"
+                - option "Spreading"
+                - option "Compact" [selected]
+                - option "Weeping"
+            - generic [ref=e155]:
+              - generic [ref=e156]: Bearing Age (years)
+              - spinbutton [ref=e157]: "3"
+            - generic [ref=e158]:
+              - generic [ref=e159]: Pollinators
+              - textbox [ref=e160]: Golden Delicious, Gala, Granny Smith
+          - generic [ref=e163]:
+            - checkbox "Self Fertile" [ref=e164]
+            - generic [ref=e165]: Self Fertile
+          - heading " Fruit Characteristics" [level=6] [ref=e166]:
+            - generic [ref=e167]: 
+            - text: Fruit Characteristics
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - generic [ref=e170]: Fruit Size
+              - combobox [ref=e171]:
+                - option "Select"
+                - option "Small"
+                - option "Medium"
+                - option "Large" [selected]
+                - option "Very Large"
+            - generic [ref=e172]:
+              - generic [ref=e173]: Fruit Shape
+              - combobox [ref=e174]:
+                - option "Select"
+                - option "Round"
+                - option "Conical" [selected]
+                - option "Oblong"
+                - option "Flattened"
+            - generic [ref=e175]:
+              - generic [ref=e176]: Skin Color
+              - textbox [ref=e177]: Dark red
+            - generic [ref=e178]:
+              - generic [ref=e179]: Flesh Color
+              - textbox [ref=e180]: cream
+            - generic [ref=e181]:
+              - generic [ref=e182]: Avg Weight (g)
+              - spinbutton [ref=e183]: "180"
+            - generic [ref=e184]:
+              - generic [ref=e185]: Taste Profile
+              - textbox [ref=e186]: sweet, firm
+          - heading " Harvest & Storage" [level=6] [ref=e187]:
+            - generic [ref=e188]: 
+            - text: Harvest & Storage
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - generic [ref=e191]: Days to Maturity
+              - spinbutton [ref=e192]: "155"
+            - generic [ref=e193]:
+              - generic [ref=e194]: Harvest Window
+              - textbox [ref=e195]: Mid September - Mid October
+            - generic [ref=e196]:
+              - generic [ref=e197]: Storage Life
+              - combobox [ref=e198]:
+                - option "Select"
+                - option "Poor"
+                - option "Fair"
+                - option "Good"
+                - option "Excellent" [selected]
+            - generic [ref=e199]:
+              - generic [ref=e200]: Storage Months
+              - spinbutton [ref=e201]: "10"
+          - heading " Yield Information" [level=6] [ref=e202]:
+            - generic [ref=e203]: 
+            - text: Yield Information
+          - generic [ref=e204]:
+            - generic [ref=e205]:
+              - generic [ref=e206]: Yield (kg/tree)
+              - spinbutton [ref=e207]: "75"
+            - generic [ref=e208]:
+              - generic [ref=e209]: Yield Potential
+              - combobox [ref=e210]:
+                - option "Select"
+                - option "Low"
+                - option "Medium"
+                - option "High"
+                - option "Very High" [selected]
+            - generic [ref=e211]:
+              - generic [ref=e212]: Market Price Tier
+              - combobox [ref=e213]:
+                - option "Select" [selected]
+                - option "Budget"
+                - option "Standard"
+                - option "Premium"
+                - option "Super Premium"
+                - option "Luxury"
+            - generic [ref=e214]:
+              - generic [ref=e215]: Market Demand
+              - combobox [ref=e216]:
+                - option "Select"
+                - option "Low"
+                - option "Medium"
+                - option "High"
+                - option "Very High" [selected]
+          - generic [ref=e219]:
+            - checkbox "Export Quality" [checked] [ref=e220]
+            - generic [ref=e221]: Export Quality
+          - heading " Recommended Rootstocks" [level=6] [ref=e222]:
+            - generic [ref=e223]: 
+            - text: Recommended Rootstocks
+          - generic [ref=e226]:
+            - generic [ref=e228]:
+              - checkbox "B.118 Budagovsky 118" [ref=e229]
+              - generic [ref=e230]:
+                - text: B.118
+                - generic [ref=e231]: Budagovsky 118
+            - generic [ref=e233]:
+              - checkbox "B.9 Budagovsky 9" [ref=e234]
+              - generic [ref=e235]:
+                - text: B.9
+                - generic [ref=e236]: Budagovsky 9
+            - generic [ref=e238]:
+              - checkbox "G.11 Geneva 11" [ref=e239]
+              - generic [ref=e240]:
+                - text: G.11
+                - generic [ref=e241]: Geneva 11
+            - generic [ref=e243]:
+              - checkbox "G.214 Geneva 214" [ref=e244]
+              - generic [ref=e245]:
+                - text: G.214
+                - generic [ref=e246]: Geneva 214
+            - generic [ref=e248]:
+              - checkbox "G.41 Geneva 41" [ref=e249]
+              - generic [ref=e250]:
+                - text: G.41
+                - generic [ref=e251]: Geneva 41
+            - generic [ref=e253]:
+              - checkbox "G.935 Geneva 935" [ref=e254]
+              - generic [ref=e255]:
+                - text: G.935
+                - generic [ref=e256]: Geneva 935
+            - generic [ref=e258]:
+              - checkbox "G.969 Geneva 969" [ref=e259]
+              - generic [ref=e260]:
+                - text: G.969
+                - generic [ref=e261]: Geneva 969
+            - generic [ref=e263]:
+              - checkbox "M.2 Malling 2" [ref=e264]
+              - generic [ref=e265]:
+                - text: M.2
+                - generic [ref=e266]: Malling 2
+            - generic [ref=e268]:
+              - checkbox "M.26 Malling 26" [ref=e269]
+              - generic [ref=e270]:
+                - text: M.26
+                - generic [ref=e271]: Malling 26
+            - generic [ref=e273]:
+              - checkbox "M.27 Malling 27" [ref=e274]
+              - generic [ref=e275]:
+                - text: M.27
+                - generic [ref=e276]: Malling 27
+            - generic [ref=e278]:
+              - checkbox "M.4 Malling 4" [ref=e279]
+              - generic [ref=e280]:
+                - text: M.4
+                - generic [ref=e281]: Malling 4
+            - generic [ref=e283]:
+              - checkbox "M.7 Malling 7" [ref=e284]
+              - generic [ref=e285]:
+                - text: M.7
+                - generic [ref=e286]: Malling 7
+            - generic [ref=e288]:
+              - checkbox "M.9 Malling 9" [ref=e289]
+              - generic [ref=e290]:
+                - text: M.9
+                - generic [ref=e291]: Malling 9
+            - generic [ref=e293]:
+              - checkbox "MM-104 Malling-Merton 104" [ref=e294]
+              - generic [ref=e295]:
+                - text: MM-104
+                - generic [ref=e296]: Malling-Merton 104
+            - generic [ref=e298]:
+              - checkbox "MM-106 Malling-Merton 106" [ref=e299]
+              - generic [ref=e300]:
+                - text: MM-106
+                - generic [ref=e301]: Malling-Merton 106
+            - generic [ref=e303]:
+              - checkbox "MM-109 Malling-Merton 109" [ref=e304]
+              - generic [ref=e305]:
+                - text: MM-109
+                - generic [ref=e306]: Malling-Merton 109
+            - generic [ref=e308]:
+              - checkbox "MM-111 Malling-Merton 111" [ref=e309]
+              - generic [ref=e310]:
+                - text: MM-111
+                - generic [ref=e311]: Malling-Merton 111
+            - generic [ref=e313]:
+              - checkbox "Ottawa 3 Ottawa 3 (O.3)" [ref=e314]
+              - generic [ref=e315]:
+                - text: Ottawa 3
+                - generic [ref=e316]: Ottawa 3 (O.3)
+            - generic [ref=e318]:
+              - checkbox "Pajam 2 Pajam 2 (Lancep)" [ref=e319]
+              - generic [ref=e320]:
+                - text: Pajam 2
+                - generic [ref=e321]: Pajam 2 (Lancep)
+            - generic [ref=e323]:
+              - checkbox "Seedling Apple Seedling (Real)" [ref=e324]
+              - generic [ref=e325]:
+                - text: Seedling
+                - generic [ref=e326]: Apple Seedling (Real)
+          - heading "Disease Resistance" [level=6] [ref=e327]: Disease Resistance
+          - table [ref=e331]:
+            - rowgroup [ref=e332]:
+              - row "Alternaria Leaf Spot Select resistance" [ref=e333]:
+                - cell "Alternaria Leaf Spot" [ref=e334]:
+                  - generic [ref=e335]:
+                    - checkbox "Alternaria Leaf Spot" [ref=e336]
+                    - generic [ref=e337]: Alternaria Leaf Spot
+                - cell "Select resistance" [ref=e338]:
+                  - combobox [disabled] [ref=e339]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Apple Blossom Thrips Select resistance" [ref=e340]:
+                - cell "Apple Blossom Thrips" [ref=e341]:
+                  - generic [ref=e342]:
+                    - checkbox "Apple Blossom Thrips" [ref=e343]
+                    - generic [ref=e344]: Apple Blossom Thrips
+                - cell "Select resistance" [ref=e345]:
+                  - combobox [disabled] [ref=e346]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Apple Clearwing Borer Select resistance" [ref=e347]:
+                - cell "Apple Clearwing Borer" [ref=e348]:
+                  - generic [ref=e349]:
+                    - checkbox "Apple Clearwing Borer" [ref=e350]
+                    - generic [ref=e351]: Apple Clearwing Borer
+                - cell "Select resistance" [ref=e352]:
+                  - combobox [disabled] [ref=e353]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Apple Fruit Moth Select resistance" [ref=e354]:
+                - cell "Apple Fruit Moth" [ref=e355]:
+                  - generic [ref=e356]:
+                    - checkbox "Apple Fruit Moth" [ref=e357]
+                    - generic [ref=e358]: Apple Fruit Moth
+                - cell "Select resistance" [ref=e359]:
+                  - combobox [disabled] [ref=e360]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Apple Leaf Miner Select resistance" [ref=e361]:
+                - cell "Apple Leaf Miner" [ref=e362]:
+                  - generic [ref=e363]:
+                    - checkbox "Apple Leaf Miner" [ref=e364]
+                    - generic [ref=e365]: Apple Leaf Miner
+                - cell "Select resistance" [ref=e366]:
+                  - combobox [disabled] [ref=e367]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Apple Root Borer Select resistance" [ref=e368]:
+                - cell "Apple Root Borer" [ref=e369]:
+                  - generic [ref=e370]:
+                    - checkbox "Apple Root Borer" [ref=e371]
+                    - generic [ref=e372]: Apple Root Borer
+                - cell "Select resistance" [ref=e373]:
+                  - combobox [disabled] [ref=e374]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Apple Scab Select resistance" [ref=e375]:
+                - cell "Apple Scab" [ref=e376]:
+                  - generic [ref=e377]:
+                    - checkbox "Apple Scab" [ref=e378]
+                    - generic [ref=e379]: Apple Scab
+                - cell "Select resistance" [ref=e380]:
+                  - combobox [disabled] [ref=e381]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Bitter Pit Select resistance" [ref=e382]:
+                - cell "Bitter Pit" [ref=e383]:
+                  - generic [ref=e384]:
+                    - checkbox "Bitter Pit" [ref=e385]
+                    - generic [ref=e386]: Bitter Pit
+                - cell "Select resistance" [ref=e387]:
+                  - combobox [disabled] [ref=e388]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Bitter Rot Select resistance" [ref=e389]:
+                - cell "Bitter Rot" [ref=e390]:
+                  - generic [ref=e391]:
+                    - checkbox "Bitter Rot" [ref=e392]
+                    - generic [ref=e393]: Bitter Rot
+                - cell "Select resistance" [ref=e394]:
+                  - combobox [disabled] [ref=e395]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Black Rot Select resistance" [ref=e396]:
+                - cell "Black Rot" [ref=e397]:
+                  - generic [ref=e398]:
+                    - checkbox "Black Rot" [ref=e399]
+                    - generic [ref=e400]: Black Rot
+                - cell "Select resistance" [ref=e401]:
+                  - combobox [disabled] [ref=e402]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Brown Mite Select resistance" [ref=e403]:
+                - cell "Brown Mite" [ref=e404]:
+                  - generic [ref=e405]:
+                    - checkbox "Brown Mite" [ref=e406]
+                    - generic [ref=e407]: Brown Mite
+                - cell "Select resistance" [ref=e408]:
+                  - combobox [disabled] [ref=e409]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Brown Rot Select resistance" [ref=e410]:
+                - cell "Brown Rot" [ref=e411]:
+                  - generic [ref=e412]:
+                    - checkbox "Brown Rot" [ref=e413]
+                    - generic [ref=e414]: Brown Rot
+                - cell "Select resistance" [ref=e415]:
+                  - combobox [disabled] [ref=e416]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Codling Moth Select resistance" [ref=e417]:
+                - cell "Codling Moth" [ref=e418]:
+                  - generic [ref=e419]:
+                    - checkbox "Codling Moth" [ref=e420]
+                    - generic [ref=e421]: Codling Moth
+                - cell "Select resistance" [ref=e422]:
+                  - combobox [disabled] [ref=e423]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Collar Rot Select resistance" [ref=e424]:
+                - cell "Collar Rot" [ref=e425]:
+                  - generic [ref=e426]:
+                    - checkbox "Collar Rot" [ref=e427]
+                    - generic [ref=e428]: Collar Rot
+                - cell "Select resistance" [ref=e429]:
+                  - combobox [disabled] [ref=e430]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Cork Spot Select resistance" [ref=e431]:
+                - cell "Cork Spot" [ref=e432]:
+                  - generic [ref=e433]:
+                    - checkbox "Cork Spot" [ref=e434]
+                    - generic [ref=e435]: Cork Spot
+                - cell "Select resistance" [ref=e436]:
+                  - combobox [disabled] [ref=e437]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Crown Gall Select resistance" [ref=e438]:
+                - cell "Crown Gall" [ref=e439]:
+                  - generic [ref=e440]:
+                    - checkbox "Crown Gall" [ref=e441]
+                    - generic [ref=e442]: Crown Gall
+                - cell "Select resistance" [ref=e443]:
+                  - combobox [disabled] [ref=e444]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "European Canker Select resistance" [ref=e445]:
+                - cell "European Canker" [ref=e446]:
+                  - generic [ref=e447]:
+                    - checkbox "European Canker" [ref=e448]
+                    - generic [ref=e449]: European Canker
+                - cell "Select resistance" [ref=e450]:
+                  - combobox [disabled] [ref=e451]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "European Red Mite Select resistance" [ref=e452]:
+                - cell "European Red Mite" [ref=e453]:
+                  - generic [ref=e454]:
+                    - checkbox "European Red Mite" [ref=e455]
+                    - generic [ref=e456]: European Red Mite
+                - cell "Select resistance" [ref=e457]:
+                  - combobox [disabled] [ref=e458]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Fire Blight Select resistance" [ref=e459]:
+                - cell "Fire Blight" [ref=e460]:
+                  - generic [ref=e461]:
+                    - checkbox "Fire Blight" [ref=e462]
+                    - generic [ref=e463]: Fire Blight
+                - cell "Select resistance" [ref=e464]:
+                  - combobox [disabled] [ref=e465]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Fruit Borer Select resistance" [ref=e466]:
+                - cell "Fruit Borer" [ref=e467]:
+                  - generic [ref=e468]:
+                    - checkbox "Fruit Borer" [ref=e469]
+                    - generic [ref=e470]: Fruit Borer
+                - cell "Select resistance" [ref=e471]:
+                  - combobox [disabled] [ref=e472]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Fruit Cracking Select resistance" [ref=e473]:
+                - cell "Fruit Cracking" [ref=e474]:
+                  - generic [ref=e475]:
+                    - checkbox "Fruit Cracking" [ref=e476]
+                    - generic [ref=e477]: Fruit Cracking
+                - cell "Select resistance" [ref=e478]:
+                  - combobox [disabled] [ref=e479]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Green Apple Aphid Select resistance" [ref=e480]:
+                - cell "Green Apple Aphid" [ref=e481]:
+                  - generic [ref=e482]:
+                    - checkbox "Green Apple Aphid" [ref=e483]
+                    - generic [ref=e484]: Green Apple Aphid
+                - cell "Select resistance" [ref=e485]:
+                  - combobox [disabled] [ref=e486]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Gypsy Moth Select resistance" [ref=e487]:
+                - cell "Gypsy Moth" [ref=e488]:
+                  - generic [ref=e489]:
+                    - checkbox "Gypsy Moth" [ref=e490]
+                    - generic [ref=e491]: Gypsy Moth
+                - cell "Select resistance" [ref=e492]:
+                  - combobox [disabled] [ref=e493]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Internal Browning Select resistance" [ref=e494]:
+                - cell "Internal Browning" [ref=e495]:
+                  - generic [ref=e496]:
+                    - checkbox "Internal Browning" [ref=e497]
+                    - generic [ref=e498]: Internal Browning
+                - cell "Select resistance" [ref=e499]:
+                  - combobox [disabled] [ref=e500]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Leaf Roller Select resistance" [ref=e501]:
+                - cell "Leaf Roller" [ref=e502]:
+                  - generic [ref=e503]:
+                    - checkbox "Leaf Roller" [ref=e504]
+                    - generic [ref=e505]: Leaf Roller
+                - cell "Select resistance" [ref=e506]:
+                  - combobox [disabled] [ref=e507]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Lenticel Breakdown Select resistance" [ref=e508]:
+                - cell "Lenticel Breakdown" [ref=e509]:
+                  - generic [ref=e510]:
+                    - checkbox "Lenticel Breakdown" [ref=e511]
+                    - generic [ref=e512]: Lenticel Breakdown
+                - cell "Select resistance" [ref=e513]:
+                  - combobox [disabled] [ref=e514]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Marssonina Leaf Blotch Select resistance" [ref=e515]:
+                - cell "Marssonina Leaf Blotch" [ref=e516]:
+                  - generic [ref=e517]:
+                    - checkbox "Marssonina Leaf Blotch" [ref=e518]
+                    - generic [ref=e519]: Marssonina Leaf Blotch
+                - cell "Select resistance" [ref=e520]:
+                  - combobox [disabled] [ref=e521]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Powdery Mildew Select resistance" [ref=e522]:
+                - cell "Powdery Mildew" [ref=e523]:
+                  - generic [ref=e524]:
+                    - checkbox "Powdery Mildew" [ref=e525]
+                    - generic [ref=e526]: Powdery Mildew
+                - cell "Select resistance" [ref=e527]:
+                  - combobox [disabled] [ref=e528]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Rosy Apple Aphid Select resistance" [ref=e529]:
+                - cell "Rosy Apple Aphid" [ref=e530]:
+                  - generic [ref=e531]:
+                    - checkbox "Rosy Apple Aphid" [ref=e532]
+                    - generic [ref=e533]: Rosy Apple Aphid
+                - cell "Select resistance" [ref=e534]:
+                  - combobox [disabled] [ref=e535]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Rust Mite Select resistance" [ref=e536]:
+                - cell "Rust Mite" [ref=e537]:
+                  - generic [ref=e538]:
+                    - checkbox "Rust Mite" [ref=e539]
+                    - generic [ref=e540]: Rust Mite
+                - cell "Select resistance" [ref=e541]:
+                  - combobox [disabled] [ref=e542]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "San Jose Scale Select resistance" [ref=e543]:
+                - cell "San Jose Scale" [ref=e544]:
+                  - generic [ref=e545]:
+                    - checkbox "San Jose Scale" [ref=e546]
+                    - generic [ref=e547]: San Jose Scale
+                - cell "Select resistance" [ref=e548]:
+                  - combobox [disabled] [ref=e549]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Shot Hole Borer Select resistance" [ref=e550]:
+                - cell "Shot Hole Borer" [ref=e551]:
+                  - generic [ref=e552]:
+                    - checkbox "Shot Hole Borer" [ref=e553]
+                    - generic [ref=e554]: Shot Hole Borer
+                - cell "Select resistance" [ref=e555]:
+                  - combobox [disabled] [ref=e556]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Stem Borer Select resistance" [ref=e557]:
+                - cell "Stem Borer" [ref=e558]:
+                  - generic [ref=e559]:
+                    - checkbox "Stem Borer" [ref=e560]
+                    - generic [ref=e561]: Stem Borer
+                - cell "Select resistance" [ref=e562]:
+                  - combobox [disabled] [ref=e563]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Sunburn Select resistance" [ref=e564]:
+                - cell "Sunburn" [ref=e565]:
+                  - generic [ref=e566]:
+                    - checkbox "Sunburn" [ref=e567]
+                    - generic [ref=e568]: Sunburn
+                - cell "Select resistance" [ref=e569]:
+                  - combobox [disabled] [ref=e570]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Superficial Scald Select resistance" [ref=e571]:
+                - cell "Superficial Scald" [ref=e572]:
+                  - generic [ref=e573]:
+                    - checkbox "Superficial Scald" [ref=e574]
+                    - generic [ref=e575]: Superficial Scald
+                - cell "Select resistance" [ref=e576]:
+                  - combobox [disabled] [ref=e577]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Tent Caterpillar Select resistance" [ref=e578]:
+                - cell "Tent Caterpillar" [ref=e579]:
+                  - generic [ref=e580]:
+                    - checkbox "Tent Caterpillar" [ref=e581]
+                    - generic [ref=e582]: Tent Caterpillar
+                - cell "Select resistance" [ref=e583]:
+                  - combobox [disabled] [ref=e584]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Thrips Select resistance" [ref=e585]:
+                - cell "Thrips" [ref=e586]:
+                  - generic [ref=e587]:
+                    - checkbox "Thrips" [ref=e588]
+                    - generic [ref=e589]: Thrips
+                - cell "Select resistance" [ref=e590]:
+                  - combobox [disabled] [ref=e591]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Two-Spotted Spider Mite Select resistance" [ref=e592]:
+                - cell "Two-Spotted Spider Mite" [ref=e593]:
+                  - generic [ref=e594]:
+                    - checkbox "Two-Spotted Spider Mite" [ref=e595]
+                    - generic [ref=e596]: Two-Spotted Spider Mite
+                - cell "Select resistance" [ref=e597]:
+                  - combobox [disabled] [ref=e598]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Watercore Select resistance" [ref=e599]:
+                - cell "Watercore" [ref=e600]:
+                  - generic [ref=e601]:
+                    - checkbox "Watercore" [ref=e602]
+                    - generic [ref=e603]: Watercore
+                - cell "Select resistance" [ref=e604]:
+                  - combobox [disabled] [ref=e605]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "White Root Rot Select resistance" [ref=e606]:
+                - cell "White Root Rot" [ref=e607]:
+                  - generic [ref=e608]:
+                    - checkbox "White Root Rot" [ref=e609]
+                    - generic [ref=e610]: White Root Rot
+                - cell "Select resistance" [ref=e611]:
+                  - combobox [disabled] [ref=e612]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "White Rot Select resistance" [ref=e613]:
+                - cell "White Rot" [ref=e614]:
+                  - generic [ref=e615]:
+                    - checkbox "White Rot" [ref=e616]
+                    - generic [ref=e617]: White Rot
+                - cell "Select resistance" [ref=e618]:
+                  - combobox [disabled] [ref=e619]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+              - row "Woolly Apple Aphid Select resistance" [ref=e620]:
+                - cell "Woolly Apple Aphid" [ref=e621]:
+                  - generic [ref=e622]:
+                    - checkbox "Woolly Apple Aphid" [ref=e623]
+                    - generic [ref=e624]: Woolly Apple Aphid
+                - cell "Select resistance" [ref=e625]:
+                  - combobox [disabled] [ref=e626]:
+                    - option "Select resistance" [selected]
+                    - option "Immune"
+                    - option "Resistant"
+                    - option "Moderately Resistant"
+                    - option "Susceptible"
+                    - option "Highly Susceptible"
+          - heading " Images" [level=6] [ref=e627]:
+            - generic [ref=e628]: 
+            - text: Images
+          - generic [ref=e629]:
+            - generic [ref=e631]:
+              - generic [ref=e632]: Featured Image
+              - generic [ref=e633]:
+                - generic [ref=e634]:
+                  - img "Featured Image" [ref=e635]
+                  - generic [ref=e636]:
+                    - button " Upload Image" [ref=e637] [cursor=pointer]:
+                      - generic [ref=e638]: 
+                      - text: Upload Image
+                    - generic [ref=e639]:
+                      - generic [ref=e640]: 
+                      - text: Click or drag image here
+                  - text: 
+                - text: 
+              - generic [ref=e641]:
+                - generic [ref=e642]: 
+                - text: Max 2MB. JPG, PNG, WebP. Upload new image to replace existing.
+            - generic [ref=e644]:
+              - generic [ref=e645]: Gallery Images
+              - generic [ref=e646]:
+                - generic [ref=e647]:
+                  - generic [ref=e648]: 
+                  - heading "Click or drag images here" [level=6] [ref=e649]
+                  - generic [ref=e650]:
+                    - generic [ref=e651]: 
+                    - text: Multiple files allowed (Max 10 images)
+                  - button " Browse Files" [ref=e652] [cursor=pointer]:
+                    - generic [ref=e653]: 
+                    - text: Browse Files
+                - text: 
+              - generic [ref=e654]:
+                - generic [ref=e655]: 
+                - text: Max 2MB per file. Up to 10 images.
+              - generic [ref=e656]:
+                - generic [ref=e657]:
+                  - generic [ref=e658]: 
+                  - text: 0 / 10 images
+                - generic [ref=e659]: 10 remaining
+          - heading " Description" [level=6] [ref=e660]:
+            - generic [ref=e661]: 
+            - text: Description
+          - generic [ref=e662]:
+            - generic [ref=e663]:
+              - generic [ref=e664]: Description (English)
+              - textbox [ref=e665]: Modern compact red variety selected for high-density orchards and export quality.
+            - generic [ref=e666]:
+              - generic [ref=e667]: Description (Hindi)
+              - textbox [ref=e668]: उच्च-घनत्व बागानों और निर्यात गुणवत्ता के लिए चुनी गई आधुनिक कॉम्पैक्ट लाल किस्म।
+          - generic [ref=e670]:
+            - generic [ref=e671]: Growing Tips
+            - textbox [ref=e672]
+          - heading " Status & Settings" [level=6] [ref=e673]:
+            - generic [ref=e674]: 
+            - text: Status & Settings
+          - generic [ref=e675]:
+            - generic [ref=e677]:
+              - checkbox "Published" [checked] [ref=e678]
+              - generic [ref=e679]: Published
+            - generic [ref=e681]:
+              - checkbox "Featured" [active] [ref=e682]
+              - generic [ref=e683]: Featured
+          - generic [ref=e684]:
+            - heading " Associated Products" [level=5] [ref=e686]:
+              - generic [ref=e687]: 
+              - text: Associated Products
+            - generic [ref=e688]:
+              - paragraph [ref=e689]: Search and select products to associate with this item.
+              - generic [ref=e691]:
+                - generic [ref=e693]: 
+                - textbox "Search products by name..." [ref=e694]
+              - generic [ref=e695]:
+                - generic [ref=e696]:
+                  - checkbox "Heavy Duty Loppers (हेवी ड्यूटी लॉपर)" [ref=e697]
+                  - generic [ref=e698]: Heavy Duty Loppers (हेवी ड्यूटी लॉपर)
+                - generic [ref=e699]:
+                  - checkbox "Hori Hori Garden Knife (होरी होरी बगीचे का चाकू)" [ref=e700]
+                  - generic [ref=e701]: Hori Hori Garden Knife (होरी होरी बगीचे का चाकू)
+                - generic [ref=e702]:
+                  - checkbox "Professional Pruning Shears (पेशेवर छंटाई कैंची)" [ref=e703]
+                  - generic [ref=e704]: Professional Pruning Shears (पेशेवर छंटाई कैंची)
+              - generic [ref=e705]:
+                - generic [ref=e706]: 0 product(s) selected
+                - button "Clear all" [ref=e707] [cursor=pointer]
+          - generic [ref=e708]:
+            - button " Update Variety" [ref=e709] [cursor=pointer]:
+              - generic [ref=e710]: 
+              - text: Update Variety
+            - link " View" [ref=e711] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/admin/varieties/30
+              - generic [ref=e712]: 
+              - text: View
+            - link "Cancel" [ref=e713] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/admin/varieties
+    - contentinfo [ref=e714]:
+      - generic [ref=e715]: © 2026 Baagvaani. All rights reserved.
+      - generic [ref=e716]:
+        - text: Powered by
+        - strong [ref=e717]: Laravel 12.58.0
+        - text: "& Bootstrap 5"

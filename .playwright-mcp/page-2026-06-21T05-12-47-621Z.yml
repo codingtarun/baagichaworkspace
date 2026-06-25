@@ -1,0 +1,218 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - generic [ref=e8]: Baagvaani
+      - button "Toggle menu" [ref=e10]:
+        - img [ref=e11]
+  - main [ref=e13]:
+    - article [ref=e14]:
+      - region "Lorem test" [ref=e15]:
+        - generic [ref=e19]:
+          - link "Fruits" [ref=e21] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/fruits
+            - img [ref=e22]
+            - text: Fruits
+          - paragraph [ref=e24]: इप्सम test
+          - heading "Lorem test" [level=1] [ref=e25]
+          - paragraph [ref=e26]:
+            - emphasis [ref=e27]: Ipsum in
+          - paragraph [ref=e28]: drg dgdfd fg test
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - region "About Lorem test" [ref=e32]:
+            - heading "About Lorem test" [level=2] [ref=e33]
+            - generic [ref=e34]:
+              - paragraph [ref=e35]: drg dgdfd fg test
+              - paragraph [ref=e36]: d fgdf gdf g test
+          - region "Gallery" [ref=e37]:
+            - heading "Gallery" [level=2] [ref=e38]
+            - generic [ref=e39]:
+              - generic:
+                - link "Lorem test":
+                  - /url: /storage/15/conversions/high-level-description-a-premium-agritec_4pugcNUbX1yRfqfX50-LSA_Kb5hFN6OT4CkmT6vOvGbHA-large.jpg
+                  - img "Lorem test"
+                - link "Lorem test":
+                  - /url: /storage/16/conversions/high-level-description-a-premium-agritec_r-Ew40jSU0KoeWLjkcABQg_Kb5hFN6OT4CkmT6vOvGbHA-large.jpg
+                  - img "Lorem test"
+                - link "Lorem test":
+                  - /url: /storage/17/conversions/high-level-description-a-premium-agritec_nnVOgxr5WNamMsgGeW_GJQ_Kb5hFN6OT4CkmT6vOvGbHA-large.jpg
+                  - img "Lorem test"
+                - link "Lorem test":
+                  - /url: /storage/18/conversions/high-level-description-a-premium-agritec_EMFOCROZURaAen8GwfBmmg_Kb5hFN6OT4CkmT6vOvGbHA_cover-large.jpg
+                  - img "Lorem test"
+                - link "Lorem test":
+                  - /url: /storage/19/conversions/high-level-description-a-premium-agritec_ZQrAViWAXrOdZoQfOTgkZA_vRYlcHWiQ7e3Oqmw_dTiaw-large.jpg
+                  - img "Lorem test"
+                - button "Previous image" [ref=e40]:
+                  - img [ref=e41]
+                - button "Next image" [ref=e43]:
+                  - img [ref=e44]
+              - generic [ref=e46]:
+                - button "Go to image 1"
+                - button "Go to image 2"
+                - button "Go to image 3"
+                - button "Go to image 4"
+                - button "Go to image 5"
+          - region "Lorem test Varieties" [ref=e47]:
+            - generic [ref=e48]:
+              - heading "Lorem test Varieties" [level=2] [ref=e49]
+              - generic [ref=e50]:
+                - generic [ref=e51]: 4 varieties
+                - generic [ref=e52]:
+                  - button "Scroll left" [ref=e53]:
+                    - img [ref=e54]
+                  - button "Scroll right" [ref=e56]:
+                    - img [ref=e57]
+            - generic [ref=e59]:
+              - link "Adams Spur Adams Spur एडम्स स्पर" [ref=e60] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/adams-spur
+                - img "Adams Spur" [ref=e62]
+                - generic [ref=e63]:
+                  - heading "Adams Spur" [level=3] [ref=e64]
+                  - paragraph [ref=e65]: एडम्स स्पर
+              - link "Anna Anna अन्ना" [ref=e66] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/anna
+                - img "Anna" [ref=e68]
+                - generic [ref=e69]:
+                  - heading "Anna" [level=3] [ref=e70]
+                  - paragraph [ref=e71]: अन्ना
+              - link "Brookfield Gala Brookfield Gala ब्रुकफील्ड गाला" [ref=e72] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/brookfield-gala
+                - img "Brookfield Gala" [ref=e74]
+                - generic [ref=e75]:
+                  - heading "Brookfield Gala" [level=3] [ref=e76]
+                  - paragraph [ref=e77]: ब्रुकफील्ड गाला
+              - link "Buckeye Gala Buckeye Gala बकआई गाला" [ref=e78] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/buckeye-gala
+                - img "Buckeye Gala" [ref=e80]
+                - generic [ref=e81]:
+                  - heading "Buckeye Gala" [level=3] [ref=e82]
+                  - paragraph [ref=e83]: बकआई गाला
+          - region "Common Diseases" [ref=e84]:
+            - heading "Common Diseases" [level=2] [ref=e85]
+            - generic [ref=e86]:
+              - generic [ref=e87]: 
+              - paragraph [ref=e88]: Available soon
+          - region "Recommended Rootstocks" [ref=e89]:
+            - heading "Recommended Rootstocks" [level=2] [ref=e90]
+            - generic [ref=e91]:
+              - generic [ref=e92]: 
+              - paragraph [ref=e93]: Available soon
+        - complementary [ref=e94]:
+          - generic [ref=e95]:
+            - heading "Quick Stats" [level=3] [ref=e96]
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - generic [ref=e99]:
+                  - generic [ref=e100]: 
+                  - text: Varieties
+                - generic [ref=e101]: "4"
+              - generic [ref=e102]:
+                - generic [ref=e103]:
+                  - generic [ref=e104]: 
+                  - text: Diseases
+                - generic [ref=e105]: "3"
+              - generic [ref=e106]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: 
+                  - text: Rootstocks
+                - generic [ref=e109]: "2"
+          - generic [ref=e110]:
+            - heading "Actions" [level=3] [ref=e111]
+            - generic [ref=e112]:
+              - button "Like" [ref=e113]:
+                - generic [ref=e114]: 
+                - generic [ref=e115]: Like
+              - button "Save" [ref=e116]:
+                - generic [ref=e117]: 
+                - generic [ref=e118]: Save
+            - button "Share" [ref=e119]:
+              - generic [ref=e120]: 
+              - text: Share
+          - generic [ref=e121]:
+            - heading "Explore Other Fruits" [level=3] [ref=e122]
+            - generic [ref=e123]:
+              - link "Pomegranate Pomegranate अनार" [ref=e124] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/pomegranate
+                - img "Pomegranate" [ref=e125]
+                - generic [ref=e126]:
+                  - paragraph [ref=e127]: Pomegranate
+                  - paragraph [ref=e128]: अनार
+              - link "Pear Pear नाशपाती" [ref=e129] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/pear
+                - img "Pear" [ref=e130]
+                - generic [ref=e131]:
+                  - paragraph [ref=e132]: Pear
+                  - paragraph [ref=e133]: नाशपाती
+              - link "Apricot Apricot खुबानी" [ref=e134] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/apricot
+                - img "Apricot" [ref=e135]
+                - generic [ref=e136]:
+                  - paragraph [ref=e137]: Apricot
+                  - paragraph [ref=e138]: खुबानी
+              - link "Peach Peach आड़ू" [ref=e139] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/peach
+                - img "Peach" [ref=e140]
+                - generic [ref=e141]:
+                  - paragraph [ref=e142]: Peach
+                  - paragraph [ref=e143]: आड़ू
+              - link "Persimmon Persimmon तेंदू फल" [ref=e144] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/persimmon
+                - img "Persimmon" [ref=e145]
+                - generic [ref=e146]:
+                  - paragraph [ref=e147]: Persimmon
+                  - paragraph [ref=e148]: तेंदू फल
+              - link "Plum Plum आलूबुखारा" [ref=e149] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/plum
+                - img "Plum" [ref=e150]
+                - generic [ref=e151]:
+                  - paragraph [ref=e152]: Plum
+                  - paragraph [ref=e153]: आलूबुखारा
+  - contentinfo [ref=e154]:
+    - generic [ref=e155]:
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - link "Baagvaani" [ref=e158] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e160]: Baagvaani
+          - paragraph [ref=e161]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e163]: Social channels coming soon
+        - generic [ref=e164]:
+          - heading "Quick Links" [level=3] [ref=e165]
+          - list [ref=e166]:
+            - listitem [ref=e167]:
+              - link "Home" [ref=e168] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e169]:
+              - link "Blog" [ref=e170] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e171]:
+              - link "About Us" [ref=e172] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e173]:
+          - heading "Topics" [level=3] [ref=e174]
+          - list [ref=e175]:
+            - listitem [ref=e176]:
+              - link "Spray & Disease" [ref=e177] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e178]:
+              - link "Orchard Care" [ref=e179] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e180]:
+              - link "Variety Guide" [ref=e181] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e182]:
+              - link "Weather & Climate" [ref=e183] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e184]:
+          - heading "Newsletter" [level=3] [ref=e185]
+          - paragraph [ref=e186]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e187]:
+            - textbox "Enter your email" [ref=e188]
+            - button "Subscribe" [ref=e189]
+          - paragraph [ref=e190]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e192]: © 2026 Baagvaani. All rights reserved.

@@ -1,0 +1,91 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000
+        - generic [ref=e8]: Baagvaani
+      - navigation "Main navigation" [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - link "Fruits & Varieties" [ref=e11] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/fruits
+        - link "Blog" [ref=e12] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/blog
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/about
+      - generic [ref=e15]:
+        - link "Login" [ref=e16] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/login
+        - link "Sign Up" [ref=e17] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/register
+  - main [ref=e18]:
+    - region "Welcome Back" [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - heading "Welcome Back" [level=1] [ref=e22]
+          - paragraph [ref=e23]: Sign in to your Baagvaani account
+        - generic [ref=e24]:
+          - generic [ref=e26]:
+            - generic [ref=e27]:
+              - generic [ref=e28]: Email
+              - textbox "Email" [active] [ref=e29]
+            - generic [ref=e30]:
+              - generic [ref=e31]: Password
+              - textbox "Password" [ref=e32]
+            - generic [ref=e33]:
+              - generic [ref=e34] [cursor=pointer]:
+                - checkbox "Remember me" [ref=e35]
+                - generic [ref=e36]: Remember me
+              - link "Forgot password?" [ref=e37] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/forgot-password
+            - button "Sign In" [ref=e38]
+          - paragraph [ref=e40]:
+            - text: Don't have an account?
+            - link "Sign up" [ref=e41] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/register
+  - contentinfo [ref=e42]:
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - link "Baagvaani" [ref=e46] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e48]: Baagvaani
+          - paragraph [ref=e49]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e51]: Social channels coming soon
+        - generic [ref=e52]:
+          - heading "Quick Links" [level=3] [ref=e53]
+          - list [ref=e54]:
+            - listitem [ref=e55]:
+              - link "Home" [ref=e56] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e57]:
+              - link "Blog" [ref=e58] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e59]:
+              - link "About Us" [ref=e60] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e61]:
+          - heading "Topics" [level=3] [ref=e62]
+          - list [ref=e63]:
+            - listitem [ref=e64]:
+              - link "Spray & Disease" [ref=e65] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e66]:
+              - link "Orchard Care" [ref=e67] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e68]:
+              - link "Variety Guide" [ref=e69] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e70]:
+              - link "Weather & Climate" [ref=e71] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e72]:
+          - heading "Newsletter" [level=3] [ref=e73]
+          - paragraph [ref=e74]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e75]:
+            - textbox "Enter your email" [ref=e76]
+            - button "Subscribe" [ref=e77]
+          - paragraph [ref=e78]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e80]: © 2026 Baagvaani. All rights reserved.

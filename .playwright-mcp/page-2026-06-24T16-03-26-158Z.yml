@@ -1,0 +1,144 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 17° in Kinnaur Valley, Clear sky · 93% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://192.168.1.100:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e15]:
+              - generic [ref=e16]: 17°
+              - generic [ref=e17]: Clear sky
+      - navigation "Main navigation" [ref=e18]:
+        - link "Home" [ref=e19] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - link "Fruits & Varieties" [ref=e20] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/fruits
+        - link "Disease Library" [ref=e21] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/disease
+        - link "Spray Schedule" [ref=e22] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/spray-schedule
+        - link "Shop" [ref=e23] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/shop
+        - link "Rootstock" [ref=e24] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/rootstock
+        - link "Blog" [ref=e25] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/blog
+        - link "About" [ref=e26] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/about
+      - generic [ref=e28]:
+        - link "Login" [ref=e29] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/login
+        - link "Sign Up" [ref=e30] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/register
+  - main [ref=e31]:
+    - region "Spray Schedule" [ref=e32]:
+      - generic [ref=e36]:
+        - paragraph [ref=e37]: छिड़काव कैलेंडर
+        - heading "Spray Schedule" [level=1] [ref=e38]
+        - paragraph [ref=e39]: Weekly spray tasks & weather-safe windows for Himalayan apple orchards.
+    - generic [ref=e44]:
+      - generic [ref=e46]:
+        - generic [ref=e47]: 
+        - text: Schedules for this fruit are not available yet.
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: 🍎
+            - generic [ref=e53]:
+              - heading "छिड़काव कैलेंडर" [level=2] [ref=e54]
+              - paragraph [ref=e55]: Apple Spray Schedule 2026
+          - generic [ref=e56]:
+            - generic [ref=e57]: 
+            - generic [ref=e58]: Kinnaur Valley · 8800ft
+        - generic [ref=e59]:
+          - generic [ref=e61]: 
+          - generic [ref=e62]:
+            - paragraph [ref=e63]: आज छिड़काव ठीक है
+            - paragraph [ref=e64]: Good conditions · Spray before noon · Clear conditions
+          - generic [ref=e65]: 22°C
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - button "100L" [ref=e68]
+          - button "200L" [ref=e69]
+          - button "300L" [ref=e70]
+          - button "500L" [ref=e71]
+        - generic [ref=e72]:
+          - combobox [ref=e73]:
+            - option "All pests" [selected]
+          - generic: 
+          - generic: 
+      - button " View full season calendar" [ref=e74]:
+        - generic [ref=e75]: 
+        - text: View full season calendar
+      - generic [ref=e76]:
+        - button " महत्वपूर्ण सुरक्षा नियम " [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: 
+            - generic [ref=e80]: महत्वपूर्ण सुरक्षा नियम
+          - generic [ref=e81]: 
+        - text:        
+      - generic [ref=e82]:
+        - button " पोषक तत्व गाइड Nutrient Timing Rules " [ref=e83]:
+          - generic [ref=e84]:
+            - generic [ref=e85]: 
+            - generic [ref=e86]: पोषक तत्व गाइड
+            - generic [ref=e87]: Nutrient Timing Rules
+          - generic [ref=e88]: 
+        - text: 
+      - paragraph [ref=e89]:
+        - generic [ref=e90]: 
+        - text: "Source:"
+    - text: 
+  - contentinfo [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - link "Baagvaani" [ref=e95] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e97]: Baagvaani
+          - paragraph [ref=e98]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e100]: Social channels coming soon
+        - generic [ref=e101]:
+          - heading "Quick Links" [level=3] [ref=e102]
+          - list [ref=e103]:
+            - listitem [ref=e104]:
+              - link "Home" [ref=e105] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e106]:
+              - link "Blog" [ref=e107] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e108]:
+              - link "About Us" [ref=e109] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e110]:
+          - heading "Topics" [level=3] [ref=e111]
+          - list [ref=e112]:
+            - listitem [ref=e113]:
+              - link "Spray & Disease" [ref=e114] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e115]:
+              - link "Orchard Care" [ref=e116] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e117]:
+              - link "Variety Guide" [ref=e118] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e119]:
+              - link "Weather & Climate" [ref=e120] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e121]:
+          - heading "Newsletter" [level=3] [ref=e122]
+          - paragraph [ref=e123]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e124]:
+            - textbox "Enter your email" [ref=e125]
+            - button "Subscribe" [ref=e126]
+          - paragraph [ref=e127]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e129]: © 2026 Baagvaani. All rights reserved.
+  - text:  

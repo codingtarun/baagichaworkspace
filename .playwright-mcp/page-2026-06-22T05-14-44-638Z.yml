@@ -1,0 +1,332 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7]
+      - generic [ref=e10]: Internal Server Error
+    - button "Copy as Markdown" [ref=e11] [cursor=pointer]:
+      - img [ref=e12]
+      - generic [ref=e15]: Copy as Markdown
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - heading "Illuminate\\Database\\QueryException" [level=1] [ref=e20]
+      - generic [ref=e22]: vendor/laravel/framework/src/Illuminate/Database/Connection.php:838
+      - paragraph [ref=e23]: "SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'market_price_tier' cannot be null (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: baagicha, SQL: update `varieties` set `market_price_tier` = ?, `varieties`.`updated_at` = 2026-06-22 10:44:43 where `id` = 30)"
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: LARAVEL
+          - generic [ref=e28]: 12.58.0
+        - generic [ref=e29]:
+          - generic [ref=e30]: PHP
+          - generic [ref=e31]: 8.5.4
+      - generic [ref=e32]:
+        - img [ref=e33]
+        - text: UNHANDLED
+      - generic [ref=e36]: CODE 23000
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - img [ref=e40]
+        - text: "500"
+      - generic [ref=e43]:
+        - img [ref=e44]
+        - text: PUT
+      - generic [ref=e47]: http://192.168.1.100:8000/admin/varieties/30
+      - button [ref=e48] [cursor=pointer]:
+        - img [ref=e49]
+  - generic [ref=e53]:
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - img [ref=e57]
+        - heading "Exception trace" [level=3] [ref=e60]
+      - generic [ref=e61]:
+        - generic [ref=e63] [cursor=pointer]:
+          - img [ref=e64]
+          - generic [ref=e68]: 9 vendor frames
+          - button [ref=e69]:
+            - img [ref=e70]
+        - generic [ref=e74]:
+          - generic [ref=e75] [cursor=pointer]:
+            - generic [ref=e78]:
+              - code [ref=e82]:
+                - generic [ref=e83]: Illuminate\Database\Eloquent\Model->update()
+              - generic [ref=e85]: Modules/Variety/app/Http/Controllers/Admin/VarietyController.php:229
+            - button [ref=e87]:
+              - img [ref=e88]
+          - code [ref=e96]:
+            - generic [ref=e97]: 224 $galleryImages = $request->file('gallery', []);
+            - generic [ref=e98]: 225 unset($data['featured_image'], $data['gallery']);
+            - generic [ref=e99]: "226"
+            - generic [ref=e100]: 227 $data['fruit_specific_attributes'] = $this->normalizeFruitSpecificAttributes($data['fruit_specific_attributes'] ?? null);
+            - generic [ref=e101]: "228"
+            - generic [ref=e102]: 229 $variety->update($data);
+            - generic [ref=e103]: "230"
+            - generic [ref=e104]: 231 $variety->recommendedRootstocks()->sync($this->mapRootstockSyncData($request->input('rootstock_ids', [])));
+            - generic [ref=e105]: 232 $variety->diseases()->sync($this->mapDiseaseSyncData($request->input('diseases', [])));
+            - generic [ref=e106]: "233"
+            - generic [ref=e107]: "234 if ($featuredImage) {"
+            - generic [ref=e108]: 235 $variety->clearMediaCollection('featured_image');
+            - generic [ref=e109]: 236 $variety->addMedia($featuredImage)
+            - generic [ref=e110]: 237 ->usingName($variety->name_en.' - Featured')
+            - generic [ref=e111]: 238 ->toMediaCollection('featured_image');
+            - generic [ref=e112]: "239 }"
+            - generic [ref=e113]: "240"
+            - generic [ref=e114]: "241"
+        - generic [ref=e116] [cursor=pointer]:
+          - img [ref=e117]
+          - generic [ref=e121]: 29 vendor frames
+          - button [ref=e122]:
+            - img [ref=e123]
+        - generic [ref=e128] [cursor=pointer]:
+          - generic [ref=e131]:
+            - code [ref=e135]:
+              - generic [ref=e136]: "Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():178}()"
+            - generic [ref=e138]: Modules/Core/app/Http/Middleware/SecurityHeaders.php:15
+          - button [ref=e140]:
+            - img [ref=e141]
+        - generic [ref=e146] [cursor=pointer]:
+          - img [ref=e147]
+          - generic [ref=e151]: 23 vendor frames
+          - button [ref=e152]:
+            - img [ref=e153]
+        - generic [ref=e158] [cursor=pointer]:
+          - generic [ref=e161]:
+            - code [ref=e165]:
+              - generic [ref=e166]: Illuminate\Foundation\Application->handleRequest()
+            - generic [ref=e168]: public/index.php:22
+          - button [ref=e170]:
+            - img [ref=e171]
+        - generic [ref=e176] [cursor=pointer]:
+          - img [ref=e177]
+          - generic [ref=e181]: 1 vendor frame
+          - button [ref=e182]:
+            - img [ref=e183]
+    - generic [ref=e187]:
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - img [ref=e191]
+          - heading "Queries" [level=3] [ref=e193]
+        - generic [ref=e195]: 1-7 of 7
+      - generic [ref=e196]:
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - img [ref=e200]
+              - generic [ref=e202]: mysql
+            - code [ref=e206]:
+              - generic [ref=e207]: "select * from `sessions` where `id` = 'MQlbPSTHYlLImh3MLboI0sYZSAViBcpi0sLuYAkK' limit 1"
+          - generic [ref=e208]: 1.91ms
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - img [ref=e212]
+              - generic [ref=e214]: mysql
+            - code [ref=e218]:
+              - generic [ref=e219]: "select * from `users` where `id` = 1 and `users`.`deleted_at` is null limit 1"
+          - generic [ref=e220]: 0.44ms
+        - generic [ref=e221]:
+          - generic [ref=e222]:
+            - generic [ref=e223]:
+              - img [ref=e224]
+              - generic [ref=e226]: mysql
+            - code [ref=e230]:
+              - generic [ref=e231]: "select * from `varieties` where `id` = '30' and `varieties`.`deleted_at` is null limit 1"
+          - generic [ref=e232]: 0.33ms
+        - generic [ref=e233]:
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - img [ref=e236]
+              - generic [ref=e238]: mysql
+            - code [ref=e242]:
+              - generic [ref=e243]: "select `roles`.*, `model_has_roles`.`model_id` as `pivot_model_id`, `model_has_roles`.`role_id` as `pivot_role_id`, `model_has_roles`.`model_type` as `pivot_model_type` from `roles` inner join `model_has_roles` on `roles`.`id` = `model_has_roles`.`role_id` where `model_has_roles`.`model_id` in (1) and `model_has_roles`.`model_type` = 'Modules\\Auth\\Models\\User'"
+          - generic [ref=e244]: 0.49ms
+        - generic [ref=e245]:
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - img [ref=e248]
+              - generic [ref=e250]: mysql
+            - code [ref=e254]:
+              - generic [ref=e255]: "select count(*) as aggregate from `varieties` where `name_en` = 'Mema Mestar' and `id` <> '30'"
+          - generic [ref=e256]: 0.28ms
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - generic [ref=e259]:
+              - img [ref=e260]
+              - generic [ref=e262]: mysql
+            - code [ref=e266]:
+              - generic [ref=e267]: "select count(*) as aggregate from `strains` where `id` = '4'"
+          - generic [ref=e268]: 0.16ms
+        - generic [ref=e269]:
+          - generic [ref=e270]:
+            - generic [ref=e271]:
+              - img [ref=e272]
+              - generic [ref=e274]: mysql
+            - code [ref=e278]:
+              - generic [ref=e279]: "select * from `cache` where `key` in ('baagvaani-cache-spatie.permission.cache')"
+          - generic [ref=e280]: 0.33ms
+  - generic [ref=e282]:
+    - generic [ref=e283]:
+      - heading "Headers" [level=2] [ref=e284]
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - generic [ref=e287]: host
+          - generic [ref=e289]: 192.168.1.100:8000
+        - generic [ref=e290]:
+          - generic [ref=e291]: connection
+          - generic [ref=e293]: keep-alive
+        - generic [ref=e294]:
+          - generic [ref=e295]: content-length
+          - generic [ref=e297]: "5343"
+        - generic [ref=e298]:
+          - generic [ref=e299]: cache-control
+          - generic [ref=e301]: max-age=0
+        - generic [ref=e302]:
+          - generic [ref=e303]: upgrade-insecure-requests
+          - generic [ref=e305]: "1"
+        - generic [ref=e306]:
+          - generic [ref=e307]: content-type
+          - generic [ref=e309]: multipart/form-data; boundary=----WebKitFormBoundaryePfoOmI1YdPsJCzL
+        - generic [ref=e310]:
+          - generic [ref=e311]: user-agent
+          - generic [ref=e313]: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36
+        - generic [ref=e314]:
+          - generic [ref=e315]: origin
+          - generic [ref=e317]: http://192.168.1.100:8000
+        - generic [ref=e318]:
+          - generic [ref=e319]: accept
+          - generic [ref=e321]: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+        - generic [ref=e322]:
+          - generic [ref=e323]: referer
+          - generic [ref=e325]: http://192.168.1.100:8000/admin/varieties/30/edit
+        - generic [ref=e326]:
+          - generic [ref=e327]: accept-encoding
+          - generic [ref=e329]: gzip, deflate
+        - generic [ref=e330]:
+          - generic [ref=e331]: accept-language
+          - generic [ref=e333]: en-US,en;q=0.9
+        - generic [ref=e334]:
+          - generic [ref=e335]: cookie
+          - generic [ref=e337]: _ga=GA1.1.844603367.1781413840; _ga_LFDEBYBMZS=GS2.1.s1781751264$o4$g1$t1781752029$j6$l0$h0; XSRF-TOKEN=eyJpdiI6ImFhUVlhUnhVVllIMDJFYjZ4RXIwRFE9PSIsInZhbHVlIjoiMUZmOVc5cFRER0Z2RmpWdlNERmI1OGRyd0QxWVZUekJzbDA2Q3Byc3B4Y1ZjZnRodEFvZCtXcndUbncyM3hFTm9MdVRwaVFqQ2ljVEV0YTVkQ3FkTmVCODJNSjhzTWd2TzdmY2M0MUd2VTd0aHpnQXVzVnlBZ0w4dUdqYjMwM3giLCJtYWMiOiI1NWViNmZmN2I1Njg1N2M2MDk0YjdlYThkYmI1OTU2ZDhiNDcyZjhkOTAxZGFlNTU5ZGNiMDUwZGIwYThiZDAxIiwidGFnIjoiIn0%3D; baagvaani-session=eyJpdiI6IldpdlZMcEpLc2NzN2lMSC8rOVc4U3c9PSIsInZhbHVlIjoiN3lZQ0M3NXMyZzRadFZmUUhSdnA2cUczM3JPWlZ1UGtJN2hiUkluZXJpeW9VWWFQdnhRc2ZxTk53V0FzWTRONmVHU3lMS2M1ZUxjZ2hqY0EyZEgvdk1sUERUMVN1TmxwYUpUR2sxS1FmZkltQkd1dXhBVDcyZzRVZnJWZGs3SmQiLCJtYWMiOiI4YzEwYTNjODQ4YzZlNTI3YjI3MmFiZDU1NjVhYmZlODJhNDkzNTA1MGJkMzA2NDkwMzE5ODAwNzY3MjJkYTYwIiwidGFnIjoiIn0%3D
+    - generic [ref=e338]:
+      - heading "Body" [level=2] [ref=e339]
+      - code [ref=e344]:
+        - generic [ref=e345]: "{"
+        - generic [ref=e346]: "\"_token\": \"PKyPyvhI08qOJ71z9Gd5ZOGHVqRnBpz527j8juAG\","
+        - generic [ref=e347]: "\"_method\": \"PUT\","
+        - generic [ref=e348]: "\"name_en\": \"Mema Mestar\","
+        - generic [ref=e349]: "\"name_hi\": \"मेमा मेस्टार\","
+        - generic [ref=e350]: "\"scientific_name\": null,"
+        - generic [ref=e351]: "\"strain_id\": \"4\","
+        - generic [ref=e352]: "\"season_type\": \"late\","
+        - generic [ref=e353]: "\"origin\": \"France\","
+        - generic [ref=e354]: "\"introduction_year\": null,"
+        - generic [ref=e355]: "\"altitude_min_feet\": \"5000\","
+        - generic [ref=e356]: "\"altitude_max_feet\": \"8500\","
+        - generic [ref=e357]: "\"altitude_ideal\": \"6000-8000 ft\","
+        - generic [ref=e358]: "\"chilling_hours_min\": \"900\","
+        - generic [ref=e359]: "\"temp_ideal_min_c\": \"10.0\","
+        - generic [ref=e360]: "\"temp_ideal_max_c\": \"22.0\","
+        - generic [ref=e361]: "\"rain_tolerance\": \"low\","
+        - generic [ref=e362]: "\"tree_vigor\": \"low\","
+        - generic [ref=e363]: "\"growth_habit\": \"compact\","
+        - generic [ref=e364]: "\"bearing_age_years\": \"3\","
+        - generic [ref=e365]: "\"pollinators\": \"Golden Delicious, Gala, Granny Smith\","
+        - generic [ref=e366]: "\"is_self_fertile\": \"0\","
+        - generic [ref=e367]: "\"fruit_size\": \"large\","
+        - generic [ref=e368]: "\"fruit_shape\": \"conical\","
+        - generic [ref=e369]: "\"skin_color\": \"Dark red\","
+        - generic [ref=e370]: "\"flesh_color\": \"cream\","
+        - generic [ref=e371]: "\"avg_fruit_weight_g\": \"180\","
+        - generic [ref=e372]: "\"taste_profile\": \"sweet, firm\","
+        - generic [ref=e373]: "\"days_to_maturity\": \"155\","
+        - generic [ref=e374]: "\"harvest_window\": \"Mid September - Mid October\","
+        - generic [ref=e375]: "\"storage_life\": \"excellent\","
+        - generic [ref=e376]: "\"storage_months\": \"10\","
+        - generic [ref=e377]: "\"yield_kg_per_tree\": \"75\","
+        - generic [ref=e378]: "\"yield_potential\": \"very_high\","
+        - generic [ref=e379]: "\"market_price_tier\": null,"
+        - generic [ref=e380]: "\"market_demand\": \"very_high\","
+        - generic [ref=e381]: "\"is_export_quality\": \"1\","
+        - generic [ref=e382]: "\"remove_featured_image\": \"0\","
+        - generic [ref=e383]: "\"description_en\": \"Modern compact red variety selected for high-density orchards and export quality.\","
+        - generic [ref=e384]: "\"description_hi\": \"उच्च-घनत्व बागानों और निर्यात गुणवत्ता के लिए चुनी गई आधुनिक कॉम्पैक्ट लाल किस्म।\","
+        - generic [ref=e385]: "\"growing_tips\": null,"
+        - generic [ref=e386]: "\"is_published\": \"1\","
+        - generic [ref=e387]: "\"is_featured\": \"0\""
+        - generic [ref=e388]: "}"
+    - generic [ref=e389]:
+      - heading "Routing" [level=2] [ref=e390]
+      - generic [ref=e391]:
+        - generic [ref=e392]:
+          - generic [ref=e393]: controller
+          - generic [ref=e395]: Modules\Variety\Http\Controllers\Admin\VarietyController@update
+        - generic [ref=e396]:
+          - generic [ref=e397]: route name
+          - generic [ref=e399]: admin.varieties.update
+        - generic [ref=e400]:
+          - generic [ref=e401]: middleware
+          - generic [ref=e403]: web, auth, role:admin|manager
+    - generic [ref=e404]:
+      - heading "Routing parameters" [level=2] [ref=e405]
+      - code [ref=e410]:
+        - generic [ref=e411]: "{"
+        - generic [ref=e412]: "\"variety\": {"
+        - generic [ref=e413]: "\"id\": 30,"
+        - generic [ref=e414]: "\"name_en\": \"Mema Mestar\","
+        - generic [ref=e415]: "\"name_hi\": \"मेमा मेस्टार\","
+        - generic [ref=e416]: "\"slug\": \"mema-mestar\","
+        - generic [ref=e417]: "\"strain_id\": \"4\","
+        - generic [ref=e418]: "\"fruit_specific_attributes\": null,"
+        - generic [ref=e419]: "\"scientific_name\": null,"
+        - generic [ref=e420]: "\"season_type\": \"late\","
+        - generic [ref=e421]: "\"origin\": \"France\","
+        - generic [ref=e422]: "\"introduction_year\": null,"
+        - generic [ref=e423]: "\"altitude_min_feet\": 5000,"
+        - generic [ref=e424]: "\"altitude_max_feet\": 8500,"
+        - generic [ref=e425]: "\"altitude_ideal\": \"6000-8000 ft\","
+        - generic [ref=e426]: "\"chilling_hours_min\": 900,"
+        - generic [ref=e427]: "\"temp_ideal_min_c\": \"10.0\","
+        - generic [ref=e428]: "\"temp_ideal_max_c\": \"22.0\","
+        - generic [ref=e429]: "\"rain_tolerance\": \"low\","
+        - generic [ref=e430]: "\"tree_vigor\": \"low\","
+        - generic [ref=e431]: "\"growth_habit\": \"compact\","
+        - generic [ref=e432]: "\"bearing_age_years\": 3,"
+        - generic [ref=e433]: "\"pollinators\": \"Golden Delicious, Gala, Granny Smith\","
+        - generic [ref=e434]: "\"is_self_fertile\": false,"
+        - generic [ref=e435]: "\"fruit_size\": \"large\","
+        - generic [ref=e436]: "\"fruit_shape\": \"conical\","
+        - generic [ref=e437]: "\"skin_color\": \"Dark red\","
+        - generic [ref=e438]: "\"flesh_color\": \"cream\","
+        - generic [ref=e439]: "\"avg_fruit_weight_g\": 180,"
+        - generic [ref=e440]: "\"taste_profile\": \"sweet, firm\","
+        - generic [ref=e441]: "\"days_to_maturity\": 155,"
+        - generic [ref=e442]: "\"harvest_window\": \"Mid September - Mid October\","
+        - generic [ref=e443]: "\"storage_life\": \"excellent\","
+        - generic [ref=e444]: "\"storage_months\": 10,"
+        - generic [ref=e445]: "\"yield_kg_per_tree\": 75,"
+        - generic [ref=e446]: "\"yield_potential\": \"very_high\","
+        - generic [ref=e447]: "\"market_price_tier\": null,"
+        - generic [ref=e448]: "\"market_demand\": \"very_high\","
+        - generic [ref=e449]: "\"is_export_quality\": true,"
+        - generic [ref=e450]: "\"view_count\": 1,"
+        - generic [ref=e451]: "\"description_en\": \"Modern compact red variety selected for high-density orchards and export quality.\","
+        - generic [ref=e452]: "\"description_hi\": \"उच्च-घनत्व बागानों और निर्यात गुणवत्ता के लिए चुनी गई आधुनिक कॉम्पैक्ट लाल किस्म।\","
+        - generic [ref=e453]: "\"growing_tips\": null,"
+        - generic [ref=e454]: "\"featured_image_path\": null,"
+        - generic [ref=e455]: "\"is_active\": true,"
+        - generic [ref=e456]: "\"is_published\": true,"
+        - generic [ref=e457]: "\"is_featured\": false,"
+        - generic [ref=e458]: "\"meta_title_en\": null,"
+        - generic [ref=e459]: "\"meta_desc_en\": null,"
+        - generic [ref=e460]: "\"meta_title_hi\": null,"
+        - generic [ref=e461]: "\"meta_desc_hi\": null,"
+        - generic [ref=e462]: "\"created_by\": null,"
+        - generic [ref=e463]: "\"reviewed_by\": null,"
+        - generic [ref=e464]: "\"reviewed_at\": null,"
+        - generic [ref=e465]: "\"created_at\": \"2026-06-22T04:02:41.000000Z\","
+        - generic [ref=e466]: "\"updated_at\": \"2026-06-22T05:14:43.000000Z\","
+        - generic [ref=e467]: "\"deleted_at\": null"
+        - generic [ref=e468]: "}"
+        - generic [ref=e469]: "}"
+  - generic [ref=e472]:
+    - img [ref=e474]
+    - img [ref=e3512]

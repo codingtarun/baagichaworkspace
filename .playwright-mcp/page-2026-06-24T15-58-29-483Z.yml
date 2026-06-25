@@ -1,0 +1,267 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 17° in Kinnaur Valley, Clear sky · 92% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://192.168.1.100:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e16]: 17°
+      - button "Toggle menu" [ref=e18]:
+        - img [ref=e19]
+  - main [ref=e21]:
+    - region "Spray Schedule" [ref=e22]:
+      - generic [ref=e26]:
+        - paragraph [ref=e27]: छिड़काव कैलेंडर
+        - heading "Spray Schedule" [level=1] [ref=e28]
+        - paragraph [ref=e29]: Weekly spray tasks & weather-safe windows for Himalayan apple orchards.
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - link "🍎 Apple सेब" [ref=e34] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/spray-schedule?fruit=apple&region=hp
+          - generic [ref=e35]: 🍎
+          - generic [ref=e36]:
+            - strong [ref=e37]: Apple
+            - generic [ref=e38]: सेब
+        - generic [ref=e39]:
+          - generic [ref=e40]: 🍐
+          - generic [ref=e41]:
+            - strong [ref=e42]: Pear
+            - generic [ref=e43]: जल्द आएगा
+          - generic [ref=e44]: Soon
+        - generic [ref=e45]:
+          - generic [ref=e46]: 🫐
+          - generic [ref=e47]:
+            - strong [ref=e48]: Plum
+            - generic [ref=e49]: जल्द आएगा
+          - generic [ref=e50]: Soon
+        - generic [ref=e51]:
+          - generic [ref=e52]: 🍑
+          - generic [ref=e53]:
+            - strong [ref=e54]: Apricot
+            - generic [ref=e55]: जल्द आएगा
+          - generic [ref=e56]: Soon
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - link " हिमाचल प्रदेश" [ref=e59] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/spray-schedule?fruit=apple&region=hp
+            - generic [ref=e60]: 
+            - generic [ref=e61]: हिमाचल प्रदेश
+          - generic [ref=e62]:
+            - generic [ref=e63]: 
+            - text: More regions coming soon
+          - generic [ref=e64]:
+            - generic [ref=e65]: 
+            - text: Regen Apple Fungicide & IPM Master Charts 2026
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - generic [ref=e70]: 🍎
+              - generic [ref=e71]:
+                - heading "छिड़काव कैलेंडर" [level=2] [ref=e72]
+                - paragraph [ref=e73]: Apple Spray Schedule 2026
+            - generic [ref=e74]:
+              - generic [ref=e75]: 
+              - generic [ref=e76]: Kinnaur Valley · 8800ft
+          - generic [ref=e77]:
+            - generic [ref=e79]: 
+            - generic [ref=e80]:
+              - paragraph [ref=e81]: आज छिड़काव ठीक है
+              - paragraph [ref=e82]: Good conditions · Spray before noon · Clear conditions
+            - generic [ref=e83]: 22°C
+          - generic [ref=e84]:
+            - generic [ref=e86]: 
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - generic [ref=e89]: Current Stage
+                - generic [ref=e90]: अभी
+              - heading "Summer" [level=3] [ref=e91]
+              - paragraph [ref=e92]: गर्मी
+              - generic [ref=e93]:
+                - generic [ref=e94]: 
+                - generic [ref=e95]: May – Jun
+          - button " Start today's spray" [ref=e96]:
+            - generic [ref=e97]: 
+            - text: Start today's spray
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - button "100L" [ref=e100]
+            - button "200L" [ref=e101]
+            - button "300L" [ref=e102]
+            - button "500L" [ref=e103]
+          - generic [ref=e104]:
+            - combobox [ref=e105]:
+              - option "All pests" [selected]
+              - option "Apple Scab"
+              - option "Alternaria Leaf Spot"
+              - option "Powdery Mildew"
+              - option "Mealybug"
+              - option "San Jose Scale"
+              - option "Codling Moth"
+            - generic: 
+            - generic: 
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - heading "This week's spray" [level=3] [ref=e108]
+            - generic [ref=e109]: 0 of 2 done
+          - generic [ref=e110]:
+            - generic [ref=e111]:
+              - button "Mark as applied" [ref=e112]:
+                - generic [ref=e113]: 
+              - generic [ref=e114]:
+                - paragraph [ref=e115]: Main fungicide
+                - paragraph [ref=e116]: For scab & powdery mildew
+                - generic [ref=e117]:
+                  - generic [ref=e118]: 
+                  - text: Best choice
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - generic [ref=e121]: Mancozeb
+                - generic [ref=e122]: 300 gm / 200L
+              - paragraph [ref=e123]:
+                - generic [ref=e124]: 
+                - text: "PHI: 45 days"
+              - paragraph [ref=e125]: Preventive · Minor residue effects
+              - generic [ref=e126]:
+                - button "Mark Applied" [ref=e127]
+                - button "View Details" [ref=e128]
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - button "Mark as applied" [ref=e131]:
+                - generic [ref=e132]: 
+              - generic [ref=e133]:
+                - paragraph [ref=e134]: Insecticide (if needed)
+                - paragraph [ref=e135]: Only if you see the target pest
+                - generic [ref=e136]:
+                  - generic [ref=e137]: 
+                  - text: Check orchard first
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - generic [ref=e140]: Spirotetramat
+                - generic [ref=e141]: 120 ml / 200L
+              - paragraph [ref=e142]:
+                - generic [ref=e143]: 
+                - text: "PHI: 7 days"
+              - paragraph [ref=e144]: Curative · Excellent mealybug and scale control
+              - generic [ref=e145]:
+                - button "Mark Applied" [ref=e146]
+                - button "View Details" [ref=e147]
+        - generic [ref=e148]:
+          - heading "Other options for this stage" [level=3] [ref=e149]
+          - generic [ref=e150]:
+            - button " Fungicides 34 alternatives " [ref=e151]:
+              - generic [ref=e152]:
+                - generic [ref=e154]: 
+                - generic [ref=e155]:
+                  - paragraph [ref=e156]: Fungicides
+                  - paragraph [ref=e157]: 34 alternatives
+              - generic [ref=e158]: 
+            - button " Insecticides 4 alternatives " [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e162]: 
+                - generic [ref=e163]:
+                  - paragraph [ref=e164]: Insecticides
+                  - paragraph [ref=e165]: 4 alternatives
+              - generic [ref=e166]: 
+        - generic [ref=e167]:
+          - heading "Protecting against" [level=3] [ref=e168]
+          - generic [ref=e169]:
+            - link "Apple Scab Medium" [ref=e170] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-scab
+              - paragraph [ref=e171]: Apple Scab
+              - paragraph [ref=e172]: Medium
+            - link "Alternaria Leaf Spot Medium" [ref=e173] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/alternaria-leaf-spot
+              - paragraph [ref=e174]: Alternaria Leaf Spot
+              - paragraph [ref=e175]: Medium
+            - link "Powdery Mildew Medium" [ref=e176] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/powdery-mildew
+              - paragraph [ref=e177]: Powdery Mildew
+              - paragraph [ref=e178]: Medium
+            - link "Mealybug Medium" [ref=e179] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/mealybug
+              - paragraph [ref=e180]: Mealybug
+              - paragraph [ref=e181]: Medium
+            - link "San Jose Scale Medium" [ref=e182] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/san-jose-scale
+              - paragraph [ref=e183]: San Jose Scale
+              - paragraph [ref=e184]: Medium
+            - link "Codling Moth High" [ref=e185] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/codling-moth
+              - paragraph [ref=e186]: Codling Moth
+              - paragraph [ref=e187]: High
+        - button " View full season calendar" [ref=e188]:
+          - generic [ref=e189]: 
+          - text: View full season calendar
+        - text:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+        - generic [ref=e190]:
+          - button " महत्वपूर्ण सुरक्षा नियम " [ref=e191]:
+            - generic [ref=e192]:
+              - generic [ref=e193]: 
+              - generic [ref=e194]: महत्वपूर्ण सुरक्षा नियम
+            - generic [ref=e195]: 
+          - text:        
+        - generic [ref=e196]:
+          - button " पोषक तत्व गाइड Nutrient Timing Rules " [ref=e197]:
+            - generic [ref=e198]:
+              - generic [ref=e199]: 
+              - generic [ref=e200]: पोषक तत्व गाइड
+              - generic [ref=e201]: Nutrient Timing Rules
+            - generic [ref=e202]: 
+          - text: 
+        - paragraph [ref=e203]:
+          - generic [ref=e204]: 
+          - text: "Source: Regen Apple Fungicide & IPM Master Charts 2026"
+    - text: 
+  - contentinfo [ref=e205]:
+    - generic [ref=e206]:
+      - generic [ref=e207]:
+        - generic [ref=e208]:
+          - link "Baagvaani" [ref=e209] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e211]: Baagvaani
+          - paragraph [ref=e212]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e214]: Social channels coming soon
+        - generic [ref=e215]:
+          - heading "Quick Links" [level=3] [ref=e216]
+          - list [ref=e217]:
+            - listitem [ref=e218]:
+              - link "Home" [ref=e219] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e220]:
+              - link "Blog" [ref=e221] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e222]:
+              - link "About Us" [ref=e223] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e224]:
+          - heading "Topics" [level=3] [ref=e225]
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - link "Spray & Disease" [ref=e228] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e229]:
+              - link "Orchard Care" [ref=e230] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e231]:
+              - link "Variety Guide" [ref=e232] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e233]:
+              - link "Weather & Climate" [ref=e234] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e235]:
+          - heading "Newsletter" [level=3] [ref=e236]
+          - paragraph [ref=e237]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e238]:
+            - textbox "Enter your email" [ref=e239]
+            - button "Subscribe" [ref=e240]
+          - paragraph [ref=e241]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e243]: © 2026 Baagvaani. All rights reserved.
+  - text:  

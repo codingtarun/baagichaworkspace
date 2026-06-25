@@ -1,0 +1,194 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000
+        - generic [ref=e8]: Baagvaani
+      - navigation "Main navigation" [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - link "Fruits & Varieties" [ref=e11] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/fruits
+        - link "Blog" [ref=e12] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/blog
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/about
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - link "Your Collection" [ref=e16] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/saved
+            - generic [ref=e17]: 
+          - generic [ref=e18]:
+            - button "T Tarun Chauhan" [ref=e19]:
+              - generic [ref=e20]: T
+              - generic [ref=e21]: Tarun Chauhan
+              - img [ref=e22]
+            - text: 
+        - text: 
+  - main [ref=e24]:
+    - region "Fruits for Himalayan Orchards" [ref=e25]:
+      - generic [ref=e29]:
+        - heading "Fruits for Himalayan Orchards" [level=1] [ref=e30]
+        - paragraph [ref=e31]: Explore fruits suited for the Himalayan apple belt — varieties, diseases, rootstocks, and orchard guidance.
+        - generic [ref=e32]:
+          - textbox "Search fruits..." [ref=e33]
+          - button "Search" [ref=e34] [cursor=pointer]
+    - generic [ref=e37]:
+      - link "All" [ref=e38] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/fruits
+      - link "Featured" [ref=e39] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/fruits?featured=1
+    - region "All Fruits" [ref=e40]:
+      - generic [ref=e41]:
+        - heading "All Fruits" [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - article [ref=e44]:
+            - link "Apple 47 Varieties Apple सेब 42 diseases · 20 rootstocks" [ref=e45] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/apple
+              - generic [ref=e46]:
+                - img "Apple" [ref=e47]
+                - generic [ref=e48]: 47 Varieties
+              - generic [ref=e49]:
+                - heading "Apple" [level=3] [ref=e50]
+                - paragraph [ref=e51]: सेब
+                - generic [ref=e52]:
+                  - generic [ref=e53]: 42 diseases
+                  - generic [ref=e54]: ·
+                  - generic [ref=e55]: 20 rootstocks
+          - article [ref=e56]:
+            - link "Apricot 0 Varieties Apricot खुबानी 0 diseases · 0 rootstocks" [ref=e57] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/apricot
+              - generic [ref=e58]:
+                - img "Apricot" [ref=e59]
+                - generic [ref=e60]: 0 Varieties
+              - generic [ref=e61]:
+                - heading "Apricot" [level=3] [ref=e62]
+                - paragraph [ref=e63]: खुबानी
+                - generic [ref=e64]:
+                  - generic [ref=e65]: 0 diseases
+                  - generic [ref=e66]: ·
+                  - generic [ref=e67]: 0 rootstocks
+          - article [ref=e68]:
+            - link "Cherry 0 Varieties Cherry चेरी 0 diseases · 0 rootstocks" [ref=e69] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/cherry
+              - generic [ref=e70]:
+                - img "Cherry" [ref=e71]
+                - generic [ref=e72]: 0 Varieties
+              - generic [ref=e73]:
+                - heading "Cherry" [level=3] [ref=e74]
+                - paragraph [ref=e75]: चेरी
+                - generic [ref=e76]:
+                  - generic [ref=e77]: 0 diseases
+                  - generic [ref=e78]: ·
+                  - generic [ref=e79]: 0 rootstocks
+          - article [ref=e80]:
+            - link "Peach 0 Varieties Peach आड़ू 0 diseases · 0 rootstocks" [ref=e81] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/peach
+              - generic [ref=e82]:
+                - img "Peach" [ref=e83]
+                - generic [ref=e84]: 0 Varieties
+              - generic [ref=e85]:
+                - heading "Peach" [level=3] [ref=e86]
+                - paragraph [ref=e87]: आड़ू
+                - generic [ref=e88]:
+                  - generic [ref=e89]: 0 diseases
+                  - generic [ref=e90]: ·
+                  - generic [ref=e91]: 0 rootstocks
+          - article [ref=e92]:
+            - link "Pear 0 Varieties Pear नाशपाती 0 diseases · 0 rootstocks" [ref=e93] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/pear
+              - generic [ref=e94]:
+                - img "Pear" [ref=e95]
+                - generic [ref=e96]: 0 Varieties
+              - generic [ref=e97]:
+                - heading "Pear" [level=3] [ref=e98]
+                - paragraph [ref=e99]: नाशपाती
+                - generic [ref=e100]:
+                  - generic [ref=e101]: 0 diseases
+                  - generic [ref=e102]: ·
+                  - generic [ref=e103]: 0 rootstocks
+          - article [ref=e104]:
+            - link "Persimmon 0 Varieties Persimmon तेंदू फल 0 diseases · 0 rootstocks" [ref=e105] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/persimmon
+              - generic [ref=e106]:
+                - img "Persimmon" [ref=e107]
+                - generic [ref=e108]: 0 Varieties
+              - generic [ref=e109]:
+                - heading "Persimmon" [level=3] [ref=e110]
+                - paragraph [ref=e111]: तेंदू फल
+                - generic [ref=e112]:
+                  - generic [ref=e113]: 0 diseases
+                  - generic [ref=e114]: ·
+                  - generic [ref=e115]: 0 rootstocks
+          - article [ref=e116]:
+            - link "Plum 0 Varieties Plum आलूबुखारा 0 diseases · 0 rootstocks" [ref=e117] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/plum
+              - generic [ref=e118]:
+                - img "Plum" [ref=e119]
+                - generic [ref=e120]: 0 Varieties
+              - generic [ref=e121]:
+                - heading "Plum" [level=3] [ref=e122]
+                - paragraph [ref=e123]: आलूबुखारा
+                - generic [ref=e124]:
+                  - generic [ref=e125]: 0 diseases
+                  - generic [ref=e126]: ·
+                  - generic [ref=e127]: 0 rootstocks
+          - article [ref=e128]:
+            - link "Pomegranate 0 Varieties Pomegranate अनार 0 diseases · 0 rootstocks" [ref=e129] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/fruits/pomegranate
+              - generic [ref=e130]:
+                - img "Pomegranate" [ref=e131]
+                - generic [ref=e132]: 0 Varieties
+              - generic [ref=e133]:
+                - heading "Pomegranate" [level=3] [ref=e134]
+                - paragraph [ref=e135]: अनार
+                - generic [ref=e136]:
+                  - generic [ref=e137]: 0 diseases
+                  - generic [ref=e138]: ·
+                  - generic [ref=e139]: 0 rootstocks
+  - contentinfo [ref=e140]:
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - link "Baagvaani" [ref=e144] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e146]: Baagvaani
+          - paragraph [ref=e147]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e149]: Social channels coming soon
+        - generic [ref=e150]:
+          - heading "Quick Links" [level=3] [ref=e151]
+          - list [ref=e152]:
+            - listitem [ref=e153]:
+              - link "Home" [ref=e154] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e155]:
+              - link "Blog" [ref=e156] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e157]:
+              - link "About Us" [ref=e158] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e159]:
+          - heading "Topics" [level=3] [ref=e160]
+          - list [ref=e161]:
+            - listitem [ref=e162]:
+              - link "Spray & Disease" [ref=e163] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e164]:
+              - link "Orchard Care" [ref=e165] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e166]:
+              - link "Variety Guide" [ref=e167] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e168]:
+              - link "Weather & Climate" [ref=e169] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e170]:
+          - heading "Newsletter" [level=3] [ref=e171]
+          - paragraph [ref=e172]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e173]:
+            - textbox "Enter your email" [ref=e174]
+            - button "Subscribe" [ref=e175]
+          - paragraph [ref=e176]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e178]: © 2026 Baagvaani. All rights reserved.

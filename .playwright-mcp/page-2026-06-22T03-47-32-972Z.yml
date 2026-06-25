@@ -1,0 +1,214 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Baagvaani Home" [ref=e6] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - generic [ref=e8]: Baagvaani
+      - navigation "Main navigation" [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - link "Fruits & Varieties" [ref=e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fruits
+        - link "Blog" [ref=e12] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/about
+      - generic [ref=e15]:
+        - link "Login" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+        - link "Sign Up" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/register
+  - main [ref=e18]:
+    - region "Grow Better Apples. With Expert Knowledge." [ref=e19]:
+      - img "Himachal apple farmer managing orchard with smartphone" [ref=e22]
+      - generic [ref=e25]:
+        - heading "Grow Better Apples. With Expert Knowledge." [level=1] [ref=e26]:
+          - text: Grow Better Apples.
+          - text: With Expert Knowledge.
+        - paragraph [ref=e27]: हिमाचल, उत्तराखंड और कश्मीर के सेब किसानों के लिए बेहतर बागवानी सामग्री और विशेषज्ञ ज्ञान।
+        - generic [ref=e28]:
+          - link "Read Blog" [ref=e29] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog
+            - text: Read Blog
+            - img [ref=e30]
+          - link "About Us" [ref=e32] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/about
+            - text: About Us
+            - img [ref=e33]
+    - region "Explore Fruits" [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - heading "Explore Fruits" [level=2] [ref=e40]
+            - paragraph [ref=e41]: Fruits suited for Himalayan orchards.
+          - link "All Fruits" [ref=e42] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/fruits
+            - text: All Fruits
+            - img [ref=e43]
+        - generic [ref=e45]:
+          - button "Scroll explore fruits left" [ref=e46]:
+            - img [ref=e47]
+          - generic [ref=e49]:
+            - article [ref=e51]:
+              - link "Apple 47 Varieties Apple सेब 42 diseases 20 rootstocks" [ref=e52] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/apple
+                - generic [ref=e53]:
+                  - img "Apple" [ref=e54]
+                  - generic [ref=e55]: 47 Varieties
+                - generic [ref=e56]:
+                  - heading "Apple" [level=3] [ref=e57]
+                  - paragraph [ref=e58]: सेब
+                  - generic [ref=e59]:
+                    - generic [ref=e60]: 42 diseases
+                    - generic [ref=e61]: 20 rootstocks
+            - article [ref=e63]:
+              - link "Apricot 0 Varieties Apricot खुबानी 0 diseases 0 rootstocks" [ref=e64] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/apricot
+                - generic [ref=e65]:
+                  - img "Apricot" [ref=e66]
+                  - generic [ref=e67]: 0 Varieties
+                - generic [ref=e68]:
+                  - heading "Apricot" [level=3] [ref=e69]
+                  - paragraph [ref=e70]: खुबानी
+                  - generic [ref=e71]:
+                    - generic [ref=e72]: 0 diseases
+                    - generic [ref=e73]: 0 rootstocks
+            - article [ref=e75]:
+              - link "Cherry 0 Varieties Cherry चेरी 0 diseases 0 rootstocks" [ref=e76] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/cherry
+                - generic [ref=e77]:
+                  - img "Cherry" [ref=e78]
+                  - generic [ref=e79]: 0 Varieties
+                - generic [ref=e80]:
+                  - heading "Cherry" [level=3] [ref=e81]
+                  - paragraph [ref=e82]: चेरी
+                  - generic [ref=e83]:
+                    - generic [ref=e84]: 0 diseases
+                    - generic [ref=e85]: 0 rootstocks
+            - article [ref=e87]:
+              - link "Peach 0 Varieties Peach आड़ू 0 diseases 0 rootstocks" [ref=e88] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/peach
+                - generic [ref=e89]:
+                  - img "Peach" [ref=e90]
+                  - generic [ref=e91]: 0 Varieties
+                - generic [ref=e92]:
+                  - heading "Peach" [level=3] [ref=e93]
+                  - paragraph [ref=e94]: आड़ू
+                  - generic [ref=e95]:
+                    - generic [ref=e96]: 0 diseases
+                    - generic [ref=e97]: 0 rootstocks
+            - article [ref=e99]:
+              - link "Pear 0 Varieties Pear नाशपाती 0 diseases 0 rootstocks" [ref=e100] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/pear
+                - generic [ref=e101]:
+                  - img "Pear" [ref=e102]
+                  - generic [ref=e103]: 0 Varieties
+                - generic [ref=e104]:
+                  - heading "Pear" [level=3] [ref=e105]
+                  - paragraph [ref=e106]: नाशपाती
+                  - generic [ref=e107]:
+                    - generic [ref=e108]: 0 diseases
+                    - generic [ref=e109]: 0 rootstocks
+            - article [ref=e111]:
+              - link "Persimmon 0 Varieties Persimmon तेंदू फल 0 diseases 0 rootstocks" [ref=e112] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/persimmon
+                - generic [ref=e113]:
+                  - img "Persimmon" [ref=e114]
+                  - generic [ref=e115]: 0 Varieties
+                - generic [ref=e116]:
+                  - heading "Persimmon" [level=3] [ref=e117]
+                  - paragraph [ref=e118]: तेंदू फल
+                  - generic [ref=e119]:
+                    - generic [ref=e120]: 0 diseases
+                    - generic [ref=e121]: 0 rootstocks
+            - article [ref=e123]:
+              - link "Plum 0 Varieties Plum आलूबुखारा 0 diseases 0 rootstocks" [ref=e124] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/plum
+                - generic [ref=e125]:
+                  - img "Plum" [ref=e126]
+                  - generic [ref=e127]: 0 Varieties
+                - generic [ref=e128]:
+                  - heading "Plum" [level=3] [ref=e129]
+                  - paragraph [ref=e130]: आलूबुखारा
+                  - generic [ref=e131]:
+                    - generic [ref=e132]: 0 diseases
+                    - generic [ref=e133]: 0 rootstocks
+            - article [ref=e135]:
+              - link "Pomegranate 0 Varieties Pomegranate अनार 0 diseases 0 rootstocks" [ref=e136] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/fruits/pomegranate
+                - generic [ref=e137]:
+                  - img "Pomegranate" [ref=e138]
+                  - generic [ref=e139]: 0 Varieties
+                - generic [ref=e140]:
+                  - heading "Pomegranate" [level=3] [ref=e141]
+                  - paragraph [ref=e142]: अनार
+                  - generic [ref=e143]:
+                    - generic [ref=e144]: 0 diseases
+                    - generic [ref=e145]: 0 rootstocks
+          - button "Scroll explore fruits right" [ref=e146]:
+            - img [ref=e147]
+    - region "Take Baagvaani Everywhere" [ref=e149]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - heading "Take Baagvaani Everywhere" [level=2] [ref=e153]
+          - paragraph [ref=e154]: Get spray schedules, weather alerts, and expert advice on the go. The Baagvaani app is built for farmers.
+          - paragraph [ref=e155]: बागीचा ऐप — हर किसान की ज़रूरत।
+          - generic [ref=e156]:
+            - generic "Coming soon" [ref=e157]:
+              - img [ref=e158]
+              - generic [ref=e160]:
+                - generic [ref=e161]: Download on the
+                - generic [ref=e162]: App Store
+            - generic "Coming soon" [ref=e163]:
+              - img [ref=e164]
+              - generic [ref=e166]:
+                - generic [ref=e167]: Get it on
+                - generic [ref=e168]: Google Play
+          - button "Join Waitlist" [ref=e171]
+        - img "Baagvaani mobile app interface preview" [ref=e175]
+  - contentinfo [ref=e176]:
+    - generic [ref=e177]:
+      - generic [ref=e178]:
+        - generic [ref=e179]:
+          - link "Baagvaani" [ref=e180] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e182]: Baagvaani
+          - paragraph [ref=e183]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e185]: Social channels coming soon
+        - generic [ref=e186]:
+          - heading "Quick Links" [level=3] [ref=e187]
+          - list [ref=e188]:
+            - listitem [ref=e189]:
+              - link "Home" [ref=e190] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e191]:
+              - link "Blog" [ref=e192] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e193]:
+              - link "About Us" [ref=e194] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e195]:
+          - heading "Topics" [level=3] [ref=e196]
+          - list [ref=e197]:
+            - listitem [ref=e198]:
+              - link "Spray & Disease" [ref=e199] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e200]:
+              - link "Orchard Care" [ref=e201] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e202]:
+              - link "Variety Guide" [ref=e203] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e204]:
+              - link "Weather & Climate" [ref=e205] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e206]:
+          - heading "Newsletter" [level=3] [ref=e207]
+          - paragraph [ref=e208]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e209]:
+            - textbox "Enter your email" [ref=e210]
+            - button "Subscribe" [ref=e211]
+          - paragraph [ref=e212]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e214]: © 2026 Baagvaani. All rights reserved.

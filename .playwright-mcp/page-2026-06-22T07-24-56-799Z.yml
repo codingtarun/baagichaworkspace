@@ -1,0 +1,290 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7]
+      - generic [ref=e10]: Internal Server Error
+    - button "Copy as Markdown" [ref=e11] [cursor=pointer]:
+      - img [ref=e12]
+      - generic [ref=e15]: Copy as Markdown
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - heading "Illuminate\\Database\\LazyLoadingViolationException" [level=1] [ref=e20]
+      - generic [ref=e22]: vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php:610
+      - paragraph [ref=e23]: Attempted to lazy load [varieties] on model [Modules\Fruit\Models\Fruit] but lazy loading is disabled.
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: LARAVEL
+          - generic [ref=e28]: 12.58.0
+        - generic [ref=e29]:
+          - generic [ref=e30]: PHP
+          - generic [ref=e31]: 8.5.4
+      - generic [ref=e32]:
+        - img [ref=e33]
+        - text: UNHANDLED
+      - generic [ref=e36]: CODE 0
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - img [ref=e40]
+        - text: "500"
+      - generic [ref=e43]:
+        - img [ref=e44]
+        - text: GET
+      - generic [ref=e47]: http://192.168.1.100:8000/fruits/apple
+      - button [ref=e48] [cursor=pointer]:
+        - img [ref=e49]
+  - generic [ref=e53]:
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - img [ref=e57]
+        - heading "Exception trace" [level=3] [ref=e60]
+      - generic [ref=e61]:
+        - generic [ref=e63] [cursor=pointer]:
+          - img [ref=e64]
+          - generic [ref=e68]: 4 vendor frames
+          - button [ref=e69]:
+            - img [ref=e70]
+        - generic [ref=e74]:
+          - generic [ref=e75] [cursor=pointer]:
+            - generic [ref=e78]:
+              - code [ref=e82]:
+                - generic [ref=e83]: Illuminate\Database\Eloquent\Model->__get()
+              - generic [ref=e85]: Modules/Core/resources/views/components/cards/fruit-card.blade.php:8
+            - button [ref=e87]:
+              - img [ref=e88]
+          - code [ref=e96]:
+            - generic [ref=e97]: 3 'route' => 'fruits.show',
+            - generic [ref=e98]: 4 'compact' => false,
+            - generic [ref=e99]: 5 'showCounts' => true,
+            - generic [ref=e100]: 6])
+            - generic [ref=e101]: "7"
+            - generic [ref=e102]: 8@php
+            - generic [ref=e103]: "9 $title = is_object($fruit) ? ($fruit->name_en ?? '') : ($fruit['name_en'] ?? '');"
+            - generic [ref=e104]: "10 $slug = is_object($fruit) ? ($fruit->slug ?? '') : ($fruit['slug'] ?? '');"
+            - generic [ref=e105]: "11 $nameHi = is_object($fruit) ? ($fruit->name_hi ?? '') : ($fruit['name_hi'] ?? '');"
+            - generic [ref=e106]: 12 $image = is_object($fruit) && method_exists($fruit, 'getFeaturedImageUrl')
+            - generic [ref=e107]: "13 ? $fruit->getFeaturedImageUrl($compact ? 'small' : 'medium')"
+            - generic [ref=e108]: "14 : placeholder_image_url($compact ? 'small' : 'medium');"
+            - generic [ref=e109]: 15 $varietyCount = is_object($fruit) && method_exists($fruit, 'varieties')
+            - generic [ref=e110]: 16 ? ($fruit->varieties_count ?? $fruit->varieties->count())
+            - generic [ref=e111]: "17 : 0;"
+            - generic [ref=e112]: 18 $diseaseCount = is_object($fruit) && method_exists($fruit, 'diseases')
+            - generic [ref=e113]: 19 ? ($fruit->diseases_count ?? $fruit->diseases->count())
+            - generic [ref=e114]: "20"
+        - generic [ref=e116] [cursor=pointer]:
+          - img [ref=e117]
+          - generic [ref=e121]: 8 vendor frames
+          - button [ref=e122]:
+            - img [ref=e123]
+        - generic [ref=e128] [cursor=pointer]:
+          - generic [ref=e131]:
+            - code [ref=e135]:
+              - generic [ref=e136]: Illuminate\View\Factory->renderComponent()
+            - generic [ref=e138]: Modules/Fruit/resources/views/app/fruit/show.blade.php:202
+          - button [ref=e140]:
+            - img [ref=e141]
+        - generic [ref=e146] [cursor=pointer]:
+          - img [ref=e147]
+          - generic [ref=e151]: 33 vendor frames
+          - button [ref=e152]:
+            - img [ref=e153]
+        - generic [ref=e158] [cursor=pointer]:
+          - generic [ref=e161]:
+            - code [ref=e165]:
+              - generic [ref=e166]: "Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():178}()"
+            - generic [ref=e168]: Modules/Core/app/Http/Middleware/SecurityHeaders.php:15
+          - button [ref=e170]:
+            - img [ref=e171]
+        - generic [ref=e176] [cursor=pointer]:
+          - img [ref=e177]
+          - generic [ref=e181]: 23 vendor frames
+          - button [ref=e182]:
+            - img [ref=e183]
+        - generic [ref=e188] [cursor=pointer]:
+          - generic [ref=e191]:
+            - code [ref=e195]:
+              - generic [ref=e196]: Illuminate\Foundation\Application->handleRequest()
+            - generic [ref=e198]: public/index.php:22
+          - button [ref=e200]:
+            - img [ref=e201]
+        - generic [ref=e206] [cursor=pointer]:
+          - img [ref=e207]
+          - generic [ref=e211]: 1 vendor frame
+          - button [ref=e212]:
+            - img [ref=e213]
+    - generic [ref=e217]:
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - img [ref=e221]
+          - heading "Queries" [level=3] [ref=e223]
+        - generic [ref=e225]: 1-10 of 63
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - generic [ref=e229]:
+              - img [ref=e230]
+              - generic [ref=e232]: mysql
+            - code [ref=e236]:
+              - generic [ref=e237]: "select * from `sessions` where `id` = 'MQlbPSTHYlLImh3MLboI0sYZSAViBcpi0sLuYAkK' limit 1"
+          - generic [ref=e238]: 0.91ms
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - img [ref=e242]
+              - generic [ref=e244]: mysql
+            - code [ref=e248]:
+              - generic [ref=e249]: "select * from `fruits` where `slug` = 'apple' and `fruits`.`deleted_at` is null limit 1"
+          - generic [ref=e250]: 0.37ms
+        - generic [ref=e251]:
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - img [ref=e254]
+              - generic [ref=e256]: mysql
+            - code [ref=e260]:
+              - generic [ref=e261]: "select * from `media` where `media`.`model_id` in (1) and `media`.`model_type` = 'Fruit'"
+          - generic [ref=e262]: 0.36ms
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - generic [ref=e265]:
+              - img [ref=e266]
+              - generic [ref=e268]: mysql
+            - code [ref=e272]:
+              - generic [ref=e273]: "select * from `strains` where `strains`.`fruit_id` in (1) and `is_active` = 1 and `is_published` = 1 and `strains`.`deleted_at` is null order by `sort_order` asc, `sort_order` asc"
+          - generic [ref=e274]: 0.35ms
+        - generic [ref=e275]:
+          - generic [ref=e276]:
+            - generic [ref=e277]:
+              - img [ref=e278]
+              - generic [ref=e280]: mysql
+            - code [ref=e284]:
+              - generic [ref=e285]: "select * from `varieties` where `varieties`.`strain_id` in (1, 2, 3, 4, 5, 6) and `varieties`.`is_active` = 1 and `varieties`.`is_published` = 1 and `varieties`.`deleted_at` is null order by `name_en` asc, `name_en` asc"
+          - generic [ref=e286]: 0.9ms
+        - generic [ref=e287]:
+          - generic [ref=e288]:
+            - generic [ref=e289]:
+              - img [ref=e290]
+              - generic [ref=e292]: mysql
+            - code [ref=e296]:
+              - generic [ref=e297]: "select `varieties`.*, `strains`.`fruit_id` as `laravel_through_key` from `varieties` inner join `strains` on `strains`.`id` = `varieties`.`strain_id` where `strains`.`fruit_id` in (1) and `varieties`.`is_active` = 1 and `varieties`.`is_published` = 1 and `varieties`.`deleted_at` is null and `strains`.`deleted_at` is null order by `strains`.`sort_order` asc, `varieties`.`name_en` asc, `name_en` asc"
+          - generic [ref=e298]: 1.53ms
+        - generic [ref=e299]:
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - img [ref=e302]
+              - generic [ref=e304]: mysql
+            - code [ref=e308]:
+              - generic [ref=e309]: "select `diseases`.*, `fruit_disease`.`fruit_id` as `pivot_fruit_id`, `fruit_disease`.`disease_id` as `pivot_disease_id`, `fruit_disease`.`sort_order` as `pivot_sort_order` from `diseases` inner join `fruit_disease` on `diseases`.`id` = `fruit_disease`.`disease_id` where `fruit_disease`.`fruit_id` in (1) and `is_active` = 1 and `is_published` = 1 and `diseases`.`deleted_at` is null order by `fruit_disease`.`sort_order` asc, `name_en` asc"
+          - generic [ref=e310]: 2ms
+        - generic [ref=e311]:
+          - generic [ref=e312]:
+            - generic [ref=e313]:
+              - img [ref=e314]
+              - generic [ref=e316]: mysql
+            - code [ref=e320]:
+              - generic [ref=e321]: "select `rootstocks`.*, `fruit_rootstock`.`fruit_id` as `pivot_fruit_id`, `fruit_rootstock`.`rootstock_id` as `pivot_rootstock_id`, `fruit_rootstock`.`sort_order` as `pivot_sort_order` from `rootstocks` inner join `fruit_rootstock` on `rootstocks`.`id` = `fruit_rootstock`.`rootstock_id` where `fruit_rootstock`.`fruit_id` in (1) and `is_active` = 1 and `is_published` = 1 and `rootstocks`.`deleted_at` is null order by `fruit_rootstock`.`sort_order` asc, `name` asc"
+          - generic [ref=e322]: 1.06ms
+        - generic [ref=e323]:
+          - generic [ref=e324]:
+            - generic [ref=e325]:
+              - img [ref=e326]
+              - generic [ref=e328]: mysql
+            - code [ref=e332]:
+              - generic [ref=e333]: "select * from `users` where `id` = 1 and `users`.`deleted_at` is null limit 1"
+          - generic [ref=e334]: 0.35ms
+        - generic [ref=e335]:
+          - generic [ref=e336]:
+            - generic [ref=e337]:
+              - img [ref=e338]
+              - generic [ref=e340]: mysql
+            - code [ref=e344]:
+              - generic [ref=e345]: "select * from `comments` where `comments`.`commentable_type` = 'Fruit' and `comments`.`commentable_id` = 1 and `comments`.`commentable_id` is not null and `is_published` = 1 and `comments`.`deleted_at` is null order by `created_at` asc"
+          - generic [ref=e346]: 0.39ms
+      - generic [ref=e347]:
+        - button [disabled] [ref=e348]:
+          - img [ref=e349]
+        - button [disabled] [ref=e352]:
+          - img [ref=e353]
+        - button "1" [ref=e356] [cursor=pointer]
+        - button "2" [ref=e358] [cursor=pointer]
+        - button "3" [ref=e360] [cursor=pointer]
+        - button "4" [ref=e362] [cursor=pointer]
+        - button "5" [ref=e364] [cursor=pointer]
+        - button "6" [ref=e366] [cursor=pointer]
+        - button "7" [ref=e368] [cursor=pointer]
+        - button [ref=e369] [cursor=pointer]:
+          - img [ref=e370]
+        - button [ref=e372] [cursor=pointer]:
+          - img [ref=e373]
+  - generic [ref=e377]:
+    - generic [ref=e378]:
+      - heading "Headers" [level=2] [ref=e379]
+      - generic [ref=e380]:
+        - generic [ref=e381]:
+          - generic [ref=e382]: host
+          - generic [ref=e384]: 192.168.1.100:8000
+        - generic [ref=e385]:
+          - generic [ref=e386]: connection
+          - generic [ref=e388]: keep-alive
+        - generic [ref=e389]:
+          - generic [ref=e390]: upgrade-insecure-requests
+          - generic [ref=e392]: "1"
+        - generic [ref=e393]:
+          - generic [ref=e394]: user-agent
+          - generic [ref=e396]: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36
+        - generic [ref=e397]:
+          - generic [ref=e398]: accept
+          - generic [ref=e400]: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+        - generic [ref=e401]:
+          - generic [ref=e402]: accept-encoding
+          - generic [ref=e404]: gzip, deflate
+        - generic [ref=e405]:
+          - generic [ref=e406]: accept-language
+          - generic [ref=e408]: en-US,en;q=0.9
+        - generic [ref=e409]:
+          - generic [ref=e410]: cookie
+          - generic [ref=e412]: _ga=GA1.1.844603367.1781413840; _ga_LFDEBYBMZS=GS2.1.s1781751264$o4$g1$t1781752029$j6$l0$h0; XSRF-TOKEN=eyJpdiI6IkVsb0QwYWhYYzJLSWtCbGxlZ2dmWHc9PSIsInZhbHVlIjoiYk81aDlIVGhzaWl0bml4dFNuS1ovRTNCK0xCR0pzLzQxcVlyVy9KWkozNVd5SU84RURyV25hQmczQnlSN3pDbndsUVJLNnhWWEJyYjFaaTF1R2hWTkUvV0tXSXZmM3FpdFdwVzk0V2tnQnp2VytqQnJjNDdzZEhkT3gwbndIQ0UiLCJtYWMiOiJhMDVlYTdhNTU4MDBkYjVjYWE2ZjY5MGI5OGQzYThjMzYzYzJkZjJmZDA4ZTVmMzYyYzk4NDI0Y2Q1NTQ0MDFhIiwidGFnIjoiIn0%3D; baagvaani-session=eyJpdiI6Ik9YMnAwa2NhK0ZxRHA5cWN5V05LekE9PSIsInZhbHVlIjoiMzdlU3hhTFE4QlZsYVliM1BIemlRRFRqcm1tUEFHcUJJcU54bjRycEFlWkF2aFp0dmw0Z0g1NlFzVnpEZ29tVUJCQVljTE5rNFo5NnJnTkVLZ2JMN2xQNk9lcmFqTGdidCtZWFBpVXRoMjczWWltSHQ0RnZFRjgxci9oL3g1cVUiLCJtYWMiOiIyYTZhMjhiMDJkYjFlMmViZDlhMGZiYjk5NzcxMzc3YjdhNGRlYjJiOWY5ZWRiNWZkNDQwOTEwN2Q1ZGFkY2MxIiwidGFnIjoiIn0%3D
+    - generic [ref=e413]:
+      - heading "Body" [level=2] [ref=e414]
+      - generic [ref=e415]: // No request body
+    - generic [ref=e416]:
+      - heading "Routing" [level=2] [ref=e417]
+      - generic [ref=e418]:
+        - generic [ref=e419]:
+          - generic [ref=e420]: controller
+          - generic [ref=e422]: Modules\Fruit\Http\Controllers\Web\FruitController@show
+        - generic [ref=e423]:
+          - generic [ref=e424]: route name
+          - generic [ref=e426]: fruits.show
+        - generic [ref=e427]:
+          - generic [ref=e428]: middleware
+          - generic [ref=e430]: web
+    - generic [ref=e431]:
+      - heading "Routing parameters" [level=2] [ref=e432]
+      - code [ref=e437]:
+        - generic [ref=e438]: "{"
+        - generic [ref=e439]: "\"fruit\": {"
+        - generic [ref=e440]: "\"id\": 1,"
+        - generic [ref=e441]: "\"name_en\": \"Apple\","
+        - generic [ref=e442]: "\"name_hi\": \"सेब\","
+        - generic [ref=e443]: "\"slug\": \"apple\","
+        - generic [ref=e444]: "\"scientific_name\": \"Malus domestica\","
+        - generic [ref=e445]: "\"description_en\": \"The king of Himalayan orchards. Apple is the primary commercial fruit across Himachal Pradesh, Uttarakhand and Jammu & Kashmir.\","
+        - generic [ref=e446]: "\"description_hi\": \"हिमालयी बागों का राजा। सेब हimachal प्रदेश, उत्तराखंड और जम्मू-कश्मीर में प्रमुख व्यावसायिक फल है।\","
+        - generic [ref=e447]: "\"is_active\": true,"
+        - generic [ref=e448]: "\"is_published\": true,"
+        - generic [ref=e449]: "\"is_featured\": true,"
+        - generic [ref=e450]: "\"meta_title_en\": null,"
+        - generic [ref=e451]: "\"meta_title_hi\": null,"
+        - generic [ref=e452]: "\"meta_desc_en\": null,"
+        - generic [ref=e453]: "\"meta_desc_hi\": null,"
+        - generic [ref=e454]: "\"created_by\": null,"
+        - generic [ref=e455]: "\"reviewed_by\": null,"
+        - generic [ref=e456]: "\"reviewed_at\": \"2026-06-22T04:02:40.000000Z\","
+        - generic [ref=e457]: "\"created_at\": \"2026-06-22T04:02:40.000000Z\","
+        - generic [ref=e458]: "\"updated_at\": \"2026-06-22T04:02:40.000000Z\","
+        - generic [ref=e459]: "\"deleted_at\": null"
+        - generic [ref=e460]: "}"
+        - generic [ref=e461]: "}"
+  - generic [ref=e464]:
+    - img [ref=e466]
+    - img [ref=e3504]
