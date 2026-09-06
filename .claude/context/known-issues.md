@@ -1,11 +1,14 @@
 # Known issues — confirmed, with evidence
 
 Ranked by consequence. Every item here was reproduced on 2026-09-06, not inferred.
-Nothing has been fixed — this is a findings list awaiting your decisions.
+
+**Items 1, 2, 4 and 6 are FIXED** in the 2026-09-06 stabilisation pass; their entries are kept
+because the reasoning matters and the fixes are not yet on production. Item 3 has had its
+*guidance* corrected but the underlying split is untouched by choice. Items 5, 7 and 8 are open.
 
 ---
 
-## 1. Publishing a Chemical crashes, and takes 14 tests with it
+## 1. ✅ FIXED — Publishing a Chemical crashed, and took 14 tests with it
 
 **Severity: high — user-facing, blocks a whole content type.**
 
@@ -31,12 +34,14 @@ view synchronously, so every path that publishes a chemical throws. 14 of the 17
 are this one bug: all of `Tests\Unit\Models\ChemicalTest` (6), `Tests\Feature\Admin\ChemicalTest`
 (4), `Tests\Feature\App\ChemicalPageTest` (3), `Tests\Feature\App\SprayScheduleServiceTest` (1).
 
-**Two candidate fixes** — needs your call: add `getDisplayName()` to `Chemical`, or harden the
-template with a `method_exists` guard. I'd do both, plus unify on one naming convention.
+**Fix applied:** both. `Chemical::getDisplayName()` added (reading `common_name_en`/`_hi`), and
+both `getDisplayName` call sites in the template guarded with `method_exists`. The two naming
+conventions (`getDisplayName($locale)` vs the `getDisplayNameAttribute()` accessor) are still
+mixed across models — worth unifying later, but not urgent now the template is defensive.
 
 ---
 
-## 2. Duplicate newsletters and notifications on edit-after-create
+## 2. ✅ FIXED — Duplicate newsletters and notifications on edit-after-create
 
 **Severity: high — sends real email to real subscribers, twice.**
 
@@ -58,13 +63,16 @@ every subscriber.
 Reproduced by `Tests\Feature\NotificationSystemTest`: the unpublish test sees 1 dispatch, the
 non-publish-update test sees **2**.
 
-The fix is to split the observer into `created()` and `updated()` rather than sharing `saved()`.
-Note that two of those test cases are also arranged in a way that would trip the intended
-create-path dispatch regardless, so the tests need adjusting alongside the fix.
+**Fix applied:** the observer now dispatches from `created()` and `updated()` and passes
+`wasCreated` explicitly; `saved()` keeps only cache clearing. The two tests were re-arranged to
+call `Event::fake()` *after* creating, since creating already-published content is itself a
+legitimate dispatch. The non-publish-update test is now a regression guard for exactly this bug.
+
+**Not yet on production** — this is still sending duplicates live until deployed.
 
 ---
 
-## 3. Tailwind never sees the module Blade files
+## 3. ⚠️ GUIDANCE CORRECTED, SPLIT REMAINS — Tailwind never sees the module Blade files
 
 **Severity: medium — it explains the whole CSS situation and it is a trap for future work.**
 
@@ -94,12 +102,15 @@ Two consequences:
 `tailwind.config.js` is a leftover **v3** config that Tailwind 4 ignores entirely — its `content`
 array is dead code and misleads anyone who reads it first.
 
-Decision needed: extend `@source` to `Modules/**` and go Tailwind-first, or delete the Tailwind
-pretence from module views and commit to the semantic CSS. Doing neither is the current state.
+**Decision taken 2026-09-06: fix the guidance only, change no rendering.**
+`cross-project-context/SKILL.md` now describes the semantic-CSS system that actually ships and
+tells agents not to reach for Tailwind utilities in module views. The underlying split is
+untouched and remains available to revisit — extending `@source` to `Modules/**` would suddenly
+apply hundreds of previously-purged utilities and needs visual checking page by page.
 
 ---
 
-## 4. `BaagvaaniBrain` is an unclonable submodule
+## 4. ✅ FIXED — `BaagvaaniBrain` was an unclonable submodule
 
 **Severity: medium — the workspace cannot be reconstructed from git.**
 
@@ -114,13 +125,16 @@ but there is **no `.gitmodules` file**. A fresh clone yields an empty directory 
 commits are titled "update BaagvaaniBrain submodule", so this has been silently half-working for
 a while.
 
-Fix is a one-liner (`git submodule add https://github.com/codingtarun/BaagvaaniBrain.git`) but it
-needs a decision on whether the workspace should track it as a submodule at all, given the other
-two sub-projects are simply gitignored.
+**Fix applied:** `.gitmodules` added pointing at
+`https://github.com/codingtarun/BaagvaaniBrain.git` (branch `main`), and the submodule
+registered locally. The workspace is clonable again.
+
+Still worth deciding: whether `BaagvaaniBrain` should be a submodule at all, given the other two
+sub-projects are simply gitignored. Consistency would argue for gitignoring it too.
 
 ---
 
-## 5. Three months of work sits on an unmerged feature branch
+## 5. ⏳ MERGED LOCALLY, NOT PUSHED — work sat on an unmerged feature branch
 
 **Severity: medium — process, not code, but it is the biggest single risk.**
 
@@ -132,9 +146,13 @@ rework.
 
 There is also a `backup/modular-migration-20260611-221110` branch still hanging around.
 
+**Status:** `master` was a clean ancestor, so this was a fast-forward — no merge commit, no
+conflicts possible. `master` and `feature/fruit-module` are now identical **locally**. The push
+and the `origin/HEAD` repoint are outward-facing and are waiting on you.
+
 ---
 
-## 6. `area_unit` has no `acre`, but the product speaks in acres
+## 6. ✅ FIXED — `area_unit` had no `acre` while the product spoke in acres
 
 **Severity: low-medium — a units inconsistency worth resolving deliberately.**
 
@@ -145,9 +163,17 @@ There is also a `backup/modular-migration-20260611-221110` branch still hanging 
 **per-acre**, and `Tests\Unit\Models\UserOrchardTest > area hectare syncs from acre` expects
 `acre` to be storable — it fails with `CHECK constraint failed: area_unit`.
 
-So density is per-acre while area cannot be expressed in acres. Acre is one of the units
-Himalayan growers actually use. Either add it to the enum (a migration plus six validation
-sites) or delete the stale test.
+So density was per-acre while area could not be expressed in acres — and a grower selecting
+"Acre" in the UI hit a validation failure or a CHECK constraint violation. **This was a live
+user-facing bug, not a stale test.**
+
+**Fix applied:** `2026_09_06_000001_add_acre_to_area_unit_enums` adds `acre` to both
+`user_orchards.area_unit` and `orchard_blocks.area_unit`. Purely additive — verified on local
+MySQL with all 207 orchard rows and their existing bigha/kanal/nali values intact. All eight
+validation rules now derive from `UserOrchard::AREA_UNITS` rather than repeating a literal list,
+so the constant and the validators cannot drift apart again.
+
+**Not yet run on production.**
 
 ---
 

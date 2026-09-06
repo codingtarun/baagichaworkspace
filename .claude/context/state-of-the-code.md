@@ -16,20 +16,24 @@ leftovers. That is unusually disciplined for a solo AI-assisted project.
 
 ## Test suite
 
-`composer test` → **387 passed, 17 failed, 1 deprecated** (801 assertions, 143 s).
+`composer test` → **404 passed, 0 failed, 1 deprecated** (838 assertions, 141 s), as of the
+2026-09-06 stabilisation pass.
+
+It was 387 passed / 17 failed when I took over. The 17 collapsed into 3 root causes, all now
+fixed — see [known-issues.md](known-issues.md) #1, #2 and #6.
 
 61 test files, but they are almost all in the root `tests/` tree. Module test coverage is nearly
 absent — only Weather (6 files), Intelligence (3), OrchardActivities (3) and Disease (1) have any
 tests inside the module. **Shop (148 php files), Auth (113), KnowledgeBase (143), Core (172),
 Community (77) and Blog (65) have no module tests at all.**
 
-The 17 failures collapse into **3 root causes**, not 17 problems:
+What those 17 were:
 
-| Root cause | Failures | Detail |
+| Root cause | Failures | Status |
 |---|---|---|
-| `Chemical::getDisplayName()` missing | 14 | Newsletter email template calls it polymorphically → `ViewException` on every Chemical publish path |
-| `area_unit` rejects `acre` | 1 | `UserOrchardTest > area hectare syncs from acre` — schema enum is `bigha,kanal,nali,hectare` |
-| `ContentPublished` fires when it should not | 2 | Dispatched on unpublish and on non-publish updates |
+| `Chemical::getDisplayName()` missing | 14 | fixed |
+| `ContentPublished` re-dispatched on edit-after-create | 2 | fixed |
+| `area_unit` rejected `acre` | 1 | fixed |
 
 Full detail in [known-issues.md](known-issues.md).
 
@@ -37,14 +41,15 @@ Full detail in [known-issues.md](known-issues.md).
 
 | Repo | Branch | State |
 |---|---|---|
-| `web_baagicha` | `feature/fruit-module` | **98 commits ahead of `master`; `master` is 0 ahead.** `origin/HEAD` still points at `master`. Last commit on the branch 2026-08-30; last on `master` 2026-06-16. Working tree clean, nothing unpushed. |
+| `web_baagicha` | `feature/fruit-module` | `master` was **98 commits behind** with `origin/HEAD` pointing at it. Fast-forwarded locally on 2026-09-06 — `master` and `feature/fruit-module` are now identical. **Not yet pushed**, and `origin/HEAD` still points at the stale remote `master`. |
 | `baagichaApp` | `main` | 2 files dirty (`RootstockDetailScreen.tsx`, `rootstockApi.ts`) |
 | `BaagvaaniBrain` | `main` | 19 files dirty, incl. 2 whole untracked blog packages and an untracked `CLAUDE.md` + `.claude/` |
 | workspace root | `main` | `BaagvaaniBrain` gitlink modified; ~100 untracked Playwright artifacts |
 
-**Three months of work lives only on a feature branch that has never been merged.** That branch
-is the real trunk; `master` is a stale June snapshot. This is the single most important thing to
-decide about.
+Three months of work — the Fruit refactor, VarietyStrain, Intelligence, IMD weather, the Disease
+rework — lived only on `feature/fruit-module`. Resolved locally by fast-forward (`master` was a
+clean ancestor, so no merge commit and no conflicts). **Still needs pushing**, which is a
+deliberate outward-facing step and is waiting on Tarun.
 
 ## Documentation drift
 
@@ -55,8 +60,10 @@ The project accumulated instruction files from several AI tools (`.ai/`, `.kimi/
 |---|---|
 | `web_baagicha/CLAUDE.md` | **Accurate.** The best document in the project. Trust it. |
 | `BaagvaaniBrain/CLAUDE.md` | **Accurate.** |
-| `.opencode/AGENTS.md` (workspace) | Mostly accurate; hero-styling advice is wrong |
-| `baagichaApp/.opencode/AGENTS.md` | **Actively misleading.** Prescribes React Context + AsyncStorage + react-query and a 5-tab layout of Home/Spray/Disease/Varieties/Rootstock. Reality: Zustand (7 stores), MMKV, hand-written hooks, tabs Home/Spray/Shop/Discover/MyOrchard. Also cites a `web_baagicha` path that no longer exists and a `https://api.baagicha.app` base URL that was never used. |
+| `.opencode/AGENTS.md` (workspace) | Accurate |
+| `.opencode/skills/cross-project-context/SKILL.md` | **Corrected 2026-09-06.** Its hero-styling section told agents to use Tailwind utilities, which are purged in module views. |
+| `baagichaApp/.opencode/AGENTS.md` | **Corrected 2026-09-06.** Had prescribed React Context + AsyncStorage + react-query and tabs Home/Spray/Disease/Varieties/Rootstock, plus `baagicha://` deep links that are not registered and a `https://api.baagicha.app` base URL never used. |
+| `baagichaApp/.opencode/CLAUDE.md` | **Corrected 2026-09-06.** Had described the app as an empty bootstrap rendering the default RN template screen, with no navigation, state or API client. |
 | `web_baagicha/DOCS/backend-status.md`, `DOCS/progress.md` | Last audited 2026-03-13, before the `Modules/` migration. Controller paths and "still hardcoded demo data" claims are unverifiable against today's tree. |
 | `web_baagicha/.opencode/skills/*` | Conventions right, paths stale ("no API layer", "no repository pattern" — both now false) |
 
@@ -88,7 +95,8 @@ AGENTS.md prescribing Jest + Testing Library + Detox.
 
 ## Local database
 
-`baagicha` on local MySQL, 138 tables, all 179 migrations applied. **Every user (113) and order
+`baagicha` on local MySQL, 138 tables, all 180 migrations applied (179 at handover, plus the
+`acre` enum migration). **Every user (113) and order
 (42) row was created on 2026-08-14** — this is a seeded/imported development database, not a
 mirror of production traffic. Do not read product signal from these counts.
 

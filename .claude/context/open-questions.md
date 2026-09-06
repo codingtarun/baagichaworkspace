@@ -5,6 +5,19 @@ Answers get folded back into the other context files.
 
 ---
 
+## Answered 2026-09-06
+
+| Question | Answer | Consequence |
+|---|---|---|
+| A1 — is it live? | **Yes, live with real users** | Production data is sacred. Migrations must be additive. The duplicate-newsletter bug was reaching real subscribers, which is why it went first. |
+| A4 — what first? | **Stabilise the foundation** | Fix the failures, merge the branch, fix the misleading docs, fix the submodule. Done except the push. |
+| A3 — branch split | **Merge into master, make it default** | Fast-forwarded locally. Push and the `origin/HEAD` repoint are still pending. |
+| C1 — Tailwind vs CSS | **Fix the guidance only for now** | No rendering touched. `cross-project-context/SKILL.md` corrected to describe the semantic-CSS system that actually ships. |
+
+Everything below is still open.
+
+---
+
 ## A. Blocking — I would work differently depending on the answer
 
 **A1. What is live right now?**
@@ -100,17 +113,23 @@ purge them?
 
 ---
 
-## Recommended first moves
+## Stabilisation pass — done 2026-09-06
 
-If you want a default rather than a decision, this is what I'd do, in order:
+1. ✅ **Fixed the 17 test failures.** 404 passed / 0 failed. Two were real user-facing bugs
+   (Chemical publish crash, duplicate newsletters to live subscribers), one was a real
+   validation bug (`acre`).
+2. ✅ **Fast-forwarded `master` to `feature/fruit-module`** — locally only.
+3. ✅ **Corrected the misleading docs** — `baagichaApp/.opencode/{AGENTS,CLAUDE}.md` and the
+   hero-styling guidance in `cross-project-context/SKILL.md`.
+4. ✅ **Fixed the `BaagvaaniBrain` submodule** — added the missing `.gitmodules`.
 
-1. **Fix the 17 test failures** — 3 root causes, and two of them (#1 Chemical publish crash, #2
-   duplicate newsletters) are real user-facing bugs, not test noise. Small, high value.
-2. **Merge `feature/fruit-module` → `master`**, repoint `origin/HEAD`, delete the stale backup
-   branch. Removes the biggest structural risk.
-3. **Fix or delete the misleading docs** — rewrite `baagichaApp/.opencode/AGENTS.md` to match
-   Zustand/MMKV/actual tabs, and correct the hero-styling guidance.
-4. **Fix the `BaagvaaniBrain` submodule** so the workspace is clonable.
-5. *Then* pick a feature, once the ground is stable.
+### Still pending
 
-I have done none of this — everything above is analysis only.
+- **Push.** Three repos have unpushed commits, and `origin/HEAD` still points at the stale
+  remote `master`. Pushing is outward-facing, so it is waiting on an explicit go-ahead.
+- **Deploy the `acre` migration.** `2026_09_06_000001_add_acre_to_area_unit_enums` has run
+  locally on MySQL (207 orchard rows intact, values preserved) but not on production. It is
+  purely additive and safe to run forward.
+- **Delete `backup/modular-migration-20260611-221110`** once you are happy.
+- The two dirty files in `baagichaApp` (`RootstockDetailScreen.tsx`, `rootstockApi.ts`) and the
+  19 in `BaagvaaniBrain` are **yours, not mine** — left untouched.
