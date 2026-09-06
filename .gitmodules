@@ -1,0 +1,4 @@
+[submodule "BaagvaaniBrain"]
+	path = BaagvaaniBrain
+	url = https://github.com/codingtarun/BaagvaaniBrain.git
+	branch = main

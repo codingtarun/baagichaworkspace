@@ -13,13 +13,31 @@ description: Comprehensive cross-project context for the Baagicha ecosystem — 
 
 ## Web Frontend Standards
 
-1. **Hero sections must use a background image.** Any page with a full-width hero section should place a relevant image behind the content with a dark gradient overlay for readability. Use the standard pattern:
-   - Wrapper: `relative bg-bg-primary text-white overflow-hidden`
-   - Background layer: `absolute inset-0` with a `<picture>` containing WebP + fallback PNG/JPG
-   - Overlay: `absolute inset-0 bg-gradient-to-r from-primary-900/90 via-primary-800/80 to-primary-700/60`
-   - Content: `relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`
-2. **Reuse existing hero assets.** Default hero image is `public/images/hero-orchard-farmer.webp` / `.png`. Add page-specific images only when the subject genuinely differs.
-3. **Maintain contrast.** Hero text stays white (`text-white`); subtitles use `text-white/75`; interactive elements use `bg-white/10 border-white/20`.
+> **Corrected 2026-09-06.** This section previously told agents to build heroes out of
+> Tailwind utility classes. **That does not work in module views.** Tailwind 4's `@source`
+> globs in `resources/css/app.css` cover `resources/**` (10 Blade files) and never reach
+> `Modules/**` (425 Blade files), so utilities written in a module Blade are purged from
+> the build. Verified: `page-hero.blade.php` uses `bg-primary-900/90` and `lg:px-8`; the
+> built `public/css/app.css` contains zero occurrences of either.
+
+1. **Do not style module views with Tailwind utilities.** They will not compile. The real
+   styling system is the hand-written semantic CSS in `public/css/*.css`, loaded per page
+   from Blade via `@push('styles')` + `asset()`.
+2. **Reuse the existing hero component.** `<x-core::page-hero />`
+   (`Modules/Core/resources/views/components/page-hero.blade.php`) is already built, and
+   `public/css/hero.css` implements `.page-hero`, `.page-hero-bg`, `.page-hero-overlay`,
+   `.page-hero-content`, `.page-hero-title`, `.page-hero-subtitle`, `.page-hero-search`.
+   Pass it a background image rather than hand-rolling a new hero.
+3. **New page-specific rules go in a page-named file** in `public/css/` — never in
+   `style.css`, and never in an inline `<style>` block in a Blade file.
+4. **Reuse existing hero assets.** Default is `public/images/hero-orchard-farmer.webp` /
+   `.png`. Add page-specific images only when the subject genuinely differs.
+5. **Maintain contrast.** Hero text stays white; subtitles sit around 75% white; interactive
+   elements use a translucent white fill and border. Express this in the page's CSS file,
+   not as utility classes.
+
+`tailwind.config.js` in `web_baagicha/` is a leftover **v3** config that Tailwind 4 ignores
+entirely — its `content` array is dead code. Do not edit it expecting an effect.
 
 ## Project Structure
 
