@@ -1,0 +1,271 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 25° in Kinnaur Valley, Partly cloudy · 59% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://192.168.1.100:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e16]: 25°
+      - button "Toggle menu" [ref=e18]:
+        - img [ref=e19]
+  - main [ref=e21]:
+    - article [ref=e22]:
+      - region "Alternaria Leaf Spot" [ref=e23]:
+        - generic [ref=e27]:
+          - link "Disease Library" [ref=e29] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/disease
+            - img [ref=e30]
+            - text: Disease Library
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - generic [ref=e34]: 
+              - text: Medium
+            - generic [ref=e35]:
+              - generic [ref=e36]: 
+              - text: Fungal
+            - generic [ref=e37]:
+              - generic [ref=e38]: 
+              - text: HP Common
+          - generic [ref=e39]:
+            - heading "Alternaria Leaf Spot" [level=1] [ref=e40]
+            - paragraph [ref=e41]:
+              - emphasis [ref=e42]: Alternaria alternata
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - region " About Alternaria Leaf Spot" [ref=e46]:
+            - button " About Alternaria Leaf Spot" [expanded] [ref=e47] [cursor=pointer]:
+              - heading " About Alternaria Leaf Spot" [level=2] [ref=e48]:
+                - generic [ref=e49]: 
+                - text: About Alternaria Leaf Spot
+              - img [ref=e50]
+          - region "Also Known As" [ref=e54]:
+            - heading "Also Known As" [level=2] [ref=e55]
+            - generic [ref=e57]:
+              - generic [ref=e58]: 
+              - text: Brown Spot
+          - region " How to Identify" [ref=e59]:
+            - button " How to Identify" [expanded] [ref=e60] [cursor=pointer]:
+              - heading " How to Identify" [level=2] [ref=e61]:
+                - generic [ref=e62]: 
+                - text: How to Identify
+              - img [ref=e63]
+            - list [ref=e67]:
+              - listitem [ref=e68]: Dark brown circular spots with concentric rings. Yellow halo around lesions.
+          - region " Prevention" [ref=e69]:
+            - button " Prevention" [expanded] [ref=e70] [cursor=pointer]:
+              - heading " Prevention" [level=2] [ref=e71]:
+                - generic [ref=e72]: 
+                - text: Prevention
+              - img [ref=e73]
+            - list [ref=e77]:
+              - listitem [ref=e78]: Collect and burn fallen leaves. Apply balanced fertilization. Ensure good air circulation.
+          - region " Organic Treatment" [ref=e79]:
+            - button " Organic Treatment" [expanded] [ref=e80] [cursor=pointer]:
+              - heading " Organic Treatment" [level=2] [ref=e81]:
+                - generic [ref=e82]: 
+                - text: Organic Treatment
+              - img [ref=e83]
+            - list [ref=e87]:
+              - listitem [ref=e88]: Apply Bordeaux mixture. Spray garlic extract. Use Pseudomonas fluorescens.
+          - region " Yield Impact" [ref=e89]:
+            - button " Yield Impact" [expanded] [ref=e90] [cursor=pointer]:
+              - heading " Yield Impact" [level=2] [ref=e91]:
+                - generic [ref=e92]: 
+                - text: Yield Impact
+              - img [ref=e93]
+            - paragraph [ref=e98]: Causes premature defoliation weakening trees
+          - region " Risk Factors" [ref=e99]:
+            - button " Risk Factors" [expanded] [ref=e100] [cursor=pointer]:
+              - heading " Risk Factors" [level=2] [ref=e101]:
+                - generic [ref=e102]: 
+                - text: Risk Factors
+              - img [ref=e103]
+            - generic [ref=e107]:
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: 
+                  - heading "Temperature Risk" [level=3] [ref=e111]
+                - paragraph [ref=e112]: 20°C – 30°C
+              - generic [ref=e115]:
+                - generic [ref=e116]:
+                  - generic [ref=e117]: 
+                  - heading "Humidity Threshold" [level=3] [ref=e118]
+                - paragraph [ref=e119]: Risk above 85%
+              - generic [ref=e122]:
+                - generic [ref=e123]:
+                  - generic [ref=e124]: 
+                  - heading "Altitude Range" [level=3] [ref=e125]
+                - paragraph [ref=e126]: 1,500 – 9,000 ft
+              - generic [ref=e129]:
+                - generic [ref=e130]:
+                  - generic [ref=e131]: 
+                  - heading "Potential Yield Loss" [level=3] [ref=e132]
+                - generic [ref=e133]:
+                  - paragraph [ref=e134]: 20–60%
+                  - paragraph [ref=e135]: Estimated range
+          - generic [ref=e136]:
+            - region " Active Season" [ref=e137]:
+              - heading " Active Season" [level=2] [ref=e138]:
+                - generic [ref=e139]: 
+                - text: Active Season
+              - generic [ref=e140]:
+                - generic [ref=e141]: Petals Fall
+                - generic [ref=e142]: to
+                - generic [ref=e143]: Late Summer
+            - region " Spreads Via" [ref=e144]:
+              - heading " Spreads Via" [level=2] [ref=e145]:
+                - generic [ref=e146]: 
+                - text: Spreads Via
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - generic [ref=e149]: 
+                  - text: Rain splash
+                - generic [ref=e150]:
+                  - generic [ref=e151]: 
+                  - text: Wind
+                - generic [ref=e152]:
+                  - generic [ref=e153]: 
+                  - text: Fallen leaves
+        - complementary [ref=e154]:
+          - generic [ref=e155]:
+            - heading "Quick Stats" [level=3] [ref=e156]
+            - generic [ref=e157]:
+              - generic [ref=e158]:
+                - generic [ref=e159]:
+                  - generic [ref=e160]: 
+                  - text: Severity
+                - generic [ref=e161]: Medium
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - generic [ref=e164]: 
+                  - text: Category
+                - generic [ref=e165]: Fungal
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - generic [ref=e168]: 
+                  - text: Temperature
+                - generic [ref=e169]: 20–30°C
+              - generic [ref=e170]:
+                - generic [ref=e171]:
+                  - generic [ref=e172]: 
+                  - text: Humidity
+                - generic [ref=e173]: ">85%"
+              - generic [ref=e174]:
+                - generic [ref=e175]:
+                  - generic [ref=e176]: 
+                  - text: Views
+                - generic [ref=e177]: "600"
+          - generic [ref=e178]:
+            - heading "Actions" [level=3] [ref=e179]
+            - button "Save" [ref=e181]:
+              - generic [ref=e182]: 
+              - generic [ref=e183]: Save
+            - button "Share" [ref=e184]:
+              - generic [ref=e185]: 
+              - text: Share
+            - link " Report Sighting" [ref=e186] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/disease-reporter/report?disease_id=24&disease_name=Alternaria%20Leaf%20Spot
+              - generic [ref=e187]: 
+              - text: Report Sighting
+          - generic [ref=e188]:
+            - heading "Other Fungal Diseases" [level=3] [ref=e189]
+            - generic [ref=e190]:
+              - article [ref=e191]:
+                - link "White Rot White Rot सफेद सड़न" [ref=e192] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/white-rot
+                  - img "White Rot" [ref=e193]
+                  - generic [ref=e194]:
+                    - heading "White Rot" [level=3] [ref=e195]
+                    - paragraph [ref=e196]: सफेद सड़न
+              - article [ref=e197]:
+                - link "White Root Rot White Root Rot सफेद जड़ सड़न" [ref=e198] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/white-root-rot
+                  - img "White Root Rot" [ref=e199]
+                  - generic [ref=e200]:
+                    - heading "White Root Rot" [level=3] [ref=e201]
+                    - paragraph [ref=e202]: सफेद जड़ सड़न
+              - article [ref=e203]:
+                - link "Brown Rot Brown Rot भूरा सड़न" [ref=e204] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/brown-rot
+                  - img "Brown Rot" [ref=e205]
+                  - generic [ref=e206]:
+                    - heading "Brown Rot" [level=3] [ref=e207]
+                    - paragraph [ref=e208]: भूरा सड़न
+              - article [ref=e209]:
+                - link "Marssonina Leaf Blotch Marssonina Leaf Blotch मार्सोनिना लीफ ब्लॉच" [ref=e210] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/marssonina-leaf-blotch
+                  - img "Marssonina Leaf Blotch" [ref=e211]
+                  - generic [ref=e212]:
+                    - heading "Marssonina Leaf Blotch" [level=3] [ref=e213]
+                    - paragraph [ref=e214]: मार्सोनिना लीफ ब्लॉच
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - text:   
+          - button "Share Alternaria Leaf Spot" [ref=e217] [cursor=pointer]:
+            - generic [ref=e218]: 
+        - button "Switch to Hindi" [ref=e219] [cursor=pointer]: हिन्दी
+      - generic [ref=e222]:
+        - heading " Comments" [level=2] [ref=e224]:
+          - generic [ref=e225]: 
+          - text: Comments
+        - generic [ref=e226]:
+          - generic [ref=e227]: 
+          - link "Login" [ref=e228] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/login
+          - text: to leave a comment.
+        - generic [ref=e230]:
+          - generic [ref=e231]: 
+          - paragraph [ref=e232]: No comments yet. Be the first to share your thoughts!
+  - contentinfo [ref=e233]:
+    - generic [ref=e234]:
+      - generic [ref=e235]:
+        - generic [ref=e236]:
+          - link "Baagvaani" [ref=e237] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e239]: Baagvaani
+          - paragraph [ref=e240]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e242]: Social channels coming soon
+        - generic [ref=e243]:
+          - heading "Quick Links" [level=3] [ref=e244]
+          - list [ref=e245]:
+            - listitem [ref=e246]:
+              - link "Home" [ref=e247] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e248]:
+              - link "Blog" [ref=e249] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e250]:
+              - link "About Us" [ref=e251] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e252]:
+          - heading "Topics" [level=3] [ref=e253]
+          - list [ref=e254]:
+            - listitem [ref=e255]:
+              - link "Spray & Disease" [ref=e256] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e257]:
+              - link "Orchard Care" [ref=e258] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e259]:
+              - link "Variety Guide" [ref=e260] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e261]:
+              - link "Weather & Climate" [ref=e262] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e263]:
+          - heading "Newsletter" [level=3] [ref=e264]
+          - paragraph [ref=e265]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e266]:
+            - textbox "Enter your email" [ref=e267]
+            - button "Subscribe" [ref=e268]
+          - paragraph [ref=e269]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e271]: © 2026 Baagvaani. All rights reserved.
+  - text:  

@@ -1,0 +1,546 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 25° in Kinnaur Valley, Partly cloudy · 59% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://127.0.0.1:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e16]: 25°
+      - button "Toggle menu" [expanded] [active] [ref=e18]:
+        - img [ref=e498]
+    - generic [ref=e501]:
+      - link "Home" [ref=e502] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000
+        - img [ref=e503]
+        - text: Home
+      - link "Fruits & Varieties" [ref=e505] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/fruits
+        - img [ref=e506]
+        - text: Fruits & Varieties
+      - link "Disease Library" [ref=e508] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/disease
+        - img [ref=e509]
+        - text: Disease Library
+      - link "Spray Schedule" [ref=e512] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/spray-schedule
+        - img [ref=e513]
+        - text: Spray Schedule
+      - link "Shop" [ref=e515] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/shop
+        - img [ref=e516]
+        - text: Shop
+      - link "Rootstock" [ref=e518] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/rootstock
+        - img [ref=e519]
+        - text: Rootstock
+      - link "Blog" [ref=e521] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/blog
+        - img [ref=e522]
+        - text: Blog
+      - link "About" [ref=e524] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/about
+        - img [ref=e525]
+        - text: About
+      - generic [ref=e527]:
+        - link "Login" [ref=e528] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+        - link "Sign Up" [ref=e529] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/register
+  - main [ref=e21]:
+    - region "Grow Better Apples. With Expert Knowledge." [ref=e22]:
+      - img "Himachal apple farmer managing orchard with smartphone" [ref=e25]
+      - generic [ref=e28]:
+        - heading "Grow Better Apples. With Expert Knowledge." [level=1] [ref=e29]:
+          - text: Grow Better Apples.
+          - text: With Expert Knowledge.
+        - paragraph [ref=e30]: हिमाचल, उत्तराखंड और कश्मीर के सेब किसानों के लिए बेहतर बागवानी सामग्री और विशेषज्ञ ज्ञान।
+        - generic [ref=e31]:
+          - link "Read Blog" [ref=e32] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog
+            - text: Read Blog
+            - img [ref=e33]
+          - link "About Us" [ref=e35] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/about
+            - text: About Us
+            - img [ref=e36]
+    - region "From the Blog" [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - heading "From the Blog" [level=2] [ref=e43]
+            - paragraph [ref=e44]: Expert tips and stories from the orchard.
+          - link "All Articles" [ref=e45] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog
+            - text: All Articles
+            - img [ref=e46]
+        - generic [ref=e49]:
+          - article [ref=e51]:
+            - link "How to Read Mountain Weather Before Spraying Weather & Climate How to Read Mountain Weather Before Spraying Jun 13, 2026" [ref=e52] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog/post/reading-mountain-weather-spray-timing
+              - generic [ref=e53]:
+                - img "How to Read Mountain Weather Before Spraying" [ref=e54]
+                - generic [ref=e55]: Weather & Climate
+              - generic [ref=e56]:
+                - heading "How to Read Mountain Weather Before Spraying" [level=3] [ref=e57]
+                - time [ref=e59]: Jun 13, 2026
+          - article [ref=e61]:
+            - 'link "Powdery Mildew in HP Apple Orchards: Control Guide Spray & Disease Powdery Mildew in HP Apple Orchards: Control Guide Jun 11, 2026" [ref=e62] [cursor=pointer]':
+              - /url: http://127.0.0.1:8000/blog/post/powdery-mildew-apple-hp
+              - generic [ref=e63]:
+                - 'img "Powdery Mildew in HP Apple Orchards: Control Guide" [ref=e64]'
+                - generic [ref=e65]: Spray & Disease
+              - generic [ref=e66]:
+                - 'heading "Powdery Mildew in HP Apple Orchards: Control Guide" [level=3] [ref=e67]'
+                - time [ref=e69]: Jun 11, 2026
+          - article [ref=e71]:
+            - 'link "Frost Protection for Apple Orchards: A Practical Guide Weather & Climate Frost Protection for Apple Orchards: A Practical Guide Jun 07, 2026" [ref=e72] [cursor=pointer]':
+              - /url: http://127.0.0.1:8000/blog/post/frost-protection-apple-orchards-hp
+              - generic [ref=e73]:
+                - 'img "Frost Protection for Apple Orchards: A Practical Guide" [ref=e74]'
+                - generic [ref=e75]: Weather & Climate
+              - generic [ref=e76]:
+                - 'heading "Frost Protection for Apple Orchards: A Practical Guide" [level=3] [ref=e77]'
+                - time [ref=e79]: Jun 07, 2026
+          - article [ref=e81]:
+            - link "Complete Spray Schedule for HP Apple Orchards Spray & Disease Complete Spray Schedule for HP Apple Orchards Jun 04, 2026" [ref=e82] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog/post/complete-spray-schedule-hp-apple-orchards
+              - generic [ref=e83]:
+                - img "Complete Spray Schedule for HP Apple Orchards" [ref=e84]
+                - generic [ref=e85]: Spray & Disease
+              - generic [ref=e86]:
+                - heading "Complete Spray Schedule for HP Apple Orchards" [level=3] [ref=e87]
+                - time [ref=e89]: Jun 04, 2026
+          - article [ref=e91]:
+            - 'link "Selling Apples: MSP, FPOs, and Direct Marketing Business & Market Selling Apples: MSP, FPOs, and Direct Marketing May 31, 2026" [ref=e92] [cursor=pointer]':
+              - /url: http://127.0.0.1:8000/blog/post/selling-apples-msp-fpo-direct-marketing
+              - generic [ref=e93]:
+                - 'img "Selling Apples: MSP, FPOs, and Direct Marketing" [ref=e94]'
+                - generic [ref=e95]: Business & Market
+              - generic [ref=e96]:
+                - 'heading "Selling Apples: MSP, FPOs, and Direct Marketing" [level=3] [ref=e97]'
+                - time [ref=e99]: May 31, 2026
+          - article [ref=e101]:
+            - 'link "Apple Scab: Identify, Prevent, and Treat Spray & Disease Apple Scab: Identify, Prevent, and Treat May 26, 2026" [ref=e102] [cursor=pointer]':
+              - /url: http://127.0.0.1:8000/blog/post/apple-scab-identify-prevent-treat
+              - generic [ref=e103]:
+                - 'img "Apple Scab: Identify, Prevent, and Treat" [ref=e104]'
+                - generic [ref=e105]: Spray & Disease
+              - generic [ref=e106]:
+                - 'heading "Apple Scab: Identify, Prevent, and Treat" [level=3] [ref=e107]'
+                - time [ref=e109]: May 26, 2026
+          - article [ref=e111]:
+            - 'link "Apple Grading and Packing: Getting Better Prices at the Mandi Business & Market Apple Grading and Packing: Getting Better Prices at the Mandi May 21, 2026" [ref=e112] [cursor=pointer]':
+              - /url: http://127.0.0.1:8000/blog/post/apple-grading-packing-better-prices
+              - generic [ref=e113]:
+                - 'img "Apple Grading and Packing: Getting Better Prices at the Mandi" [ref=e114]'
+                - generic [ref=e115]: Business & Market
+              - generic [ref=e116]:
+                - 'heading "Apple Grading and Packing: Getting Better Prices at the Mandi" [level=3] [ref=e117]'
+                - time [ref=e119]: May 21, 2026
+          - article [ref=e121]:
+            - 'link "HRMN-99: The Apple That Changed Hill Farming Variety Guide HRMN-99: The Apple That Changed Hill Farming May 18, 2026" [ref=e122] [cursor=pointer]':
+              - /url: http://127.0.0.1:8000/blog/post/hrmn-99-low-chill-apple-revolution
+              - generic [ref=e123]:
+                - 'img "HRMN-99: The Apple That Changed Hill Farming" [ref=e124]'
+                - generic [ref=e125]: Variety Guide
+              - generic [ref=e126]:
+                - 'heading "HRMN-99: The Apple That Changed Hill Farming" [level=3] [ref=e127]'
+                - time [ref=e129]: May 18, 2026
+    - region "Explore Fruits" [ref=e130]:
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - heading "Explore Fruits" [level=2] [ref=e134]
+            - paragraph [ref=e135]: Fruits suited for Himalayan orchards.
+          - link "All Fruits" [ref=e136] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/fruits
+            - text: All Fruits
+            - img [ref=e137]
+        - generic [ref=e140]:
+          - article [ref=e142]:
+            - link "Apple 56 Varieties Apple सेब 56 varieties · 0 strains · 42 diseases · 20 rootstocks" [ref=e143] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/apple
+              - generic [ref=e144]:
+                - img "Apple" [ref=e145]
+                - generic [ref=e146]: 56 Varieties
+              - generic [ref=e147]:
+                - heading "Apple" [level=3] [ref=e148]
+                - paragraph [ref=e149]: सेब
+                - generic [ref=e150]:
+                  - generic [ref=e151]: 56 varieties
+                  - generic [ref=e152]: ·
+                  - generic [ref=e153]: 0 strains
+                  - generic [ref=e154]: ·
+                  - generic [ref=e155]: 42 diseases
+                  - generic [ref=e156]: ·
+                  - generic [ref=e157]: 20 rootstocks
+          - article [ref=e159]:
+            - link "Apricot 0 Varieties Apricot खुबानी 0 varieties · 0 strains · 0 diseases · 0 rootstocks" [ref=e160] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/apricot
+              - generic [ref=e161]:
+                - img "Apricot" [ref=e162]
+                - generic [ref=e163]: 0 Varieties
+              - generic [ref=e164]:
+                - heading "Apricot" [level=3] [ref=e165]
+                - paragraph [ref=e166]: खुबानी
+                - generic [ref=e167]:
+                  - generic [ref=e168]: 0 varieties
+                  - generic [ref=e169]: ·
+                  - generic [ref=e170]: 0 strains
+                  - generic [ref=e171]: ·
+                  - generic [ref=e172]: 0 diseases
+                  - generic [ref=e173]: ·
+                  - generic [ref=e174]: 0 rootstocks
+          - article [ref=e176]:
+            - link "Cherry 0 Varieties Cherry चेरी 0 varieties · 0 strains · 0 diseases · 0 rootstocks" [ref=e177] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/cherry
+              - generic [ref=e178]:
+                - img "Cherry" [ref=e179]
+                - generic [ref=e180]: 0 Varieties
+              - generic [ref=e181]:
+                - heading "Cherry" [level=3] [ref=e182]
+                - paragraph [ref=e183]: चेरी
+                - generic [ref=e184]:
+                  - generic [ref=e185]: 0 varieties
+                  - generic [ref=e186]: ·
+                  - generic [ref=e187]: 0 strains
+                  - generic [ref=e188]: ·
+                  - generic [ref=e189]: 0 diseases
+                  - generic [ref=e190]: ·
+                  - generic [ref=e191]: 0 rootstocks
+          - article [ref=e193]:
+            - link "Peach 0 Varieties Peach आड़ू 0 varieties · 0 strains · 0 diseases · 0 rootstocks" [ref=e194] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/peach
+              - generic [ref=e195]:
+                - img "Peach" [ref=e196]
+                - generic [ref=e197]: 0 Varieties
+              - generic [ref=e198]:
+                - heading "Peach" [level=3] [ref=e199]
+                - paragraph [ref=e200]: आड़ू
+                - generic [ref=e201]:
+                  - generic [ref=e202]: 0 varieties
+                  - generic [ref=e203]: ·
+                  - generic [ref=e204]: 0 strains
+                  - generic [ref=e205]: ·
+                  - generic [ref=e206]: 0 diseases
+                  - generic [ref=e207]: ·
+                  - generic [ref=e208]: 0 rootstocks
+          - article [ref=e210]:
+            - link "Pear 0 Varieties Pear नाशपाती 0 varieties · 0 strains · 0 diseases · 0 rootstocks" [ref=e211] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/pear
+              - generic [ref=e212]:
+                - img "Pear" [ref=e213]
+                - generic [ref=e214]: 0 Varieties
+              - generic [ref=e215]:
+                - heading "Pear" [level=3] [ref=e216]
+                - paragraph [ref=e217]: नाशपाती
+                - generic [ref=e218]:
+                  - generic [ref=e219]: 0 varieties
+                  - generic [ref=e220]: ·
+                  - generic [ref=e221]: 0 strains
+                  - generic [ref=e222]: ·
+                  - generic [ref=e223]: 0 diseases
+                  - generic [ref=e224]: ·
+                  - generic [ref=e225]: 0 rootstocks
+          - article [ref=e227]:
+            - link "Persimmon 0 Varieties Persimmon तेंदू फल 0 varieties · 0 strains · 0 diseases · 0 rootstocks" [ref=e228] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/persimmon
+              - generic [ref=e229]:
+                - img "Persimmon" [ref=e230]
+                - generic [ref=e231]: 0 Varieties
+              - generic [ref=e232]:
+                - heading "Persimmon" [level=3] [ref=e233]
+                - paragraph [ref=e234]: तेंदू फल
+                - generic [ref=e235]:
+                  - generic [ref=e236]: 0 varieties
+                  - generic [ref=e237]: ·
+                  - generic [ref=e238]: 0 strains
+                  - generic [ref=e239]: ·
+                  - generic [ref=e240]: 0 diseases
+                  - generic [ref=e241]: ·
+                  - generic [ref=e242]: 0 rootstocks
+          - article [ref=e244]:
+            - link "Plum 0 Varieties Plum आलूबुखारा 0 varieties · 0 strains · 0 diseases · 0 rootstocks" [ref=e245] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/plum
+              - generic [ref=e246]:
+                - img "Plum" [ref=e247]
+                - generic [ref=e248]: 0 Varieties
+              - generic [ref=e249]:
+                - heading "Plum" [level=3] [ref=e250]
+                - paragraph [ref=e251]: आलूबुखारा
+                - generic [ref=e252]:
+                  - generic [ref=e253]: 0 varieties
+                  - generic [ref=e254]: ·
+                  - generic [ref=e255]: 0 strains
+                  - generic [ref=e256]: ·
+                  - generic [ref=e257]: 0 diseases
+                  - generic [ref=e258]: ·
+                  - generic [ref=e259]: 0 rootstocks
+          - article [ref=e261]:
+            - link "Pomegranate 0 Varieties Pomegranate अनार 0 varieties · 0 strains · 0 diseases · 0 rootstocks" [ref=e262] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/pomegranate
+              - generic [ref=e263]:
+                - img "Pomegranate" [ref=e264]
+                - generic [ref=e265]: 0 Varieties
+              - generic [ref=e266]:
+                - heading "Pomegranate" [level=3] [ref=e267]
+                - paragraph [ref=e268]: अनार
+                - generic [ref=e269]:
+                  - generic [ref=e270]: 0 varieties
+                  - generic [ref=e271]: ·
+                  - generic [ref=e272]: 0 strains
+                  - generic [ref=e273]: ·
+                  - generic [ref=e274]: 0 diseases
+                  - generic [ref=e275]: ·
+                  - generic [ref=e276]: 0 rootstocks
+    - region "Recommended Rootstocks" [ref=e277]:
+      - generic [ref=e278]:
+        - generic [ref=e279]:
+          - generic [ref=e280]:
+            - heading "Recommended Rootstocks" [level=2] [ref=e281]
+            - paragraph [ref=e282]: Rootstocks suited for Himalayan orchards.
+          - link "All Rootstocks" [ref=e283] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/rootstock
+            - text: All Rootstocks
+            - img [ref=e284]
+        - generic [ref=e287]:
+          - article [ref=e289]:
+            - link "B.118 Semi-Dwarfing  HP Rec. B.118 बी.118 Budagovsky 118  4.0m × 1.5m ·  0" [ref=e290] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/b-118
+              - generic [ref=e291]:
+                - img "B.118" [ref=e292]
+                - generic [ref=e293]: Semi-Dwarfing
+                - generic [ref=e294]:
+                  - generic [ref=e295]: 
+                  - text: HP Rec.
+              - generic [ref=e296]:
+                - heading "B.118" [level=3] [ref=e297]
+                - paragraph [ref=e298]: बी.118
+                - paragraph [ref=e299]: Budagovsky 118
+                - generic [ref=e300]:
+                  - generic [ref=e301]:
+                    - generic [ref=e302]: 
+                    - text: 4.0m × 1.5m
+                  - generic [ref=e303]: ·
+                  - generic [ref=e304]:
+                    - generic [ref=e305]: 
+                    - text: "0"
+          - article [ref=e307]:
+            - link "B.9 Dwarfing  HP Rec. B.9 बी.9 Budagovsky 9  3.5m × 1.0m ·  0" [ref=e308] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/b-9
+              - generic [ref=e309]:
+                - img "B.9" [ref=e310]
+                - generic [ref=e311]: Dwarfing
+                - generic [ref=e312]:
+                  - generic [ref=e313]: 
+                  - text: HP Rec.
+              - generic [ref=e314]:
+                - heading "B.9" [level=3] [ref=e315]
+                - paragraph [ref=e316]: बी.9
+                - paragraph [ref=e317]: Budagovsky 9
+                - generic [ref=e318]:
+                  - generic [ref=e319]:
+                    - generic [ref=e320]: 
+                    - text: 3.5m × 1.0m
+                  - generic [ref=e321]: ·
+                  - generic [ref=e322]:
+                    - generic [ref=e323]: 
+                    - text: "0"
+          - article [ref=e325]:
+            - link "G.11 Semi-Dwarfing  HP Rec. G.11 जी .11 Geneva 11  4.0m × 1.3m ·  0" [ref=e326] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/g-11
+              - generic [ref=e327]:
+                - img "G.11" [ref=e328]
+                - generic [ref=e329]: Semi-Dwarfing
+                - generic [ref=e330]:
+                  - generic [ref=e331]: 
+                  - text: HP Rec.
+              - generic [ref=e332]:
+                - heading "G.11" [level=3] [ref=e333]
+                - paragraph [ref=e334]: जी .11
+                - paragraph [ref=e335]: Geneva 11
+                - generic [ref=e336]:
+                  - generic [ref=e337]:
+                    - generic [ref=e338]: 
+                    - text: 4.0m × 1.3m
+                  - generic [ref=e339]: ·
+                  - generic [ref=e340]:
+                    - generic [ref=e341]: 
+                    - text: "0"
+          - article [ref=e343]:
+            - link "G.214 Dwarfing  HP Rec. G.214 जी .214 Geneva 214  3.5m × 1.0m ·  0" [ref=e344] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/g-214
+              - generic [ref=e345]:
+                - img "G.214" [ref=e346]
+                - generic [ref=e347]: Dwarfing
+                - generic [ref=e348]:
+                  - generic [ref=e349]: 
+                  - text: HP Rec.
+              - generic [ref=e350]:
+                - heading "G.214" [level=3] [ref=e351]
+                - paragraph [ref=e352]: जी .214
+                - paragraph [ref=e353]: Geneva 214
+                - generic [ref=e354]:
+                  - generic [ref=e355]:
+                    - generic [ref=e356]: 
+                    - text: 3.5m × 1.0m
+                  - generic [ref=e357]: ·
+                  - generic [ref=e358]:
+                    - generic [ref=e359]: 
+                    - text: "0"
+          - article [ref=e361]:
+            - link "G.41 Dwarfing  HP Rec. G.41 जी .41 Geneva 41  3.5m × 1.1m ·  0" [ref=e362] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/g-41
+              - generic [ref=e363]:
+                - img "G.41" [ref=e364]
+                - generic [ref=e365]: Dwarfing
+                - generic [ref=e366]:
+                  - generic [ref=e367]: 
+                  - text: HP Rec.
+              - generic [ref=e368]:
+                - heading "G.41" [level=3] [ref=e369]
+                - paragraph [ref=e370]: जी .41
+                - paragraph [ref=e371]: Geneva 41
+                - generic [ref=e372]:
+                  - generic [ref=e373]:
+                    - generic [ref=e374]: 
+                    - text: 3.5m × 1.1m
+                  - generic [ref=e375]: ·
+                  - generic [ref=e376]:
+                    - generic [ref=e377]: 
+                    - text: "0"
+          - article [ref=e379]:
+            - link "G.935 Semi-Vigorous  HP Rec. G.935 जी .935 Geneva 935  4.5m × 1.8m ·  0" [ref=e380] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/g-935
+              - generic [ref=e381]:
+                - img "G.935" [ref=e382]
+                - generic [ref=e383]: Semi-Vigorous
+                - generic [ref=e384]:
+                  - generic [ref=e385]: 
+                  - text: HP Rec.
+              - generic [ref=e386]:
+                - heading "G.935" [level=3] [ref=e387]
+                - paragraph [ref=e388]: जी .935
+                - paragraph [ref=e389]: Geneva 935
+                - generic [ref=e390]:
+                  - generic [ref=e391]:
+                    - generic [ref=e392]: 
+                    - text: 4.5m × 1.8m
+                  - generic [ref=e393]: ·
+                  - generic [ref=e394]:
+                    - generic [ref=e395]: 
+                    - text: "0"
+          - article [ref=e397]:
+            - link "G.969 Semi-Dwarfing  HP Rec. G.969 जी .969 Geneva 969  4.0m × 1.5m ·  0" [ref=e398] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/g-969
+              - generic [ref=e399]:
+                - img "G.969" [ref=e400]
+                - generic [ref=e401]: Semi-Dwarfing
+                - generic [ref=e402]:
+                  - generic [ref=e403]: 
+                  - text: HP Rec.
+              - generic [ref=e404]:
+                - heading "G.969" [level=3] [ref=e405]
+                - paragraph [ref=e406]: जी .969
+                - paragraph [ref=e407]: Geneva 969
+                - generic [ref=e408]:
+                  - generic [ref=e409]:
+                    - generic [ref=e410]: 
+                    - text: 4.0m × 1.5m
+                  - generic [ref=e411]: ·
+                  - generic [ref=e412]:
+                    - generic [ref=e413]: 
+                    - text: "0"
+          - article [ref=e415]:
+            - link "M.7 Semi-Dwarfing  HP Rec. M.7 एम .7 Malling 7  4.0m × 1.5m ·  0" [ref=e416] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/m-7
+              - generic [ref=e417]:
+                - img "M.7" [ref=e418]
+                - generic [ref=e419]: Semi-Dwarfing
+                - generic [ref=e420]:
+                  - generic [ref=e421]: 
+                  - text: HP Rec.
+              - generic [ref=e422]:
+                - heading "M.7" [level=3] [ref=e423]
+                - paragraph [ref=e424]: एम .7
+                - paragraph [ref=e425]: Malling 7
+                - generic [ref=e426]:
+                  - generic [ref=e427]:
+                    - generic [ref=e428]: 
+                    - text: 4.0m × 1.5m
+                  - generic [ref=e429]: ·
+                  - generic [ref=e430]:
+                    - generic [ref=e431]: 
+                    - text: "0"
+    - region "Take Baagvaani Everywhere" [ref=e432]:
+      - generic [ref=e434]:
+        - generic [ref=e435]:
+          - heading "Take Baagvaani Everywhere" [level=2] [ref=e436]
+          - paragraph [ref=e437]: Get spray schedules, weather alerts, and expert advice on the go. The Baagvaani app is built for farmers.
+          - paragraph [ref=e438]: बागीचा ऐप — हर किसान की ज़रूरत।
+          - generic [ref=e439]:
+            - generic "Coming soon" [ref=e440]:
+              - img [ref=e441]
+              - generic [ref=e443]:
+                - generic [ref=e444]: Download on the
+                - generic [ref=e445]: App Store
+            - generic "Coming soon" [ref=e446]:
+              - img [ref=e447]
+              - generic [ref=e449]:
+                - generic [ref=e450]: Get it on
+                - generic [ref=e451]: Google Play
+          - button "Join Waitlist" [ref=e454]
+        - img "Baagvaani mobile app interface preview" [ref=e458]
+  - contentinfo [ref=e459]:
+    - generic [ref=e460]:
+      - generic [ref=e461]:
+        - generic [ref=e462]:
+          - link "Baagvaani" [ref=e463] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e465]: Baagvaani
+          - paragraph [ref=e466]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e468]: Social channels coming soon
+        - generic [ref=e469]:
+          - heading "Quick Links" [level=3] [ref=e470]
+          - list [ref=e471]:
+            - listitem [ref=e472]:
+              - link "Home" [ref=e473] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e474]:
+              - link "Blog" [ref=e475] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e476]:
+              - link "About Us" [ref=e477] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e478]:
+          - heading "Topics" [level=3] [ref=e479]
+          - list [ref=e480]:
+            - listitem [ref=e481]:
+              - link "Spray & Disease" [ref=e482] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e483]:
+              - link "Orchard Care" [ref=e484] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e485]:
+              - link "Variety Guide" [ref=e486] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e487]:
+              - link "Weather & Climate" [ref=e488] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e489]:
+          - heading "Newsletter" [level=3] [ref=e490]
+          - paragraph [ref=e491]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e492]:
+            - textbox "Enter your email" [ref=e493]
+            - button "Subscribe" [ref=e494]
+          - paragraph [ref=e495]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e497]: © 2026 Baagvaani. All rights reserved.
+  - text:  

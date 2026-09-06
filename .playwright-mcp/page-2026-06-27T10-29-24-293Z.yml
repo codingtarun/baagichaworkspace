@@ -1,0 +1,354 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 25° in Kinnaur Valley, Partly cloudy · 56% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://192.168.1.100:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e16]: 25°
+      - button "Toggle menu" [ref=e18]:
+        - img [ref=e19]
+  - main [ref=e21]:
+    - region "Disease Library" [ref=e22]:
+      - generic [ref=e26]:
+        - heading "Disease Library" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Identify and manage apple diseases, pests, and disorders common in Himalayan orchards.
+        - generic [ref=e29]:
+          - textbox "Search diseases..." [ref=e30]
+          - button "Search" [ref=e31] [cursor=pointer]
+    - generic [ref=e32]:
+      - button " Filters" [ref=e36]:
+        - generic [ref=e37]: 
+        - generic [ref=e38]: Filters
+      - text:                      
+    - region "All Diseases" [ref=e39]:
+      - generic [ref=e40]:
+        - heading "All Diseases" [level=2] [ref=e41]
+        - generic [ref=e42]:
+          - article [ref=e43]:
+            - link "Alternaria Leaf Spot  Medium  HP Alternaria Leaf Spot अल्टरनेरिया पत्ती धब्बा" [ref=e44] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/alternaria-leaf-spot
+              - generic [ref=e45]:
+                - img "Alternaria Leaf Spot" [ref=e46]
+                - generic [ref=e47]:
+                  - generic [ref=e48]: 
+                  - text: Medium
+                - generic [ref=e49]:
+                  - generic [ref=e50]: 
+                  - text: HP
+              - generic [ref=e51]:
+                - heading "Alternaria Leaf Spot" [level=3] [ref=e52]
+                - paragraph [ref=e53]: अल्टरनेरिया पत्ती धब्बा
+          - article [ref=e54]:
+            - link "Apple Blossom Thrips  Medium  HP Apple Blossom Thrips सेब फूल थ्रिप्स Blossom thrips feed on flower parts and young fruit, causing silvery scarring and deformat..." [ref=e55] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-blossom-thrips
+              - generic [ref=e56]:
+                - img "Apple Blossom Thrips" [ref=e57]
+                - generic [ref=e58]:
+                  - generic [ref=e59]: 
+                  - text: Medium
+                - generic [ref=e60]:
+                  - generic [ref=e61]: 
+                  - text: HP
+              - generic [ref=e62]:
+                - heading "Apple Blossom Thrips" [level=3] [ref=e63]
+                - paragraph [ref=e64]: सेब फूल थ्रिप्स
+                - paragraph [ref=e65]: Blossom thrips feed on flower parts and young fruit, causing silvery scarring and deformat...
+          - article [ref=e66]:
+            - link "Apple Clearwing Borer  High  HP Apple Clearwing Borer सेब क्लियरविंग बोरर Clearwing borer larvae tunnel under bark, weakening scaffold limbs and trunks. Infested tr..." [ref=e67] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-clearwing-borer
+              - generic [ref=e68]:
+                - img "Apple Clearwing Borer" [ref=e69]
+                - generic [ref=e70]:
+                  - generic [ref=e71]: 
+                  - text: High
+                - generic [ref=e72]:
+                  - generic [ref=e73]: 
+                  - text: HP
+              - generic [ref=e74]:
+                - heading "Apple Clearwing Borer" [level=3] [ref=e75]
+                - paragraph [ref=e76]: सेब क्लियरविंग बोरर
+                - paragraph [ref=e77]: Clearwing borer larvae tunnel under bark, weakening scaffold limbs and trunks. Infested tr...
+          - article [ref=e78]:
+            - link "Apple Fruit Moth  Medium  HP Apple Fruit Moth सेब फ्रूट मोथ Fruit moth larvae bore into young apples, causing fruit drop and scarring." [ref=e79] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-fruit-moth
+              - generic [ref=e80]:
+                - img "Apple Fruit Moth" [ref=e81]
+                - generic [ref=e82]:
+                  - generic [ref=e83]: 
+                  - text: Medium
+                - generic [ref=e84]:
+                  - generic [ref=e85]: 
+                  - text: HP
+              - generic [ref=e86]:
+                - heading "Apple Fruit Moth" [level=3] [ref=e87]
+                - paragraph [ref=e88]: सेब फ्रूट मोथ
+                - paragraph [ref=e89]: Fruit moth larvae bore into young apples, causing fruit drop and scarring.
+          - article [ref=e90]:
+            - link "Apple Leaf Miner  Low  HP Apple Leaf Miner सेब लीफ माइनर Leaf miner larvae tunnel inside leaves, creating winding mines that reduce leaf function." [ref=e91] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-leaf-miner
+              - generic [ref=e92]:
+                - img "Apple Leaf Miner" [ref=e93]
+                - generic [ref=e94]:
+                  - generic [ref=e95]: 
+                  - text: Low
+                - generic [ref=e96]:
+                  - generic [ref=e97]: 
+                  - text: HP
+              - generic [ref=e98]:
+                - heading "Apple Leaf Miner" [level=3] [ref=e99]
+                - paragraph [ref=e100]: सेब लीफ माइनर
+                - paragraph [ref=e101]: Leaf miner larvae tunnel inside leaves, creating winding mines that reduce leaf function.
+          - article [ref=e102]:
+            - link "Apple Root Borer  Medium Apple Root Borer सेब की जड़ छेदक" [ref=e103] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-apple-root-borer
+              - generic [ref=e104]:
+                - img "Apple Root Borer" [ref=e105]
+                - generic [ref=e106]:
+                  - generic [ref=e107]: 
+                  - text: Medium
+              - generic [ref=e108]:
+                - heading "Apple Root Borer" [level=3] [ref=e109]
+                - paragraph [ref=e110]: सेब की जड़ छेदक
+          - article [ref=e111]:
+            - link "Apple Root Borer  High  HP Apple Root Borer सेब रूट बोरर Root borer grubs feed on roots, leading to yellowing, wilting and eventual death of trees." [ref=e112] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-root-borer
+              - generic [ref=e113]:
+                - img "Apple Root Borer" [ref=e114]
+                - generic [ref=e115]:
+                  - generic [ref=e116]: 
+                  - text: High
+                - generic [ref=e117]:
+                  - generic [ref=e118]: 
+                  - text: HP
+              - generic [ref=e119]:
+                - heading "Apple Root Borer" [level=3] [ref=e120]
+                - paragraph [ref=e121]: सेब रूट बोरर
+                - paragraph [ref=e122]: Root borer grubs feed on roots, leading to yellowing, wilting and eventual death of trees.
+          - article [ref=e123]:
+            - link "Apple Scab  High  HP Apple Scab सेब का दाग" [ref=e124] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/apple-scab
+              - generic [ref=e125]:
+                - img "Apple Scab" [ref=e126]
+                - generic [ref=e127]:
+                  - generic [ref=e128]: 
+                  - text: High
+                - generic [ref=e129]:
+                  - generic [ref=e130]: 
+                  - text: HP
+              - generic [ref=e131]:
+                - heading "Apple Scab" [level=3] [ref=e132]
+                - paragraph [ref=e133]: सेब का दाग
+          - article [ref=e134]:
+            - link "Bitter Pit  Medium  HP Bitter Pit बिटर पिट Bitter Pit is a calcium deficiency disorder appearing as small sunken spots on fruit surfa..." [ref=e135] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/bitter-pit
+              - generic [ref=e136]:
+                - img "Bitter Pit" [ref=e137]
+                - generic [ref=e138]:
+                  - generic [ref=e139]: 
+                  - text: Medium
+                - generic [ref=e140]:
+                  - generic [ref=e141]: 
+                  - text: HP
+              - generic [ref=e142]:
+                - heading "Bitter Pit" [level=3] [ref=e143]
+                - paragraph [ref=e144]: बिटर पिट
+                - paragraph [ref=e145]: Bitter Pit is a calcium deficiency disorder appearing as small sunken spots on fruit surfa...
+          - article [ref=e146]:
+            - link "Bitter Rot  High  HP Bitter Rot कड़वा सड़न Bitter Rot causes sunken lesions with pink spore masses, common in warm, humid regions." [ref=e147] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/bitter-rot
+              - generic [ref=e148]:
+                - img "Bitter Rot" [ref=e149]
+                - generic [ref=e150]:
+                  - generic [ref=e151]: 
+                  - text: High
+                - generic [ref=e152]:
+                  - generic [ref=e153]: 
+                  - text: HP
+              - generic [ref=e154]:
+                - heading "Bitter Rot" [level=3] [ref=e155]
+                - paragraph [ref=e156]: कड़वा सड़न
+                - paragraph [ref=e157]: Bitter Rot causes sunken lesions with pink spore masses, common in warm, humid regions.
+          - article [ref=e158]:
+            - link "Black Rot  Medium  HP Black Rot काला सड़ांध" [ref=e159] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/black-rot
+              - generic [ref=e160]:
+                - img "Black Rot" [ref=e161]
+                - generic [ref=e162]:
+                  - generic [ref=e163]: 
+                  - text: Medium
+                - generic [ref=e164]:
+                  - generic [ref=e165]: 
+                  - text: HP
+              - generic [ref=e166]:
+                - heading "Black Rot" [level=3] [ref=e167]
+                - paragraph [ref=e168]: काला सड़ांध
+          - article [ref=e169]:
+            - link "Brown Mite  Medium  HP Brown Mite ब्राउन माइट Brown mite feeds on leaves early in the season, causing silvering and reduced shoot growth..." [ref=e170] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/brown-mite
+              - generic [ref=e171]:
+                - img "Brown Mite" [ref=e172]
+                - generic [ref=e173]:
+                  - generic [ref=e174]: 
+                  - text: Medium
+                - generic [ref=e175]:
+                  - generic [ref=e176]: 
+                  - text: HP
+              - generic [ref=e177]:
+                - heading "Brown Mite" [level=3] [ref=e178]
+                - paragraph [ref=e179]: ब्राउन माइट
+                - paragraph [ref=e180]: Brown mite feeds on leaves early in the season, causing silvering and reduced shoot growth...
+          - article [ref=e181]:
+            - link "Brown Rot  High  HP Brown Rot भूरा सड़न Brown Rot causes soft brown decay of fruit and blossom blight, with characteristic tan spo..." [ref=e182] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/brown-rot
+              - generic [ref=e183]:
+                - img "Brown Rot" [ref=e184]
+                - generic [ref=e185]:
+                  - generic [ref=e186]: 
+                  - text: High
+                - generic [ref=e187]:
+                  - generic [ref=e188]: 
+                  - text: HP
+              - generic [ref=e189]:
+                - heading "Brown Rot" [level=3] [ref=e190]
+                - paragraph [ref=e191]: भूरा सड़न
+                - paragraph [ref=e192]: Brown Rot causes soft brown decay of fruit and blossom blight, with characteristic tan spo...
+          - article [ref=e193]:
+            - link "Codling Moth  High  HP Codling Moth कोडलिंग मॉथ" [ref=e194] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/codling-moth
+              - generic [ref=e195]:
+                - img "Codling Moth" [ref=e196]
+                - generic [ref=e197]:
+                  - generic [ref=e198]: 
+                  - text: High
+                - generic [ref=e199]:
+                  - generic [ref=e200]: 
+                  - text: HP
+              - generic [ref=e201]:
+                - heading "Codling Moth" [level=3] [ref=e202]
+                - paragraph [ref=e203]: कोडलिंग मॉथ
+          - article [ref=e204]:
+            - link "Collar Rot  Critical  HP Collar Rot कॉलर रोट Collar Rot attacks the trunk at ground level, girdling the tree and causing rapid decline..." [ref=e205] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/collar-rot
+              - generic [ref=e206]:
+                - img "Collar Rot" [ref=e207]
+                - generic [ref=e208]:
+                  - generic [ref=e209]: 
+                  - text: Critical
+                - generic [ref=e210]:
+                  - generic [ref=e211]: 
+                  - text: HP
+              - generic [ref=e212]:
+                - heading "Collar Rot" [level=3] [ref=e213]
+                - paragraph [ref=e214]: कॉलर रोट
+                - paragraph [ref=e215]: Collar Rot attacks the trunk at ground level, girdling the tree and causing rapid decline...
+          - article [ref=e216]:
+            - link "Cork Spot  Medium  HP Cork Spot कॉर्क स्पॉट Cork Spot appears as small corky areas on fruit skin, caused by calcium deficiency and irr..." [ref=e217] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/cork-spot
+              - generic [ref=e218]:
+                - img "Cork Spot" [ref=e219]
+                - generic [ref=e220]:
+                  - generic [ref=e221]: 
+                  - text: Medium
+                - generic [ref=e222]:
+                  - generic [ref=e223]: 
+                  - text: HP
+              - generic [ref=e224]:
+                - heading "Cork Spot" [level=3] [ref=e225]
+                - paragraph [ref=e226]: कॉर्क स्पॉट
+                - paragraph [ref=e227]: Cork Spot appears as small corky areas on fruit skin, caused by calcium deficiency and irr...
+          - article [ref=e228]:
+            - link "Crown Gall  Medium  HP Crown Gall क्राउन गॉल Crown Gall causes rough woody galls at the crown and on roots, interfering with nutrient a..." [ref=e229] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/crown-gall
+              - generic [ref=e230]:
+                - img "Crown Gall" [ref=e231]
+                - generic [ref=e232]:
+                  - generic [ref=e233]: 
+                  - text: Medium
+                - generic [ref=e234]:
+                  - generic [ref=e235]: 
+                  - text: HP
+              - generic [ref=e236]:
+                - heading "Crown Gall" [level=3] [ref=e237]
+                - paragraph [ref=e238]: क्राउन गॉल
+                - paragraph [ref=e239]: Crown Gall causes rough woody galls at the crown and on roots, interfering with nutrient a...
+          - article [ref=e240]:
+            - link "European Canker  High European Canker यूरोपीय कैंकर" [ref=e241] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/diseases/european-european-canker
+              - generic [ref=e242]:
+                - img "European Canker" [ref=e243]
+                - generic [ref=e244]:
+                  - generic [ref=e245]: 
+                  - text: High
+              - generic [ref=e246]:
+                - heading "European Canker" [level=3] [ref=e247]
+                - paragraph [ref=e248]: यूरोपीय कैंकर
+        - navigation "Pagination Navigation" [ref=e250]:
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - generic "&laquo; Previous" [ref=e253]:
+                - generic [ref=e254]: 
+              - generic [ref=e255]: "1"
+              - link "Go to page 2" [ref=e256] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/disease?page=2
+                - text: "2"
+              - link "Go to page 3" [ref=e257] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/disease?page=3
+                - text: "3"
+              - link "Next &raquo;" [ref=e258] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/disease?page=2
+                - generic [ref=e259]: 
+            - paragraph [ref=e260]: Showing 1 to 18 of 48 results
+  - contentinfo [ref=e261]:
+    - generic [ref=e262]:
+      - generic [ref=e263]:
+        - generic [ref=e264]:
+          - link "Baagvaani" [ref=e265] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e267]: Baagvaani
+          - paragraph [ref=e268]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e270]: Social channels coming soon
+        - generic [ref=e271]:
+          - heading "Quick Links" [level=3] [ref=e272]
+          - list [ref=e273]:
+            - listitem [ref=e274]:
+              - link "Home" [ref=e275] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e276]:
+              - link "Blog" [ref=e277] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e278]:
+              - link "About Us" [ref=e279] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e280]:
+          - heading "Topics" [level=3] [ref=e281]
+          - list [ref=e282]:
+            - listitem [ref=e283]:
+              - link "Spray & Disease" [ref=e284] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e285]:
+              - link "Orchard Care" [ref=e286] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e287]:
+              - link "Variety Guide" [ref=e288] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e289]:
+              - link "Weather & Climate" [ref=e290] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e291]:
+          - heading "Newsletter" [level=3] [ref=e292]
+          - paragraph [ref=e293]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e294]:
+            - textbox "Enter your email" [ref=e295]
+            - button "Subscribe" [ref=e296]
+          - paragraph [ref=e297]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e299]: © 2026 Baagvaani. All rights reserved.
+  - text:  

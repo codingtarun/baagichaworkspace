@@ -20,6 +20,7 @@ no business logic, no schema, no route definitions.
 | [`.claude/context/architecture.md`](.claude/context/architecture.md) | how the three repos fit together, module layout, API contract |
 | [`.claude/context/state-of-the-code.md`](.claude/context/state-of-the-code.md) | measured audit — sizes, test results, what is real vs. aspirational |
 | [`.claude/context/known-issues.md`](.claude/context/known-issues.md) | confirmed defects with evidence, ranked |
+| [`.claude/context/modules.md`](.claude/context/modules.md) | Blog / VarietyStrain / Disease — measured module analysis, data coverage, gaps |
 | [`.claude/context/environments.md`](.claude/context/environments.md) | local setup, database, deployment, credentials map |
 | [`.claude/context/open-questions.md`](.claude/context/open-questions.md) | decisions only Tarun can make — ask before assuming |
 

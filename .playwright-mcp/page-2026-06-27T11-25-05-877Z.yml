@@ -1,0 +1,455 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 24° in Kinnaur Valley, Partly cloudy · 61% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://127.0.0.1:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e16]: 24°
+      - button "Toggle menu" [ref=e18]:
+        - img [ref=e19]
+  - main [ref=e21]:
+    - region "Shop" [ref=e22]:
+      - generic [ref=e26]:
+        - heading "Shop" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Quality supplies for your orchard.
+        - generic [ref=e29]:
+          - textbox "Search products..." [ref=e30]
+          - button "Search" [ref=e31] [cursor=pointer]
+    - navigation "Breadcrumb" [ref=e32]:
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - link "Home" [ref=e35] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+        - listitem [ref=e36]:
+          - img [ref=e37]
+        - listitem [ref=e39]: Shop
+    - region "All Products" [ref=e40]:
+      - generic [ref=e42]:
+        - complementary "Product filters" [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - heading "Categories" [level=3] [ref=e46]
+              - generic [ref=e47]:
+                - link "All Categories" [ref=e48] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop
+                - link "Hand Sprayers" [ref=e49] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?category_slug=hand-sprayers
+                - link "Pruning Tools" [ref=e50] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?category_slug=pruning-tools
+                - link "Tools" [ref=e51] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?category_slug=tools
+                - link "Cutting Tools" [ref=e52] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?category_slug=cutting-tools
+                - link "Spray Equipment" [ref=e53] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?category_slug=spray-equipment
+                - link "Safety & Protection" [ref=e54] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?category_slug=safety-protection
+            - generic [ref=e55]:
+              - heading "Brands" [level=3] [ref=e56]
+              - generic [ref=e57]:
+                - link "ARS" [ref=e58] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?brand_slug=ars
+                - link "Bahco" [ref=e59] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?brand_slug=bahco
+                - link "Corona" [ref=e60] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?brand_slug=corona
+                - link "Fiskars" [ref=e61] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?brand_slug=fiskars
+                - link "Okatsune" [ref=e62] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/shop?brand_slug=okatsune
+            - generic [ref=e63]:
+              - heading "Price Range" [level=3] [ref=e64]
+              - generic [ref=e65]:
+                - spinbutton [ref=e66]
+                - spinbutton [ref=e67]
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - heading "All Products" [level=1] [ref=e70]
+            - generic [ref=e71]:
+              - generic [ref=e72]: 21 products
+              - combobox [ref=e73]:
+                - option "Sort by" [selected]
+                - option "Popular"
+                - option "Newest"
+                - 'option "Price: Low to High"'
+                - 'option "Price: High to Low"'
+                - option "Top Rated"
+          - generic [ref=e74]:
+            - article [ref=e75]:
+              - link "Rootstock M9 Plant Sale Rootstock M9 Plant ₹95 ₹120 3.3 (3)" [ref=e76] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/rootstock-m9-plant-3-5
+                - generic [ref=e77]:
+                  - img "Rootstock M9 Plant" [ref=e78]
+                  - generic [ref=e79]: Sale
+                - generic [ref=e80]:
+                  - heading "Rootstock M9 Plant" [level=3] [ref=e81]
+                  - generic [ref=e82]:
+                    - generic [ref=e83]: ₹95
+                    - generic [ref=e84]: ₹120
+                  - generic [ref=e85]:
+                    - img [ref=e86]
+                    - generic [ref=e88]: "3.3"
+                    - generic [ref=e89]: (3)
+              - button "Add to Cart" [ref=e92]
+            - article [ref=e93]:
+              - link "Organic Fertilizer 5kg Sale Organic Fertilizer 5kg ₹280 ₹350 3.8 (4)" [ref=e94] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/organic-fertilizer-5kg-3-4
+                - generic [ref=e95]:
+                  - img "Organic Fertilizer 5kg" [ref=e96]
+                  - generic [ref=e97]: Sale
+                - generic [ref=e98]:
+                  - heading "Organic Fertilizer 5kg" [level=3] [ref=e99]
+                  - generic [ref=e100]:
+                    - generic [ref=e101]: ₹280
+                    - generic [ref=e102]: ₹350
+                  - generic [ref=e103]:
+                    - img [ref=e104]
+                    - generic [ref=e106]: "3.8"
+                    - generic [ref=e107]: (4)
+              - button "Add to Cart" [ref=e110]
+            - article [ref=e111]:
+              - link "Hand Sprayer 16L Sale Hand Sprayer 16L ₹1,200 ₹1,499 4.3 (3)" [ref=e112] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/hand-sprayer-16l-3-3
+                - generic [ref=e113]:
+                  - img "Hand Sprayer 16L" [ref=e114]
+                  - generic [ref=e115]: Sale
+                - generic [ref=e116]:
+                  - heading "Hand Sprayer 16L" [level=3] [ref=e117]
+                  - generic [ref=e118]:
+                    - generic [ref=e119]: ₹1,200
+                    - generic [ref=e120]: ₹1,499
+                  - generic [ref=e121]:
+                    - img [ref=e122]
+                    - generic [ref=e124]: "4.3"
+                    - generic [ref=e125]: (3)
+              - button "Add to Cart" [ref=e128]
+            - article [ref=e129]:
+              - link "Garden Knife Set Sale Garden Knife Set ₹320 ₹399 3.0 (1)" [ref=e130] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/garden-knife-set-3-2
+                - generic [ref=e131]:
+                  - img "Garden Knife Set" [ref=e132]
+                  - generic [ref=e133]: Sale
+                - generic [ref=e134]:
+                  - heading "Garden Knife Set" [level=3] [ref=e135]
+                  - generic [ref=e136]:
+                    - generic [ref=e137]: ₹320
+                    - generic [ref=e138]: ₹399
+                  - generic [ref=e139]:
+                    - img [ref=e140]
+                    - generic [ref=e142]: "3.0"
+                    - generic [ref=e143]: (1)
+              - button "Add to Cart" [ref=e146]
+            - article [ref=e147]:
+              - link "Heavy Duty Loppers Sale Heavy Duty Loppers ₹850 ₹999 4.5 (4)" [ref=e148] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/heavy-duty-loppers-3-1
+                - generic [ref=e149]:
+                  - img "Heavy Duty Loppers" [ref=e150]
+                  - generic [ref=e151]: Sale
+                - generic [ref=e152]:
+                  - heading "Heavy Duty Loppers" [level=3] [ref=e153]
+                  - generic [ref=e154]:
+                    - generic [ref=e155]: ₹850
+                    - generic [ref=e156]: ₹999
+                  - generic [ref=e157]:
+                    - img [ref=e158]
+                    - generic [ref=e160]: "4.5"
+                    - generic [ref=e161]: (4)
+              - button "Add to Cart" [ref=e164]
+            - article [ref=e165]:
+              - link "Premium Pruning Shears Sale Premium Pruning Shears ₹450 ₹599 5.0 (3)" [ref=e166] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/premium-pruning-shears-3-0
+                - generic [ref=e167]:
+                  - img "Premium Pruning Shears" [ref=e168]
+                  - generic [ref=e169]: Sale
+                - generic [ref=e170]:
+                  - heading "Premium Pruning Shears" [level=3] [ref=e171]
+                  - generic [ref=e172]:
+                    - generic [ref=e173]: ₹450
+                    - generic [ref=e174]: ₹599
+                  - generic [ref=e175]:
+                    - img [ref=e176]
+                    - generic [ref=e178]: "5.0"
+                    - generic [ref=e179]: (3)
+              - button "Add to Cart" [ref=e182]
+            - article [ref=e183]:
+              - link "Rootstock M9 Plant Sale Rootstock M9 Plant ₹95 ₹120 4.0 (1)" [ref=e184] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/rootstock-m9-plant-2-5
+                - generic [ref=e185]:
+                  - img "Rootstock M9 Plant" [ref=e186]
+                  - generic [ref=e187]: Sale
+                - generic [ref=e188]:
+                  - heading "Rootstock M9 Plant" [level=3] [ref=e189]
+                  - generic [ref=e190]:
+                    - generic [ref=e191]: ₹95
+                    - generic [ref=e192]: ₹120
+                  - generic [ref=e193]:
+                    - img [ref=e194]
+                    - generic [ref=e196]: "4.0"
+                    - generic [ref=e197]: (1)
+              - button "Add to Cart" [ref=e200]
+            - article [ref=e201]:
+              - link "Heavy Duty Loppers Sale Heavy Duty Loppers ₹850 ₹999 3.5 (2)" [ref=e202] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/heavy-duty-loppers-2-1
+                - generic [ref=e203]:
+                  - img "Heavy Duty Loppers" [ref=e204]
+                  - generic [ref=e205]: Sale
+                - generic [ref=e206]:
+                  - heading "Heavy Duty Loppers" [level=3] [ref=e207]
+                  - generic [ref=e208]:
+                    - generic [ref=e209]: ₹850
+                    - generic [ref=e210]: ₹999
+                  - generic [ref=e211]:
+                    - img [ref=e212]
+                    - generic [ref=e214]: "3.5"
+                    - generic [ref=e215]: (2)
+              - button "Add to Cart" [ref=e218]
+            - article [ref=e219]:
+              - link "Organic Fertilizer 5kg Sale Organic Fertilizer 5kg ₹280 ₹350 4.8 (4)" [ref=e220] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/organic-fertilizer-5kg-2-4
+                - generic [ref=e221]:
+                  - img "Organic Fertilizer 5kg" [ref=e222]
+                  - generic [ref=e223]: Sale
+                - generic [ref=e224]:
+                  - heading "Organic Fertilizer 5kg" [level=3] [ref=e225]
+                  - generic [ref=e226]:
+                    - generic [ref=e227]: ₹280
+                    - generic [ref=e228]: ₹350
+                  - generic [ref=e229]:
+                    - img [ref=e230]
+                    - generic [ref=e232]: "4.8"
+                    - generic [ref=e233]: (4)
+              - button "Add to Cart" [ref=e236]
+            - article [ref=e237]:
+              - link "Hand Sprayer 16L Sale Hand Sprayer 16L ₹1,200 ₹1,499 3.3 (3)" [ref=e238] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/hand-sprayer-16l-2-3
+                - generic [ref=e239]:
+                  - img "Hand Sprayer 16L" [ref=e240]
+                  - generic [ref=e241]: Sale
+                - generic [ref=e242]:
+                  - heading "Hand Sprayer 16L" [level=3] [ref=e243]
+                  - generic [ref=e244]:
+                    - generic [ref=e245]: ₹1,200
+                    - generic [ref=e246]: ₹1,499
+                  - generic [ref=e247]:
+                    - img [ref=e248]
+                    - generic [ref=e250]: "3.3"
+                    - generic [ref=e251]: (3)
+              - button "Add to Cart" [ref=e254]
+            - article [ref=e255]:
+              - link "Garden Knife Set Sale Garden Knife Set ₹320 ₹399 5.0 (1)" [ref=e256] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/garden-knife-set-2-2
+                - generic [ref=e257]:
+                  - img "Garden Knife Set" [ref=e258]
+                  - generic [ref=e259]: Sale
+                - generic [ref=e260]:
+                  - heading "Garden Knife Set" [level=3] [ref=e261]
+                  - generic [ref=e262]:
+                    - generic [ref=e263]: ₹320
+                    - generic [ref=e264]: ₹399
+                  - generic [ref=e265]:
+                    - img [ref=e266]
+                    - generic [ref=e268]: "5.0"
+                    - generic [ref=e269]: (1)
+              - button "Add to Cart" [ref=e272]
+            - article [ref=e273]:
+              - link "Professional Pruning Shears Sale Professional Pruning Shears ₹450 ₹599" [ref=e274] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/professional-pruning-shears
+                - generic [ref=e275]:
+                  - img "Professional Pruning Shears" [ref=e276]
+                  - generic [ref=e277]: Sale
+                - generic [ref=e278]:
+                  - heading "Professional Pruning Shears" [level=3] [ref=e279]
+                  - generic [ref=e280]:
+                    - generic [ref=e281]: ₹450
+                    - generic [ref=e282]: ₹599
+              - button "Add to Cart" [ref=e285]
+            - article [ref=e286]:
+              - link "Premium Pruning Shears Sale Premium Pruning Shears ₹450 ₹599 3.7 (3)" [ref=e287] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/premium-pruning-shears-2-0
+                - generic [ref=e288]:
+                  - img "Premium Pruning Shears" [ref=e289]
+                  - generic [ref=e290]: Sale
+                - generic [ref=e291]:
+                  - heading "Premium Pruning Shears" [level=3] [ref=e292]
+                  - generic [ref=e293]:
+                    - generic [ref=e294]: ₹450
+                    - generic [ref=e295]: ₹599
+                  - generic [ref=e296]:
+                    - img [ref=e297]
+                    - generic [ref=e299]: "3.7"
+                    - generic [ref=e300]: (3)
+              - button "Add to Cart" [ref=e303]
+            - article [ref=e304]:
+              - link "Rootstock M9 Plant Sale Rootstock M9 Plant ₹95 ₹120 3.8 (4)" [ref=e305] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/rootstock-m9-plant-1-5
+                - generic [ref=e306]:
+                  - img "Rootstock M9 Plant" [ref=e307]
+                  - generic [ref=e308]: Sale
+                - generic [ref=e309]:
+                  - heading "Rootstock M9 Plant" [level=3] [ref=e310]
+                  - generic [ref=e311]:
+                    - generic [ref=e312]: ₹95
+                    - generic [ref=e313]: ₹120
+                  - generic [ref=e314]:
+                    - img [ref=e315]
+                    - generic [ref=e317]: "3.8"
+                    - generic [ref=e318]: (4)
+              - button "Add to Cart" [ref=e321]
+            - article [ref=e322]:
+              - link "Organic Fertilizer 5kg Sale Organic Fertilizer 5kg ₹280 ₹350 4.0 (1)" [ref=e323] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/organic-fertilizer-5kg-1-4
+                - generic [ref=e324]:
+                  - img "Organic Fertilizer 5kg" [ref=e325]
+                  - generic [ref=e326]: Sale
+                - generic [ref=e327]:
+                  - heading "Organic Fertilizer 5kg" [level=3] [ref=e328]
+                  - generic [ref=e329]:
+                    - generic [ref=e330]: ₹280
+                    - generic [ref=e331]: ₹350
+                  - generic [ref=e332]:
+                    - img [ref=e333]
+                    - generic [ref=e335]: "4.0"
+                    - generic [ref=e336]: (1)
+              - button "Add to Cart" [ref=e339]
+            - article [ref=e340]:
+              - link "Hand Sprayer 16L Sale Hand Sprayer 16L ₹1,200 ₹1,499 4.3 (4)" [ref=e341] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/hand-sprayer-16l-1-3
+                - generic [ref=e342]:
+                  - img "Hand Sprayer 16L" [ref=e343]
+                  - generic [ref=e344]: Sale
+                - generic [ref=e345]:
+                  - heading "Hand Sprayer 16L" [level=3] [ref=e346]
+                  - generic [ref=e347]:
+                    - generic [ref=e348]: ₹1,200
+                    - generic [ref=e349]: ₹1,499
+                  - generic [ref=e350]:
+                    - img [ref=e351]
+                    - generic [ref=e353]: "4.3"
+                    - generic [ref=e354]: (4)
+              - button "Add to Cart" [ref=e357]
+            - article [ref=e358]:
+              - link "Garden Knife Set Sale Garden Knife Set ₹320 ₹399 3.5 (2)" [ref=e359] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/garden-knife-set-1-2
+                - generic [ref=e360]:
+                  - img "Garden Knife Set" [ref=e361]
+                  - generic [ref=e362]: Sale
+                - generic [ref=e363]:
+                  - heading "Garden Knife Set" [level=3] [ref=e364]
+                  - generic [ref=e365]:
+                    - generic [ref=e366]: ₹320
+                    - generic [ref=e367]: ₹399
+                  - generic [ref=e368]:
+                    - img [ref=e369]
+                    - generic [ref=e371]: "3.5"
+                    - generic [ref=e372]: (2)
+              - button "Add to Cart" [ref=e375]
+            - article [ref=e376]:
+              - link "Heavy Duty Loppers Sale Heavy Duty Loppers ₹850 ₹999 3.0 (1)" [ref=e377] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/heavy-duty-loppers-1-1
+                - generic [ref=e378]:
+                  - img "Heavy Duty Loppers" [ref=e379]
+                  - generic [ref=e380]: Sale
+                - generic [ref=e381]:
+                  - heading "Heavy Duty Loppers" [level=3] [ref=e382]
+                  - generic [ref=e383]:
+                    - generic [ref=e384]: ₹850
+                    - generic [ref=e385]: ₹999
+                  - generic [ref=e386]:
+                    - img [ref=e387]
+                    - generic [ref=e389]: "3.0"
+                    - generic [ref=e390]: (1)
+              - button "Add to Cart" [ref=e393]
+            - article [ref=e394]:
+              - link "Premium Pruning Shears Sale Premium Pruning Shears ₹450 ₹599 3.0 (4)" [ref=e395] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/premium-pruning-shears-1-0
+                - generic [ref=e396]:
+                  - img "Premium Pruning Shears" [ref=e397]
+                  - generic [ref=e398]: Sale
+                - generic [ref=e399]:
+                  - heading "Premium Pruning Shears" [level=3] [ref=e400]
+                  - generic [ref=e401]:
+                    - generic [ref=e402]: ₹450
+                    - generic [ref=e403]: ₹599
+                  - generic [ref=e404]:
+                    - img [ref=e405]
+                    - generic [ref=e407]: "3.0"
+                    - generic [ref=e408]: (4)
+              - button "Add to Cart" [ref=e411]
+            - article [ref=e412]:
+              - link "Heavy Duty Loppers Sale Heavy Duty Loppers ₹850 ₹999" [ref=e413] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/heavy-duty-loppers
+                - generic [ref=e414]:
+                  - img "Heavy Duty Loppers" [ref=e415]
+                  - generic [ref=e416]: Sale
+                - generic [ref=e417]:
+                  - heading "Heavy Duty Loppers" [level=3] [ref=e418]
+                  - generic [ref=e419]:
+                    - generic [ref=e420]: ₹850
+                    - generic [ref=e421]: ₹999
+              - button "Add to Cart" [ref=e424]
+            - article [ref=e425]:
+              - link "Hori Hori Garden Knife Sale Hori Hori Garden Knife ₹320 ₹399" [ref=e426] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/shop/hori-hori-garden-knife
+                - generic [ref=e427]:
+                  - img "Hori Hori Garden Knife" [ref=e428]
+                  - generic [ref=e429]: Sale
+                - generic [ref=e430]:
+                  - heading "Hori Hori Garden Knife" [level=3] [ref=e431]
+                  - generic [ref=e432]:
+                    - generic [ref=e433]: ₹320
+                    - generic [ref=e434]: ₹399
+              - button "Add to Cart" [ref=e437]
+  - contentinfo [ref=e438]:
+    - generic [ref=e439]:
+      - generic [ref=e440]:
+        - generic [ref=e441]:
+          - link "Baagvaani" [ref=e442] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e444]: Baagvaani
+          - paragraph [ref=e445]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e447]: Social channels coming soon
+        - generic [ref=e448]:
+          - heading "Quick Links" [level=3] [ref=e449]
+          - list [ref=e450]:
+            - listitem [ref=e451]:
+              - link "Home" [ref=e452] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e453]:
+              - link "Blog" [ref=e454] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e455]:
+              - link "About Us" [ref=e456] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e457]:
+          - heading "Topics" [level=3] [ref=e458]
+          - list [ref=e459]:
+            - listitem [ref=e460]:
+              - link "Spray & Disease" [ref=e461] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e462]:
+              - link "Orchard Care" [ref=e463] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e464]:
+              - link "Variety Guide" [ref=e465] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e466]:
+              - link "Weather & Climate" [ref=e467] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e468]:
+          - heading "Newsletter" [level=3] [ref=e469]
+          - paragraph [ref=e470]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e471]:
+            - textbox "Enter your email" [ref=e472]
+            - button "Subscribe" [ref=e473]
+          - paragraph [ref=e474]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e476]: © 2026 Baagvaani. All rights reserved.
+  - text:  

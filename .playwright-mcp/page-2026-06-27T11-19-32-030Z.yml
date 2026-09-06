@@ -1,0 +1,318 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7]
+      - generic [ref=e10]: Internal Server Error
+    - button "Copy as Markdown" [ref=e11] [cursor=pointer]:
+      - img [ref=e12]
+      - generic [ref=e15]: Copy as Markdown
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - heading "ParseError" [level=1] [ref=e20]
+      - generic [ref=e22]: Modules/Rootstock/resources/views/app/rootstock/show.blade.php:255
+      - paragraph [ref=e23]: syntax error, unexpected variable "$resistances"
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: LARAVEL
+          - generic [ref=e28]: 12.58.0
+        - generic [ref=e29]:
+          - generic [ref=e30]: PHP
+          - generic [ref=e31]: 8.5.4
+      - generic [ref=e32]:
+        - img [ref=e33]
+        - text: UNHANDLED
+      - generic [ref=e36]: CODE 0
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - img [ref=e40]
+        - text: "500"
+      - generic [ref=e43]:
+        - img [ref=e44]
+        - text: GET
+      - generic [ref=e47]: http://127.0.0.1:8000/rootstocks/g-11
+      - button [ref=e48] [cursor=pointer]:
+        - img [ref=e49]
+  - generic [ref=e53]:
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - img [ref=e57]
+        - heading "Exception trace" [level=3] [ref=e60]
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63] [cursor=pointer]:
+            - generic [ref=e66]:
+              - code [ref=e70]:
+                - generic [ref=e71]: "Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()"
+              - generic [ref=e73]: Modules/Rootstock/resources/views/app/rootstock/show.blade.php:255
+            - button [ref=e75]:
+              - img [ref=e76]
+          - code [ref=e84]:
+            - generic [ref=e85]: 250 @endif
+            - generic [ref=e86]: "251"
+            - generic [ref=e87]: "252 {{-- Disease resistance --}}"
+            - generic [ref=e88]: 253 <x-core::collapsible-section title="Disease Resistance" icon="fas fa-shield-virus">
+            - generic [ref=e89]: 254 @php
+            - generic [ref=e90]: 255 @php
+            - generic [ref=e91]: 256 $resistances = [
+            - generic [ref=e92]: 257 ['label' => 'Collar Rot', 'value' => $rootstock->collar_rot_resistance],
+            - generic [ref=e93]: 258 ['label' => 'Woolly Aphid', 'value' => $rootstock->woolly_aphid_resistance],
+            - generic [ref=e94]: 259 ['label' => 'Replant Disease', 'value' => $rootstock->replant_disease_res],
+            - generic [ref=e95]: 260 ['label' => 'Fire Blight', 'value' => $rootstock->fire_blight_res],
+            - generic [ref=e96]: 261 ];
+            - generic [ref=e97]: 262 @endphp
+            - generic [ref=e98]: 263 @foreach($resistances as $r)
+            - generic [ref=e99]: 264 <div class="detail-meter">
+            - generic [ref=e100]: 265 <div class="detail-meter-header">
+            - generic [ref=e101]: "266 <span class=\"detail-meter-label\">{{ $r['label'] }}</span>"
+            - generic [ref=e102]: "267"
+        - generic [ref=e104] [cursor=pointer]:
+          - img [ref=e105]
+          - generic [ref=e109]: 32 vendor frames
+          - button [ref=e110]:
+            - img [ref=e111]
+        - generic [ref=e116] [cursor=pointer]:
+          - generic [ref=e119]:
+            - code [ref=e123]:
+              - generic [ref=e124]: "Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():178}()"
+            - generic [ref=e126]: Modules/Core/app/Http/Middleware/SecurityHeaders.php:15
+          - button [ref=e128]:
+            - img [ref=e129]
+        - generic [ref=e134] [cursor=pointer]:
+          - img [ref=e135]
+          - generic [ref=e139]: 23 vendor frames
+          - button [ref=e140]:
+            - img [ref=e141]
+        - generic [ref=e146] [cursor=pointer]:
+          - generic [ref=e149]:
+            - code [ref=e153]:
+              - generic [ref=e154]: Illuminate\Foundation\Application->handleRequest()
+            - generic [ref=e156]: public/index.php:22
+          - button [ref=e158]:
+            - img [ref=e159]
+        - generic [ref=e164] [cursor=pointer]:
+          - img [ref=e165]
+          - generic [ref=e169]: 1 vendor frame
+          - button [ref=e170]:
+            - img [ref=e171]
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - img [ref=e179]
+          - heading "Queries" [level=3] [ref=e181]
+        - generic [ref=e183]: 1-10 of 12
+      - generic [ref=e184]:
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - img [ref=e188]
+              - generic [ref=e190]: mysql
+            - code [ref=e194]:
+              - generic [ref=e195]: "select * from `sessions` where `id` = 'hXjBIFUd6l0xceA2O3W3X810bVgvPD8OQtGd0uxY' limit 1"
+          - generic [ref=e196]: 0.79ms
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - img [ref=e200]
+              - generic [ref=e202]: mysql
+            - code [ref=e206]:
+              - generic [ref=e207]: "select * from `rootstocks` where `slug` = 'g-11' and `rootstocks`.`deleted_at` is null limit 1"
+          - generic [ref=e208]: 0.27ms
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - img [ref=e212]
+              - generic [ref=e214]: mysql
+            - code [ref=e218]:
+              - generic [ref=e219]: "select * from `media` where `media`.`model_id` in (6) and `media`.`model_type` = 'Rootstock'"
+          - generic [ref=e220]: 0.21ms
+        - generic [ref=e221]:
+          - generic [ref=e222]:
+            - generic [ref=e223]:
+              - img [ref=e224]
+              - generic [ref=e226]: mysql
+            - code [ref=e230]:
+              - generic [ref=e231]: "select `fruits`.*, `fruit_rootstock`.`rootstock_id` as `pivot_rootstock_id`, `fruit_rootstock`.`fruit_id` as `pivot_fruit_id`, `fruit_rootstock`.`sort_order` as `pivot_sort_order` from `fruits` inner join `fruit_rootstock` on `fruits`.`id` = `fruit_rootstock`.`fruit_id` where `fruit_rootstock`.`rootstock_id` in (6) and `fruits`.`deleted_at` is null order by `fruit_rootstock`.`sort_order` asc"
+          - generic [ref=e232]: 0.67ms
+        - generic [ref=e233]:
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - img [ref=e236]
+              - generic [ref=e238]: mysql
+            - code [ref=e242]:
+              - generic [ref=e243]: "select `varieties`.*, `rootstock_variety`.`rootstock_id` as `pivot_rootstock_id`, `rootstock_variety`.`variety_id` as `pivot_variety_id`, `rootstock_variety`.`sort_order` as `pivot_sort_order` from `varieties` inner join `rootstock_variety` on `varieties`.`id` = `rootstock_variety`.`variety_id` where `rootstock_variety`.`rootstock_id` in (6) and `varieties`.`deleted_at` is null order by `rootstock_variety`.`sort_order` asc"
+          - generic [ref=e244]: 0.43ms
+        - generic [ref=e245]:
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - img [ref=e248]
+              - generic [ref=e250]: mysql
+            - code [ref=e254]:
+              - generic [ref=e255]: "insert into `jobs` (`queue`, `attempts`, `reserved_at`, `available_at`, `created_at`, `payload`) values ('default', 0, NULL, 1782559171, 1782559171, '{\"uuid\":\"faa1cd11-3d71-4ca2-9ee2-e5410d34711b\",\"displayName\":\"App\\Jobs\\IncrementViewCount\",\"job\":\"Illuminate\\Queue\\CallQueuedHandler@call\",\"maxTries\":null,\"maxExceptions\":null,\"failOnTimeout\":false,\"backoff\":null,\"timeout\":null,\"retryUntil\":null,\"data\":{\"commandName\":\"App\\Jobs\\IncrementViewCount\",\"command\":\"O:27:\\\"App\\Jobs\\IncrementViewCount\\\":2:{s:10:\\\"modelClass\\\";s:34:\\\"Modules\\Rootstock\\Models\\Rootstock\\\";s:7:\\\"modelId\\\";i:6;}\",\"batchId\":null},\"createdAt\":1782559171,\"delay\":null}')"
+          - generic [ref=e256]: 3.62ms
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - generic [ref=e259]:
+              - img [ref=e260]
+              - generic [ref=e262]: mysql
+            - code [ref=e266]:
+              - generic [ref=e267]: "select * from `comments` where `comments`.`commentable_type` = 'Rootstock' and `comments`.`commentable_id` = 6 and `comments`.`commentable_id` is not null and `is_published` = 1 and `comments`.`deleted_at` is null order by `created_at` asc"
+          - generic [ref=e268]: 0.38ms
+        - generic [ref=e269]:
+          - generic [ref=e270]:
+            - generic [ref=e271]:
+              - img [ref=e272]
+              - generic [ref=e274]: mysql
+            - code [ref=e278]:
+              - generic [ref=e279]: "select count(*) as aggregate from `comments` where `comments`.`commentable_type` = 'Rootstock' and `comments`.`commentable_id` = 6 and `comments`.`commentable_id` is not null and `is_published` = 1 and `comments`.`deleted_at` is null"
+          - generic [ref=e280]: 0.2ms
+        - generic [ref=e281]:
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - img [ref=e284]
+              - generic [ref=e286]: mysql
+            - code [ref=e290]:
+              - generic [ref=e291]: "select * from `cache` where `key` in ('baagvaani-cache-rootstocks:related:6')"
+          - generic [ref=e292]: 0.1ms
+        - generic [ref=e293]:
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - img [ref=e296]
+              - generic [ref=e298]: mysql
+            - code [ref=e302]:
+              - generic [ref=e303]: "select * from `rootstocks` where `is_active` = 1 and `is_published` = 1 and `vigour_type` = 'semi_dwarfing' and `id` != 6 and `rootstocks`.`deleted_at` is null order by `view_count` desc limit 4"
+          - generic [ref=e304]: 0.76ms
+      - generic [ref=e305]:
+        - button [disabled] [ref=e306]:
+          - img [ref=e307]
+        - button [disabled] [ref=e310]:
+          - img [ref=e311]
+        - button "1" [ref=e314] [cursor=pointer]
+        - button "2" [ref=e316] [cursor=pointer]
+        - button [ref=e317] [cursor=pointer]:
+          - img [ref=e318]
+        - button [ref=e320] [cursor=pointer]:
+          - img [ref=e321]
+  - generic [ref=e325]:
+    - generic [ref=e326]:
+      - heading "Headers" [level=2] [ref=e327]
+      - generic [ref=e328]:
+        - generic [ref=e329]:
+          - generic [ref=e330]: host
+          - generic [ref=e332]: 127.0.0.1:8000
+        - generic [ref=e333]:
+          - generic [ref=e334]: connection
+          - generic [ref=e336]: keep-alive
+        - generic [ref=e337]:
+          - generic [ref=e338]: sec-ch-ua
+          - generic [ref=e340]: "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\""
+        - generic [ref=e341]:
+          - generic [ref=e342]: sec-ch-ua-mobile
+          - generic [ref=e344]: "?0"
+        - generic [ref=e345]:
+          - generic [ref=e346]: sec-ch-ua-platform
+          - generic [ref=e348]: "\"Linux\""
+        - generic [ref=e349]:
+          - generic [ref=e350]: upgrade-insecure-requests
+          - generic [ref=e352]: "1"
+        - generic [ref=e353]:
+          - generic [ref=e354]: user-agent
+          - generic [ref=e356]: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36
+        - generic [ref=e357]:
+          - generic [ref=e358]: accept
+          - generic [ref=e360]: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+        - generic [ref=e361]:
+          - generic [ref=e362]: sec-fetch-site
+          - generic [ref=e364]: none
+        - generic [ref=e365]:
+          - generic [ref=e366]: sec-fetch-mode
+          - generic [ref=e368]: navigate
+        - generic [ref=e369]:
+          - generic [ref=e370]: sec-fetch-user
+          - generic [ref=e372]: "?1"
+        - generic [ref=e373]:
+          - generic [ref=e374]: sec-fetch-dest
+          - generic [ref=e376]: document
+        - generic [ref=e377]:
+          - generic [ref=e378]: accept-encoding
+          - generic [ref=e380]: gzip, deflate, br, zstd
+        - generic [ref=e381]:
+          - generic [ref=e382]: accept-language
+          - generic [ref=e384]: en-US,en;q=0.9
+        - generic [ref=e385]:
+          - generic [ref=e386]: cookie
+          - generic [ref=e388]: _ga=GA1.1.1355436650.1781414165; _ga_LFDEBYBMZS=GS2.1.s1781740392$o3$g1$t1781740704$j56$l0$h0; XSRF-TOKEN=eyJpdiI6ImxNUWdiSWdnc1lZQXhUb2JEZmd1K0E9PSIsInZhbHVlIjoiSC9kVVpIaHdmRHBueGZ2ak1wS0xsSldtZGZaTGZ2Sm0ySGxxOGdYL1Y4T3FVdHFTYk9Tdkg4RjArMzZ4VHVicXFCb0k2TDY5UGRUcjZYK2JFTXR0S0RiZW9MVmR3MkxCcy8zaSt2YmovQWpXekZRbzF5cmR0N2xOTEVHOWt3RFciLCJtYWMiOiJjOGNmMjlmZDYxMzA2ZjQzYjQwYjQ4YWY3NTgwMmRjNDk5ODY0N2M2ODNlNTkwODVmNjkzZTA4NjJhMjNmODVhIiwidGFnIjoiIn0%3D; baagvaani-session=eyJpdiI6IkUxeTlzMVBhbmcxbnJjUWU0UXB4M3c9PSIsInZhbHVlIjoiV2dXRTRWQUZ0OVRvaXRjR0pNclZ0T01HamM1dE51REFrdk1OZFA5WENOMnpVSE9BZ2hlMU9CSDJZUUh3L0dJYXE5OGNKampHOFNaWFBEa2QvcTl2RHNxN0JiZzE3YWxKeGdLQUNHdDlJc2VZdHJNYWwraWhxUEpjaFp0dzF0ZDUiLCJtYWMiOiIzNzllNzBlNDQyNTFjZDk5NjVjMmYyNDY1ZGM3YTY4MTI3ZTZjMDY0MWVmOWZmYTBkODEzNTNkYmY1OTY1MDJkIiwidGFnIjoiIn0%3D
+    - generic [ref=e389]:
+      - heading "Body" [level=2] [ref=e390]
+      - generic [ref=e391]: // No request body
+    - generic [ref=e392]:
+      - heading "Routing" [level=2] [ref=e393]
+      - generic [ref=e394]:
+        - generic [ref=e395]:
+          - generic [ref=e396]: controller
+          - generic [ref=e398]: Modules\Rootstock\Http\Controllers\App\RootstockController@show
+        - generic [ref=e399]:
+          - generic [ref=e400]: route name
+          - generic [ref=e402]: rootstocks.show
+        - generic [ref=e403]:
+          - generic [ref=e404]: middleware
+          - generic [ref=e406]: web
+    - generic [ref=e407]:
+      - heading "Routing parameters" [level=2] [ref=e408]
+      - code [ref=e413]:
+        - generic [ref=e414]: "{"
+        - generic [ref=e415]: "\"rootstock\": {"
+        - generic [ref=e416]: "\"id\": 6,"
+        - generic [ref=e417]: "\"slug\": \"g-11\","
+        - generic [ref=e418]: "\"name\": \"G.11\","
+        - generic [ref=e419]: "\"full_name\": \"Geneva 11\","
+        - generic [ref=e420]: "\"name_hi\": \"जी .11\","
+        - generic [ref=e421]: "\"vigour_type\": \"semi_dwarfing\","
+        - generic [ref=e422]: "\"vigour_pct\": 50,"
+        - generic [ref=e423]: "\"spacing_m_row\": \"4.0\","
+        - generic [ref=e424]: "\"spacing_m_tree\": \"1.3\","
+        - generic [ref=e425]: "\"density_per_ha_min\": 1500,"
+        - generic [ref=e426]: "\"density_per_ha_max\": 2000,"
+        - generic [ref=e427]: "\"years_to_first_crop\": 2,"
+        - generic [ref=e428]: "\"productive_life_years\": 18,"
+        - generic [ref=e429]: "\"needs_staking\": true,"
+        - generic [ref=e430]: "\"needs_irrigation\": true,"
+        - generic [ref=e431]: "\"soil_depth_cm_min\": 45,"
+        - generic [ref=e432]: "\"soil_ph_min\": \"6.0\","
+        - generic [ref=e433]: "\"soil_ph_max\": \"7.0\","
+        - generic [ref=e434]: "\"cold_hardiness_feet\": 1400,"
+        - generic [ref=e435]: "\"anchorage\": \"moderate\","
+        - generic [ref=e436]: "\"collar_rot_resistance\": 9,"
+        - generic [ref=e437]: "\"woolly_aphid_resistance\": 7,"
+        - generic [ref=e438]: "\"replant_disease_res\": 8,"
+        - generic [ref=e439]: "\"fire_blight_res\": 9,"
+        - generic [ref=e440]: "\"hp_recommended\": true,"
+        - generic [ref=e441]: "\"developed_by\": \"Cornell University / USDA-ARS, USA\","
+        - generic [ref=e442]: "\"developed_year\": \"1998\","
+        - generic [ref=e443]: "\"parentage\": \"Ottawa 510 × M.26\","
+        - generic [ref=e444]: "\"description_en\": \"G.11 is an outstanding dwarfing rootstock from the Cornell/Geneva program. It offers excellent resistance to fire blight, collar rot, and replant disease. Highly productive and precocious.\","
+        - generic [ref=e445]: "\"description_hi\": \"जी .11 कॉर्नेल/जेनेवा कार्यक्रम का एक उत्कृष्ट बौना रूटस्टॉक है। यह अग्नि झुलसा, कॉलर रोट और दोबारा लगाने वाली बीमारी का उत्कृष्ट प्रतिरोध प्रदान करता है। अत्यधिक उत्पादक और पूर्वकालीन।\","
+        - generic [ref=e446]: "\"planting_notes_en\": \"Excellent choice for high-density plantings. Requires staking. Very precocious and productive. Resistant to major diseases.\","
+        - generic [ref=e447]: "\"planting_notes_hi\": \"उच्च घनत्व वाली बुवाई के लिए उत्कृष्ट विकल्प। खंभे की आवश्यकता है। बहुत पूर्वकालीन और उत्पादक। प्रमुख रोगों के लिए प्रतिरोधी।\","
+        - generic [ref=e448]: "\"collar_rot_warning_en\": \"Excellent resistance to collar rot and phytophthora. One of the best choices for disease-prone areas.\","
+        - generic [ref=e449]: "\"avg_rating\": 4.8,"
+        - generic [ref=e450]: "\"rating_count\": 89,"
+        - generic [ref=e451]: "\"is_active\": true,"
+        - generic [ref=e452]: "\"is_published\": true,"
+        - generic [ref=e453]: "\"is_featured\": true,"
+        - generic [ref=e454]: "\"view_count\": 0,"
+        - generic [ref=e455]: "\"meta_title_en\": null,"
+        - generic [ref=e456]: "\"meta_desc_en\": null,"
+        - generic [ref=e457]: "\"meta_title_hi\": null,"
+        - generic [ref=e458]: "\"meta_desc_hi\": null,"
+        - generic [ref=e459]: "\"created_by\": null,"
+        - generic [ref=e460]: "\"reviewed_by\": null,"
+        - generic [ref=e461]: "\"reviewed_at\": null,"
+        - generic [ref=e462]: "\"created_at\": \"2026-06-25T04:06:16.000000Z\","
+        - generic [ref=e463]: "\"updated_at\": \"2026-06-25T04:06:16.000000Z\","
+        - generic [ref=e464]: "\"deleted_at\": null"
+        - generic [ref=e465]: "}"
+        - generic [ref=e466]: "}"
+  - generic [ref=e469]:
+    - img [ref=e471]
+    - img [ref=e3509]

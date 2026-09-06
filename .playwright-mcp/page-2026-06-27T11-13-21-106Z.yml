@@ -1,0 +1,475 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 25° in Kinnaur Valley, Partly cloudy · 59% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://127.0.0.1:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e16]: 25°
+      - button "Toggle menu" [ref=e18]:
+        - img [ref=e19]
+  - main [ref=e21]:
+    - region "Apple Rootstock Guide" [ref=e22]:
+      - generic [ref=e26]:
+        - paragraph [ref=e27]: मूलवृंत चुनाव एवं जानकारी
+        - heading "Apple Rootstock Guide" [level=1] [ref=e28]
+        - paragraph [ref=e29]: Choose the right rootstock for your apple orchard. Compare vigour, spacing, disease resistance, and HP suitability.
+        - generic [ref=e30]:
+          - textbox "Search rootstocks..." [ref=e31]
+          - button "Search" [ref=e32] [cursor=pointer]
+    - generic [ref=e35]:
+      - link "All" [ref=e36] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/rootstock
+      - link "Dwarfing" [ref=e37] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/rootstock?vigour=dwarfing
+      - link "Semi-Dwarfing" [ref=e38] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/rootstock?vigour=semi_dwarfing
+      - link "Semi-Vigorous" [ref=e39] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/rootstock?vigour=semi_vigorous
+      - link "Vigorous" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/rootstock?vigour=vigorous
+      - link "HP Recommended" [ref=e41] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/rootstock?hp_recommended=1
+      - link "Featured" [ref=e42] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/rootstock?featured=1
+    - region "All Rootstocks" [ref=e43]:
+      - generic [ref=e44]:
+        - heading "All Rootstocks" [level=2] [ref=e45]
+        - generic [ref=e46]:
+          - article [ref=e47]:
+            - link "B.118 Semi-Dwarfing  HP Rec. B.118 बी.118 Budagovsky 118  4.0m × 1.5m ·  0" [ref=e48] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/b-118
+              - generic [ref=e49]:
+                - img "B.118" [ref=e50]
+                - generic [ref=e51]: Semi-Dwarfing
+                - generic [ref=e52]:
+                  - generic [ref=e53]: 
+                  - text: HP Rec.
+              - generic [ref=e54]:
+                - heading "B.118" [level=3] [ref=e55]
+                - paragraph [ref=e56]: बी.118
+                - paragraph [ref=e57]: Budagovsky 118
+                - generic [ref=e58]:
+                  - generic [ref=e59]:
+                    - generic [ref=e60]: 
+                    - text: 4.0m × 1.5m
+                  - generic [ref=e61]: ·
+                  - generic [ref=e62]:
+                    - generic [ref=e63]: 
+                    - text: "0"
+          - article [ref=e64]:
+            - link "B.9 Dwarfing  HP Rec. B.9 बी.9 Budagovsky 9  3.5m × 1.0m ·  0" [ref=e65] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/b-9
+              - generic [ref=e66]:
+                - img "B.9" [ref=e67]
+                - generic [ref=e68]: Dwarfing
+                - generic [ref=e69]:
+                  - generic [ref=e70]: 
+                  - text: HP Rec.
+              - generic [ref=e71]:
+                - heading "B.9" [level=3] [ref=e72]
+                - paragraph [ref=e73]: बी.9
+                - paragraph [ref=e74]: Budagovsky 9
+                - generic [ref=e75]:
+                  - generic [ref=e76]:
+                    - generic [ref=e77]: 
+                    - text: 3.5m × 1.0m
+                  - generic [ref=e78]: ·
+                  - generic [ref=e79]:
+                    - generic [ref=e80]: 
+                    - text: "0"
+          - article [ref=e81]:
+            - link "G.11 Semi-Dwarfing  HP Rec. G.11 जी .11 Geneva 11  4.0m × 1.3m ·  0" [ref=e82] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/g-11
+              - generic [ref=e83]:
+                - img "G.11" [ref=e84]
+                - generic [ref=e85]: Semi-Dwarfing
+                - generic [ref=e86]:
+                  - generic [ref=e87]: 
+                  - text: HP Rec.
+              - generic [ref=e88]:
+                - heading "G.11" [level=3] [ref=e89]
+                - paragraph [ref=e90]: जी .11
+                - paragraph [ref=e91]: Geneva 11
+                - generic [ref=e92]:
+                  - generic [ref=e93]:
+                    - generic [ref=e94]: 
+                    - text: 4.0m × 1.3m
+                  - generic [ref=e95]: ·
+                  - generic [ref=e96]:
+                    - generic [ref=e97]: 
+                    - text: "0"
+          - article [ref=e98]:
+            - link "G.214 Dwarfing  HP Rec. G.214 जी .214 Geneva 214  3.5m × 1.0m ·  0" [ref=e99] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/g-214
+              - generic [ref=e100]:
+                - img "G.214" [ref=e101]
+                - generic [ref=e102]: Dwarfing
+                - generic [ref=e103]:
+                  - generic [ref=e104]: 
+                  - text: HP Rec.
+              - generic [ref=e105]:
+                - heading "G.214" [level=3] [ref=e106]
+                - paragraph [ref=e107]: जी .214
+                - paragraph [ref=e108]: Geneva 214
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - generic [ref=e111]: 
+                    - text: 3.5m × 1.0m
+                  - generic [ref=e112]: ·
+                  - generic [ref=e113]:
+                    - generic [ref=e114]: 
+                    - text: "0"
+          - article [ref=e115]:
+            - link "G.41 Dwarfing  HP Rec. G.41 जी .41 Geneva 41  3.5m × 1.1m ·  0" [ref=e116] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/g-41
+              - generic [ref=e117]:
+                - img "G.41" [ref=e118]
+                - generic [ref=e119]: Dwarfing
+                - generic [ref=e120]:
+                  - generic [ref=e121]: 
+                  - text: HP Rec.
+              - generic [ref=e122]:
+                - heading "G.41" [level=3] [ref=e123]
+                - paragraph [ref=e124]: जी .41
+                - paragraph [ref=e125]: Geneva 41
+                - generic [ref=e126]:
+                  - generic [ref=e127]:
+                    - generic [ref=e128]: 
+                    - text: 3.5m × 1.1m
+                  - generic [ref=e129]: ·
+                  - generic [ref=e130]:
+                    - generic [ref=e131]: 
+                    - text: "0"
+          - article [ref=e132]:
+            - link "G.935 Semi-Vigorous  HP Rec. G.935 जी .935 Geneva 935  4.5m × 1.8m ·  0" [ref=e133] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/g-935
+              - generic [ref=e134]:
+                - img "G.935" [ref=e135]
+                - generic [ref=e136]: Semi-Vigorous
+                - generic [ref=e137]:
+                  - generic [ref=e138]: 
+                  - text: HP Rec.
+              - generic [ref=e139]:
+                - heading "G.935" [level=3] [ref=e140]
+                - paragraph [ref=e141]: जी .935
+                - paragraph [ref=e142]: Geneva 935
+                - generic [ref=e143]:
+                  - generic [ref=e144]:
+                    - generic [ref=e145]: 
+                    - text: 4.5m × 1.8m
+                  - generic [ref=e146]: ·
+                  - generic [ref=e147]:
+                    - generic [ref=e148]: 
+                    - text: "0"
+          - article [ref=e149]:
+            - link "G.969 Semi-Dwarfing  HP Rec. G.969 जी .969 Geneva 969  4.0m × 1.5m ·  0" [ref=e150] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/g-969
+              - generic [ref=e151]:
+                - img "G.969" [ref=e152]
+                - generic [ref=e153]: Semi-Dwarfing
+                - generic [ref=e154]:
+                  - generic [ref=e155]: 
+                  - text: HP Rec.
+              - generic [ref=e156]:
+                - heading "G.969" [level=3] [ref=e157]
+                - paragraph [ref=e158]: जी .969
+                - paragraph [ref=e159]: Geneva 969
+                - generic [ref=e160]:
+                  - generic [ref=e161]:
+                    - generic [ref=e162]: 
+                    - text: 4.0m × 1.5m
+                  - generic [ref=e163]: ·
+                  - generic [ref=e164]:
+                    - generic [ref=e165]: 
+                    - text: "0"
+          - article [ref=e166]:
+            - link "M.2 Vigorous M.2 एम .2 Malling 2  5.5m × 2.5m ·  0" [ref=e167] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/m-2
+              - generic [ref=e168]:
+                - img "M.2" [ref=e169]
+                - generic [ref=e170]: Vigorous
+              - generic [ref=e171]:
+                - heading "M.2" [level=3] [ref=e172]
+                - paragraph [ref=e173]: एम .2
+                - paragraph [ref=e174]: Malling 2
+                - generic [ref=e175]:
+                  - generic [ref=e176]:
+                    - generic [ref=e177]: 
+                    - text: 5.5m × 2.5m
+                  - generic [ref=e178]: ·
+                  - generic [ref=e179]:
+                    - generic [ref=e180]: 
+                    - text: "0"
+          - article [ref=e181]:
+            - link "M.26 Semi-Dwarfing M.26 एम .26 Malling 26  3.5m × 1.2m ·  0" [ref=e182] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/m-26
+              - generic [ref=e183]:
+                - img "M.26" [ref=e184]
+                - generic [ref=e185]: Semi-Dwarfing
+              - generic [ref=e186]:
+                - heading "M.26" [level=3] [ref=e187]
+                - paragraph [ref=e188]: एम .26
+                - paragraph [ref=e189]: Malling 26
+                - generic [ref=e190]:
+                  - generic [ref=e191]:
+                    - generic [ref=e192]: 
+                    - text: 3.5m × 1.2m
+                  - generic [ref=e193]: ·
+                  - generic [ref=e194]:
+                    - generic [ref=e195]: 
+                    - text: "0"
+          - article [ref=e196]:
+            - link "M.27 Dwarfing M.27 एम .27 Malling 27  3.0m × 0.8m ·  0" [ref=e197] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/m-27
+              - generic [ref=e198]:
+                - img "M.27" [ref=e199]
+                - generic [ref=e200]: Dwarfing
+              - generic [ref=e201]:
+                - heading "M.27" [level=3] [ref=e202]
+                - paragraph [ref=e203]: एम .27
+                - paragraph [ref=e204]: Malling 27
+                - generic [ref=e205]:
+                  - generic [ref=e206]:
+                    - generic [ref=e207]: 
+                    - text: 3.0m × 0.8m
+                  - generic [ref=e208]: ·
+                  - generic [ref=e209]:
+                    - generic [ref=e210]: 
+                    - text: "0"
+          - article [ref=e211]:
+            - link "M.4 Semi-Vigorous M.4 एम .4 Malling 4  4.5m × 2.0m ·  0" [ref=e212] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/m-4
+              - generic [ref=e213]:
+                - img "M.4" [ref=e214]
+                - generic [ref=e215]: Semi-Vigorous
+              - generic [ref=e216]:
+                - heading "M.4" [level=3] [ref=e217]
+                - paragraph [ref=e218]: एम .4
+                - paragraph [ref=e219]: Malling 4
+                - generic [ref=e220]:
+                  - generic [ref=e221]:
+                    - generic [ref=e222]: 
+                    - text: 4.5m × 2.0m
+                  - generic [ref=e223]: ·
+                  - generic [ref=e224]:
+                    - generic [ref=e225]: 
+                    - text: "0"
+          - article [ref=e226]:
+            - link "M.7 Semi-Dwarfing  HP Rec. M.7 एम .7 Malling 7  4.0m × 1.5m ·  0" [ref=e227] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/m-7
+              - generic [ref=e228]:
+                - img "M.7" [ref=e229]
+                - generic [ref=e230]: Semi-Dwarfing
+                - generic [ref=e231]:
+                  - generic [ref=e232]: 
+                  - text: HP Rec.
+              - generic [ref=e233]:
+                - heading "M.7" [level=3] [ref=e234]
+                - paragraph [ref=e235]: एम .7
+                - paragraph [ref=e236]: Malling 7
+                - generic [ref=e237]:
+                  - generic [ref=e238]:
+                    - generic [ref=e239]: 
+                    - text: 4.0m × 1.5m
+                  - generic [ref=e240]: ·
+                  - generic [ref=e241]:
+                    - generic [ref=e242]: 
+                    - text: "0"
+          - article [ref=e243]:
+            - link "M.9 Dwarfing  HP Rec. M.9 एम .9 Malling 9  3.5m × 1.0m ·  0" [ref=e244] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/m-9
+              - generic [ref=e245]:
+                - img "M.9" [ref=e246]
+                - generic [ref=e247]: Dwarfing
+                - generic [ref=e248]:
+                  - generic [ref=e249]: 
+                  - text: HP Rec.
+              - generic [ref=e250]:
+                - heading "M.9" [level=3] [ref=e251]
+                - paragraph [ref=e252]: एम .9
+                - paragraph [ref=e253]: Malling 9
+                - generic [ref=e254]:
+                  - generic [ref=e255]:
+                    - generic [ref=e256]: 
+                    - text: 3.5m × 1.0m
+                  - generic [ref=e257]: ·
+                  - generic [ref=e258]:
+                    - generic [ref=e259]: 
+                    - text: "0"
+          - article [ref=e260]:
+            - link "MM-104 Semi-Vigorous  HP Rec. MM-104 एमएम-104 Malling-Merton 104  4.5m × 1.8m ·  0" [ref=e261] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/mm-104
+              - generic [ref=e262]:
+                - img "MM-104" [ref=e263]
+                - generic [ref=e264]: Semi-Vigorous
+                - generic [ref=e265]:
+                  - generic [ref=e266]: 
+                  - text: HP Rec.
+              - generic [ref=e267]:
+                - heading "MM-104" [level=3] [ref=e268]
+                - paragraph [ref=e269]: एमएम-104
+                - paragraph [ref=e270]: Malling-Merton 104
+                - generic [ref=e271]:
+                  - generic [ref=e272]:
+                    - generic [ref=e273]: 
+                    - text: 4.5m × 1.8m
+                  - generic [ref=e274]: ·
+                  - generic [ref=e275]:
+                    - generic [ref=e276]: 
+                    - text: "0"
+          - article [ref=e277]:
+            - link "MM-106 Semi-Vigorous  HP Rec. MM-106 एमएम-106 Malling-Merton 106  4.5m × 2.0m ·  0" [ref=e278] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/mm-106
+              - generic [ref=e279]:
+                - img "MM-106" [ref=e280]
+                - generic [ref=e281]: Semi-Vigorous
+                - generic [ref=e282]:
+                  - generic [ref=e283]: 
+                  - text: HP Rec.
+              - generic [ref=e284]:
+                - heading "MM-106" [level=3] [ref=e285]
+                - paragraph [ref=e286]: एमएम-106
+                - paragraph [ref=e287]: Malling-Merton 106
+                - generic [ref=e288]:
+                  - generic [ref=e289]:
+                    - generic [ref=e290]: 
+                    - text: 4.5m × 2.0m
+                  - generic [ref=e291]: ·
+                  - generic [ref=e292]:
+                    - generic [ref=e293]: 
+                    - text: "0"
+          - article [ref=e294]:
+            - link "MM-109 Vigorous  HP Rec. MM-109 एमएम-109 Malling-Merton 109  5.5m × 3.0m ·  0" [ref=e295] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/mm-109
+              - generic [ref=e296]:
+                - img "MM-109" [ref=e297]
+                - generic [ref=e298]: Vigorous
+                - generic [ref=e299]:
+                  - generic [ref=e300]: 
+                  - text: HP Rec.
+              - generic [ref=e301]:
+                - heading "MM-109" [level=3] [ref=e302]
+                - paragraph [ref=e303]: एमएम-109
+                - paragraph [ref=e304]: Malling-Merton 109
+                - generic [ref=e305]:
+                  - generic [ref=e306]:
+                    - generic [ref=e307]: 
+                    - text: 5.5m × 3.0m
+                  - generic [ref=e308]: ·
+                  - generic [ref=e309]:
+                    - generic [ref=e310]: 
+                    - text: "0"
+          - article [ref=e311]:
+            - link "MM-111 Vigorous  HP Rec. MM-111 एमएम -111 Malling-Merton 111  5.0m × 2.5m ·  0" [ref=e312] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/mm-111
+              - generic [ref=e313]:
+                - img "MM-111" [ref=e314]
+                - generic [ref=e315]: Vigorous
+                - generic [ref=e316]:
+                  - generic [ref=e317]: 
+                  - text: HP Rec.
+              - generic [ref=e318]:
+                - heading "MM-111" [level=3] [ref=e319]
+                - paragraph [ref=e320]: एमएम -111
+                - paragraph [ref=e321]: Malling-Merton 111
+                - generic [ref=e322]:
+                  - generic [ref=e323]:
+                    - generic [ref=e324]: 
+                    - text: 5.0m × 2.5m
+                  - generic [ref=e325]: ·
+                  - generic [ref=e326]:
+                    - generic [ref=e327]: 
+                    - text: "0"
+          - article [ref=e328]:
+            - link "Ottawa 3 Semi-Dwarfing  HP Rec. Ottawa 3 ओटावा 3 Ottawa 3 (O.3)  3.5m × 1.2m ·  0" [ref=e329] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/rootstocks/ottawa-3
+              - generic [ref=e330]:
+                - img "Ottawa 3" [ref=e331]
+                - generic [ref=e332]: Semi-Dwarfing
+                - generic [ref=e333]:
+                  - generic [ref=e334]: 
+                  - text: HP Rec.
+              - generic [ref=e335]:
+                - heading "Ottawa 3" [level=3] [ref=e336]
+                - paragraph [ref=e337]: ओटावा 3
+                - paragraph [ref=e338]: Ottawa 3 (O.3)
+                - generic [ref=e339]:
+                  - generic [ref=e340]:
+                    - generic [ref=e341]: 
+                    - text: 3.5m × 1.2m
+                  - generic [ref=e342]: ·
+                  - generic [ref=e343]:
+                    - generic [ref=e344]: 
+                    - text: "0"
+        - navigation [ref=e346]:
+          - list [ref=e348]:
+            - listitem [ref=e349]: « Previous
+            - listitem [ref=e350]:
+              - link "Next »" [ref=e351] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/rootstock?page=2
+          - generic [ref=e352]:
+            - paragraph [ref=e354]: Showing 1 to 18 of 20 results
+            - list [ref=e356]:
+              - listitem "« Previous" [ref=e357]: ‹
+              - listitem [ref=e358]: "1"
+              - listitem [ref=e359]:
+                - link "2" [ref=e360] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/rootstock?page=2
+              - listitem [ref=e361]:
+                - link "Next »" [ref=e362] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/rootstock?page=2
+                  - text: ›
+  - contentinfo [ref=e363]:
+    - generic [ref=e364]:
+      - generic [ref=e365]:
+        - generic [ref=e366]:
+          - link "Baagvaani" [ref=e367] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e369]: Baagvaani
+          - paragraph [ref=e370]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e372]: Social channels coming soon
+        - generic [ref=e373]:
+          - heading "Quick Links" [level=3] [ref=e374]
+          - list [ref=e375]:
+            - listitem [ref=e376]:
+              - link "Home" [ref=e377] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e378]:
+              - link "Blog" [ref=e379] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e380]:
+              - link "About Us" [ref=e381] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e382]:
+          - heading "Topics" [level=3] [ref=e383]
+          - list [ref=e384]:
+            - listitem [ref=e385]:
+              - link "Spray & Disease" [ref=e386] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e387]:
+              - link "Orchard Care" [ref=e388] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e389]:
+              - link "Variety Guide" [ref=e390] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e391]:
+              - link "Weather & Climate" [ref=e392] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e393]:
+          - heading "Newsletter" [level=3] [ref=e394]
+          - paragraph [ref=e395]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e396]:
+            - textbox "Enter your email" [ref=e397]
+            - button "Subscribe" [ref=e398]
+          - paragraph [ref=e399]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e401]: © 2026 Baagvaani. All rights reserved.
+  - text:  

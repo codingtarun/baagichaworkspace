@@ -1,0 +1,484 @@
+- generic [active] [ref=f9e1]:
+  - link "Skip to main content" [ref=f9e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f9e3]:
+    - generic [ref=f9e5]:
+      - generic [ref=f9e6]:
+        - link "Baagvaani Home" [ref=f9e7] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - generic [ref=f9e9]:
+          - link "Baagvaani Home" [ref=f9e10] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=f9e11]: Baagvaani
+          - 'link "Weather: 29° in Kinnaur Valley, Partly cloudy · 45% humidity. Go to forecast." [ref=f9e12] [cursor=pointer]':
+            - /url: http://192.168.1.100:8000/weather
+            - generic [ref=f9e13]: 
+            - generic [ref=f9e15]:
+              - generic [ref=f9e16]: 29°
+              - generic [ref=f9e17]: Partly cloudy
+      - navigation "Main navigation" [ref=f9e18]:
+        - link "Home" [ref=f9e19] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - link "Fruits & Varieties" [ref=f9e20] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/fruits
+        - link "Rootstocks" [ref=f9e21] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/rootstock
+        - link "Blog" [ref=f9e22] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/blog
+        - link "About" [ref=f9e23] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/about
+      - generic [ref=f9e25]:
+        - link "Login" [ref=f9e26] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/login
+        - link "Sign Up" [ref=f9e27] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/register
+  - main [ref=f9e28]:
+    - region [ref=f9e29]:
+      - generic [ref=f9e33]:
+        - paragraph [ref=f9e34]: मौसम पूर्वानुमान
+        - heading "Weather Forecast" [level=1] [ref=f9e35]
+        - paragraph [ref=f9e36]: Real-time conditions, spray windows and alerts for your orchard location.
+    - region [ref=f9e37]:
+      - generic [ref=f9e38]:
+        - heading "Local Weather स्थानीय मौसम" [level=2] [ref=f9e39]:
+          - text: Local Weather
+          - generic [ref=f9e40]: स्थानीय मौसम
+        - text:   
+        - generic [ref=f9e41]:
+          - generic [ref=f9e42]:
+            - generic [ref=f9e43]:
+              - generic [ref=f9e44]: 
+              - paragraph [ref=f9e45]: 55%
+              - paragraph [ref=f9e46]: Humidity
+            - generic [ref=f9e47]:
+              - generic [ref=f9e48]: 
+              - paragraph [ref=f9e49]: "12.9"
+              - paragraph [ref=f9e50]: Wind km/h
+            - generic [ref=f9e51]:
+              - generic [ref=f9e52]: 
+              - paragraph [ref=f9e53]: "1007.2"
+              - paragraph [ref=f9e54]: Pressure hPa
+            - generic [ref=f9e55]:
+              - generic [ref=f9e56]: 
+              - paragraph [ref=f9e57]: 17%
+              - paragraph [ref=f9e58]: Cloud cover
+          - generic [ref=f9e59]:
+            - generic [ref=f9e60]:
+              - generic [ref=f9e61]:
+                - generic [ref=f9e62]:
+                  - generic [ref=f9e63]:
+                    - paragraph [ref=f9e64]:
+                      - generic [ref=f9e65]: 
+                      - text: Shimla, Himachal Pradesh
+                    - paragraph [ref=f9e66]:
+                      - generic [ref=f9e67]: 
+                      - text: Updated 12:24 PM
+                  - button " Change" [ref=f9e68]:
+                    - generic [ref=f9e69]: 
+                    - text: Change
+                - generic [ref=f9e71]:
+                  - generic [ref=f9e72]: 
+                  - generic [ref=f9e74]:
+                    - paragraph [ref=f9e75]: 24°
+                    - paragraph [ref=f9e76]: Clear
+                    - paragraph [ref=f9e77]: Feels like 25°C
+                - generic [ref=f9e78]:
+                  - generic [ref=f9e79]:
+                    - generic [ref=f9e80]: 
+                    - paragraph [ref=f9e81]: 25°
+                    - paragraph [ref=f9e82]: Feels like
+                  - generic [ref=f9e83]:
+                    - generic [ref=f9e84]: 
+                    - paragraph [ref=f9e85]: —
+                    - paragraph [ref=f9e86]: Dew point
+                  - generic [ref=f9e87]:
+                    - generic [ref=f9e88]: 
+                    - paragraph [ref=f9e89]: —
+                    - paragraph [ref=f9e90]: Visibility
+                  - generic [ref=f9e91]:
+                    - generic [ref=f9e92]: 
+                    - paragraph [ref=f9e93]: —
+                    - paragraph [ref=f9e94]: UV index
+                  - generic [ref=f9e95]:
+                    - generic [ref=f9e96]: 
+                    - paragraph [ref=f9e97]: 0 mm
+                    - paragraph [ref=f9e98]: Precipitation
+                  - generic [ref=f9e99]:
+                    - generic [ref=f9e100]: 
+                    - paragraph [ref=f9e101]: WNW
+                    - paragraph [ref=f9e102]: Wind dir
+              - generic [ref=f9e103]:
+                - heading "Next 24 Hours — आगामी 24 घंटे" [level=3] [ref=f9e104]
+                - generic [ref=f9e105]:
+                  - generic [ref=f9e106]:
+                    - paragraph [ref=f9e107]: 11AM
+                    - generic [ref=f9e108]: 
+                    - paragraph [ref=f9e109]: 23°
+                    - paragraph [ref=f9e110]
+                  - generic [ref=f9e112]:
+                    - paragraph [ref=f9e113]: 12PM
+                    - generic [ref=f9e114]: 
+                    - paragraph [ref=f9e115]: 24°
+                    - paragraph [ref=f9e116]:
+                      - generic [ref=f9e117]: 
+                      - text: 16%
+                  - generic [ref=f9e119]:
+                    - paragraph [ref=f9e120]: 1PM
+                    - generic [ref=f9e121]: 
+                    - paragraph [ref=f9e122]: 24°
+                    - paragraph [ref=f9e123]:
+                      - generic [ref=f9e124]: 
+                      - text: 32%
+                  - generic [ref=f9e126]:
+                    - paragraph [ref=f9e127]: 2PM
+                    - generic [ref=f9e128]: 
+                    - paragraph [ref=f9e129]: 23°
+                    - paragraph [ref=f9e130]:
+                      - generic [ref=f9e131]: 
+                      - text: 45%
+                  - generic [ref=f9e133]:
+                    - paragraph [ref=f9e134]: 3PM
+                    - generic [ref=f9e135]: 
+                    - paragraph [ref=f9e136]: 23°
+                    - paragraph [ref=f9e137]:
+                      - generic [ref=f9e138]: 
+                      - text: 52%
+                  - generic [ref=f9e140]:
+                    - paragraph [ref=f9e141]: 4PM
+                    - generic [ref=f9e142]: 
+                    - paragraph [ref=f9e143]: 22°
+                    - paragraph [ref=f9e144]:
+                      - generic [ref=f9e145]: 
+                      - text: 56%
+                  - generic [ref=f9e147]:
+                    - paragraph [ref=f9e148]: 5PM
+                    - generic [ref=f9e149]: 
+                    - paragraph [ref=f9e150]: 21°
+                    - paragraph [ref=f9e151]:
+                      - generic [ref=f9e152]: 
+                      - text: 53%
+                  - generic [ref=f9e154]:
+                    - paragraph [ref=f9e155]: 6PM
+                    - generic [ref=f9e156]: 
+                    - paragraph [ref=f9e157]: 19°
+                    - paragraph [ref=f9e158]:
+                      - generic [ref=f9e159]: 
+                      - text: 39%
+                  - generic [ref=f9e161]:
+                    - paragraph [ref=f9e162]: 7PM
+                    - generic [ref=f9e163]: 
+                    - paragraph [ref=f9e164]: 17°
+                    - paragraph [ref=f9e165]:
+                      - generic [ref=f9e166]: 
+                      - text: 18%
+                  - generic [ref=f9e168]:
+                    - paragraph [ref=f9e169]: 8PM
+                    - generic [ref=f9e170]: 
+                    - paragraph [ref=f9e171]: 17°
+                    - paragraph [ref=f9e172]
+                  - generic [ref=f9e174]:
+                    - paragraph [ref=f9e175]: 9PM
+                    - generic [ref=f9e176]: 
+                    - paragraph [ref=f9e177]: 16°
+                    - paragraph [ref=f9e178]
+                  - generic [ref=f9e180]:
+                    - paragraph [ref=f9e181]: 10PM
+                    - generic [ref=f9e182]: 
+                    - paragraph [ref=f9e183]: 16°
+                    - paragraph [ref=f9e184]
+                  - generic [ref=f9e186]:
+                    - paragraph [ref=f9e187]: 11PM
+                    - generic [ref=f9e188]: 
+                    - paragraph [ref=f9e189]: 16°
+                    - paragraph [ref=f9e190]
+                  - generic [ref=f9e192]:
+                    - paragraph [ref=f9e193]: 12AM
+                    - generic [ref=f9e194]: 
+                    - paragraph [ref=f9e195]: 15°
+                    - paragraph [ref=f9e196]
+                  - generic [ref=f9e198]:
+                    - paragraph [ref=f9e199]: 1AM
+                    - generic [ref=f9e200]: 
+                    - paragraph [ref=f9e201]: 15°
+                    - paragraph [ref=f9e202]
+                  - generic [ref=f9e204]:
+                    - paragraph [ref=f9e205]: 2AM
+                    - generic [ref=f9e206]: 
+                    - paragraph [ref=f9e207]: 14°
+                    - paragraph [ref=f9e208]
+                  - generic [ref=f9e210]:
+                    - paragraph [ref=f9e211]: 3AM
+                    - generic [ref=f9e212]: 
+                    - paragraph [ref=f9e213]: 14°
+                    - paragraph [ref=f9e214]
+                  - generic [ref=f9e216]:
+                    - paragraph [ref=f9e217]: 4AM
+                    - generic [ref=f9e218]: 
+                    - paragraph [ref=f9e219]: 14°
+                    - paragraph [ref=f9e220]
+                  - generic [ref=f9e222]:
+                    - paragraph [ref=f9e223]: 5AM
+                    - generic [ref=f9e224]: 
+                    - paragraph [ref=f9e225]: 14°
+                    - paragraph [ref=f9e226]
+                  - generic [ref=f9e228]:
+                    - paragraph [ref=f9e229]: 6AM
+                    - generic [ref=f9e230]: 
+                    - paragraph [ref=f9e231]: 15°
+                    - paragraph [ref=f9e232]
+                  - generic [ref=f9e234]:
+                    - paragraph [ref=f9e235]: 7AM
+                    - generic [ref=f9e236]: 
+                    - paragraph [ref=f9e237]: 19°
+                    - paragraph [ref=f9e238]
+                  - generic [ref=f9e240]:
+                    - paragraph [ref=f9e241]: 8AM
+                    - generic [ref=f9e242]: 
+                    - paragraph [ref=f9e243]: 20°
+                    - paragraph [ref=f9e244]
+                  - generic [ref=f9e246]:
+                    - paragraph [ref=f9e247]: 9AM
+                    - generic [ref=f9e248]: 
+                    - paragraph [ref=f9e249]: 22°
+                    - paragraph [ref=f9e250]
+                  - generic [ref=f9e252]:
+                    - paragraph [ref=f9e253]: 10AM
+                    - generic [ref=f9e254]: 
+                    - paragraph [ref=f9e255]: 23°
+                    - paragraph [ref=f9e256]:
+                      - generic [ref=f9e257]: 
+                      - text: 12%
+            - generic [ref=f9e261]:
+              - generic [ref=f9e262]: 
+              - generic [ref=f9e264]:
+                - heading "Good Day to Spray" [level=4] [ref=f9e265]
+                - paragraph [ref=f9e266]: "Best window: 11AM–1PM · Wind 12.9 km/h · 55% humidity"
+          - generic [ref=f9e267]:
+            - heading "7-Day Forecast — 7 दिन का पूर्वानुमान" [level=3] [ref=f9e268]
+            - generic [ref=f9e269]:
+              - generic [ref=f9e270]:
+                - generic [ref=f9e271]: 
+                - generic [ref=f9e273]:
+                  - paragraph [ref=f9e274]: Today
+                  - paragraph [ref=f9e275]: 16 Jul
+                - generic [ref=f9e276]:
+                  - paragraph [ref=f9e277]: Clouds
+                  - generic [ref=f9e278]:
+                    - generic [ref=f9e279]:
+                      - generic [ref=f9e280]: 
+                      - text: 76%
+                    - generic [ref=f9e281]:
+                      - generic [ref=f9e282]: 
+                      - text: 14.7 km/h
+                    - generic [ref=f9e283]:
+                      - generic [ref=f9e284]: "%"
+                      - text: 56%
+                  - generic [ref=f9e285]:
+                    - generic [ref=f9e286]: 
+                    - text: Avoid — Rain 56%
+                - generic [ref=f9e287]:
+                  - paragraph [ref=f9e288]: 24°
+                  - paragraph [ref=f9e289]: 13°
+              - generic [ref=f9e290]:
+                - generic [ref=f9e291]: 
+                - generic [ref=f9e293]:
+                  - paragraph [ref=f9e294]: Tomorrow
+                  - paragraph [ref=f9e295]: 17 Jul
+                - generic [ref=f9e296]:
+                  - paragraph [ref=f9e297]: Clouds
+                  - generic [ref=f9e298]:
+                    - generic [ref=f9e299]:
+                      - generic [ref=f9e300]: 
+                      - text: 78%
+                    - generic [ref=f9e301]:
+                      - generic [ref=f9e302]: 
+                      - text: 14 km/h
+                    - generic [ref=f9e303]:
+                      - generic [ref=f9e304]: "%"
+                      - text: 67%
+                  - generic [ref=f9e305]:
+                    - generic [ref=f9e306]: 
+                    - text: Avoid — Rain 67%
+                - generic [ref=f9e307]:
+                  - paragraph [ref=f9e308]: 24°
+                  - paragraph [ref=f9e309]: 14°
+              - generic [ref=f9e310]:
+                - generic [ref=f9e311]: 
+                - generic [ref=f9e313]:
+                  - paragraph [ref=f9e314]: Sat
+                  - paragraph [ref=f9e315]: 18 Jul
+                - generic [ref=f9e316]:
+                  - paragraph [ref=f9e317]: Rain
+                  - generic [ref=f9e318]:
+                    - generic [ref=f9e319]:
+                      - generic [ref=f9e320]: 
+                      - text: 80%
+                    - generic [ref=f9e321]:
+                      - generic [ref=f9e322]: 
+                      - text: 13.9 km/h
+                    - generic [ref=f9e323]:
+                      - generic [ref=f9e324]: 
+                      - text: 9.3mm
+                    - generic [ref=f9e325]:
+                      - generic [ref=f9e326]: "%"
+                      - text: 83%
+                  - generic [ref=f9e327]:
+                    - generic [ref=f9e328]: 
+                    - text: Avoid — Humidity, Rain 83%
+                - generic [ref=f9e329]:
+                  - paragraph [ref=f9e330]: 23°
+                  - paragraph [ref=f9e331]: 17°
+              - generic [ref=f9e332]:
+                - generic [ref=f9e333]: 
+                - generic [ref=f9e335]:
+                  - paragraph [ref=f9e336]: Sun
+                  - paragraph [ref=f9e337]: 19 Jul
+                - generic [ref=f9e338]:
+                  - paragraph [ref=f9e339]: Thunderstorm
+                  - generic [ref=f9e340]:
+                    - generic [ref=f9e341]:
+                      - generic [ref=f9e342]: 
+                      - text: 84%
+                    - generic [ref=f9e343]:
+                      - generic [ref=f9e344]: 
+                      - text: 10.5 km/h
+                    - generic [ref=f9e345]:
+                      - generic [ref=f9e346]: 
+                      - text: 27.7mm
+                    - generic [ref=f9e347]:
+                      - generic [ref=f9e348]: "%"
+                      - text: 100%
+                  - generic [ref=f9e349]:
+                    - generic [ref=f9e350]: 
+                    - text: Avoid — Humidity, Rain 100%
+                - generic [ref=f9e351]:
+                  - paragraph [ref=f9e352]: 22°
+                  - paragraph [ref=f9e353]: 17°
+              - generic [ref=f9e354]:
+                - generic [ref=f9e355]: 
+                - generic [ref=f9e357]:
+                  - paragraph [ref=f9e358]: Mon
+                  - paragraph [ref=f9e359]: 20 Jul
+                - generic [ref=f9e360]:
+                  - paragraph [ref=f9e361]: Thunderstorm
+                  - generic [ref=f9e362]:
+                    - generic [ref=f9e363]:
+                      - generic [ref=f9e364]: 
+                      - text: 90%
+                    - generic [ref=f9e365]:
+                      - generic [ref=f9e366]: 
+                      - text: 4.9 km/h
+                    - generic [ref=f9e367]:
+                      - generic [ref=f9e368]: 
+                      - text: 42mm
+                    - generic [ref=f9e369]:
+                      - generic [ref=f9e370]: "%"
+                      - text: 100%
+                  - generic [ref=f9e371]:
+                    - generic [ref=f9e372]: 
+                    - text: Avoid — Humidity, Rain 100%
+                - generic [ref=f9e373]:
+                  - paragraph [ref=f9e374]: 20°
+                  - paragraph [ref=f9e375]: 16°
+              - generic [ref=f9e376]:
+                - generic [ref=f9e377]: 
+                - generic [ref=f9e379]:
+                  - paragraph [ref=f9e380]: Tue
+                  - paragraph [ref=f9e381]: 21 Jul
+                - generic [ref=f9e382]:
+                  - paragraph [ref=f9e383]: Rain
+                  - generic [ref=f9e384]:
+                    - generic [ref=f9e385]:
+                      - generic [ref=f9e386]: 
+                      - text: 99%
+                    - generic [ref=f9e387]:
+                      - generic [ref=f9e388]: 
+                      - text: 3.8 km/h
+                    - generic [ref=f9e389]:
+                      - generic [ref=f9e390]: 
+                      - text: 33mm
+                    - generic [ref=f9e391]:
+                      - generic [ref=f9e392]: "%"
+                      - text: 100%
+                  - generic [ref=f9e393]:
+                    - generic [ref=f9e394]: 
+                    - text: Avoid — Humidity, Rain 100%
+                - generic [ref=f9e395]:
+                  - paragraph [ref=f9e396]: 18°
+                  - paragraph [ref=f9e397]: 16°
+              - generic [ref=f9e398]:
+                - generic [ref=f9e399]: 
+                - generic [ref=f9e401]:
+                  - paragraph [ref=f9e402]: Wed
+                  - paragraph [ref=f9e403]: 22 Jul
+                - generic [ref=f9e404]:
+                  - paragraph [ref=f9e405]: Thunderstorm
+                  - generic [ref=f9e406]:
+                    - generic [ref=f9e407]:
+                      - generic [ref=f9e408]: 
+                      - text: 95%
+                    - generic [ref=f9e409]:
+                      - generic [ref=f9e410]: 
+                      - text: 3.2 km/h
+                    - generic [ref=f9e411]:
+                      - generic [ref=f9e412]: 
+                      - text: 12.6mm
+                    - generic [ref=f9e413]:
+                      - generic [ref=f9e414]: "%"
+                      - text: 100%
+                  - generic [ref=f9e415]:
+                    - generic [ref=f9e416]: 
+                    - text: Avoid — Humidity, Rain 100%
+                - generic [ref=f9e417]:
+                  - paragraph [ref=f9e418]: 19°
+                  - paragraph [ref=f9e419]: 15°
+          - generic [ref=f9e420]:
+            - generic [ref=f9e421]: 
+            - paragraph [ref=f9e422]: Spray window is based on wind speed (<15 km/h), humidity (<80%), and rain probability (<30%). Always verify local conditions before spraying.
+          - button " Refresh forecast" [ref=f9e424]:
+            - generic [ref=f9e425]: 
+            - text: Refresh forecast
+  - contentinfo [ref=f9e426]:
+    - generic [ref=f9e427]:
+      - generic [ref=f9e428]:
+        - generic [ref=f9e429]:
+          - link "Baagvaani" [ref=f9e430] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+          - paragraph [ref=f9e433]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=f9e434]: Social channels coming soon
+        - generic [ref=f9e436]:
+          - heading "Quick Links" [level=3] [ref=f9e437]
+          - list [ref=f9e438]:
+            - listitem [ref=f9e439]:
+              - link "Home" [ref=f9e440] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=f9e441]:
+              - link "Blog" [ref=f9e442] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=f9e443]:
+              - link "About Us" [ref=f9e444] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=f9e445]:
+          - heading "Topics" [level=3] [ref=f9e446]
+          - list [ref=f9e447]:
+            - listitem [ref=f9e448]:
+              - link "Spray & Disease" [ref=f9e449] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=f9e450]:
+              - link "Orchard Care" [ref=f9e451] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=f9e452]:
+              - link "Variety Guide" [ref=f9e453] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=f9e454]:
+              - link "Weather & Climate" [ref=f9e455] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=f9e456]:
+          - heading "Newsletter" [level=3] [ref=f9e457]
+          - paragraph [ref=f9e458]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=f9e459]:
+            - textbox "Enter your email" [ref=f9e460]
+            - button "Subscribe" [ref=f9e461]
+          - paragraph [ref=f9e462]: No spam. Unsubscribe anytime.
+      - paragraph [ref=f9e464]: © 2026 Baagvaani. All rights reserved.
+  - text:  

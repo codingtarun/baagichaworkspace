@@ -1,0 +1,162 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 25° in Kinnaur Valley, Partly cloudy · 59% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://192.168.1.100:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e16]: 25°
+      - button "Toggle menu" [ref=e18]:
+        - img [ref=e19]
+  - main [ref=e21]:
+    - article [ref=e22]:
+      - region "Complete Spray Schedule for HP Apple Orchards" [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - link "Knowledge Base" [ref=e26] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog
+              - img [ref=e27]
+              - text: Knowledge Base
+            - link "Spray & Disease" [ref=e30] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/category/spray-disease-management
+          - generic [ref=e31]:
+            - heading "Complete Spray Schedule for HP Apple Orchards" [level=1] [ref=e32]
+            - paragraph [ref=e33]: A stage-by-stage spray calendar from Dormant through Harvest — covering fungicides, insecticides, and micronutrients at each phenological stage.
+          - generic [ref=e34]:
+            - generic [ref=e35]:
+              - generic [ref=e36]: B
+              - generic [ref=e37]:
+                - paragraph [ref=e38]: Baagvaani Editorial
+                - paragraph [ref=e39]: Agronomy Team
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - img [ref=e42]
+                - text: 10 min
+              - generic [ref=e44]:
+                - img [ref=e45]
+                - text: 5,891
+              - time [ref=e48]: Jun 04, 2026
+      - img "Complete Spray Schedule for HP Apple Orchards" [ref=e52]
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - heading "Why Timing Matters" [level=3] [ref=e57]
+              - paragraph [ref=e58]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Spraying too early wastes money; spraying too late means the disease or pest is already established. Align sprays with your tree's growth stage, not the calendar date — altitude shifts timing by 7–14 days.
+              - heading "Dormant Stage" [level=3] [ref=e59]
+              - paragraph [ref=e60]: Apply lime sulphur wash to control scale insects and fungal overwinter spores. Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is the cheapest and most effective spray of the season. Aenean lacinia bibendum nulla sed consectetur.
+              - heading "Green Tip to Pink Bud" [level=3] [ref=e61]
+              - paragraph [ref=e62]: "First scab spray: Mancozeb 75 WP at 2g/L. Add Chlorpyrifos 20 EC for woolly aphid control. Check for fire blight cankers and prune them out. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus."
+              - heading "Full Bloom — Do NOT Spray" [level=3] [ref=e63]
+              - paragraph [ref=e64]: Never apply insecticides during bloom. Bees are essential pollinators. Wait until petal fall for the next spray. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.
+              - heading "Petal Fall to Fruit Set" [level=3] [ref=e65]
+              - paragraph [ref=e66]: Critical spray window. Apply Captan + Carbendazim. Add calcium nitrate foliar spray to prevent bitter pit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+              - heading "Fruit Development" [level=3] [ref=e67]
+              - paragraph [ref=e68]: Continue 14-day fungicide rotation. Add potassium spray at marble and walnut stage for colour and sugar development. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+            - generic [ref=e69]:
+              - heading "Related Articles" [level=2] [ref=e70]
+              - generic [ref=e71]:
+                - 'link "Powdery Mildew in HP Apple Orchards: Control Guide Spray & Disease Powdery Mildew in HP Apple Orchards: Control Guide Jun 11, 2026 · 5 min read" [ref=e72] [cursor=pointer]':
+                  - /url: http://192.168.1.100:8000/blog/post/powdery-mildew-apple-hp
+                  - generic [ref=e73]:
+                    - 'img "Powdery Mildew in HP Apple Orchards: Control Guide" [ref=e74]'
+                    - generic [ref=e75]: Spray & Disease
+                  - generic [ref=e76]:
+                    - 'heading "Powdery Mildew in HP Apple Orchards: Control Guide" [level=3] [ref=e77]'
+                    - paragraph [ref=e78]:
+                      - time [ref=e79]: Jun 11, 2026
+                      - text: · 5 min read
+                - 'link "Apple Scab: Identify, Prevent, and Treat Spray & Disease Apple Scab: Identify, Prevent, and Treat May 26, 2026 · 7 min read" [ref=e80] [cursor=pointer]':
+                  - /url: http://192.168.1.100:8000/blog/post/apple-scab-identify-prevent-treat
+                  - generic [ref=e81]:
+                    - 'img "Apple Scab: Identify, Prevent, and Treat" [ref=e82]'
+                    - generic [ref=e83]: Spray & Disease
+                  - generic [ref=e84]:
+                    - 'heading "Apple Scab: Identify, Prevent, and Treat" [level=3] [ref=e85]'
+                    - paragraph [ref=e86]:
+                      - time [ref=e87]: May 26, 2026
+                      - text: · 7 min read
+            - generic [ref=e89]:
+              - heading "Actions" [level=3] [ref=e90]
+              - generic [ref=e91]:
+                - button "Like" [ref=e92]:
+                  - generic [ref=e93]: 
+                  - generic [ref=e94]: Like
+                - button "Save" [ref=e95]:
+                  - generic [ref=e96]: 
+                  - generic [ref=e97]: Save
+              - button "Share" [ref=e98]:
+                - generic [ref=e99]: 
+                - text: Share
+          - text:   
+        - generic [ref=e103]:
+          - heading " Comments" [level=2] [ref=e105]:
+            - generic [ref=e106]: 
+            - text: Comments
+          - generic [ref=e107]:
+            - generic [ref=e108]: 
+            - link "Login" [ref=e109] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/login
+            - text: to leave a comment.
+          - generic [ref=e111]:
+            - generic [ref=e112]: 
+            - paragraph [ref=e113]: No comments yet. Be the first to share your thoughts!
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - text:   
+          - button "Share Complete Spray Schedule for HP Apple Orchards" [ref=e116] [cursor=pointer]:
+            - generic [ref=e117]: 
+        - button "Switch to Hindi" [ref=e118] [cursor=pointer]: हिन्दी
+  - contentinfo [ref=e119]:
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - link "Baagvaani" [ref=e123] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e125]: Baagvaani
+          - paragraph [ref=e126]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e128]: Social channels coming soon
+        - generic [ref=e129]:
+          - heading "Quick Links" [level=3] [ref=e130]
+          - list [ref=e131]:
+            - listitem [ref=e132]:
+              - link "Home" [ref=e133] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e134]:
+              - link "Blog" [ref=e135] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e136]:
+              - link "About Us" [ref=e137] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e138]:
+          - heading "Topics" [level=3] [ref=e139]
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - link "Spray & Disease" [ref=e142] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e143]:
+              - link "Orchard Care" [ref=e144] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e145]:
+              - link "Variety Guide" [ref=e146] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e147]:
+              - link "Weather & Climate" [ref=e148] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e149]:
+          - heading "Newsletter" [level=3] [ref=e150]
+          - paragraph [ref=e151]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e152]:
+            - textbox "Enter your email" [ref=e153]
+            - button "Subscribe" [ref=e154]
+          - paragraph [ref=e155]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e157]: © 2026 Baagvaani. All rights reserved.
+  - text:  

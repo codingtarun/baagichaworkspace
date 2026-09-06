@@ -1,0 +1,336 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to main content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f2e3]:
+    - generic [ref=f2e5]:
+      - generic [ref=f2e6]:
+        - link "Baagvaani Home" [ref=f2e7] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - generic [ref=f2e9]:
+          - link "Baagvaani Home" [ref=f2e10] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=f2e11]: Baagvaani
+          - 'link "Weather: 21° in Kinnaur Valley, Drizzle · 94% humidity. Go to forecast." [ref=f2e12] [cursor=pointer]':
+            - /url: http://192.168.1.100:8000/weather
+            - generic [ref=f2e13]: 
+            - generic [ref=f2e15]:
+              - generic [ref=f2e16]: 21°
+              - generic [ref=f2e17]: Drizzle
+      - generic [ref=f2e18]:
+        - generic [ref=f2e19]:
+          - link "Login" [ref=f2e20] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/login
+          - link "Sign Up" [ref=f2e21] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/register
+        - button "Toggle menu" [ref=f2e22]
+  - main [ref=f2e25]:
+    - region [ref=f2e26]:
+      - generic [ref=f2e30]:
+        - link "Apple Rootstocks" [ref=f2e32] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/rootstock/fruit/apple
+        - paragraph [ref=f2e35]: सेब
+        - heading "Select Rootstocks to Compare" [level=1] [ref=f2e36]
+        - paragraph [ref=f2e37]: Choose 2–4 rootstocks to compare side-by-side.
+    - generic [ref=f2e39]:
+      - generic [ref=f2e40]:
+        - heading "Apple Rootstocks" [level=2] [ref=f2e41]
+        - generic [ref=f2e42]: "Selected: 0/4"
+      - generic [ref=f2e43]:
+        - button "B.118 B.118 Budagovsky 118 बी.118 Semi-Dwarfing HP Rec." [ref=f2e44] [cursor=pointer]:
+          - generic [ref=f2e45]:
+            - img "B.118" [ref=f2e47]
+            - generic [ref=f2e49]:
+              - heading "B.118" [level=3] [ref=f2e50]
+              - paragraph [ref=f2e51]: Budagovsky 118
+              - paragraph [ref=f2e52]: बी.118
+              - generic [ref=f2e53]:
+                - generic [ref=f2e54]: Semi-Dwarfing
+                - generic [ref=f2e55]: HP Rec.
+        - button "B.9 B.9 Budagovsky 9 बी.9 Dwarfing HP Rec." [ref=f2e56] [cursor=pointer]:
+          - generic [ref=f2e57]:
+            - img "B.9" [ref=f2e59]
+            - generic [ref=f2e61]:
+              - heading "B.9" [level=3] [ref=f2e62]
+              - paragraph [ref=f2e63]: Budagovsky 9
+              - paragraph [ref=f2e64]: बी.9
+              - generic [ref=f2e65]:
+                - generic [ref=f2e66]: Dwarfing
+                - generic [ref=f2e67]: HP Rec.
+        - button "Bud.10 Bud.10 Budagovsky 10 बुड.10 Semi-Dwarfing HP Rec." [ref=f2e68] [cursor=pointer]:
+          - generic [ref=f2e69]:
+            - img "Bud.10" [ref=f2e71]
+            - generic [ref=f2e73]:
+              - heading "Bud.10" [level=3] [ref=f2e74]
+              - paragraph [ref=f2e75]: Budagovsky 10
+              - paragraph [ref=f2e76]: बुड.10
+              - generic [ref=f2e77]:
+                - generic [ref=f2e78]: Semi-Dwarfing
+                - generic [ref=f2e79]: HP Rec.
+        - button "EMLA 9 EMLA 9 EMLA 9 (East Malling Long Ashton 9) ईएमएलए 9 Semi-Dwarfing HP Rec." [ref=f2e80] [cursor=pointer]:
+          - generic [ref=f2e81]:
+            - img "EMLA 9" [ref=f2e83]
+            - generic [ref=f2e85]:
+              - heading "EMLA 9" [level=3] [ref=f2e86]
+              - paragraph [ref=f2e87]: EMLA 9 (East Malling Long Ashton 9)
+              - paragraph [ref=f2e88]: ईएमएलए 9
+              - generic [ref=f2e89]:
+                - generic [ref=f2e90]: Semi-Dwarfing
+                - generic [ref=f2e91]: HP Rec.
+        - button "G.11 G.11 Geneva 11 जी .11 Semi-Dwarfing HP Rec." [ref=f2e92] [cursor=pointer]:
+          - generic [ref=f2e93]:
+            - img "G.11" [ref=f2e95]
+            - generic [ref=f2e97]:
+              - heading "G.11" [level=3] [ref=f2e98]
+              - paragraph [ref=f2e99]: Geneva 11
+              - paragraph [ref=f2e100]: जी .11
+              - generic [ref=f2e101]:
+                - generic [ref=f2e102]: Semi-Dwarfing
+                - generic [ref=f2e103]: HP Rec.
+        - button "G.20 G.20 Geneva 20 जी.20 Semi-Dwarfing HP Rec." [ref=f2e104] [cursor=pointer]:
+          - generic [ref=f2e105]:
+            - img "G.20" [ref=f2e107]
+            - generic [ref=f2e109]:
+              - heading "G.20" [level=3] [ref=f2e110]
+              - paragraph [ref=f2e111]: Geneva 20
+              - paragraph [ref=f2e112]: जी.20
+              - generic [ref=f2e113]:
+                - generic [ref=f2e114]: Semi-Dwarfing
+                - generic [ref=f2e115]: HP Rec.
+        - button "G.210 G.210 Geneva 210 जी.210 Semi-Dwarfing HP Rec." [ref=f2e116] [cursor=pointer]:
+          - generic [ref=f2e117]:
+            - img "G.210" [ref=f2e119]
+            - generic [ref=f2e121]:
+              - heading "G.210" [level=3] [ref=f2e122]
+              - paragraph [ref=f2e123]: Geneva 210
+              - paragraph [ref=f2e124]: जी.210
+              - generic [ref=f2e125]:
+                - generic [ref=f2e126]: Semi-Dwarfing
+                - generic [ref=f2e127]: HP Rec.
+        - button "G.214 G.214 Geneva 214 जी .214 Dwarfing HP Rec." [ref=f2e128] [cursor=pointer]:
+          - generic [ref=f2e129]:
+            - img "G.214" [ref=f2e131]
+            - generic [ref=f2e133]:
+              - heading "G.214" [level=3] [ref=f2e134]
+              - paragraph [ref=f2e135]: Geneva 214
+              - paragraph [ref=f2e136]: जी .214
+              - generic [ref=f2e137]:
+                - generic [ref=f2e138]: Dwarfing
+                - generic [ref=f2e139]: HP Rec.
+        - button "G.41 G.41 Geneva 41 जी .41 Dwarfing HP Rec." [ref=f2e140] [cursor=pointer]:
+          - generic [ref=f2e141]:
+            - img "G.41" [ref=f2e143]
+            - generic [ref=f2e145]:
+              - heading "G.41" [level=3] [ref=f2e146]
+              - paragraph [ref=f2e147]: Geneva 41
+              - paragraph [ref=f2e148]: जी .41
+              - generic [ref=f2e149]:
+                - generic [ref=f2e150]: Dwarfing
+                - generic [ref=f2e151]: HP Rec.
+        - button "G.890 G.890 Geneva 890 जी.890 Semi-Vigorous HP Rec." [ref=f2e152] [cursor=pointer]:
+          - generic [ref=f2e153]:
+            - img "G.890" [ref=f2e155]
+            - generic [ref=f2e157]:
+              - heading "G.890" [level=3] [ref=f2e158]
+              - paragraph [ref=f2e159]: Geneva 890
+              - paragraph [ref=f2e160]: जी.890
+              - generic [ref=f2e161]:
+                - generic [ref=f2e162]: Semi-Vigorous
+                - generic [ref=f2e163]: HP Rec.
+        - button "G.935 G.935 Geneva 935 जी .935 Semi-Vigorous HP Rec." [ref=f2e164] [cursor=pointer]:
+          - generic [ref=f2e165]:
+            - img "G.935" [ref=f2e167]
+            - generic [ref=f2e169]:
+              - heading "G.935" [level=3] [ref=f2e170]
+              - paragraph [ref=f2e171]: Geneva 935
+              - paragraph [ref=f2e172]: जी .935
+              - generic [ref=f2e173]:
+                - generic [ref=f2e174]: Semi-Vigorous
+                - generic [ref=f2e175]: HP Rec.
+        - button "G.969 G.969 Geneva 969 जी .969 Semi-Dwarfing HP Rec." [ref=f2e176] [cursor=pointer]:
+          - generic [ref=f2e177]:
+            - img "G.969" [ref=f2e179]
+            - generic [ref=f2e181]:
+              - heading "G.969" [level=3] [ref=f2e182]
+              - paragraph [ref=f2e183]: Geneva 969
+              - paragraph [ref=f2e184]: जी .969
+              - generic [ref=f2e185]:
+                - generic [ref=f2e186]: Semi-Dwarfing
+                - generic [ref=f2e187]: HP Rec.
+        - button "M.26 M.26 Malling 26 एम .26 Semi-Dwarfing" [ref=f2e188] [cursor=pointer]:
+          - generic [ref=f2e189]:
+            - img "M.26" [ref=f2e191]
+            - generic [ref=f2e193]:
+              - heading "M.26" [level=3] [ref=f2e194]
+              - paragraph [ref=f2e195]: Malling 26
+              - paragraph [ref=f2e196]: एम .26
+              - generic [ref=f2e197]: Semi-Dwarfing
+        - button "M.27 M.27 Malling 27 एम .27 Dwarfing" [ref=f2e199] [cursor=pointer]:
+          - generic [ref=f2e200]:
+            - img "M.27" [ref=f2e202]
+            - generic [ref=f2e204]:
+              - heading "M.27" [level=3] [ref=f2e205]
+              - paragraph [ref=f2e206]: Malling 27
+              - paragraph [ref=f2e207]: एम .27
+              - generic [ref=f2e208]: Dwarfing
+        - button "M.7 M.7 Malling 7 एम .7 Semi-Dwarfing HP Rec." [ref=f2e210] [cursor=pointer]:
+          - generic [ref=f2e211]:
+            - img "M.7" [ref=f2e213]
+            - generic [ref=f2e215]:
+              - heading "M.7" [level=3] [ref=f2e216]
+              - paragraph [ref=f2e217]: Malling 7
+              - paragraph [ref=f2e218]: एम .7
+              - generic [ref=f2e219]:
+                - generic [ref=f2e220]: Semi-Dwarfing
+                - generic [ref=f2e221]: HP Rec.
+        - button "M.793 M.793 Malling 793 एम.793 Semi-Dwarfing HP Rec." [ref=f2e222] [cursor=pointer]:
+          - generic [ref=f2e223]:
+            - img "M.793" [ref=f2e225]
+            - generic [ref=f2e227]:
+              - heading "M.793" [level=3] [ref=f2e228]
+              - paragraph [ref=f2e229]: Malling 793
+              - paragraph [ref=f2e230]: एम.793
+              - generic [ref=f2e231]:
+                - generic [ref=f2e232]: Semi-Dwarfing
+                - generic [ref=f2e233]: HP Rec.
+        - button "M.9 M.9 Malling 9 एम .9 Dwarfing HP Rec." [ref=f2e234] [cursor=pointer]:
+          - generic [ref=f2e235]:
+            - img "M.9" [ref=f2e237]
+            - generic [ref=f2e239]:
+              - heading "M.9" [level=3] [ref=f2e240]
+              - paragraph [ref=f2e241]: Malling 9
+              - paragraph [ref=f2e242]: एम .9
+              - generic [ref=f2e243]:
+                - generic [ref=f2e244]: Dwarfing
+                - generic [ref=f2e245]: HP Rec.
+        - button "MAC-9 MAC-9 Michigan Apple Clone 9 (Mark) मैक-9 Dwarfing HP Rec." [ref=f2e246] [cursor=pointer]:
+          - generic [ref=f2e247]:
+            - img "MAC-9" [ref=f2e249]
+            - generic [ref=f2e251]:
+              - heading "MAC-9" [level=3] [ref=f2e252]
+              - paragraph [ref=f2e253]: Michigan Apple Clone 9 (Mark)
+              - paragraph [ref=f2e254]: मैक-9
+              - generic [ref=f2e255]:
+                - generic [ref=f2e256]: Dwarfing
+                - generic [ref=f2e257]: HP Rec.
+        - button "MM-104 MM-104 Malling-Merton 104 एमएम-104 Semi-Vigorous HP Rec." [ref=f2e258] [cursor=pointer]:
+          - generic [ref=f2e259]:
+            - img "MM-104" [ref=f2e261]
+            - generic [ref=f2e263]:
+              - heading "MM-104" [level=3] [ref=f2e264]
+              - paragraph [ref=f2e265]: Malling-Merton 104
+              - paragraph [ref=f2e266]: एमएम-104
+              - generic [ref=f2e267]:
+                - generic [ref=f2e268]: Semi-Vigorous
+                - generic [ref=f2e269]: HP Rec.
+        - button "MM-106 MM-106 Malling-Merton 106 एमएम-106 Semi-Vigorous HP Rec." [ref=f2e270] [cursor=pointer]:
+          - generic [ref=f2e271]:
+            - img "MM-106" [ref=f2e273]
+            - generic [ref=f2e275]:
+              - heading "MM-106" [level=3] [ref=f2e276]
+              - paragraph [ref=f2e277]: Malling-Merton 106
+              - paragraph [ref=f2e278]: एमएम-106
+              - generic [ref=f2e279]:
+                - generic [ref=f2e280]: Semi-Vigorous
+                - generic [ref=f2e281]: HP Rec.
+        - button "MM-109 MM-109 Malling-Merton 109 एमएम-109 Vigorous HP Rec." [ref=f2e282] [cursor=pointer]:
+          - generic [ref=f2e283]:
+            - img "MM-109" [ref=f2e285]
+            - generic [ref=f2e287]:
+              - heading "MM-109" [level=3] [ref=f2e288]
+              - paragraph [ref=f2e289]: Malling-Merton 109
+              - paragraph [ref=f2e290]: एमएम-109
+              - generic [ref=f2e291]:
+                - generic [ref=f2e292]: Vigorous
+                - generic [ref=f2e293]: HP Rec.
+        - button "MM-111 MM-111 Malling-Merton 111 एमएम -111 Vigorous HP Rec." [ref=f2e294] [cursor=pointer]:
+          - generic [ref=f2e295]:
+            - img "MM-111" [ref=f2e297]
+            - generic [ref=f2e299]:
+              - heading "MM-111" [level=3] [ref=f2e300]
+              - paragraph [ref=f2e301]: Malling-Merton 111
+              - paragraph [ref=f2e302]: एमएम -111
+              - generic [ref=f2e303]:
+                - generic [ref=f2e304]: Vigorous
+                - generic [ref=f2e305]: HP Rec.
+        - button "MM-116 MM-116 Malling-Merton 116 एमएम-116 Semi-Vigorous HP Rec." [ref=f2e306] [cursor=pointer]:
+          - generic [ref=f2e307]:
+            - img "MM-116" [ref=f2e309]
+            - generic [ref=f2e311]:
+              - heading "MM-116" [level=3] [ref=f2e312]
+              - paragraph [ref=f2e313]: Malling-Merton 116
+              - paragraph [ref=f2e314]: एमएम-116
+              - generic [ref=f2e315]:
+                - generic [ref=f2e316]: Semi-Vigorous
+                - generic [ref=f2e317]: HP Rec.
+        - button "Ottawa 3 Ottawa 3 Ottawa 3 (O.3) ओटावा 3 Semi-Dwarfing HP Rec." [ref=f2e318] [cursor=pointer]:
+          - generic [ref=f2e319]:
+            - img "Ottawa 3" [ref=f2e321]
+            - generic [ref=f2e323]:
+              - heading "Ottawa 3" [level=3] [ref=f2e324]
+              - paragraph [ref=f2e325]: Ottawa 3 (O.3)
+              - paragraph [ref=f2e326]: ओटावा 3
+              - generic [ref=f2e327]:
+                - generic [ref=f2e328]: Semi-Dwarfing
+                - generic [ref=f2e329]: HP Rec.
+        - button "Pajam 2 Pajam 2 Pajam 2 (Lancep) पाजाम 2 Semi-Dwarfing HP Rec." [ref=f2e330] [cursor=pointer]:
+          - generic [ref=f2e331]:
+            - img "Pajam 2" [ref=f2e333]
+            - generic [ref=f2e335]:
+              - heading "Pajam 2" [level=3] [ref=f2e336]
+              - paragraph [ref=f2e337]: Pajam 2 (Lancep)
+              - paragraph [ref=f2e338]: पाजाम 2
+              - generic [ref=f2e339]:
+                - generic [ref=f2e340]: Semi-Dwarfing
+                - generic [ref=f2e341]: HP Rec.
+        - button "Seedling Seedling Apple Seedling (Real) जमाती (सीडलिंग) Vigorous" [ref=f2e342] [cursor=pointer]:
+          - generic [ref=f2e343]:
+            - img "Seedling" [ref=f2e345]
+            - generic [ref=f2e347]:
+              - heading "Seedling" [level=3] [ref=f2e348]
+              - paragraph [ref=f2e349]: Apple Seedling (Real)
+              - paragraph [ref=f2e350]: जमाती (सीडलिंग)
+              - generic [ref=f2e351]: Vigorous
+  - contentinfo [ref=f2e353]:
+    - generic [ref=f2e354]:
+      - generic [ref=f2e355]:
+        - generic [ref=f2e356]:
+          - link "Baagvaani" [ref=f2e357] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+          - paragraph [ref=f2e360]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=f2e361]: Social channels coming soon
+        - generic [ref=f2e363]:
+          - heading "Quick Links" [level=3] [ref=f2e364]
+          - list [ref=f2e365]:
+            - listitem [ref=f2e366]:
+              - link "Home" [ref=f2e367] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=f2e368]:
+              - link "Blog" [ref=f2e369] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=f2e370]:
+              - link "About Us" [ref=f2e371] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=f2e372]:
+          - heading "Topics" [level=3] [ref=f2e373]
+          - list [ref=f2e374]:
+            - listitem [ref=f2e375]:
+              - link "Spray & Disease" [ref=f2e376] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=f2e377]:
+              - link "Orchard Care" [ref=f2e378] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=f2e379]:
+              - link "Variety Guide" [ref=f2e380] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=f2e381]:
+              - link "Weather & Climate" [ref=f2e382] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=f2e383]:
+          - heading "Newsletter" [level=3] [ref=f2e384]
+          - paragraph [ref=f2e385]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=f2e386]:
+            - textbox "Enter your email" [ref=f2e387]
+            - button "Subscribe" [ref=f2e388]
+          - paragraph [ref=f2e389]: No spam. Unsubscribe anytime.
+      - paragraph [ref=f2e391]: © 2026 Baagvaani. All rights reserved.
+  - text:  

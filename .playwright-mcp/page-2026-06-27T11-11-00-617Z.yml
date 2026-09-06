@@ -1,0 +1,162 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 25° in Kinnaur Valley, Partly cloudy · 59% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://127.0.0.1:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e16]: 25°
+      - button "Toggle menu" [ref=e18]:
+        - img [ref=e19]
+  - main [ref=e21]:
+    - article [ref=e22]:
+      - 'region "Apple Scab: Identify, Prevent, and Treat" [ref=e23]':
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - link "Knowledge Base" [ref=e26] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog
+              - img [ref=e27]
+              - text: Knowledge Base
+            - link "Spray & Disease" [ref=e30] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog/category/spray-disease-management
+          - generic [ref=e31]:
+            - 'heading "Apple Scab: Identify, Prevent, and Treat" [level=1] [ref=e32]'
+            - paragraph [ref=e33]: Apple Scab is the number-one yield threat in Himachal Pradesh orchards. Learn to spot it early, prevent it with fungicide timing, and recover quickly when it strikes.
+          - generic [ref=e34]:
+            - generic [ref=e35]:
+              - generic [ref=e36]: B
+              - generic [ref=e37]:
+                - paragraph [ref=e38]: Baagvaani Editorial
+                - paragraph [ref=e39]: Agronomy Team
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - img [ref=e42]
+                - text: 7 min
+              - generic [ref=e44]:
+                - img [ref=e45]
+                - text: 3,420
+              - time [ref=e48]: May 26, 2026
+      - 'img "Apple Scab: Identify, Prevent, and Treat" [ref=e52]'
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - heading "Understanding Apple Scab" [level=3] [ref=e57]
+              - paragraph [ref=e58]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              - paragraph [ref=e59]:
+                - text: Apple Scab (
+                - emphasis [ref=e60]: Venturia inaequalis
+                - text: ) is a fungal disease that attacks leaves and fruit during cool, wet spring weather. Spores overwinter in fallen leaves and are released when temperatures stay between 6°C and 24°C with prolonged leaf wetness. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+              - heading "How to Identify It" [level=3] [ref=e61]
+              - paragraph [ref=e62]: Look for olive-green to brown spots on the undersides of young leaves. As the season progresses, spots turn black and velvety. On fruit, you will see raised, corky scabs — fruit may crack and deform if infected early. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+              - heading "Prevention Strategies" [level=3] [ref=e63]
+              - paragraph [ref=e64]: Rake and burn fallen leaves every autumn. Spray urea (5%) in late autumn to speed leaf decomposition and destroy overwintering spores. Ensure tree spacing allows good airflow. Begin preventive fungicide sprays at green-tip stage. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+              - heading "Treatment Options" [level=3] [ref=e65]
+              - paragraph [ref=e66]: Use systemic fungicides like Myclobutanil or Tebuconazole at 10–14 day intervals during high-risk periods. Rotate chemical groups to prevent resistance. After heavy infection, copper-based sprays help slow further spread. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.
+            - generic [ref=e67]:
+              - heading "Related Articles" [level=2] [ref=e68]
+              - generic [ref=e69]:
+                - 'link "Powdery Mildew in HP Apple Orchards: Control Guide Spray & Disease Powdery Mildew in HP Apple Orchards: Control Guide Jun 11, 2026 · 5 min read" [ref=e70] [cursor=pointer]':
+                  - /url: http://127.0.0.1:8000/blog/post/powdery-mildew-apple-hp
+                  - generic [ref=e71]:
+                    - 'img "Powdery Mildew in HP Apple Orchards: Control Guide" [ref=e72]'
+                    - generic [ref=e73]: Spray & Disease
+                  - generic [ref=e74]:
+                    - 'heading "Powdery Mildew in HP Apple Orchards: Control Guide" [level=3] [ref=e75]'
+                    - paragraph [ref=e76]:
+                      - time [ref=e77]: Jun 11, 2026
+                      - text: · 5 min read
+                - link "Complete Spray Schedule for HP Apple Orchards Spray & Disease Complete Spray Schedule for HP Apple Orchards Jun 04, 2026 · 10 min read" [ref=e78] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/blog/post/complete-spray-schedule-hp-apple-orchards
+                  - generic [ref=e79]:
+                    - img "Complete Spray Schedule for HP Apple Orchards" [ref=e80]
+                    - generic [ref=e81]: Spray & Disease
+                  - generic [ref=e82]:
+                    - heading "Complete Spray Schedule for HP Apple Orchards" [level=3] [ref=e83]
+                    - paragraph [ref=e84]:
+                      - time [ref=e85]: Jun 04, 2026
+                      - text: · 10 min read
+            - generic [ref=e87]:
+              - heading "Actions" [level=3] [ref=e88]
+              - generic [ref=e89]:
+                - button "Like" [ref=e90]:
+                  - generic [ref=e91]: 
+                  - generic [ref=e92]: Like
+                - button "Save" [ref=e93]:
+                  - generic [ref=e94]: 
+                  - generic [ref=e95]: Save
+              - button "Share" [ref=e96]:
+                - generic [ref=e97]: 
+                - text: Share
+          - text:   
+        - generic [ref=e101]:
+          - heading " Comments" [level=2] [ref=e103]:
+            - generic [ref=e104]: 
+            - text: Comments
+          - generic [ref=e105]:
+            - generic [ref=e106]: 
+            - link "Login" [ref=e107] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/login
+            - text: to leave a comment.
+          - generic [ref=e109]:
+            - generic [ref=e110]: 
+            - paragraph [ref=e111]: No comments yet. Be the first to share your thoughts!
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - text:   
+          - 'button "Share Apple Scab: Identify, Prevent, and Treat" [ref=e114] [cursor=pointer]':
+            - generic [ref=e115]: 
+        - button "Switch to Hindi" [ref=e116] [cursor=pointer]: हिन्दी
+  - contentinfo [ref=e117]:
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - link "Baagvaani" [ref=e121] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e123]: Baagvaani
+          - paragraph [ref=e124]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e126]: Social channels coming soon
+        - generic [ref=e127]:
+          - heading "Quick Links" [level=3] [ref=e128]
+          - list [ref=e129]:
+            - listitem [ref=e130]:
+              - link "Home" [ref=e131] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e132]:
+              - link "Blog" [ref=e133] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e134]:
+              - link "About Us" [ref=e135] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e136]:
+          - heading "Topics" [level=3] [ref=e137]
+          - list [ref=e138]:
+            - listitem [ref=e139]:
+              - link "Spray & Disease" [ref=e140] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e141]:
+              - link "Orchard Care" [ref=e142] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e143]:
+              - link "Variety Guide" [ref=e144] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e145]:
+              - link "Weather & Climate" [ref=e146] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e147]:
+          - heading "Newsletter" [level=3] [ref=e148]
+          - paragraph [ref=e149]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e150]:
+            - textbox "Enter your email" [ref=e151]
+            - button "Subscribe" [ref=e152]
+          - paragraph [ref=e153]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e155]: © 2026 Baagvaani. All rights reserved.
+  - text:  

@@ -1,0 +1,448 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 25° in Kinnaur Valley, Partly cloudy · 56% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://192.168.1.100:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e16]: 25°
+      - button "Toggle menu" [ref=e18]:
+        - img [ref=e19]
+  - main [ref=e21]:
+    - region "Strain 1" [ref=e22]:
+      - generic [ref=e26]:
+        - link "Varieties" [ref=e28] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000/variety
+          - img [ref=e29]
+          - text: Varieties
+        - generic [ref=e32]:
+          - generic [ref=e33]: 
+          - text: Mid Season
+        - heading "Strain 1" [level=1] [ref=e35]
+        - paragraph [ref=e36]: apple abc
+        - paragraph [ref=e37]:
+          - generic [ref=e38]: 
+          - text: USA , introduced 1990
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - region "Gallery" [ref=e42]:
+            - region "Gallery" [ref=e44]:
+              - heading "Gallery" [level=2] [ref=e47]
+              - generic [ref=e48]:
+                - list "Gallery gallery" [ref=e49]:
+                  - listitem [ref=e50]:
+                    - link "Strain 1" [ref=e51] [cursor=pointer]:
+                      - /url: /storage/33/conversions/high-level-description-a-premium-agritec_r-Ew40jSU0KoeWLjkcABQg_Kb5hFN6OT4CkmT6vOvGbHA-large.jpg
+                      - img "Strain 1" [ref=e53]
+                  - listitem [ref=e54]:
+                    - link "Strain 1" [ref=e55] [cursor=pointer]:
+                      - /url: /storage/34/conversions/high-level-description-a-premium-agritec_nnVOgxr5WNamMsgGeW_GJQ_Kb5hFN6OT4CkmT6vOvGbHA-large.jpg
+                      - img "Strain 1" [ref=e57]
+                  - listitem [ref=e58]:
+                    - link "Strain 1" [ref=e59] [cursor=pointer]:
+                      - /url: /storage/35/conversions/high-level-description-a-premium-agritec_EMFOCROZURaAen8GwfBmmg_Kb5hFN6OT4CkmT6vOvGbHA_cover-large.jpg
+                      - img "Strain 1" [ref=e61]
+                  - listitem [ref=e62]:
+                    - link "Strain 1" [ref=e63] [cursor=pointer]:
+                      - /url: /storage/51/conversions/ChatGPT-Image-Jun-27%2C-2026%2C-09_03_57-AM-large.jpg
+                      - img "Strain 1" [ref=e65]
+                  - listitem [ref=e66]:
+                    - link "Strain 1" [ref=e67] [cursor=pointer]:
+                      - /url: /storage/52/conversions/hero-main-large.jpg
+                      - img "Strain 1" [ref=e69]
+                  - listitem [ref=e70]:
+                    - link "Strain 1" [ref=e71] [cursor=pointer]:
+                      - /url: /storage/53/conversions/ChatGPT-Image-Jun-26%2C-2026%2C-08_01_25-AM-large.jpg
+                      - img "Strain 1" [ref=e73]
+                - button "Scroll left" [ref=e74]:
+                  - img [ref=e75]
+                - button "Scroll right" [ref=e77]:
+                  - img [ref=e78]
+              - generic [ref=e80]:
+                - button [ref=e81]
+                - button [ref=e82]
+                - button [ref=e83]
+                - button [ref=e84]
+                - button [ref=e85]
+                - button [ref=e86]
+          - region "Overview" [ref=e87]:
+            - heading "Overview" [level=2] [ref=e88]
+            - paragraph [ref=e90]: fdg f fghf ghf ghfgh fgh fh fghfg hfgfdg f fghf ghf ghfgh fgh fh fghfg hfgfdg f fghf ghf ghfgh fgh fh fghfg hfgfdg f fghf ghf ghfgh fgh fh fghfg hfgfdg f fghf ghf ghfgh fgh fh fghfg hfgfdg f fghf ghf ghfgh fgh fh fghfg hfg
+            - generic [ref=e91]:
+              - heading " Growing Tips" [level=3] [ref=e92]:
+                - generic [ref=e93]: 
+                - text: Growing Tips
+              - paragraph [ref=e94]: fdg f fghf ghf ghfgh fgh fh fghfg hfgfdg f fghf ghf ghfgh fgh fh fghfg hfgfdg f fghf ghf ghfgh fgh fh fghfg hfgfdg f fghf ghf ghfgh fgh fh fghfg hfgfdg f fghf ghf ghfgh fgh fh fghfg hfgfdg f fghf ghf ghfgh fgh fh fghfg hfgfdg f fghf ghf ghfgh fgh fh fghfg hfg
+          - region "Tree & Fruit" [ref=e95]:
+            - heading "Tree & Fruit" [level=2] [ref=e96]
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - heading " Tree Characteristics" [level=3] [ref=e99]:
+                  - generic [ref=e100]: 
+                  - text: Tree Characteristics
+                - generic [ref=e101]:
+                  - generic [ref=e102]:
+                    - generic [ref=e103]: Vigour
+                    - generic [ref=e104]: Medium
+                  - generic [ref=e105]:
+                    - generic [ref=e106]: Growth Habit
+                    - generic [ref=e107]: Spreading
+                  - generic [ref=e108]:
+                    - generic [ref=e109]: Bearing Age
+                    - generic [ref=e110]: 10 years
+                  - generic [ref=e111]:
+                    - generic [ref=e112]: Self-Fertile
+                    - generic [ref=e113]: No ✗
+                  - generic [ref=e114]:
+                    - generic [ref=e115]: Pollinators
+                    - generic [ref=e116]: Red Golden
+              - separator [ref=e117]
+              - generic [ref=e118]:
+                - heading " Fruit Profile" [level=3] [ref=e119]:
+                  - generic [ref=e120]: 
+                  - text: Fruit Profile
+                - generic [ref=e121]:
+                  - generic [ref=e122]:
+                    - generic [ref=e123]: Size
+                    - generic [ref=e124]: Medium
+                  - generic [ref=e125]:
+                    - generic [ref=e126]: Shape
+                    - generic [ref=e127]: Round
+                  - generic [ref=e128]:
+                    - generic [ref=e129]: Skin Color
+                    - generic [ref=e130]: Red
+                  - generic [ref=e131]:
+                    - generic [ref=e132]: Flesh Color
+                    - generic [ref=e133]: White
+                  - generic [ref=e134]:
+                    - generic [ref=e135]: Avg. Weight
+                    - generic [ref=e136]: 45g
+                  - generic [ref=e137]:
+                    - generic [ref=e138]: Taste
+                    - generic [ref=e139]: Sweet
+              - separator [ref=e140]
+              - generic [ref=e141]:
+                - heading " Harvest & Storage" [level=3] [ref=e142]:
+                  - generic [ref=e143]: 
+                  - text: Harvest & Storage
+                - generic [ref=e144]:
+                  - generic [ref=e145]:
+                    - generic [ref=e146]: Days to Maturity
+                    - generic [ref=e147]: 120 days
+                  - generic [ref=e148]:
+                    - generic [ref=e149]: Harvest Window
+                    - generic [ref=e150]: Mid July - August
+                  - generic [ref=e151]:
+                    - generic [ref=e152]: Storage Life
+                    - generic [ref=e153]: Fair
+                  - generic [ref=e154]:
+                    - generic [ref=e155]: Storage Duration
+                    - generic [ref=e156]: 4 months
+          - region "Climate & Altitude" [ref=e157]:
+            - heading "Climate & Altitude" [level=2] [ref=e158]
+            - generic [ref=e159]:
+              - heading " Altitude Range" [level=3] [ref=e160]:
+                - generic [ref=e161]: 
+                - text: Altitude Range
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - generic [ref=e164]: 5,000 ft
+                  - generic [ref=e165]: 8,000 ft
+                - paragraph [ref=e168]:
+                  - generic [ref=e169]: 
+                  - text: 5000-7000
+            - generic [ref=e170]:
+              - heading " Climate Requirements" [level=3] [ref=e171]:
+                - generic [ref=e172]: 
+                - text: Climate Requirements
+              - generic [ref=e173]:
+                - generic [ref=e174]:
+                  - generic [ref=e175]: Chilling Hours (min)
+                  - generic [ref=e176]: 800 hrs
+                - generic [ref=e177]:
+                  - generic [ref=e178]: Ideal Temp
+                  - generic [ref=e179]: 24.0–34.0°C
+                - generic [ref=e180]:
+                  - generic [ref=e181]: Rain Tolerance
+                  - generic [ref=e182]: Medium
+          - region "Disease & Rootstock" [ref=e183]:
+            - heading "Disease & Rootstock" [level=2] [ref=e184]
+            - generic [ref=e185]:
+              - heading " Disease Resistance" [level=3] [ref=e186]:
+                - generic [ref=e187]: 
+                - text: Disease Resistance
+              - generic [ref=e189]:
+                - link "Codling Moth" [ref=e190] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/codling-moth
+                - generic [ref=e191]: Immune
+              - generic [ref=e195]:
+                - link "Apple Blossom Thrips" [ref=e196] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/apple-blossom-thrips
+                - generic [ref=e197]: Susceptible
+              - generic [ref=e201]:
+                - link "Apple Leaf Miner" [ref=e202] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/apple-leaf-miner
+                - generic [ref=e203]: Susceptible
+              - generic [ref=e207]:
+                - link "Fruit Borer" [ref=e208] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/fruit-borer
+                - generic [ref=e209]: Immune
+              - generic [ref=e213]:
+                - link "Apple Scab" [ref=e214] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/apple-scab
+                - generic [ref=e215]: Highly Susceptible
+              - generic [ref=e219]:
+                - link "Marssonina Leaf Blotch" [ref=e220] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/marssonina-leaf-blotch
+                - generic [ref=e221]: Resistant
+              - generic [ref=e225]:
+                - link "Alternaria Leaf Spot" [ref=e226] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/alternaria-leaf-spot
+                - generic [ref=e227]: Susceptible
+              - generic [ref=e231]:
+                - link "Collar Rot" [ref=e232] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/collar-rot
+                - generic [ref=e233]: Moderately Resistant
+              - generic [ref=e237]:
+                - link "Bitter Pit" [ref=e238] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/bitter-pit
+                - generic [ref=e239]: Resistant
+              - generic [ref=e243]:
+                - link "Watercore" [ref=e244] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/watercore
+                - generic [ref=e245]: Immune
+              - generic [ref=e249]:
+                - link "Flyspeck" [ref=e250] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/diseases/flyspeck
+                - generic [ref=e251]: Resistant
+            - generic [ref=e254]:
+              - heading " Recommended Rootstocks" [level=3] [ref=e255]:
+                - generic [ref=e256]: 
+                - text: Recommended Rootstocks
+              - generic [ref=e257]:
+                - link " G.11" [ref=e258] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/rootstocks/g-11
+                  - generic [ref=e259]: 
+                  - text: G.11
+                - link " G.214" [ref=e260] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/rootstocks/g-214
+                  - generic [ref=e261]: 
+                  - text: G.214
+                - link " G.41" [ref=e262] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/rootstocks/g-41
+                  - generic [ref=e263]: 
+                  - text: G.41
+                - link " G.969" [ref=e264] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/rootstocks/g-969
+                  - generic [ref=e265]: 
+                  - text: G.969
+                - link " M.4" [ref=e266] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/rootstocks/m-4
+                  - generic [ref=e267]: 
+                  - text: M.4
+                - link " MM-106" [ref=e268] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/rootstocks/mm-106
+                  - generic [ref=e269]: 
+                  - text: MM-106
+                - link " MM-111" [ref=e270] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/rootstocks/mm-111
+                  - generic [ref=e271]: 
+                  - text: MM-111
+          - region "Market Overview" [ref=e272]:
+            - heading "Market Overview" [level=2] [ref=e273]
+            - generic [ref=e274]:
+              - generic [ref=e275]:
+                - generic [ref=e276]: Demand
+                - generic [ref=e277]: Medium
+              - generic [ref=e278]:
+                - generic [ref=e279]: Price Tier
+                - generic [ref=e280]: ₹₹₹₹₹
+              - generic [ref=e281]:
+                - generic [ref=e282]: Yield / Tree
+                - generic [ref=e283]: 34 kg
+              - generic [ref=e284]:
+                - generic [ref=e285]: Yield Potential
+                - generic [ref=e286]: Medium
+              - generic [ref=e287]:
+                - generic [ref=e288]: Export Quality
+                - generic [ref=e289]: "No"
+          - generic [ref=e291]:
+            - heading " Comments" [level=2] [ref=e293]:
+              - generic [ref=e294]: 
+              - text: Comments
+            - generic [ref=e295]:
+              - generic [ref=e296]: 
+              - link "Login" [ref=e297] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/login
+              - text: to leave a comment.
+            - generic [ref=e299]:
+              - generic [ref=e300]: 
+              - paragraph [ref=e301]: No comments yet. Be the first to share your thoughts!
+        - complementary [ref=e302]:
+          - generic [ref=e303]:
+            - heading "Quick Stats" [level=3] [ref=e304]
+            - generic [ref=e305]:
+              - generic [ref=e306]:
+                - generic [ref=e307]:
+                  - generic [ref=e308]: 
+                  - text: Altitude
+                - generic [ref=e309]: 5,000–8,000 ft
+              - generic [ref=e310]:
+                - generic [ref=e311]:
+                  - generic [ref=e312]: 
+                  - text: Chilling
+                - generic [ref=e313]: 800 hrs
+              - generic [ref=e314]:
+                - generic [ref=e315]:
+                  - generic [ref=e316]: 
+                  - text: Yield
+                - generic [ref=e317]: Medium
+              - generic [ref=e318]:
+                - generic [ref=e319]:
+                  - generic [ref=e320]: 
+                  - text: Price Tier
+                - generic [ref=e321]: ₹₹
+              - generic [ref=e322]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: 
+                  - text: Views
+                - generic [ref=e325]: "12"
+          - generic [ref=e326]:
+            - heading "Actions" [level=3] [ref=e327]
+            - generic [ref=e328]:
+              - button "Like" [ref=e329]:
+                - generic [ref=e330]: 
+                - generic [ref=e331]: Like
+              - button "Save" [ref=e332]:
+                - generic [ref=e333]: 
+                - generic [ref=e334]: Save
+            - button "Share" [ref=e335]:
+              - generic [ref=e336]: 
+              - text: Share
+          - generic [ref=e337]:
+            - heading "Recommended Rootstocks" [level=3] [ref=e338]
+            - generic [ref=e339]:
+              - link " G.11 जी .11" [ref=e340] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/rootstocks/g-11
+                - generic [ref=e342]: 
+                - generic [ref=e343]:
+                  - paragraph [ref=e344]: G.11
+                  - paragraph [ref=e345]: जी .11
+              - link " G.214 जी .214" [ref=e346] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/rootstocks/g-214
+                - generic [ref=e348]: 
+                - generic [ref=e349]:
+                  - paragraph [ref=e350]: G.214
+                  - paragraph [ref=e351]: जी .214
+              - link " G.41 जी .41" [ref=e352] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/rootstocks/g-41
+                - generic [ref=e354]: 
+                - generic [ref=e355]:
+                  - paragraph [ref=e356]: G.41
+                  - paragraph [ref=e357]: जी .41
+              - link " G.969 जी .969" [ref=e358] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/rootstocks/g-969
+                - generic [ref=e360]: 
+                - generic [ref=e361]:
+                  - paragraph [ref=e362]: G.969
+                  - paragraph [ref=e363]: जी .969
+              - link " M.4 एम .4" [ref=e364] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/rootstocks/m-4
+                - generic [ref=e366]: 
+                - generic [ref=e367]:
+                  - paragraph [ref=e368]: M.4
+                  - paragraph [ref=e369]: एम .4
+              - link " MM-106 एमएम-106" [ref=e370] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/rootstocks/mm-106
+                - generic [ref=e372]: 
+                - generic [ref=e373]:
+                  - paragraph [ref=e374]: MM-106
+                  - paragraph [ref=e375]: एमएम-106
+              - link " MM-111 एमएम -111" [ref=e376] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/rootstocks/mm-111
+                - generic [ref=e378]: 
+                - generic [ref=e379]:
+                  - paragraph [ref=e380]: MM-111
+                  - paragraph [ref=e381]: एमएम -111
+          - generic [ref=e382]:
+            - heading "Other Mid Season Varieties" [level=3] [ref=e383]
+            - generic [ref=e384]:
+              - link "Strain 4 Strain 4 Strain 4" [ref=e385] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/strain-4
+                - img "Strain 4" [ref=e386]
+                - generic [ref=e387]:
+                  - paragraph [ref=e388]: Strain 4
+                  - paragraph [ref=e389]: Strain 4
+              - link "Strain 3 Strain 3 Strain 3" [ref=e390] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/strain-3
+                - img "Strain 3" [ref=e391]
+                - generic [ref=e392]:
+                  - paragraph [ref=e393]: Strain 3
+                  - paragraph [ref=e394]: Strain 3
+              - link "Strain 2 Strain 2 Strain 2" [ref=e395] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/varieties/strain-2
+                - img "Strain 2" [ref=e396]
+                - generic [ref=e397]:
+                  - paragraph [ref=e398]: Strain 2
+                  - paragraph [ref=e399]: Strain 2
+      - generic [ref=e400]:
+        - generic [ref=e401]:
+          - text:   
+          - button "Share Strain 1" [ref=e402] [cursor=pointer]:
+            - generic [ref=e403]: 
+        - button "Switch to Hindi" [ref=e404] [cursor=pointer]: हिन्दी
+    - text:   
+  - contentinfo [ref=e405]:
+    - generic [ref=e406]:
+      - generic [ref=e407]:
+        - generic [ref=e408]:
+          - link "Baagvaani" [ref=e409] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e411]: Baagvaani
+          - paragraph [ref=e412]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e414]: Social channels coming soon
+        - generic [ref=e415]:
+          - heading "Quick Links" [level=3] [ref=e416]
+          - list [ref=e417]:
+            - listitem [ref=e418]:
+              - link "Home" [ref=e419] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e420]:
+              - link "Blog" [ref=e421] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e422]:
+              - link "About Us" [ref=e423] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e424]:
+          - heading "Topics" [level=3] [ref=e425]
+          - list [ref=e426]:
+            - listitem [ref=e427]:
+              - link "Spray & Disease" [ref=e428] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e429]:
+              - link "Orchard Care" [ref=e430] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e431]:
+              - link "Variety Guide" [ref=e432] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e433]:
+              - link "Weather & Climate" [ref=e434] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e435]:
+          - heading "Newsletter" [level=3] [ref=e436]
+          - paragraph [ref=e437]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e438]:
+            - textbox "Enter your email" [ref=e439]
+            - button "Subscribe" [ref=e440]
+          - paragraph [ref=e441]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e443]: © 2026 Baagvaani. All rights reserved.
+  - text:  

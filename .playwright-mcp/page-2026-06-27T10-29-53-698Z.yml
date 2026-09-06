@@ -1,0 +1,239 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 25° in Kinnaur Valley, Partly cloudy · 56% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://192.168.1.100:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e16]: 25°
+      - button "Toggle menu" [ref=e18]:
+        - img [ref=e19]
+  - main [ref=e21]:
+    - region "Knowledge Base" [ref=e22]:
+      - generic [ref=e26]:
+        - heading "Knowledge Base" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Expert guides, tips, and stories for Himalayan apple farmers.
+        - generic [ref=e29]:
+          - textbox "Search articles..." [ref=e30]
+          - button "Search" [ref=e31] [cursor=pointer]
+    - generic [ref=e34]:
+      - link "All" [ref=e35] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/blog
+      - link "Spray & Disease" [ref=e36] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+      - link "Orchard Care" [ref=e37] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/blog?category=orchard-care
+      - link "Variety Guide" [ref=e38] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+      - link "Weather & Climate" [ref=e39] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/blog?category=weather-climate
+      - link "Business & Market" [ref=e40] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/blog?category=business-market
+    - region "Featured" [ref=e41]:
+      - generic [ref=e42]:
+        - heading "Featured" [level=2] [ref=e43]
+        - generic [ref=e44]:
+          - article [ref=e45]:
+            - link "Complete Spray Schedule for HP Apple Orchards Spray & Disease Complete Spray Schedule for HP Apple Orchards A stage-by-stage spray calendar from Dormant through Harvest — covering fungicides, insecticides, and micronutrients at... Jun 04, 2026" [ref=e46] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/post/complete-spray-schedule-hp-apple-orchards
+              - img "Complete Spray Schedule for HP Apple Orchards" [ref=e48]
+              - generic [ref=e49]:
+                - generic [ref=e50]: Spray & Disease
+                - heading "Complete Spray Schedule for HP Apple Orchards" [level=3] [ref=e51]
+                - paragraph [ref=e52]: A stage-by-stage spray calendar from Dormant through Harvest — covering fungicides, insecticides, and micronutrients at...
+                - time [ref=e54]: Jun 04, 2026
+          - article [ref=e55]:
+            - 'link "Apple Scab: Identify, Prevent, and Treat Spray & Disease Apple Scab: Identify, Prevent, and Treat Apple Scab is the number-one yield threat in Himachal Pradesh orchards. Learn to spot it early, prevent it with fungicid... May 26, 2026" [ref=e56] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/apple-scab-identify-prevent-treat
+              - 'img "Apple Scab: Identify, Prevent, and Treat" [ref=e58]'
+              - generic [ref=e59]:
+                - generic [ref=e60]: Spray & Disease
+                - 'heading "Apple Scab: Identify, Prevent, and Treat" [level=3] [ref=e61]'
+                - paragraph [ref=e62]: Apple Scab is the number-one yield threat in Himachal Pradesh orchards. Learn to spot it early, prevent it with fungicid...
+                - time [ref=e64]: May 26, 2026
+          - article [ref=e65]:
+            - link "When and How to Prune Apple Trees in the Hills Orchard Care When and How to Prune Apple Trees in the Hills Pruning is the single most impactful orchard task you can do in winter. Correct technique improves light penetration, ai... May 11, 2026" [ref=e66] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/post/pruning-apple-trees-himalayan-orchards
+              - img "When and How to Prune Apple Trees in the Hills" [ref=e68]
+              - generic [ref=e69]:
+                - generic [ref=e70]: Orchard Care
+                - heading "When and How to Prune Apple Trees in the Hills" [level=3] [ref=e71]
+                - paragraph [ref=e72]: Pruning is the single most impactful orchard task you can do in winter. Correct technique improves light penetration, ai...
+                - time [ref=e74]: May 11, 2026
+    - region "Latest Articles" [ref=e75]:
+      - generic [ref=e76]:
+        - heading "Latest Articles" [level=2] [ref=e77]
+        - generic [ref=e78]:
+          - article [ref=e79]:
+            - link "How to Read Mountain Weather Before Spraying Weather & Climate How to Read Mountain Weather Before Spraying Baagvaani Jun 13, 2026" [ref=e80] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/post/reading-mountain-weather-spray-timing
+              - img "How to Read Mountain Weather Before Spraying" [ref=e82]
+              - generic [ref=e83]:
+                - generic [ref=e84]: Weather & Climate
+                - heading "How to Read Mountain Weather Before Spraying" [level=3] [ref=e85]
+                - generic [ref=e86]:
+                  - generic [ref=e87]: Baagvaani
+                  - time [ref=e88]: Jun 13, 2026
+          - article [ref=e89]:
+            - 'link "Powdery Mildew in HP Apple Orchards: Control Guide Spray & Disease Powdery Mildew in HP Apple Orchards: Control Guide Baagvaani Jun 11, 2026" [ref=e90] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/powdery-mildew-apple-hp
+              - 'img "Powdery Mildew in HP Apple Orchards: Control Guide" [ref=e92]'
+              - generic [ref=e93]:
+                - generic [ref=e94]: Spray & Disease
+                - 'heading "Powdery Mildew in HP Apple Orchards: Control Guide" [level=3] [ref=e95]'
+                - generic [ref=e96]:
+                  - generic [ref=e97]: Baagvaani
+                  - time [ref=e98]: Jun 11, 2026
+          - article [ref=e99]:
+            - 'link "Frost Protection for Apple Orchards: A Practical Guide Weather & Climate Frost Protection for Apple Orchards: A Practical Guide Baagvaani Jun 07, 2026" [ref=e100] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/frost-protection-apple-orchards-hp
+              - 'img "Frost Protection for Apple Orchards: A Practical Guide" [ref=e102]'
+              - generic [ref=e103]:
+                - generic [ref=e104]: Weather & Climate
+                - 'heading "Frost Protection for Apple Orchards: A Practical Guide" [level=3] [ref=e105]'
+                - generic [ref=e106]:
+                  - generic [ref=e107]: Baagvaani
+                  - time [ref=e108]: Jun 07, 2026
+          - article [ref=e109]:
+            - link "Complete Spray Schedule for HP Apple Orchards Spray & Disease Complete Spray Schedule for HP Apple Orchards Baagvaani Jun 04, 2026" [ref=e110] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/post/complete-spray-schedule-hp-apple-orchards
+              - img "Complete Spray Schedule for HP Apple Orchards" [ref=e112]
+              - generic [ref=e113]:
+                - generic [ref=e114]: Spray & Disease
+                - heading "Complete Spray Schedule for HP Apple Orchards" [level=3] [ref=e115]
+                - generic [ref=e116]:
+                  - generic [ref=e117]: Baagvaani
+                  - time [ref=e118]: Jun 04, 2026
+          - article [ref=e119]:
+            - 'link "Selling Apples: MSP, FPOs, and Direct Marketing Business & Market Selling Apples: MSP, FPOs, and Direct Marketing Baagvaani May 31, 2026" [ref=e120] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/selling-apples-msp-fpo-direct-marketing
+              - 'img "Selling Apples: MSP, FPOs, and Direct Marketing" [ref=e122]'
+              - generic [ref=e123]:
+                - generic [ref=e124]: Business & Market
+                - 'heading "Selling Apples: MSP, FPOs, and Direct Marketing" [level=3] [ref=e125]'
+                - generic [ref=e126]:
+                  - generic [ref=e127]: Baagvaani
+                  - time [ref=e128]: May 31, 2026
+          - article [ref=e129]:
+            - 'link "Apple Scab: Identify, Prevent, and Treat Spray & Disease Apple Scab: Identify, Prevent, and Treat Baagvaani May 26, 2026" [ref=e130] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/apple-scab-identify-prevent-treat
+              - 'img "Apple Scab: Identify, Prevent, and Treat" [ref=e132]'
+              - generic [ref=e133]:
+                - generic [ref=e134]: Spray & Disease
+                - 'heading "Apple Scab: Identify, Prevent, and Treat" [level=3] [ref=e135]'
+                - generic [ref=e136]:
+                  - generic [ref=e137]: Baagvaani
+                  - time [ref=e138]: May 26, 2026
+          - article [ref=e139]:
+            - 'link "Apple Grading and Packing: Getting Better Prices at the Mandi Business & Market Apple Grading and Packing: Getting Better Prices at the Mandi Baagvaani May 21, 2026" [ref=e140] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/apple-grading-packing-better-prices
+              - 'img "Apple Grading and Packing: Getting Better Prices at the Mandi" [ref=e142]'
+              - generic [ref=e143]:
+                - generic [ref=e144]: Business & Market
+                - 'heading "Apple Grading and Packing: Getting Better Prices at the Mandi" [level=3] [ref=e145]'
+                - generic [ref=e146]:
+                  - generic [ref=e147]: Baagvaani
+                  - time [ref=e148]: May 21, 2026
+          - article [ref=e149]:
+            - 'link "HRMN-99: The Apple That Changed Hill Farming Variety Guide HRMN-99: The Apple That Changed Hill Farming Baagvaani May 18, 2026" [ref=e150] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/hrmn-99-low-chill-apple-revolution
+              - 'img "HRMN-99: The Apple That Changed Hill Farming" [ref=e152]'
+              - generic [ref=e153]:
+                - generic [ref=e154]: Variety Guide
+                - 'heading "HRMN-99: The Apple That Changed Hill Farming" [level=3] [ref=e155]'
+                - generic [ref=e156]:
+                  - generic [ref=e157]: Baagvaani
+                  - time [ref=e158]: May 18, 2026
+          - article [ref=e159]:
+            - link "When and How to Prune Apple Trees in the Hills Orchard Care When and How to Prune Apple Trees in the Hills Baagvaani May 11, 2026" [ref=e160] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/post/pruning-apple-trees-himalayan-orchards
+              - img "When and How to Prune Apple Trees in the Hills" [ref=e162]
+              - generic [ref=e163]:
+                - generic [ref=e164]: Orchard Care
+                - heading "When and How to Prune Apple Trees in the Hills" [level=3] [ref=e165]
+                - generic [ref=e166]:
+                  - generic [ref=e167]: Baagvaani
+                  - time [ref=e168]: May 11, 2026
+          - article [ref=e169]:
+            - link "Best Apple Varieties for High-Altitude Orchards in HP Variety Guide Best Apple Varieties for High-Altitude Orchards in HP Baagvaani May 01, 2026" [ref=e170] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/blog/post/best-apple-varieties-high-altitude-hp
+              - img "Best Apple Varieties for High-Altitude Orchards in HP" [ref=e172]
+              - generic [ref=e173]:
+                - generic [ref=e174]: Variety Guide
+                - heading "Best Apple Varieties for High-Altitude Orchards in HP" [level=3] [ref=e175]
+                - generic [ref=e176]:
+                  - generic [ref=e177]: Baagvaani
+                  - time [ref=e178]: May 01, 2026
+          - article [ref=e179]:
+            - 'link "Fruit Thinning: The Secret to Bigger, Better Apples Orchard Care Fruit Thinning: The Secret to Bigger, Better Apples Baagvaani Apr 26, 2026" [ref=e180] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/fruit-thinning-apple-orchards
+              - 'img "Fruit Thinning: The Secret to Bigger, Better Apples" [ref=e182]'
+              - generic [ref=e183]:
+                - generic [ref=e184]: Orchard Care
+                - 'heading "Fruit Thinning: The Secret to Bigger, Better Apples" [level=3] [ref=e185]'
+                - generic [ref=e186]:
+                  - generic [ref=e187]: Baagvaani
+                  - time [ref=e188]: Apr 26, 2026
+          - article [ref=e189]:
+            - 'link "Post-Harvest Orchard Care: Setting Up for Next Season Orchard Care Post-Harvest Orchard Care: Setting Up for Next Season Baagvaani Mar 27, 2026" [ref=e190] [cursor=pointer]':
+              - /url: http://192.168.1.100:8000/blog/post/post-harvest-orchard-care
+              - 'img "Post-Harvest Orchard Care: Setting Up for Next Season" [ref=e192]'
+              - generic [ref=e193]:
+                - generic [ref=e194]: Orchard Care
+                - 'heading "Post-Harvest Orchard Care: Setting Up for Next Season" [level=3] [ref=e195]'
+                - generic [ref=e196]:
+                  - generic [ref=e197]: Baagvaani
+                  - time [ref=e198]: Mar 27, 2026
+  - contentinfo [ref=e199]:
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - link "Baagvaani" [ref=e203] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e205]: Baagvaani
+          - paragraph [ref=e206]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e208]: Social channels coming soon
+        - generic [ref=e209]:
+          - heading "Quick Links" [level=3] [ref=e210]
+          - list [ref=e211]:
+            - listitem [ref=e212]:
+              - link "Home" [ref=e213] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e214]:
+              - link "Blog" [ref=e215] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e216]:
+              - link "About Us" [ref=e217] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e218]:
+          - heading "Topics" [level=3] [ref=e219]
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - link "Spray & Disease" [ref=e222] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e223]:
+              - link "Orchard Care" [ref=e224] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e225]:
+              - link "Variety Guide" [ref=e226] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e227]:
+              - link "Weather & Climate" [ref=e228] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e229]:
+          - heading "Newsletter" [level=3] [ref=e230]
+          - paragraph [ref=e231]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e232]:
+            - textbox "Enter your email" [ref=e233]
+            - button "Subscribe" [ref=e234]
+          - paragraph [ref=e235]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e237]: © 2026 Baagvaani. All rights reserved.
+  - text:  

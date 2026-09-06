@@ -1,0 +1,367 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 25° in Kinnaur Valley, Partly cloudy · 59% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://127.0.0.1:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e15]:
+              - generic [ref=e16]: 25°
+              - generic [ref=e17]: Partly cloudy
+      - navigation "Main navigation" [ref=e18]:
+        - link "Home" [ref=e19] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - link "Fruits & Varieties" [ref=e20] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/fruits
+        - link "Disease Library" [ref=e21] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/disease
+        - link "Spray Schedule" [ref=e22] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spray-schedule
+        - link "Shop" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/shop
+        - link "Rootstock" [ref=e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/rootstock
+        - link "Blog" [ref=e25] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+        - link "About" [ref=e26] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/about
+      - generic [ref=e28]:
+        - link "Login" [ref=e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+        - link "Sign Up" [ref=e30] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/register
+  - main [ref=e31]:
+    - article [ref=e32]:
+      - region "G.11" [ref=e33]:
+        - generic [ref=e37]:
+          - link "Rootstocks" [ref=e39] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/rootstock
+            - img [ref=e40]
+            - text: Rootstocks
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - generic [ref=e44]: 
+              - text: Semi-Dwarfing
+            - generic [ref=e45]: 50% vigour
+            - generic [ref=e46]:
+              - generic [ref=e47]: 
+              - text: HP Rec.
+            - generic [ref=e48]:
+              - generic [ref=e49]: 
+              - text: Featured
+          - generic [ref=e50]:
+            - heading "G.11" [level=1] [ref=e51]
+            - paragraph [ref=e52]: Geneva 11
+            - paragraph [ref=e53]:
+              - generic [ref=e54]: 
+              - text: Ottawa 510 × M.26
+            - paragraph [ref=e55]:
+              - generic [ref=e56]: 
+              - text: Cornell University / USDA-ARS, USA, 1998
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - region " About G.11" [ref=e60]:
+            - button " About G.11" [expanded] [ref=e61] [cursor=pointer]:
+              - heading " About G.11" [level=2] [ref=e62]:
+                - generic [ref=e63]: 
+                - text: About G.11
+              - img [ref=e64]
+            - paragraph [ref=e69]: G.11 is an outstanding dwarfing rootstock from the Cornell/Geneva program. It offers excellent resistance to fire blight, collar rot, and replant disease. Highly productive and precocious.
+          - region " Vigour Classification" [ref=e70]:
+            - button " Vigour Classification" [expanded] [ref=e71] [cursor=pointer]:
+              - heading " Vigour Classification" [level=2] [ref=e72]:
+                - generic [ref=e73]: 
+                - text: Vigour Classification
+              - img [ref=e74]
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - generic [ref=e80]: Dwarf
+                - generic [ref=e81]: Semi
+                - generic [ref=e82]: Vigorous
+              - generic [ref=e85]: G.11 (50%)
+          - region " Planting" [ref=e86]:
+            - button " Planting" [expanded] [ref=e87] [cursor=pointer]:
+              - heading " Planting" [level=2] [ref=e88]:
+                - generic [ref=e89]: 
+                - text: Planting
+              - img [ref=e90]
+            - generic [ref=e94]:
+              - generic [ref=e95]:
+                - heading " Density & Spacing" [level=3] [ref=e96]:
+                  - generic [ref=e97]: 
+                  - text: Density & Spacing
+                - generic [ref=e98]:
+                  - generic [ref=e99]:
+                    - generic [ref=e100]: Spacing
+                    - generic [ref=e101]: 4.0m × 1.3m
+                  - generic [ref=e102]:
+                    - generic [ref=e103]: Density
+                    - generic [ref=e104]: 1500 - 2000 trees/ha
+              - separator [ref=e105]
+              - generic [ref=e106]:
+                - heading " Timeline" [level=3] [ref=e107]:
+                  - generic [ref=e108]: 
+                  - text: Timeline
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - generic [ref=e111]: First Crop
+                    - generic [ref=e112]: 2 years
+                  - generic [ref=e113]:
+                    - generic [ref=e114]: Productive Life
+                    - generic [ref=e115]: 18 years
+              - separator [ref=e116]
+              - generic [ref=e117]:
+                - heading " Requirements" [level=3] [ref=e118]:
+                  - generic [ref=e119]: 
+                  - text: Requirements
+                - generic [ref=e120]:
+                  - generic [ref=e121]:
+                    - generic [ref=e122]: 
+                    - text: Staking required
+                  - generic [ref=e123]:
+                    - generic [ref=e124]: 
+                    - text: Irrigation required
+          - region " Planting Notes" [ref=e125]:
+            - button " Planting Notes" [expanded] [ref=e126] [cursor=pointer]:
+              - heading " Planting Notes" [level=2] [ref=e127]:
+                - generic [ref=e128]: 
+                - text: Planting Notes
+              - img [ref=e129]
+            - paragraph [ref=e134]: Excellent choice for high-density plantings. Requires staking. Very precocious and productive. Resistant to major diseases.
+          - region " Disease Resistance" [ref=e135]:
+            - button " Disease Resistance" [expanded] [ref=e136] [cursor=pointer]:
+              - heading " Disease Resistance" [level=2] [ref=e137]:
+                - generic [ref=e138]: 
+                - text: Disease Resistance
+              - img [ref=e139]
+            - generic [ref=e142]:
+              - generic [ref=e144]:
+                - generic [ref=e145]: Collar Rot
+                - generic [ref=e146]: 9/10 · Resistant
+              - generic [ref=e150]:
+                - generic [ref=e151]: Woolly Aphid
+                - generic [ref=e152]: 7/10 · Resistant
+              - generic [ref=e156]:
+                - generic [ref=e157]: Replant Disease
+                - generic [ref=e158]: 8/10 · Resistant
+              - generic [ref=e162]:
+                - generic [ref=e163]: Fire Blight
+                - generic [ref=e164]: 9/10 · Resistant
+          - region " Anchorage" [ref=e167]:
+            - button " Anchorage" [expanded] [ref=e168] [cursor=pointer]:
+              - heading " Anchorage" [level=2] [ref=e169]:
+                - generic [ref=e170]: 
+                - text: Anchorage
+              - img [ref=e171]
+            - generic [ref=e176]:
+              - generic [ref=e177]: Anchorage Quality
+              - generic [ref=e178]: Moderate
+          - region " Soil & Site" [ref=e181]:
+            - button " Soil & Site" [expanded] [ref=e182] [cursor=pointer]:
+              - heading " Soil & Site" [level=2] [ref=e183]:
+                - generic [ref=e184]: 
+                - text: Soil & Site
+              - img [ref=e185]
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - generic [ref=e191]: Min Soil Depth
+                - generic [ref=e192]: 45 cm
+              - generic [ref=e193]:
+                - generic [ref=e194]: pH Range
+                - generic [ref=e195]: 6.0 – 7.0
+              - generic [ref=e196]:
+                - generic [ref=e197]: Max Altitude
+                - generic [ref=e198]: 1,400 ft
+          - generic [ref=e200]:
+            - heading " Comments" [level=2] [ref=e202]:
+              - generic [ref=e203]: 
+              - text: Comments
+            - generic [ref=e204]:
+              - generic [ref=e205]: 
+              - link "Login" [ref=e206] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/login
+              - text: to leave a comment.
+            - generic [ref=e208]:
+              - generic [ref=e209]: 
+              - paragraph [ref=e210]: No comments yet. Be the first to share your thoughts!
+        - complementary [ref=e211]:
+          - generic [ref=e212]:
+            - heading "Quick Stats" [level=3] [ref=e213]
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - generic [ref=e216]:
+                  - generic [ref=e217]: 
+                  - text: Vigour
+                - generic [ref=e218]: Semi-Dwarfing
+              - generic [ref=e219]:
+                - generic [ref=e220]:
+                  - generic [ref=e221]: 
+                  - text: Vigour %
+                - generic [ref=e222]: 50%
+              - generic [ref=e223]:
+                - generic [ref=e224]:
+                  - generic [ref=e225]: 
+                  - text: Spacing
+                - generic [ref=e226]: 4.0m × 1.3m
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - generic [ref=e229]: 
+                  - text: Density
+                - generic [ref=e230]: 1500 - 2000 trees/ha
+              - generic [ref=e231]:
+                - generic [ref=e232]:
+                  - generic [ref=e233]: 
+                  - text: First Crop
+                - generic [ref=e234]: 2 yr
+              - generic [ref=e235]:
+                - generic [ref=e236]:
+                  - generic [ref=e237]: 
+                  - text: Productive Life
+                - generic [ref=e238]: 18 yr
+              - generic [ref=e239]:
+                - generic [ref=e240]:
+                  - generic [ref=e241]: 
+                  - text: Anchorage
+                - generic [ref=e242]: Moderate
+              - generic [ref=e243]:
+                - generic [ref=e244]:
+                  - generic [ref=e245]: 
+                  - text: Views
+                - generic [ref=e246]: "2"
+          - generic [ref=e247]:
+            - heading "Actions" [level=3] [ref=e248]
+            - generic [ref=e249]:
+              - button "Like" [ref=e250]:
+                - generic [ref=e251]: 
+                - generic [ref=e252]: Like
+              - button "Save" [ref=e253]:
+                - generic [ref=e254]: 
+                - generic [ref=e255]: Save
+            - button "Share" [ref=e256]:
+              - generic [ref=e257]: 
+              - text: Share
+          - generic [ref=e258]:
+            - heading "Compatible Fruits" [level=3] [ref=e259]
+            - link " Apple सेब" [ref=e261] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/fruits/apple
+              - generic [ref=e263]: 
+              - generic [ref=e264]:
+                - paragraph [ref=e265]: Apple
+                - paragraph [ref=e266]: सेब
+          - generic [ref=e267]:
+            - heading "Recommended Varieties" [level=3] [ref=e268]
+            - generic [ref=e269]:
+              - link "Strain 1 Strain 1 Strain 1" [ref=e270] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/strain-1
+                - img "Strain 1" [ref=e271]
+                - generic [ref=e272]:
+                  - paragraph [ref=e273]: Strain 1
+                  - paragraph [ref=e274]: Strain 1
+              - link "Strain 2 Strain 2 Strain 2" [ref=e275] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/strain-2
+                - img "Strain 2" [ref=e276]
+                - generic [ref=e277]:
+                  - paragraph [ref=e278]: Strain 2
+                  - paragraph [ref=e279]: Strain 2
+              - link "Strain 3 Strain 3 Strain 3" [ref=e280] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/strain-3
+                - img "Strain 3" [ref=e281]
+                - generic [ref=e282]:
+                  - paragraph [ref=e283]: Strain 3
+                  - paragraph [ref=e284]: Strain 3
+              - link "Strain 4 Strain 4 Strain 4" [ref=e285] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/varieties/strain-4
+                - img "Strain 4" [ref=e286]
+                - generic [ref=e287]:
+                  - paragraph [ref=e288]: Strain 4
+                  - paragraph [ref=e289]: Strain 4
+          - generic [ref=e290]:
+            - heading "Other Semi-Dwarfing Rootstocks" [level=3] [ref=e291]
+            - generic [ref=e292]:
+              - article [ref=e293]:
+                - link "G.969 G.969 जी .969" [ref=e294] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/rootstocks/g-969
+                  - img "G.969" [ref=e295]
+                  - generic [ref=e296]:
+                    - heading "G.969" [level=3] [ref=e297]
+                    - paragraph [ref=e298]: जी .969
+              - article [ref=e299]:
+                - link "Pajam 2 Pajam 2 पाजाम 2" [ref=e300] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/rootstocks/pajam-2
+                  - img "Pajam 2" [ref=e301]
+                  - generic [ref=e302]:
+                    - heading "Pajam 2" [level=3] [ref=e303]
+                    - paragraph [ref=e304]: पाजाम 2
+              - article [ref=e305]:
+                - link "Ottawa 3 Ottawa 3 ओटावा 3" [ref=e306] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/rootstocks/ottawa-3
+                  - img "Ottawa 3" [ref=e307]
+                  - generic [ref=e308]:
+                    - heading "Ottawa 3" [level=3] [ref=e309]
+                    - paragraph [ref=e310]: ओटावा 3
+              - article [ref=e311]:
+                - link "B.118 B.118 बी.118" [ref=e312] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/rootstocks/b-118
+                  - img "B.118" [ref=e313]
+                  - generic [ref=e314]:
+                    - heading "B.118" [level=3] [ref=e315]
+                    - paragraph [ref=e316]: बी.118
+      - generic [ref=e317]:
+        - generic [ref=e318]:
+          - text:   
+          - button "Share G.11" [ref=e319] [cursor=pointer]:
+            - generic [ref=e320]: 
+        - button "Switch to Hindi" [ref=e321] [cursor=pointer]: हिन्दी
+  - contentinfo [ref=e322]:
+    - generic [ref=e323]:
+      - generic [ref=e324]:
+        - generic [ref=e325]:
+          - link "Baagvaani" [ref=e326] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e328]: Baagvaani
+          - paragraph [ref=e329]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e331]: Social channels coming soon
+        - generic [ref=e332]:
+          - heading "Quick Links" [level=3] [ref=e333]
+          - list [ref=e334]:
+            - listitem [ref=e335]:
+              - link "Home" [ref=e336] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e337]:
+              - link "Blog" [ref=e338] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e339]:
+              - link "About Us" [ref=e340] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e341]:
+          - heading "Topics" [level=3] [ref=e342]
+          - list [ref=e343]:
+            - listitem [ref=e344]:
+              - link "Spray & Disease" [ref=e345] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e346]:
+              - link "Orchard Care" [ref=e347] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e348]:
+              - link "Variety Guide" [ref=e349] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e350]:
+              - link "Weather & Climate" [ref=e351] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e352]:
+          - heading "Newsletter" [level=3] [ref=e353]
+          - paragraph [ref=e354]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e355]:
+            - textbox "Enter your email" [ref=e356]
+            - button "Subscribe" [ref=e357]
+          - paragraph [ref=e358]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e360]: © 2026 Baagvaani. All rights reserved.
+  - text:  

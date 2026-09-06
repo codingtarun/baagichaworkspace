@@ -1,0 +1,385 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 25° in Kinnaur Valley, Partly cloudy · 57% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://192.168.1.100:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e15]:
+              - generic [ref=e16]: 25°
+              - generic [ref=e17]: Partly cloudy
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - link "Login" [ref=e20] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/login
+          - link "Sign Up" [ref=e21] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000/register
+        - button "Toggle menu" [ref=e22]:
+          - img [ref=e23]
+  - main [ref=e25]:
+    - region "Apple Varieties" [ref=e26]:
+      - generic [ref=e30]:
+        - heading "Apple Varieties" [level=1] [ref=e31]
+        - paragraph [ref=e32]: Explore apple varieties suited for Himalayan orchards — Royal Delicious, Golden, Granny Smith, and more.
+        - generic [ref=e33]:
+          - textbox "Search varieties..." [ref=e34]
+          - button "Search" [ref=e35] [cursor=pointer]
+    - generic [ref=e38]:
+      - link "All" [ref=e39] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/variety
+      - link "Early अगेती" [ref=e40] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/variety?season=early
+      - link "Mid मध्य" [ref=e41] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/variety?season=mid
+      - link "Late पछेती" [ref=e42] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/variety?season=late
+      - link "Very Late बहुत पछेती" [ref=e43] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/variety?season=very_late
+      - link "Export Quality" [ref=e44] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/variety?export=1
+      - link "Featured" [ref=e45] [cursor=pointer]:
+        - /url: http://192.168.1.100:8000/variety?featured=1
+    - region "Apple Varieties" [ref=e46]:
+      - generic [ref=e47]:
+        - heading "Apple Varieties" [level=2] [ref=e48]
+        - generic [ref=e49]:
+          - article [ref=e50]:
+            - link "Adams Spur Mid Adams Spur एडम्स स्पर  5,000–9,000 ft ·  Export" [ref=e51] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/adams-spur
+              - generic [ref=e52]:
+                - img "Adams Spur" [ref=e53]
+                - generic [ref=e54]: Mid
+              - generic [ref=e55]:
+                - heading "Adams Spur" [level=3] [ref=e56]
+                - paragraph [ref=e57]: एडम्स स्पर
+                - generic [ref=e58]:
+                  - generic [ref=e59]:
+                    - generic [ref=e60]: 
+                    - text: 5,000–9,000 ft
+                  - generic [ref=e61]: ·
+                  - generic [ref=e62]:
+                    - generic [ref=e63]: 
+                    - text: Export
+          - article [ref=e64]:
+            - link "Anna Early Anna अन्ना  1,500–5,000 ft" [ref=e65] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/anna
+              - generic [ref=e66]:
+                - img "Anna" [ref=e67]
+                - generic [ref=e68]: Early
+              - generic [ref=e69]:
+                - heading "Anna" [level=3] [ref=e70]
+                - paragraph [ref=e71]: अन्ना
+                - generic [ref=e73]:
+                  - generic [ref=e74]: 
+                  - text: 1,500–5,000 ft
+          - article [ref=e75]:
+            - link "Brookfield Gala Early Brookfield Gala ब्रुकफील्ड गाला  4,000–7,000 ft ·  Export" [ref=e76] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/brookfield-gala
+              - generic [ref=e77]:
+                - img "Brookfield Gala" [ref=e78]
+                - generic [ref=e79]: Early
+              - generic [ref=e80]:
+                - heading "Brookfield Gala" [level=3] [ref=e81]
+                - paragraph [ref=e82]: ब्रुकफील्ड गाला
+                - generic [ref=e83]:
+                  - generic [ref=e84]:
+                    - generic [ref=e85]: 
+                    - text: 4,000–7,000 ft
+                  - generic [ref=e86]: ·
+                  - generic [ref=e87]:
+                    - generic [ref=e88]: 
+                    - text: Export
+          - article [ref=e89]:
+            - link "Buckeye Gala Early Buckeye Gala बकआई गाला  4,000–7,000 ft ·  Export" [ref=e90] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/buckeye-gala
+              - generic [ref=e91]:
+                - img "Buckeye Gala" [ref=e92]
+                - generic [ref=e93]: Early
+              - generic [ref=e94]:
+                - heading "Buckeye Gala" [level=3] [ref=e95]
+                - paragraph [ref=e96]: बकआई गाला
+                - generic [ref=e97]:
+                  - generic [ref=e98]:
+                    - generic [ref=e99]: 
+                    - text: 4,000–7,000 ft
+                  - generic [ref=e100]: ·
+                  - generic [ref=e101]:
+                    - generic [ref=e102]: 
+                    - text: Export
+          - article [ref=e103]:
+            - link "Co Fuji Very Late Co Fuji को फूजी  5,500–9,000 ft ·  Export" [ref=e104] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/co-fuji
+              - generic [ref=e105]:
+                - img "Co Fuji" [ref=e106]
+                - generic [ref=e107]: Very Late
+              - generic [ref=e108]:
+                - heading "Co Fuji" [level=3] [ref=e109]
+                - paragraph [ref=e110]: को फूजी
+                - generic [ref=e111]:
+                  - generic [ref=e112]:
+                    - generic [ref=e113]: 
+                    - text: 5,500–9,000 ft
+                  - generic [ref=e114]: ·
+                  - generic [ref=e115]:
+                    - generic [ref=e116]: 
+                    - text: Export
+          - article [ref=e117]:
+            - link "Dark Baron Gala Early Dark Baron Gala डार्क बैरन गाला  4,000–7,000 ft ·  Export" [ref=e118] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/dark-baron-gala
+              - generic [ref=e119]:
+                - img "Dark Baron Gala" [ref=e120]
+                - generic [ref=e121]: Early
+              - generic [ref=e122]:
+                - heading "Dark Baron Gala" [level=3] [ref=e123]
+                - paragraph [ref=e124]: डार्क बैरन गाला
+                - generic [ref=e125]:
+                  - generic [ref=e126]:
+                    - generic [ref=e127]: 
+                    - text: 4,000–7,000 ft
+                  - generic [ref=e128]: ·
+                  - generic [ref=e129]:
+                    - generic [ref=e130]: 
+                    - text: Export
+          - article [ref=e131]:
+            - link "Devil Gala Early Devil Gala डेविल गाला  4,000–7,000 ft ·  Export" [ref=e132] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/devil-gala
+              - generic [ref=e133]:
+                - img "Devil Gala" [ref=e134]
+                - generic [ref=e135]: Early
+              - generic [ref=e136]:
+                - heading "Devil Gala" [level=3] [ref=e137]
+                - paragraph [ref=e138]: डेविल गाला
+                - generic [ref=e139]:
+                  - generic [ref=e140]:
+                    - generic [ref=e141]: 
+                    - text: 4,000–7,000 ft
+                  - generic [ref=e142]: ·
+                  - generic [ref=e143]:
+                    - generic [ref=e144]: 
+                    - text: Export
+          - article [ref=e145]:
+            - link "Dorsett Golden Early Dorsett Golden डोरसेट गोल्डन  1,500–5,000 ft" [ref=e146] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/dorsett-golden
+              - generic [ref=e147]:
+                - img "Dorsett Golden" [ref=e148]
+                - generic [ref=e149]: Early
+              - generic [ref=e150]:
+                - heading "Dorsett Golden" [level=3] [ref=e151]
+                - paragraph [ref=e152]: डोरसेट गोल्डन
+                - generic [ref=e154]:
+                  - generic [ref=e155]: 
+                  - text: 1,500–5,000 ft
+          - article [ref=e156]:
+            - link "Early Red One Mid Early Red One अर्ली रेड वन  5,000–9,000 ft ·  Export" [ref=e157] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/early-red-one
+              - generic [ref=e158]:
+                - img "Early Red One" [ref=e159]
+                - generic [ref=e160]: Mid
+              - generic [ref=e161]:
+                - heading "Early Red One" [level=3] [ref=e162]
+                - paragraph [ref=e163]: अर्ली रेड वन
+                - generic [ref=e164]:
+                  - generic [ref=e165]:
+                    - generic [ref=e166]: 
+                    - text: 5,000–9,000 ft
+                  - generic [ref=e167]: ·
+                  - generic [ref=e168]:
+                    - generic [ref=e169]: 
+                    - text: Export
+          - article [ref=e170]:
+            - link "Gale Gala Early Gale Gala गेल गाला  4,000–7,000 ft ·  Export" [ref=e171] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/gale-gala
+              - generic [ref=e172]:
+                - img "Gale Gala" [ref=e173]
+                - generic [ref=e174]: Early
+              - generic [ref=e175]:
+                - heading "Gale Gala" [level=3] [ref=e176]
+                - paragraph [ref=e177]: गेल गाला
+                - generic [ref=e178]:
+                  - generic [ref=e179]:
+                    - generic [ref=e180]: 
+                    - text: 4,000–7,000 ft
+                  - generic [ref=e181]: ·
+                  - generic [ref=e182]:
+                    - generic [ref=e183]: 
+                    - text: Export
+          - article [ref=e184]:
+            - link "Golden Delicious Mid Golden Delicious गोल्डन डेलिशियस  4,500–8,500 ft" [ref=e185] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/golden-delicious
+              - generic [ref=e186]:
+                - img "Golden Delicious" [ref=e187]
+                - generic [ref=e188]: Mid
+              - generic [ref=e189]:
+                - heading "Golden Delicious" [level=3] [ref=e190]
+                - paragraph [ref=e191]: गोल्डन डेलिशियस
+                - generic [ref=e193]:
+                  - generic [ref=e194]: 
+                  - text: 4,500–8,500 ft
+          - article [ref=e195]:
+            - link "Granny Smith Late Granny Smith ग्रैनी स्मिथ  4,500–8,500 ft" [ref=e196] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/granny-smith
+              - generic [ref=e197]:
+                - img "Granny Smith" [ref=e198]
+                - generic [ref=e199]: Late
+              - generic [ref=e200]:
+                - heading "Granny Smith" [level=3] [ref=e201]
+                - paragraph [ref=e202]: ग्रैनी स्मिथ
+                - generic [ref=e204]:
+                  - generic [ref=e205]: 
+                  - text: 4,500–8,500 ft
+          - article [ref=e206]:
+            - link "Honey Crisp Mid Honey Crisp हनीक्रिस्प  4,500–8,500 ft" [ref=e207] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/honey-crisp
+              - generic [ref=e208]:
+                - img "Honey Crisp" [ref=e209]
+                - generic [ref=e210]: Mid
+              - generic [ref=e211]:
+                - heading "Honey Crisp" [level=3] [ref=e212]
+                - paragraph [ref=e213]: हनीक्रिस्प
+                - generic [ref=e215]:
+                  - generic [ref=e216]: 
+                  - text: 4,500–8,500 ft
+          - article [ref=e217]:
+            - link "HRMN-99 Early HRMN-99 एचआरएमएन-99  1,500–5,000 ft" [ref=e218] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/hrmn-99
+              - generic [ref=e219]:
+                - img "HRMN-99" [ref=e220]
+                - generic [ref=e221]: Early
+              - generic [ref=e222]:
+                - heading "HRMN-99" [level=3] [ref=e223]
+                - paragraph [ref=e224]: एचआरएमएन-99
+                - generic [ref=e226]:
+                  - generic [ref=e227]: 
+                  - text: 1,500–5,000 ft
+          - article [ref=e228]:
+            - link "Jeromine Late Jeromine जेरोमिन  5,000–8,500 ft ·  Export" [ref=e229] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/jeromine
+              - generic [ref=e230]:
+                - img "Jeromine" [ref=e231]
+                - generic [ref=e232]: Late
+              - generic [ref=e233]:
+                - heading "Jeromine" [level=3] [ref=e234]
+                - paragraph [ref=e235]: जेरोमिन
+                - generic [ref=e236]:
+                  - generic [ref=e237]:
+                    - generic [ref=e238]: 
+                    - text: 5,000–8,500 ft
+                  - generic [ref=e239]: ·
+                  - generic [ref=e240]:
+                    - generic [ref=e241]: 
+                    - text: Export
+          - article [ref=e242]:
+            - link "Jona Prince Select Mid Jona Prince Select जोना प्रिंस सेलेक्ट  4,500–8,500 ft" [ref=e243] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/jona-prince-select
+              - generic [ref=e244]:
+                - img "Jona Prince Select" [ref=e245]
+                - generic [ref=e246]: Mid
+              - generic [ref=e247]:
+                - heading "Jona Prince Select" [level=3] [ref=e248]
+                - paragraph [ref=e249]: जोना प्रिंस सेलेक्ट
+                - generic [ref=e251]:
+                  - generic [ref=e252]: 
+                  - text: 4,500–8,500 ft
+          - article [ref=e253]:
+            - link "Jonathan Mid Jonathan जोनाथन  4,500–8,500 ft" [ref=e254] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/jonathan
+              - generic [ref=e255]:
+                - img "Jonathan" [ref=e256]
+                - generic [ref=e257]: Mid
+              - generic [ref=e258]:
+                - heading "Jonathan" [level=3] [ref=e259]
+                - paragraph [ref=e260]: जोनाथन
+                - generic [ref=e262]:
+                  - generic [ref=e263]: 
+                  - text: 4,500–8,500 ft
+          - article [ref=e264]:
+            - link "Kiku Fuji Very Late Kiku Fuji किकु फूजी  5,500–9,000 ft ·  Export" [ref=e265] [cursor=pointer]:
+              - /url: http://192.168.1.100:8000/varieties/kiku-fuji
+              - generic [ref=e266]:
+                - img "Kiku Fuji" [ref=e267]
+                - generic [ref=e268]: Very Late
+              - generic [ref=e269]:
+                - heading "Kiku Fuji" [level=3] [ref=e270]
+                - paragraph [ref=e271]: किकु फूजी
+                - generic [ref=e272]:
+                  - generic [ref=e273]:
+                    - generic [ref=e274]: 
+                    - text: 5,500–9,000 ft
+                  - generic [ref=e275]: ·
+                  - generic [ref=e276]:
+                    - generic [ref=e277]: 
+                    - text: Export
+        - navigation [ref=e279]:
+          - list [ref=e281]:
+            - listitem [ref=e282]: « Previous
+            - listitem [ref=e283]:
+              - link "Next »" [ref=e284] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/variety?page=2
+          - generic [ref=e285]:
+            - paragraph [ref=e287]: Showing 1 to 18 of 51 results
+            - list [ref=e289]:
+              - listitem "« Previous" [ref=e290]: ‹
+              - listitem [ref=e291]: "1"
+              - listitem [ref=e292]:
+                - link "2" [ref=e293] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/variety?page=2
+              - listitem [ref=e294]:
+                - link "3" [ref=e295] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/variety?page=3
+              - listitem [ref=e296]:
+                - link "Next »" [ref=e297] [cursor=pointer]:
+                  - /url: http://192.168.1.100:8000/variety?page=2
+                  - text: ›
+  - contentinfo [ref=e298]:
+    - generic [ref=e299]:
+      - generic [ref=e300]:
+        - generic [ref=e301]:
+          - link "Baagvaani" [ref=e302] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=e304]: Baagvaani
+          - paragraph [ref=e305]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e307]: Social channels coming soon
+        - generic [ref=e308]:
+          - heading "Quick Links" [level=3] [ref=e309]
+          - list [ref=e310]:
+            - listitem [ref=e311]:
+              - link "Home" [ref=e312] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=e313]:
+              - link "Blog" [ref=e314] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=e315]:
+              - link "About Us" [ref=e316] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=e317]:
+          - heading "Topics" [level=3] [ref=e318]
+          - list [ref=e319]:
+            - listitem [ref=e320]:
+              - link "Spray & Disease" [ref=e321] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=e322]:
+              - link "Orchard Care" [ref=e323] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=e324]:
+              - link "Variety Guide" [ref=e325] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=e326]:
+              - link "Weather & Climate" [ref=e327] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=e328]:
+          - heading "Newsletter" [level=3] [ref=e329]
+          - paragraph [ref=e330]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e331]:
+            - textbox "Enter your email" [ref=e332]
+            - button "Subscribe" [ref=e333]
+          - paragraph [ref=e334]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e336]: © 2026 Baagvaani. All rights reserved.
+  - text:  

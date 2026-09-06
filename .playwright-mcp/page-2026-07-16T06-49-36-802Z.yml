@@ -1,0 +1,89 @@
+- generic [active] [ref=f5e1]:
+  - link "Skip to main content" [ref=f5e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f5e3]:
+    - generic [ref=f5e5]:
+      - generic [ref=f5e6]:
+        - link "Baagvaani Home" [ref=f5e7] [cursor=pointer]:
+          - /url: http://192.168.1.100:8000
+        - generic [ref=f5e9]:
+          - link "Baagvaani Home" [ref=f5e10] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+            - generic [ref=f5e11]: Baagvaani
+          - 'link "Weather: 29° in Kinnaur Valley, Partly cloudy · 45% humidity. Go to forecast." [ref=f5e12] [cursor=pointer]':
+            - /url: http://192.168.1.100:8000/weather
+            - generic [ref=f5e13]: 
+            - generic [ref=f5e15]: 29°
+      - button "Toggle menu" [ref=f5e465]
+  - main [ref=f5e28]:
+    - region [ref=f5e29]:
+      - generic [ref=f5e33]:
+        - paragraph [ref=f5e34]: मौसम पूर्वानुमान
+        - heading "Weather Forecast" [level=1] [ref=f5e35]
+        - paragraph [ref=f5e36]: Real-time conditions, spray windows and alerts for your orchard location.
+    - region [ref=f5e37]:
+      - generic [ref=f5e38]:
+        - heading "Local Weather स्थानीय मौसम" [level=2] [ref=f5e39]:
+          - text: Local Weather
+          - generic [ref=f5e40]: स्थानीय मौसम
+        - generic [ref=f5e468]:
+          - generic [ref=f5e469]: 
+          - heading "Get local weather" [level=3] [ref=f5e473]
+          - paragraph [ref=f5e474]: See real-time conditions and a 7-day spray forecast for your orchard location.
+          - button " Use My Location" [ref=f5e475]:
+            - generic [ref=f5e476]: 
+            - text: Use My Location
+          - generic [ref=f5e477]: or enter coordinates
+          - generic [ref=f5e481]:
+            - generic [ref=f5e482]:
+              - generic [ref=f5e483]: Latitude
+              - spinbutton "Latitude" [ref=f5e484]
+            - generic [ref=f5e485]:
+              - generic [ref=f5e486]: Longitude
+              - spinbutton "Longitude" [ref=f5e487]
+            - button "" [ref=f5e488]
+        - text:                                                    %     %      %      %      %      %      %   
+  - contentinfo [ref=f5e426]:
+    - generic [ref=f5e427]:
+      - generic [ref=f5e428]:
+        - generic [ref=f5e429]:
+          - link "Baagvaani" [ref=f5e430] [cursor=pointer]:
+            - /url: http://192.168.1.100:8000
+          - paragraph [ref=f5e433]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=f5e434]: Social channels coming soon
+        - generic [ref=f5e436]:
+          - heading "Quick Links" [level=3] [ref=f5e437]
+          - list [ref=f5e438]:
+            - listitem [ref=f5e439]:
+              - link "Home" [ref=f5e440] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000
+            - listitem [ref=f5e441]:
+              - link "Blog" [ref=f5e442] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog
+            - listitem [ref=f5e443]:
+              - link "About Us" [ref=f5e444] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/about
+        - generic [ref=f5e445]:
+          - heading "Topics" [level=3] [ref=f5e446]
+          - list [ref=f5e447]:
+            - listitem [ref=f5e448]:
+              - link "Spray & Disease" [ref=f5e449] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=spray-disease-management
+            - listitem [ref=f5e450]:
+              - link "Orchard Care" [ref=f5e451] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=orchard-care
+            - listitem [ref=f5e452]:
+              - link "Variety Guide" [ref=f5e453] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=variety-rootstock
+            - listitem [ref=f5e454]:
+              - link "Weather & Climate" [ref=f5e455] [cursor=pointer]:
+                - /url: http://192.168.1.100:8000/blog?category=weather-climate
+        - generic [ref=f5e456]:
+          - heading "Newsletter" [level=3] [ref=f5e457]
+          - paragraph [ref=f5e458]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=f5e459]:
+            - textbox "Enter your email" [ref=f5e460]
+            - button "Subscribe" [ref=f5e461]
+          - paragraph [ref=f5e462]: No spam. Unsubscribe anytime.
+      - paragraph [ref=f5e464]: © 2026 Baagvaani. All rights reserved.
+  - text:  

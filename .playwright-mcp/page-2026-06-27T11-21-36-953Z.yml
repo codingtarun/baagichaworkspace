@@ -1,0 +1,258 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7]
+      - generic [ref=e10]: Internal Server Error
+    - button "Copy as Markdown" [ref=e11] [cursor=pointer]:
+      - img [ref=e12]
+      - generic [ref=e15]: Copy as Markdown
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - heading "Illuminate\\Database\\LazyLoadingViolationException" [level=1] [ref=e20]
+      - generic [ref=e22]: vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php:610
+      - paragraph [ref=e23]: Attempted to lazy load [categories] on model [Modules\Blog\Models\BlogPost] but lazy loading is disabled.
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: LARAVEL
+          - generic [ref=e28]: 12.58.0
+        - generic [ref=e29]:
+          - generic [ref=e30]: PHP
+          - generic [ref=e31]: 8.5.4
+      - generic [ref=e32]:
+        - img [ref=e33]
+        - text: UNHANDLED
+      - generic [ref=e36]: CODE 0
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - img [ref=e40]
+        - text: "500"
+      - generic [ref=e43]:
+        - img [ref=e44]
+        - text: GET
+      - generic [ref=e47]: http://127.0.0.1:8000/blog/category/spray-disease-management
+      - button [ref=e48] [cursor=pointer]:
+        - img [ref=e49]
+  - generic [ref=e53]:
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - img [ref=e57]
+        - heading "Exception trace" [level=3] [ref=e60]
+      - generic [ref=e61]:
+        - generic [ref=e63] [cursor=pointer]:
+          - img [ref=e64]
+          - generic [ref=e68]: 4 vendor frames
+          - button [ref=e69]:
+            - img [ref=e70]
+        - generic [ref=e74]:
+          - generic [ref=e75] [cursor=pointer]:
+            - generic [ref=e78]:
+              - code [ref=e82]:
+                - generic [ref=e83]: Illuminate\Database\Eloquent\Model->__get()
+              - generic [ref=e85]: Modules/Blog/resources/views/components/blog-card.blade.php:13
+            - button [ref=e87]:
+              - img [ref=e88]
+          - code [ref=e96]:
+            - generic [ref=e97]: 8 'categoryPosition' => 'body',
+            - generic [ref=e98]: 9 'showAuthor' => false,
+            - generic [ref=e99]: 10 'readingTimeSuffix' => 'min read',
+            - generic [ref=e100]: 11])
+            - generic [ref=e101]: "12"
+            - generic [ref=e102]: 13@php
+            - generic [ref=e103]: "14 $title = is_object($post) ? $post->title_en : ($post['title_en'] ?? '');"
+            - generic [ref=e104]: "15 $slug = is_object($post) ? $post->slug : ($post['slug'] ?? '');"
+            - generic [ref=e105]: "16 $excerpt = is_object($post) ? $post->excerpt_en : ($post['excerpt_en'] ?? '');"
+            - generic [ref=e106]: "17 $image = is_object($post) ? $post->featured_image_url : ($post['featured_image_url'] ?? placeholder_image_url('medium'));"
+            - generic [ref=e107]: "18 $category = is_object($post) ? $post->categories->first()?->name_en : ($post['category'] ?? 'Article');"
+            - generic [ref=e108]: "19 $author = is_object($post) ? ($post->author?->name ?? 'Baagvaani') : ($post['author'] ?? 'Baagvaani');"
+            - generic [ref=e109]: "20 $publishedAt = is_object($post) ? $post->published_at : ($post['published_at'] ?? null);"
+            - generic [ref=e110]: "21 $readingTime = is_object($post) ? $post->reading_time_min : ($post['reading_time_min'] ?? 5);"
+            - generic [ref=e111]: "22 $viewCount = is_object($post) ? $post->view_count : ($post['view_count'] ?? 0);"
+            - generic [ref=e112]: 23@endphp
+            - generic [ref=e113]: "24"
+            - generic [ref=e114]: "25"
+        - generic [ref=e116] [cursor=pointer]:
+          - img [ref=e117]
+          - generic [ref=e121]: 8 vendor frames
+          - button [ref=e122]:
+            - img [ref=e123]
+        - generic [ref=e128] [cursor=pointer]:
+          - generic [ref=e131]:
+            - code [ref=e135]:
+              - generic [ref=e136]: Illuminate\View\Factory->renderComponent()
+            - generic [ref=e138]: Modules/Blog/resources/views/app/blog/category.blade.php:36
+          - button [ref=e140]:
+            - img [ref=e141]
+        - generic [ref=e146] [cursor=pointer]:
+          - img [ref=e147]
+          - generic [ref=e151]: 33 vendor frames
+          - button [ref=e152]:
+            - img [ref=e153]
+        - generic [ref=e158] [cursor=pointer]:
+          - generic [ref=e161]:
+            - code [ref=e165]:
+              - generic [ref=e166]: "Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():178}()"
+            - generic [ref=e168]: Modules/Core/app/Http/Middleware/SecurityHeaders.php:15
+          - button [ref=e170]:
+            - img [ref=e171]
+        - generic [ref=e176] [cursor=pointer]:
+          - img [ref=e177]
+          - generic [ref=e181]: 23 vendor frames
+          - button [ref=e182]:
+            - img [ref=e183]
+        - generic [ref=e188] [cursor=pointer]:
+          - generic [ref=e191]:
+            - code [ref=e195]:
+              - generic [ref=e196]: Illuminate\Foundation\Application->handleRequest()
+            - generic [ref=e198]: public/index.php:22
+          - button [ref=e200]:
+            - img [ref=e201]
+        - generic [ref=e206] [cursor=pointer]:
+          - img [ref=e207]
+          - generic [ref=e211]: 1 vendor frame
+          - button [ref=e212]:
+            - img [ref=e213]
+    - generic [ref=e217]:
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - img [ref=e221]
+          - heading "Queries" [level=3] [ref=e223]
+        - generic [ref=e225]: 1-8 of 8
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - generic [ref=e229]:
+              - img [ref=e230]
+              - generic [ref=e232]: mysql
+            - code [ref=e236]:
+              - generic [ref=e237]: "select * from `sessions` where `id` = 'hXjBIFUd6l0xceA2O3W3X810bVgvPD8OQtGd0uxY' limit 1"
+          - generic [ref=e238]: 0.83ms
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - img [ref=e242]
+              - generic [ref=e244]: mysql
+            - code [ref=e248]:
+              - generic [ref=e249]: "select * from `blog_categories` where `is_active` = 1 and `slug` = 'spray-disease-management' limit 1"
+          - generic [ref=e250]: 0.22ms
+        - generic [ref=e251]:
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - img [ref=e254]
+              - generic [ref=e256]: mysql
+            - code [ref=e260]:
+              - generic [ref=e261]: "select * from `blog_categories` where `blog_categories`.`parent_id` in (1)"
+          - generic [ref=e262]: 0.17ms
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - generic [ref=e265]:
+              - img [ref=e266]
+              - generic [ref=e268]: mysql
+            - code [ref=e272]:
+              - generic [ref=e273]: "select count(*) as aggregate from `blog_posts` where `is_active` = 1 and `is_published` = 1 and `status` = 'published' and `published_at` is not null and `published_at` <= '2026-06-27 16:51:35' and exists (select * from `blog_categories` inner join `blog_post_category` on `blog_categories`.`id` = `blog_post_category`.`category_id` where `blog_posts`.`id` = `blog_post_category`.`post_id` and `blog_categories`.`id` = 1) and `blog_posts`.`deleted_at` is null"
+          - generic [ref=e274]: 0.37ms
+        - generic [ref=e275]:
+          - generic [ref=e276]:
+            - generic [ref=e277]:
+              - img [ref=e278]
+              - generic [ref=e280]: mysql
+            - code [ref=e284]:
+              - generic [ref=e285]: "select * from `blog_posts` where `is_active` = 1 and `is_published` = 1 and `status` = 'published' and `published_at` is not null and `published_at` <= '2026-06-27 16:51:35' and exists (select * from `blog_categories` inner join `blog_post_category` on `blog_categories`.`id` = `blog_post_category`.`category_id` where `blog_posts`.`id` = `blog_post_category`.`post_id` and `blog_categories`.`id` = 1) and `blog_posts`.`deleted_at` is null order by `published_at` desc, `created_at` desc limit 10 offset 0"
+          - generic [ref=e286]: 0.51ms
+        - generic [ref=e287]:
+          - generic [ref=e288]:
+            - generic [ref=e289]:
+              - img [ref=e290]
+              - generic [ref=e292]: mysql
+            - code [ref=e296]:
+              - generic [ref=e297]: "select `blog_tags`.*, `blog_post_tags`.`post_id` as `pivot_post_id`, `blog_post_tags`.`tag_id` as `pivot_tag_id` from `blog_tags` inner join `blog_post_tags` on `blog_tags`.`id` = `blog_post_tags`.`tag_id` where `blog_post_tags`.`post_id` in (1, 2, 3)"
+          - generic [ref=e298]: 0.28ms
+        - generic [ref=e299]:
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - img [ref=e302]
+              - generic [ref=e304]: mysql
+            - code [ref=e308]:
+              - generic [ref=e309]: "select * from `media` where `media`.`model_id` in (1, 2, 3) and `media`.`model_type` = 'BlogPost'"
+          - generic [ref=e310]: 0.23ms
+        - generic [ref=e311]:
+          - generic [ref=e312]:
+            - generic [ref=e313]:
+              - img [ref=e314]
+              - generic [ref=e316]: mysql
+            - code [ref=e320]:
+              - generic [ref=e321]: "select * from `blog_categories` where `blog_categories`.`parent_id` = 1 and `blog_categories`.`parent_id` is not null and `is_active` = 1 order by `sort_order` asc, `name_en` asc"
+          - generic [ref=e322]: 0.31ms
+  - generic [ref=e324]:
+    - generic [ref=e325]:
+      - heading "Headers" [level=2] [ref=e326]
+      - generic [ref=e327]:
+        - generic [ref=e328]:
+          - generic [ref=e329]: host
+          - generic [ref=e331]: 127.0.0.1:8000
+        - generic [ref=e332]:
+          - generic [ref=e333]: connection
+          - generic [ref=e335]: keep-alive
+        - generic [ref=e336]:
+          - generic [ref=e337]: sec-ch-ua
+          - generic [ref=e339]: "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\""
+        - generic [ref=e340]:
+          - generic [ref=e341]: sec-ch-ua-mobile
+          - generic [ref=e343]: "?0"
+        - generic [ref=e344]:
+          - generic [ref=e345]: sec-ch-ua-platform
+          - generic [ref=e347]: "\"Linux\""
+        - generic [ref=e348]:
+          - generic [ref=e349]: upgrade-insecure-requests
+          - generic [ref=e351]: "1"
+        - generic [ref=e352]:
+          - generic [ref=e353]: user-agent
+          - generic [ref=e355]: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36
+        - generic [ref=e356]:
+          - generic [ref=e357]: accept
+          - generic [ref=e359]: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+        - generic [ref=e360]:
+          - generic [ref=e361]: sec-fetch-site
+          - generic [ref=e363]: none
+        - generic [ref=e364]:
+          - generic [ref=e365]: sec-fetch-mode
+          - generic [ref=e367]: navigate
+        - generic [ref=e368]:
+          - generic [ref=e369]: sec-fetch-user
+          - generic [ref=e371]: "?1"
+        - generic [ref=e372]:
+          - generic [ref=e373]: sec-fetch-dest
+          - generic [ref=e375]: document
+        - generic [ref=e376]:
+          - generic [ref=e377]: accept-encoding
+          - generic [ref=e379]: gzip, deflate, br, zstd
+        - generic [ref=e380]:
+          - generic [ref=e381]: accept-language
+          - generic [ref=e383]: en-US,en;q=0.9
+        - generic [ref=e384]:
+          - generic [ref=e385]: cookie
+          - generic [ref=e387]: _ga=GA1.1.1355436650.1781414165; _ga_LFDEBYBMZS=GS2.1.s1781740392$o3$g1$t1781740704$j56$l0$h0; XSRF-TOKEN=eyJpdiI6IkxpK3I4UWdQVVRHaFRSQ0syemxvSXc9PSIsInZhbHVlIjoiMTg0Z29POENNZVAySG1TS1h3WFVXTERoazVNb0tBRldWTGMvbkYzQUtvTFhVa2svQzBFRmtjcXM0RzJBVmYxZzFDZk52SFpIWUY4VXlHWVlscGNQcVU4QlI3bE50dnNHOFhQNlNPUVRHbmMwcVN2N3dHS3BTcnhjTnB1STlUdHkiLCJtYWMiOiI2MWU5NDgwY2NiMDEyZTcxMTlmYjg4OTkzZGVlNDVkYWNiMjQ2YzY0MjAyNzZkMmFiMTQ0MTAzZTZmY2Q0MWQ0IiwidGFnIjoiIn0%3D; baagvaani-session=eyJpdiI6IlBsZ3ZjbmdISnhIZGJibjNvbHh0ZEE9PSIsInZhbHVlIjoibWZrc0p1NERZMUsydXE3dlZBalZTanRUZ1Iwd3hTNDI3R1YzTjQyZGFlOXZFN2gzc3ZqbDF1b0VGdkxERnVGOXVLandMNEZMdlhJeUhVTVJhdEt5NU5CcGFwejB0QUUwbnBqTVdLK2dya3ZudDdCR2FPZ2pxRm9Sb1BhL0t6SHgiLCJtYWMiOiJhZmM3Y2E4NTFjZmY2YmI4ZGNlNjFiNTI3YzIwMjlmYTFiNTNjMGQyZjcwMjZiM2ZlY2YyYThmNzNmNjg5YWNkIiwidGFnIjoiIn0%3D
+    - generic [ref=e388]:
+      - heading "Body" [level=2] [ref=e389]
+      - generic [ref=e390]: // No request body
+    - generic [ref=e391]:
+      - heading "Routing" [level=2] [ref=e392]
+      - generic [ref=e393]:
+        - generic [ref=e394]:
+          - generic [ref=e395]: controller
+          - generic [ref=e397]: Modules\Blog\Http\Controllers\Web\BlogCategoryController@show
+        - generic [ref=e398]:
+          - generic [ref=e399]: route name
+          - generic [ref=e401]: blog.category.show
+        - generic [ref=e402]:
+          - generic [ref=e403]: middleware
+          - generic [ref=e405]: web
+    - generic [ref=e406]:
+      - heading "Routing parameters" [level=2] [ref=e407]
+      - code [ref=e412]:
+        - generic [ref=e413]: "{"
+        - generic [ref=e414]: "\"slug\": \"spray-disease-management\""
+        - generic [ref=e415]: "}"
+  - generic [ref=e418]:
+    - img [ref=e420]
+    - img [ref=e3458]

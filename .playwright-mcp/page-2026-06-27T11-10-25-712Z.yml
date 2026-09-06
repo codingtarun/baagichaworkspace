@@ -1,0 +1,275 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Baagvaani Home" [ref=e7] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000
+        - generic [ref=e9]:
+          - link "Baagvaani Home" [ref=e10] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e11]: Baagvaani
+          - 'link "Weather: 25° in Kinnaur Valley, Partly cloudy · 59% humidity. Go to forecast." [ref=e12] [cursor=pointer]':
+            - /url: http://127.0.0.1:8000/weather
+            - generic [ref=e14]: 
+            - generic [ref=e16]: 25°
+      - button "Toggle menu" [ref=e18]:
+        - img [ref=e19]
+  - main [ref=e21]:
+    - article [ref=e22]:
+      - region "Apple Scab" [ref=e23]:
+        - generic [ref=e27]:
+          - link "Disease Library" [ref=e29] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/disease
+            - img [ref=e30]
+            - text: Disease Library
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - generic [ref=e34]: 
+              - text: High
+            - generic [ref=e35]:
+              - generic [ref=e36]: 
+              - text: Fungal
+            - generic [ref=e37]:
+              - generic [ref=e38]: 
+              - text: HP Common
+          - generic [ref=e39]:
+            - heading "Apple Scab" [level=1] [ref=e40]
+            - paragraph [ref=e41]:
+              - emphasis [ref=e42]: Venturia inaequalis
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - region " About Apple Scab" [ref=e46]:
+            - button " About Apple Scab" [expanded] [ref=e47] [cursor=pointer]:
+              - heading " About Apple Scab" [level=2] [ref=e48]:
+                - generic [ref=e49]: 
+                - text: About Apple Scab
+              - img [ref=e50]
+          - region "Also Known As" [ref=e54]:
+            - heading "Also Known As" [level=2] [ref=e55]
+            - generic [ref=e56]:
+              - generic [ref=e57]:
+                - generic [ref=e58]: 
+                - text: Black Spot
+              - generic [ref=e59]:
+                - generic [ref=e60]: 
+                - text: Kala Dhabb
+          - region " How to Identify" [ref=e61]:
+            - button " How to Identify" [expanded] [ref=e62] [cursor=pointer]:
+              - heading " How to Identify" [level=2] [ref=e63]:
+                - generic [ref=e64]: 
+                - text: How to Identify
+              - img [ref=e65]
+            - list [ref=e69]:
+              - listitem [ref=e70]: Olive-green to black spots on leaves and raised scabs on fruit. Premature leaf drop and fruit cracking.
+          - region " Prevention" [ref=e71]:
+            - button " Prevention" [expanded] [ref=e72] [cursor=pointer]:
+              - heading " Prevention" [level=2] [ref=e73]:
+                - generic [ref=e74]: 
+                - text: Prevention
+              - img [ref=e75]
+            - list [ref=e79]:
+              - listitem [ref=e80]: Rake and destroy fallen leaves. Spray urea in autumn. Choose resistant varieties.
+          - region " Organic Treatment" [ref=e81]:
+            - button " Organic Treatment" [expanded] [ref=e82] [cursor=pointer]:
+              - heading " Organic Treatment" [level=2] [ref=e83]:
+                - generic [ref=e84]: 
+                - text: Organic Treatment
+              - img [ref=e85]
+            - list [ref=e89]:
+              - listitem [ref=e90]: Apply lime sulphur during dormancy. Use copper oxychloride at green tip. Spray neem oil.
+          - region " Yield Impact" [ref=e91]:
+            - button " Yield Impact" [expanded] [ref=e92] [cursor=pointer]:
+              - heading " Yield Impact" [level=2] [ref=e93]:
+                - generic [ref=e94]: 
+                - text: Yield Impact
+              - img [ref=e95]
+            - paragraph [ref=e100]: Severe infection can cause complete crop loss
+          - region " Risk Factors" [ref=e101]:
+            - button " Risk Factors" [expanded] [ref=e102] [cursor=pointer]:
+              - heading " Risk Factors" [level=2] [ref=e103]:
+                - generic [ref=e104]: 
+                - text: Risk Factors
+              - img [ref=e105]
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: 
+                  - heading "Temperature Risk" [level=3] [ref=e113]
+                - paragraph [ref=e114]: 6°C – 24°C
+              - generic [ref=e117]:
+                - generic [ref=e118]:
+                  - generic [ref=e119]: 
+                  - heading "Humidity Threshold" [level=3] [ref=e120]
+                - paragraph [ref=e121]: Risk above 90%
+              - generic [ref=e124]:
+                - generic [ref=e125]:
+                  - generic [ref=e126]: 
+                  - heading "Altitude Range" [level=3] [ref=e127]
+                - paragraph [ref=e128]: 1,500 – 9,000 ft
+              - generic [ref=e131]:
+                - generic [ref=e132]:
+                  - generic [ref=e133]: 
+                  - heading "Potential Yield Loss" [level=3] [ref=e134]
+                - generic [ref=e135]:
+                  - paragraph [ref=e136]: 50–80%
+                  - paragraph [ref=e137]: Estimated range
+          - generic [ref=e138]:
+            - region " Active Season" [ref=e139]:
+              - heading " Active Season" [level=2] [ref=e140]:
+                - generic [ref=e141]: 
+                - text: Active Season
+              - generic [ref=e142]:
+                - generic [ref=e143]: Green Tip
+                - generic [ref=e144]: to
+                - generic [ref=e145]: Harvest
+            - region " Spreads Via" [ref=e146]:
+              - heading " Spreads Via" [level=2] [ref=e147]:
+                - generic [ref=e148]: 
+                - text: Spreads Via
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - generic [ref=e151]: 
+                  - text: Wind
+                - generic [ref=e152]:
+                  - generic [ref=e153]: 
+                  - text: Rain
+                - generic [ref=e154]:
+                  - generic [ref=e155]: 
+                  - text: Fallen leaves
+        - complementary [ref=e156]:
+          - generic [ref=e157]:
+            - heading "Quick Stats" [level=3] [ref=e158]
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - generic [ref=e162]: 
+                  - text: Severity
+                - generic [ref=e163]: High
+              - generic [ref=e164]:
+                - generic [ref=e165]:
+                  - generic [ref=e166]: 
+                  - text: Category
+                - generic [ref=e167]: Fungal
+              - generic [ref=e168]:
+                - generic [ref=e169]:
+                  - generic [ref=e170]: 
+                  - text: Temperature
+                - generic [ref=e171]: 6–24°C
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - generic [ref=e174]: 
+                  - text: Humidity
+                - generic [ref=e175]: ">90%"
+              - generic [ref=e176]:
+                - generic [ref=e177]:
+                  - generic [ref=e178]: 
+                  - text: Views
+                - generic [ref=e179]: "600"
+          - generic [ref=e180]:
+            - heading "Actions" [level=3] [ref=e181]
+            - button "Save" [ref=e183]:
+              - generic [ref=e184]: 
+              - generic [ref=e185]: Save
+            - button "Share" [ref=e186]:
+              - generic [ref=e187]: 
+              - text: Share
+            - link " Report Sighting" [ref=e188] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/disease-reporter/report?disease_id=22&disease_name=Apple%20Scab
+              - generic [ref=e189]: 
+              - text: Report Sighting
+          - generic [ref=e190]:
+            - heading "Other Fungal Diseases" [level=3] [ref=e191]
+            - generic [ref=e192]:
+              - article [ref=e193]:
+                - link "Alternaria Leaf Spot Alternaria Leaf Spot अल्टरनेरिया पत्ती धब्बा" [ref=e194] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/diseases/alternaria-leaf-spot
+                  - img "Alternaria Leaf Spot" [ref=e195]
+                  - generic [ref=e196]:
+                    - heading "Alternaria Leaf Spot" [level=3] [ref=e197]
+                    - paragraph [ref=e198]: अल्टरनेरिया पत्ती धब्बा
+              - article [ref=e199]:
+                - link "Marssonina Leaf Blotch Marssonina Leaf Blotch मार्सोनिना लीफ ब्लॉच" [ref=e200] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/diseases/marssonina-leaf-blotch
+                  - img "Marssonina Leaf Blotch" [ref=e201]
+                  - generic [ref=e202]:
+                    - heading "Marssonina Leaf Blotch" [level=3] [ref=e203]
+                    - paragraph [ref=e204]: मार्सोनिना लीफ ब्लॉच
+              - article [ref=e205]:
+                - link "White Root Rot White Root Rot सफेद जड़ सड़न" [ref=e206] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/diseases/white-root-rot
+                  - img "White Root Rot" [ref=e207]
+                  - generic [ref=e208]:
+                    - heading "White Root Rot" [level=3] [ref=e209]
+                    - paragraph [ref=e210]: सफेद जड़ सड़न
+              - article [ref=e211]:
+                - link "Brown Rot Brown Rot भूरा सड़न" [ref=e212] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/diseases/brown-rot
+                  - img "Brown Rot" [ref=e213]
+                  - generic [ref=e214]:
+                    - heading "Brown Rot" [level=3] [ref=e215]
+                    - paragraph [ref=e216]: भूरा सड़न
+      - generic [ref=e217]:
+        - generic [ref=e218]:
+          - text:   
+          - button "Share Apple Scab" [ref=e219] [cursor=pointer]:
+            - generic [ref=e220]: 
+        - button "Switch to Hindi" [ref=e221] [cursor=pointer]: हिन्दी
+      - generic [ref=e224]:
+        - heading " Comments" [level=2] [ref=e226]:
+          - generic [ref=e227]: 
+          - text: Comments
+        - generic [ref=e228]:
+          - generic [ref=e229]: 
+          - link "Login" [ref=e230] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/login
+          - text: to leave a comment.
+        - generic [ref=e232]:
+          - generic [ref=e233]: 
+          - paragraph [ref=e234]: No comments yet. Be the first to share your thoughts!
+  - contentinfo [ref=e235]:
+    - generic [ref=e236]:
+      - generic [ref=e237]:
+        - generic [ref=e238]:
+          - link "Baagvaani" [ref=e239] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000
+            - generic [ref=e241]: Baagvaani
+          - paragraph [ref=e242]: Expert apple farming knowledge for farmers in Himachal Pradesh, Uttarakhand & J&K.
+          - generic [ref=e244]: Social channels coming soon
+        - generic [ref=e245]:
+          - heading "Quick Links" [level=3] [ref=e246]
+          - list [ref=e247]:
+            - listitem [ref=e248]:
+              - link "Home" [ref=e249] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000
+            - listitem [ref=e250]:
+              - link "Blog" [ref=e251] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog
+            - listitem [ref=e252]:
+              - link "About Us" [ref=e253] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/about
+        - generic [ref=e254]:
+          - heading "Topics" [level=3] [ref=e255]
+          - list [ref=e256]:
+            - listitem [ref=e257]:
+              - link "Spray & Disease" [ref=e258] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=spray-disease-management
+            - listitem [ref=e259]:
+              - link "Orchard Care" [ref=e260] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=orchard-care
+            - listitem [ref=e261]:
+              - link "Variety Guide" [ref=e262] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=variety-rootstock
+            - listitem [ref=e263]:
+              - link "Weather & Climate" [ref=e264] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog?category=weather-climate
+        - generic [ref=e265]:
+          - heading "Newsletter" [level=3] [ref=e266]
+          - paragraph [ref=e267]: Get spray schedules & farming tips delivered to your inbox.
+          - generic [ref=e268]:
+            - textbox "Enter your email" [ref=e269]
+            - button "Subscribe" [ref=e270]
+          - paragraph [ref=e271]: No spam. Unsubscribe anytime.
+      - paragraph [ref=e273]: © 2026 Baagvaani. All rights reserved.
+  - text:  
