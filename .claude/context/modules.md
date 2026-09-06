@@ -141,6 +141,65 @@ band validation. `Api/DiseaseController` already shapes bilingual label objects 
 
 ---
 
+## Module inventory after the 2026-09-06 cleanup
+
+17 modules. `OrchardActivities` was removed — the only one outside the transitive dependency
+closure of everything in use, with zero inbound references and three empty tables.
+
+**The working set Tarun actually uses (8 modules + Auth):**
+Fruit · VarietyStrain · Rootstock · Blog · Comment · Core · Notification · Newsletter
+
+Mapped from the live admin URLs: `/admin/fruits` `/admin/variety-strains` `/admin/rootstocks`
+`/admin/blog/posts` `/admin/blog-categories` `/admin/blog-tags` `/admin/comments` `/admin/media`
+`/admin/dashboard/queue-health` `/admin/activity-logs` `/admin/notifications/send`
+`/admin/waitlist` (Notification) `/admin/newsletter` (Newsletter).
+
+**Why nothing else can be removed yet.** Blog and VarietyStrain are not separable:
+
+- VarietyStrain → `Fruit` (belongsTo), `Rootstock` + `Disease` (pivots), `Comment` (morphMany),
+  `Community` (`Likeable` trait), `Core`, `Auth`
+- Blog → `VarietyStrain`, `Disease`, `KnowledgeBase\Chemical`, `Shop\Product`, `Rootstock` via
+  `BlogPostRelated`; plus `Comment`, `Community\Likeable`, `Shop\HasProducts`
+
+And Disease — the next work area — depends on the removal candidates heavily:
+
+| Disease needs | Files |
+|---|---|
+| `Orchard` (`UserOrchard` drives the whole prediction engine) | 23 |
+| `Weather` (`Weather` model feeds every prediction model) | 9 |
+| `KnowledgeBase` (`Chemical`, `ChemicalTargetEfficacy`, `DevelopmentStage`) | 4 |
+| `Shop` (`HasProducts`, `Product`) | 2 |
+| `Community` (`Post` in a job) | 1 |
+
+**Removing Orchard, Weather or KnowledgeBase would sabotage the Disease work.**
+
+`Intelligence` is removable server-side (0 rows, only Core's base layout references it) **but the
+mobile app renders `DailyIntelligenceCard` inside `ScreenLayout`, which 13 screens use including
+Home.** Deleting the backend 404s all of them. Held pending a decision.
+
+Live data that must never be dropped casually: Community 1,012 rows (253 follows, 182
+connections, 180 group members), Shop 277 incl. 42 orders, Orchard 207 user orchards, Auth 113
+users, KnowledgeBase 1,406, VarietyStrain 3,872, Blog 259 incl. 173 comments (all on Community
+`Post`, not blog posts).
+
+## Cross-cutting: 24 broken route() calls
+
+An audit of every `route('name')` in the codebase against the 631 registered routes found **24
+names that do not exist** — these throw `RouteNotFoundException` when their code path runs.
+Pre-existing, not caused by the cleanup. The notable ones:
+
+| Route name | Called from | Likely cause |
+|---|---|---|
+| `varieties.show` | `Blog\BlogPostRelated`, Core `variety-card` components, `Newsletter\SendContentPublishedNewsletter` | leftover from the Variety → VarietyStrain rename; the route is now `variety-strain.show` |
+| `admin.spray.stages.{store,edit,update}` | KnowledgeBase spray stage admin views | |
+| `admin.varieties.show`, `api.predictions.index`, `api.spray-window` | `Notification\NotificationService` | |
+| `api.intelligence.{dismiss,expand,items.done}` | Intelligence blade components | double `api.` prefix — actual names are `api.api.intelligence.*` |
+| `shop.orders.invoice` | Shop order view | |
+| `user-preferences.update` | Auth preferences view | |
+
+`varieties.show` is the one worth fixing first: it sits in the blog related-content renderer and
+in the newsletter listener, so it can break a live page and a live email.
+
 ## Cross-cutting: dead route files
 
 `Modules/Auth/routes/` contains three files the module's `RouteServiceProvider` never loads:
