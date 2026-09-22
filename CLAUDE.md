@@ -1,6 +1,6 @@
 # Baagvaani — Workspace Map
 
-Three independent git repos in one directory. There are **no root-level dev scripts**;
+Four independent git repos in one directory. There are **no root-level dev scripts**;
 all commands run inside a sub-project.
 
 | Directory | Stack | Role | Own instructions |
@@ -8,6 +8,7 @@ all commands run inside a sub-project.
 | `web_baagicha/` | Laravel 12 · PHP 8.2+ · MySQL · Blade | **The whole backend** — web site, admin panel, and the mobile API | `web_baagicha/CLAUDE.md` |
 | `baagichaApp/` | React Native 0.85.3 · TypeScript | Mobile client (Android-first) | `baagichaApp/.opencode/AGENTS.md` ⚠️ stale — see below |
 | `BaagvaaniBrain/` | Python scripts + Markdown | Content & marketing pipeline (blogs, images) | `BaagvaaniBrain/CLAUDE.md` |
+| `baagvaani_web/` | Laravel 13 · PHP 8.5 · MySQL `baagicha_db` · Bootstrap 5.3 | **The rebuild** (started 2026-09-22). Features are ported from `web_baagicha` one at a time, on request | `baagvaani_web/CLAUDE.md` |
 
 **Ground rule:** all API logic lives in Laravel. The React Native app is a pure client —
 no business logic, no schema, no route definitions.
