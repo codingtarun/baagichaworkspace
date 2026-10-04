@@ -23,9 +23,14 @@ Mobile endpoints must live under a versioned API namespace:
 ```
 
 Example:
-- `GET /api/v1/weather/forecast`
+- `GET /api/v1/weather/current` (also `/alerts`, `/dashboard`, `/engine`, `/history`)
 - `POST /api/v1/actions/like`
 - `GET /api/v1/notifications/recent`
+
+**Legacy exceptions (unversioned, still live in `web_baagicha`):** `GET api/brands`,
+`GET api/brands/{slug}`, `GET api/weather/current`, `GET api/weather/alerts`,
+`POST api/weather/coordinates`, `POST api/weather/refresh`. Do not add new routes in this
+style; new mobile endpoints go under `/api/v1`.
 
 ## Authentication
 
@@ -43,6 +48,16 @@ All mobile API responses must be JSON:
   "message": "Optional message"
 }
 ```
+
+### `baagvaani_web` (the rebuild) differs
+
+`baagvaani_web/` also mounts module APIs under `/api/v1` (via
+`Modules\Core\Providers\ModuleRouteServiceProvider`), with route names `api.v1.*`
+(e.g. `api.v1.auth.otp.verify`). It does **not** use the `{success, data, message}` envelope:
+controllers return Laravel API Resources directly (`AccountResource` → `{ "data": { ... } }`)
+or plain JSON bodies (e.g. OTP verify returns `token`, `token_type`, `expires_at`,
+`is_new_user`, `user`), with `204 No Content` for deletes. Follow that style when working in
+`baagvaani_web`.
 
 ## Rules
 

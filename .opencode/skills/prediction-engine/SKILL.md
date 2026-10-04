@@ -1,15 +1,34 @@
 ---
 name: prediction-engine
-description: Disease/pest prediction & spray recommendation engine — Phase 1+2 backend complete. Use when working on DiseasePressureService, PestDevelopmentService, SprayWindowService, epidemiological models (Mills, Maryblyt, DMC), or prediction APIs.
+description: Disease/pest prediction & spray recommendation engine — Phase 1+2 code written but never scheduled, routed or validated. Use when working on DiseasePressureService, PestDevelopmentService, SprayWindowService, epidemiological models (Mills, Maryblyt, DMC), or prediction APIs.
 ---
 
 # Baagvaani Prediction & Recommendation Engine
 
 > **Module:** Intelligent Disease/Pest Prediction + Spray Recommendation  
 > **Backend:** Laravel 12  
-> **Status:** Phase 1 + Phase 2 Backend COMPLETE (2026-05-21)  
-> **Next:** Shadow Mode Validation (Weeks 11-12)  
-> **Source:** `research/prediction-engine/` (9 implementation docs)
+> **Status:** Phase 1 + Phase 2 code written (2026-05-21) — **not running in production, never validated**  
+> **Next:** Shadow Mode Validation (Weeks 11-12) — not started  
+> **Source:** `BaagvaaniBrain/research/prediction-engine/` (00_INDEX + 9 implementation docs)  
+> **Code:** `web_baagicha/Modules/Disease/` (services `app/Services/Prediction/`, jobs `app/Jobs/`, commands `app/Console/Commands/`)
+
+> ## ⚠️ Reality check (verified 2026-10-04)
+>
+> - **The prediction commands never run.** Their schedule is defined only in
+>   `web_baagicha/app/Console/Kernel.php`, which Laravel 12 never loads (scheduling lives in
+>   `routes/console.php` and module service providers). `php artisan schedule:list` shows
+>   none of `app:compute-disease-pressure`, `app:accumulate-pest-dd`,
+>   `app:compute-spray-windows` or `app:initialize-pest-season`. The commands themselves are
+>   registered and can be run by hand.
+> - **`Modules/Disease/app/Http/Controllers/Api/PredictionController.php` is unrouted.** No
+>   `predictions`, `spray-window` or `forecast/detailed` routes exist (`route:list`). Only the
+>   orchard-blocks and spray-logs endpoints below are live.
+> - **Three of the "8 migrations" do not exist:** no migration creates `spray_windows`,
+>   `prediction_feedbacks` or `weather_hourly_forecasts`. Hourly data is a JSON column
+>   (`weather.hourly_forecast_48h`) and the next spray window is `weather.next_spray_window`.
+> - **`pest_models` has 0 rows**, so degree-day tracking has nothing to drive it.
+> - **Never validated.** Shadow mode (below) has not been run. Do not surface predictions to
+>   farmers until it has.
 
 ---
 
@@ -46,13 +65,13 @@ description: Disease/pest prediction & spray recommendation engine — Phase 1+2
 
 ## Three Implementation Phases
 
-### Phase 1: Enhanced Rules + Forecast (Weeks 1-3) ✅ DONE
+### Phase 1: Enhanced Rules + Forecast (Weeks 1-3) ✅ Code written
 - Extended `diseases` table with model flags
 - Built `DiseasePressureService` (rule-based v2)
 - Added `disease_pressure_log` table
 - Wired predictions into notification pipeline
 
-### Phase 2: Epidemiological Models (Weeks 4-10) ✅ DONE
+### Phase 2: Epidemiological Models (Weeks 4-10) ✅ Code written (not scheduled — see reality check)
 - `RevisedMillsModel` — apple scab
 - `SimplifiedMaryblytModel` — fire blight
 - `DmcModel` — powdery mildew
@@ -70,17 +89,17 @@ description: Disease/pest prediction & spray recommendation engine — Phase 1+2
 
 ## Database Schema
 
-### New Migrations (8 total)
+### Planned Migrations (8 in the plan — 5 exist)
 
 ```php
-// 1. orchard_blocks — sub-divisions within an orchard
-disease_pressure_logs    // 2. Prediction outputs per orchard/date
-pest_models              // 3. Config for each pest (codling moth, etc.)
-pest_trackers            // 4. Per-orchard pest state (cumulative DD, biofix)
-spray_logs               // 5. Farmer spray records (feedback loop)
-prediction_feedbacks     // 6. Farmer confirmation/denial of alerts
-spray_windows            // 7. Computed optimal spray times
-weather_hourly_forecasts // 8. Hourly data for model inputs
+orchard_blocks           // 1. Sub-divisions within an orchard        — Modules/Orchard ✅
+disease_pressure_log     // 2. Prediction outputs per orchard/date    — Modules/Disease ✅
+pest_models              // 3. Config for each pest (0 rows)          — Modules/Disease ✅
+pest_tracker             // 4. Per-orchard pest state (DD, biofix)    — Modules/Disease ✅
+spray_logs               // 5. Farmer spray records (feedback loop)   — Modules/KnowledgeBase ✅
+prediction_feedbacks     // 6. Farmer confirmation/denial             — ❌ no migration
+spray_windows            // 7. Computed optimal spray times           — ❌ no migration (weather.next_spray_window JSON)
+weather_hourly_forecasts // 8. Hourly data for model inputs           — ❌ no migration (weather.hourly_forecast_48h JSON)
 ```
 
 ### Key Models
@@ -100,15 +119,19 @@ weather_hourly_forecasts // 8. Hourly data for model inputs
 
 | Service | File | Purpose |
 |---------|------|---------|
-| `DiseasePressureService` | `app/Services/Prediction/DiseasePressureService.php` | Orchestrates all disease models |
-| `PestDevelopmentService` | `app/Services/Prediction/PestDevelopmentService.php` | Degree-day accumulation |
-| `SprayWindowService` | `app/Services/Prediction/SprayWindowService.php` | Optimal spray timing |
-| `LeafWetnessEstimator` | `app/Services/Prediction/LeafWetnessEstimator.php` | Estimates wetness from RH+rain+dew |
-| `RecommendationGenerator` | `app/Services/Prediction/RecommendationGenerator.php` | Actionable spray recommendations |
-| `MicroclimateService` | `app/Services/Prediction/MicroclimateService.php` | Slope/aspect adjustments |
-| `ModelFactory` | `app/Services/Prediction/ModelFactory.php` | Instantiates correct model per disease |
+| `DiseasePressureService` | `Modules/Disease/app/Services/Prediction/DiseasePressureService.php` | Orchestrates all disease models |
+| `PestDevelopmentService` | `Modules/Disease/app/Services/Prediction/PestDevelopmentService.php` | Degree-day accumulation |
+| `SprayWindowService` | `Modules/Disease/app/Services/Prediction/SprayWindowService.php` | Optimal spray timing |
+| `LeafWetnessEstimator` | `Modules/Disease/app/Services/Prediction/LeafWetnessEstimator.php` | Estimates wetness from RH+rain+dew |
+| `RecommendationGenerator` | `Modules/Disease/app/Services/Prediction/RecommendationGenerator.php` | Actionable spray recommendations |
+| `MicroclimateService` | `Modules/Disease/app/Services/Prediction/MicroclimateService.php` | Slope/aspect adjustments |
+| `ModelFactory` | `Modules/Disease/app/Services/Prediction/ModelFactory.php` | Instantiates correct model per disease |
 
 ### Model Classes
+
+All under `Modules/Disease/app/Services/Prediction/Models/` — `Scab/RevisedMillsModel`,
+`FireBlight/SimplifiedMaryblytModel`, `PowderyMildew/DmcModel`, `Pests/DegreeDayModel`,
+plus `RuleBasedModel` and `AbstractPredictionModel` at the top level.
 
 | Model | Disease/Pest | Approach | Accuracy |
 |-------|-------------|----------|----------|
@@ -122,6 +145,17 @@ weather_hourly_forecasts // 8. Hourly data for model inputs
 
 ## API Endpoints
 
+Live (verified with `route:list`):
+
+```
+GET|POST         /api/v1/orchards/{orchard}/blocks
+GET|PUT|DELETE   /api/v1/orchards/{orchard}/blocks/{block}
+GET|POST         /api/v1/orchards/{orchard}/spray-logs
+GET              /api/v1/spray-logs/{log}
+```
+
+Planned but **not routed** (`PredictionController` exists with no routes pointing at it):
+
 ```
 GET    /api/v1/orchard/{id}/predictions
 GET    /api/v1/orchard/{id}/predictions/disease/{diseaseId}
@@ -129,29 +163,26 @@ GET    /api/v1/orchard/{id}/predictions/pest/{pestModelId}
 GET    /api/v1/orchard/{id}/spray-window
 GET    /api/v1/orchard/{id}/forecast/detailed
 POST   /api/v1/predictions/{logId}/feedback
-
-GET    /api/v1/orchards/{id}/blocks
-POST   /api/v1/orchards/{id}/blocks
-PUT    /api/v1/orchards/{id}/blocks/{blockId}
-DELETE /api/v1/orchards/{id}/blocks/{blockId}
 GET    /api/v1/orchard/{id}/blocks/{blockId}/predictions
-
-GET    /api/v1/orchard/{id}/spray-logs
-POST   /api/v1/orchard/{id}/spray-logs
 ```
 
 ---
 
 ## Automation (Commands + Jobs + Scheduler)
 
-| Command | Schedule | Purpose |
+Schedules below are what `app/Console/Kernel.php` declares — **none of them are active**
+(see reality check). To activate, move them into `routes/console.php` or a module provider.
+
+| Command | Intended schedule (Kernel.php) | Purpose |
 |---------|----------|---------|
-| `app:compute-disease-pressure` | Daily 6 AM | Run all disease models for all orchards |
-| `app:accumulate-pest-degree-days` | Daily 6:30 AM | Update DD accumulations |
-| `app:compute-spray-windows` | Daily 7 AM | Calculate optimal spray windows |
-| `app:initialize-pest-season` | Yearly (Nov) | Reset pest trackers for new season |
+| `app:compute-disease-pressure` | Daily 05:30 | Dispatch `ComputeDiseasePressureJob` (queue `disease-pressure`) |
+| `app:accumulate-pest-dd` | Daily 06:30 | Update DD accumulations |
+| `app:compute-spray-windows` | Twice daily 07:00 / 19:00 | Dispatch `ComputeSprayWindowJob` (queue `spray-windows`) |
+| `app:initialize-pest-season` | Yearly, 1 Jan 00:00 | Reset pest trackers for new season |
 | `SendPredictionAlert` (Job) | Queued | Deliver push notifications |
 | `ComputePredictionsForUser` (Job) | Queued | Per-user prediction batch |
+
+If scheduled, the queue worker must also listen on `disease-pressure` and `spray-windows`.
 
 ---
 
@@ -199,7 +230,7 @@ php artisan app:compute-disease-pressure --dry-run --orchard=1
 # Compute spray windows
 php artisan app:compute-spray-windows --orchard=1
 
-# Run scheduler
+# Run scheduler (does NOT run the prediction commands today — see reality check)
 php artisan schedule:run
 ```
 

@@ -6,7 +6,7 @@ all commands run inside a sub-project.
 | Directory | Stack | Role | Own instructions |
 |---|---|---|---|
 | `web_baagicha/` | Laravel 12 · PHP 8.2+ · MySQL · Blade | **The whole backend** — web site, admin panel, and the mobile API | `web_baagicha/CLAUDE.md` |
-| `baagichaApp/` | React Native 0.85.3 · TypeScript | Mobile client (Android-first) | `baagichaApp/.opencode/AGENTS.md` ⚠️ stale — see below |
+| `baagichaApp/` | React Native 0.85.3 · TypeScript | Mobile client (Android-first) | `baagichaApp/.opencode/AGENTS.md` |
 | `BaagvaaniBrain/` | Python scripts + Markdown | Content & marketing pipeline (blogs, images) | `BaagvaaniBrain/CLAUDE.md` |
 | `baagvaani_web/` | Laravel 13 · PHP 8.5 · MySQL `baagicha_db` · Bootstrap 5.3 | **The rebuild** (started 2026-09-22). Features are ported from `web_baagicha` one at a time, on request | `baagvaani_web/CLAUDE.md` |
 
@@ -18,7 +18,7 @@ no business logic, no schema, no route definitions.
 | File | When |
 |---|---|
 | [`.claude/context/product.md`](.claude/context/product.md) | who this is for, the domain rules that drive everything |
-| [`.claude/context/architecture.md`](.claude/context/architecture.md) | how the three repos fit together, module layout, API contract |
+| [`.claude/context/architecture.md`](.claude/context/architecture.md) | how the repos fit together, module layout, API contract |
 | [`.claude/context/state-of-the-code.md`](.claude/context/state-of-the-code.md) | measured audit — sizes, test results, what is real vs. aspirational |
 | [`.claude/context/known-issues.md`](.claude/context/known-issues.md) | confirmed defects with evidence, ranked |
 | [`.claude/context/modules.md`](.claude/context/modules.md) | Blog / VarietyStrain / Disease — measured module analysis, data coverage, gaps |
@@ -27,16 +27,20 @@ no business logic, no schema, no route definitions.
 
 `web_baagicha/CLAUDE.md` is accurate and detailed; trust it for Laravel work.
 
+## OpenCode handover (2026-10-04)
+
+Work is moving to OpenCode. Its entry points are the root [`AGENTS.md`](AGENTS.md) (rules),
+[`HANDOVER.md`](HANDOVER.md) (everything Claude knew) and `.opencode/context/` (a copy of
+`.claude/context/` — keep the two in sync).
+
 ## Documentation that is STALE — do not trust
 
-- `baagichaApp/.opencode/AGENTS.md` — says React Context + AsyncStorage + 5 named tabs.
-  Reality: **Zustand + MMKV**, tabs are Home / Spray / Shop / Discover / MyOrchard.
-  Also names a `web_baagicha` path that no longer exists.
 - `web_baagicha/DOCS/backend-status.md`, `DOCS/progress.md` — audited 2026-03-13, before the
   move to `Modules/`. Controller/path references are wrong.
-- `web_baagicha/.opencode/skills/*` — conventions still broadly right, paths wrong.
-- `.opencode/skills/cross-project-context/SKILL.md` — its "hero sections use Tailwind
-  utilities" standard does not match how the site is actually styled (see known-issues #3).
+- `.opencode/anchored-summaries/*` — historical session logs.
+
+The `.opencode` docs in `web_baagicha/` and `baagichaApp/` and the root `.opencode/skills/` were
+corrected in place on 2026-10-04; `baagichaApp/.opencode/KIMI.md` was retired.
 
 ## Conventions that hold everywhere
 

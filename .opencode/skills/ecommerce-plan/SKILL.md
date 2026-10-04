@@ -6,9 +6,67 @@ description: Complete eCommerce implementation plan for Baagicha — 5-phase roa
 # Baagicha — Production eCommerce Implementation Plan
 
 > **Date:** 2026-05-12
-> **Status:** Phase 1 Complete — Authentication & Core Infrastructure ✅ | App is fully browsable without login
+> **Status (as of 2026-05-12):** Phase 1 Complete — Authentication & Core Infrastructure ✅ | App is fully browsable without login. **Superseded — see As-built status below.**
 > **Backend:** `web_baagicha/` (Laravel 12)
 > **Frontend:** `baagichaApp/` (React Native 0.85.3)
+
+---
+
+## As-built status (2026-10-04)
+
+Verified with `ls` and `php artisan route:list` in `web_baagicha/`. The backend is far ahead of
+the checklist below, which is now a **historical plan** — its unticked boxes do not mean
+"not built".
+
+- **Built:** Phases 1–3 and most of Phases 4–5 on the backend.
+- **`Modules/Shop` — 25 models:** Address, Brand, Cart, CartItem, Category, Coupon, CouponUsage,
+  Inventory, Invoice, InvoiceItem, Order, OrderItem, OrderStatusHistory, Payment, Product,
+  ProductAttribute, ProductAttributeValue, ProductReview, ProductVariant, Rating, Refund,
+  ShippingTracking, StockMovement, Warehouse, Wishlist.
+- **`Modules/Vendor`** exists (Vendor, VendorPayout, VendorStatusHistory, VendorTeamMember) with
+  admin routes under `admin/vendors/*` (approve / reject / suspend / payouts).
+- **Admin:** `admin/shop/{products,categories,brands,attributes,coupons,orders,payments,refunds,invoices,inventory,warehouses,reports}`.
+- **Payments:** Razorpay order, verify and webhook (`POST /api/v1/webhooks/razorpay`).
+
+**Table names differ from the schema section below:** `categories` (not `product_categories`),
+`order_status_histories` (not `order_status_logs`), plus tables the plan never listed —
+`brands`, `warehouses`, `inventories`, `stock_movements`, `coupon_categories`,
+`coupon_products`, `coupon_usages`, `shipping_trackings`, `refunds`, `invoices`,
+`invoice_items`, `ratings`, `productables`, `product_variant_attribute_values`.
+
+**Endpoints differ from the API section below.** Everything is under `/api/v1/shop/*`:
+
+```
+GET    /api/v1/shop/products | /products/featured | /products/{slug}
+GET    /api/v1/shop/products/{slug}/reviews | /can-review   POST /products/{slug}/reviews
+GET    /api/v1/shop/categories | /categories/{slug}
+GET    /api/v1/shop/brands | /brands/{slug}
+GET    /api/v1/shop/cart
+POST   /api/v1/shop/cart/items          PUT|DELETE /api/v1/shop/cart/items/{itemId}
+POST   /api/v1/shop/cart/coupon         DELETE     /api/v1/shop/cart/coupon
+POST   /api/v1/shop/checkout            (creates the order — no POST /orders)
+GET    /api/v1/shop/orders | /orders/{orderNumber} | /orders/{orderNumber}/invoice
+POST   /api/v1/shop/orders/{orderNumber}/cancel
+POST   /api/v1/shop/payments/razorpay/order | /payments/razorpay/verify
+GET|POST /api/v1/shop/wishlist          DELETE /api/v1/shop/wishlist/{productId}
+GET|POST /api/v1/shop/addresses         PUT|DELETE /addresses/{id}   POST /addresses/{id}/default
+POST   /api/v1/webhooks/razorpay
+```
+
+Orders are keyed by `{orderNumber}`, not `{id}`. There is no `cart/merge`, no
+`products/search` and no `coupons/validate` route.
+
+**Known gaps:**
+- Laravel Scout is **not installed** (not in `composer.json`) — the Phase 4 search item is undone.
+- `Modules/Shop/app/Services/CartService.php` still carries
+  `// TODO: Validate coupon via CouponService in Phase 5` — coupon application is not validated.
+
+---
+
+## Historical plan (2026-05-12)
+
+Everything below is the original roadmap, kept for context. Do not use its checkboxes, table
+names or endpoint list as a description of the current code.
 
 ---
 

@@ -41,12 +41,14 @@ entirely — its `content` array is dead code. Do not edit it expecting an effec
 
 ## Project Structure
 
-This workspace contains two projects:
+This workspace contains four independent git repos:
 
 | Directory | Stack | Role |
 |-----------|-------|------|
-| `web_baagicha/` | Laravel + Blade | Backend API + Web PWA |
-| `baagichaApp/` | React Native (CLI) | Mobile frontend (iOS & Android) |
+| `web_baagicha/` | Laravel 12 + Blade | **Live** backend — web site, admin panel and the mobile API |
+| `baagvaani_web/` | Laravel 13 + Bootstrap 5.3 + jQuery 4 (no Tailwind) | Rebuild, started 2026-09-22. Features are ported from `web_baagicha` only when requested |
+| `baagichaApp/` | React Native (CLI) | Mobile frontend (Android-first) |
+| `BaagvaaniBrain/` | Python scripts + Markdown (git submodule) | Content & marketing pipeline, research docs |
 
 ## Available OpenCode Skills
 
@@ -67,6 +69,7 @@ Laravel-specific skills (web_baagicha `.opencode/skills/`):
 | `backend` | Controllers, migrations, models, routes, services, validation |
 | `frontend` | Blade, CSS, detail pages, JS |
 | `code-style`, `decisions`, `performance`, `security`, `testing` | Cross-cutting conventions |
+| `agent-registry` | Index of the available agent skills |
 
 Mobile-specific skills (baagichaApp `.opencode/skills/`):
 
@@ -83,21 +86,21 @@ Mobile-specific skills (baagichaApp `.opencode/skills/`):
 
 | Module | Status | Docs |
 |--------|--------|------|
-| Auth (Sanctum + MMKV) | ✅ Implemented | `API_REFERENCE.md` |
-| Onboarding (Welcome → Auth → Permissions) | ✅ Implemented | `SCREEN_BREAKDOWN.md` |
-| Home (Segmented: My Farm / Community) | ✅ Implemented | `SCREEN_BREAKDOWN.md` |
-| Kisan Tools (26 widgets) | ✅ UI Implemented | `KISAN_TOOLS.md` |
+| Auth (Sanctum + MMKV) | ✅ Implemented | `baagichaApp/.opencode/skills/api-reference/` |
+| Onboarding (Welcome → Auth → Permissions) | ✅ Implemented | `baagichaApp/.opencode/skills/screen-breakdown/` |
+| Home (Segmented: My Farm / Community) | ✅ Implemented | `baagichaApp/.opencode/skills/screen-breakdown/` |
+| Kisan Tools (26 widgets) | ✅ UI Implemented | `baagichaApp/.opencode/skills/kisan-tools/` |
 | Fruit Module | ✅ Implemented | `Modules/Fruit/` |
-| Prediction Engine | ✅ Backend complete, RN pending | `PREDICTION_ENGINE.md`, `PREDICTION_TYPES.md` |
+| Prediction Engine | ⚠️ Code written, never scheduled or routed, never validated | `.opencode/skills/prediction-engine/`, `baagichaApp/.opencode/skills/prediction-types/` |
 | Daily Orchard Intelligence Card | ✅ Implemented (v1) | `Modules/Intelligence/` |
-| eCommerce (Shop) | 🔄 Phase 1 | `ECOMMERCE_PLAN.md` |
+| eCommerce (Shop) | 🔄 Substantially built (Phases 1–3, most of 4–5) | `.opencode/skills/ecommerce-plan/` |
 
 ## Quick Reference
 
-- **Web app source:** `web_baagicha/resources/views/app/`
+- **Web app source:** `web_baagicha/Modules/*/resources/views/` (Blade lives per module)
 - **Mobile app source:** `baagichaApp/src/`
 - **Target regions:** HP, UK, J&K (Himalayan apple belt)
-- **Research folder:** `BaagichaWorkspace/research/` (competitors, market, revenue, prediction engine, utility widgets)
+- **Research folder:** `BaagvaaniBrain/research/` (competitors, market, revenue model, prediction engine, utility widgets)
 
 ## Queue & Cron Health Monitoring
 
@@ -117,10 +120,24 @@ The admin UI also exposes queue-management actions for admins:
 
 Some listeners (e.g. `Modules\Auth\Listeners\NotifyAdminOfNewRegistration`) explicitly dispatch to a `notifications` queue. The main worker **must** listen on both `default` and `notifications` queues or those jobs will sit pending forever.
 
-Recommended Hostinger cron command (note the `cd` into the project directory). The intelligence module adds a dedicated `intelligence` queue, so include it in the worker:
+Workspace records (`cronjobs/crons-bacup.md`) show the live worker running
+`--queue=default,notifications`. **That list is incomplete.** Verified 2026-10-04 by grepping
+`onQueue` in `web_baagicha/Modules`, jobs dispatched by scheduled commands go to these named queues:
+
+| Queue | Dispatched by |
+|-------|---------------|
+| `notifications` | `NotificationDispatcher`, Community `PostController` |
+| `intelligence` | `intelligence:*` commands (`Modules/Intelligence/app/Console/*`) |
+| `weather-fetch` | `FetchWeatherForUserJob` ← `app:update-weather-data` |
+| `weather-alerts` | `ProcessWeatherAlertsForOrchardJob` ← `app:process-weather-alerts` |
+| `weather-engine` | `GenerateWeatherRecommendationJob` ← `app:generate-weather-recommendations` |
+| `disease-pressure`, `spray-windows` | Prediction jobs — only if the prediction commands are ever scheduled (they are not today) |
+
+A worker on `default,notifications` alone leaves the intelligence and weather jobs pending
+forever. Recommended Hostinger cron command (note the `cd` into the project directory):
 
 ```
-* * * * * cd /home/u896019069/domains/baagvaani.com/web_baagicha && /usr/bin/php artisan queue:work --queue=default,notifications,intelligence --once --timeout=60 --tries=3 >> storage/logs/queue-cron.log 2>&1; /usr/bin/php artisan baagicha:queue-cron-heartbeat
+* * * * * cd /home/u896019069/domains/baagvaani.com/web_baagicha && /usr/bin/php artisan queue:work --queue=default,notifications,intelligence,weather-fetch,weather-alerts,weather-engine --once --timeout=60 --tries=3 >> storage/logs/queue-cron.log 2>&1; /usr/bin/php artisan baagicha:queue-cron-heartbeat
 ```
 
 Optional safety-net command to drain the `notifications` queue on a slower schedule:
@@ -137,7 +154,7 @@ Optional safety-net command to drain the `notifications` queue on a slower sched
 
 The `Modules/Intelligence` module generates a personalized daily card for every authenticated user. It appears below the navbar in the web PWA and below the global header in the React Native app.
 
-- **Generation:** `intelligence:generate-daily` runs at 02:00 IST for all active users with orchards.
+- **Generation:** `intelligence:generate-daily` runs at 02:00 IST (scheduled in `IntelligenceServiceProvider`, not `routes/console.php`) for all active users with orchards.
 - **Feature recomputation:** `intelligence:recompute-features` runs at 01:30 IST.
 - **Archival:** `intelligence:archive-yearly` runs at 03:00 IST on 1 January.
 - **Queue:** jobs are dispatched to the `intelligence` queue.
@@ -154,10 +171,10 @@ The SEO sitemap is a static XML file written to `public/sitemap.xml` and served 
 - **Schedule:** already registered in `routes/console.php` to run daily at 03:00
 - **Requirements:** the Laravel scheduler itself needs a system cron entry to trigger `schedule:run`
 
-On Hostinger/shared hosts where the web root is `public_html` and the Laravel app lives in a separate folder (e.g. `web_baagicha/`), point `SITEMAP_PATH` to the public web root so the file is served at `https://baagicha.com/sitemap.xml`:
+On Hostinger/shared hosts where the web root is `public_html` and the Laravel app lives in a separate folder (e.g. `web_baagicha/`), point `SITEMAP_PATH` to the public web root so the file is served at the production domain's `/sitemap.xml`. Production is hosted under `domains/baagvaani.com`; older copies of this doc said `baagicha.com`. Treat the domain as **baagvaani.com (confirm)** until the live `.env` is checked:
 
 ```env
-APP_URL=https://baagicha.com
+APP_URL=https://baagvaani.com   # baagvaani.com (confirm) — previously documented as baagicha.com
 SITEMAP_PATH=/home/u896019069/domains/baagvaani.com/public_html/sitemap.xml
 ```
 
@@ -173,10 +190,18 @@ After deploying, generate the first sitemap manually:
 cd /home/u896019069/domains/baagvaani.com/web_baagicha && /usr/bin/php artisan sitemap:generate
 ```
 
-Make sure `APP_URL=https://baagicha.com` is set in `.env` so generated URLs use the production domain.
+Make sure `APP_URL` is set to the production domain in `.env` (baagvaani.com (confirm)) so generated URLs use it.
 
-## Variety Module — Multi-Fruit Preparation
+## Variety Module — VarietyStrain
 
-The `varieties` table has a `fruit_type` enum column to support apples, pears, plums, peaches, apricots, cherries, persimmons, and pomegranates. Existing varieties default to `apple`. The public API defaults to `fruit=apple` for backward compatibility with the mobile app.
+The old `Variety` and `Strain` modules have been removed. Varieties and strains now live together
+in **`Modules/VarietyStrain`** (one self-referencing table; a strain is a row with a `parent_id`).
+There is **no** `varieties` table, no `fruit_type` enum and no `fruit_variety` pivot.
 
-A dedicated `fruit_id` foreign key now also links a variety to the canonical `Fruit` module. The `Fruit` module owns many-to-many relationships to `Variety`, `Disease`, and `Rootstock` via explicit pivot tables (`fruit_variety`, `fruit_disease`, `fruit_rootstock`). Fruit pages are available at `/fruits/{slug}` and `/varieties/by-fruit/{slug}`.
+- **Tables:** `variety_strains`, `variety_strain_rootstock`, `variety_strain_disease`
+  (only 4 rows against ~211 strains — essentially unpopulated), `variety_strain_pollen_variety`.
+- **Fruit link:** `variety_strains.fruit_id`. `Fruit` has `hasMany` `VarietyStrain`
+  (`varietyStrains()`, plus `varieties()` = rows with no parent and `strainEntries()` = rows with a parent),
+  and `belongsToMany` `Disease` / `Rootstock` through the `fruit_disease` and `fruit_rootstock` pivots.
+- **Public routes:** `/variety-strain`, `/variety-strain/fruit/{fruit:slug}`,
+  `/variety-strain/{varietyStrain:slug}`; fruit pages at `/fruits` and `/fruits/{fruit:slug}`.

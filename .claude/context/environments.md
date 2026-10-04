@@ -109,8 +109,11 @@ No long-running daemon — a per-minute cron runs `queue:work`. From `cronjobs/c
     >> .../storage/logs/queue-cron.log 2>&1
 ```
 
-**The `--queue=default,notifications` form is the correct one.** The file also records an older
-line without it; with that one, notification jobs never drain.
+**Neither recorded line is complete** (corrected 2026-10-04). The bare line drains only `default`;
+the `default,notifications` line also misses the `intelligence`, `weather-fetch`, `weather-alerts`
+and `weather-engine` queues that scheduled jobs dispatch to (`onQueue(...)` in Modules). The full
+list is `--queue=default,notifications,intelligence,weather-fetch,weather-alerts,weather-engine`. Whether the live cron matches the backup file is unknown — ask Tarun
+(known-issues #12).
 
 ### Scheduler
 

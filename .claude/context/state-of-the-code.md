@@ -42,7 +42,7 @@ Full detail in [known-issues.md](known-issues.md).
 | Repo | Branch | State |
 |---|---|---|
 | `web_baagicha` | `feature/fruit-module` | `master` was **98 commits behind** with `origin/HEAD` pointing at it. Fast-forwarded locally on 2026-09-06 — `master` and `feature/fruit-module` are now identical. **Not yet pushed**, and `origin/HEAD` still points at the stale remote `master`. |
-| `baagichaApp` | `main` | 2 files dirty (`RootstockDetailScreen.tsx`, `rootstockApi.ts`) |
+| `baagichaApp` | `main` | clean as of 2026-10-04 (the 2 dirty files were committed in `f68107d`) |
 | `BaagvaaniBrain` | `main` | 19 files dirty, incl. 2 whole untracked blog packages and an untracked `CLAUDE.md` + `.claude/` |
 | workspace root | `main` | `BaagvaaniBrain` gitlink modified; ~100 untracked Playwright artifacts |
 
@@ -60,12 +60,14 @@ The project accumulated instruction files from several AI tools (`.ai/`, `.kimi/
 |---|---|
 | `web_baagicha/CLAUDE.md` | **Accurate.** The best document in the project. Trust it. |
 | `BaagvaaniBrain/CLAUDE.md` | **Accurate.** |
-| `.opencode/AGENTS.md` (workspace) | Accurate |
+| `.opencode/AGENTS.md` (workspace) | Superseded 2026-10-04 by root `AGENTS.md` — OpenCode never loaded `.opencode/AGENTS.md` |
 | `.opencode/skills/cross-project-context/SKILL.md` | **Corrected 2026-09-06.** Its hero-styling section told agents to use Tailwind utilities, which are purged in module views. |
 | `baagichaApp/.opencode/AGENTS.md` | **Corrected 2026-09-06.** Had prescribed React Context + AsyncStorage + react-query and tabs Home/Spray/Disease/Varieties/Rootstock, plus `baagicha://` deep links that are not registered and a `https://api.baagicha.app` base URL never used. |
 | `baagichaApp/.opencode/CLAUDE.md` | **Corrected 2026-09-06.** Had described the app as an empty bootstrap rendering the default RN template screen, with no navigation, state or API client. |
 | `web_baagicha/DOCS/backend-status.md`, `DOCS/progress.md` | Last audited 2026-03-13, before the `Modules/` migration. Controller paths and "still hardcoded demo data" claims are unverifiable against today's tree. |
-| `web_baagicha/.opencode/skills/*` | Conventions right, paths stale ("no API layer", "no repository pattern" — both now false) |
+| `web_baagicha/.opencode/skills/*`, `.opencode/CLAUDE.md` | **Corrected 2026-10-04** — paths moved to `Modules/`, API/Sanctum/roles/testing facts updated |
+| `baagichaApp/.opencode/KIMI.md` | **Retired 2026-10-04** — replaced by a pointer, removed from `opencode.json` |
+| Root `.opencode/skills/{prediction-engine,ecommerce-plan,laravel-api-architecture}` | **Corrected 2026-10-04** — module paths, as-built Shop status, dead prediction schedule |
 
 ## Feature reality check
 

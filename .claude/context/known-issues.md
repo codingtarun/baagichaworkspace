@@ -99,6 +99,10 @@ Two consequences:
   utilities (`bg-gradient-to-r from-primary-900/90 ...`). Following that advice produces
   invisible styling. **That guidance is wrong as written.**
 
+*Nuance found 2026-10-04:* `@source` also scans `storage/framework/views`, so a module utility
+survives the build **only if** its view happened to be compiled beforehand. That makes the output
+depend on build-machine state — still not something to rely on.
+
 `tailwind.config.js` is a leftover **v3** config that Tailwind 4 ignores entirely — its `content`
 array is dead code and misleads anyone who reads it first.
 
@@ -218,3 +222,63 @@ for anyone outside your WiFi.
   the workspace root (plus ~200 already committed).
 - **`modules_statuses.json`** still lists `Variety` and `Strain` as disabled modules whose
   directories no longer exist.
+
+---
+
+## 9. Prediction schedule never runs — `app/Console/Kernel.php` is dead code
+
+**Found 2026-10-04. Severity: medium — the engine is silently inert.**
+
+`web_baagicha/app/Console/Kernel.php` schedules `app:compute-disease-pressure`,
+`app:accumulate-pest-dd`, `app:compute-spray-windows`, `app:initialize-pest-season`,
+`stories:expire` (and duplicates of weather/blog jobs). Laravel 12's `bootstrap/app.php` never
+loads a console Kernel, so none of these run: `php artisan schedule:list` shows **zero** prediction
+commands and no `stories:expire`. Weather and blog schedules still run because they are also
+registered in `routes/console.php` / `BlogServiceProvider`.
+
+Together with the unrouted `Api/PredictionController` (modules.md), the prediction engine has
+neither a schedule nor an HTTP surface. Fix = move the wanted entries into `routes/console.php`
+or a module provider — **but** the engine is unvalidated (§8), so turning it on is a product
+decision, not a bug fix. Ask first.
+
+## 10. Design-system inconsistencies (legacy web)
+
+**Found 2026-10-04. Severity: low, visible.**
+
+- `layouts.site` (44 public views) preconnects to Google Fonts but **never loads the stylesheet** —
+  DM Serif Display / DM Sans / Noto Sans Devanagari fall back to system fonts on the current layout.
+  `layouts.app.base` does load them.
+- `public/site.webmanifest` `theme_color` is `#3a7d44` (old palette); both layouts' meta
+  `theme-color` is `#258B52`.
+- Three greens: public `#3CB371`/`#258B52`, admin `#4a9278`, hero overlay `#1a4d2e`.
+- Warm greys in `resources/css/app.css` vs slate greys in `public/css/style.css`.
+- `NewsletterSubscriber` model exists in both Newsletter and Notification modules.
+
+## 11. Mobile app release blockers beyond §7
+
+**Found 2026-10-04.**
+
+- Release build is signed with the **debug keystore**.
+- Auth MMKV store is encrypted with a **key hardcoded** in `src/store/authStore.ts`.
+- Razorpay key falls back to a hardcoded test key in `src/config/env.ts`; `RAZORPAY_KEY_ID` is not in `.env`.
+- Facebook app id / client token are also hardcoded in `android/app/src/main/res/values/strings.xml`.
+- Brand fonts declared in `src/typography/fonts.ts` are **not bundled** — the app renders system fonts.
+- No deep linking configured at all (no `linking`, no custom scheme).
+- `DiseaseDetail` type lacks the newer API fields (ipm, chemical_control, conditions, chemicals, efficacy_stars).- **App calls endpoints `web_baagicha` does not route** (checked against `route:list`, 2026-10-04) —
+  they 404: `GET /varieties`, `/varieties/{slug}` (+ `/comments`, `/like`, `/save`) in `varietyApi.ts`
+  (backend resource is `/varietystrains`); `/orchards/{id}/pest-trackers` CRUD (`orchardApi.ts`);
+  `GET /report-types` (`reportApi.ts`); `POST /users/{id}/follow` and `/connect` (`userApi.ts`).
+  Whether to fix in Laravel or the app is Tarun's call. Listed in `baagichaApp/.opencode/skills/api-reference` §12.
+
+## 12. Production queue worker probably skips four queues
+
+**Found 2026-10-04. Severity: medium-high if the live cron matches the record.**
+
+Jobs dispatch to `intelligence` (3 jobs), `weather-fetch` (`FetchWeatherForUserJob`),
+`weather-alerts` and `weather-engine`, besides `default` and `notifications`
+(`disease-pressure` / `spray-windows` too, but those are never scheduled — #9). The only recorded
+production cron (`web_baagicha/cronjobs/crons-bacup.md`) is
+`queue:work --queue=default,notifications`, so Intelligence cards and per-user weather fetches would
+queue forever. Needs Tarun to check the live crontab on Hostinger. The fix is
+`--queue=default,notifications,intelligence,weather-fetch,weather-alerts,weather-engine` — an outward-facing production change, so ask first.
+

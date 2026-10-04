@@ -1,3 +1,5 @@
+> **Historical session log (2026-06-29) — not current documentation.** The separate `Variety` and `Strain` modules referenced below have since been removed; `Modules/VarietyStrain` is the only one left. `Admin/VarietyStrainController` now has 23 public methods. Check the code before relying on any detail here.
+
 ## Goal
 - Build the complete VarietyStrain admin panel with 7-tab progressive-locked form, strain data inheritance from variety, and hierarchical tree index.
 

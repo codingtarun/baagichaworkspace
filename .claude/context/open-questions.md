@@ -18,6 +18,24 @@ Everything below is still open.
 
 ---
 
+## R. The rebuild (`baagvaani_web`) — open since 2026-09-22
+
+- **R1. Which feature is ported next?** Knowledge base (fruits, varieties, rootstocks, diseases,
+  chemicals, spray) is deferred until Tarun revises it; farmer tools, content/engagement and
+  commerce are skipped for now. Do not start any of them unprompted.
+- **R2. Devanagari spelling of the brand** (बागवानी? बाग़वानी?) — needed for Hindi copy.
+- **R3. Hindi UI** — `/hi` URL prefix or locale switch? (`core.site.languages` already lists en-IN/hi-IN.)
+- **R4. Hosting and queue** for the rebuild — same Hostinger account? Cron `queue:work` like the old app?
+- **R5. SMS provider** — MSG91 needs a DLT-registered template id; until then `SMS_DRIVER=log`.
+- **R6. Legal text** — privacy and terms pages carry a "draft, not lawyer-reviewed" notice.
+- **R7. Cutover** — when does the mobile app move from `web_baagicha`'s `/api/v1` to the rebuild?
+  The two OTP APIs differ (`otp/send` vs `otp/request`; different response shape).
+- **R8. Canonical domain** — production is `baagvaani.com`, but docs and BaagvaaniBrain metadata
+  still mention `baagicha.com` / `baagicha.app`.
+- **R9. Turn the prediction schedule on?** See known-issues #9.
+
+---
+
 ## A. Blocking — I would work differently depending on the answer
 
 **A1. What is live right now?**
@@ -102,6 +120,9 @@ There are instruction files for four different AI tools (`.ai/`, `.kimi/` → `.
 `.claude/`), and several are actively wrong — `baagichaApp/.opencode/AGENTS.md` most of all.
 Should I consolidate onto `CLAUDE.md` + `.claude/` and delete or archive the rest? Do you still
 use OpenCode?
+
+*Answered 2026-10-04:* yes — work is moving to OpenCode. Root `AGENTS.md` + `HANDOVER.md` +
+`.opencode/context/` are the OpenCode entry points; stale `.opencode` docs were fixed in place.
 
 **C5. Deployment.**
 No CI, no deploy script, manual upload to shared hosting. Want me to set up something minimal

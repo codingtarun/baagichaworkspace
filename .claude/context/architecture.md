@@ -1,19 +1,24 @@
 # Architecture
 
-## The three repos
+## The four repos
 
 ```
-BaagichaWorkspace/            ← git repo #1 (thin: docs, skills, playwright artifacts)
-├── web_baagicha/             ← git repo #2, gitignored by the root  (Laravel — the backend)
-├── baagichaApp/              ← git repo #3, gitignored by the root  (React Native client)
-└── BaagvaaniBrain/           ← tracked as a gitlink, but there is NO .gitmodules
+BaagichaWorkspace/            ← git repo #1 (thin: docs, agent instructions, playwright artifacts)
+├── baagvaani_web/            ← git repo #2, gitignored by the root  (Laravel 13 — the rebuild)
+├── web_baagicha/             ← git repo #3, gitignored by the root  (Laravel 12 — the live backend)
+├── baagichaApp/              ← git repo #4, gitignored by the root  (React Native client)
+└── BaagvaaniBrain/           ← git submodule (.gitmodules → github.com/codingtarun/BaagvaaniBrain)
 ```
 
-The root `.gitignore` excludes `baagichaApp/` and `web_baagicha/`, so the workspace repo carries
-only cross-cutting docs. `BaagvaaniBrain` is recorded with mode `160000` (a submodule gitlink)
-but no `.gitmodules` file exists — a fresh `git clone` of the workspace produces an empty
-`BaagvaaniBrain/` directory that `git submodule update --init` cannot populate. See
-[known-issues.md](known-issues.md) #4.
+The root `.gitignore` excludes `baagvaani_web/`, `baagichaApp/` and `web_baagicha/`, so the
+workspace repo carries only cross-cutting docs. `BaagvaaniBrain` is a proper submodule since the
+2026-09-06 fix ([known-issues.md](known-issues.md) #4).
+
+**`baagvaani_web/`** (started 2026-09-22) is a clean rebuild of `web_baagicha` on Laravel 13 /
+PHP 8.5 / Bootstrap 5.3 + jQuery 4, database `baagicha_db`. Only the foundation exists so far —
+Core, Users, Media, Location, MobileAuth. Features are ported one at a time when Tarun names them.
+Everything below this section describes **`web_baagicha`** unless it says otherwise; the rebuild's
+own architecture is in `HANDOVER.md` and `baagvaani_web/CLAUDE.md`.
 
 ## Ground rule
 
@@ -118,8 +123,8 @@ forecast archive cleanup 02:00. Intelligence schedules are registered by
 `IntelligenceServiceProvider`, not here.
 
 There is no long-running queue daemon in production — cron runs `queue:work` per minute, and it
-**must** listen on `default,notifications` or notification jobs never drain
-(`cronjobs/crons-bacup.md`).
+**must** list every named queue — `default,notifications,intelligence,weather-fetch,weather-alerts,weather-engine` — or those jobs never drain. The recorded cron
+(`cronjobs/crons-bacup.md`) lists only `default,notifications`; see known-issues #12.
 
 ## The domain engines
 
