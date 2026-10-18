@@ -1,59 +1,32 @@
-# Baagvaani — Workspace Map
+# Baagicha — Workspace Map
 
-Four independent git repos in one directory. There are **no root-level dev scripts**;
-all commands run inside a sub-project.
+Baagicha is being built fresh (from 2026-10-07) in **plain PHP** and **React Native**, as a
+production app and a learning project at the same time. Tarun writes some of the code himself
+to revise concepts; Claude writes the rest. **Who writes a piece is decided per task — ask
+before writing code in a new area.** When Tarun writes code, review and explain it; don't
+rewrite it.
 
-| Directory | Stack | Role | Own instructions |
-|---|---|---|---|
-| `web_baagicha/` | Laravel 12 · PHP 8.2+ · MySQL · Blade | **The whole backend** — web site, admin panel, and the mobile API | `web_baagicha/CLAUDE.md` |
-| `baagichaApp/` | React Native 0.85.3 · TypeScript | Mobile client (Android-first) | `baagichaApp/.opencode/AGENTS.md` |
-| `BaagvaaniBrain/` | Python scripts + Markdown | Content & marketing pipeline (blogs, images) | `BaagvaaniBrain/CLAUDE.md` |
-| `baagvaani_web/` | Laravel 13 · PHP 8.5 · MySQL `baagicha_db` · Bootstrap 5.3 | **The rebuild** (started 2026-09-22). Features are ported from `web_baagicha` one at a time, on request | `baagvaani_web/CLAUDE.md` |
+| Directory | Stack | Role |
+|---|---|---|
+| `baagicha_php/` | Plain PHP, built level by level from the basics · MySQL `baagicha_db` | **The new backend**: web site, admin and mobile API |
+| `baagicha_mobile/` | React Native · TypeScript | **The new mobile app**, a pure API client |
+| `old_apps/web_baagicha/` | Laravel 12 | Old app (live DB `baagicha`). **Reference only**, don't build on it |
+| `old_apps/baagichaApp/` | React Native 0.85 | Old mobile app. **Reference only** |
+| `BaagvaaniBrain/` | Python + Markdown | Content and marketing pipeline (git submodule) |
 
-**Ground rule:** all API logic lives in Laravel. The React Native app is a pure client —
-no business logic, no schema, no route definitions.
+**Backend rules live in [`baagicha_php/CLAUDE.md`](baagicha_php/CLAUDE.md)** and the level-by-level plan in
+[`baagicha_php/docs/roadmap.md`](baagicha_php/docs/roadmap.md). Tarun is learning PHP as a fresher: he types, Claude guides.
 
-## Read before working
+`.claude/context/` describes the **old** Laravel app. Use it to understand the domain and the
+old schema, not as a description of the new code.
 
-| File | When |
-|---|---|
-| [`.claude/context/product.md`](.claude/context/product.md) | who this is for, the domain rules that drive everything |
-| [`.claude/context/architecture.md`](.claude/context/architecture.md) | how the repos fit together, module layout, API contract |
-| [`.claude/context/state-of-the-code.md`](.claude/context/state-of-the-code.md) | measured audit — sizes, test results, what is real vs. aspirational |
-| [`.claude/context/known-issues.md`](.claude/context/known-issues.md) | confirmed defects with evidence, ranked |
-| [`.claude/context/modules.md`](.claude/context/modules.md) | Blog / VarietyStrain / Disease — measured module analysis, data coverage, gaps |
-| [`.claude/context/environments.md`](.claude/context/environments.md) | local setup, database, deployment, credentials map |
-| [`.claude/context/open-questions.md`](.claude/context/open-questions.md) | decisions only Tarun can make — ask before assuming |
+## Rules
 
-`web_baagicha/CLAUDE.md` is accurate and detailed; trust it for Laravel work.
-
-## OpenCode handover (2026-10-04)
-
-Work is moving to OpenCode. Its entry points are the root [`AGENTS.md`](AGENTS.md) (rules),
-[`HANDOVER.md`](HANDOVER.md) (everything Claude knew) and `.opencode/context/` (a copy of
-`.claude/context/` — keep the two in sync).
-
-## Documentation that is STALE — do not trust
-
-- `web_baagicha/DOCS/backend-status.md`, `DOCS/progress.md` — audited 2026-03-13, before the
-  move to `Modules/`. Controller/path references are wrong.
-- `.opencode/anchored-summaries/*` — historical session logs.
-
-The `.opencode` docs in `web_baagicha/` and `baagichaApp/` and the root `.opencode/skills/` were
-corrected in place on 2026-10-04; `baagichaApp/.opencode/KIMI.md` was retired.
-
-## Conventions that hold everywhere
-
-- **Altitude band** (`below_6000` / `6000_8000` / `above_8000`) is the central filter. Auto-computed
-  in model `booted()` hooks — never set it by hand.
-- **Bilingual columns come in `_en` / `_hi` pairs.** Never add one without the other.
-- **`is_active` ≠ `is_published`.** Active = visibility toggle; published = editorial state.
-  Public queries chain `->active()->published()`.
-- Phone is the primary auth identifier; email is optional.
-- Conventional Commits. Run `php artisan pint` before committing PHP.
-
-## Workflow preferences
-
-- Batch edits; verify once at the end rather than running the suite after every change.
-- `composer test` (which does `config:clear` first) — without the clear, cached config
-  points the suite at the live MySQL database instead of sqlite `:memory:`.
+- All business logic lives in PHP. The mobile app has no business logic of its own.
+- No framework in `baagicha_php/`. Keep the code simple enough to learn from.
+- Database `baagicha_db` uses `utf8mb4_unicode_ci`. The schema is designed table by table
+  as features are built; the old schema is a reference, not a template to copy.
+- Domain rules from the old app still hold: the altitude band (`below_6000` / `6000_8000` /
+  `above_8000`) is computed, never set by hand. Bilingual columns come in `_en` / `_hi`
+  pairs. `is_active` is not the same as `is_published`. Phone is the main login identifier.
+- Conventional Commits. Batch edits and verify once at the end.
