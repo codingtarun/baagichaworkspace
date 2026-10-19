@@ -9,7 +9,7 @@ rewrite it.
 | Directory | Stack | Role |
 |---|---|---|
 | `baagicha_php/` | Plain PHP, built level by level from the basics · MySQL `baagicha_db` | **The new backend**: web site, admin and mobile API |
-| `baagicha_mobile/` | React Native · TypeScript | **The new mobile app**, a pure API client |
+| `baagicha_mobile/` | Expo SDK 57 · React Native · TypeScript · Expo Router | **The new mobile app**, a pure API client (own repo; run guide: `baagicha_mobile/RUN-ON-ANDROID.md`) |
 | `old_apps/web_baagicha/` | Laravel 12 | Old app (live DB `baagicha`). **Reference only**, don't build on it |
 | `old_apps/baagichaApp/` | React Native 0.85 | Old mobile app. **Reference only** |
 | `BaagvaaniBrain/` | Python + Markdown | Content and marketing pipeline (git submodule) |
