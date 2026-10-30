@@ -2,3 +2,7 @@
 baagicha_php/
 baagicha_mobile/
 old_apps/
+
+# Secret keys (Firebase service account etc.): never commit
+keys/
+*firebase-adminsdk*.json
