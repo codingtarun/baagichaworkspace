@@ -3,6 +3,9 @@ baagicha_php/
 baagicha_mobile/
 old_apps/
 
+# The web folder copy for Hostinger (made by baagicha_php/bin/public-html.sh)
+public_html/
+
 # Secret keys (Firebase service account etc.): never commit
 keys/
 *firebase-adminsdk*.json
