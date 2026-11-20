@@ -9,3 +9,12 @@ public_html/
 # Secret keys (Firebase service account etc.): never commit
 keys/
 *firebase-adminsdk*.json
+
+# The old live site's backup (live DB dump with users' data + 180 MB of pictures): never commit
+old-baagvaani.com/
+
+# Transfer zips from the old laptop carry live secrets: never commit
+BaagichaWorkspace-transfer-*.zip
+
+# Claude Code's per-PC permission lists (and their backups)
+.claude/settings.local*.json
