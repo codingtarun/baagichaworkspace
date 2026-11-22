@@ -123,10 +123,12 @@ Phone on USB (Claude asks before touching it).
 
 ## Step 5. Google login (OAuth) — 30 minutes
 
+**Check the top bar says project `baagvaani-app` (number 921651600644) before every step: the Web and Android clients must sit in the Firebase project, or the app gets DEVELOPER_ERROR.**
+
 Same project as step 2. **Needs the real privacy and terms pages first** (Google asks for their addresses);
 until they exist, do 5a–5b and leave the rest.
 
-- [ ] 5a. <https://console.cloud.google.com> → top bar: choose project **Baagvaani** → menu **Google Auth Platform**
+- [ ] 5a. <https://console.cloud.google.com> → top bar: choose the project whose **ID** is `baagvaani-app` (the picker's ID column; the name alone can mislead) → menu **Google Auth Platform**
       → **Get started**: app name **Baagvaani**, support email **hello@baagvaani.com** (or the official Gmail),
       audience **External**, contact email → Create.
 - [ ] 5b. **Data access → Add or remove scopes**: only `openid`, `.../auth/userinfo.email`,
