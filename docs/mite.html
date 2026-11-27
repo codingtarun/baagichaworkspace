@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Baagvaani Pro — Mite Infestation Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #090d16;
+            --bg-card: rgba(17, 24, 39, 0.85);
+            --bg-card-hover: rgba(24, 34, 53, 0.95);
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            
+            --emerald-glow: #10b981;
+            --emerald-soft: rgba(16, 185, 129, 0.12);
+            --amber-glow: #f59e0b;
+            --amber-soft: rgba(245, 158, 11, 0.12);
+            --rose-glow: #f43f5e;
+            --rose-soft: rgba(244, 63, 94, 0.15);
+            --cyan-glow: #06b6d4;
+            --cyan-soft: rgba(6, 182, 212, 0.12);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-base);
+            background-image: 
+                radial-gradient(circle at 10% 10%, rgba(245, 158, 11, 0.07) 0%, transparent 40%),
+                radial-gradient(circle at 90% 90%, rgba(244, 63, 94, 0.05) 0%, transparent 45%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 16px 12px;
+            display: flex;
+            justify-content: center;
+        }
+
+        @media (min-width: 768px) { body { padding: 28px 20px; } }
+
+        .dashboard-container { width: 100%; max-width: 1240px; }
+
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 18px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .brand-block { display: flex; align-items: center; gap: 10px; }
+
+        .brand-logo {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            border-radius: 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 16px rgba(245, 158, 11, 0.35);
+            flex-shrink: 0;
+        }
+
+        .brand-title {
+            font-size: 17px;
+            font-weight: 800;
+            letter-spacing: -0.4px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .brand-tag {
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 2px 7px;
+            border-radius: 5px;
+            background: var(--amber-soft);
+            color: var(--amber-glow);
+            border: 1px solid rgba(245, 158, 11, 0.25);
+            letter-spacing: 0.5px;
+        }
+
+        .nav-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 11px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-secondary);
+        }
+
+        .status-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: var(--amber-glow);
+            box-shadow: 0 0 8px var(--amber-glow);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(0.95); opacity: 0.7; }
+            50% { transform: scale(1.2); opacity: 1; }
+            100% { transform: scale(0.95); opacity: 0.7; }
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+
+        @media (min-width: 960px) {
+            .main-grid { grid-template-columns: 1.15fr 0.95fr; gap: 22px; }
+        }
+
+        .glass-panel {
+            background: var(--bg-card);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--border-subtle);
+            border-radius: 14px;
+            padding: 16px;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+        }
+
+        @media (min-width: 768px) {
+            .glass-panel { padding: 22px; border-radius: 16px; }
+        }
+
+        .panel-heading {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: var(--text-secondary);
+            margin-bottom: 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .control-matrix { display: flex; flex-direction: column; gap: 12px; }
+
+        .sensor-card {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 10px 12px;
+            transition: all 0.2s ease;
+        }
+
+        .sensor-card:hover, .sensor-card:focus-within {
+            border-color: rgba(245, 158, 11, 0.3);
+            background: var(--bg-card-hover);
+        }
+
+        .sensor-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .sensor-info { display: flex; align-items: center; gap: 6px; }
+        .sensor-icon { font-size: 15px; }
+        .sensor-name { font-size: 12px; font-weight: 600; color: var(--text-primary); }
+
+        .manual-input-wrap {
+            display: flex;
+            align-items: center;
+            background: #0b111e;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 6px;
+            padding: 2px 6px;
+        }
+
+        .manual-input-wrap:focus-within {
+            border-color: var(--amber-glow);
+            box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.2);
+        }
+
+        .manual-input {
+            width: 58px;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            font-weight: 700;
+            text-align: right;
+            padding: 3px 0;
+        }
+
+        .manual-unit {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-left: 3px;
+            user-select: none;
+        }
+
+        .slider-bar {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 8px;
+            border-radius: 4px;
+            background: #1e293b;
+            outline: none;
+            cursor: pointer;
+            margin: 6px 0 2px 0;
+            touch-action: none;
+        }
+
+        .slider-bar::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #ffffff;
+            border: 2.5px solid var(--amber-glow);
+            box-shadow: 0 0 10px var(--amber-glow);
+            cursor: pointer;
+            transition: transform 0.1s ease;
+        }
+
+        .slider-bar::-webkit-slider-thumb:active {
+            transform: scale(1.15);
+        }
+
+        .slider-bar::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #ffffff;
+            border: 2.5px solid var(--amber-glow);
+            box-shadow: 0 0 10px var(--amber-glow);
+            cursor: pointer;
+        }
+
+        .slider-bar::-moz-range-track {
+            background: #1e293b;
+            height: 8px;
+            border-radius: 4px;
+        }
+
+        .range-bounds {
+            display: flex;
+            justify-content: space-between;
+            font-size: 9px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-muted);
+            margin-top: 3px;
+        }
+
+        .scenario-container {
+            margin-top: 14px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .scenario-label {
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .scenario-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 6px;
+        }
+
+        @media (max-width: 420px) { .scenario-grid { grid-template-columns: 1fr; } }
+
+        .preset-chip {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 8px;
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            cursor: pointer;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .preset-chip:active, .preset-chip:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+        }
+
+        .preset-chip span {
+            font-size: 9px;
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .output-column { display: flex; flex-direction: column; gap: 14px; }
+
+        .threat-hero {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 14px;
+            border-radius: 12px;
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--border-subtle);
+        }
+
+        .dial-wrap {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            flex-shrink: 0;
+        }
+
+        .dial-svg { transform: rotate(-90deg); }
+        .dial-bg { fill: none; stroke: #1e293b; stroke-width: 7; }
+
+        .dial-bar {
+            fill: none;
+            stroke: var(--amber-glow);
+            stroke-width: 7;
+            stroke-linecap: round;
+            stroke-dasharray: 213.6;
+            stroke-dashoffset: 213.6;
+            transition: stroke-dashoffset 0.4s ease, stroke 0.4s ease;
+        }
+
+        .dial-center-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .dial-val { font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 800; color: #ffffff; }
+        .dial-lbl { font-size: 7px; font-weight: 700; text-transform: uppercase; color: var(--text-muted); }
+        .threat-details { flex-grow: 1; }
+
+        .threat-pill {
+            display: inline-flex;
+            align-items: center;
+            padding: 3px 7px;
+            border-radius: 5px;
+            font-size: 10px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .threat-desc { font-size: 11px; color: var(--text-secondary); line-height: 1.4; }
+
+        .telemetry-summary {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+        }
+
+        .summary-box {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 8px;
+        }
+
+        .summary-lbl {
+            font-size: 9px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            letter-spacing: 0.4px;
+        }
+
+        .summary-val {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-top: 2px;
+        }
+
+        .chart-panel {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 14px;
+        }
+
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .chart-title {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+        }
+
+        canvas { width: 100%; height: 145px; display: block; }
+
+        .advisory-card {
+            border-radius: 10px;
+            padding: 12px 14px;
+            border-left: 4px solid var(--amber-glow);
+            background: rgba(15, 23, 42, 0.7);
+            border-top: 1px solid var(--border-subtle);
+            border-right: 1px solid var(--border-subtle);
+            border-bottom: 1px solid var(--border-subtle);
+            transition: all 0.3s ease;
+        }
+
+        .advisory-title { font-size: 12px; font-weight: 700; margin-bottom: 3px; color: #ffffff; }
+        .advisory-text { font-size: 11px; color: var(--text-secondary); line-height: 1.45; }
+
+        .is-safe { color: var(--cyan-glow); background: var(--cyan-soft); border: 1px solid rgba(6, 182, 212, 0.3); }
+        .is-low { color: var(--amber-glow); background: var(--amber-soft); border: 1px solid rgba(245, 158, 11, 0.3); }
+        .is-mod { color: #fb923c; background: rgba(251, 146, 60, 0.15); border: 1px solid rgba(251, 146, 60, 0.3); }
+        .is-severe { color: var(--rose-glow); background: var(--rose-soft); border: 1px solid rgba(244, 63, 94, 0.35); }
+    </style>
+</head>
+<body>
+
+<div class="dashboard-container">
+
+    <div class="top-nav">
+        <div class="brand-block">
+            <div class="brand-logo">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"/>
+                    <path d="M12 7v5l3 3"/>
+                </svg>
+            </div>
+            <div class="brand-title">Baagvaani <span class="brand-tag">Mite Engine</span></div>
+        </div>
+
+        <div class="nav-status">
+            <div class="status-dot"></div>
+            <span>POPULATION DYNAMICS</span>
+        </div>
+    </div>
+
+    <div class="main-grid">
+
+        <!-- Controls Column -->
+        <div class="glass-panel">
+            <div class="panel-heading">
+                <span>Orchard Stress & Climate Inputs</span>
+                <span style="font-size: 10px; color: var(--text-muted);">Type or Drag</span>
+            </div>
+
+            <div class="control-matrix">
+
+                <!-- 1. Growing Degree Days (GDD) -->
+                <div class="sensor-card">
+                    <div class="sensor-header">
+                        <div class="sensor-info">
+                            <span class="sensor-icon">🌡️</span>
+                            <span class="sensor-name">Growing Degree Days (GDD)</span>
+                        </div>
+                        <div class="manual-input-wrap">
+                            <input type="number" id="num-gdd" class="manual-input" value="180" step="10" min="0" max="600">
+                            <span class="manual-unit">GDD</span>
+                        </div>
+                    </div>
+                    <input type="range" id="range-gdd" class="slider-bar" min="0" max="600" step="10" value="180">
+                    <div class="range-bounds">
+                        <span>0 (Dormant)</span>
+                        <span>250 GDD (Hatch Threshold)</span>
+                        <span>600 GDD</span>
+                    </div>
+                </div>
+
+                <!-- 2. Atmospheric Aridity (VPD Proxy / RH) -->
+                <div class="sensor-card">
+                    <div class="sensor-header">
+                        <div class="sensor-info">
+                            <span class="sensor-icon">☀️</span>
+                            <span class="sensor-name">Canopy Aridity (100 - RH %)</span>
+                        </div>
+                        <div class="manual-input-wrap">
+                            <input type="number" id="num-arid" class="manual-input" value="45" step="1" min="0" max="90">
+                            <span class="manual-unit">%</span>
+                        </div>
+                    </div>
+                    <input type="range" id="range-arid" class="slider-bar" min="0" max="90" step="1" value="45">
+                    <div class="range-bounds">
+                        <span>0% (Humid/Wet)</span>
+                        <span>50% (Dry Stress)</span>
+                        <span>90% (Severe Drought)</span>
+                    </div>
+                </div>
+
+                <!-- 3. Predator Ratio (Phytoseiid Count per Leaf) -->
+                <div class="sensor-card">
+                    <div class="sensor-header">
+                        <div class="sensor-info">
+                            <span class="sensor-icon">🐞</span>
+                            <span class="sensor-name">Beneficial Predator Index</span>
+                        </div>
+                        <div class="manual-input-wrap">
+                            <input type="number" id="num-pred" class="manual-input" value="2.5" step="0.5" min="0" max="10">
+                            <span class="manual-unit">idx</span>
+                        </div>
+                    </div>
+                    <input type="range" id="range-pred" class="slider-bar" min="0" max="10" step="0.5" value="2.5">
+                    <div class="range-bounds">
+                        <span>0 (None / Blasted)</span>
+                        <span>2.0 (Moderate Buffer)</span>
+                        <span>10 (High Control)</span>
+                    </div>
+                </div>
+
+                <!-- 4. Foliar Nitrogen / Tree Stress -->
+                <div class="sensor-card">
+                    <div class="sensor-header">
+                        <div class="sensor-info">
+                            <span class="sensor-icon">🍃</span>
+                            <span class="sensor-name">Foliar Nitrogen / Sap Load</span>
+                        </div>
+                        <div class="manual-input-wrap">
+                            <input type="number" id="num-nitro" class="manual-input" value="5.0" step="0.5" min="0" max="10">
+                            <span class="manual-unit">lvl</span>
+                        </div>
+                    </div>
+                    <input type="range" id="range-nitro" class="slider-bar" min="0" max="10" step="0.5" value="5.0">
+                    <div class="range-bounds">
+                        <span>0 (Balanced)</span>
+                        <span>5.0 (Moderate Flush)</span>
+                        <span>10 (Excessive Soft Flush)</span>
+                    </div>
+                </div>
+
+                <!-- 5. Dust / Road Particulates -->
+                <div class="sensor-card">
+                    <div class="sensor-header">
+                        <div class="sensor-info">
+                            <span class="sensor-icon">💨</span>
+                            <span class="sensor-name">Road Dust / Particulate Load</span>
+                        </div>
+                        <div class="manual-input-wrap">
+                            <input type="number" id="num-dust" class="manual-input" value="2.0" step="0.5" min="0" max="10">
+                            <span class="manual-unit">pts</span>
+                        </div>
+                    </div>
+                    <input type="range" id="range-dust" class="slider-bar" min="0" max="10" step="0.5" value="2.0">
+                    <div class="range-bounds">
+                        <span>0 (Clean)</span>
+                        <span>5.0 (Edge Row Coating)</span>
+                        <span>10 (Heavy Coating)</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Presets -->
+            <div class="scenario-container">
+                <span class="scenario-label">Benchmark Scenarios</span>
+                <div class="scenario-grid">
+                    <button class="preset-chip" onclick="loadPreset(380, 75, 0.5, 8.0, 7.0)">
+                        🔥 Peak Summer Flare-Up
+                        <span>380 GDD | Dry (75%) | High Stress (92% Risk)</span>
+                    </button>
+                    <button class="preset-chip" onclick="loadPreset(120, 20, 6.0, 2.0, 1.0)">
+                        🛡️ Natural Balance Block
+                        <span>120 GDD | Humid (20%) | Strong Predators (12% Risk)</span>
+                    </button>
+                    <button class="preset-chip" onclick="loadPreset(260, 60, 1.5, 6.0, 4.0)">
+                        ⚠️ Dusty Edge Row Stress
+                        <span>260 GDD | Arid (60%) | Heavy Dust (68% Risk)</span>
+                    </button>
+                    <button class="preset-chip" onclick="loadPreset(80, 10, 8.0, 1.0, 0.0)">
+                        💧 Post-Monsoon Wash
+                        <span>80 GDD | Low Arid | Reset State (0% Risk)</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Output Column -->
+        <div class="output-column">
+
+            <!-- Threat Assessment Card -->
+            <div class="glass-panel">
+                <div class="panel-heading">
+                    <span>Mite Pressure Index (MPI)</span>
+                    <span id="txt-calc-status" style="font-size: 10px; font-family: 'JetBrains Mono'; color: var(--amber-glow);">ACTIVE</span>
+                </div>
+
+                <div class="threat-hero">
+                    <div class="dial-wrap">
+                        <svg class="dial-svg" width="80" height="80" viewBox="0 0 80 80">
+                            <circle class="dial-bg" cx="40" cy="40" r="34"></circle>
+                            <circle id="dial-bar" class="dial-bar" cx="40" cy="40" r="34"></circle>
+                        </svg>
+                        <div class="dial-center-text">
+                            <div class="dial-val" id="disp-risk-pct">0%</div>
+                            <div class="dial-lbl">MPI</div>
+                        </div>
+                    </div>
+
+                    <div class="threat-details">
+                        <div id="disp-pill" class="threat-pill is-safe">BALANCED STATE</div>
+                        <div id="disp-desc" class="threat-desc">Beneficial predator populations are suppressing pest mite activity.</div>
+                    </div>
+                </div>
+
+                <div class="telemetry-summary" style="margin-top: 12px;">
+                    <div class="summary-box">
+                        <div class="summary-lbl">Thermal Velocity</div>
+                        <div class="summary-val" id="disp-velocity">1.0x</div>
+                    </div>
+                    <div class="summary-box">
+                        <div class="summary-lbl">Predator Buffer</div>
+                        <div class="summary-val" id="disp-pred-buffer">Active</div>
+                    </div>
+                    <div class="summary-box">
+                        <div class="summary-lbl">Generation Stage</div>
+                        <div class="summary-val" id="disp-gen-stage">Egg / Larva</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Threat Curve Visualizer -->
+            <div class="glass-panel chart-panel">
+                <div class="chart-header">
+                    <span class="chart-title">Mite Growth Curve (% MPI vs GDD Accumulation)</span>
+                    <span style="font-size: 9px; font-family: 'JetBrains Mono'; color: var(--text-muted);">● Current Status</span>
+                </div>
+                <canvas id="threatCanvas" width="450" height="145"></canvas>
+            </div>
+
+            <!-- Agronomic Recommendation -->
+            <div class="advisory-card" id="advisory-card">
+                <div class="advisory-title" id="advisory-title">Regenerative Advisory: Stable</div>
+                <div class="advisory-text" id="advisory-body">
+                    Predator-prey ratios are holding steady. Maintain natural ground covers to sustain beneficial mite populations. No intervention required.
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    const params = ['gdd', 'arid', 'pred', 'nitro', 'dust'];
+    const canvas = document.getElementById('threatCanvas');
+    const ctx = canvas.getContext('2d');
+
+    params.forEach(param => {
+        const numInput = document.getElementById(`num-${param}`);
+        const rangeInput = document.getElementById(`range-${param}`);
+
+        numInput.addEventListener('input', () => {
+            rangeInput.value = numInput.value;
+            evaluateModel();
+        });
+
+        rangeInput.addEventListener('input', () => {
+            numInput.value = rangeInput.value;
+            evaluateModel();
+        });
+    });
+
+    function loadPreset(gdd, arid, pred, nitro, dust) {
+        document.getElementById('num-gdd').value = gdd;
+        document.getElementById('range-gdd').value = gdd;
+        document.getElementById('num-arid').value = arid;
+        document.getElementById('range-arid').value = arid;
+        document.getElementById('num-pred').value = pred;
+        document.getElementById('range-pred').value = pred;
+        document.getElementById('num-nitro').value = nitro;
+        document.getElementById('range-nitro').value = nitro;
+        document.getElementById('num-dust').value = dust;
+        document.getElementById('range-dust').value = dust;
+
+        evaluateModel();
+    }
+
+    function computeMiteRisk(gdd, arid, pred, nitro, dust) {
+        // Base thermal pressure from GDD (scale 0 to 600)
+        let thermalScore = Math.min(100, (gdd / 450) * 50);
+        
+        // Aridity multiplier (0 to 90% dry stress)
+        let aridFactor = (arid / 90) * 30;
+        
+        // Nutritional & dust amplification
+        let stressFactor = (nitro / 10) * 10 + (dust / 10) * 10;
+        
+        let rawScore = thermalScore + aridFactor + stressFactor;
+        
+        // Predator dampening effect (each predator index point reduces net risk significantly)
+        let predatorDampening = pred * 8;
+        
+        let netRisk = Math.max(0, Math.min(100, Math.round(rawScore - predatorDampening)));
+        return netRisk;
+    }
+
+    function evaluateModel() {
+        const gdd = parseFloat(document.getElementById('num-gdd').value) || 0;
+        const arid = parseFloat(document.getElementById('num-arid').value) || 0;
+        const pred = parseFloat(document.getElementById('num-pred').value) || 0;
+        const nitro = parseFloat(document.getElementById('num-nitro').value) || 0;
+        const dust = parseFloat(document.getElementById('num-dust').value) || 0;
+
+        const riskPct = computeMiteRisk(gdd, arid, pred, nitro, dust);
+
+        let statusClass = "is-safe";
+        let title = "BALANCED STATE";
+        let desc = "Beneficial predator populations are suppressing pest mite activity.";
+        let advTitle = "Regenerative Advisory: Stable";
+        let advBody = "Predator-prey ratios are holding steady. Maintain natural ground covers to sustain beneficial mite populations. No intervention required.";
+        let advBorder = "var(--cyan-glow)";
+        let dialColor = "var(--cyan-glow)";
+        let genStage = "Dormant / Overwintering";
+        let velocity = "0.8x";
+        let predBuffer = "Strong";
+
+        if (gdd > 350) {
+            velocity = "2.4x (Rapid Turnover)";
+            genStage = "Multi-Generation Flare";
+        } else if (gdd > 200) {
+            velocity = "1.6x (Active Hatch)";
+            genStage = "Larvae / Nymphs";
+        } else {
+            velocity = "1.0x (Slow)";
+            genStage = "Egg Stage";
+        }
+
+        if (pred < 1.5) {
+            predBuffer = "Compromised ⚠️";
+        } else {
+            predBuffer = "Active Buffer";
+        }
+
+        if (riskPct >= 75) {
+            statusClass = "is-severe";
+            title = "CRITICAL FLARE-UP";
+            desc = "Extreme aridity and thermal velocity combined with low predator presence have triggered exponential population growth.";
+            advTitle = "Urgent: Apply Horticultural Oils / Biopesticides";
+            advBody = "Deploy selective organic miticides or highly refined horticultural oils immediately to prevent bronzing and premature leaf drop. Avoid broad-spectrum sprays that kill remaining Phytoseiids.";
+            advBorder = "var(--rose-glow)";
+            dialColor = "var(--rose-glow)";
+        } else if (riskPct >= 45) {
+            statusClass = "is-mod";
+            title = "WARNING: POPULATION SURGE";
+            desc = "Mite reproduction rate is accelerating due to environmental stress and diminishing predator buffers.";
+            advTitle = "Action: Dust Mitigation & Canopy Monitoring";
+            advBody = "Wash down edge-row trees to clear road dust. Inspect lower canopy leaves weekly for mite stippling.";
+            advBorder = "#fb923c";
+            dialColor = "#fb923c";
+        } else if (riskPct >= 20) {
+            statusClass = "is-low";
+            title = "ELEVATED AWARENESS";
+            desc = "Initial mite activity noted. Environmental conditions are becoming favorable for reproduction.";
+            advTitle = "Advisory: Monitor Edge Rows";
+            advBody = "Keep close surveillance on road-facing blocks where dust accumulation suppresses natural predatory mites.";
+            advBorder = "var(--amber-glow)";
+            dialColor = "var(--amber-glow)";
+        }
+
+        document.getElementById('disp-risk-pct').innerText = riskPct + "%";
+        
+        const offset = 213.6 - (213.6 * (riskPct / 100));
+        const dialBar = document.getElementById('dial-bar');
+        dialBar.style.strokeDashoffset = offset;
+        dialBar.style.stroke = dialColor;
+
+        const pill = document.getElementById('disp-pill');
+        pill.className = `threat-pill ${statusClass}`;
+        pill.innerText = title;
+        document.getElementById('disp-desc').innerText = desc;
+
+        document.getElementById('disp-velocity').innerText = velocity;
+        document.getElementById('disp-pred-buffer').innerText = predBuffer;
+        document.getElementById('disp-gen-stage').innerText = genStage;
+
+        const advCard = document.getElementById('advisory-card');
+        advCard.style.borderLeftColor = advBorder;
+        document.getElementById('advisory-title').innerText = advTitle;
+        document.getElementById('advisory-body').innerText = advBody;
+
+        renderThreatCurve(gdd, arid, pred, nitro, dust, riskPct);
+    }
+
+    function renderThreatCurve(currentGdd, arid, pred, nitro, dust, currentRisk) {
+        const dpr = window.devicePixelRatio || 1;
+        const rect = canvas.getBoundingClientRect();
+        
+        if (rect.width === 0 || rect.height === 0) return;
+
+        canvas.width = rect.width * dpr;
+        canvas.height = rect.height * dpr;
+        ctx.resetTransform();
+        ctx.scale(dpr, dpr);
+
+        const w = rect.width;
+        const h = rect.height;
+
+        ctx.clearRect(0, 0, w, h);
+
+        const padLeft = 32;
+        const padBottom = 20;
+        const padTop = 10;
+        const padRight = 12;
+
+        const graphW = w - padLeft - padRight;
+        const graphH = h - padBottom - padTop;
+
+        const minG = 0, maxG = 600;
+        const minR = 0, maxR = 100;
+
+        function getX(g) { return padLeft + ((g - minG) / (maxG - minG)) * graphW; }
+        function getY(r) { return (padTop + graphH) - ((r - minR) / (maxR - minR)) * graphH; }
+
+        // Grid lines
+        ctx.strokeStyle = "rgba(255, 255, 255, 0.06)";
+        ctx.lineWidth = 1;
+
+        for (let g = 100; g <= 600; g += 100) {
+            ctx.beginPath();
+            ctx.moveTo(getX(g), padTop);
+            ctx.lineTo(getX(g), padTop + graphH);
+            ctx.stroke();
+
+            ctx.fillStyle = "#64748b";
+            ctx.font = "8px 'JetBrains Mono', monospace";
+            ctx.textAlign = "center";
+            ctx.fillText(g, getX(g), h - 5);
+        }
+
+        for (let r = 25; r <= 100; r += 25) {
+            ctx.beginPath();
+            ctx.moveTo(padLeft, getY(r));
+            ctx.lineTo(padLeft + graphW, getY(r));
+            ctx.stroke();
+
+            ctx.fillStyle = "#64748b";
+            ctx.font = "8px 'JetBrains Mono', monospace";
+            ctx.textAlign = "right";
+            ctx.fillText(r + "%", padLeft - 4, getY(r) + 3);
+        }
+
+        // Draw Critical Risk Line (75% Mark)
+        ctx.beginPath();
+        ctx.strokeStyle = "rgba(244, 63, 94, 0.25)";
+        ctx.setLineDash([3, 3]);
+        ctx.moveTo(padLeft, getY(75));
+        ctx.lineTo(padLeft + graphW, getY(75));
+        ctx.stroke();
+        ctx.setLineDash([]);
+
+        // Draw The Mite Growth Curve across GDD spectrum
+        ctx.beginPath();
+        let started = false;
+
+        for (let g = 0; g <= 600; g += 10) {
+            const risk = computeMiteRisk(g, arid, pred, nitro, dust);
+            const x = getX(g);
+            const y = getY(risk);
+
+            if (!started) {
+                ctx.moveTo(x, y);
+                started = true;
+            } else {
+                ctx.lineTo(x, y);
+            }
+        }
+
+        const grad = ctx.createLinearGradient(0, getY(100), 0, getY(0));
+        grad.addColorStop(0, "rgba(244, 63, 94, 0.35)");
+        grad.addColorStop(0.5, "rgba(245, 158, 11, 0.2)");
+        grad.addColorStop(1, "rgba(6, 182, 212, 0.0)");
+
+        ctx.strokeStyle = currentRisk >= 75 ? "var(--rose-glow)" : (currentRisk >= 45 ? "var(--amber-glow)" : "var(--cyan-glow)");
+        ctx.lineWidth = 2.5;
+        ctx.stroke();
+
+        ctx.lineTo(getX(600), getY(0));
+        ctx.lineTo(getX(0), getY(0));
+        ctx.closePath();
+        ctx.fillStyle = grad;
+        ctx.fill();
+
+        // Draw Current Orchard Point on Curve
+        const px = getX(currentGdd);
+        const py = getY(currentRisk);
+
+        ctx.beginPath();
+        ctx.arc(px, py, 7, 0, 2 * Math.PI);
+        ctx.fillStyle = currentRisk >= 75 ? "rgba(244, 63, 94, 0.35)" : (currentRisk > 30 ? "rgba(245, 158, 11, 0.3)" : "rgba(6, 182, 212, 0.3)");
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.arc(px, py, 3.5, 0, 2 * Math.PI);
+        ctx.fillStyle = "#ffffff";
+        ctx.fill();
+        ctx.strokeStyle = currentRisk >= 75 ? "var(--rose-glow)" : (currentRisk > 30 ? "var(--amber-glow)" : "var(--cyan-glow)");
+        ctx.lineWidth = 2;
+        ctx.stroke();
+    }
+
+    window.addEventListener('resize', evaluateModel);
+    window.addEventListener('DOMContentLoaded', evaluateModel);
+    evaluateModel();
+</script>
+
+</body>
+</html>

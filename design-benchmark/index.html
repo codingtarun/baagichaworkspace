@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Baagicha design references: pick what you like</title>
+<style>
+  :root { --bg:#F5F0E8; --card:#fff; --ink:#1A1A1A; --muted:#6B6B6E; --line:#E0DAD2; --green:#1B7A3A; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.5 system-ui, "Segoe UI", sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:24px 32px 8px; }
+  h1 { margin:0 0 4px; font-size:28px; }
+  h2 { margin:32px 0 4px; font-size:22px; }
+  p { margin:4px 0; color:var(--muted); max-width:70ch; }
+  main { padding:0 32px 64px; }
+  .app { margin-top:28px; }
+  .app h3 { margin:0; font-size:18px; }
+  .tag { display:inline-block; margin-left:8px; padding:1px 10px; border-radius:99px; font-size:12px; background:#ECFDF3; color:var(--green); vertical-align:middle; }
+  .tag.peer { background:#FEF3C7; color:#B45309; }
+  .strip { display:flex; gap:12px; overflow-x:auto; padding:12px 0; }
+  figure { margin:0; flex:none; }
+  figure img { height:420px; border-radius:12px; border:1px solid var(--line); background:#fff; display:block; cursor:zoom-in; }
+  figcaption { font:12px ui-monospace, Consolas, monospace; color:var(--muted); margin-top:4px; }
+  .count { font-size:14px; color:var(--muted); }
+  dialog { border:0; padding:0; background:transparent; max-width:95vw; max-height:95vh; }
+  dialog img { max-width:95vw; max-height:92vh; border-radius:12px; }
+  dialog::backdrop { background:rgba(0,0,0,.8); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Design references: pick what you like</h1>
+  <p>These are 54 Play Store screenshots from 9 apps, in <code>references/</code>, plus our own app in <code>ours/</code>.
+     To drop one, delete its file (the name is under each picture); it disappears from this page on reload.
+     Click a picture to see it big. The report card is in <a href="report.html">report.html</a>.</p>
+  <p class="count" id="count"></p>
+</header>
+<main id="main"></main>
+<dialog id="big" onclick="this.close()"><img alt=""></dialog>
+<script>
+// The apps and what each one is worth looking at for. Files are references/<key>-01.jpg … -06.jpg.
+const APPS = [
+  ['airbnb', 'Airbnb', 'leader', 'Calm cream background, photo-first cards, one search pill on top, category chips with 3D icons, generous white space.'],
+  ['calm', 'Calm', 'leader', 'Full-bleed nature photography, blue gradient atmosphere, translucent cards over images.'],
+  ['strava', 'Strava', 'leader', 'One brand colour (orange) used sparingly, stats as big numbers with small labels, map + feed cards, social actions kept quiet.'],
+  ['zepto', 'Zepto', 'leader', 'Indian quick-commerce: picture grid categories, strong purple brand, promo tiles, very scannable.'],
+  ['swiggy', 'Swiggy', 'leader', 'Indian super-app: "What\'s on your mind?" picture row, bold banners, offer chips on cards.'],
+  ['alltrails', 'AllTrails', 'leader', 'Outdoor app closest to an orchard app: photo-first cards, stats row (12.9 km · 639 m), maps with clean overlays, condition charts.'],
+  ['plantix', 'Plantix', 'peer', 'Farming peer: real crop photos on every disease, soft mint background, blue primary button, simple calculators.'],
+  ['picturethis', 'PictureThis', 'peer', 'Plant app: photo hero with name over it, Overview / Care tabs, care schedule with toggles, "Check" buttons per tool.'],
+  ['todayweather', 'Today Weather', 'peer', 'Google Play Editor\'s Choice: photo backgrounds, dark mode, compact hourly strips, widgets.'],
+];
+const OURS = ['en-home','en-home-2','en-home-3','en-orchard-tab','en-orchard-page','en-orchard-page-2','en-orchard-page-3','en-season','en-season-2','en-record','en-weather','en-weather-2','en-weather-3','en-spray','en-spray-2','en-knowledge','en-knowledge-2','en-diseases','en-disease','en-disease-2','en-shop','en-account','hi-home','hi-home-2','hi-orchard-page','hi-record','hi-knowledge','hi-account'];
+
+const main = document.getElementById('main');
+let shown = 0;
+
+function strip(files) {
+  const row = document.createElement('div');
+  row.className = 'strip';
+  for (const f of files) {
+    const fig = document.createElement('figure');
+    const img = document.createElement('img');
+    img.loading = 'lazy';
+    img.src = f;
+    img.alt = f;
+    img.onload = () => { shown++; count(); };
+    img.onerror = () => fig.remove();          // a deleted file simply disappears
+    img.onclick = () => { const d = document.getElementById('big'); d.querySelector('img').src = f; d.showModal(); };
+    const cap = document.createElement('figcaption');
+    cap.textContent = f;
+    fig.append(img, cap);
+    row.append(fig);
+  }
+  return row;
+}
+
+function count() { document.getElementById('count').textContent = shown + ' pictures on this page.'; }
+
+main.insertAdjacentHTML('beforeend', '<h2>References</h2>');
+for (const [key, name, kind, note] of APPS) {
+  const box = document.createElement('section');
+  box.className = 'app';
+  box.innerHTML = `<h3>${name}<span class="tag ${kind === 'peer' ? 'peer' : ''}">${kind === 'peer' ? 'peer' : 'design leader'}</span></h3><p>${note}</p>`;
+  box.append(strip([1,2,3,4,5,6].map((n) => `references/${key}-0${n}.jpg`)));
+  main.append(box);
+}
+
+main.insertAdjacentHTML('beforeend', '<h2>Our app today (25 Nov 2026, installed build, English and Hindi)</h2>');
+main.append(strip(OURS.map((n) => `ours/${n}.png`)));
+</script>
+</body>
+</html>

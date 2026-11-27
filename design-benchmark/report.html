@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Baagicha app: design report card (25 Nov 2026)</title>
+<style>
+  :root { --bg:#F5F0E8; --card:#fff; --ink:#1A1A1A; --muted:#6B6B6E; --line:#E0DAD2; --green:#1B7A3A; --red:#B91C1C; --gold:#B45309; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 system-ui, "Segoe UI", sans-serif; background:var(--bg); color:var(--ink); }
+  main { max-width:1080px; margin:0 auto; padding:32px 24px 80px; }
+  h1 { font-size:32px; margin:0 0 4px; line-height:1.2; }
+  h2 { font-size:24px; margin:48px 0 8px; }
+  h3 { font-size:18px; margin:0 0 4px; }
+  p, li { max-width:75ch; }
+  .muted { color:var(--muted); }
+  .verdict { display:flex; gap:24px; align-items:center; background:var(--card); border:1px solid var(--line); border-radius:16px; padding:24px; margin-top:24px; }
+  .big { font-size:64px; font-weight:700; line-height:1; color:var(--gold); }
+  .big small { font-size:24px; color:var(--muted); }
+  table { width:100%; border-collapse:collapse; background:var(--card); border-radius:16px; overflow:hidden; border:1px solid var(--line); }
+  th, td { text-align:left; padding:12px 14px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { background:#EDE8E0; font-size:14px; }
+  td.score { font-weight:700; white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .bar { height:8px; border-radius:4px; background:#EDE8E0; margin-top:6px; width:90px; }
+  .bar i { display:block; height:100%; border-radius:4px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px; }
+  .pair { display:flex; gap:12px; overflow-x:auto; padding:8px 0; }
+  .pair figure { margin:0; flex:none; }
+  .pair img { height:380px; border-radius:12px; border:1px solid var(--line); display:block; }
+  .pair figcaption { font-size:13px; color:var(--muted); margin-top:4px; max-width:240px; }
+  .bad { color:var(--red); font-weight:600; }
+  ol li, ul li { margin-bottom:6px; }
+  code { background:#EDE8E0; padding:1px 6px; border-radius:6px; font-size:14px; }
+  .status { display:inline-block; font-size:12px; font-weight:600; padding:2px 10px; border-radius:99px; white-space:nowrap; }
+  td.now { color: var(--green); }
+  .big .was { display:block; font-size:14px; font-weight:400; color:var(--muted); margin-top:6px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Baagicha app: design report card</h1>
+  <p class="muted">25 Nov 2026 · the installed build on Tarun's phone (Realme, 1080 × 2408), English and Hindi · compared with 9 apps'
+    Play Store screenshots (see <a href="index.html">the gallery</a>). Design only: nothing here changes what the app does.</p>
+
+  <div class="verdict">
+    <div class="big">7.3<small>/10</small><span class="was">area average · first review 5.8 (headline then: 5.5)</span></div>
+    <div>
+      <h3>Honest verdict: tidy and consistent, but plain, text-heavy and picture-poor.</h3>
+      <p>The design system you built in October works: one font, one green, the same radius everywhere, Hindi renders well.
+        That puts us above most Indian farming apps. But next to the apps people admire, Baagicha reads like a well-organised
+        document, not a product. Almost everything is text in white boxes on beige. There are no real photos where growers
+        need them most (diseases), no visual hero on Home, and long screens of small grey text. It looks <em>correct</em>; it doesn't look <em>loved</em>.</p>
+    </div>
+  </div>
+
+<!-- progress:start -->
+  <h2>Progress since the first review</h2>
+  <p class="muted">Updated 25 Nov 2026. The first review below stays as it was, for comparison. Average of the 12 areas:
+    <b>5.8</b> then, <b>7.3</b> now.</p>
+  <table>
+    <tr><th>Area</th><th>Then</th><th>Now</th><th>Status</th><th>Done so far</th><th>Still to do</th></tr>
+    <tr><td>Imagery and illustration</td><td class="score">3</td><td class="score now">3</td><td><span class="status" style="color:#0369A1;background:#E0F2FE">Waiting for photos</span></td><td>–</td><td>Photos of diseases, pests, stages and varieties: Tarun is collecting them; the import script (bin/import-image-library.php) is ready.</td></tr>
+    <tr><td>Layout and density</td><td class="score">4.5</td><td class="score now">7.5 ▲</td><td><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span></td><td>Home leads with one Today tile and two small tiles; the orchard page has a stat row and three tabs (This season · Blocks · Orchard Guide) instead of ~4 screens; the spray schedule is one card per stage; no big empty pictures where a photo is missing; no card shadows.</td><td>–</td></tr>
+    <tr><td>Copy polish and states</td><td class="score">5</td><td class="score now">7.5 ▲</td><td><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span></td><td>Plurals in the app and on the server ('1 activity', '1 shop'); no '(s)' anywhere; cut-off labels fixed; Hindi ' · ' spacing; the dry-week rain card is one line; dates and units in the screen's language.</td><td>–</td></tr>
+    <tr><td>Motion and effects</td><td class="score">5</td><td class="score now">7.5 ▲</td><td><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span></td><td>A 'saved' moment (a check springs in, a ring spreads) after a spray, posted work or a job marked done; tab icons pop with a small bounce; both off with the phone's 'remove animations'.</td><td>–</td></tr>
+    <tr><td>Colour and theme</td><td class="score">6</td><td class="score now">8 ▲</td><td><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span></td><td>Severity: high and critical red, medium gold; colours live in the theme; a second colour, Himalayan sky (Tarun's pick), for what is new or due now; dark mode (Light / Dark / Same as phone) with a checked dark palette; a frosted floating tab bar.</td><td>–</td></tr>
+    <tr><td>Cards and surfaces</td><td class="score">6</td><td class="score now">8 ▲</td><td><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span></td><td>Cards are white with a thin border and no shadow; no box inside a box (spray schedule, treatments, plan options, season lists, forecast tiles); the CardRows part.</td><td>–</td></tr>
+    <tr><td>Typography</td><td class="score">6.5</td><td class="score now">7.5 ▲</td><td><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span></td><td>Big-number Stat style (altitude, trees, blocks, temperature); bigger stage names; the dose as a green headline; inner screen titles at 20 px in every header.</td><td>–</td></tr>
+    <tr><td>Buttons and controls</td><td class="score">6.5</td><td class="score now">7.5 ▲</td><td><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span></td><td>Quiet post buttons (icons with counts); one Spray log button on the orchard page; bigger tap areas on small chips and pills; a disabled button is now flat grey (or a grey outline) instead of a paler green.</td><td>–</td></tr>
+    <tr><td>Navigation</td><td class="score">6.5</td><td class="score now">7.5 ▲</td><td><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span></td><td>The selected-tab pill is the same round shape on every tab; one header look for every stack (useStackHeader) with clearer titles. The Shop tab stays (Tarun's choice); collapsing large titles exist only on iPhone, so Android gets the clearer fixed title.</td><td>–</td></tr>
+    <tr><td>Forms and input</td><td class="score">6.5</td><td class="score now">7.5 ▲</td><td><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span></td><td>Record work: 'Step 1 of 2' with a bar per step; every section spaced (a layout bug gave steps no gaps, also fixed in checkout); suggested job titles take 3 lines. Checked on the phone.</td><td>The very longest job titles still cut after 3 lines.</td></tr>
+    <tr><td>Data and charts</td><td class="score">6.5</td><td class="score now">7.5 ▲</td><td><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span></td><td>A dry week shows one line instead of seven empty 0% bars; forecast days without grey tiles; the spray window leads with 'Best spray time: …' above its strip.</td><td>–</td></tr>
+    <tr><td>Hindi</td><td class="score">7</td><td class="score now">8.5 ▲</td><td><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span></td><td>Separators keep their space; plural words in Hindi too; dates ('30 नवंबर – 17 फ़रवरी', '18 फ़रवरी से शुरू') and units (फुट, मीटर) in Hindi in the app, the API and the website.</td><td>Variety and orchard names stay as growers and the data write them (English names are proper names).</td></tr>
+  </table>
+<!-- progress:end -->
+
+  <h2>How the references score (for scale)</h2>
+  <p class="muted">My rating of each app's design from its screenshots; the bar we are measuring against.</p>
+  <table>
+    <tr><th>App</th><th>Score</th><th>What makes it good</th></tr>
+    <tr><td>Airbnb</td><td class="score">9.5</td><td>Photo-first, huge white space, one search pill, chips with small 3D icons. Calm cream base, almost like ours, but the photos carry it.</td></tr>
+    <tr><td>Calm</td><td class="score">9</td><td>Full-bleed nature photos, a blue gradient mood, translucent cards over images.</td></tr>
+    <tr><td>AllTrails / Strava</td><td class="score">8.5</td><td>Outdoor data done beautifully: photo cards, stats as big numbers with tiny labels, clean maps and charts.</td></tr>
+    <tr><td>Today Weather</td><td class="score">8</td><td>Photo backgrounds, dark mode, compact hourly strips, widgets.</td></tr>
+    <tr><td>Zepto / Swiggy</td><td class="score">8</td><td>Picture grids for categories, bold brand colour, very fast to scan, made for Indian phones.</td></tr>
+    <tr><td>PictureThis / Plantix</td><td class="score">7.5</td><td>Our closest peers: real plant and disease photos everywhere, simple tool cards, mint backgrounds.</td></tr>
+    <tr><td><strong>Baagicha</strong></td><td class="score">5.5</td><td>Consistent and readable, but almost no imagery, too much text, weak hierarchy.</td></tr>
+  </table>
+
+  <h2>First review, area by area (25 Nov 2026, before the changes)</h2>
+  <table>
+    <tr><th>Area</th><th>Score</th><th>What I saw (brutally)</th></tr>
+    <tr><td>Imagery and illustration</td><td class="score">3<div class="bar"><i style="width:30%;background:var(--red)"></i></div></td>
+      <td><span class="bad">Biggest gap.</span> Every disease and pest has the same pale leaf placeholder instead of a photo, on the list and the page: a grower can't recognise scab from it. Plantix and PictureThis are built on photos. Home has no image at all above the fold; stage tiles and weather use thin outline icons. The blog photos and the Shop sketch show we <em>can</em> do it.</td></tr>
+    <tr><td>Layout and density</td><td class="score">4.5<div class="bar"><i style="width:45%;background:var(--red)"></i></div></td>
+      <td>The spray schedule is a wall of text: grey boxes inside white boxes inside beige, each with 5 lines of small print and long brand lists. The orchard page is 4 screens long with 9 sections of equal weight. Home stacks 7 sections. The leaders put one idea per screen and push the rest behind a tap.</td></tr>
+    <tr><td>Copy polish and states</td><td class="score">5<div class="bar"><i style="width:50%;background:var(--gold)"></i></div></td>
+      <td>"1 activities", "5 job(s)", "14 stage(s)": these look unfinished. Labels cut off: "Wed 25 …", "Fri 27 N…", "Mon 30 N…", blog titles "Securing Next Year's Yield: The C…". On Hindi screens the dates and variety names stay English ("30 Nov – 17 Feb") and separators lose their space ("Gala ·अभी"). The rain card shows seven empty 0% bars instead of one line "No rain this week".</td></tr>
+    <tr><td>Motion and effects</td><td class="score">5<div class="bar"><i style="width:50%;background:var(--gold)"></i></div></td>
+      <td>Subtle fade-ins and press-scale only. No depth: no blur, no glass, no springy expressive moments (Material 3 Expressive's whole idea), no celebration when a spray is saved. Right for cheap phones, but it feels flat. A little goes a long way: one glassy header, a check animation, a bouncing tab icon.</td></tr>
+    <tr><td>Colour and theme</td><td class="score">6<div class="bar"><i style="width:60%;background:var(--gold)"></i></div></td>
+      <td>Green on cream is calm and fits the orchard. But it's one-note: green buttons, green links, green pills, green icons, green cards, so nothing stands out. Accent colours are used only for little pills (gold "Do now", blue "Diseases", red "Must do", which fight each other on one card). Weather tiles are grey on grey. No dark mode. "High" severity is shown in gold, not red.</td></tr>
+    <tr><td>Cards and surfaces</td><td class="score">6<div class="bar"><i style="width:60%;background:var(--gold)"></i></div></td>
+      <td>Same 16 px radius everywhere, good. But cards have a border <em>and</em> a shadow, and cards sit inside cards (beige box in white card in beige screen), which makes screens look boxed-in. The leaders use either a soft shadow or a hairline, and almost never nest.</td></tr>
+    <tr><td>Typography</td><td class="score">6.5<div class="bar"><i style="width:65%;background:var(--gold)"></i></div></td>
+      <td>Anek Latin and Devanagari are a good pair and Hindi line heights don't clip. The problem is hierarchy: the season card mixes 6 sizes and weights in one green box; inner screen titles are small (17 px) while tab titles are big (26 px); numbers that matter (20°, Day 61 of 65, 60 trees) are not given the big-number treatment Strava and AllTrails use.</td></tr>
+    <tr><td>Buttons and controls</td><td class="score">6.5<div class="bar"><i style="width:65%;background:var(--gold)"></i></div></td>
+      <td>The primary green gradient button is clear. But each post has five outlined pills of equal weight (Helpful, Did the same, Good work, comments, share): noise. "Spray log" appears twice on the orchard page. The disabled "Next" is a pale gradient that still looks pressable.</td></tr>
+    <tr><td>Navigation</td><td class="score">6.5<div class="bar"><i style="width:65%;background:var(--gold)"></i></div></td>
+      <td>Five clear tabs, but the selected tab's highlight changes shape (round pill on Home, square block on My Orchard). Inner headers are plain text bars without the large collapsing title that Material 3 uses. The Shop tab takes a full slot while the shop is closed.</td></tr>
+    <tr><td>Forms and input</td><td class="score">6.5<div class="bar"><i style="width:65%;background:var(--gold)"></i></div></td>
+      <td>"Record your work" is the best screen: a big icon tile grid, picture-first like Zepto's categories, easy for growers. Weak spots: "Step 1 of 2" floats alone at the right; section titles have no space above them; the chips wrap untidily.</td></tr>
+    <tr><td>Data and charts</td><td class="score">6.5<div class="bar"><i style="width:65%;background:var(--gold)"></i></div></td>
+      <td>The weather screen is the second-best screen: a blue sky card, a clean 14-day list with temperature bars, detail tiles. The spray window strip on the orchard page is a row of identical green blocks with cut-off dates; it says nothing a sentence doesn't.</td></tr>
+    <tr><td>Hindi</td><td class="score">7<div class="bar"><i style="width:70%;background:var(--green)"></i></div></td>
+      <td>Renders cleanly, wraps well, tabs fit. Mixed scripts (English names, dates, "ft") and missing spaces are the main issues.</td></tr>
+  </table>
+
+  <h2>What we do well (keep it)</h2>
+  <ul>
+    <li>One design system, applied everywhere: same radius, font and green. Most farming apps don't have this.</li>
+    <li>The record-work tile grid and the stage picker tiles: big, tappable, pictorial.</li>
+    <li>The weather screen's sky card and 14-day list.</li>
+    <li>The Knowledge tab: search on top, grouped rows with counts, fruit photo cards.</li>
+    <li>Hindi is a first-class citizen, not an afterthought.</li>
+  </ul>
+
+  <h2>Our screens next to the references</h2>
+  <div class="card">
+    <h3>Diseases: placeholder leaves vs real photos</h3>
+    <div class="pair">
+      <figure><img src="ours/en-diseases.png" alt="Our disease list"><figcaption>Ours: every card the same pale leaf.</figcaption></figure>
+      <figure><img src="ours/en-disease.png" alt="Our disease page"><figcaption>Ours: a big empty hero on Apple Scab.</figcaption></figure>
+      <figure><img src="references/plantix-02.jpg" alt="Plantix"><figcaption>Plantix: real crop photos, Alert / Rising tags.</figcaption></figure>
+      <figure><img src="references/picturethis-02.jpg" alt="PictureThis"><figcaption>PictureThis: photo hero, name, tabs.</figcaption></figure>
+    </div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <h3>Home: text boxes vs one strong hero</h3>
+    <div class="pair">
+      <figure><img src="ours/en-home.png" alt="Our home"><figcaption>Ours: greeting, story row, task card, chips, weather: all white boxes.</figcaption></figure>
+      <figure><img src="ours/en-home-2.png" alt="Our home 2"><figcaption>Ours: the green season card is the only strong element.</figcaption></figure>
+      <figure><img src="references/airbnb-01.jpg" alt="Airbnb"><figcaption>Airbnb: one search pill, chips, photo cards.</figcaption></figure>
+      <figure><img src="references/zepto-06.jpg" alt="Zepto"><figcaption>Zepto: one search bar, a picture row of choices, a strong hero banner.</figcaption></figure>
+    </div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <h3>Spray schedule: wall of text vs scannable cards</h3>
+    <div class="pair">
+      <figure><img src="ours/en-spray.png" alt="Our spray schedule"><figcaption>Ours: boxes in boxes, 5 lines of small print each.</figcaption></figure>
+      <figure><img src="ours/en-spray-2.png" alt="Our spray schedule 2"><figcaption>Ours: long brand lists, "— or —" between.</figcaption></figure>
+      <figure><img src="references/picturethis-03.jpg" alt="PictureThis care"><figcaption>PictureThis: icon, title, one line, action.</figcaption></figure>
+      <figure><img src="references/alltrails-03.jpg" alt="AllTrails"><figcaption>AllTrails: big numbers, tiny labels.</figcaption></figure>
+    </div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <h3>Orchard page: 9 equal sections vs clear hierarchy</h3>
+    <div class="pair">
+      <figure><img src="ours/en-orchard-page.png" alt="Our orchard page"><figcaption>Ours: map, facts, dense season card, two buttons.</figcaption></figure>
+      <figure><img src="ours/en-orchard-page-2.png" alt="Our orchard page 2"><figcaption>Ours: Spray log twice; spray window strip with cut dates.</figcaption></figure>
+      <figure><img src="references/strava-04.jpg" alt="Strava"><figcaption>Strava: photo, stats row, quiet social actions.</figcaption></figure>
+      <figure><img src="references/alltrails-05.jpg" alt="AllTrails conditions"><figcaption>AllTrails: map with a bottom sheet of conditions.</figcaption></figure>
+    </div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <h3>Best screens we have</h3>
+    <div class="pair">
+      <figure><img src="ours/en-record.png" alt="Record work"><figcaption>Record work: big icon tiles, easy to tap.</figcaption></figure>
+      <figure><img src="ours/en-weather.png" alt="Weather"><figcaption>Weather: the sky card works.</figcaption></figure>
+      <figure><img src="ours/hi-home.png" alt="Hindi home"><figcaption>Hindi Home: clean, wraps well.</figcaption></figure>
+    </div>
+  </div>
+
+  <h2>2026 design patterns worth taking (and ones to skip)</h2>
+  <div class="grid">
+    <div class="card"><h3>Take: Material 3 Expressive</h3><p>Android's 2025–26 look: bigger and bolder type for key numbers, more shape variety (pill, squircle, scalloped badges), springy motion, larger touch targets, stronger colour contrast between primary and secondary actions. It suits growers with big thumbs and bright sunlight.</p></div>
+    <div class="card"><h3>Take: photo-first cards</h3><p>Airbnb, AllTrails, PictureThis, Plantix: the picture is the card and the text sits under or over it. For us: disease photos, stage photos (green tip, pink bud, petal fall), the grower's own orchard photo on Home.</p></div>
+    <div class="card"><h3>Take: big-number stats</h3><p>Strava and AllTrails show one number large and a small label under it. For us: 20°, Day 61 of 65, 60 trees, "Protected until 3 Dec".</p></div>
+    <div class="card"><h3>Take: bento tiles</h3><p>Uneven grids of tiles with one bigger "hero" tile. For us: Home could be a bento of Today's job (big), Weather, Season stage, Spray log.</p></div>
+    <div class="card"><h3>Use sparingly: glass (glassmorphism / Liquid Glass)</h3><p>Translucent, blurred panels over photos (Calm, Apple's Liquid Glass). Beautiful, but blur is costly on a 2018 Realme. Use it in one or two places only: the tab bar over content, the header over the sky card, a sheet over a photo. Never for body text.</p></div>
+    <div class="card"><h3>Skip: neumorphism and heavy dark-only UIs</h3><p>Soft extruded shapes look nice in screenshots but have poor contrast outdoors. A dark mode is worth adding later; a dark-only design is not right for orchards in sunlight.</p></div>
+  </div>
+
+  <h2>Top 10 design changes, biggest win first</h2>
+  <ol>
+    <li><span class="status" style="color:#0369A1;background:#E0F2FE">Waiting for photos</span> <strong>Real photos for diseases, pests and stages</strong> (server side: picture per item; app: photo hero and photo cards). Moves Imagery from 3 to 7 on its own.</li>
+    <li><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span> <strong>Spray schedule redesign:</strong> one card per spray with the chemical name and dose as the headline, "stop N days before harvest" as a chip, brands folded behind "Show brands", no nested boxes.</li>
+    <li><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span> <strong>Home hero:</strong> one big bento tile for "Today" (stage, weather, top job) with the orchard photo or a stage illustration, then the rest smaller.</li>
+    <li><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span> <strong>Fix the copy polish:</strong> plurals ("1 activity", "5 jobs"), no "(s)", Hindi dates and spaces, labels that never cut off.</li>
+    <li><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span> <strong>Flatten the surfaces:</strong> no cards inside cards; shadow or border, not both; more white space between sections.</li>
+    <li><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span> <strong>Big-number type style</strong> for the few numbers that matter, and fewer sizes per card (title, one line, one action).</li>
+    <li><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span> <strong>Second colour:</strong> keep green for actions, give alerts a real red, and use warm gold or sky blue as a true accent, not only in tiny pills.</li>
+    <li><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span> <strong>Quieter social actions:</strong> icons with counts in one row (like Strava), not five outlined pills.</li>
+    <li><span class="status" style="color:#B45309;background:#FEF3C7">Partly done</span> <strong>Expressive motion moments:</strong> a check-mark burst when a spray is saved, springy tab icons, a glassy tab bar.</li>
+    <li><span class="status" style="color:#1B7A3A;background:#D1FAE1">Done</span> <strong>Large collapsing headers</strong> on inner screens and one consistent selected-tab pill.</li>
+  </ol>
+
+  <h2>Next step</h2>
+  <p>Look through <a href="index.html">the gallery</a>, delete the pictures you don't like, and tell me which of the 10 changes to start with.
+    I'll then write a short redesign plan into <code>baagicha_mobile/docs/redesign/</code> for your OK before touching any screen.</p>
+  <p class="muted">Not counted: the small blue dropper button on the right edge of every screenshot belongs to another app on the phone, not Baagicha.
+    The installed build may be a few days older than the code; the overall look is the same.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockup: Home (Baagicha app)</title>
+<style>
+  @font-face { font-family: Anek; src: url(fonts/AnekLatin_400Regular.ttf); font-weight: 400; }
+  @font-face { font-family: Anek; src: url(fonts/AnekLatin_600SemiBold.ttf); font-weight: 600; }
+  @font-face { font-family: Anek; src: url(fonts/AnekLatin_700Bold.ttf); font-weight: 700; }
+  :root {
+    --bg: #F5F0E8; --surface: #fff; --muted-surface: #EDE8E0; --line: #E0DAD2;
+    --text: #1A1A1A; --muted: #6B6B6E; --brand: #3CB371; --action: #1B7A3A; --forest: #14522D;
+    --mint: #ECFDF3; --mint-strong: #D1FAE1; --gold: #F5A623; --gold-text: #B45309; --gold-soft: #FEF3C7;
+    --danger: #B91C1C; --danger-soft: #FEE2E2; --info: #0369A1; --info-soft: #E0F2FE;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #E9E4DC; font-family: Anek, system-ui, sans-serif; color: var(--text); }
+  main { max-width: 1240px; margin: 0 auto; padding: 32px 24px 80px; }
+  h1 { font-size: 32px; margin: 0 0 6px; }
+  h2 { font-size: 24px; margin: 40px 0 6px; }
+  .lead { color: var(--muted); max-width: 72ch; font-size: 17px; line-height: 1.5; margin: 4px 0; }
+  .pair { display: flex; gap: 28px; flex-wrap: wrap; align-items: flex-start; margin-top: 16px; }
+  .col { display: flex; flex-direction: column; gap: 8px; }
+  .tag { font-weight: 700; font-size: 15px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+  .tag.after { color: var(--action); }
+  .shots { display: flex; gap: 10px; }
+  .shot { width: 240px; border-radius: 22px; border: 6px solid #222; display: block; }
+  .notes { max-width: 330px; color: var(--muted); font-size: 15px; line-height: 1.5; padding-left: 18px; }
+  .notes li { margin-bottom: 8px; }
+  .notes b { color: var(--text); }
+
+  .phone { width: 360px; border-radius: 28px; border: 8px solid #222; background: var(--bg); overflow: hidden; }
+  .top { padding: 12px 16px 10px; background: linear-gradient(160deg, #E3F7EB, #F4FBF6 55%, #FFF8EA); display: flex; align-items: flex-end; gap: 8px; }
+  .top .grow { flex: 1; }
+  .chip-place { color: var(--action); font-weight: 600; font-size: 13px; }
+  .hello { font-size: 26px; font-weight: 700; line-height: 32px; white-space: nowrap; }
+  .ic { width: 32px; height: 36px; display: grid; place-items: center; font-size: 17px; filter: grayscale(1) brightness(.6); }
+  .body { padding: 12px 16px 24px; display: flex; flex-direction: column; gap: 16px; }
+  .sec { display: flex; flex-direction: column; gap: 10px; }
+  .sec + .sec { margin-top: 8px; }
+  .h2 { font-size: 20px; line-height: 28px; font-weight: 600; display: flex; justify-content: space-between; align-items: baseline; }
+  .h2 a { font-size: 14px; color: var(--action); font-weight: 600; text-decoration: none; }
+  .label { font-size: 14px; font-weight: 600; color: var(--muted); }
+  .cap { font-size: 13px; line-height: 18px; color: var(--muted); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; }
+  .row { padding: 14px 16px; display: flex; gap: 12px; align-items: center; }
+  .row + .row { border-top: 1px solid var(--line); }
+  .grow { flex: 1; min-width: 0; }
+  .title3 { font-size: 17px; line-height: 23px; font-weight: 600; }
+  .pill { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 99px; white-space: nowrap; }
+  .p-gold { background: var(--gold-soft); color: var(--gold-text); }
+  .p-green { background: var(--mint-strong); color: var(--forest); }
+  .p-grey { background: var(--muted-surface); color: var(--muted); }
+  .btn { display: flex; align-items: center; justify-content: center; gap: 8px; height: 44px; border-radius: 12px; font-weight: 600; font-size: 15px; padding: 0 14px; }
+  .btn-primary { background: linear-gradient(135deg, #1E7F45, #1B7A3A, #14522D); color: #fff; }
+  .btn-white { background: #fff; color: var(--forest); }
+  .btn-ghost-light { border: 1.5px solid rgba(255,255,255,.5); color: #fff; }
+  .btn-secondary { border: 1.5px solid var(--action); color: var(--action); background: #fff; height: 36px; font-size: 14px; }
+
+  /* The one big "Today" tile: stage, weather and the top job together. */
+  .hero { background: linear-gradient(160deg, #1B6B3A, #14522D 55%, #0E3B20); color: #fff; border-radius: 20px; padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+  .hero .small { font-size: 13px; opacity: .85; }
+  .hero .stage { font-size: 30px; line-height: 34px; font-weight: 700; }
+  .hero-top { display: flex; justify-content: space-between; gap: 10px; }
+  .wx { text-align: right; }
+  .wx .t { font-size: 30px; line-height: 34px; font-weight: 700; }
+  .wx .s { font-size: 13px; opacity: .85; }
+  .job { background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.22); border-radius: 14px; padding: 12px; display: flex; flex-direction: column; gap: 8px; }
+  .job .what { font-size: 17px; line-height: 23px; font-weight: 600; }
+  .job .meta { font-size: 13px; opacity: .85; }
+  .job .acts { display: flex; gap: 8px; }
+  .job .acts .btn { height: 40px; flex: 1; font-size: 14px; white-space: nowrap; padding: 0 8px; }
+  /* Two small tiles under the hero. */
+  .bento { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 4px; min-height: 112px; }
+  .tile .k { font-size: 13px; font-weight: 600; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+  .tile .v { font-size: 22px; line-height: 28px; font-weight: 700; }
+  .tile .v.green { color: var(--action); }
+  .dots { display: flex; gap: 4px; margin-top: 2px; }
+  .dots i { width: 10px; height: 10px; border-radius: 5px; display: block; }
+  .chips { display: flex; gap: 8px; overflow: hidden; }
+  .chip { flex: none; border: 1.5px solid var(--line); background: #fff; border-radius: 99px; padding: 7px 13px; font-size: 14px; font-weight: 600; }
+  .stories { display: flex; gap: 14px; align-items: center; }
+  .ring { width: 48px; height: 48px; border-radius: 24px; display: grid; place-items: center; font-weight: 700; color: var(--forest); background: var(--mint-strong); }
+  .ring.add { background: var(--mint); color: var(--action); font-size: 22px; }
+  .ring.seen { box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px #c9c2b8; }
+  .story-l { font-size: 12px; color: var(--muted); text-align: center; margin-top: 2px; }
+  /* A grower's post with quiet actions: icons with counts in one line. */
+  .post { padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; }
+  .who { display: flex; gap: 10px; align-items: center; }
+  .av { width: 36px; height: 36px; border-radius: 18px; background: var(--mint-strong); color: var(--forest); display: grid; place-items: center; font-weight: 700; flex: none; }
+  .acts-q { display: flex; gap: 18px; color: var(--muted); font-size: 14px; font-weight: 600; padding-top: 4px; }
+  .acts-q .on { color: var(--action); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Mockup: Home</h1>
+  <p class="lead">Same data, same features. Today a grower's "today" is spread over four parts of Home (jobs, weather boxes,
+    the green season card, the spray lines), and their own orchard comes after other people's stories. The new Home leads with
+    <b>one "Today" tile</b> that answers the first three questions (what stage, what weather, what to do) and puts the rest in
+    smaller tiles under it. It also uses the flat rules from the last change.</p>
+
+  <div class="pair">
+    <div class="col"><div class="tag">Before (3 scrolls)</div>
+      <div class="shots">
+        <img class="shot" src="../ours/en-home.png" alt="Home today, top">
+        <img class="shot" src="../ours/en-home-2.png" alt="Home today, middle">
+        <img class="shot" src="../ours/en-home-3.png" alt="Home today, growers' work">
+      </div>
+    </div>
+
+    <div class="col"><div class="tag after">After</div>
+      <div class="phone">
+        <div class="top">
+          <div class="grow"><div class="chip-place">📍 Anu orchard 2 · 4,980 ft ▾</div><div class="hello">Namaste, Tarun</div></div>
+          <div class="ic">🧰</div><div class="ic">🔔</div><div class="ic">🛒</div>
+        </div>
+        <div class="body">
+          <div class="hero">
+            <div class="hero-top">
+              <div><div class="small">Today in the orchard · Apple</div><div class="stage">Leaf fall</div><div class="small">Dormancy starts in 5 days</div></div>
+              <div class="wx"><div class="t">20°</div><div class="s">☀ Clear · 22° / 8°</div><div class="s">No rain for 2 days</div></div>
+            </div>
+            <div class="job">
+              <div><span class="pill p-gold">Do now</span></div>
+              <div class="what">Fallen leaves: compost or 5% urea on the floor</div>
+              <div class="meta">Buckeye Gala, Dark Baron Gala · one of: Urea 5%</div>
+              <div class="acts"><div class="btn btn-white">💧 Record spray</div><div class="btn btn-ghost-light">Not doing this</div></div>
+            </div>
+          </div>
+
+          <div class="bento">
+            <div class="tile"><div class="k">💧 Spray plan</div><div class="v green">All clear</div><div class="cap">Nothing to spray in 2 blocks · Red Bartlett has no schedule</div><div class="dots"><i style="background:#8E8E93"></i><i style="background:#8E8E93"></i><i style="background:#d6d0c7"></i></div></div>
+            <div class="tile"><div class="k">📅 Season calendar</div><div class="v">1 more job</div><div class="cap">Clean the tree basins · then Dormancy, 30 Nov – 17 Feb</div></div>
+          </div>
+
+          <div class="sec">
+            <div class="label">Record other work</div>
+            <div class="chips"><span class="chip">💧 Spray</span><span class="chip">✂ Pruning</span><span class="chip">🌱 Manure</span><span class="chip">💦 Water</span></div>
+          </div>
+
+          <div class="sec">
+            <div class="h2">What other growers are doing <a href="#">See all</a></div>
+            <div class="stories">
+              <div><div class="ring add">+</div><div class="story-l">Add work</div></div>
+              <div><div class="ring seen">N</div><div class="story-l">Nikhil</div></div>
+            </div>
+            <div class="card">
+              <div class="post">
+                <div class="who"><div class="av">N</div><div class="grow"><div class="title3">Nikhil chauhan</div><div class="cap">Near Gumma, Shimla · yesterday 20:11</div></div></div>
+                <div class="title3">Manure / fertiliser</div>
+                <div class="cap">Redlum Gala · Leaf fall · 9° · humidity 44% · no rain in 24 h</div>
+                <div class="acts-q"><span class="on">👍 1</span><span class="on">↻ 1</span><span>☆</span><span>💬 0</span><span>↗</span></div>
+              </div>
+              <div class="post" style="border-top:1px solid var(--line)">
+                <div class="who"><div class="av" style="background:#e8d9c4">T</div><div class="grow"><div class="title3">Tarun Chauhan</div><div class="cap">Near Anu, Shimla · today 08:49</div></div></div>
+                <div class="title3">Other work</div>
+                <div class="cap">"Drenching M9 roots with insecticides." · Buckeye Gala</div>
+                <div class="acts-q"><span>👍</span><span>↻</span><span>☆</span><span>💬 0</span><span>↗</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sec">
+            <div class="h2">Growers near you <a href="#">See all</a></div>
+            <div class="cap">(unchanged: cards to follow, then the shop, varieties and the blog)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ul class="notes">
+      <li><b>One "Today" tile</b> replaces three parts: the stage (big), the weather now and today, and the most urgent job with its
+        Record spray button. A grower sees what to do without scrolling.</li>
+      <li>Under it, <b>two small tiles</b>: the spray plan (a coloured dot per block, "All clear" in green) and the season calendar
+        (how many jobs are left). Each opens its screen. The three weather boxes go; the weather screen is one tap on the 20°.</li>
+      <li>The other jobs live in the calendar tile; when two or more are urgent, they still show as cards under the Today tile.</li>
+      <li><b>Your orchard first, then the community:</b> the story row moves down to "What other growers are doing", right above their posts.</li>
+      <li><b>Quiet social buttons:</b> Helpful, Did the same, Good work, comments, share become one line of icons with counts,
+        green when you've used them, instead of five outlined pills per post.</li>
+      <li>New words ("All clear", "1 more job") would be added in English and Hindi like every app word; the counts come from the data the API already sends.</li>
+      <li>Nothing removed: Not doing this, record chips, follow requests, orders, near you, shop, varieties and blog all stay, in the same order after these.</li>
+    </ul>
+  </div>
+
+  <h2>Questions for you</h2>
+  <ul class="lead">
+    <li>Stories: move them below your own "Today" (as drawn), or keep them on top as now?</li>
+    <li>The weather boxes: drop them (the Today tile has now + today, the weather screen has the rest), or keep a small 3-day strip?</li>
+  </ul>
+</main>
+</body>
+</html>

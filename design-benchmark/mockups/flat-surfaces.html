@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockup: flatter surfaces (Baagicha app)</title>
+<style>
+  @font-face { font-family: Anek; src: url(fonts/AnekLatin_400Regular.ttf); font-weight: 400; }
+  @font-face { font-family: Anek; src: url(fonts/AnekLatin_600SemiBold.ttf); font-weight: 600; }
+  @font-face { font-family: Anek; src: url(fonts/AnekLatin_700Bold.ttf); font-weight: 700; }
+  /* The app's tokens (src/theme/colors.ts, type.ts, style.ts). */
+  :root {
+    --bg: #F5F0E8; --surface: #fff; --muted-surface: #EDE8E0; --line: #E0DAD2;
+    --text: #1A1A1A; --muted: #6B6B6E; --brand: #3CB371; --action: #1B7A3A; --forest: #14522D;
+    --mint: #ECFDF3; --mint-strong: #D1FAE1; --gold: #F5A623; --gold-text: #B45309; --gold-soft: #FEF3C7;
+    --danger: #B91C1C; --danger-soft: #FEE2E2; --info: #0369A1; --info-soft: #E0F2FE;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #E9E4DC; font-family: Anek, system-ui, sans-serif; color: var(--text); }
+  main { max-width: 1180px; margin: 0 auto; padding: 32px 24px 80px; }
+  h1 { font-size: 32px; margin: 0 0 6px; }
+  h2 { font-size: 24px; margin: 48px 0 6px; }
+  .lead { color: var(--muted); max-width: 70ch; font-size: 17px; line-height: 1.5; margin: 4px 0; }
+  .rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; margin-top: 20px; }
+  .rule { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px; }
+  .rule b { display: block; font-size: 16px; margin-bottom: 2px; }
+  .rule span { color: var(--muted); font-size: 15px; line-height: 1.45; }
+  .pair { display: flex; gap: 32px; flex-wrap: wrap; align-items: flex-start; margin-top: 16px; }
+  .col { display: flex; flex-direction: column; gap: 8px; }
+  .col > .tag { font-weight: 700; font-size: 15px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+  .col > .tag.after { color: var(--action); }
+  .shot { width: 360px; border-radius: 28px; border: 8px solid #222; display: block; }
+  .notes { max-width: 300px; color: var(--muted); font-size: 15px; line-height: 1.5; }
+  .notes li { margin-bottom: 6px; }
+
+  /* ---------- The phone and the "after" screens, drawn with the app's rules ---------- */
+  .phone { width: 360px; height: 760px; border-radius: 28px; border: 8px solid #222; background: var(--bg); overflow: hidden; position: relative; }
+  .scroll { height: 100%; overflow-y: auto; padding-bottom: 24px; }
+  .header { display: flex; align-items: center; gap: 12px; padding: 14px 16px; font-size: 17px; font-weight: 600; background: var(--bg); position: sticky; top: 0; z-index: 2; }
+  .header .back { font-size: 22px; }
+  .header .grow { flex: 1; }
+  .body { padding: 0 16px; display: flex; flex-direction: column; }
+  .section { margin-top: 24px; display: flex; flex-direction: column; gap: 12px; }
+  .section:first-child { margin-top: 4px; }
+  .h2 { font-size: 20px; line-height: 28px; font-weight: 600; margin: 0; display: flex; justify-content: space-between; align-items: baseline; }
+  .h2 a { font-size: 14px; color: var(--action); font-weight: 600; text-decoration: none; }
+  /* Rule 1: a card = white + hairline border, no shadow. */
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; }
+  .pad { padding: 16px; }
+  /* Rule 2: inside a card, rows are split by hairlines, never boxed. */
+  .row { padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start; }
+  .row + .row { border-top: 1px solid var(--line); }
+  .row .grow { flex: 1; min-width: 0; }
+  .title3 { font-size: 17px; line-height: 24px; font-weight: 600; }
+  .body16 { font-size: 16px; line-height: 24px; }
+  .cap { font-size: 13px; line-height: 18px; color: var(--muted); }
+  .label { font-size: 14px; line-height: 20px; font-weight: 600; color: var(--muted); }
+  .dot { width: 10px; height: 10px; border-radius: 5px; margin-top: 7px; flex: none; }
+  .map { height: 150px; border-radius: 16px; background:
+      radial-gradient(circle at 48% 40%, #c0392b 0 7px, transparent 8px),
+      linear-gradient(135deg, #8a7f63 0%, #6f7a55 35%, #9b9174 60%, #7a8460 100%); position: relative; }
+  .map::after { content: "Gumma"; position: absolute; left: 52%; top: 30%; color: #fff; font-weight: 600; font-size: 14px; text-shadow: 0 1px 2px #0008; }
+  /* Rule 4: the few numbers that matter, big, with a small label under. */
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); }
+  .stat { padding: 12px 14px; }
+  .stat + .stat { border-left: 1px solid var(--line); }
+  .stat .n { font-size: 24px; line-height: 30px; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .stat .n small { font-size: 15px; font-weight: 600; color: var(--muted); }
+  .stat .l { font-size: 13px; line-height: 18px; color: var(--muted); }
+  .pill { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 600; padding: 2px 10px; border-radius: 99px; white-space: nowrap; }
+  .p-green { background: var(--mint-strong); color: var(--forest); }
+  .p-gold { background: var(--gold-soft); color: var(--gold-text); }
+  .p-red { background: var(--danger-soft); color: var(--danger); }
+  .p-grey { background: var(--muted-surface); color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  /* The forest "this season" card: one heading, one line, one progress, then the picker and the action. */
+  .season { background: linear-gradient(160deg, #1B6B3A, #14522D 55%, #0E3B20); color: #fff; border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .season .small { font-size: 13px; opacity: .8; }
+  .season .big { font-size: 26px; line-height: 30px; font-weight: 700; }
+  .track { height: 6px; border-radius: 3px; background: rgba(255,255,255,.25); overflow: hidden; }
+  .track i { display: block; height: 100%; width: 2%; background: var(--gold); }
+  .picker { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .tile { border: 1px solid rgba(255,255,255,.35); border-radius: 12px; padding: 8px 6px; text-align: center; font-size: 13px; line-height: 17px; }
+  .tile b { display: block; font-size: 14px; }
+  .tile.on { background: #fff; color: var(--forest); border-color: #fff; }
+  .btn { display: flex; align-items: center; justify-content: center; gap: 8px; height: 44px; border-radius: 12px; font-weight: 600; font-size: 15px; }
+  .btn-white { background: #fff; color: var(--forest); }
+  .btn-primary { background: linear-gradient(135deg, #1E7F45, #1B7A3A, #14522D); color: #fff; }
+  .btn-secondary { border: 1.5px solid var(--action); color: var(--action); background: #fff; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .jobs { margin: 0; padding-left: 18px; font-size: 15px; line-height: 22px; }
+  .or { display: flex; align-items: center; gap: 10px; padding: 0 16px; color: var(--muted); font-size: 13px; }
+  .or::before, .or::after { content: ""; flex: 1; border-top: 1px dashed var(--line); }
+  .dose { font-size: 20px; line-height: 26px; font-weight: 700; color: var(--forest); font-variant-numeric: tabular-nums; }
+  .dose small { font-size: 14px; font-weight: 600; color: var(--muted); }
+  .link { color: var(--action); font-weight: 600; font-size: 14px; margin-top: 6px; display: inline-block; }
+  .seg { display: flex; gap: 8px; overflow: hidden; }
+  .chip { flex: none; border: 1.5px solid var(--line); background: #fff; border-radius: 99px; padding: 6px 14px; font-size: 14px; font-weight: 600; }
+  .chip.on { border-color: var(--action); background: var(--mint); color: var(--action); }
+  .src { display: flex; gap: 12px; align-items: center; }
+  .src .ic { width: 40px; height: 40px; border-radius: 12px; background: var(--mint); display: grid; place-items: center; color: var(--action); font-weight: 700; flex: none; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Mockup: flatter, calmer surfaces</h1>
+  <p class="lead">Same data, same features, same colours and fonts. Only how the pieces sit on the screen changes.
+    Left: the app on your phone today. Right: the same screen with the five rules below. If you like it, these rules go into
+    the design kit (Card, a new Stat, spacing), so every screen gets them, not just these two.</p>
+
+  <div class="rules">
+    <div class="rule"><b>1 · A card is white with a thin border</b><span>No shadow on cards any more. Shadows only for things that float: sheets and the bottom bar.</span></div>
+    <div class="rule"><b>2 · No box inside a box</b><span>Inside a card, parts are split by thin lines, not grey boxes. Grey boxes stay only directly on the page.</span></div>
+    <div class="rule"><b>3 · More air between sections</b><span>24 px between sections, 12 px inside one. The eye sees groups instead of a long list.</span></div>
+    <div class="rule"><b>4 · Big numbers for what matters</b><span>Altitude, trees, dose: large number, small label under it (a new <i>Stat</i> part).</span></div>
+    <div class="rule"><b>5 · Three text levels per card</b><span>A title, a line of text, one small note. Today the season card mixes six sizes.</span></div>
+  </div>
+
+  <!-- ===================== Orchard page ===================== -->
+  <h2>Orchard page</h2>
+  <div class="pair">
+    <div class="col"><div class="tag">Before</div><img class="shot" src="../ours/en-orchard-page.png" alt="The orchard page today"></div>
+
+    <div class="col"><div class="tag after">After</div>
+      <div class="phone"><div class="scroll">
+        <div class="header"><span class="back">←</span><span class="grow">Gumma Orchard</span><span>⋮</span></div>
+        <div class="body">
+          <div class="section">
+            <div class="map"></div>
+            <div>
+              <div class="title3">Anu, Shimla, Himachal Pradesh <span class="pill p-green">★ Main</span></div>
+              <div class="cap">Below 6,000 ft · 3 bigha · rain only · hail net on part · faces north</div>
+            </div>
+            <div class="card stats">
+              <div class="stat"><div class="n">5,000<small> ft</small></div><div class="l">Altitude</div></div>
+              <div class="stat"><div class="n">60</div><div class="l">Trees</div></div>
+              <div class="stat"><div class="n">2</div><div class="l">Blocks</div></div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="season">
+              <div>
+                <div class="small">This season</div>
+                <div class="big">Dormancy</div>
+              </div>
+              <div class="track"><i></i></div>
+              <div class="small">Day 1 of about 80 · Silver tip next, from 13 Feb</div>
+              <div class="picker">
+                <div class="tile">Before<b>Leaf fall</b></div>
+                <div class="tile on">Your pick<b>Dormancy ✓</b></div>
+                <div class="tile">Next<b>Silver tip</b></div>
+              </div>
+              <ul class="jobs">
+                <li>Collar rot: paint the wounds in winter</li>
+                <li>Remove dried fruit, canker and mildew shoots</li>
+              </ul>
+              <div class="btn btn-white">Season calendar · 5 jobs →</div>
+            </div>
+            <div class="two"><div class="btn btn-primary">✎ Record work</div><div class="btn btn-secondary">▤ Spray log</div></div>
+          </div>
+
+          <div class="section">
+            <div class="h2">Spray plan <a href="#">Notifications</a></div>
+            <div class="card">
+              <div class="row"><span class="dot" style="background:var(--brand)"></span><div class="grow"><div class="title3">Dark Baron Gala</div><div class="cap">Protected until Thu 3 Dec, 6 am (your spray of 23 Nov)</div></div><span class="pill p-green">Protected</span></div>
+              <div class="row"><span class="dot" style="background:#8E8E93"></span><div class="grow"><div class="title3">Baggugosha</div><div class="cap">No official schedule for your state yet</div></div><span class="pill p-grey">No plan</span></div>
+              <div class="row"><div class="grow"><div class="label">Recent sprays</div>
+                <div class="body16">Copper Oxychloride <span class="cap">· Mon 23 Nov</span></div>
+                <div class="body16">Urea 5% <span class="cap">· Mon 23 Nov</span></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </div>
+
+    <ul class="notes">
+      <li>Altitude, trees and blocks become a <b>stat row</b> you read at a glance, instead of a grey line of text.</li>
+      <li>The season card loses three text sizes: one heading, one line, the picker, the jobs, one button.</li>
+      <li>Spray plan: one white card with lines between blocks. The grey "Recent sprays" box becomes the last row.</li>
+      <li>"Protected" / "No plan" as a small pill on the right, so the status is the first thing you see.</li>
+    </ul>
+  </div>
+
+  <!-- ===================== Spray schedule ===================== -->
+  <h2>Spray schedule (one stage)</h2>
+  <div class="pair">
+    <div class="col"><div class="tag">Before</div><img class="shot" src="../ours/en-spray.png" alt="The spray schedule today"></div>
+
+    <div class="col"><div class="tag after">After</div>
+      <div class="phone"><div class="scroll">
+        <div class="header"><span class="back">←</span><span class="grow">Apple spray schedule</span></div>
+        <div class="body">
+          <div class="section">
+            <div class="seg"><span class="chip">Below 6,000 ft</span><span class="chip on">6,000–8,000 ft</span><span class="chip">Above</span></div>
+            <div class="src"><div class="ic">PDF</div><div class="grow"><div class="title3">HP apple spray schedule 2026</div><div class="cap">Dept. of Horticulture HP · Dr YS Parmar University, Nauni · for normal weather</div></div></div>
+            <div class="seg"><span class="chip on">Himachal Pradesh · your state</span><span class="chip">Jammu and Kashmir</span></div>
+          </div>
+
+          <div class="section">
+            <div class="card">
+              <div class="row"><div class="grow"><div class="title3">1 · Green tip</div><div class="cap">31 Mar – 4 Apr</div></div><span class="pill p-gold">Diseases</span></div>
+              <div class="row"><div class="grow">
+                <div class="body16" style="font-weight:600">Captan 50 WP</div>
+                <div class="dose">600 g <small>in 200 L water</small></div>
+                <div class="chips"><span class="pill p-grey">Scab</span><span class="pill p-red">Proposed ban</span></div>
+                <span class="link">Show 6 brands ▾</span>
+              </div></div>
+              <div class="or">or</div>
+              <div class="row" style="border-top:0"><div class="grow">
+                <div class="body16" style="font-weight:600">Dodine 65 WP</div>
+                <div class="dose">200 g <small>in 200 L water</small></div>
+                <div class="chips"><span class="pill p-grey">Scab</span><span class="pill p-gold">⏱ Stop 21 days before harvest</span></div>
+                <span class="link">Show 5 brands ▾</span>
+              </div></div>
+              <div class="or">or</div>
+              <div class="row" style="border-top:0"><div class="grow">
+                <div class="body16" style="font-weight:600">Fluxapyroxad + Difenoconazole SC</div>
+                <div class="dose">60 ml <small>in 200 L water</small></div>
+                <div class="chips"><span class="pill p-grey">Scab · Powdery mildew</span><span class="pill p-gold">⏱ 33 days</span></div>
+                <span class="link">Show 1 brand ▾</span>
+              </div></div>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </div>
+
+    <ul class="notes">
+      <li>No grey boxes inside the white card: each choice is a row, the "or" is a thin dashed line.</li>
+      <li>The <b>dose is the headline</b> (big green number), because that's what a grower mixes.</li>
+      <li>"Stop N days before harvest" and "Proposed ban" become small coloured chips you can't miss.</li>
+      <li>Brand lists are folded behind "Show brands", so the stage fits on one screen.</li>
+      <li>Nothing removed: height and state chips, the official PDF (tap the PDF tile) and the "normal weather" note stay.</li>
+    </ul>
+  </div>
+
+  <h2>What changes in the code (if you say yes)</h2>
+  <ul class="lead">
+    <li><b>Design kit (all screens at once):</b> <code>Card</code> drops its shadow; a new <code>Stat</code> / <code>StatRow</code>; a
+      <code>CardRow</code> for hairline rows; section spacing 24 px in <code>Screen</code>.</li>
+    <li><b>Then screen by screen:</b> the 13 places with a grey box inside a card become rows (orchard page, spray schedule,
+      plan, weather notes…), starting with the two above.</li>
+    <li>No API, words or features change. Hindi gets the same layout (the numbers and pills don't depend on the language).</li>
+  </ul>
+</main>
+</body>
+</html>

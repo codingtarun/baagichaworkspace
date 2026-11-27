@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Baagvaani Pro — Powdery Mildew Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #090d16;
+            --bg-card: rgba(17, 24, 39, 0.85);
+            --bg-card-hover: rgba(24, 34, 53, 0.95);
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            
+            --emerald-glow: #10b981;
+            --emerald-soft: rgba(16, 185, 129, 0.12);
+            --amber-glow: #f59e0b;
+            --amber-soft: rgba(245, 158, 11, 0.12);
+            --rose-glow: #f43f5e;
+            --rose-soft: rgba(244, 63, 94, 0.15);
+            --cyan-glow: #06b6d4;
+            --cyan-soft: rgba(6, 182, 212, 0.12);
+            --purple-glow: #a855f7;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-base);
+            background-image: 
+                radial-gradient(circle at 10% 10%, rgba(168, 85, 247, 0.05) 0%, transparent 40%),
+                radial-gradient(circle at 90% 90%, rgba(245, 158, 11, 0.05) 0%, transparent 45%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 16px 12px;
+            display: flex;
+            justify-content: center;
+        }
+
+        @media (min-width: 768px) { body { padding: 28px 20px; } }
+
+        .dashboard-container { width: 100%; max-width: 1240px; }
+
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 18px;
+            padding-bottom: 14px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .brand-block { display: flex; align-items: center; gap: 10px; }
+
+        .brand-logo {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #a855f7, #6b21a8);
+            border-radius: 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 16px rgba(168, 85, 247, 0.35);
+            flex-shrink: 0;
+        }
+
+        .brand-title {
+            font-size: 17px;
+            font-weight: 800;
+            letter-spacing: -0.4px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .brand-tag {
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 2px 7px;
+            border-radius: 5px;
+            background: rgba(168, 85, 247, 0.15);
+            color: var(--purple-glow);
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            letter-spacing: 0.5px;
+        }
+
+        .nav-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 11px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-secondary);
+        }
+
+        .status-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: var(--amber-glow);
+            box-shadow: 0 0 8px var(--amber-glow);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(0.95); opacity: 0.7; }
+            50% { transform: scale(1.2); opacity: 1; }
+            100% { transform: scale(0.95); opacity: 0.7; }
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+
+        @media (min-width: 960px) {
+            .main-grid { grid-template-columns: 1.15fr 0.95fr; gap: 22px; }
+        }
+
+        .glass-panel {
+            background: var(--bg-card);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--border-subtle);
+            border-radius: 14px;
+            padding: 16px;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+        }
+
+        @media (min-width: 768px) {
+            .glass-panel { padding: 22px; border-radius: 16px; }
+        }
+
+        .panel-heading {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: var(--text-secondary);
+            margin-bottom: 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .control-matrix { display: flex; flex-direction: column; gap: 12px; }
+
+        .sensor-card {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 10px 12px;
+            transition: all 0.2s ease;
+        }
+
+        .sensor-card:hover, .sensor-card:focus-within {
+            border-color: rgba(168, 85, 247, 0.3);
+            background: var(--bg-card-hover);
+        }
+
+        .sensor-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .sensor-info { display: flex; align-items: center; gap: 6px; }
+        .sensor-icon { font-size: 15px; }
+        .sensor-name { font-size: 12px; font-weight: 600; color: var(--text-primary); }
+
+        .manual-input-wrap {
+            display: flex;
+            align-items: center;
+            background: #0b111e;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 6px;
+            padding: 2px 6px;
+        }
+
+        .manual-input-wrap:focus-within {
+            border-color: var(--purple-glow);
+            box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.2);
+        }
+
+        .manual-input {
+            width: 58px;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            font-weight: 700;
+            text-align: right;
+            padding: 3px 0;
+        }
+
+        .manual-unit {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-left: 3px;
+            user-select: none;
+        }
+
+        .slider-bar {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 8px;
+            border-radius: 4px;
+            background: #1e293b;
+            outline: none;
+            cursor: pointer;
+            margin: 6px 0 2px 0;
+            touch-action: none;
+        }
+
+        .slider-bar::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #ffffff;
+            border: 2.5px solid var(--purple-glow);
+            box-shadow: 0 0 10px var(--purple-glow);
+            cursor: pointer;
+            transition: transform 0.1s ease;
+        }
+
+        .slider-bar::-webkit-slider-thumb:active { transform: scale(1.15); }
+
+        .slider-bar::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #ffffff;
+            border: 2.5px solid var(--purple-glow);
+            box-shadow: 0 0 10px var(--purple-glow);
+            cursor: pointer;
+        }
+
+        .slider-bar::-moz-range-track {
+            background: #1e293b;
+            height: 8px;
+            border-radius: 4px;
+        }
+
+        .range-bounds {
+            display: flex;
+            justify-content: space-between;
+            font-size: 9px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-muted);
+            margin-top: 3px;
+        }
+
+        .scenario-container {
+            margin-top: 14px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .scenario-label {
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .scenario-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 6px;
+        }
+
+        @media (max-width: 420px) { .scenario-grid { grid-template-columns: 1fr; } }
+
+        .preset-chip {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 8px;
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            cursor: pointer;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .preset-chip:active, .preset-chip:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+        }
+
+        .preset-chip span {
+            font-size: 9px;
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .output-column { display: flex; flex-direction: column; gap: 14px; }
+
+        .threat-hero {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 14px;
+            border-radius: 12px;
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--border-subtle);
+        }
+
+        .dial-wrap {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            flex-shrink: 0;
+        }
+
+        .dial-svg { transform: rotate(-90deg); }
+        .dial-bg { fill: none; stroke: #1e293b; stroke-width: 7; }
+
+        .dial-bar {
+            fill: none;
+            stroke: var(--amber-glow);
+            stroke-width: 7;
+            stroke-linecap: round;
+            stroke-dasharray: 213.6;
+            stroke-dashoffset: 213.6;
+            transition: stroke-dashoffset 0.4s ease, stroke 0.4s ease;
+        }
+
+        .dial-center-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .dial-val { font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 800; color: #ffffff; }
+        .dial-lbl { font-size: 7px; font-weight: 700; text-transform: uppercase; color: var(--text-muted); }
+        .threat-details { flex-grow: 1; }
+
+        .threat-pill {
+            display: inline-flex;
+            align-items: center;
+            padding: 3px 7px;
+            border-radius: 5px;
+            font-size: 10px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .threat-desc { font-size: 11px; color: var(--text-secondary); line-height: 1.4; }
+
+        .telemetry-summary {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+        }
+
+        .summary-box {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 8px;
+        }
+
+        .summary-lbl {
+            font-size: 9px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            letter-spacing: 0.4px;
+        }
+
+        .summary-val {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-top: 2px;
+        }
+
+        .chart-panel {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 14px;
+        }
+
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .chart-title {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+        }
+
+        canvas { width: 100%; height: 145px; display: block; }
+
+        .advisory-card {
+            border-radius: 10px;
+            padding: 12px 14px;
+            border-left: 4px solid var(--cyan-glow);
+            background: rgba(15, 23, 42, 0.7);
+            border-top: 1px solid var(--border-subtle);
+            border-right: 1px solid var(--border-subtle);
+            border-bottom: 1px solid var(--border-subtle);
+            transition: all 0.3s ease;
+        }
+
+        .advisory-title { font-size: 12px; font-weight: 700; margin-bottom: 3px; color: #ffffff; }
+        .advisory-text { font-size: 11px; color: var(--text-secondary); line-height: 1.45; }
+
+        .is-safe { color: var(--cyan-glow); background: var(--cyan-soft); border: 1px solid rgba(6, 182, 212, 0.3); }
+        .is-low { color: var(--emerald-glow); background: var(--emerald-soft); border: 1px solid rgba(16, 185, 129, 0.3); }
+        .is-mod { color: var(--amber-glow); background: var(--amber-soft); border: 1px solid rgba(245, 158, 11, 0.3); }
+        .is-severe { color: var(--rose-glow); background: var(--rose-soft); border: 1px solid rgba(244, 63, 94, 0.35); }
+    </style>
+</head>
+<body>
+
+<div class="dashboard-container">
+
+    <div class="top-nav">
+        <div class="brand-block">
+            <div class="brand-logo">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <!-- Leaf with powdery spots icon -->
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                    <circle cx="9" cy="9" r="1.5" fill="#fff"/>
+                    <circle cx="14" cy="11" r="1" fill="#fff"/>
+                    <circle cx="11" cy="15" r="1.5" fill="#fff"/>
+                </svg>
+            </div>
+            <div class="brand-title">Baagvaani <span class="brand-tag">Risk Engine</span></div>
+        </div>
+
+        <div class="nav-status">
+            <div class="status-dot"></div>
+            <span>POWDERY MILDEW THREAT</span>
+        </div>
+    </div>
+
+    <div class="main-grid">
+
+        <!-- Controls Column -->
+        <div class="glass-panel">
+            <div class="panel-heading">
+                <span>Orchard Sensor Inputs</span>
+                <span style="font-size: 10px; color: var(--text-muted);">Type or Drag</span>
+            </div>
+
+            <div class="control-matrix">
+
+                <!-- 1. Canopy Temperature -->
+                <div class="sensor-card">
+                    <div class="sensor-header">
+                        <div class="sensor-info">
+                            <span class="sensor-icon">🌡️</span>
+                            <span class="sensor-name">Canopy Temperature</span>
+                        </div>
+                        <div class="manual-input-wrap">
+                            <input type="number" id="num-temp" class="manual-input" value="22.0" step="0.5" min="0" max="40">
+                            <span class="manual-unit">°C</span>
+                        </div>
+                    </div>
+                    <input type="range" id="range-temp" class="slider-bar" min="0" max="40" step="0.5" value="22.0">
+                    <div class="range-bounds">
+                        <span>10°C (Dormant)</span>
+                        <span>19–25°C (Peak Risk)</span>
+                        <span>30°C+ (Arrest)</span>
+                    </div>
+                </div>
+
+                <!-- 2. Relative Humidity (Main Driver) -->
+                <div class="sensor-card">
+                    <div class="sensor-header">
+                        <div class="sensor-info">
+                            <span class="sensor-icon">🌫️</span>
+                            <span class="sensor-name">Relative Humidity</span>
+                        </div>
+                        <div class="manual-input-wrap">
+                            <input type="number" id="num-rh" class="manual-input" value="85" step="1" min="10" max="100">
+                            <span class="manual-unit">%</span>
+                        </div>
+                    </div>
+                    <input type="range" id="range-rh" class="slider-bar" min="10" max="100" step="1" value="85">
+                    <div class="range-bounds">
+                        <span>< 70% (Low)</span>
+                        <span>70-90% (Active)</span>
+                        <span>> 90% (Optimal)</span>
+                    </div>
+                </div>
+
+                <!-- 3. Leaf Wetness (Inhibitor) -->
+                <div class="sensor-card">
+                    <div class="sensor-header">
+                        <div class="sensor-info">
+                            <span class="sensor-icon">🌧️</span>
+                            <span class="sensor-name">Rainfall / Free Water</span>
+                        </div>
+                        <div class="manual-input-wrap">
+                            <input type="number" id="num-wet" class="manual-input" value="0.0" step="0.5" min="0" max="24">
+                            <span class="manual-unit">hrs</span>
+                        </div>
+                    </div>
+                    <input type="range" id="range-wet" class="slider-bar" min="0" max="24" step="0.5" value="0.0">
+                    <div class="range-bounds">
+                        <span>0h (Dry Leaf)</span>
+                        <span>Inhibits Spores</span>
+                        <span>>6h (Washout)</span>
+                    </div>
+                </div>
+
+                <!-- 4. Airflow -->
+                <div class="sensor-card">
+                    <div class="sensor-header">
+                        <div class="sensor-info">
+                            <span class="sensor-icon">💨</span>
+                            <span class="sensor-name">Airflow Velocity</span>
+                        </div>
+                        <div class="manual-input-wrap">
+                            <input type="number" id="num-wind" class="manual-input" value="2.0" step="0.5" min="0" max="40">
+                            <span class="manual-unit">km/h</span>
+                        </div>
+                    </div>
+                    <input type="range" id="range-wind" class="slider-bar" min="0" max="40" step="0.5" value="2.0">
+                    <div class="range-bounds">
+                        <span>0 km/h</span>
+                        <span>Dispersal Aid</span>
+                        <span>40 km/h</span>
+                    </div>
+                </div>
+
+                <!-- 5. Solar Hours -->
+                <div class="sensor-card">
+                    <div class="sensor-header">
+                        <div class="sensor-info">
+                            <span class="sensor-icon">☀️</span>
+                            <span class="sensor-name">Solar Exposure / UV</span>
+                        </div>
+                        <div class="manual-input-wrap">
+                            <input type="number" id="num-sun" class="manual-input" value="2.0" step="0.5" min="0" max="14">
+                            <span class="manual-unit">hrs</span>
+                        </div>
+                    </div>
+                    <input type="range" id="range-sun" class="slider-bar" min="0" max="14" step="0.5" value="2.0">
+                    <div class="range-bounds">
+                        <span>0h (Cloudy)</span>
+                        <span>UV Inhibits Growth</span>
+                        <span>14h (Clear)</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Presets -->
+            <div class="scenario-container">
+                <span class="scenario-label">Benchmark Scenarios</span>
+                <div class="scenario-grid">
+                    <button class="preset-chip" onclick="loadPreset(22.0, 95, 0.0, 2.0, 1.0)">
+                        ☁️ Overcast & Humid
+                        <span>22°C | 95% RH | Peak Risk</span>
+                    </button>
+                    <button class="preset-chip" onclick="loadPreset(20.0, 98, 8.0, 5.0, 0.0)">
+                        🌧️ Heavy Rain Washout
+                        <span>20°C | 8h Wet | Low Risk</span>
+                    </button>
+                    <button class="preset-chip" onclick="loadPreset(12.0, 50, 0.0, 8.0, 8.0)">
+                        🛡️ Cool & Clear
+                        <span>12°C | 50% RH | Safe</span>
+                    </button>
+                    <button class="preset-chip" onclick="loadPreset(32.0, 30, 0.0, 10.0, 12.0)">
+                        🔥 Hot & Dry (Arrest)
+                        <span>32°C | 30% RH | 0% Risk</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Output Column -->
+        <div class="output-column">
+
+            <!-- Threat Assessment Card -->
+            <div class="glass-panel">
+                <div class="panel-heading">
+                    <span>Threat Assessment</span>
+                    <span id="txt-calc-status" style="font-size: 10px; font-family: 'JetBrains Mono'; color: var(--emerald-glow);">ACTIVE</span>
+                </div>
+
+                <div class="threat-hero">
+                    <div class="dial-wrap">
+                        <svg class="dial-svg" width="80" height="80" viewBox="0 0 80 80">
+                            <circle class="dial-bg" cx="40" cy="40" r="34"></circle>
+                            <circle id="dial-bar" class="dial-bar" cx="40" cy="40" r="34"></circle>
+                        </svg>
+                        <div class="dial-center-text">
+                            <div class="dial-val" id="disp-risk-pct">0%</div>
+                            <div class="dial-lbl">RISK</div>
+                        </div>
+                    </div>
+
+                    <div class="threat-details">
+                        <div id="disp-pill" class="threat-pill is-safe">SAFE CONDITION</div>
+                        <div id="disp-desc" class="threat-desc">Orchard microclimate does not support powdery mildew spore germination.</div>
+                    </div>
+                </div>
+
+                <div class="telemetry-summary" style="margin-top: 12px;">
+                    <div class="summary-box">
+                        <div class="summary-lbl">Temp Risk</div>
+                        <div class="summary-val" id="disp-temp-factor">--</div>
+                    </div>
+                    <div class="summary-box">
+                        <div class="summary-lbl">RH Multiplier</div>
+                        <div class="summary-val" id="disp-rh-factor">--</div>
+                    </div>
+                    <div class="summary-box">
+                        <div class="summary-lbl">Water Penalty</div>
+                        <div class="summary-val" id="disp-wet-penalty">--</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Threat Curve Visualizer -->
+            <div class="glass-panel chart-panel">
+                <div class="chart-header">
+                    <span class="chart-title">Infection Threat Curve (% Risk vs Temp)</span>
+                    <span style="font-size: 9px; font-family: 'JetBrains Mono'; color: var(--text-muted);">● Current Orchard Point</span>
+                </div>
+                <canvas id="threatCanvas" width="450" height="145"></canvas>
+            </div>
+
+            <!-- Agronomic Recommendation -->
+            <div class="advisory-card" id="advisory-card">
+                <div class="advisory-title" id="advisory-title">Agronomic Recommendation</div>
+                <div class="advisory-text" id="advisory-body">
+                    Temperatures or humidity levels are non-conducive to fungal spread. Maintain standard monitoring.
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    const params = ['temp', 'rh', 'wet', 'wind', 'sun'];
+    const canvas = document.getElementById('threatCanvas');
+    const ctx = canvas.getContext('2d');
+
+    params.forEach(param => {
+        const numInput = document.getElementById(`num-${param}`);
+        const rangeInput = document.getElementById(`range-${param}`);
+
+        numInput.addEventListener('input', () => {
+            rangeInput.value = numInput.value;
+            evaluateModel();
+        });
+
+        rangeInput.addEventListener('input', () => {
+            numInput.value = rangeInput.value;
+            evaluateModel();
+        });
+    });
+
+    function loadPreset(temp, rh, wet, wind, sun) {
+        document.getElementById('num-temp').value = temp;
+        document.getElementById('range-temp').value = temp;
+        document.getElementById('num-rh').value = rh;
+        document.getElementById('range-rh').value = rh;
+        document.getElementById('num-wet').value = wet;
+        document.getElementById('range-wet').value = wet;
+        document.getElementById('num-wind').value = wind;
+        document.getElementById('range-wind').value = wind;
+        document.getElementById('num-sun').value = sun;
+        document.getElementById('range-sun').value = sun;
+
+        evaluateModel();
+    }
+
+    // BASE TEMPERATURE RISK FOR POWDERY MILDEW
+    function getMildewTempRisk(t) {
+        if (t < 10.0 || t > 30.0) return 0; // Dormant or Heat Arrest
+        if (t >= 19.0 && t <= 25.0) return 100; // Peak Optimal Window
+        if (t < 19.0) {
+            return ((t - 10.0) / 9.0) * 100;
+        }
+        if (t > 25.0) {
+            return (1 - ((t - 25.0) / 5.0)) * 100;
+        }
+        return 0;
+    }
+
+    // CALCULATE OVERALL RISK PERCENTAGE (0 to 100%)
+    function computeRiskPct(temp, rh, wetHours, uvHours) {
+        let baseRisk = getMildewTempRisk(temp);
+        
+        if (baseRisk === 0) return 0;
+
+        // RH Multiplier: Powdery mildew thrives in high humidity without free water
+        let rhMult = 0.4;
+        if (rh >= 90) rhMult = 1.0;
+        else if (rh >= 70) rhMult = 0.4 + 0.6 * ((rh - 70) / 20);
+        else rhMult = 0.1 + 0.3 * (rh / 70); 
+
+        // Wetness Penalty: Free water disrupts germination and washes spores
+        let wetPenalty = 1.0;
+        if (wetHours > 0) {
+            wetPenalty = Math.max(0.05, 1.0 - (wetHours * 0.15));
+        }
+
+        // UV Penalty: Direct sunlight inhibits mycelial growth
+        let uvPenalty = 1.0;
+        if (uvHours > 4) {
+             uvPenalty = Math.max(0.4, 1.0 - ((uvHours - 4) * 0.1));
+        }
+
+        let totalRisk = baseRisk * rhMult * wetPenalty * uvPenalty;
+        return Math.min(100, Math.round(totalRisk));
+    }
+
+    function evaluateModel() {
+        const temp = parseFloat(document.getElementById('num-temp').value) || 0;
+        const rh = parseFloat(document.getElementById('num-rh').value) || 0;
+        const wet = parseFloat(document.getElementById('num-wet').value) || 0;
+        const wind = parseFloat(document.getElementById('num-wind').value) || 0;
+        const sun = parseFloat(document.getElementById('num-sun').value) || 0;
+
+        const baseTempRisk = getMildewTempRisk(temp);
+        const riskPct = computeRiskPct(temp, rh, wet, sun);
+
+        // Display Telemetry Factors
+        document.getElementById('disp-temp-factor').innerText = baseTempRisk.toFixed(0) + "%";
+        
+        let rhFactorText = "Optimal";
+        if (rh < 90) rhFactorText = "Active";
+        if (rh < 70) rhFactorText = "Low";
+        document.getElementById('disp-rh-factor').innerText = `${rh}% (${rhFactorText})`;
+        
+        let wetPenText = wet > 0 ? `-${Math.min(95, Math.round(wet * 15))}%` : "None";
+        document.getElementById('disp-wet-penalty').innerText = wetPenText;
+
+        let statusClass = "is-safe";
+        let title = "SAFE CONDITION";
+        let desc = "Orchard microclimate does not support powdery mildew spore germination.";
+        let advTitle = "Protective Status: Safe";
+        let advBody = "Temperatures are out of bounds or continuous heavy rainfall has washed the canopy. No intervention required.";
+        let advBorder = "var(--cyan-glow)";
+        let dialColor = "var(--cyan-glow)";
+
+        if (temp >= 30.0) {
+            title = "THERMAL ARREST (HEAT INHIBITED)";
+            desc = `Canopy temperature (${temp}°C) exceeds the 30°C upper limit. Spores cannot infect.`;
+            advTitle = "Zero Mildew Risk (Heat Suppression)";
+            advBody = "Powdery mildew is biologically inactive above 30°C. Focus on heat stress management rather than fungicide applications.";
+        } else if (temp < 10.0) {
+            title = "COLD DORMANT (< 10°C)";
+            desc = `Canopy temperature (${temp}°C) is below 10°C. Pathogen metabolism is suspended.`;
+            advTitle = "Temperature Too Cold For Infection";
+            advBody = "Fungal metabolism is halted below 10°C. Dormant controls only if required.";
+        } else if (wet >= 6.0) {
+            title = "RAIN WASHOUT";
+            desc = `Heavy free moisture (${wet}h) has disrupted spore germination and washed mycelium.`;
+            advTitle = "Infection Inhibited by Rain";
+            advBody = "Powdery mildew cannot germinate in free water. However, monitor for other moisture-loving fungi (like Apple Scab).";
+        } else if (riskPct >= 75) {
+            statusClass = "is-severe";
+            title = "CRITICAL: SEVERE INFECTION";
+            desc = "Optimal temperature and high humidity detected. Rapid secondary mycelial growth underway.";
+            advTitle = "Urgent: Direct Control Required";
+            advBody = "Apply sulfur-based formulations, botanical oils, or biological antagonists (e.g., Bacillus subtilis) to disrupt mycelial growth and protect new shoots.";
+            advBorder = "var(--rose-glow)";
+            dialColor = "var(--rose-glow)";
+        } else if (riskPct >= 40) {
+            statusClass = "is-mod";
+            title = "WARNING: MODERATE INFECTION";
+            desc = "Conditions are conducive for spore germination. Terminal shoots are at risk.";
+            advTitle = "Action: Protective Cover";
+            advBody = "Ensure active biological barrier is in place. Consider mild sulfur dust or bio-fungicide sprays, especially on highly susceptible scion varieties.";
+            advBorder = "var(--amber-glow)";
+            dialColor = "var(--amber-glow)";
+        } else if (riskPct > 0) {
+            statusClass = "is-low";
+            title = "ALERT: LIGHT INFECTION";
+            desc = "Marginal conditions for fungal growth. Spores are active but development is slow.";
+            advTitle = "Advisory: Monitor Canopy Humidity";
+            advBody = "Maintain proper pruning to ensure canopy airflow. Routine biological maintenance sprays are sufficient at this level.";
+            advBorder = "var(--emerald-glow)";
+            dialColor = "var(--emerald-glow)";
+        }
+
+        document.getElementById('disp-risk-pct').innerText = riskPct + "%";
+        
+        const offset = 213.6 - (213.6 * (riskPct / 100));
+        const dialBar = document.getElementById('dial-bar');
+        dialBar.style.strokeDashoffset = offset;
+        dialBar.style.stroke = dialColor;
+
+        const pill = document.getElementById('disp-pill');
+        pill.className = `threat-pill ${statusClass}`;
+        pill.innerText = title;
+        document.getElementById('disp-desc').innerText = desc;
+
+        const advCard = document.getElementById('advisory-card');
+        advCard.style.borderLeftColor = advBorder;
+        document.getElementById('advisory-title').innerText = advTitle;
+        document.getElementById('advisory-body').innerText = advBody;
+
+        renderThreatCurve(temp, rh, wet, sun, riskPct);
+    }
+
+    function renderThreatCurve(currentTemp, currentRH, currentWet, currentSun, currentRisk) {
+        const dpr = window.devicePixelRatio || 1;
+        const rect = canvas.getBoundingClientRect();
+        
+        if (rect.width === 0 || rect.height === 0) return;
+
+        canvas.width = rect.width * dpr;
+        canvas.height = rect.height * dpr;
+        ctx.resetTransform();
+        ctx.scale(dpr, dpr);
+
+        const w = rect.width;
+        const h = rect.height;
+
+        ctx.clearRect(0, 0, w, h);
+
+        const padLeft = 32;
+        const padBottom = 20;
+        const padTop = 10;
+        const padRight = 12;
+
+        const graphW = w - padLeft - padRight;
+        const graphH = h - padBottom - padTop;
+
+        const minT = 5, maxT = 35;
+        const minR = 0, maxR = 100;
+
+        function getX(t) { return padLeft + ((t - minT) / (maxT - minT)) * graphW; }
+        function getY(r) { return (padTop + graphH) - ((r - minR) / (maxR - minR)) * graphH; }
+
+        // Grid lines
+        ctx.strokeStyle = "rgba(255, 255, 255, 0.06)";
+        ctx.lineWidth = 1;
+
+        for (let t = 5; t <= 35; t += 5) {
+            ctx.beginPath();
+            ctx.moveTo(getX(t), padTop);
+            ctx.lineTo(getX(t), padTop + graphH);
+            ctx.stroke();
+
+            ctx.fillStyle = "#64748b";
+            ctx.font = "8px 'JetBrains Mono', monospace";
+            ctx.textAlign = "center";
+            ctx.fillText(t + "°", getX(t), h - 5);
+        }
+
+        for (let r = 25; r <= 100; r += 25) {
+            ctx.beginPath();
+            ctx.moveTo(padLeft, getY(r));
+            ctx.lineTo(padLeft + graphW, getY(r));
+            ctx.stroke();
+
+            ctx.fillStyle = "#64748b";
+            ctx.font = "8px 'JetBrains Mono', monospace";
+            ctx.textAlign = "right";
+            ctx.fillText(r + "%", padLeft - 4, getY(r) + 3);
+        }
+
+        // Draw Severe Risk Threshold Line
+        ctx.beginPath();
+        ctx.strokeStyle = "rgba(244, 63, 94, 0.25)";
+        ctx.setLineDash([3, 3]);
+        ctx.moveTo(padLeft, getY(75));
+        ctx.lineTo(padLeft + graphW, getY(75));
+        ctx.stroke();
+        ctx.setLineDash([]);
+
+        // Draw The Dynamic Bell Curve modified by current RH and Wetness
+        ctx.beginPath();
+        let started = false;
+
+        for (let t = 5; t <= 35; t += 0.5) {
+            const risk = computeRiskPct(t, currentRH, currentWet, currentSun);
+            const x = getX(t);
+            const y = getY(risk);
+
+            if (!started) {
+                ctx.moveTo(x, y);
+                started = true;
+            } else {
+                ctx.lineTo(x, y);
+            }
+        }
+
+        const grad = ctx.createLinearGradient(0, getY(100), 0, getY(0));
+        grad.addColorStop(0, "rgba(244, 63, 94, 0.35)");
+        grad.addColorStop(0.5, "rgba(245, 158, 11, 0.2)");
+        grad.addColorStop(1, "rgba(168, 85, 247, 0.0)");
+
+        ctx.strokeStyle = currentRisk >= 75 ? "var(--rose-glow)" : (currentRisk >= 40 ? "var(--amber-glow)" : (currentRisk > 0 ? "var(--emerald-glow)" : "var(--cyan-glow)"));
+        ctx.lineWidth = 2.5;
+        ctx.stroke();
+
+        ctx.lineTo(getX(35), getY(0));
+        ctx.lineTo(getX(5), getY(0));
+        ctx.closePath();
+        ctx.fillStyle = grad;
+        ctx.fill();
+
+        // Draw Current Orchard Point
+        let plotT = currentTemp;
+        if (plotT < 5) plotT = 5;
+        if (plotT > 35) plotT = 35;
+        
+        const px = getX(plotT);
+        const py = getY(currentRisk);
+
+        ctx.beginPath();
+        ctx.arc(px, py, 7, 0, 2 * Math.PI);
+        ctx.fillStyle = currentRisk >= 75 ? "rgba(244, 63, 94, 0.35)" : (currentRisk >= 40 ? "rgba(245, 158, 11, 0.3)" : "rgba(16, 185, 129, 0.3)");
+        if (currentRisk === 0) ctx.fillStyle = "rgba(6, 182, 212, 0.3)";
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.arc(px, py, 3.5, 0, 2 * Math.PI);
+        ctx.fillStyle = "#ffffff";
+        ctx.fill();
+        ctx.strokeStyle = currentRisk >= 75 ? "var(--rose-glow)" : (currentRisk >= 40 ? "var(--amber-glow)" : (currentRisk > 0 ? "var(--emerald-glow)" : "var(--cyan-glow)"));
+        ctx.lineWidth = 2;
+        ctx.stroke();
+    }
+
+    window.addEventListener('resize', evaluateModel);
+    window.addEventListener('DOMContentLoaded', evaluateModel);
+    evaluateModel();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockup: a second colour (Baagicha app)</title>
+<style>
+  @font-face { font-family: Anek; src: url(fonts/AnekLatin_400Regular.ttf); font-weight: 400; }
+  @font-face { font-family: Anek; src: url(fonts/AnekLatin_600SemiBold.ttf); font-weight: 600; }
+  @font-face { font-family: Anek; src: url(fonts/AnekLatin_700Bold.ttf); font-weight: 700; }
+  :root {
+    --bg: #F5F0E8; --surface: #fff; --muted-surface: #EDE8E0; --line: #E0DAD2;
+    --text: #1A1A1A; --muted: #6B6B6E; --brand: #3CB371; --action: #1B7A3A; --forest: #14522D;
+    --mint: #ECFDF3; --mint-strong: #D1FAE1; --gold: #F5A623; --gold-text: #B45309; --gold-soft: #FEF3C7;
+    --danger: #B91C1C; --danger-soft: #FEE2E2;
+  }
+  /* Each phone sets its accent: a fill (icons, dots, rings), a text colour and a soft background. */
+  .now-look { --accent: #F5A623; --accent-text: #B45309; --accent-soft: #FEF3C7; --accent-ring: #3CB371; }
+  .saffron { --accent: #E8791D; --accent-text: #9A4410; --accent-soft: #FFEDD5; --accent-ring: #E8791D; }
+  .sky { --accent: #2B7BD8; --accent-text: #1D4E89; --accent-soft: #DCEBFB; --accent-ring: #2B7BD8; }
+  .blossom { --accent: #D9467A; --accent-text: #9D1B4E; --accent-soft: #FCE4EE; --accent-ring: #D9467A; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #E9E4DC; font-family: Anek, system-ui, sans-serif; color: var(--text); }
+  main { max-width: 1400px; margin: 0 auto; padding: 32px 24px 80px; }
+  h1 { font-size: 32px; margin: 0 0 6px; }
+  h2 { font-size: 24px; margin: 40px 0 6px; }
+  .lead { color: var(--muted); max-width: 78ch; font-size: 17px; line-height: 1.5; margin: 4px 0; }
+  .row { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px; align-items: flex-start; }
+  .col { display: flex; flex-direction: column; gap: 8px; width: 300px; }
+  .name { font-weight: 700; font-size: 18px; }
+  .why { color: var(--muted); font-size: 14px; line-height: 1.45; min-height: 64px; }
+  .sw { display: flex; gap: 6px; }
+  .sw i { width: 28px; height: 28px; border-radius: 8px; display: block; border: 1px solid #0001; }
+
+  .phone { width: 300px; border-radius: 26px; border: 7px solid #222; background: var(--bg); overflow: hidden; }
+  .top { padding: 10px 14px 8px; background: linear-gradient(160deg, #E3F7EB, #F4FBF6 55%, #FFF8EA); }
+  .place { font-size: 12px; font-weight: 600; color: var(--action); }
+  .place b { color: var(--accent); }
+  .hello { font-size: 22px; font-weight: 700; }
+  .body { padding: 10px 14px 16px; display: flex; flex-direction: column; gap: 12px; }
+  .label { font-size: 12px; font-weight: 600; color: var(--muted); }
+  .stories { display: flex; gap: 12px; }
+  .ring { width: 44px; height: 44px; border-radius: 22px; display: grid; place-items: center; font-weight: 700; }
+  .ring.add { background: var(--accent-soft); color: var(--accent-text); font-size: 20px; }
+  .ring.new { background: var(--mint-strong); color: var(--forest); box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--accent-ring); }
+  .sl { font-size: 11px; color: var(--muted); text-align: center; margin-top: 2px; }
+  .hero { background: linear-gradient(160deg, #1B6B3A, #14522D 55%, #0E3B20); color: #fff; border-radius: 16px; padding: 12px; display: flex; flex-direction: column; gap: 10px; }
+  .hero .small { font-size: 11px; opacity: .85; }
+  .hero .stage { font-size: 22px; font-weight: 700; line-height: 26px; }
+  .hero .top-row { display: flex; justify-content: space-between; }
+  .hero .t { font-size: 22px; font-weight: 700; text-align: right; }
+  .job { background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.22); border-radius: 12px; padding: 10px; display: flex; flex-direction: column; gap: 6px; }
+  .pill { display: inline-flex; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 99px; width: fit-content; }
+  .p-now { background: var(--accent-soft); color: var(--accent-text); }
+  .p-warn { background: var(--gold-soft); color: var(--gold-text); }
+  .p-red { background: var(--danger-soft); color: var(--danger); }
+  .what { font-size: 14px; font-weight: 600; }
+  .btns { display: flex; gap: 6px; }
+  .btn { flex: 1; height: 34px; border-radius: 10px; display: grid; place-items: center; font-size: 12px; font-weight: 600; }
+  .bw { background: #fff; color: var(--forest); }
+  .bl { border: 1.5px solid rgba(255,255,255,.5); color: #fff; }
+  .tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .tile { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 10px; display: flex; flex-direction: column; gap: 3px; }
+  .tile .k { font-size: 11px; font-weight: 600; color: var(--muted); display: flex; gap: 4px; align-items: center; }
+  .tile .k .ic { color: var(--accent); }
+  .tile .v { font-size: 15px; font-weight: 700; }
+  .tile .v.acc { color: var(--accent-text); }
+  .dots { display: flex; gap: 3px; }
+  .dots i { width: 8px; height: 8px; border-radius: 4px; display: block; }
+  .chips { display: flex; gap: 6px; overflow: hidden; }
+  .chip { flex: none; border: 1.5px solid var(--line); background: #fff; border-radius: 99px; padding: 5px 10px; font-size: 12px; font-weight: 600; }
+  .chip .ic { color: var(--accent); }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 10px; display: flex; flex-direction: column; gap: 4px; }
+  .acts { display: flex; gap: 14px; font-size: 12px; font-weight: 600; color: var(--muted); }
+  .acts .on { color: var(--action); }
+  .tabs { display: flex; justify-content: space-around; background: #fff; border-top: 1px solid var(--line); padding: 6px 0 8px; font-size: 10px; color: var(--muted); }
+  .tabs span { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+  .tabs .on { color: var(--action); font-weight: 600; }
+  .tabs .pill-on { background: var(--mint-strong); border-radius: 12px; padding: 2px 14px; }
+  .rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; margin-top: 12px; }
+  .rule { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; font-size: 15px; line-height: 1.45; color: var(--muted); }
+  .rule b { color: var(--text); display: block; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Mockup: a second colour</h1>
+  <p class="lead">Today the app is green for everything: buttons, links, icons, pills, cards. Gold appears only in small pills and
+    means both "do now" and "warning". The idea: keep <b>green for actions</b> (buttons, links, the selected tab), keep <b>red and gold
+    for warnings</b>, and add <b>one accent</b> for what is <i>new or due now</i>: the "Do now" pill, new stories, the calendar tile,
+    the record-work icons. Same Home, same data; only the accent changes. Pick one (or "keep as now").</p>
+
+  <div class="row">
+    <div class="col">
+      <div class="name">Today (no accent)</div>
+      <div class="why">Gold "Do now" looks like the frost and weather warnings; everything else is green.</div>
+      <div class="sw"><i style="background:#1B7A3A"></i><i style="background:#F5A623"></i><i style="background:#FEF3C7"></i></div>
+      <div class="phone now-look"></div>
+    </div>
+    <div class="col">
+      <div class="name">A · Saffron (warm)</div>
+      <div class="why">Warm like a hill sunrise or a ripe apricot; strong next to green. Close to gold, so warnings must stay clearly yellow.</div>
+      <div class="sw"><i style="background:#1B7A3A"></i><i style="background:#E8791D"></i><i style="background:#FFEDD5"></i></div>
+      <div class="phone saffron"></div>
+    </div>
+    <div class="col">
+      <div class="name">B · Himalayan sky (cool)</div>
+      <div class="why">Fresh and calm, never confused with a warning; ties in with the weather screen's sky header. Most readable (8.4 : 1).</div>
+      <div class="sw"><i style="background:#1B7A3A"></i><i style="background:#2B7BD8"></i><i style="background:#DCEBFB"></i></div>
+      <div class="phone sky"></div>
+    </div>
+    <div class="col">
+      <div class="name">C · Apple blossom (fruit)</div>
+      <div class="why">The orchard's own pink: friendly and unlike any other farm app. Pink must stay away from red, so alerts keep their icon.</div>
+      <div class="sw"><i style="background:#1B7A3A"></i><i style="background:#D9467A"></i><i style="background:#FCE4EE"></i></div>
+      <div class="phone blossom"></div>
+    </div>
+  </div>
+
+  <h2>The rules that come with it</h2>
+  <div class="rules">
+    <div class="rule"><b>Green = do something</b>Buttons, links, the selected tab, "done" and "good".</div>
+    <div class="rule"><b>Accent = new or due now</b>"Do now", new stories, the calendar, record-work icons, the stage marker. Fill colour only for icons, dots and rings; text in the darker accent.</div>
+    <div class="rule"><b>Gold and red = careful</b>Gold for warnings (frost, rain soon, proposed ban), red for danger and errors. Never used for "do now" any more.</div>
+    <div class="rule"><b>Contrast</b>Every accent text colour reads at 5.7 : 1 or better on white, the cream page and its soft background (rule: 4.5).</div>
+  </div>
+</main>
+
+<template id="screen">
+  <div class="top"><div class="place"><b>●</b> Gumma Orchard · 5,000 ft ▾</div><div class="hello">Namaste, Tarun</div></div>
+  <div class="body">
+    <div>
+      <div class="label">What other farmers are doing</div>
+      <div class="stories"><div><div class="ring add">+</div><div class="sl">Add work</div></div><div><div class="ring new">N</div><div class="sl">Nikhil</div></div><div><div class="ring new">R</div><div class="sl">Ramesh</div></div></div>
+    </div>
+    <div class="hero">
+      <div class="top-row"><div><div class="small">Today in the orchard · Apple</div><div class="stage">Dormancy</div><div class="small">Starts in 5 days</div></div><div><div class="t">☼ 14°</div><div class="small">Clear · 22° / 8°</div></div></div>
+      <div class="job"><span class="pill p-now">Do now</span><div class="what">Collar rot: paint the wounds in winter</div>
+        <div class="btns"><div class="btn bw">Record spray</div><div class="btn bl">Not doing this</div></div></div>
+    </div>
+    <div class="tiles">
+      <div class="tile"><div class="k"><span class="ic">◆</span> Spray plan</div><div class="v">Protected</div><div class="dots"><i style="background:#3CB371"></i><i style="background:#8E8E93"></i></div></div>
+      <div class="tile"><div class="k"><span class="ic">▦</span> Season calendar</div><div class="v acc">1 job coming up</div><div class="label" style="font-weight:400">Manure, phosphorus…</div></div>
+    </div>
+    <div class="chips"><span class="chip"><span class="ic">●</span> Spray</span><span class="chip"><span class="ic">✂</span> Pruning</span><span class="chip"><span class="ic">❀</span> Manure</span></div>
+    <div class="card"><span class="pill p-warn">Frost likely: a low of 1° tonight</span><span class="pill p-red">Proposed ban</span></div>
+    <div class="card"><div class="what">Nikhil chauhan · Manure / fertiliser</div><div class="acts"><span class="on">👍 1</span><span class="on">↻ 1</span><span>☆</span><span>💬 0</span></div></div>
+  </div>
+  <div class="tabs"><span class="on"><span class="pill-on">⌂</span>Home</span><span>♣<br>My Orchard</span><span>▤<br>Shop</span><span>▥<br>Knowledge</span><span>☺<br>Account</span></div>
+</template>
+<script>
+  // The same screen in every phone; only the accent class differs.
+  const screen = document.getElementById('screen').innerHTML;
+  document.querySelectorAll('.phone').forEach((phone) => { phone.innerHTML = screen; });
+</script>
+</main>
+</body>
+</html>
