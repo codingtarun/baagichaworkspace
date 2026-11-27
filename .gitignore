@@ -2,6 +2,7 @@
 baagicha_php/
 baagicha_mobile/
 old_apps/
+fruit-image-prompts/
 
 # The web folder copy for Hostinger (made by baagicha_php/bin/public-html.sh)
 public_html/
